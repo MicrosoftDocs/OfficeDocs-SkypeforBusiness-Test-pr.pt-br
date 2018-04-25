@@ -1,0 +1,51 @@
+﻿---
+title: 'Lync Server 2013: Decisões de planejamento inicial'
+TOCTitle: Decisões de planejamento inicial
+ms:assetid: cbaa5cb3-2b00-4b9f-952d-986a0c9f160b
+ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398855(v=OCS.15)
+ms:contentKeyID: 49308126
+ms.date: 05/19/2016
+mtps_version: v=OCS.15
+ms.translationtype: HT
+---
+
+# Decisões de planejamento inicial para Lync Server 2013
+
+ 
+
+_**Tópico modificado em:** 2012-10-01_
+
+A primeira parte do processo de planejamento é decidir quais cargas de trabalho e recursos principais do Lync Server você deseja para a sua organização.
+
+1.  **Você deseja uma implantação local ou online?**   O Lync Server suporta ambos os cenários de implantação. Para obter mais informações sobre a tomada desta decisão, consulte [Decidindo como implantar o Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md), posteriormente nesta seção
+
+2.  **Você deseja uma topologia física ou virtualizada?**   O Lync Server suporta todas as cargas de trabalho e funções de servidor nas topologias físicas e virtualizadas. A capacidade de usuário e escalabilidade podem diferir entre topologias virtuais e físicas. Para obter mais informações, consulte [Servidores virtuais executando o Lync Server](lync-server-2013-running-lync-server-on-virtual-servers.md).
+
+3.  **Mensagem instantânea *(IM)* e *presença* estão sempre habilitadas.**   Em qualquer implantação do Lync Server, a carga de trabalho de IM e presença é instalada e habilitada por padrão. IM permite que seus usuários se comuniquem com mensagens de texto em tempo real e a presença permite que eles vejam o status de outros usuários na rede. O status de presença de um usuário fornece informações para ajudar os outros a decidir se devem tentar entrar em contato com o usuário e por qual meio. Para obter detalhes, consulte [Planejamento de Servidores Front-End, sistema de mensagens instantâneas e presença no Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md) na documentação Planejamento.
+
+4.  **Você deseja implantar algum modo de conferência?**   Conferência é outro recurso importante do Lync Server. Há suporte para diversos modos de conferência. Você pode escolher implantar todos os tipos suportados de conferência ou apenas alguns deles. *Webconferência* permite que os usuários vejam um arquivo, como um conjunto de slides criado com o programa de gráficos de apresentação Microsoft PowerPoint, que está sendo apresentado. *Compartilhamento de aplicativo* permite que os usuários compartilhem toda ou parte de suas áreas de trabalho com outros usuários em tempo real. Com a *Conferência de A/V* , os usuários podem adicionar áudio (e possivelmente vídeo) às suas conferências e comunicações ponto a ponto. *Conferência discada* permite que os usuários usem telefones PSTN padrão para participar da parte de áudio das conferências realizadas em sua organização. Para obter detalhes, consulte [Planejamento de conferência no Lync Server 2013](lync-server-2013-planning-for-conferencing.md) na documentação Planejamento.
+    
+    No Lync Server 2013, se você implantar uma conferência da Web, também deve planejar a integração com o servidor do Office Web Apps para habilitar o compartilhamento do Powerpoint e exibição em reuniões. Para obter mais informações, consulte [Configurando a integração com servidor de Office Web Apps e Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+
+5.  **Se você implantar uma conferência A/V, também deve monitorar a qualidade de áudio destas conferências.**   Vários fatores afetam a qualidade de áudio e vídeo das conferências A/V do Lync Server. Usando o Monitoramento, é possível monitorar a qualidade A/V das suas chamadas e conferências. É possível detectar problemas que afetam a qualidade de mídia e garantir que seus usuários tenham a melhor experiência de mídia possível. Para obter mais informações, consulte [Planejamento de monitoramento no Lync Server 2013](lync-server-2013-planning-for-monitoring.md).
+
+6.  **Você deseja alta disponibilidade para seus servidores de IM, presença e conferência?**   Se você possui apenas um servidor no site oferecendo recursos de IM, presença e conferência, a produtividade do seus usuários será muito afetada se este servidor cair. Implantando um Enterprise Edition*pool* de pelo menos três servidores para estas funções, você torna possível o Lync Server continuar a funcionar com todos estes recursos intactos mesmo se um servidor estiver indisponível.
+    
+    Outra opção para organizações com 5.000 ou menos usuários que desejam alta disponibilidade, é implantar dois servidores executando o Lync ServerStandard Edition e emparelhar estes servidores. Para obter mais informações, consulte [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+7.  **Você deseja opções de recuperação de desastres?**   Se você possui dois centros de dados e deseja opções de recuperação de desastres para habilitar seus usuários a continuarem a trabalhar se todos ou vários servidores em um centro de dados cair, é possível implantar seus servidores com a recuperação de desastres em mente. Para esta implantação, você emparelha um pool de servidores em um centro de dados com um pool correspondente em outro centro de dados. Se um centro de dados cair, o outro pool no par pode realizar serviços dos usuários em ambos os pools com a mínima interrupção dos serviços. Para obter mais informações, consulte [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+8.  **Você deseja habilitar seus usuários a se comunicarem e colaborarem com usuários externos?**   Habilitar comunicações e colaboração com usuários externos aumenta seu retorno sobre investimento no Lync Server. Isto permite que os usuários da sua organização se beneficiem dos recursos do Lync Server mesmo quando estiverem trabalhando fora do firewall da organização. Também é possível federar seu parceiro ou organizações do cliente que executam o Lync Server. Ao fazer isso, seus usuários e parceiros federados podem facilmente enviar e receber mensagens de IM, convidar uns aos outros para reuniões e ver a presença uns dos outros. Além disso, seus usuários podem utilizar uma mensagem de email para convidar usuários externos específicos às conferências que realizam. Para obter mais informações, consulte [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+
+9.  **Você deseja implantar o Enterprise Voice?**    *Enterprise Voice* é a solução VoIP (voz sobre IP) fornecida pelo Lync Server. Ele fornece uma alternativa atraente para a telefonia tradicional baseada em PBX. O Enterprise Voice permite que os usuários façam chamadas de seus computadores ou telefones VoIP clicando em um contato no Outlook ou no Lync Server. Eles podem fazer chamadas sobre a rede IP de computador para computador, computador para telefone ou telefone para computador. Os usuários se beneficiam em ter todas suas opções de comunicação, voz, email, IM e conferência, disponíveis e integradas em seus computadores. Para obter detalhes, consulte [Planejamento para Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) na documentação Planejamento.
+
+10. **Se você implantar o Enterprise Voice, deve também monitorar a qualidade de áudio destas chamadas.**   Recomendamos usar o Monitoramento para garantir a qualidade de áudio das suas chamadas do Enterprise Voice, se implantar o Enterprise Voice. Para obter mais informações, consulte [Planejamento de monitoramento no Lync Server 2013](lync-server-2013-planning-for-monitoring.md).
+
+11. **Você precisar arquivar conteúdo de IM ou de reunião para fins de conformidade?**   Se sua organização precisa arquivar conteúdo de IM e reunião para fins de conformidade, é possível implantar o Arquivamento. Para obter mais informações, consulte [Planejando Arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md).
+
+12. **Deseja implantar o Chat persistente?**   Se você deseja habilitar seus usuários com conversas em tempo real que persistem durante o tempo, é possível implantar o Chat persistente. Para obter mais informações, consulte [Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).
+
+13. **Deseja ter o Microsoft Exchange implantado?**   Se sua organização utiliza o Microsoft Exchange Server para seus serviços de email, é possível habilitar vários recursos que melhoram a utilidade do Lync Server e Microsoft Exchange Server. Alguns destes recursos, chamados Unificação de Mensagens (UM) do Exchange, incluem habilitar usuários a receberem avisos de caixa postal e ouvir caixa postal no Outlook ou Outlook Web Access, para acessar sua caixa de correio do Microsoft Exchange usando um telefone e receber fax em suas caixas de correio do Microsoft Exchange. Além disso, se você possui o Exchange 2013 implantado, é possível integrar os repositórios de contato para usuários entre os dois sistemas, usar o Exchange para armazenar fotos de contato em alta resolução e integrar o arquivamento de emails e mensagens instantâneas. Para obter mais informações, consulte [Planejamento da integração com o servidor Exchange com Lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md).
+
+14. **Você possui filiais em sua organização?**   Se sua organização possui filiais, o Lync Server suporta uma variedade de formas de suportá-las e garantir sua resiliência para voz e outros recursos. Em particular, em uma filial que não possui um link WAN resiliente para um centro de dados, é possível instalar um Aparelho de Filial Persistente ou um Servidor de Filial Persistente para manter o suporte do Enterprise Voice caso um link WAN cair. Para obter mais informações, consulte [Planejamento de resiliência de voz no site da filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+
