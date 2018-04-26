@@ -24,7 +24,7 @@ To configure user profiles, run the Lync Server 2013 Load Configuration Tool (Us
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/JJ945587.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
+<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
 </tr>
 </thead>
 <tbody>

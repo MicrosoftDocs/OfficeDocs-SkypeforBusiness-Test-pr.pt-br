@@ -24,7 +24,7 @@ To install the Lync Server 2013, Ferramentas do Resource Kit, download **Persist
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/JJ945587.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
+<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
 </tr>
 </thead>
 <tbody>
