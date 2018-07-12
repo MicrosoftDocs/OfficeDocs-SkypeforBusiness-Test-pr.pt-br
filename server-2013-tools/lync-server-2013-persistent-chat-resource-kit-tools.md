@@ -73,6 +73,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
 
 **AffCheck.exe.config:**
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -105,6 +106,7 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
+```
 
 ## ChatMonitoringSummary
 
@@ -137,7 +139,7 @@ These parameters define the selection of data:
 ## Example
 
 ```Batch
-  C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
+   C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
     Gathering Persistent Chat Session Summary information between "1/1/1753 12:00:00 AM" and "11/19/2012 10:11:25 AM" for Persistent Chat Endpoint Uri "persistentChatEndpointUri@domain.com"...
@@ -305,6 +307,7 @@ ChatUsageReport -RoomsInactiveSince 06-20-2010
 
 ChatUsageReport.exe.config:
 
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <connectionStrings>
@@ -323,6 +326,7 @@ ChatUsageReport.exe.config:
         <add key="RoomsInactiveSince" value="01/01/0001"/>
       </appSettings>
     </configuration></configuration>
+```
 
 ## ScheduleADSyncForPrincipal
 
