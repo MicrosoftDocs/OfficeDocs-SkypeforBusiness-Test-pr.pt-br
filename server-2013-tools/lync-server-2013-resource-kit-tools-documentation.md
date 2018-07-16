@@ -237,7 +237,7 @@ O Analisador de Utilização da Largura de Banda possui os dois aplicativos (fer
 
   - **WanLinkLogCollector.exe**   Esta ferramenta permite ao usuário inserir as informações necessárias.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  Uma planilha de relatório de software é iniciada automaticamente pelo WanLinkLogCollector.exe. Este aplicativo permite ao usuário aplicar filtros no relatório, como será mostrado posteriormente neste artigo.
+  - **BandwidthUtilizationAnalyzer.xlsm**  Uma planilha de relatório de software é iniciada automaticamente pelo WanLinkLogCollector.exe. Este aplicativo permite ao usuário aplicar filtros no relatório, como será mostrado posteriormente neste artigo.
 
 ## Fases de uso do Analisador de Utilização da Largura de Banda
 
@@ -273,7 +273,7 @@ Há três etapas para usar o WanLinkLogCollector.exe:
 
 2.  **Especificar os diretórios do arquivo**   Forneça as informações de localização do arquivo
 
-3.  **Coletar os logs e iniciar o visualizador de relatórios **  Execute o comando para gerar o relatório
+3.  **Coletar os logs e iniciar o visualizador de relatórios**  Execute o comando para gerar o relatório
 
 ## Etapa 1 - Log da linha do tempo
 
@@ -291,7 +291,7 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, confo
 
   - **Localização dos arquivos de log no servidor** Localização da pasta onde os logs do servidor da Política de largura de banda são armazenados. Geralmente na opção \<servidordearquivos\>\\\< do FE\>\\AppServerFiles\\PDP.
 
-  - **Localização do armazenamento do arquivo temporário ** Localização do arquivo temporário onde os arquivos intermediários serão armazenados enquanto o relatório estiver sendo gerado.
+  - **Localização do armazenamento do arquivo temporário** Localização do arquivo temporário onde os arquivos intermediários serão armazenados enquanto o relatório estiver sendo gerado.
 
 ![Arquivos de diretórios na Análise da Utilização da Largura de Banda](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Arquivos de diretórios na Análise da Utilização da Largura de Banda")
 
@@ -597,7 +597,7 @@ O DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a
 
   - **Decodificar ID de reunião**  Decodifica a ID de reunião de uma rede telefônica pública comutada (PSTN) especificada pelo switch **/pstnid** mas não se conecta ao ponto de extremidade para informações detalhadas.
 
-  - **Resolução de conferência**   Decodifica uma ID de PSTN especificada pelo switch**/pstnid** e exibe as informações sobre a conferência indicada pela ID.
+  - **Resolução de conferência**   Decodifica uma ID de PSTN especificada pelo switch<strong>/pstnid</strong> e exibe as informações sobre a conferência indicada pela ID.
 
   - **Modo das MCUs**  Informa a ID, tipo de mídia, URL,status da pulsação, carga de conferência e carga de participante de cada MCU no pool.
 
