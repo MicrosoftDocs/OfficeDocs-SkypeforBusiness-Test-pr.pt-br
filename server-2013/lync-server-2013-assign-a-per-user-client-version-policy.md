@@ -101,7 +101,7 @@ Também é possível atribuir políticas de versão do cliente específicas do u
 
 ## Para atribuir uma política de versão do cliente específica do usuário a vários usuários
 
-  - Este comando atribui a política de versão do cliente RedmondClientVersionPolicy a todos os usuários aos quais a política de voz RedmondVoicePolicy tiver sido anteriormente atribuída. Para obter mais informações sobre os parâmetros de filtro usados neste comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de versão do cliente RedmondClientVersionPolicy a todos os usuários aos quais a política de voz RedmondVoicePolicy tiver sido anteriormente atribuída. Para obter mais informações sobre os parâmetros de filtro usados neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -111,7 +111,7 @@ Também é possível atribuir políticas de versão do cliente específicas do u
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Consulte Também
 

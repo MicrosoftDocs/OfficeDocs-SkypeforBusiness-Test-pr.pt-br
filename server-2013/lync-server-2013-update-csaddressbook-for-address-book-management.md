@@ -47,5 +47,5 @@ Para uma descrição detalhada do comando completo, consulte o seguinte na refer
 
 #### Outros Recursos
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

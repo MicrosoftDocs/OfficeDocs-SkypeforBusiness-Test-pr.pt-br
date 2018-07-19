@@ -67,7 +67,7 @@ Use o procedimento a seguir para definir as configurações de limpeza de dados 
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet do [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet do [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## Consulte Também
 

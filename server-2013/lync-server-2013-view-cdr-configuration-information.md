@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 O CDR (registro de detalhes de chamadas) permite rastrear o uso de aspectos como as sessões de mensagens instantâneas ponto a ponto, chamadas de telefone VoIP e chamadas de conferência. Esses dados de uso incluem informações os usuários envolvidos na chamadas, o horário e o período da chamada.
 
-Quando você instala o Microsoft Lync Server 2013, um conjunto global e exclusivo de configurações de CDR é criado para você. Os administradores também têm a opção de criar conjuntos de configurações personalizadas que podem ser aplicadas a sites individuais. Você pode visualizar as configurações de CDR usadas pela organização usando o Painel de Controle do Lync Server ou o cmdlet [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Quando você instala o Microsoft Lync Server 2013, um conjunto global e exclusivo de configurações de CDR é criado para você. Os administradores também têm a opção de criar conjuntos de configurações personalizadas que podem ser aplicadas a sites individuais. Você pode visualizar as configurações de CDR usadas pela organização usando o Painel de Controle do Lync Server ou o cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 
 ## Para visualizar informações de configuração de CDR usando o Painel de Controle do Lync Server
 
@@ -44,5 +44,5 @@ Você também pode visualizar configurações de CDR usando o Shell de Gerenciam
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 

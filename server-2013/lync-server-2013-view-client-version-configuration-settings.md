@@ -58,5 +58,5 @@ Você pode visualizar as configurações de versão de cliente usando o cmdlet *
         DefaultURL    :
         Enabled       : True
 
-Para detalhes, consulte o tópico Ajuda para o cmdlet [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md).
+Para detalhes, consulte o tópico Ajuda para o cmdlet [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
 

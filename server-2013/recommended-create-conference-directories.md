@@ -39,5 +39,5 @@ Criar vários diretórios de conferência garantirá que os IDs de conferência 
 
 #### Outros Recursos
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

@@ -43,7 +43,7 @@ Notificações por push, na forma de selos, ícones ou alertas, podem ser enviad
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 ## Consulte Também
 

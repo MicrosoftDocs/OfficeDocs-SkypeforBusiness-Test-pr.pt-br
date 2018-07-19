@@ -89,7 +89,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>A política de acesso externo global é aplicada ao Aplicativo Grupo de Resposta. É possível configurar a política global para federação do grupo de resposta usando o Painel de Controle do Lync Server ou o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess para True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre as configurações de federação, consulte <a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>.</td>
+    <td>A política de acesso externo global é aplicada ao Aplicativo Grupo de Resposta. É possível configurar a política global para federação do grupo de resposta usando o Painel de Controle do Lync Server ou o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess para True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre as configurações de federação, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -431,7 +431,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Para usar um arquivo de áudio no prompt, use o cmdlet <strong>Import-CsRgsAudioFile</strong>. Para obter detalhes, consulte <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Para usar um arquivo de áudio no prompt, use o cmdlet <strong>Import-CsRgsAudioFile</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -441,7 +441,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Para detalhes sobre como criar filas, consulte [New-CsRgsQueue](new-csrgsqueue.md).
+    Para detalhes sobre como criar filas, consulte [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Defina a ação padrão a ser realizada quando um fluxo de trabalho é aberto durante o horário comercial e salve-o em uma variável. Na linha de comando, execute:
     
@@ -466,7 +466,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 6.  Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) e [(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Se você deseja ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser realizada após o prompt. Para obter detalhes, consulte [New-CsRgsPrompt](new-csrgsprompt.md) e [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Se você deseja ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser realizada após o prompt. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) e [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Recuperar o nome do serviço para o Serviço Grupo de Resposta do Lync Server e atribui-lo para uma variável. No comando, execute:
     
@@ -501,7 +501,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Para obter detalhes sobre parâmetros opcionais adicionais, consulte <a href="new-csrgsworkflow.md">New-CsRgsWorkflow</a> ou <a href="set-csrgsworkflow.md">Set-CsRgsWorkflow</a></td>
+    <td>Para obter detalhes sobre parâmetros opcionais adicionais, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a> ou <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a></td>
     </tr>
     </tbody>
     </table>
@@ -519,8 +519,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 #### Outros Recursos
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

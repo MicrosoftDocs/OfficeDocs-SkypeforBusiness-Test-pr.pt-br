@@ -73,7 +73,7 @@ As políticas de voz por usuário podem ser também atribuídas usando o Windows
 
 ## Atribuição de política de voz por usuário a vários usuários
 
-  - Esse comando atribui a política de voz por usuário FinanceVoicePolicy a todos os usuários que tenham contas no OU de finanças no Active Directory. Para obter mais informações sobre o parâmetro OU usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Esse comando atribui a política de voz por usuário FinanceVoicePolicy a todos os usuários que tenham contas no OU de finanças no Active Directory. Para obter mais informações sobre o parâmetro OU usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -83,7 +83,7 @@ As políticas de voz por usuário podem ser também atribuídas usando o Windows
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Consulte Também
 

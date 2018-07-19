@@ -39,5 +39,5 @@ Os arquivos da atualização de dispositivo que não estão mais associados a um
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
-Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Clear-CsDeviceUpdateFile](clear-csdeviceupdatefile.md).
+Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile).
 

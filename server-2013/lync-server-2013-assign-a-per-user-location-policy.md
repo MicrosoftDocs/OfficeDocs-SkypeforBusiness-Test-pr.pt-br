@@ -103,7 +103,7 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
 
 ## Para atribuir uma política de local por usuário a vários usuários
 
-  - Este comando atribui a política de local por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham no departamento contábil. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de local por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham no departamento contábil. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -113,5 +113,5 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

@@ -124,5 +124,5 @@ Em seguira, restaure o pool ao seu estado normal executando o seguinte comando W
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Consulte o tópico de ajuda sobre o cmdlet [Set-CsPersistentChatState](set-cspersistentchatstate.md) para obter mais informações.
+Consulte o tópico de ajuda sobre o cmdlet [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState) para obter mais informações.
 

@@ -53,9 +53,9 @@ O administrador deve definir permissões no compartilhamento de arquivos para qu
 
 Você pode usar as configurações a seguir para gerenciar como o conteúdo será armazenado para uma reunião:
 
-  - **ContentGracePeriod**, localizada em [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), define por quanto tempo o conteúdo da webconferência permanecerá no servidor depois do término da reunião.
+  - **ContentGracePeriod**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define por quanto tempo o conteúdo da webconferência permanecerá no servidor depois do término da reunião.
 
-  - **MaxContentStorageMb**, localizada em [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), define o volume máximo de espaço para arquivo permitido para o armazenamento de conteúdo durante uma única reunião.
+  - **MaxContentStorageMb**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define o volume máximo de espaço para arquivo permitido para o armazenamento de conteúdo durante uma única reunião.
 
 **MaxUploadFileSizeMb** não limita a configuração do carregamento de arquivos para o Lync Web App. O limite de tamanho para o carregamento de arquivos para o Lync Web App está definido como aproximadamente 30MB e é controlado pelo arquivo web.config do IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Para configurar o limite de tamanho para o carregamento de arquivos para o Lync Web App, atualize as opções `maxRequestLength` e `maxAllowedContentLength` no arquivo web.config, conforme exibido abaixo.
 

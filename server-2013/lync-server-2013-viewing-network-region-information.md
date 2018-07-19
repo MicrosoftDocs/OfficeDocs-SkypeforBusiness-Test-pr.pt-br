@@ -63,7 +63,7 @@ Você pode visualizar as informações de regiões de rede usando o Windows Powe
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkRegion](get-csnetworkregion.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Consulte Também
 

@@ -49,5 +49,5 @@ As configurações de reunião podem ser excluídas usando o Windows PowerShell 
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration).
 

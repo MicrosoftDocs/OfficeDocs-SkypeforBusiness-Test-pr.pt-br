@@ -248,7 +248,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
     
         Set-CsAccessEdgeConfiguration
     
-    Para obter mais informações sobre esses cmdlets, consulte os seguintes tópicos: [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) e [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md).
+    Para obter mais informações sobre esses cmdlets, consulte os seguintes tópicos: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) e [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
 
 4.  Aguarde até a conclusão da replicação para ativar os servidores de Borda do Lync Server 2013 e testar o acesso externo e de federação.
 

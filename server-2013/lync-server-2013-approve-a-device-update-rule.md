@@ -61,7 +61,7 @@ Regras de atualização de dispositivo também podem ser aprovadas pelo uso de W
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-Para detalhes, veja o tópico Ajuda para o cmdlet [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md).
+Para detalhes, veja o tópico Ajuda para o cmdlet [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule).
 
 ## Consulte Também
 

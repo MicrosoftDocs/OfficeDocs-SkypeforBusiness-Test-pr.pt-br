@@ -272,7 +272,7 @@ Você pode usar alguns bits de sinalizadores para definir um filtro a ser usado 
 
 
 > [!WARNING]
-> Para obter informações sobre como filtrar o Catálogo de Endereços, consulte <A href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets do servidor de catálogo de endereços</A> e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</A>
+> Para obter informações sobre como filtrar o Catálogo de Endereços, consulte <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets do servidor de catálogo de endereços</A> e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</A>
 
 
 

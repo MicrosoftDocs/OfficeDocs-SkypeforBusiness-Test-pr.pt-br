@@ -25,13 +25,13 @@ Para ativar o Exchange 2013 do Outlook Web Access (OWA) e a integração de mens
     
         Get-CsSite
     
-    Isso retorna o siteID para o siteName o qual você está criando o pool. Para detalhes, consulte [Get-CsSite](get-cssite.md) na documentação Shell de Gerenciamento do Lync Server 2013.
+    Isso retorna o siteID para o siteName o qual você está criando o pool. Para detalhes, consulte [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) na documentação Shell de Gerenciamento do Lync Server 2013.
 
 3.  Execute o seguinte cmdlet:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Para obter detalhes, consulte [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) na documentação do Shell de Gerenciamento do Lync Server 2013.
+    Para obter detalhes, consulte [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) na documentação do Shell de Gerenciamento do Lync Server 2013.
     
     O Exchange Server FQDN deve ser configurado como o certificado Exchange OWA do Nome da Entidade (SN) ou Nome Alternativo de Entidade (SAN).
     
@@ -69,7 +69,7 @@ Para ativar o Exchange 2013 do Outlook Web Access (OWA) e a integração de mens
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Para detalhes, consulte o tópico [New-CsTrustedApplication](new-cstrustedapplication.md) na documentação Shell de Gerenciamento do Lync Server 2013.
+    Para detalhes, consulte o tópico [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) na documentação Shell de Gerenciamento do Lync Server 2013.
 
 3.  Execute **Enable-CsTopology**.
 

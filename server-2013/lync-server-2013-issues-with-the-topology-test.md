@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-21_
 
 Como o cmdlet **Test-CsTopology**, o Analisador de Prática Recomendada oferece uma forma de verificar se o Lync Server 2013 está funcionando corretamente em um nível global. Por padrão, o Analisador de Prática Recomendada, como o cmdlet, verifica toda a sua infraestrutura do Lync Server 2013, verificando se os serviços necessários estão em execução e se as permissões apropriadas foram definidas para estes serviços e para os grupos de segurança universal criados quando você instalou o Lync Server 2013.
 
-Além de verificar a validade de Lync Server como um todo, **Test-CsTopology** também verifica a valididade de um serviço específico. Para detalhes sobre como usar o cmdlet para testar serviços específicos, consulte a documentação [Test-CsTopology](test-cstopology.md) in the Shell de Gerenciamento do Lync Server. Use as informações a seguir para ajudar a resolver problemas com sua topologia.
+Além de verificar a validade de Lync Server como um todo, **Test-CsTopology** também verifica a valididade de um serviço específico. Para detalhes sobre como usar o cmdlet para testar serviços específicos, consulte a documentação [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology) in the Shell de Gerenciamento do Lync Server. Use as informações a seguir para ajudar a resolver problemas com sua topologia.
 
 <table>
 <thead>

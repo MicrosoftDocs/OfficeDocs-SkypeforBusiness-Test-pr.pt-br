@@ -103,7 +103,7 @@ As políticas de conferência por usuário também podem ser atribuídas usando 
 
 ## Atribuindo uma política de conferência por usuário a vários usuários
 
-  - Este comando atribui a política de conferência por usuário HRConferencingPolicy a todos os usuários que trabalham para o departamento de Recursos Humanos. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de conferência por usuário HRConferencingPolicy a todos os usuários que trabalham para o departamento de Recursos Humanos. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -113,7 +113,7 @@ As políticas de conferência por usuário também podem ser atribuídas usando 
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Consulte Também
 

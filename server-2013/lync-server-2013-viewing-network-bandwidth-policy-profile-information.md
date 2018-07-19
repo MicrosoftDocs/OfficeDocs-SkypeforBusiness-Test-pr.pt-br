@@ -49,7 +49,7 @@ Os perfis de largura de banda da rede também podem ser exibidos usando o Lync S
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Para obter mais informações, consulte o tópico do cmdlet [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md).
+Para obter mais informações, consulte o tópico do cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ## Consulte Também
 

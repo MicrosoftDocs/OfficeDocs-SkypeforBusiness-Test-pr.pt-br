@@ -91,7 +91,7 @@ Se você definiu o valor de **UseNormalizationRules** como Falso, para que os us
     
       - Se sua implantação incluir uma combinação de Lync Server 2013 e Lync Server 2010 ou Office Communications Server 2007 R2, execute o cmdlet a seguir e atribua-o a cada pool do Lync Server 2013 na topologia:
         
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Espere para que a replicação de Repositório de Gerenciamento Central ocorra em todos os pools.
 

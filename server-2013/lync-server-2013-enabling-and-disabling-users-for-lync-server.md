@@ -30,6 +30,6 @@ Você pode habilitar, desabilitar temporariamente ou remover usuários do Active
 #### Outros Recursos
 
 [Gerenciando usuários no Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-CsUser](enable-csuser.md)  
-[Disable-CsUser](disable-csuser.md)
+[Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)  
+[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
 

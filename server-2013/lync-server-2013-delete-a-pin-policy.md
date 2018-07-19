@@ -67,5 +67,5 @@ Você pode excluir políticas de PIN usando Windows PowerShell e o cmdlet Remove
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Para mais informações, veja o tópico de ajuda para [Remove-CsPinPolicy](remove-cspinpolicy.md) cmdlet.
+Para mais informações, veja o tópico de ajuda para [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy) cmdlet.
 

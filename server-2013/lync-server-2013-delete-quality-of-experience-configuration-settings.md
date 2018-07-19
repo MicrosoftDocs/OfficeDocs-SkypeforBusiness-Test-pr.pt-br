@@ -21,7 +21,7 @@ Ao instalar Microsoft Lync Server 2013, um conjunto único e global de definiç�
 
 Observe que você também pode “excluir” as definições globais. Contudo, elas não serão realmente removidas. Em vez disso, todas as propriedades naquele conjunto serão redefinidas de acordo com os valores padrão. Por exemplo, por padrão, a exclusão é habilitada em um conjunto de configurações de QoE. Digamos que você modifique o conjunto global para que a exclusão seja desabilitada. Se depois você resolver apagar as definições globais, todas as propriedades serão redefinidas para os valores padrão. Nesse caso, isso significa que a exclusão será habilitada novamente.
 
-Você pode remover as definições de configuração de QoE usando Painel de Controle do Lync Server ou o cmdlet [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Você pode remover as definições de configuração de QoE usando Painel de Controle do Lync Server ou o cmdlet [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 
 ## Para excluir as definições de configuração de QoE usando Painel de Controle do Lync Server
 
@@ -57,5 +57,5 @@ Você também pode excluir as definições de configuração de QoE usando os cm
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-Para detalhes, consulte [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Para detalhes, consulte [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 

@@ -62,6 +62,6 @@ Os requisitos de certificado para ativar e estabelecer comunicações com mensag
 #### Outros Recursos
 
 [Configurar certificados de Borda para Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](request-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

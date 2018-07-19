@@ -25,9 +25,9 @@ Para oferecer recursos de caixa postal aos usuários do Lync Server 2013 no Unif
 
 Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server sobre os seguintes cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 <table>
 <thead>
@@ -112,5 +112,5 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
 
 #### Outros Recursos
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

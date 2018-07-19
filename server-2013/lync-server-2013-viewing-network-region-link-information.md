@@ -61,7 +61,7 @@ Você também pode visualizar links de região de rede usando Shell de Gerenciam
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Para detalhes, consulte [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Para detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Consulte Também
 

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2015-06-22_
 
-Muitos dos cmdlets do Windows PowerShell usados para gerenciar o Skype for Business Online exigem que você seja muito específico sobre o item que você está tentando gerenciar. Por exemplo, quando você executa o cmdlet [Set-CsUserAcp](set-csuseracp.md), deve indicar qual usuário você está tentando gerenciar. Isso faz sentido. A menos que você diga especificamente ao cmdlet qual conta de usuário gerenciar, o cmdlet **Set-CsUserAcp** não tem ideia de qual informação de audioconferência do usuário deve ser modificada. Por esse motivo, cada vez que você executar o cmdlet **Set-CsUserAcp**, precisará incluir o parâmetro Identity, seguido da Identidade da conta do usuário a ser modificada:
+Muitos dos cmdlets do Windows PowerShell usados para gerenciar o Skype for Business Online exigem que você seja muito específico sobre o item que você está tentando gerenciar. Por exemplo, quando você executa o cmdlet [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), deve indicar qual usuário você está tentando gerenciar. Isso faz sentido. A menos que você diga especificamente ao cmdlet qual conta de usuário gerenciar, o cmdlet **Set-CsUserAcp** não tem ideia de qual informação de audioconferência do usuário deve ser modificada. Por esse motivo, cada vez que você executar o cmdlet **Set-CsUserAcp**, precisará incluir o parâmetro Identity, seguido da Identidade da conta do usuário a ser modificada:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,7 +67,7 @@ Você pode também ter dois usuários: João Casqueiro e Paula Bento. João Casq
 
 Como você pode ver, João Casqueiro tem permissão para se comunicar com provedores públicos de mensagens instantâneas porque as configurações da política por usuário atribuída a ele substituem as configurações da política global. Paula Bento não pode se comunicar com provedores públicos de mensagens instantâneas porque é gerenciada pela política global, que proíbe tais comunicações.
 
-As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
+As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
 
     Identity : tag:AllowPublicIMCommunication
 

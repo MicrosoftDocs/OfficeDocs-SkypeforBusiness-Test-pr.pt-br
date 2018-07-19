@@ -146,7 +146,7 @@ Não é necessário instalar nós do inspetor para usar o System Center Operatio
 </thead>
 <tbody>
 <tr class="odd">
-<td>Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os diversos cmdlets Test-Cs, consulte o <a href="lync-server-2013-cmdlets-index.md">Índice de cmdlets do Lync Server 2013</a>.</td>
+<td>Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os diversos cmdlets Test-Cs, consulte o <a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Índice de cmdlets do Lync Server 2013</a>.</td>
 </tr>
 </tbody>
 </table>

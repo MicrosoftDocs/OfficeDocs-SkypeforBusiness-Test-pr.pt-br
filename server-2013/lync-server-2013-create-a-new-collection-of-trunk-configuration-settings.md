@@ -60,7 +60,7 @@ Ao criar definições de configuração de tronco SIP usando Painel de Controle 
 <tr class="even">
 <td><p>Nível de suporte de criptografia</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica o nível de suporte para proteger o tráfego de mídia entre o Servidor de Mediação e o Gateway da PSTN, IP-PBX ou SBC no provedor do serviço. Nos casos de desvio de mídia, este valor deve ser compatível com a definição EncryptionLevel da configuração de mídia. A configuração de mídia é ajustada utilizando-se os cmdlets <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> e <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Indica o nível de suporte para proteger o tráfego de mídia entre o Servidor de Mediação e o Gateway da PSTN, IP-PBX ou SBC no provedor do serviço. Nos casos de desvio de mídia, este valor deve ser compatível com a definição EncryptionLevel da configuração de mídia. A configuração de mídia é ajustada utilizando-se os cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>Os valores permitidos são:</p>
 <ul>
 <li><p>Requeridos: criptografia do SRTP deve ser usada.</p></li>
@@ -153,7 +153,7 @@ Ao criar definições de configuração de tronco SIP usando Painel de Controle 
 </thead>
 <tbody>
 <tr class="odd">
-<td>O cmdlets Lync Server CsTrunkConfiguration suporta propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico da Ajuda do cmdlets <a href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</a> cmdlet.</td>
+<td>O cmdlets Lync Server CsTrunkConfiguration suporta propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico da Ajuda do cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a> cmdlet.</td>
 </tr>
 </tbody>
 </table>

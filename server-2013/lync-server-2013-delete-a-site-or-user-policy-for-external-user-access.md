@@ -51,5 +51,5 @@ As políticas de acesso externo podem ser excluídas utilizando os cmdlets Windo
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

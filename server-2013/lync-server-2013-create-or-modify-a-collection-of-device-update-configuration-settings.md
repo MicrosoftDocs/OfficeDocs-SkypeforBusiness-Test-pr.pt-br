@@ -52,5 +52,5 @@ As definições de configuração de dispositivo podem ser criadas (somente no e
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Para detalhes sobre como modificar configurações de dispositivo existentes, consulte o tópico Ajuda para o cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Para detalhes sobre como criar conjuntos de configurações, veja o tópico Ajuda para o cmdlet [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Para detalhes sobre como modificar configurações de dispositivo existentes, consulte o tópico Ajuda para o cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Para detalhes sobre como criar conjuntos de configurações, veja o tópico Ajuda para o cmdlet [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

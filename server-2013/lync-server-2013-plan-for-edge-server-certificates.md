@@ -45,7 +45,7 @@ Criar um certificado público único, certificar-se de ter uma chave privada de 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Introduzidos no Lync Server 2013, os certificados de teste de Autenticação de Áudio/Vídeo anteriores ao tempo de expiração do certificado atual exigem planejamento adicional. Em vez de um certificado com várias finalidades para a interface externa da Borda, será necessário dois certificados: um atribuído ao Serviço de Borda de Acesso e ao Serviço de Borda de Webconferência e um para o Serviço de Borda A/V. Para obter informações adicionais, consulte <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate</a></td>
+<td>Introduzidos no Lync Server 2013, os certificados de teste de Autenticação de Áudio/Vídeo anteriores ao tempo de expiração do certificado atual exigem planejamento adicional. Em vez de um certificado com várias finalidades para a interface externa da Borda, será necessário dois certificados: um atribuído ao Serviço de Borda de Acesso e ao Serviço de Borda de Webconferência e um para o Serviço de Borda A/V. Para obter informações adicionais, consulte <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate</a></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ Criar um certificado interno único com chave privada de exportação, copiá-lo
 
 #### Tarefas
 
-[Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Conceitos
 

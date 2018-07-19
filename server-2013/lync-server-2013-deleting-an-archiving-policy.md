@@ -65,7 +65,7 @@ As políticas de arquivamento também podem ser excluídas utilizando o Windows 
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Para mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md).
+Para mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
 
 ## Consulte Também
 

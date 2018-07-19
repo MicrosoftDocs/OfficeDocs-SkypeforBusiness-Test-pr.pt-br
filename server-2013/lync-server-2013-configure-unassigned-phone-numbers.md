@@ -27,7 +27,7 @@ Como configurar a tabela de números não atribuídos dependerá de como você d
 </thead>
 <tbody>
 <tr class="odd">
-<td>Antes de configurar a tabela de números não atribuídos, você deverá definir um ou mais comunicados ou ter configurado um Atendedor Automático do UM do Exchange. Para obter detalhes sobre a criação de comunicados, consulte <a href="lync-server-2013-create-an-announcement.md">Criar um comunicado no Lync Server 2013</a>. Para ver se você configurou o UM do Exchange, execute o cmdlet <strong>Get-CsExUmContact</strong>. Para obter detalhes, consulte <a href="get-csexumcontact.md">Get-CsExUmContact</a>.</td>
+<td>Antes de configurar a tabela de números não atribuídos, você deverá definir um ou mais comunicados ou ter configurado um Atendedor Automático do UM do Exchange. Para obter detalhes sobre a criação de comunicados, consulte <a href="lync-server-2013-create-an-announcement.md">Criar um comunicado no Lync Server 2013</a>. Para ver se você configurou o UM do Exchange, execute o cmdlet <strong>Get-CsExUmContact</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</a>.</td>
 </tr>
 </tbody>
 </table>

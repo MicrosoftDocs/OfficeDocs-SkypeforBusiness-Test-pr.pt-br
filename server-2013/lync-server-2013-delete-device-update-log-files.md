@@ -59,5 +59,5 @@ Você pode limpar os logs de atualização do dispositivo usando o Windows Power
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md). en-us
+Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog). en-us
 

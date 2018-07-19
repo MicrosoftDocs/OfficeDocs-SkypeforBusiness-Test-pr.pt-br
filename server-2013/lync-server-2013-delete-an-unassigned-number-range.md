@@ -53,7 +53,7 @@ Use um dos seguintes procedimentos para excluir um intervalo de números não at
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Para detalhes sobre mais opções, consulte <a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>.</td>
+    <td>Para detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -67,6 +67,6 @@ Use um dos seguintes procedimentos para excluir um intervalo de números não at
 
 #### Outros Recursos
 
-[Remove-CsUnassignedNumber](remove-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

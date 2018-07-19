@@ -101,7 +101,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
 
 ## Para atribuir uma política PIN por usuário a vários usuários
 
-  - O seguinte comando atribui a política PIN por usuário RedmondUsersPinPolicy para todos os usuários que trabalham na cidade de Redmond. Para obter detalhes sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](get-csuser.md).
+  - O seguinte comando atribui a política PIN por usuário RedmondUsersPinPolicy para todos os usuários que trabalham na cidade de Redmond. Para obter detalhes sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -111,7 +111,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Para obter detalhes, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Consulte Também
 

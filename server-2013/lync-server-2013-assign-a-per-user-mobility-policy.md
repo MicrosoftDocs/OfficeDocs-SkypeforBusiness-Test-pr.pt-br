@@ -95,7 +95,7 @@ A política de mobilidade é uma das configurações individuais de uma conta de
 
 ## Para atribuir uma política de mobilidade por usuário a vários usuários
 
-  - O seguinte comando atribui a política de mobilidade por usuário RedmondMobilityPolicy para todos os usuários atualmente atribuídos com a política NorthAmericaMobilityPolicy. Para obter detalhes sobre o parâmetro Filter usado neste comando, consulte [Get-CsUser](get-csuser.md).
+  - O seguinte comando atribui a política de mobilidade por usuário RedmondMobilityPolicy para todos os usuários atualmente atribuídos com a política NorthAmericaMobilityPolicy. Para obter detalhes sobre o parâmetro Filter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -105,7 +105,7 @@ A política de mobilidade é uma das configurações individuais de uma conta de
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Para obter detalhes, consulte [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Consulte Também
 

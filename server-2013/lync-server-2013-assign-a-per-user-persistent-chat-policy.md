@@ -95,7 +95,7 @@ As políticas de chat persistente por usuário também pode ser atribuídas util
 
 ## Atribuir uma política de chat persistente por usuário a vários usuários
 
-  - Este comando atribui a política de chat persistente por usuário RedmondUsersPersistentChatPolicy a todos os usuários que trabalham no departamento de TI. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação para o cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de chat persistente por usuário RedmondUsersPersistentChatPolicy a todos os usuários que trabalham no departamento de TI. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação para o cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -105,7 +105,7 @@ As políticas de chat persistente por usuário também pode ser atribuídas util
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
 
 ## Consulte Também
 

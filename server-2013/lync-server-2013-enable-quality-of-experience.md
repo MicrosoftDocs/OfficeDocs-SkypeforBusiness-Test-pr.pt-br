@@ -65,7 +65,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-Para obter detalhes, consulte [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Para obter detalhes, consulte [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Consulte Também
 

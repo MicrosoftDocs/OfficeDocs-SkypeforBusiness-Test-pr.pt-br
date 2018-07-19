@@ -61,7 +61,7 @@ Informações de sub-rede da rede também podem ser visualizadas utilizando o Ly
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Consulte Também
 

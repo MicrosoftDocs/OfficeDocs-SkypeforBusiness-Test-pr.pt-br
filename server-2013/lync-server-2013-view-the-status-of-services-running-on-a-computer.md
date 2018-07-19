@@ -55,7 +55,7 @@ Também é possível exibir o status do serviço usando o Shell de Gerenciamento
         {ConferencingServer}                      Running
         {MediationServer}                         Running
 
-Para obter mais informações, consulte [Get-CsWindowsService](get-cswindowsservice.md).
+Para obter mais informações, consulte [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
 
 ## Consulte Também
 

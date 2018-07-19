@@ -23,7 +23,7 @@ Use os procedimentos descritos nesta seção para gerenciar aplicativos confiáv
 
 ## Seções relacionadas
 
-[Cmdlets de aplicativos confiáveis](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets de aplicativos confiáveis](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Consulte Também
 

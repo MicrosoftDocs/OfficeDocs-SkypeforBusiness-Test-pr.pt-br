@@ -87,7 +87,7 @@ Ao recuperar criando um novo pool com um FQDN diferente, você deve atribuir ao 
 </table>
 
 
-Você pode definir apenas um conjunto de definições de configuração do Grupo de Resposta no nível de aplicativo por pool. Estas definições incluem a configuração de música de espera padrão, o arquivo de áudio música de espera padrão, o período de carência de retorno de toque e a configuração de contexto de chamada. Para visualizar essas definições de configuração, execute o cmdlet **Get-CsRgsConfiguration**. Para detalhes sobre o cmdlet **Get-CsRgsConfiguration**, consulte [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+Você pode definir apenas um conjunto de definições de configuração do Grupo de Resposta no nível de aplicativo por pool. Estas definições incluem a configuração de música de espera padrão, o arquivo de áudio música de espera padrão, o período de carência de retorno de toque e a configuração de contexto de chamada. Para visualizar essas definições de configuração, execute o cmdlet **Get-CsRgsConfiguration**. Para detalhes sobre o cmdlet **Get-CsRgsConfiguration**, consulte [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 Você pode transferir estas configurações do nível de aplicativo de um pool para outro utilizando o cmdlet **Import-CsRgsConfiguration** com o parâmetro –ReplaceExistingSettings, mas fazer isso substitui as definições no pool de destino.
 

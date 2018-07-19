@@ -31,7 +31,7 @@ Você pode visualizar as informações sobre os dispositivos de conferência con
 </table>
 
 
-Se você usar o cmdlet **Get-CsMeetingRoom** sem qualquer parâmetro, ele retornará informações sobre todos os seus dispositivos de conferência. Os parâmetros opcionais fornecem maneiras diferentes para você filtrar informações. Para obter detalhes, consulte a seção Parâmetros do [Get-CsMeetingRoom](get-csmeetingroom.md).
+Se você usar o cmdlet **Get-CsMeetingRoom** sem qualquer parâmetro, ele retornará informações sobre todos os seus dispositivos de conferência. Os parâmetros opcionais fornecem maneiras diferentes para você filtrar informações. Para obter detalhes, consulte a seção Parâmetros do [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 
 ## Exibindo as informações sobre todos os seus dispositivos de conferência
@@ -66,5 +66,5 @@ Se você usar o cmdlet **Get-CsMeetingRoom** sem qualquer parâmetro, ele retorn
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Para obter detalhes, consulte o tópico de Ajuda para o cmdlet [Get-CsMeetingRoom](get-csmeetingroom.md).
+Para obter detalhes, consulte o tópico de Ajuda para o cmdlet [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 

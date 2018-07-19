@@ -85,7 +85,7 @@ Uma política de caixa postal define dois atributos que o aplicativo ExUM Routin
 </thead>
 <tbody>
 <tr class="odd">
-<td>O administrador de inquilino de seu serviço de UM do Exchange hospedada fornecerá os valores necessários para suas configurações de Destino e Organização. Para configurar sua política, você precisa executar o cmdlet New-CsHostedVoicemailPolicy ou usar o cmdlet Set-CsHostedVoicemailPolicy para modificar um que exista (por exemplo, a política global).</td>
+<td>O administrador de inquilino de seu serviço de UM do Exchange hospedada fornecerá os valores necessários para suas configurações de Destino e Organização. Para configurar sua política, você precisa executar o cmdlet New-CsHostedVoicemailPolicy ou usar o cmdlet set-cshostedvoicemailpolicy para modificar um que exista (por exemplo, a política global).</td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ Para obter detalhes sobre como gerenciar políticas de caixa postal hospedadas, 
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

@@ -21,5 +21,5 @@ Se a possibilidade de exibir imagens mesmo quando desligado pelo usuário é uma
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-Para obter mais informações sobre esse cmdlet, consulte o [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md) na documentação do Shell de Gerenciamento do Lync Server.
+Para obter mais informações sobre esse cmdlet, consulte o [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration) na documentação do Shell de Gerenciamento do Lync Server.
 

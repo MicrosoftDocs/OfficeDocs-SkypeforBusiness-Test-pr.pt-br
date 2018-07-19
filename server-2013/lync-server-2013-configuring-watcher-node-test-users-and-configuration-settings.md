@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-07-29_
 
 Depois de configurar o computador que atuará como um nó do inspetor, você deve:
 
-1.  Criar as contas de teste que serão usadas por esses nós de inspetor. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet [Set-CsTestUserCredential](set-cstestusercredential.md) para permitir o uso dessas contas de teste no nó do inspetor.
+1.  Criar as contas de teste que serão usadas por esses nós de inspetor. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) para permitir o uso dessas contas de teste no nó do inspetor.
 
 2.  Atualizar as definições de configuração do nó do inspetor.
 

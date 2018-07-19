@@ -69,5 +69,5 @@ Quando você mover um usuário para um pool do Lync Server 2013, os dados do usu
 
 3.  As diretivas de conferência que permitem participantes anônimos devem **Permitir que participantes convidem usuários anônimos** selecionados no Painel de Controle do Lync Server 2013 e que tenha **AllowAnonymousParticipantsInMeetings** definido como **True** na saída do cmdlet **Get-CsConferencingPolicy** no Shell de Gerenciamento do Lync Server.
 
-4.  Para obter detalhes sobre a configuração da diretiva de conferência usando o Shell de Gerenciamento do Lync Server, consulte [Set-CsConferencingPolicy](set-csconferencingpolicy.md) na documentação do Shell de Gerenciamento do Lync Server.
+4.  Para obter detalhes sobre a configuração da diretiva de conferência usando o Shell de Gerenciamento do Lync Server, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) na documentação do Shell de Gerenciamento do Lync Server.
 

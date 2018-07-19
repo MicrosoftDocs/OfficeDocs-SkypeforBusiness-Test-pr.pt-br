@@ -25,7 +25,7 @@ Ao instalar o Lync Server, uma coleção global de definições de configuraçã
 
   - As configurações no escopo global serão utilizadas apenas se não houver configurações definidas no serviço no servidor individual e se não houver configurações locais para o site onde o servidor está localizado.
 
-Qualquer configuração pode ser modificada utilizando o cmdlet Set-CsAVEdgeConfiguration. Para mais informações, consulte os tópicos de ajuda para [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) e o cmdlet [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Qualquer configuração pode ser modificada utilizando o cmdlet Set-CsAVEdgeConfiguration. Para mais informações, consulte os tópicos de ajuda para [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) e o cmdlet [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Criando uma nova definição de configuração de Borda A/V no escopo do local
 
@@ -61,6 +61,6 @@ Qualquer configuração pode ser modificada utilizando o cmdlet Set-CsAVEdgeConf
 #### Outros Recursos
 
 [Servidores de Borda Áudio/Vídeo (A/V) no Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

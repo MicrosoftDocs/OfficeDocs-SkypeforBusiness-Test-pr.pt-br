@@ -72,7 +72,7 @@ Habilitar ou desabilitar a exclusão automática de dados de arquivamento també
 
 ## Habilitar apenas a exclusão de dados de arquivamento exportados
 
-  - Para limitar a exclusão para registros de arquivamento que foram exportados para um arquivo de dados (usando o cmdlet [Export-CsArchivingData](export-csarchivingdata.md)), você também deve definir a propriedade PurgeExportedArchivesOnly para Verdadeiro ($True). Por exemplo:
+  - Para limitar a exclusão para registros de arquivamento que foram exportados para um arquivo de dados (usando o cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)), você também deve definir a propriedade PurgeExportedArchivesOnly para Verdadeiro ($True). Por exemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +84,7 @@ Habilitar ou desabilitar a exclusão automática de dados de arquivamento també
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Para obter mais informações, incluindo opções adicionais para excluir dados de arquivamento, consulte o tópico de ajuda para o cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Para obter mais informações, incluindo opções adicionais para excluir dados de arquivamento, consulte o tópico de ajuda para o cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Consulte Também
 

@@ -25,7 +25,7 @@ Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chama
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para incluir informações de localização em um E9-1-1 INVITE, você precisa configurar o tronco SIP que se conecta ao provedor de serviços de E9-1-1 para encaminhar as chamadas de emergência através do gateway. Para isso, defina o sinalizador EnablePIDFLOSupport no cmdlet <strong>Set-CsTrunkConfiguration</strong> como True. O valor padrão de EnablePIDFLOSupport é False. Por exemplo: <code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
+<td>Para incluir informações de localização em um E9-1-1 INVITE, você precisa configurar o tronco SIP que se conecta ao provedor de serviços de E9-1-1 para encaminhar as chamadas de emergência através do gateway. Para isso, defina o sinalizador EnablePIDFLOSupport no cmdlet <strong>set-cstrunkconfiguration</strong> como True. O valor padrão de EnablePIDFLOSupport é False. Por exemplo: <code>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
 Não é necessário habilitar o recebimento de locais para os gateways ELIN (número de identificação de local de emergência) e os gateways PSTN (rede telefônica pública comutada) de fallback.</td>
 </tr>
 </tbody>
