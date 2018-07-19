@@ -92,5 +92,5 @@ Segundo, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de 
 #### Conceitos
 
 [Identidades, escopos e locatários](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Os cmdlets do Lync Online](the-skype-for-business-online-cmdlets.md)
+[Os cmdlets do Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
