@@ -55,5 +55,5 @@ Os tópicos nesta seção definem as opções de configuração, parâmetros e c
 #### Conceitos
 
 [Visão Geral do Serviço de Registro em Log](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Cmdlets de registro em log centralizado](lync-server-2013-centralized-logging-cmdlets.md)
+[Cmdlets de registro em log centralizado](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
