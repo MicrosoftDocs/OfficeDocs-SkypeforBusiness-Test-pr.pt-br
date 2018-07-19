@@ -42,7 +42,7 @@ A transação sintética de Unificação de Mensagens (UM) do Exchange verifica 
 
 ## Transações sintéticas do Chat Persistente
 
-Para usar a transação sintética do Chat Persistente, os administradores primeiro devem criar um canal e conceder aos usuários de teste permissões para usá-lo. O cmdlet [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) pode ser usado para configurar adequadamente esses usuários de teste.
+Para usar a transação sintética do Chat Persistente, os administradores primeiro devem criar um canal e conceder aos usuários de teste permissões para usá-lo. O cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) pode ser usado para configurar adequadamente esses usuários de teste.
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ A sala de chat criada por Test-CsPersistentChatMessage só pode ser excluída po
 
 ## Transações sintéticas de chamada ponto a ponto PSTN
 
-A transação sintética de [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md) verifica a capacidade de realizar e receber chamadas através de uma PSTN (rede telefônica pública comutada).
+A transação sintética de [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) verifica a capacidade de realizar e receber chamadas através de uma PSTN (rede telefônica pública comutada).
 
 Para executar essa transação sintética, os administradores devem configurar:
 

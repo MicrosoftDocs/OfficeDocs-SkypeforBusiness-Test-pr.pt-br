@@ -188,7 +188,7 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     
 
     > [!TIP]
-    > Em vez de executar o Construtor de Topologias, você pode usar o cmdlet <STRONG>Install-CsDatabase</STRONG> para criar cada banco de dados, e o cmdlet <STRONG>Install-CsMirrorDatabase</STRONG> para configurar o espelhamento. Para obter detalhes, consulte <A href="install-csdatabase.md">Install-CsDatabase</A> e <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>.
+    > Em vez de executar o Construtor de Topologias, você pode usar o cmdlet <STRONG>Install-CsDatabase</STRONG> para criar cada banco de dados, e o cmdlet <STRONG>Install-CsMirrorDatabase</STRONG> para configurar o espelhamento. Para obter detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> e <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
 
 

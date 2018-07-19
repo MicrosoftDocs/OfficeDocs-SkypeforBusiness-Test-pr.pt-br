@@ -96,7 +96,7 @@ As definições de configuração de arquivamento também podem ser criadas usan
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingConfiguration](new-csarchivingconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration).
 
 ## Consulte Também
 

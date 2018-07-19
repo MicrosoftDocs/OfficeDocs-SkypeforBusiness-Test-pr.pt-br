@@ -120,7 +120,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Se esta opção for desabilitada enquanto a opção <strong>Habilitar bypass de mídia</strong> estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet <strong>Set-CsTrunkConfiguration</strong> para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Para detalhes, consulte a documentação do <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.<br />
+    <td>Se esta opção for desabilitada enquanto a opção <strong>Habilitar bypass de mídia</strong> estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet <strong>set-cstrunkconfiguration</strong> para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Para detalhes, consulte a documentação do <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.<br />
     Como alternativa, é possível selecionar <strong>Ativar referenciamento usando controle de chamada de terceiros</strong> se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER.</td>
     </tr>
     </tbody>

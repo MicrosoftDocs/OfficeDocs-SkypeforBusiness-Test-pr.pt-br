@@ -158,6 +158,6 @@ Quando a hora efetiva é atingida (21/7/2012 1:00:00 AM), todos os novos tokens 
 #### Outros Recursos
 
 [Configurar certificados de Borda para Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

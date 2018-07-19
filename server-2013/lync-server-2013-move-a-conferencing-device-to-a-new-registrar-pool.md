@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2013-02-20_
 
-Mova um dispositivo de conferência de um pool de registradores para outro usando o cmdlet **Move-CsMeetingRoom**. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
+Mova um dispositivo de conferência de um pool de registradores para outro usando o cmdlet **move-csmeetingroom**. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
 <table>
 <thead>
@@ -36,7 +36,7 @@ Mova um dispositivo de conferência de um pool de registradores para outro usand
 
   - Para mover um dispositivo de converência, você deve especificar a identidade da sala a ser movida, e então definir o parâmetro Alvo para o nome de domínio totalmente qualificado (FQDN) do pool de Registradores o dispositivo a ser movido. Por exemplo:
     
-        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Move-CsMeetingRoom](move-csmeetingroom.md). en-us
+Para obter detalhes, consulte o tópico de Ajuda do cmdlet [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom). en-us
 

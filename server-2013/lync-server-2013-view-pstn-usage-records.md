@@ -56,7 +56,7 @@ Você também pode exibir as informações de uso de PSTN usando o Windows Power
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Para obter detalhes, consulte [Get-CsPstnUsage](get-cspstnusage.md).
+Para obter detalhes, consulte [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## Consulte Também
 

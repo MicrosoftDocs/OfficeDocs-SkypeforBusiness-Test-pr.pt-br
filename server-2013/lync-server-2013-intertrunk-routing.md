@@ -17,9 +17,9 @@ _**Tópico modificado em:** 2012-10-20_
 
 O Lync Server 2013 pode interconectar um IP-PBX a um gateway PSTN para que as chamadas de um telefone PBX possam ser roteadas para o PSTN e as chamadas de entrada do PSTN possam ser roteadas para um telefone PBX. Da mesma forma, o Lync Server 2013 pode interconectar dois ou mais sistemas IP-PBX para que as chamadas possam ser posicionadas e recebidas entre telefones PBX de sistemas IP-PBX diferentes.
 
-Este recurso de roteamento entre troncos pode ser configurado usando o cmdlet Shell de Gerenciamento do Lync Server, **Set-CsTrunkConfiguration**, com o novo parâmetro, PstnUsages. Este parâmetro especifica o conjunto de registros de uso PSTN para utilizar. Um tronco usa este uso PSTN para determinar uma rota e rotear todas as chamadas de entrada da mesma forma.
+Este recurso de roteamento entre troncos pode ser configurado usando o cmdlet Shell de Gerenciamento do Lync Server, **set-cstrunkconfiguration**, com o novo parâmetro, PstnUsages. Este parâmetro especifica o conjunto de registros de uso PSTN para utilizar. Um tronco usa este uso PSTN para determinar uma rota e rotear todas as chamadas de entrada da mesma forma.
 
-    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 O diagrama a seguir ilustra o Lync Server 2013 oferecendo interconectividade entre um gateway PSTN e um IP-PBX.
 

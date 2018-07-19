@@ -23,7 +23,7 @@ O Painel de Monitoramento oferece aos administradores uma visão geral rápida d
 
   - Totais para o mês e os totais de tendência pelos últimos seis meses (apenas para uso do sistema).
 
-Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](get-csreportingconfiguration.md) para retornar a URL usada para acessar Relatórios de Monitoramento do Lync Server 2013:
+Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) para retornar a URL usada para acessar Relatórios de Monitoramento do Lync Server 2013:
 
     Get-CsReportingConfiguration
 

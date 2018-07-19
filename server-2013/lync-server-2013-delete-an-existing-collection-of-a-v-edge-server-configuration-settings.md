@@ -21,7 +21,7 @@ Quando você instala o Lync Server, um conjunto global de configurações de Bor
 
 No entanto, conjuntos de configurações personalizadas criados no escopo do site ou do serviço podem ser excluídos com o uso do cmdlet Remove-CsAVEdgeConfiguration. Se você excluir configurações de site, os Servidores de Borda A/V desse site serão gerenciados pelas configurações globais. Se excluir as configurações do escopo do serviço, o servidor será gerenciado pelas configurações do site (se houver) ou pelas configurações globais se não houver configurações de site disponíveis.
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
 
 ## Redefinindo o conjunto global
 
@@ -51,5 +51,5 @@ Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsA
 #### Outros Recursos
 
 [Servidores de Borda Áudio/Vídeo (A/V) no Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

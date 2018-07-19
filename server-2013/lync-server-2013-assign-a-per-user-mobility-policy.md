@@ -105,7 +105,7 @@ A política de mobilidade é uma das configurações individuais de uma conta de
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Para obter detalhes, consulte [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Consulte Também
 

@@ -63,5 +63,5 @@ Você também pode excluir configurações de tronco usando o Shell de Gerenciam
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Para obter detalhes, consulte [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+Para obter detalhes, consulte [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 

@@ -67,7 +67,7 @@ Você pode também ter dois usuários: João Casqueiro e Paula Bento. João Casq
 
 Como você pode ver, João Casqueiro tem permissão para se comunicar com provedores públicos de mensagens instantâneas porque as configurações da política por usuário atribuída a ele substituem as configurações da política global. Paula Bento não pode se comunicar com provedores públicos de mensagens instantâneas porque é gerenciada pela política global, que proíbe tais comunicações.
 
-As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
+As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
 
     Identity : tag:AllowPublicIMCommunication
 

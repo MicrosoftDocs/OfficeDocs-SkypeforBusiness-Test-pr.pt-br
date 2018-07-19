@@ -27,7 +27,7 @@ Durante a recuperação de desastres, os usuários que foram redirecionados para
 
 As faixas de número de Recebimento de chamada de grupo na tabela de órbita de estacionamento de chamada devem ser redirecionados para o pool de backup após o processo de failover para o pool de backup ser concluído. As faixas de número devem ser redirecionadas de volta ao pool primário após o processo de failback para o pool primário ser concluído. Para redirecionar as faixas de Recebimento de chamda de grupo, use o cmdlet **Set-CsCallParkOrbit**.
 
-Se você implantar um novo pool com um nome de domínio totalmente qualificado (FQDN) diferente para substituir o pool primário, você precisará reatribuir todas as faixas de número de Recebimento de chamada de grupo associadas ao pool primário ao FQDN do novo pool. Para rearibuir as faixas de número ao novo pool, você pode usar o cmdlet **Set-CsCallParkOrbit**. Para obter detalhes sobre o cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Se você implantar um novo pool com um nome de domínio totalmente qualificado (FQDN) diferente para substituir o pool primário, você precisará reatribuir todas as faixas de número de Recebimento de chamada de grupo associadas ao pool primário ao FQDN do novo pool. Para rearibuir as faixas de número ao novo pool, você pode usar o cmdlet **Set-CsCallParkOrbit**. Para obter detalhes sobre o cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 
 ## Experiência de Recebimento de chamada de grupo durante uma falha de pool
 

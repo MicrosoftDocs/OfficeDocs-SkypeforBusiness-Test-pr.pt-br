@@ -61,5 +61,5 @@ Você pode ativar ou desativar a versão de cliente ao usar o cmdlet **Set-CsCli
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md). en-us
+Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration). en-us
 

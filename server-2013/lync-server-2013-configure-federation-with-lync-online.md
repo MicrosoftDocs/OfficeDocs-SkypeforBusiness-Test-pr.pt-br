@@ -55,5 +55,5 @@ Para obter mais informações sobre como usar o módulo Skype for Business Onlin
 
 #### Outros Recursos
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

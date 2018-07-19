@@ -43,7 +43,7 @@ Use o seguinte procedimento para excluir um anúncio que é usado para chamadas 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Para obter detalhes sobre mais opções, consulte <a href="get-csannouncement.md">Get-CsAnnouncement</a> e <a href="remove-csannouncement.md">Remove-CsAnnouncement</a>.</td>
+    <td>Para obter detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -57,6 +57,6 @@ Use o seguinte procedimento para excluir um anúncio que é usado para chamadas 
 
 #### Outros Recursos
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

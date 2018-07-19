@@ -19,9 +19,9 @@ Os cmdlets utilizados ao modificar as listas permitidas e as listas bloqueadas (
 
   - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Observe que, tanto com o cmdlet **New-CsEdgeAllowList** quanto com o cmdlet **New-CsEdgeDomainPattern**, você deve incluir o parâmetro Domain. Por exemplo:
 

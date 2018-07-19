@@ -54,5 +54,5 @@ Os números de acesso de conferência por discagem também podem ser visualizado
         HostingProvider    :
         Regions            : {US}
 
-Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 

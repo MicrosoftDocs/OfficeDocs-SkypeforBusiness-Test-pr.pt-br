@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2012-09-24_
 
-A política de caixa postal hospedada *global* é instalada com o Lync Server 2013. É possível modificá-la para corresponder às suas necessidades, mas não é possível renomear ou exclui-la. Para modificar a política global, deve usar o cmdlet Set-CsHostedVoicemailPolicy para definir os parâmetros para os valores adequados da sua implantação específica.
+A política de caixa postal hospedada *global* é instalada com o Lync Server 2013. É possível modificá-la para corresponder às suas necessidades, mas não é possível renomear ou exclui-la. Para modificar a política global, deve usar o cmdlet set-cshostedvoicemailpolicy para definir os parâmetros para os valores adequados da sua implantação específica.
 
-Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md), consulte a documentação do Shell de Gerenciamento do Lync Server.
+Para obter detalhes sobre o cmdlet [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 ## Para modificar a política de caixa postal hospedada global
 
 1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Execute o Set-CsHostedVoicemailPolicy para definir os parâmetros da política global do seu ambiente. Por exemplo, execute:
+2.  Execute o set-cshostedvoicemailpolicy para definir os parâmetros da política global do seu ambiente. Por exemplo, execute:
     
-        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Como este comando não especifica o parâmetro Identidade da política, o Interface da linha de comando do Windows PowerShell define os seguintes valores na política de caixa postal hospedada global:
     
@@ -48,5 +48,5 @@ Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoi
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        Set-CsHostedVoicemailPolicy -Organization $a.Organization
+        set-cshostedvoicemailpolicy -Organization $a.Organization
 

@@ -43,7 +43,7 @@ Se você não tiver certeza se a versão de avaliação do Lync Server está sen
 
     Get-CsServerVersion
 
-O cmdlet [Get-CsServerVersion](get-csserverversion.md) analisará o computador local e o relatará o seguinte:
+O cmdlet [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) analisará o computador local e o relatará o seguinte:
 
   - Que a chave de licença de volume do Lync Server foi instalada no computador, o que significa que nenhuma atualização é necessária.
 

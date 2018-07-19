@@ -51,7 +51,7 @@ A tabela a seguir fornece uma visão geral do processo de implantação de E9-1-
 <td><ol>
 <li><p>Crie um novo registro de uso de PSTN. Este é o mesmo nome utilizado para a configuração de <strong>Uso do PSTN</strong> na política local.</p></li>
 <li><p>Crie ou atribua uma rota de voz ao registro de uso do PSTN criado na etapa anterior e aponte o atributo gateway para o tronco SIP ou gateway ELIN de E9-1-1.</p></li>
-<li><p>Para um provedor de serviço de E9-1-1 por tronco SIP, configure o tronco que manipulará as chamadas de E9-1-1 sobre o SIP para passar os dados de PIDF-LO usando o cmdlet <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>.</p></li>
+<li><p>Para um provedor de serviço de E9-1-1 por tronco SIP, configure o tronco que manipulará as chamadas de E9-1-1 sobre o SIP para passar os dados de PIDF-LO usando o cmdlet <strong>set-cstrunkconfiguration –EnablePIDFLOSupport</strong>.</p></li>
 <li><p>Opcionalmente, para um provedor de serviço de E9-1-1 do tronco SIP, crie ou atribua uma rota PSTN local para chamadas que não são manipuladas pelo tronco SIP do provedor de serviço de E9-1-1. Esta rota será usada se a conexão com o provedor de serviço de E9-1-1 não estiver disponível. Se o provedor de serviço de E9-1-1 for suportado, atribua uma regra de configuração de tronco ao gateway que converte a cadeia de caracteres de discagem 911 no número DID (discagem direta interna) do ECRC (Centro de resposta de chamada de emergência) nacional.</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>

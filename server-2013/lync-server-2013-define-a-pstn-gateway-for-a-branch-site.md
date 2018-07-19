@@ -68,7 +68,7 @@ Execute este procedimento no local central, que contém pelo menos um Pool de Fr
 
 
 > [!TIP]
-> Use o cmdlet <STRONG>Set-CsPstnGateway</STRONG> para modificar as propriedades de um gateway PSTN. Para obter mais detalhes, consulte <A href="set-cspstngateway.md">Set-CsPstnGateway</A>, na Ajuda do Shell de Gerenciamento do Lync Server.
+> Use o cmdlet <STRONG>Set-CsPstnGateway</STRONG> para modificar as propriedades de um gateway PSTN. Para obter mais detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>, na Ajuda do Shell de Gerenciamento do Lync Server.
 
 
 

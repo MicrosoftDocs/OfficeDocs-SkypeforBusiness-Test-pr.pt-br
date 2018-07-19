@@ -113,5 +113,5 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

@@ -65,7 +65,7 @@ Você pode criar configurações de retenção de QoE usando o Windows PowerShel
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Consulte Também
 

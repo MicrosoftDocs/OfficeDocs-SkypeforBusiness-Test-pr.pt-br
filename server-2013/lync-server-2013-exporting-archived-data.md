@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2013-02-23_
 
-Os dados arquivados em bancos de dados de Arquivamento não estão em um formato legível ou com possibilidade de pesquisa, mas é possível usar o cmdlet Export-CsArchivingData para extrair registros do banco de dados e salvá-los como um arquivo do Outlook Electronic Mail (EML). Para obter detalhes sobre como exportar dados arquivados, consulte [Export-CsArchivingData](export-csarchivingdata.md) na documentação Operações.
+Os dados arquivados em bancos de dados de Arquivamento não estão em um formato legível ou com possibilidade de pesquisa, mas é possível usar o cmdlet Export-CsArchivingData para extrair registros do banco de dados e salvá-los como um arquivo do Outlook Electronic Mail (EML). Para obter detalhes sobre como exportar dados arquivados, consulte [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) na documentação Operações.
 
 Se você habilitar a integração com o Microsoft Exchange, os dados serão arquivados em repositórios do Exchange 2013. Os dados arquivados no Exchange 2013 podem ser pesquisados e descobertos. Para obter detalhes sobre suporte para comunicações integradas para Exchange 2013 e Lync Server 2013, consulte [Suporte a Servidor Exchange e à integração com SharePoint no Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) na documentação de Suporte. Para obter detalhes sobre como acessar dados arquivados no Exchange, consulte a documentação do Exchange 2013.
 
@@ -35,7 +35,7 @@ Os dados de arquivamento podem ser exportados usando o cmdlet Export-CSArchiving
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Export-CsArchivingData](export-csarchivingdata.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData).
 
 ## Consulte Também
 
@@ -45,6 +45,6 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Export
 
 #### Outros Recursos
 
-[Export-CsArchivingData](export-csarchivingdata.md)  
+[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
 [Gerenciando Arquivamento do Lync Server 2013](lync-server-2013-managing-archiving.md)
 

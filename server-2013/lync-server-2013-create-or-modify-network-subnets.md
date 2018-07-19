@@ -82,7 +82,7 @@ Na maioria das implantações do Microsoft Lync Server 2013 nas quais o CAC (con
 #### Outros Recursos
 
 [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
-[Set-CsNetworkSubnet](set-csnetworksubnet.md)  
-[Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
-[Get-CsNetworkSubnet](get-csnetworksubnet.md)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 

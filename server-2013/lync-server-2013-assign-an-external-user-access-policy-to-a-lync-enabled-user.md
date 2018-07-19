@@ -81,5 +81,5 @@ As políticas de acesso externo por usuário podem ser atribuídas utilizando os
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

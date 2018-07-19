@@ -19,7 +19,7 @@ Quem pode executar este cmdlet: por padrão, os membros do grupo a seguir estão
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration é semelhante ao cmdlet New-CsAddressBookConfiguration, com a exceção de que é usado para modificar uma configuração existente.
+Set-CsAddressBookConfiguration é semelhante ao cmdlet new-csaddressbookconfiguration, com a exceção de que é usado para modificar uma configuração existente.
 
 Por exemplo:
 
@@ -31,5 +31,5 @@ Para obter uma descrição detalhada do comando completo, consulte o seguinte na
 
 #### Outros Recursos
 
-[Set-CsAddressBookConfiguration](set-csaddressbookconfiguration.md)
+[Set-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAddressBookConfiguration)
 

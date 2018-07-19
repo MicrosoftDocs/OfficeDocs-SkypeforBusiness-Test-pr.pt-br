@@ -111,7 +111,7 @@ As políticas de arquivamento por usuário podem ser também atribuídas usando 
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Consulte Também
 

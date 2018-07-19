@@ -51,5 +51,5 @@ Números de acesso de conferência discada também podem ser excluídos usando o
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Para maiores informações, consulte o tópico de ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](remove-csdialinconferencingaccessnumber.md).
+Para maiores informações, consulte o tópico de ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
 

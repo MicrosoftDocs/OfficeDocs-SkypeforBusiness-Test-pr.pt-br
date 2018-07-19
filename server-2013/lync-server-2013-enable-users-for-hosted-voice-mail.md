@@ -19,7 +19,7 @@ Siga o procedimento para habilitar os usuários do Lync Server 2013 para caixa p
 
 Para obter detalhes, consulte [Gerenciamento de usuário no Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) na documentação de Planejamento.
 
-Para obter detalhes sobre o cmdlet [Set-CsUser](set-csuser.md), consulte a documentação do Shell de Gerenciamento do Lync Server.
+Para obter detalhes sobre o cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 <table>
 <thead>

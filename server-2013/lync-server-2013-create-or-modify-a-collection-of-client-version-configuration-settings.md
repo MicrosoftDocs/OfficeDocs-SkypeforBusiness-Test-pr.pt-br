@@ -67,5 +67,5 @@ Você pode criar definições de configuração de versão de cliente utilizando
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Para detalhes, consulte o tópico Ajuda para os cmdlets [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) e [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Para detalhes, consulte o tópico Ajuda para os cmdlets [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) e [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

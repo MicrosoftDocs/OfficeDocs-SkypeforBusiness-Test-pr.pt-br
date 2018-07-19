@@ -41,7 +41,7 @@ O Lync Server 2013 pode descobrir automaticamente qualquer servidor Exchange que
 </thead>
 <tbody>
 <tr class="odd">
-<td>Isso ocorre devido ao fato de que a topologia do Lync Server terá agora duas entradas para o mesmo computador: a entrada obtida por Descoberta Automática e a entrada adicionada manualmente. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <a href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</a> e <a href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</a> para obter mais informações.</td>
+<td>Isso ocorre devido ao fato de que a topologia do Lync Server terá agora duas entradas para o mesmo computador: a entrada obtida por Descoberta Automática e a entrada adicionada manualmente. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a> para obter mais informações.</td>
 </tr>
 </tbody>
 </table>

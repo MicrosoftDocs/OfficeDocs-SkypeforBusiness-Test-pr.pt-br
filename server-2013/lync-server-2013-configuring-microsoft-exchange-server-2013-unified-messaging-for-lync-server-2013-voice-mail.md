@@ -67,7 +67,7 @@ Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve po
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Se você possui um segundo usuário habilitado para unified messaging, é possível usar o cmdlet [Test-CsExUMVoiceMail](test-csexumvoicemail.md) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
+Se você possui um segundo usuário habilitado para unified messaging, é possível usar o cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
 
     $credential = Get-Credential "litwareinc\pilar"
     

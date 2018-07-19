@@ -67,7 +67,7 @@ Use as etapas no procedimento anterior para mover grupos de resposta de um Pool 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>As configurações a nível de aplicativo incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de espera do agente e a configuração de contexto da chamada. Para exibir estas definições de configuração, execute o cmdlet <strong>Get-CsRgsConfiguration</strong>. Para obter detalhes sobre este cmdlet, consulte <a href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</a>.</td>
+    <td>As configurações a nível de aplicativo incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de espera do agente e a configuração de contexto da chamada. Para exibir estas definições de configuração, execute o cmdlet <strong>Get-CsRgsConfiguration</strong>. Para obter detalhes sobre este cmdlet, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.</td>
     </tr>
     </tbody>
     </table>

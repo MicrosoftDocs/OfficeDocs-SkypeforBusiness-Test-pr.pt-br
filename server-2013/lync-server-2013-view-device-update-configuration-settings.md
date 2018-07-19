@@ -50,5 +50,5 @@ Você pode exibir as configurações de serviço de atualização de dispositivo
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Para obter informações detalhadas sobre esse cmdlet, consulte o tópico da Ajuda em [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Para obter informações detalhadas sobre esse cmdlet, consulte o tópico da Ajuda em [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

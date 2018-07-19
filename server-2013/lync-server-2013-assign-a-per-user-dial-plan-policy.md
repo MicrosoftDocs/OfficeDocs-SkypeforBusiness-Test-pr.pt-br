@@ -79,7 +79,7 @@ Os planos de discagem por usuário podem ser também atribuídas usando o Window
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsDialPlan](grant-csdialplan.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## Consulte Também
 

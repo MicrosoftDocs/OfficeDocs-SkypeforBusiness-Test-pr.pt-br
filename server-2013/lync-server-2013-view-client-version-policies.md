@@ -59,5 +59,5 @@ Você pode visualizar políticas de versão de cliente utilizando o cmdlet **Get
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-Para detalhes, veja o tópico Ajuda para o cmdlet [Get-CsClientVersionPolicy](get-csclientversionpolicy.md).
+Para detalhes, veja o tópico Ajuda para o cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy).
 

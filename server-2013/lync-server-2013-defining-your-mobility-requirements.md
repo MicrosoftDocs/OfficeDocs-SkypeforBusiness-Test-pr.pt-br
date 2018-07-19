@@ -171,7 +171,7 @@ A seguir estão as decisões que você precisa considerar:
     </tbody>
     </table>
     
-    Para uma descrição das definições de políticas que você pode configurar e como gerenciar essas políticas, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) e [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Para uma descrição das definições de políticas que você pode configurar e como gerenciar essas políticas, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) e [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Você deseja que os usuários não habilitados para Enterprise Voice possam usar o recurso Clique para ingressar a fim de entrar em conferências?**
     

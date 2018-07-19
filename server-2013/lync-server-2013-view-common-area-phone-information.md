@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2013-02-20_
 
-Você pode exibir informações sobre os telefones de área comum configurados para uso em sua organização utilizando o cmdlet **Get-CsCommonAreaPhone**. Usado sem nenhum parâmetro, este cmdlet retorna informações sobre todos os telefone de área comum. Parâmetros opcionais oferecem formas diferentes de filtrar as informações. Por exemplo, você pode retornar todos os telefones de área comum que tenham objetos de contato em uma UO (unidade organizacional) especificada ou todos os objetos de contato localizados em um edifício especificado. Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone**, consulte [Get-CsCommonAreaPhone](get-cscommonareaphone.md).
+Você pode exibir informações sobre os telefones de área comum configurados para uso em sua organização utilizando o cmdlet **Get-CsCommonAreaPhone**. Usado sem nenhum parâmetro, este cmdlet retorna informações sobre todos os telefone de área comum. Parâmetros opcionais oferecem formas diferentes de filtrar as informações. Por exemplo, você pode retornar todos os telefones de área comum que tenham objetos de contato em uma UO (unidade organizacional) especificada ou todos os objetos de contato localizados em um edifício especificado. Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone**, consulte [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone).
 
 Execute **Get-CsCommonAreaPhone** a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
@@ -46,5 +46,5 @@ Execute **Get-CsCommonAreaPhone** a partir do Shell de Gerenciamento do Lync Ser
         Description        :
         ExUmEnabled        : False
 
-Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Get-CsCommonAreaPhone](get-cscommonareaphone.md).
+Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone).
 

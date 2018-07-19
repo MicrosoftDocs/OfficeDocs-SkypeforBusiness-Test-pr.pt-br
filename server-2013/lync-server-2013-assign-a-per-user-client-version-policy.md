@@ -111,7 +111,7 @@ Também é possível atribuir políticas de versão do cliente específicas do u
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Consulte Também
 

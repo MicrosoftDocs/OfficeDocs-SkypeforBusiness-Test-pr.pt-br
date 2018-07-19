@@ -61,7 +61,7 @@ As informações sobre a rota de região de rede também podem ser exibidas usan
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 ## Consulte Também
 

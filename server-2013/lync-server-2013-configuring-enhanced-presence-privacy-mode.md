@@ -54,6 +54,6 @@ Por esses motivos, em um cenário de migração, antes de habilitar o modo de pr
 #### Outros Recursos
 
 [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
 [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 

@@ -113,7 +113,7 @@ As políticas de conferência por usuário também podem ser atribuídas usando 
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Consulte Também
 

@@ -99,5 +99,5 @@ Você também pode bloquear e desbloquear PINs utilizando o Windows PowerShell e
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Para mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](lock-csclientpin.md) e [Unlock-CsClientPin](unlock-csclientpin.md).
+Para mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) e [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
 

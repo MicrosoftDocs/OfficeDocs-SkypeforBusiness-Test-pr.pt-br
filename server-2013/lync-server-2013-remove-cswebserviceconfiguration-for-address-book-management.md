@@ -31,5 +31,5 @@ Para uma descrição detalhada do comando completo, consulte o seguinte na princ
 
 #### Outros Recursos
 
-[Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md)
+[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)
 

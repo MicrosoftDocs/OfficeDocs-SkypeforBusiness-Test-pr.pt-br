@@ -75,14 +75,14 @@ Esta seção descreve a sequência de etapas necessárias para implantar o recur
 <tr class="even">
 <td><p>Teste sua implantação de mobilidade para Lync 2010 Mobile utilizando o serviço de mobilidade Mcx</p></td>
 <td><p>Execute o <strong>Test-CsMcxP2PIM</strong> para enviar uma mensagem instantânea de uma pessoa para outra.</p>
-<p>Veja a documentação do cmdlet Shell de Gerenciamento do Lync Server para <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> para obter uma lista completa de opções.</p></td>
+<p>Veja a documentação do cmdlet Shell de Gerenciamento do Lync Server para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> para obter uma lista completa de opções.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Teste sua implantação de mobilidade para clientes móveis Lync 2013 utilizando os componentes Web UCWA</p></td>
 <td><p>Utilize o cmdlet <strong>Test-CsUcwaConference</strong> para testar e verificar se os usuários de teste pré-definidos ou um par de usuários efetivos podem utilizar o UCWA para criar uma conferência e participar dela.</p>
-<p>Veja a documentação do cmdlet Shell de Gerenciamento do Lync Server para <a href="test-csucwaconference.md">Test-CsUcwaConference</a> para obter uma lista completa de opções.</p></td>
+<p>Veja a documentação do cmdlet Shell de Gerenciamento do Lync Server para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> para obter uma lista completa de opções.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></p></td>
 </tr>

@@ -111,7 +111,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Para obter detalhes, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Consulte Também
 

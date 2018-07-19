@@ -60,7 +60,7 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="even">
 <td><p>Nível de suporte de criptografia</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> and <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a> cmdlets.</p>
+<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</p>
 <p>Os valores permitidos são:</p>
 <ul>
 <li><p>- Obrigatório: Deve se utilizar a criptografia SRTP.</p></li>
@@ -153,7 +153,7 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 </thead>
 <tbody>
 <tr class="odd">
-<td>Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</a> cmdlet.</td>
+<td>Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</a> cmdlet.</td>
 </tr>
 </tbody>
 </table>

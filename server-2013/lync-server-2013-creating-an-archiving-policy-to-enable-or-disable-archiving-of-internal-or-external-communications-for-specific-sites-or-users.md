@@ -108,7 +108,7 @@ As políticas de arquivamento também podem ser criadas usando o Windows PowerSh
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## Consulte Também
 

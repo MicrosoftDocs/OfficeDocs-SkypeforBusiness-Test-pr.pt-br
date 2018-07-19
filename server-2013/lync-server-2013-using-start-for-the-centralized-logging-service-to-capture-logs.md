@@ -57,7 +57,7 @@ O Serviço de Log Centralizado dá duas formas de emitir comandos. Um número de
     </thead>
     <tbody>
     <tr class="odd">
-    <td>O cenário The AlwaysOn não possui uma duração padrão. Este cenário será executado até que o pare precisamente com o cmdlet <strong>Stop-CsClsLogging</strong>. Para detalhes, consulte <a href="stop-csclslogging.md">Stop-CsClsLogging</a>. Para todos os outros cenários, a duração padrão é 4 horas.</td>
+    <td>O cenário The AlwaysOn não possui uma duração padrão. Este cenário será executado até que o pare precisamente com o cmdlet <strong>Stop-CsClsLogging</strong>. Para detalhes, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Para todos os outros cenários, a duração padrão é 4 horas.</td>
     </tr>
     </tbody>
     </table>
@@ -92,7 +92,7 @@ O Serviço de Log Centralizado dá duas formas de emitir comandos. Um número de
     </thead>
     <tbody>
     <tr class="odd">
-    <td>É possível ter um total de dois cenários sendo executados em qualquer computador a qualquer momento. Se o comando é global no escopo, todos os computadores em sua implantação executarão o cenário ou cenários. Para iniciar um terceiro cenário, você deve parar o log no computador, pool, site ou escopo global em que você queira executar o novo cenario. Caso tenho iniciado um escopo global, é possível parar o log em um ou ambos cenários em um ou mais computadores e pools. Para detalhe sobre o gerenciamento de quais cenários estão sendo executados, consulte <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Usando Parar para o Serviço de Registro em Log</a> e <a href="stop-csclslogging.md">Stop-CsClsLogging</a>.</td>
+    <td>É possível ter um total de dois cenários sendo executados em qualquer computador a qualquer momento. Se o comando é global no escopo, todos os computadores em sua implantação executarão o cenário ou cenários. Para iniciar um terceiro cenário, você deve parar o log no computador, pool, site ou escopo global em que você queira executar o novo cenario. Caso tenho iniciado um escopo global, é possível parar o log em um ou ambos cenários em um ou mais computadores e pools. Para detalhe sobre o gerenciamento de quais cenários estão sendo executados, consulte <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Usando Parar para o Serviço de Registro em Log</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.</td>
     </tr>
     </tbody>
     </table>

@@ -40,7 +40,7 @@ Há diferenças fundamentais entre os comandos da linha de comando que você pod
 </table>
 
 
-Um escopo de computador exclusivo pode ser definido durante a execução de um comando [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) e [Update-CsClsLogging](update-csclslogging.md) usando o parâmetro –Computers. Esse parâmetro aceita uma lista separada por vírgulas de FQDNs (nomes de domínio totalmente qualificados) para o computador de destino.
+Um escopo de computador exclusivo pode ser definido durante a execução de um comando [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) e [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) usando o parâmetro –Computers. Esse parâmetro aceita uma lista separada por vírgulas de FQDNs (nomes de domínio totalmente qualificados) para o computador de destino.
 
 
 > [!TIP]
@@ -58,7 +58,7 @@ Os escopos de Site e Global são definidos nos cmdlets **New-**, **Set-**, e **R
 </thead>
 <tbody>
 <tr class="odd">
-<td>Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. O exemplo de comandos tem a finalidade de demonstrar o uso do parâmetro <strong>–Identity</strong> para definir escopo e os outros parâmetros são incluídos para a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets do <strong>Set-CsClsConfiguration</strong>, consulte <a href="set-csclsconfiguration.md">Set-CsClsConfiguration</a> na documentação Operações.</td>
+<td>Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. O exemplo de comandos tem a finalidade de demonstrar o uso do parâmetro <strong>–Identity</strong> para definir escopo e os outros parâmetros são incluídos para a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets do <strong>Set-CsClsConfiguration</strong>, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> na documentação Operações.</td>
 </tr>
 </tbody>
 </table>
@@ -160,7 +160,7 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
     </thead>
     <tbody>
     <tr class="odd">
-    <td>New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte <a href="get-csclsconfiguration.md">Get-CsClsConfiguration</a> e <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Entendendo as configurações do serviço de registro em log centralizado</a>.</td>
+    <td>New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> e <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Entendendo as configurações do serviço de registro em log centralizado</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -208,8 +208,8 @@ Se decidir remover a configuração no nível do site, o site usará as configur
 #### Outros Recursos
 
 [Gerenciando as configurações do serviço de registro em log centralizado usando PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 
