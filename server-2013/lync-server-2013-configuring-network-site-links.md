@@ -59,7 +59,7 @@ Para obter descrições detalhadas do parâmetro, consulte [Remove-CsNetworkInte
 
 #### Conceitos
 
-[Cmdlets de controle de admissão de chamadas](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlets de controle de admissão de chamadas](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Outros Recursos
 
