@@ -96,7 +96,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 
 #### Outros Recursos
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

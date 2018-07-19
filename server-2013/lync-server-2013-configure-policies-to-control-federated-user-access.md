@@ -128,7 +128,7 @@ Se essa for uma política de usuário, você também deverá aplicar a política
 
 [Gerenciar domínios SIP federados para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
 [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
 [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  

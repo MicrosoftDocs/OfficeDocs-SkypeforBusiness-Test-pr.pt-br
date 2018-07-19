@@ -32,11 +32,11 @@ Os dois comandos são idênticos porque, por padrão, o Windows PowerShell modif
 
 Os cmdlets a seguir funcionam somente no escopo global:
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
   - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
   - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
 
@@ -50,7 +50,7 @@ Os cmdlets a seguir funcionam somente no escopo global:
 
   - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 Observe que o cmdlet **Remove-CsVoicePolicy** é, de alguma forma, uma anomalia, Primeiro, esse cmdlet exige que você inclua o parâmetro Identidade:
 

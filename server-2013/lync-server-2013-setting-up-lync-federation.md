@@ -143,7 +143,7 @@ Se o servidor de borda já foi implantado nos servidores, a adição dos recurso
 
 2.  Defina e configure todos os hosts DNS exigidos (A ou AAAA para IPv6) e registros SRV de DNS
 
-3.  Defina e configure todas as políticas usando o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de Gerenciamento do Lync Server, consulte [Cmdlets de federação e acesso externo no Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
+3.  Defina e configure todas as políticas usando o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de Gerenciamento do Lync Server, consulte [Cmdlets de federação e acesso externo no Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
     <table>
     <thead>

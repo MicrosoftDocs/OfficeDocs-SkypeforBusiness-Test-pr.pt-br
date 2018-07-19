@@ -29,7 +29,7 @@ Em uma configuração de controle de admissão de chamada, você pode criar pol�
     
     Este exemplo cria um novo link de site de rede chamado Reno\_Portland que define as limitações de largura de banda entre os sites de rede Reno e Portland. Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.
 
-Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) na documentação do Shell de Gerenciamento do Lync Server. Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) na documentação do Shell de Gerenciamento do Lync Server.
+Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) na documentação do Shell de Gerenciamento do Lync Server. Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) na documentação do Shell de Gerenciamento do Lync Server.
 
 ## Para modificar um link de site de rede
 
@@ -67,5 +67,5 @@ Para obter descrições detalhadas do parâmetro, consulte [Remove-CsNetworkInte
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

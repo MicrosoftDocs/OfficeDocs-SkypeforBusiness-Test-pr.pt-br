@@ -21,7 +21,7 @@ Enquanto os vínculos de região definem limitações de largura de banda nas co
 
 Para obter detalhes sobre o trabalho com rotas entre regiões de rede, consulte a documentação do Shell de Gerenciamento do Lync Server para verificar os seguintes cmdlets:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

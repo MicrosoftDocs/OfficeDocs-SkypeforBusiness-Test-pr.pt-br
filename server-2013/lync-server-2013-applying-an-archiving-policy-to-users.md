@@ -74,7 +74,7 @@ As políticas de arquivamento por usuário também podem ser atribuídas com o u
 
 ## Atribuindo uma política de arquivamento por usuário a vários usuários
 
-  - Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter detalhes sobre o parâmetro Filter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter detalhes sobre o parâmetro Filter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

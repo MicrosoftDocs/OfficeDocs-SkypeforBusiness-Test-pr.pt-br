@@ -19,7 +19,7 @@ Ao modificar suas definições do provedor público, você sempre precisará for
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Felizmente, você não precisa digitar o ID do locatário (por exemplo, bf19b7db-6960-41e5-a139-2aa373474354) sempre que executa esses cmdlets. Ao contrário, poderá recuperar o ID executando o cmdlet [Get-CsTenant](get-cstenant.md), armazenando o ID do locatário em uma variável, então, usando essa variável quando chamar um dos outros cmdlets. Por exemplo:
+Felizmente, você não precisa digitar o ID do locatário (por exemplo, bf19b7db-6960-41e5-a139-2aa373474354) sempre que executa esses cmdlets. Ao contrário, poderá recuperar o ID executando o cmdlet [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), armazenando o ID do locatário em uma variável, então, usando essa variável quando chamar um dos outros cmdlets. Por exemplo:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,7 +34,7 @@ Você não precisa especificar o ID do locatário ao chamar o cmdlet **Get-CsTen
 
 Os seguintes cmdlets aceitam a identidade de um locatário. Contudo, nestes casos, o parâmetro é opcional e não precisa ser digitado ao chamar o cmdlet. Ao contrário, Windows PowerShell digitará defetivamente a identidade do locatário para você com base no locatário Skype for Business Online ao qual você está conectado atualmente:
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
   - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
 

@@ -61,7 +61,7 @@ E é possível habilitar um usuário para unified messaging utilizando um comand
 
 No comando anterior, o parâmetro Extensions representa o número de extensão telefônica do usuário. Neste exemplo, o usuário possui o número de extensão 100.
 
-Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve poder usar o Exchange unified messaging. É possível verificar se o usuário pode se conectar ao UM do Exchange executando o cmdlet [Test-CsExUMConnectivity](test-csexumconnectivity.md) dentro do Shell de Gerenciamento do Lync Server:
+Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve poder usar o Exchange unified messaging. É possível verificar se o usuário pode se conectar ao UM do Exchange executando o cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) dentro do Shell de Gerenciamento do Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

@@ -25,7 +25,7 @@ Para ativar o Exchange 2013 do Outlook Web Access (OWA) e a integração de mens
     
         Get-CsSite
     
-    Isso retorna o siteID para o siteName o qual você está criando o pool. Para detalhes, consulte [Get-CsSite](get-cssite.md) na documentação Shell de Gerenciamento do Lync Server 2013.
+    Isso retorna o siteID para o siteName o qual você está criando o pool. Para detalhes, consulte [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) na documentação Shell de Gerenciamento do Lync Server 2013.
 
 3.  Execute o seguinte cmdlet:
     

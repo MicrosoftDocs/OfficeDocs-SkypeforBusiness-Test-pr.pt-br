@@ -25,7 +25,7 @@ O Microsoft Lync Server 2013 oferece aos administradores a opção de ter transc
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para desabilitar completamente o arquivamento de conversas do Lync, você também deverá desabilitar o histórico de conversas do Lync. Para obter mais informações, consulte os seguintes tópicos: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</a>, <a href="new-csclientpolicy.md">New-CsClientPolicy</a>, e <a href="set-csclientpolicy.md">Set-CsClientPolicy</a>.</td>
+<td>Para desabilitar completamente o arquivamento de conversas do Lync, você também deverá desabilitar o histórico de conversas do Lync. Para obter mais informações, consulte os seguintes tópicos: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a>, e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
 </tr>
 </tbody>
 </table>

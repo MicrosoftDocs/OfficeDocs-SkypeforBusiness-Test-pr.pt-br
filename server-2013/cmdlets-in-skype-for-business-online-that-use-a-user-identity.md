@@ -35,11 +35,11 @@ Em Skype for Business Online, há várias maneiras diferentes de referenciar uma
 
 Os cmdlets a seguir aceitam uma Identidade de usuário:
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
   - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
   - [Get-CsMeetingRoom](get-csmeetingroom.md)
 
@@ -57,7 +57,7 @@ Os cmdlets a seguir aceitam uma Identidade de usuário:
 
   - [Set-CsMeetingRoom](set-csmeetingroom.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 Note que não é necessário especificar uma Identidade de usuário ao contactar um dos cmdlets **Get-Cs**. Nesse caso, os cmdlets retornam todas as instâncias de itens especificados. Por exemplo, este comando retorna informações sobre todos os usuários habilitados por Skype for Business Online:
 

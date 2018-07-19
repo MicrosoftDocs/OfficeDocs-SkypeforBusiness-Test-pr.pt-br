@@ -33,7 +33,7 @@ Antes de iniciar a migração dos usuários do Lync Online para seu ambiente loc
     
         Import-PSSession $CSSession -AllowClobber
     
-    Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [Conectando ao Lync Online Usando o Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
+    Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [Conectando ao Lync Online Usando o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
     Para obter mais informações sobre como usar o módulo Skype for Business Online PowerShell, consulte [Usar o Windows PowerShell para gerenciar o Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
 

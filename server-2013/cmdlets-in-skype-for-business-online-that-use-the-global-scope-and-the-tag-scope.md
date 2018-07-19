@@ -48,7 +48,7 @@ To return all policies except the global policies (that is, all the per-user pol
 
 The following cmdlets operate against both the global scope and the per-user (tag) scope:
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

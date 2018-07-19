@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-06-22_
 
 Os cmdlets utilizados ao modificar as listas permitidas e as listas bloqueadas (listas que determinam com quais organizações de terceiros os usuários estão autorizados a comunicar) não usam um escopo nem uma identidade. Na verdade, o cmdlet **New-CsEdgeAllowAllKnownDomains** não tem nenhum parâmetro. Os cmdlets que não usam um escopo ou uma identidade são:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

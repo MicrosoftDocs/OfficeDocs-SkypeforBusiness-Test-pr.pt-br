@@ -69,7 +69,7 @@ Os planos de discagem por usuário podem ser também atribuídas usando o Window
 
 ## Atribuição de plano de discagem por usuário a vários usuários
 
-  - Esse comando atribui o plano de discagem por usuário RedmondDialPlan a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Esse comando atribui o plano de discagem por usuário RedmondDialPlan a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 

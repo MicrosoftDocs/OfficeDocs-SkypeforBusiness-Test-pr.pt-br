@@ -85,7 +85,7 @@ Use o comando Lync ServerWindows PowerShell, New-CsNetworkSubne, ou o Painel de 
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Para obter mais informações consulte [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Para obter mais informações consulte [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 Para esse exemplo, a seguinte tabela e o comando Windows PowerShell ilustram a atribuição de sub-redes de redes para os locais da rede, Délhi e Híderabade, definidos nesse cenário. Somente as configurações que são específicas para o Roteamento com Base no Local são incluídas na tabela para fins ilustrativos.
 

@@ -51,7 +51,7 @@ Se você quiser retornar as identidades para todas as suas políticas por usuár
 
 Os cmdlets a seguir usam uma Identidade de usuário e o escopo de marca:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
   - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
 
@@ -61,7 +61,7 @@ Os cmdlets a seguir usam uma Identidade de usuário e o escopo de marca:
 
   - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Consulte Também
 

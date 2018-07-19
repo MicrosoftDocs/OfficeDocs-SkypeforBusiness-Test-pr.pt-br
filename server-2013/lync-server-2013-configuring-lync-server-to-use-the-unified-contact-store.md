@@ -53,7 +53,7 @@ Depois que você tiver criado a nova política, precisará atribuí-la aos usuá
 
 Depois que a política for atribuída, o Lync Server começará a migrar os contatos do usuário para o repositório unificado de contatos. Após a conclusão da migração, os contatos do usuário estarão armazenados no Exchange em vez do Lync Server. Se o usuário estiver conectado ao Lync 2013 no momento da conclusão da migração, uma caixa de mensagem será exibida solicitando que ele se desconecte do Lync e depois faça logon novamente para finalizar o processo. Os usuários que não tiverem recebido essa política por usuário não terão seus contatos migrados para o repositório unificado de contatos. Isso ocorre porque esses usuários estão sendo gerenciados pela política global e o uso desse repositório foi desabilitado na política global.
 
-Você pode confirmar se os contatos do usuário foram migrados com êxito para o repositório unificado de contatos executando o cmdlet [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) a partir do Shell de Gerenciamento do Lync Server:
+Você pode confirmar se os contatos do usuário foram migrados com êxito para o repositório unificado de contatos executando o cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) a partir do Shell de Gerenciamento do Lync Server:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

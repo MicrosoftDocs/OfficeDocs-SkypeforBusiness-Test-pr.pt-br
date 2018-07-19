@@ -43,6 +43,6 @@ Para permitir que os clientes descubram a implantação em que o servidor que ho
 
 #### Outros Recursos
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
 [Set-CsHostingProvider](set-cshostingprovider.md)
 

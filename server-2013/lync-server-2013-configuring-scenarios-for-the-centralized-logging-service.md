@@ -25,7 +25,7 @@ Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quai
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para qualquer dado escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão em execução no momento, use o Windows PowerShell e <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Usando o Windows PowerShell e <a href="set-csclsscenario.md">Set-CsClsScenario</a>, é possível alterar dinamicamente quais cenários estão em execução. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores.</td>
+<td>Para qualquer dado escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão em execução no momento, use o Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Usando o Windows PowerShell e <a href="set-csclsscenario.md">Set-CsClsScenario</a>, é possível alterar dinamicamente quais cenários estão em execução. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores.</td>
 </tr>
 </tbody>
 </table>

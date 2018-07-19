@@ -49,7 +49,7 @@ Você também pode visualizar definições de configuração do Lync Phone Editi
         Voice8021p           : 0
         LoggingLevel         : Off
 
-Para obter detalhes, consulte [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Para obter detalhes, consulte [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## Consulte Também
 

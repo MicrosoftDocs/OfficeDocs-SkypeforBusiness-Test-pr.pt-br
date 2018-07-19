@@ -19,7 +19,7 @@ O Lync Server 2013 inclui uma interface de serviço da Web padrão que você pod
 
 Se um aplicativo SNMP estiver instalado e o Serviço de Informações de Local falha para encontrar uma correspondência no banco de dados de localização, o Serviço de Informações de Local consulta automaticamente o aplicativo usando o endereço MAC oferecido pelo cliente. O Serviço de Informações de Local usa a informação de porta e opção retornada pelo aplicativo SNMP para consultar o banco de dados de localização novamente.
 
-Para obter detalhes, consulte [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
+Para obter detalhes, consulte [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
 <table>
 <thead>
