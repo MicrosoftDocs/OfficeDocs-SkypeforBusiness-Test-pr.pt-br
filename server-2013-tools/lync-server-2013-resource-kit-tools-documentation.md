@@ -420,6 +420,7 @@ O objetivo da ferramenta CPS é fornecer o acesso da linha de comando ao banco d
 
 Não haverá nenhuma exigência se esta ferramenta for executada no mesmo computador que estiver executando o CPS. Se esta ferramenta estiver sendo executada em um computador remoto, o banco de dados do SQL Server usado pelo Lync Server 2013 deverá ser configurado para permitir o acesso remoto. O Estacionador de chamadas deve ser configurado com uma cadeia de conexão de banco de dados doSQL Server para se conectar ao SQL Server do pool. Esta Cadeia de conexão do banco de dados do SQL Server é definida no arquivo de configuração **parkometer.exe.config**. Deverá será colocado no mesmo diretório onde o parkometer.exe está localizado. O seguinte arquivo XML trata-se de um exemplo do parkometer.exe.config. Os parâmetros que devem ser configurados são o nome de usuário (por exemplo: meudomínio\\Administrador), a senha (por exemplo, minhasenha) e o nome do host (por exemplo, meuservidor).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -430,6 +431,7 @@ Não haverá nenhuma exigência se esta ferramenta for executada no mesmo comput
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Exemplos
 
