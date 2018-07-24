@@ -51,41 +51,29 @@ Se você usou o Construtor de Topologias para definir e publicar um Servidor de 
 
 ## Nesta seção
 
-  -   
-    [Pré-requisitos do Enterprise Voice para Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
+   [Pré-requisitos do Enterprise Voice para Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
 
-  -   
-    [Implantando Servidores de Mediação e definindo pares no Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
+   [Implantando Servidores de Mediação e definindo pares no Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
 
-  -   
-    [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md)
+   [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  -   
-    [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
+   [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-  -   
-    [Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+   [Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
-  -   
-    [Exportação e importação da configuração de roteamento de voz no Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+   [Exportação e importação da configuração de roteamento de voz no Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  -   
-    [Testar roteamento de voz no Lync Server 2013](lync-server-2013-test-voice-routing.md)
+   [Testar roteamento de voz no Lync Server 2013](lync-server-2013-test-voice-routing.md)
 
-  -   
-    [Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+   [Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  -   
-    [Implantando Exchange UM no local para fornecer correio de voz do Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
+   [Implantando Exchange UM no local para fornecer correio de voz do Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
 
-  -   
-    [Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
+   [Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
 
-  -   
-    [Configurando integração local do Lync Server 2013 com o Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
+   [Configurando integração local do Lync Server 2013 com o Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
 
-  -   
-    [Implantando recursos avançados de Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+   [Implantando recursos avançados de Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
       - [Sobre regiões de rede, sites e subredes no Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
@@ -101,8 +89,7 @@ Se você usou o Construtor de Topologias para definir e publicar um Servidor de 
     
       - [Configurar bypass de mídia no Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
-  -   
-    [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+   [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
 ## Consulte Também
 

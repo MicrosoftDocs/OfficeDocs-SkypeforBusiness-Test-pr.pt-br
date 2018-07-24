@@ -17,11 +17,9 @@ _**Tópico modificado em:** 2016-12-08_
 
 Se você optou por habilitar a webconferência, será necessário planejar:
 
-  -   
-    O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.
+   O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.
 
-  -   
-    A integração com o Servidor Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.
+   A integração com o Servidor Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.
 
 ## Repositório de Arquivos
 

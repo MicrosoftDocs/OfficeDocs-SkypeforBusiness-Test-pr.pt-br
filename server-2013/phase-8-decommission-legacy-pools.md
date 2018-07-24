@@ -24,24 +24,17 @@ Para uma cobertura mais abrangente sobre a remoção de servidores Lync Server 2
 
 ## Nesta seção
 
-  -   
-    [Atualizar registros de DNS SRV](update-dns-srv-records.md)
+   [Atualizar registros de DNS SRV](update-dns-srv-records.md)
 
-  -   
-    [Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+   [Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [Mover Diretórios de Conferência](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+   [Mover Diretórios de Conferência](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [Remover a associação do servidor de Arquivamento](remove-the-archiving-server-association.md)
+   [Remover a associação do servidor de Arquivamento](remove-the-archiving-server-association.md)
 
-  -   
-    [Remover a associação do servidor de Monitoramento](remove-the-monitoring-server-association.md)
+   [Remover a associação do servidor de Monitoramento](remove-the-monitoring-server-association.md)
 
-  -   
-    [Remover o servidor de front-end do Enterprise Edition ou do Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+   [Remover o servidor de front-end do Enterprise Edition ou do Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [Remover instâncias SQL Server de bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+   [Remover instâncias SQL Server de bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

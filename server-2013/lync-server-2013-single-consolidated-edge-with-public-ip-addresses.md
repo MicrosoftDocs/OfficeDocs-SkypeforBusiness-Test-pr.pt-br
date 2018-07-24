@@ -17,14 +17,11 @@ _**Tópico modificado em:** 2016-12-08_
 
 Se a sua organização precisar de suporte para menos de 15.000 conexões de cliente do serviço de Borda de Acesso, 1.000 conexões de cliente ativas do serviço de Webconferência do Lync Server e 500 sessões de borda A/V simultâneas, e a alta disponibilidade do Servidor de Borda não for importante, esta topologia oferece vantagens de custo de hardware mais baixo e implantação mais simples. Se você precisar de mais capacidade ou alta disponibilidade, precisará implantar a topologia de Servidor de Borda Consolidada Dimensionada.
 
-  -   
-    [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 > [!important]  
 > Ao usar endereço IP público no Servidor de Borda, o gateway padrão no Servidor de Borda não é mais seu firewall ou roteador, mas o roteador ou firewall em sua borda de perímetro público - que será um endereço público. O proxy reverso continua a usar o roteador ou firewall associado com a rede do perímetro mais externo. A diferença entre o proxy reverso e o Servidor de Borda com endereços de IP públicos é que o proxy reverso está ainda usando NAT e o Servidor de Borda está usando uma relação de rota.

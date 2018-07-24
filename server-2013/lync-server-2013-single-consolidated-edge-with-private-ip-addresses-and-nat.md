@@ -17,14 +17,11 @@ _**Tópico modificado em:** 2016-12-08_
 
 Se a sua organização requer suporte para menos de 15.000 conexões de cliente do serviço de Borda de Acesso, 1.000 conexões de cliente ativas do serviço de conferência da Web do Lync Server e 500 sessões de borda A/V simultâneas, e a alta disponibilidade do Servidor de Borda não for importante, esta topologia oferece vantagens de custo de hardware mais baixo e implantação mais simples. Se você precisar de mais capacidade ou alta disponibilidade, precisará implantar a topologia de Servidor de Borda Consolidada Dimensionada. Para obter detalhes, consulte Reference Architecture 2: Scaled Consolidated Edge (DNS Load Balanced).
 
-  -   
-    [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 O guia não mostra o Diretores, uma função do servidor opcional implantada na rede interna entre o Servidores de Borda e seu Pools de Front-Ends ou servidor. Para obter detalhes sobre a topologia para Diretores, consulte [Componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md). A figura representa um único proxy reverso.
 

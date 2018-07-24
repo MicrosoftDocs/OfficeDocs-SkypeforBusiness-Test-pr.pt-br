@@ -46,11 +46,9 @@ Para que a experiência de implantação do Enterprise Voice seja ideal, verifiq
     
       - Executando um dos seguintes sistemas operacionais:
         
-          -   
-            A edição de 64 bits do sistema operacional Windows Server 2008 Standard
+           A edição de 64 bits do sistema operacional Windows Server 2008 Standard
         
-          -   
-            A edição de 64 bits do sistema operacional Windows Server 2008 Enterprise
+           A edição de 64 bits do sistema operacional Windows Server 2008 Enterprise
 
   - Se a conexão ao PBX ou PSTN ocorrer por meio de uma conexão de TDM (multiplexação de divisão de tempo), um ou mais gateways PSTN estarão disponíveis para implantação. Se a conexão ocorrer por meio de um tronco SIP, não é necessário ter um gateway PSTN.
 

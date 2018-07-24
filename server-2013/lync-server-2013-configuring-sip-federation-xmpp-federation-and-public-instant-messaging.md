@@ -22,14 +22,11 @@ Federação, conectividade de mensagem instantânea pública e protocolo XMPP (E
 
 A conectividade de mensagem instantânea pública é um tipo especial de federação que permite que um cliente Lync Server acesse parceiros configurados de mensagem instantânea pública usando o Lync 2013. Os parceiros atuais de conectividade de mensagem instantânea pública são:
 
-  -   
-    America Online
+   America Online
 
-  -   
-    Windows Live
+   Windows Live
 
-  -   
-    Yahoo\!
+   Yahoo\!
 
 Uma configuração de conectividade de mensagem instantânea pública permite que os usuários do Lync acessem usuários de conectividade de mensagem instantânea pública através de:
 

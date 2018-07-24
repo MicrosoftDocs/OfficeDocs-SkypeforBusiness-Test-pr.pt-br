@@ -19,14 +19,11 @@ O suporte de software para clientes e dispositivos de uma implantação do Lync 
 
 ## Nesta seção
 
-  -   
-    [Suporte a software do cliente do Lync no Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+   [Suporte a software do cliente do Lync no Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+   [Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [Como as fotos do usuário são exibidas no Lync](how-user-photos-are-displayed-in-lync.md)
+   [Como as fotos do usuário são exibidas no Lync](how-user-photos-are-displayed-in-lync.md)
 
 > [!note]  
 > O Lync Phone Edition funciona com o Lync Server 2013 da mesma maneira que funciona com o Lync Server 2010. Para obter detalhes sobre o suporte de software para dispositivos, consulte os seguintes tópicos na Biblioteca do TechNet do Lync Server 2010:<ul>

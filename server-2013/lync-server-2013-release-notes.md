@@ -23,38 +23,27 @@ Este documento contém informações importantes que você deve conhecer antes d
 
 Este documento contém as seguintes seções:
 
-  -   
-    Cliente Lync 2013
+   Cliente Lync 2013
 
-  -   
-    Lync Server
+   Lync Server
 
-  -   
-    Instalação
+   Instalação
 
-  -   
-    Mobilidade
+   Mobilidade
 
-  -   
-    Conferência
+   Conferência
 
-  -   
-    Enterprise Voice
+   Enterprise Voice
 
-  -   
-    Presença
+   Presença
 
-  -   
-    Aplicativo Grupo de Resposta, Aplicativo de Estacionamento de Chamada e Recebimento de Chamadas de Grupo
+   Aplicativo Grupo de Resposta, Aplicativo de Estacionamento de Chamada e Recebimento de Chamadas de Grupo
 
-  -   
-    Painel de Controle do Lync Server, Construtor de Topologias e Ferramenta de Planejamento
+   Painel de Controle do Lync Server, Construtor de Topologias e Ferramenta de Planejamento
 
-  -   
-    Localização
+   Localização
 
-  -   
-    Direitos autorais
+   Direitos autorais
 
 ## Cliente Lync 2013
 

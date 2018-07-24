@@ -55,14 +55,11 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
     
       - **Negociação TLS**. Define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional ou estabelecer que não há suporte para o TLS. A escolha da configuração Opcional deixa o requisito a cargo do serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações possíveis e detalhes sobre as negociações SASL, TLS e Retorno de Discagem, incluindo configurações de erros conhecidos e não válidos, consulte [Configurações de negociação para parceiros de XMPP federados no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
-          -   
-            **Obrigatório**. O serviço XMPP exige negociação TLS.
+           **Obrigatório**. O serviço XMPP exige negociação TLS.
         
-          -   
-            **Opcional**. O serviço XMPP indica que o TLS é obrigatório para negociação.
+           **Opcional**. O serviço XMPP indica que o TLS é obrigatório para negociação.
         
-          -   
-            **Sem Suporte**. O serviço XMPP não oferece suporte a TLS.
+           **Sem Suporte**. O serviço XMPP não oferece suporte a TLS.
     
       - **Negociação SASL**. Define as regras de negociação SASL. Um serviço XMPP pode exigir SASL, pode tornar o SASL opcional ou estabelecer que não haja suporte para o SASL. A escolha da configuração Opcional deixa o requisito a cargo do serviço XMPP do parceiro para uma decisão de obrigatório para negociação.
         
@@ -71,22 +68,17 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
         > SASL exige o protocolo TLS. Para usar SASL, o protocolo TLS deve ser obrigatório ou opcional. Qualquer configuração que defina SASL como obrigatório ou opcional deve ter suporte ao protocolo TLS. Quando clicar em <STRONG>Confirmar</STRONG> para salvar suas alterações, se ainda não tiver definido o protocolo TLS como obrigatório ou opcional, você será avisado de que SASL deve ter suporte ao protocolo TLS e as alterações não serão salvas. Para solucionar o erro, defina o protocolo TLS como <STRONG>Obrigatório</STRONG> ou <STRONG>Opcional</STRONG>. Se o uso de SASL for opcional e o suporte à negociação do protocolo TLS não for possível, será preciso definir a negociação SASL como <STRONG>Não suportado</STRONG>. Confirme no serviço XMPP como devem ser os fluxos de negociação apropriados SASL ou do protocolo TLS ou ocorrerá uma interrupção do serviço.
 
         
-          -   
-            **Obrigatório**. O serviço XMPP requer negociação SASL.
+           **Obrigatório**. O serviço XMPP requer negociação SASL.
         
-          -   
-            **Opcional**. O serviço XMPP indica que o SASL é obrigatório para negociação.
+           **Opcional**. O serviço XMPP indica que o SASL é obrigatório para negociação.
         
-          -   
-            **Sem Suporte**. O serviço XMPP não oferece suporte a SASL.
+           **Sem Suporte**. O serviço XMPP não oferece suporte a SASL.
     
       - **Negociação Retorno de Discagem**. A negociação Retorno de Discagem é definida pelo XSF no documento **XEP-220: Server Dialback**<http://xmpp.org/extensions/xep-0220.html>. O processo de retorno de discagem do servidor usa o DNS (Sistema de Nomes de Domínio) e um servidor autoritativo para verificar se a solicitação veio de um parceiro XMPP válido. Para isso, o servidor de origem cria uma mensagem de um tipo específico com uma chave de retorno de discagem gerada e pesquisa o servidor de recebimento no DNS. O servidor de origem envia a chave em um fluxo XML para a pesquisa DNS resultante, presumivelmente o servidor de recebimento. Ao receber a chave pelo fluxo XML, o servidor de recebimento não responde ao servidor de origem, mas envia a chave a um servidor autoritativo conhecido. O servidor autoritativo verifica se a chave é válida ou inválida. Se for inválida, o servidor de recebimento não responderá ao servidor de origem. Se for válida, o servidor de recebimento informará ao servidor de origem que a identidade e a chave são válidas e a conversa poderá começar.
         
         Existem dois estados válidos para **Negociação de discagem**:
         
-          -   
-            **True**. O servidor XMPP está configurado para usar a negociação Retorno de Discagem se uma solicitação for recebida de um servidor de origem.
+           **True**. O servidor XMPP está configurado para usar a negociação Retorno de Discagem se uma solicitação for recebida de um servidor de origem.
         
-          -   
-            **False**. O servidor XMPP não está configurado para usar a negociação Retorno de Discagem; se uma solicitação for recebida de um servidor de origem, ela será ignorada.
+           **False**. O servidor XMPP não está configurado para usar a negociação Retorno de Discagem; se uma solicitação for recebida de um servidor de origem, ela será ignorada.
 

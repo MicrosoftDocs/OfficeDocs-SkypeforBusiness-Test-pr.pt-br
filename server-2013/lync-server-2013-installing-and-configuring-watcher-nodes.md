@@ -148,17 +148,13 @@ Dependendo do porte de sua implantação, as transações sintéticas podem cons
 
 Os nós do inspetor do Lync Server 2013 podem ser implantados dentro ou fora de uma empresa para ajudar a verificar:
 
-  -   
-    A conectividade com pools para usuários internos da empresa.
+   A conectividade com pools para usuários internos da empresa.
 
-  -   
-    A conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
+   A conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
 
-  -   
-    A conectividade com dispositivos de filiais.
+   A conectividade com dispositivos de filiais.
 
-  -   
-    A conectividade com o Lync Server 2010 dentro da empresa e através de redes de perímetro.
+   A conectividade com o Lync Server 2010 dentro da empresa e através de redes de perímetro.
 
 Diferentes opções de autenticação estão disponíveis para dentro e fora da empresa a fim de simplificar a administração. Para obter detalhes, consulte [Configurando um nó inspetor para executar transações sintéticas](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 

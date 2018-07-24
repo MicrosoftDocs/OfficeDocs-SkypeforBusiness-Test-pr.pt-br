@@ -29,8 +29,7 @@ A migração de todas as topologias e funções de servidor do Lync Server é su
 
 O Lync Server 2013 suporta apenas o seguinte método de migração:
 
-  -   
-    **Migração lado a lado.** Na migração lado a lado, o Lync Server 2013 é implantando junto com uma implantação existente do Microsoft Lync Server 2010 ou do Office Communications Server 2007 R2 e, em seguida, você transfere as operações para o novo servidor e move os usuários para o Lync Server 2013. Esse método exige plataformas de servidor adicionais, incluindo hardware e software, durante a migração, e nomes de sistema e de pool são diferentes na nova configuração. Se for necessário reverter para a versão anterior, você poderá retornar as operações para os servidores anteriores.
+   **Migração lado a lado.** Na migração lado a lado, o Lync Server 2013 é implantando junto com uma implantação existente do Microsoft Lync Server 2010 ou do Office Communications Server 2007 R2 e, em seguida, você transfere as operações para o novo servidor e move os usuários para o Lync Server 2013. Esse método exige plataformas de servidor adicionais, incluindo hardware e software, durante a migração, e nomes de sistema e de pool são diferentes na nova configuração. Se for necessário reverter para a versão anterior, você poderá retornar as operações para os servidores anteriores.
 
 A migração entre florestas do Serviços de Domínio Active Directory não é suportada.
 

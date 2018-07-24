@@ -57,8 +57,7 @@ Habilitar a federação entre Microsoft Lync Server 2013, Lync Server 2010 e Off
 
   - Determine seus requisitos para descoberta do domínio federado:
     
-      -   
-        Para a configuração manual da federação, você deve ter o FQDN do Servidor de Borda do parceiro e o nome do domínio, ou nome do domínio online, que é inserido no Painel de Controle do Lync Server, **Acesso Externo e Federação**, **Domínio Federados SIP**. Crie uma **Nova** política ou **Edite** uma política existente para permitir ou bloquear domínios pelo FQDN.
+       Para a configuração manual da federação, você deve ter o FQDN do Servidor de Borda do parceiro e o nome do domínio, ou nome do domínio online, que é inserido no Painel de Controle do Lync Server, **Acesso Externo e Federação**, **Domínio Federados SIP**. Crie uma **Nova** política ou **Edite** uma política existente para permitir ou bloquear domínios pelo FQDN.
         
 
         > [!WARNING]
@@ -67,8 +66,7 @@ Habilitar a federação entre Microsoft Lync Server 2013, Lync Server 2010 e Off
         
         > [!note]  
         > Para <strong>Novos domínios federados SIP</strong>, você deve fornecer o <strong>Nome de domínio (ou FQDN)</strong> para Microsoft Lync Online, Microsoft Office 365. Para o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server você também deve fornecer um <strong>Serviço de Borda de Acesso (FQDN)</strong>    
-      -   
-        Para federação de parceiro descoberto, onde os parceiros podem descobrir seu Servidor de Borda, você pode criar um registro SRV em seu DNS externo - \_sipfederationtls.\_tcp.contoso.com – que aponta para a porta 5061 e o registro de host (A) de seu Servidor de Borda
+       Para federação de parceiro descoberto, onde os parceiros podem descobrir seu Servidor de Borda, você pode criar um registro SRV em seu DNS externo - \_sipfederationtls.\_tcp.contoso.com – que aponta para a porta 5061 e o registro de host (A) de seu Servidor de Borda
         
         > [!important]  
         > Se você estiver dando suporte aos clientes do Microsoft Lync Mobile no Windows Phone ou no Apple iPhone, iPad, ou em outros dispositivos da Apple e estiver usando o Serviços de Notificação por Push ou Serviços de Notificação por Push, você deve planejar para o_sipfederationtls._tcp. <em>&lt;Domínio SIP&gt;</em> registros SRV para cada domínio SIP que você possui clientes do Lync Mobile. O Android e Nokia Symbian Lync Mobile não utilizam a notificação de push e não estão sujeitos a essa exigência.
@@ -128,14 +126,11 @@ A implantação e configuração do XMPP são abordadas no [Implantação de ace
 
 Os tópicos a seguir contêm orientações para a definição de certificados, portas de firewall e entradas de DNS para os tipos de cenários de federação com suporte.
 
-  -   
-    [Resumo de certificado - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumo de certificado - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [Resumo de porta - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumo de porta - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [Resumo de DNS - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Resumo de DNS - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 ## Consulte Também
 
