@@ -96,7 +96,6 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
 3.  Na página **Definir os computadores neste pool**, insira um FQDN do computador para o primeiro Servidor Front-End no pool, depois clique em **Adicionar**. Repita esta etapa para qualquer computador adicional (até doze) que você quer adicionar ao pool, depois clique em **Avançar**.
 
 4.  
-    
     Na página **Selecionar recursos**, marque as caixas de seleção para os recursos que você deseja neste pool de front-ends. Por exemplo, se você estiver implantando somente mensagens instantâneas (IM) e recursos de presença, marque a caixa de seleção **Conferência** para permitir IM com várias partes, mas não marque as caixas de seleção **Conferência discada (PSTN)**, **Enterprise Voice** ou **Controle de Admissão de Chamadas**, porque representam recursos de conferência de voz, vídeo e colaboração.
     
       - **Conferência** Esta seleção habilita um rico conjunto de recursos, incluindo:

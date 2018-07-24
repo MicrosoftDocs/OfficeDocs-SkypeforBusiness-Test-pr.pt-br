@@ -90,9 +90,12 @@ Quando a configuração de endereço IP for alterada para uma implantação do L
 
 Para solucionar esse problema, reinicie os serviços do Lync Server após alterar a configuração dos endereços de IP da implantação. Para isso, execute os cmdlets a seguir no Shell de Gerenciamento do Lync Server:
 
+```
     Stop-CsWindowsService -graceful
-
+```
+```
     Start-CsWindowsService
+```
 
 ## O cmdlet de transação sintética de conferência discada não está mais disponível no Pacote de Gerenciamento do Lync Server 2013 (3212342)
 

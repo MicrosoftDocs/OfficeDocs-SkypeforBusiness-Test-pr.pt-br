@@ -57,15 +57,17 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 
 3.  Use o cmdlet **Install-CsDatabase** para instalar o Repositório de Gerenciamento Central.
     
+```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    
+```    
 
-    > [!TIP]
-    > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
+> [!TIP]
+> O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 
 
@@ -101,15 +103,19 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 
 4.  Use o cmdlet **Install-CsDatabase** para instalar os bancos de dados configurados por Construtor de Topologias.
     
+```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
     
+```
 
-    > [!TIP]
-    > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
+
+> [!TIP]
+> O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 
 

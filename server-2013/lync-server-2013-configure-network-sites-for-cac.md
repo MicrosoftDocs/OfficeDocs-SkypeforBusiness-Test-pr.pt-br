@@ -55,11 +55,15 @@ Para exibir a topologia de rede de exemplo, consulte [Exemplo: Coletando seus re
 
 2.  Execute o cmdlet **New-CsNetworkSite** para criar sites de rede e aplicar um perfil de política de largura de banda para cada site. Por exemplo, execute:
     
+```
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    
+```
+```    
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    
+```
+```    
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+```
 
 3.  Para concluir a criação de sites de rede para a topologia de exemplo, repita a etapa 2 para os sites de rede com restrição de largura de banda nas regiões EMEA e APAC.
 

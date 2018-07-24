@@ -77,9 +77,12 @@ O controle de chamada remota exige que cada pool do Lync Server seja configurado
 
 4.  Para manter um roteamento estático recém-criado no Repositório de Gerenciamento Central, execute um dos seguintes conforme apropriado:
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
+    ```
+            Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## Consulte Também
 

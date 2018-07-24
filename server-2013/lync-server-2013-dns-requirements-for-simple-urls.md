@@ -150,13 +150,16 @@ Se você tiver múltiplos sites que contenham Pools de Front-Ends e seu provedor
 
 Para fazer essa configuração, crie dois endereços de GeoDNS. Cada endereço contém dois registros DNS A ou CNAME que são decompostos em dois pools que são unidos para fins de recuperação de desastres. Um endereço de GeoDNS é usado para acesso interno e é decomposto no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. O outro endereço GeoDNS é usado para acesso externo e é decomposto no FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools. Veja a seguir um exemplo da URL simples Meet, usando os FQDNs dos pools:
 
+```
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
-
+```
+```
     Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
+```
 
 Em seguida, crie registros CNAME que decomponham sua URL simples Meet (como meet.contoso.com) nos dois endereços de GeoDNS.
 
@@ -180,8 +183,12 @@ Você pode definir a mesma configuração para a URL simples Dial-In. Para isso,
 
 Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir o monitoramento de HTTP para rastrear as falhas. Para acesso externo, monitore para ter certeza de que as solicitações de autodetecção HTTPS GET para o FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools sejam bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
 
+```
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
+```    
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Para acesso interno, é preciso monitorar a porta 5061 no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. Se alguma falha de conectividade for detectada, o VIP desses pools deverão fechar as portas 80, 443 e 444.
 

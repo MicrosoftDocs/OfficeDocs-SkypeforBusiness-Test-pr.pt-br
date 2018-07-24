@@ -40,9 +40,12 @@ Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativ
     
       - Em suas implantações locais, no Shell de Gerenciamento do Lync Server, digite os cmdlets a seguir para criar o provedor de host para o Lync Online:
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
+    ```
+                Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+    ```
+    ```        
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+    ```
 
 2.  Confirme se, nos Servidores de Borda locais, você possui a cadeia de certificados que possibilita a conexão ao Lync Online, conforme mostra a tabela a seguir. A tabela está disponível para download aqui: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     

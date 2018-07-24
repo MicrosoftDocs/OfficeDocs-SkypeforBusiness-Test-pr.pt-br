@@ -51,15 +51,21 @@ _**Tópico modificado em:** 2013-02-21_
 
 10. Force o usuário e os dados de conferência de ambos os pools para sincronização um com o outro, com os seguintes cmdlets:
     
+```
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
+```
+```    
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    
+```
+
     A sincronização dos dados pode levar algum tempo. É possível usar os seguintes cmdlets para verificar o status. Certifique-se de que o status em ambas as direções esteja em um estado estável.
     
+```
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
+```
+```    
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+```
 
 <table>
 <thead>

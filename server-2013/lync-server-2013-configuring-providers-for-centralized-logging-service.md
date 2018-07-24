@@ -144,9 +144,12 @@ Em que cada provedor definido com a diretiva Add já foi definido com o uso do p
 
 2.  Os cmdlets fornecidos permitem que você atualize os provedores existentes e crie novos provedores. Para remover um provedor, você precisa usar a diretiva Replace do parâmetro Provider para **Set-CsClsScenario**. A única maneira de remover completamente um provedor é substituí-lo por um provedor redefinido com o mesmo nome e usar a diretiva Update. Por exemplo, nosso provedor LyssProvider está definido com o tipo de log WPP, o nível definido para Debug e os sinalizadores definidos como TF\_CONNECTION e TF\_DIAG. Você precisa alterar os sinalizadores para "All". Para alterar o provedor, digite o seguinte:
     
+```
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
+```
+```    
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+```
 
 3.  Se você desejar remover completamente um cenário e os provedores associados a ele, digite o seguinte:
     

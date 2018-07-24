@@ -39,9 +39,12 @@ Se estiver implementando federação de áudio/vídeo (A/V) com o Windows Live M
 
 2.  No prompt de comando, digite os comandos a seguir:
     
+    ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
+    ```
+    ```    
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
     
     <table>
     <thead>

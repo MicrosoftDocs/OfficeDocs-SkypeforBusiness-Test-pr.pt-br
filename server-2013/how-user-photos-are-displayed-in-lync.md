@@ -193,13 +193,18 @@ A opção **Mostrar imagem de um site** é disponibilizada no Lync 2013 depois q
 
 Você pode definir a política do cliente para habilitar a configuração **Mostrar imagem de um site** executando a política [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) no Shell de Gerenciamento do Lync Server. Os cmdlets de exemplo a seguir demonstram como definir a política globalmente para todos os usuários na sua implantação:
 
+```
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
+```
+```
     $po=Get-CsClientPolicy -Identity Global
-
+```
+```
     $po.PolicyEntry.Add($pe)
-
+```
+```
     Set-CsClientPolicy -Instance $po
+```
 
 Quando uma imagem é carregada para a caixa de correio do usuário, o Exchange cria automaticamente uma versão de resolução mais baixa da imagem, que pode ser usada nos aplicativos cliente. A foto de usuário também é atualizada no AD DS.
 

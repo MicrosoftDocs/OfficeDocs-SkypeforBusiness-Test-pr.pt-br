@@ -45,10 +45,13 @@ Para detalhes sobre como configurar objetos de contato, consulte a documentaçã
 
 2.  Execute o cmdlet New-CsExUmContact para criar objetos de contato obrigatórios para a sua implantação. Por exemplo, para criar um objeto de contato no AA e um no SA, execute:
     
+    ```
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
+    ```
+    ```    
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
-    
+    ```
+
     Estes exemplos definem os seguintes parâmetros:
     
       - **SipAddress** especifica o endereço SIP do objeto de contato. Este deve ser um endereço que ainda não tenha sido usado para configurar um objeto de contato ou de usuário nos Serviços de Domínio do Active Directory. Este valor deve estar no formato “sip:\< *endereço SIP* \>“, conforme mostrado em exemplos anteriores.

@@ -37,9 +37,12 @@ O cmdlet Update-CsAddressBook substitui o comando **abserver.exe –syncNow** do
 
 Por exemplo:
 
+```
     Update-CsAddressBook
-
+```
+```
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
 
 Para uma descrição detalhada do comando completo, consulte o seguinte na referência principal do Lync Server Windows PowerShell RTCCmdlets.
 

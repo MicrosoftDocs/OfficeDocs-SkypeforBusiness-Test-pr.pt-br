@@ -71,9 +71,12 @@ Quando você configura políticas de suporte de parceiros federados XMPP (extens
 
 17. Após receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do Servidor de Borda. Você faz isso digitando no console do Gerenciamento do Lync Server:
     
+```
         Stop-CsWindowsService
-    
+```
+```    
         Start-CsWindowsService
+```
 
 ## Configurar um novo Gateway XMPP do Lync Server 2013
 
