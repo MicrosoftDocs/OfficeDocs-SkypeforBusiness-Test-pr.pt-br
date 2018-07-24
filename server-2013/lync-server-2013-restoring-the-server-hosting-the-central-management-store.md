@@ -21,19 +21,8 @@ Para encontrar o pool onde o Servidor de Gerenciamento Central está localizado,
 
 Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Server estiver em um banco de dados espelhado que ainda é funcional, recomendamos que você faça back-up do espelho ainda funcional e, então, faça uma restauração completa no banco de dados principal e no espelhado usando este backup ao seguir o procedimento de restauração abaixo. Isso é necessário porque a restauração do Back End requer a modificação e a publicação da topologia, e isso pode ser feito apenas se o banco de dados primário hospedando o CMS estiver operacional. Observe ainda que as funções de banco de dados primário e espelho não podem ser intercambiados se a topologia não puder ser publicada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se um Servidor Back End ou um Servidor Standard Edition que não hospeda o Repositório de Gerenciamento Central falhou, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor de back-end do Enterprise Edition</a> ou <a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor do Standard Edition</a>. Se um servidor de Back End que hospeda o repositório de Gerenciamento Central estiver em uma configuração espelhada e esse espelho falhar, consulte <a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado – espelho</a>. Se qualquer outro servidor tiver falhado, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro do Enterprise Edition</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se um Servidor Back End ou um Servidor Standard Edition que não hospeda o Repositório de Gerenciamento Central falhou, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor de back-end do Enterprise Edition</a> ou <a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor do Standard Edition</a>. Se um servidor de Back End que hospeda o repositório de Gerenciamento Central estiver em uma configuração espelhada e esse espelho falhar, consulte <a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado – espelho</a>. Se qualquer outro servidor tiver falhado, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro do Enterprise Edition</a>.
 
 
 > [!TIP]
@@ -45,37 +34,15 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
 
 1.  Inicie com um servidor novo ou limpo que tenha o mesmo FQDN (nome de domínio totalmente qualificado) que o computador que falhou, instale o sistema operacional e, em seguida, restaure ou registre novamente os certificados.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Siga os procedimentos de implantação do servidor da organização para executar esta etapa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Siga os procedimentos de implantação do servidor da organização para executar esta etapa.
 
 2.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins e da Administração Local, faça logon no servidor que você está restaurando.
 
 3.  Se você estiver restaurando um Servidor Standard Edition, restaure o Repositório de Arquivos, copiando o Repositório de Arquivos apropriado de $Backup para o local Repositório de Arquivos no servidor e, em seguida, compartilhe a pasta.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O caminho e o nome de arquivo para o Repositório de Arquivos restaurado deve ser exatamente o mesmo que o Repositório de Arquivos do backup para que os componentes que usam arquivos possam acessá-los.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > O caminho e o nome de arquivo para o Repositório de Arquivos restaurado deve ser exatamente o mesmo que o Repositório de Arquivos do backup para que os componentes que usam arquivos possam acessá-los.
 
 4.  Siga um destes procedimentos:
     
@@ -83,19 +50,8 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     
       - Se você estiver instalando um Servidor Back-End Corporativo, instale o SQL Server 2012, o SQL Server 2012 R2 ou o SQL Server 2008 R2, mantendo os nomes de instância iguais estavam antes da falha.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Dependendo do servidor que você está restaurando e da sua implantação, o servidor pode incluir vários bancos de dados colocados ou separados. Siga o mesmo procedimento para instalar o SQL Server que você usou originalmente para implantar o servidor, incluindo permissões de SQL Server e logons.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Dependendo do servidor que você está restaurando e da sua implantação, o servidor pode incluir vários bancos de dados colocados ou separados. Siga o mesmo procedimento para instalar o SQL Server que você usou originalmente para implantar o servidor, incluindo permissões de SQL Server e logons.
 
 5.  De um Servidor de Front End, Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
@@ -115,19 +71,8 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você perder o ponto de conexão, poderá executar esse cmdlet novamente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se você perder o ponto de conexão, poderá executar esse cmdlet novamente.
 
 8.  Importe os dados do Repositório de Gerenciamento Central de $Backup. Na linha de comando, digite:
     
@@ -141,19 +86,8 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Após habilitar a topologia, você pode encontrar o documento da topologia no banco de dados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Após habilitar a topologia, você pode encontrar o documento da topologia no banco de dados.
 
 10. Se você estiver restaurando um Enterprise EditionServidor Back-End que também hospedou o CMS, ou precisa recriar um espelho do CMS, siga essas etapas. Caso contrário, pule para a etapa 11.
     
@@ -169,19 +103,8 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     
     5.  Siga o assistente **Instalar banco de dados**. Se você estiver restaurando um banco de dados diferente do Repositório de Gerenciamento Centralneste servidor, na página **Criar bancos de dados**, selecione os bancos de dados que deseja recriar.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Somente bancos de dados autônomos são exibidos na página <strong>Criar bancos de dados</strong>. Os bancos de dados colocados são criados quando você executa o Assistente de Implantação do Lync Server.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Somente bancos de dados autônomos são exibidos na página <strong>Criar bancos de dados</strong>. Os bancos de dados colocados são criados quando você executa o Assistente de Implantação do Lync Server.    
     6.  Se você estiver restaurando um Servidor de Back End que era espelhado, continue a seguir o assistente até que a solicitação Criar banco de dados espelhado apareça. Selecione o banco de dados que deseja instalar e conclua o processo.
     
     7.  Siga o restante do assistente e clique em **Concluir**.

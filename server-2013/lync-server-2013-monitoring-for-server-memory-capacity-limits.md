@@ -37,19 +37,8 @@ Para determinar os limites apropriados, é preciso primeiro determinar quanto de
 
 Memória total usada pelo Serviço de mobilidade Mcx (MB) = 164 + (400 + 134) / 1024 \* **Contagem atual de sessão ativa com assinaturas de presença ativa** + 400 / 1024 \* (**Contagem atual de sessão ativa** – **Contagem atual de sessão ativa com assinaturas de presença ativa**)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A Calculadora de capacidade do Microsoft Lync Server 2010 é uma planilha que é pré-populada com todas as fórmulas que permitem um planejador determinar quais requisitos ser~~ao necessários para os servidores, incluindo CPU, memória e disco rígido. Você pode baixar a planilha e o documento associado em: <a href="http://go.microsoft.com/fwlink/?linkid=212657" class="uri">http://go.microsoft.com/fwlink/?linkid=212657</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> A Calculadora de capacidade do Microsoft Lync Server 2010 é uma planilha que é pré-populada com todas as fórmulas que permitem um planejador determinar quais requisitos ser~~ao necessários para os servidores, incluindo CPU, memória e disco rígido. Você pode baixar a planilha e o documento associado em: <a href="http://go.microsoft.com/fwlink/?linkid=212657" class="uri">http://go.microsoft.com/fwlink/?linkid=212657</a>
 
 O Servidor Front-End precisa de memória suficiente disponível para dar suporte ao Serviço de mobilidade em situações de failover. Você pode monitorar a memória disponível atualmente no Servidor Front-End usando o contador **Memória\\Mbytes disponíveis**, ou usar a equação mencionada anteriormente para planejar a quantidade de memória que você espera que o Serviço de mobilidade use.
 

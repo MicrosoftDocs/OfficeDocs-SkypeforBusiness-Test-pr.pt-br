@@ -19,45 +19,22 @@ O Lync Web App é um cliente Web dos IIS (Serviços de Informação da Internet)
 
 Os recursos de voz, vídeo e compartilhamento no Lync Web App requerem um controle Microsoft ActiveX. Você pode instalar o controle ActiveX antecipadamente ou permitir que os usuários o instalem quando solicitado, o que ocorre na primeira vez em que usam o Lync Web App ou na primeira vez que acessam um recurso que requer o controle ActiveX.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nas implantações do Servidor de borda do Lync Server 2013, um proxy HTTPS reverso na rede de perímetro é necessário para o acesso do cliente do Lync Web App. Também é necessário publicar URLs simples. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a> e <a href="lync-server-2013-planning-for-simple-urls.md">Planejamento de URLs simples no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Nas implantações do Servidor de borda do Lync Server 2013, um proxy HTTPS reverso na rede de perímetro é necessário para o acesso do cliente do Lync Web App. Também é necessário publicar URLs simples. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a> e <a href="lync-server-2013-planning-for-simple-urls.md">Planejamento de URLs simples no Lync Server 2013</a>.
 
 ## Habilitando a autenticação multifator para o Lync Web App
 
 A versão do Lync Web App no Lync Server 2013 oferece suporte à autenticação multifator. Além do nome de usuário e da senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários que estar entrando a partir de redes externas ao entrarem em reuniões do Lync. Você pode habilitar a autenticação multifator implantando o servidor de federação do AD FS (Serviço de Federação do Active Directory) e habilitando a autenticação passiva no Lync Server 2013. Depois que o AD FS é configurado, os usuários externos que tentam participar das reuniões do Lync são apresentados a uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e a senha, juntamente com quaisquer métodos de autenticação adicionais que tiver configurado.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As considerações a seguir são importantes se você deseja planejar a configuração do AD FS para a autenticação multifator:
-<ul>
-<li><p>A autenticação do ADFS de vários fatores funciona se o participante da reunião e o organizador estiverem na mesma organização ou forem de uma organização federada do AD FS. A autenticação do ADFS de vários fatores não funciona para usuários federados do Lync porque a infraestrutura da Web do servidor do Lync não dà suporte à ela atualmente.</p></li>
-<li><p>Se você usa balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as solicitações do cliente do Lync Web App sejam manipuladas pelo mesmo cookie de Servidor front-end.</p></li>
-<li><p>Ao estabelecer uma parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para considerar a duração máxima de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</p></li>
-<li><p>Esta configuração não se aplica aos clientes móveis do Lync.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> As considerações a seguir são importantes se você deseja planejar a configuração do AD FS para a autenticação multifator:<ul>
+> <li><p>A autenticação do ADFS de vários fatores funciona se o participante da reunião e o organizador estiverem na mesma organização ou forem de uma organização federada do AD FS. A autenticação do ADFS de vários fatores não funciona para usuários federados do Lync porque a infraestrutura da Web do servidor do Lync não dà suporte à ela atualmente.</p></li>
+> <li><p>Se você usa balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as solicitações do cliente do Lync Web App sejam manipuladas pelo mesmo cookie de Servidor front-end.</p></li>
+> 
+> <li><p>Ao estabelecer uma parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para considerar a duração máxima de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</p></li>
+> 
+> 
+> <li><p>Esta configuração não se aplica aos clientes móveis do Lync.</p></li></ul>
 
 
 **Configurar a autenticação multifator**
@@ -111,19 +88,8 @@ Se a instalação do plug-in falhar em um computador com Windows Server 2008 R
 
 4.  Desmarque **Não salvar páginas criptografadas no disco** e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se estiver selecionada, esta configuração também causará um erro ao tentar baixar um anexo de Lync Web App.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se estiver selecionada, esta configuração também causará um erro ao tentar baixar um anexo de Lync Web App.
 
 5.  Reingresse na reunião. O download do plug-in deve ocorrer sem erros.
 

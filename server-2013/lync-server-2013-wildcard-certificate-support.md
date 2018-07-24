@@ -54,19 +54,8 @@ As funções do servidor que não são abordadas neste tópico:
 
   - Servidor de Borda interno
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.
 
 Para obter detalhes sobre o uso de certificados no Exchange, consulte o seguinte:
 

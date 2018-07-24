@@ -64,19 +64,8 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
 
 7.  Em **Atribuir políticas**, em **Política de versão do cliente**, faça um dos seguintes:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.    
       - Permita que o Lync Server escolha automaticamente a política a nível global ou, se definida, a política a nível local ou a nível do pool.
     
       - Clique no nome de uma política de versão do cliente por usuário definida anteriormente na página **Política de versão do cliente**.

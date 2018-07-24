@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2013-11-07_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao executar o Assistente de Certificado, certifique-se de que você está conectado usando uma conta que seja membro de um grupo ao qual tenham sido atribuídas as permissões apropriadas para o tipo de modelo de certificado que será utilizado. Por padrão, uma solicitação de certificado do Lync Server 2013 utilizará o modelo de certificado do Servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Ao executar o Assistente de Certificado, certifique-se de que você está conectado usando uma conta que seja membro de um grupo ao qual tenham sido atribuídas as permissões apropriadas para o tipo de modelo de certificado que será utilizado. Por padrão, uma solicitação de certificado do Lync Server 2013 utilizará o modelo de certificado do Servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.
 
 Um único certificado é necessário na interface interna de cada Servidor de Borda. Os certificados para a interface interna podem ser emitidos por uma autoridade de certificação empresarial interna ou por uma autoridade de certificação pública. Se a sua organização tiver uma autoridade de certificação interna implantada, poderá diminuir as despesas de uso de certificados públicos utilizando a autoridade de certificação interna para emitir o certificado para a interface interna. Você pode usar uma autoridade de certificação interna do Windows Server 2008 ou uma autoridade de certificação do Windows Server 2008 R2 para criar esses certificados.
 
@@ -49,21 +38,8 @@ Para configurar certificados na interface da borda interna em um site, use os pr
 
 Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de borda de múltiplos locais) ou conjuntos separados de Servidores de Borda implantados por trás de diferentes balanceadores de carga, é necessário seguir estas etapas para cada local que possua Servidores de Borda e para cada conjunto de Servidores de Borda implantados por trás de um balanceador de carga diferente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As etapas dos procedimentos nesta seção são baseadas na utilização de uma AC do Windows Server 2008, AC do Windows Server 2012, AC do Windows Server 2008 R2 ou AC do Windows Server 2012 R2 para criar um certificado para cada Servidor de Borda. Para uma orientação passo a passo para qualquer outra AC, consulte a documentação para aquela AC. Por padrão, todos os usuários autenticados possuem os direitos de usuário apropriados para solicitar certificados.<br />
-Os procedimentos nesta seção são baseados na criação de solicitações de certificado no Servidor de Borda como parte do processo de implantação do Servidor de Borda. É possível criar solicitações de certificado usando o Servidor Front End. Faça isso para concluir a solicitação do certificado mais cedo no processo de planejamento e implantação, antes de começar a implantação dos Servidores de Borda. Para isso, você deve garantir que o certificado a ser solicitado é definido como uma chave privada que pode ser exportada.<br />
-Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um arquivo .p7b para o certificado. Se você usa um tipo diferente de arquivo, modifique estes procedimentos de acordo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> As etapas dos procedimentos nesta seção são baseadas na utilização de uma AC do Windows Server 2008, AC do Windows Server 2012, AC do Windows Server 2008 R2 ou AC do Windows Server 2012 R2 para criar um certificado para cada Servidor de Borda. Para uma orientação passo a passo para qualquer outra AC, consulte a documentação para aquela AC. Por padrão, todos os usuários autenticados possuem os direitos de usuário apropriados para solicitar certificados.<br />Os procedimentos nesta seção são baseados na criação de solicitações de certificado no Servidor de Borda como parte do processo de implantação do Servidor de Borda. É possível criar solicitações de certificado usando o Servidor Front End. Faça isso para concluir a solicitação do certificado mais cedo no processo de planejamento e implantação, antes de começar a implantação dos Servidores de Borda. Para isso, você deve garantir que o certificado a ser solicitado é definido como uma chave privada que pode ser exportada.<br />Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um arquivo .p7b para o certificado. Se você usa um tipo diferente de arquivo, modifique estes procedimentos de acordo.
 
 ## Para fazer download da cadeia de certificação da AC para a interface interna usando o website certsrv
 
@@ -77,19 +53,8 @@ Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um 
     
         https://ca01.contoso.net/certsrv
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se estiver usando uma AC do Windows Server 2008 ou Windows Server 2008 R2 Enterprise, você deve usar https, não http.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se estiver usando uma AC do Windows Server 2008 ou Windows Server 2008 R2 Enterprise, você deve usar https, não http.
 
 3.  Na página web certsrv da AC emissora, em **Selecione uma tarefa**, clique em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**.
 
@@ -99,19 +64,8 @@ Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um 
 
 6.  Salve o arquivo .p7b na unidade de disco rígido e copie-o para uma pasta em cada Servidor de Borda.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O arquivo .p7b contém todos os certificados existentes no caminho de certificação. Para exibir o caminho de certificação, abra o certificado do servidor e clique no caminho de certificação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O arquivo .p7b contém todos os certificados existentes no caminho de certificação. Para exibir o caminho de certificação, abra o certificado do servidor e clique no caminho de certificação.
 
 ## Para importar a cadeia de certificação da AC para a interface interna usando MMC
 
@@ -157,20 +111,8 @@ Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um 
 
 1.  Em um dos Servidores de Borda, inicie o Assistente de Implantação e na **Etapa 3: Solicitar, Instalar ou Ceder Certificados**, clique em **Executar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se houver vários Servidores de Borda em uma localização em um pool, você pode executar o Assistente de Certificado em qualquer um deles.<br />
-    Depois de executar a Etapa 3 pela primeira vez, o botão é alterado para <strong>Executar novamente</strong> e uma marca de seleção verde que indica a conclusão bem sucedida da tarefa não é exibida até que todos os certificados tenham sido solicitados, instalados e cedidos.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se houver vários Servidores de Borda em uma localização em um pool, você pode executar o Assistente de Certificado em qualquer um deles.<br />    Depois de executar a Etapa 3 pela primeira vez, o botão é alterado para <strong>Executar novamente</strong> e uma marca de seleção verde que indica a conclusão bem sucedida da tarefa não é exibida até que todos os certificados tenham sido solicitados, instalados e cedidos.
 
 2.  Na página **Tarefas de Certificado Disponíveis**, clique em **Criar uma nova solicitação de certificado**.
 
@@ -188,19 +130,8 @@ Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um 
     
       - Em **Comprimento de bit**, especifique o comprimento de bit (normalmente o padrão de **2048** ).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Comprimentos de bit mais altos oferecem mais segurança, mas causam um impacto negativo sobre a velocidade.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Comprimentos de bit mais altos oferecem mais segurança, mas causam um impacto negativo sobre a velocidade.    
       - Se for necessário que o certificado seja exportável, marque a opção **Marcar chave privada do certificado como exportável**.
 
 8.  Na página **Informações da Organização**, digite o nome da organização e da unidade organizacional (UO) (por exemplo, uma divisão ou departamento).
@@ -255,37 +186,15 @@ Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um 
 
 6.  Dê um duplo clique em **Certificados (Computador Local)** para expandir o repositório de certificados. Dê um duplo clique em **Pessoal** e em **Certificados**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se não houver certificados no repositório Certificados Pessoais para o computador local, não existe chave privada associada ao certificado importado. Analise a solicitação e as etapas de importação. Se o problemas persistir, entre em contato com o administrador ou fornecedor da sua autoridade de certificação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se não houver certificados no repositório Certificados Pessoais para o computador local, não existe chave privada associada ao certificado importado. Analise a solicitação e as etapas de importação. Se o problemas persistir, entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
 7.  No repositório Certificados Pessoais para o computador local, clique com o botão direito no certificado que está exportando. Clique em **Todas as Tarefas** e em **Exportar**.
 
 8.  No Assistente de Exportação de Certificado, clique em **Avançar**. Selecione **Sim, exportar a chave privada**. Clique em **Avançar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se a opção <strong>Sim, exportar a chave privada</strong> não estiver disponível, a chave privada associada a este certificado não foi marcada para exportação. Será necessário solicitar o certificado novamente, garantindo que esteja marcado para permitir a exportação da chave privada antes de dar continuidade à exportação. Entre em contato com o administrador ou fornecedor da sua autoridade de certificação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se a opção <strong>Sim, exportar a chave privada</strong> não estiver disponível, a chave privada associada a este certificado não foi marcada para exportação. Será necessário solicitar o certificado novamente, garantindo que esteja marcado para permitir a exportação da chave privada antes de dar continuidade à exportação. Entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
 9.  Na caixa de diálogo Exportar Formatos de Arquivo, selecione **Troca de Informações Pessoais - PKCS\#12 (.PFX)** e selecione:
     

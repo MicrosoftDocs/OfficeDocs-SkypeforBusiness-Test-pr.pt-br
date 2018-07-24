@@ -35,37 +35,15 @@ Se o Repositório de Gerenciamento Central falhar, consulte [Restaurar o servido
 
 1.  Comece com um servidor limpo ou novo que tenha o mesmo nome de domínio totalmente qualificado (FQDN) que o computador que falhou, instale o sistema operacional e restaure ou registre novamente os certificados.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Siga os procedimentos de implantação de servidor da sua organização para realizar essa etapa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Siga os procedimentos de implantação de servidor da sua organização para realizar essa etapa.
 
 2.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins, faça logon no servidor que você está restaurando.
 
 3.  Instale o SQL Server 2012 ou o SQL Server 2008 R2, mantendo os nomes de instância iguais a antes da falha.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dependendo da sua implantação, o Servidor de Back End pode incluir vários bancos de dados colocados ou separados. Siga o mesmo procedimento para instalar o SQL Server que você usou originalmente para implantar o servidor, incluindo as permissões e os logins do SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Dependendo da sua implantação, o Servidor de Back End pode incluir vários bancos de dados colocados ou separados. Siga o mesmo procedimento para instalar o SQL Server que você usou originalmente para implantar o servidor, incluindo as permissões e os logins do SQL Server.
 
 4.  Depois de instalar o SQL Server, realize o seguinte:
     
@@ -79,19 +57,8 @@ Se o Repositório de Gerenciamento Central falhar, consulte [Restaurar o servido
     
     5.  Siga o assistente de **Publicar Topologia**. Na página **Criar bancos de dados**, selecione os bancos de dados que você deseja recriar.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Somente bancos de dados autônomos são exibidos na página <strong>Criar bancos de dados</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Somente bancos de dados autônomos são exibidos na página <strong>Criar bancos de dados</strong>.    
     6.  Se você estiver restaurando um Back End que era espelhado, continue a seguir o assistente até que a solicitação **Criar banco de dados espelhado** apareça. Selecione o banco de dados que deseja instalar e conclua o processo.
     
     7.  Siga o restante do assistente e clique em **Concluir**.

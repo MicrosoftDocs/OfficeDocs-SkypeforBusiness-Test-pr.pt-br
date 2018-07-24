@@ -27,19 +27,8 @@ Você pode utilizar o seguinte procedimento para visualizar uma sub-rede da rede
 
 4.  Na página de **Sub-rede**, clique na sub-rede que deseja visualizar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você só pode visualizar uma sub-rede por vez.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você só pode visualizar uma sub-rede por vez.
 
 5.  No menu **Editar**, clique em **Exibir detalhes…**.
 

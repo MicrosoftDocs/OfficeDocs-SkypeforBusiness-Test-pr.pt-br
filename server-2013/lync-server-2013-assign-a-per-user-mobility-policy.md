@@ -58,19 +58,8 @@ A política de mobilidade é uma das configurações individuais de uma conta de
 
 7.  Em **Atribuir políticas**, em **Política de mobilidade**, siga um destes procedimentos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como há várias políticas que você pode configurar em <strong>Atribuir políticas</strong>, <strong>&lt;Manter&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue a usar a política atribuída anteriormente ao usuário sem realizar alterações nesta configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Como há várias políticas que você pode configurar em <strong>Atribuir políticas</strong>, <strong>&lt;Manter&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue a usar a política atribuída anteriormente ao usuário sem realizar alterações nesta configuração.    
       - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
     
       - Clique no nome de uma política de mobilidade por usuário definida anteriormente na página **Política de mobilidade**.

@@ -25,20 +25,8 @@ Inicialmente, você configurou as políticas de arquivamento quando implantou o 
 
 Para obter detalhes sobre como as políticas são implementadas, incluindo a hierarquia das políticas, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na Documentação de planejamento, Documentação de implantação ou Documentação de operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para controlar a implementação do arquivamento, você deve especificar opções nas configurações de arquivamento, como se deve arquivar mensagens instantâneas ou conferências, o uso do modo crítico e as opções de limpeza. Por padrão, nenhuma opção está habilitada na configuração de arquivamento global ou em qualquer configuração de arquivamento no site ou no pool. Você deve especificar todas as opções apropriadas nas configurações de arquivamento antes de habilitar o arquivamento para as comunicações internas ou externas nas políticas de arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na Documentação de operações.<br />
-Se você habilitar a integração do Microsoft Exchange para a sua implantação, as políticas do Exchange controlarão se o arquivamento estará habilitado para os usuários que estiverem hospedados no Exchange 2013 e possuírem suas caixas de correio colocadas em bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na Documentação de implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para controlar a implementação do arquivamento, você deve especificar opções nas configurações de arquivamento, como se deve arquivar mensagens instantâneas ou conferências, o uso do modo crítico e as opções de limpeza. Por padrão, nenhuma opção está habilitada na configuração de arquivamento global ou em qualquer configuração de arquivamento no site ou no pool. Você deve especificar todas as opções apropriadas nas configurações de arquivamento antes de habilitar o arquivamento para as comunicações internas ou externas nas políticas de arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na Documentação de operações.<br />Se você habilitar a integração do Microsoft Exchange para a sua implantação, as políticas do Exchange controlarão se o arquivamento estará habilitado para os usuários que estiverem hospedados no Exchange 2013 e possuírem suas caixas de correio colocadas em bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na Documentação de implantação.
 
 ## Para criar uma política de arquivamento para um site ou usuário
 
@@ -66,19 +54,8 @@ Se você habilitar a integração do Microsoft Exchange para a sua implantação
 
 6.  Clique em **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicar uma política de arquivamento aos usuários</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicar uma política de arquivamento aos usuários</a>
 
 ## Criando uma nova política de arquivamento usando cmdlets Shell de Gerenciamento do Lync Server
 

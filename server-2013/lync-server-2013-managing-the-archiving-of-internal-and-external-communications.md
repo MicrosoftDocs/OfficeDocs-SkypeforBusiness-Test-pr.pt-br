@@ -25,20 +25,8 @@ Você inicialmente configura políticas de arquivamento quando implanta o arquiv
 
 Para obter detalhes sobre como as políticas são implementadas, incluindo a hierarquia das políticas, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) nas documentações de planejamento, implantação e operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para controlar a implementação do arquivamento, você deve especificar opções nas configurações de arquivamento, como se mensagens instantâneas e conferências serão arquivadas, o uso do modo crítico e as opções de limpeza. Por padrão, nenhuma opção é habilitada na configuração de arquivamento global nem em qualquer configuração de arquivamento de site ou pool. Você deve especificar todas as opções desejadas nas configurações de arquivamento antes de habilitar o arquivamento das comunicações internas e externas nas políticas de arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de operações.<br />
-Se você habilitar a integração do Microsoft Exchange para sua implantação, as políticas do Exchange controlarão se o arquivamento será habilitado para os usuários que estão hospedados no Exchange 2013 e cujas caixas de correio estão em Bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para controlar a implementação do arquivamento, você deve especificar opções nas configurações de arquivamento, como se mensagens instantâneas e conferências serão arquivadas, o uso do modo crítico e as opções de limpeza. Por padrão, nenhuma opção é habilitada na configuração de arquivamento global nem em qualquer configuração de arquivamento de site ou pool. Você deve especificar todas as opções desejadas nas configurações de arquivamento antes de habilitar o arquivamento das comunicações internas e externas nas políticas de arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de operações.<br />Se você habilitar a integração do Microsoft Exchange para sua implantação, as políticas do Exchange controlarão se o arquivamento será habilitado para os usuários que estão hospedados no Exchange 2013 e cujas caixas de correio estão em Bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de implantação.
 
 ## Nesta seção
 

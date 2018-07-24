@@ -23,19 +23,8 @@ Os tópicos a seguir oferecem instruções sobre como encerrar pools e como desa
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter informações sobre como migrar e atualizar aplicativos Microsoft Unified Communications Managed API (UCMA), antes de encerrar o ambiente herdado, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Para obter informações sobre como migrar e atualizar aplicativos Microsoft Unified Communications Managed API (UCMA), antes de encerrar o ambiente herdado, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Nesta seção
 

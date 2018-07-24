@@ -27,19 +27,8 @@ A implantação do Enterprise Voice requer que você:
 
 4.  Abra o design de topologia no Construtor de Topologias, conforme descrito no [Definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) na documentação Implantação.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A instalação do Construtor de Topologias faz parte do processo de implantação do pool interno. Para obter detalhes, consulte <a href="lync-server-2013-install-lync-server-administrative-tools.md">Instalar ferramentas administrativas do Lync Server 2013</a> na documentação Implantação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > A instalação do Construtor de Topologias faz parte do processo de implantação do pool interno. Para obter detalhes, consulte <a href="lync-server-2013-install-lync-server-administrative-tools.md">Instalar ferramentas administrativas do Lync Server 2013</a> na documentação Implantação.
 
 Além disso, você já deve ter implantando o Lync Server, Enterprise Edition nos sites centrais e filiais que correspondem à topologia de referência escolhida para implantação. Não é possível implantar componentes do Enterprise Voice até que você tenha definido, publicado e instalados os arquivos de pelo menos um pool interno, e você precisa usar o Construtor de Topologias para definir e publicar um pool interno.
 
@@ -47,19 +36,8 @@ Para ver as topologias de referência com exemplos de onde as funções de servi
 
 Para ver uma topologia de referência que ilustra e explica uma amostra de implantação de controle de admissão de chamada, incluindo regiões da rede, sites da rede e sub-redes, consulte [Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação Planejamento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para implantar o Enterprise Voice em um site central, continue lendo os tópicos nesta seção. Para implantar o Enterprise Voice em um site filial, vá para <a href="lync-server-2013-deploying-branch-sites.md">Implantando sites de filial no Lync Server 2013</a> na documentação Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Para implantar o Enterprise Voice em um site central, continue lendo os tópicos nesta seção. Para implantar o Enterprise Voice em um site filial, vá para <a href="lync-server-2013-deploying-branch-sites.md">Implantando sites de filial no Lync Server 2013</a> na documentação Implantação.
 
 Esta seção inclui procedimentos para implantações nas quais um Servidor de mediação é colocado em cada Servidor Front-End ou servidor Standard Edition, conforme recomendado, e também para implantações com um pool de Servidor de mediação autônomo.
 

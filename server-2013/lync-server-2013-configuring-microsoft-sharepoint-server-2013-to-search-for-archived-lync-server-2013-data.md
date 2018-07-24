@@ -44,19 +44,8 @@ Depois que os Serviços Web do Exchange tenham sido instalados, você deve confi
     $service.AllowOAuthOverHttp = $False
     $service.Update()
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI de exemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI de exemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1.
 
 Após ter criado o emissor de token e configurado o serviço de token, execute estes comandos, assegurando-se de substituir a URL de seu site do SharePoint pela URL de exemplo http://atl-sharepoint-001:
 
@@ -84,19 +73,8 @@ Depois que a autenticação de servidor a servidor tenha sido estabelecida entre
     $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;eDiscovery&quot; é uma abreviação de &quot;electronic discovery (descoberta eletrônica)&quot;, e normalmente se refere ao processo de pesquisa por itens em arquivos eletrônicos, que possa ser &quot;razoavelmente calculada para levar a provas admissíveis&quot; em tribunal judicial.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> &quot;eDiscovery&quot; é uma abreviação de &quot;electronic discovery (descoberta eletrônica)&quot;, e normalmente se refere ao processo de pesquisa por itens em arquivos eletrônicos, que possa ser &quot;razoavelmente calculada para levar a provas admissíveis&quot; em tribunal judicial.
 
 Quando o novo site estiver pronto, o passo seguinte é configurar o Exchange 2013 para agir como uma fonte de resultados para o SharePoint. Você pode fazer iso completando o procedimento a seguir da página de Administração Central do SharePoint 2013:
 

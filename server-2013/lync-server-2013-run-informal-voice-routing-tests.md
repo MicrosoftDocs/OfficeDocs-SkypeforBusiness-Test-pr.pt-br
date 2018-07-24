@@ -68,12 +68,13 @@ _**Tópico modificado em:** 2012-08-07_
         </thead>
         <tbody>
         <tr class="odd">
-        <td>Os valores dos resultados do teste são usados para pré-preencher os campos na caixa de diálogo <strong>Salvar Informações do Caso de Teste de Roteamento de Voz</strong> da seguinte maneira:
-        <ul>
-        <li><p><strong>Conversão esperada</strong> é pré-preenchida com o valor no campo <strong>Número normalizado</strong>.</p></li>
-        <li><p><strong>Rota esperada</strong> é pré-preenchido com o valor no campo <strong>Primeira rota</strong>.</p></li>
-        <li><p><strong>Registro esperado de uso do PSTN</strong> é pré-preenchido com o valor no campo <strong>Primeiro uso do PSTN</strong>.</p></li>
-        </ul>
+        <td>Os valores dos resultados do teste são usados para pré-preencher os campos na caixa de diálogo <strong>Salvar Informações do Caso de Teste de Roteamento de Voz</strong> da seguinte maneira:        <ul>        
+> <li><p><strong>Conversão esperada</strong> é pré-preenchida com o valor no campo <strong>Número normalizado</strong>.</p></li>        
+> 
+> <li><p><strong>Rota esperada</strong> é pré-preenchido com o valor no campo <strong>Primeira rota</strong>.</p></li>        
+> 
+> 
+> <li><p><strong>Registro esperado de uso do PSTN</strong> é pré-preenchido com o valor no campo <strong>Primeiro uso do PSTN</strong>.</p></li>        </ul>
         Se nenhuma correspondência para qualquer um desses valores for encontrada durante a execução do teste, a entrada do campo correspondente ficará vazia na caixa de diálogo <strong>Salvar Informações do Caso de Teste de Roteamento de Voz</strong>.</td>
         </tr>
         </tbody>
@@ -83,19 +84,8 @@ _**Tópico modificado em:** 2012-08-07_
 
 11. Clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sempre que você criar um caso de teste de roteamento de voz, deverá executar o comando <strong>Confirmar tudo</strong> para publicar o caso de teste. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação Operações.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Sempre que você criar um caso de teste de roteamento de voz, deverá executar o comando <strong>Confirmar tudo</strong> para publicar o caso de teste. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação Operações.
 
 ## Consulte Também
 

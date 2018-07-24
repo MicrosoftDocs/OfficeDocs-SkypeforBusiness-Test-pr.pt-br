@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-07-11_
 
 A seção a seguir descreve como configurar o Lync Server 2013 com as Atualizações Cumulativas de julho de 2013 para dar suporte à autenticação passiva. Depois de habilitada, os usuários do Lync habilitados para a autenticação de dois fatores terão de usar um cartão inteligente físico ou virtual e um PIN válido para se conectar usando o cliente do Lync 2013 com Atualizações Cumulativas de julho de 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que os clientes habilitem a autenticação passiva para o Registrador e para os Serviços Web no nível de serviço. Caso a autenticação passiva esteja habilitada para o Registrador e para os Serviços Web no nível global, é provável que ocorram falhas de autenticação em toda a organização para usuários que não estão se conectando com o cliente de desktop do 2013 com Atualizações Cumulativas de julho de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Recomendamos que os clientes habilitem a autenticação passiva para o Registrador e para os Serviços Web no nível de serviço. Caso a autenticação passiva esteja habilitada para o Registrador e para os Serviços Web no nível global, é provável que ocorram falhas de autenticação em toda a organização para usuários que não estão se conectando com o cliente de desktop do 2013 com Atualizações Cumulativas de julho de 2013.
 
 ## Configuração dos Serviços Web
 

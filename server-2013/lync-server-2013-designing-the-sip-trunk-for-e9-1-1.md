@@ -28,13 +28,8 @@ O Lync Server usa troncos SIP para conectar uma chamada de emergência ao proved
 </thead>
 <tbody>
 <tr class="odd">
-<td>Existem basicamente duas maneiras de implementar um tronco SIP em um ambiente do Lync Server:
-<ul>
-<li><p>Use Servidor de Mediação de hospedagem múltipla que use as interfaces roteadas publicamente direcionadas para o exterior para se comunicar com o provedor do tronco SIP.</p></li>
-<li><p>Use um SBC (Controlador de Borda de Sessão) no local para fornecer um ponto de demarcação seguro entre o Servidor de Mediação e os serviços do provedor de tronco SIP.</p></li>
-</ul>
-Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre SBCs certificados, consulte &quot;Infraestrutura qualificada para Microsoft Lync&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</a>.<br />
-Os provedores de serviços E9-1-1 fornecem acesso a um par de SBCs para redundância. É necessário tomar várias decisões sobre a configuração de topologia e roteamento de chamada do Servidor de Mediação. Você tratará os SBCs como pares iguais e utilizará o roteamento em rodízio para chamadas entre eles ou designará um SBC como primário e outro secundário?</td>
+<td>Existem basicamente duas maneiras de implementar um tronco SIP em um ambiente do Lync Server:<ul><li><p>Use Servidor de Mediação de hospedagem múltipla que use as interfaces roteadas publicamente direcionadas para o exterior para se comunicar com o provedor do tronco SIP.</p></li><li><p>Use um SBC (Controlador de Borda de Sessão) no local para fornecer um ponto de demarcação seguro entre o Servidor de Mediação e os serviços do provedor de tronco SIP.</p></li></ul>
+Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre SBCs certificados, consulte &quot;Infraestrutura qualificada para Microsoft Lync&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</a>.<br />Os provedores de serviços E9-1-1 fornecem acesso a um par de SBCs para redundância. É necessário tomar várias decisões sobre a configuração de topologia e roteamento de chamada do Servidor de Mediação. Você tratará os SBCs como pares iguais e utilizará o roteamento em rodízio para chamadas entre eles ou designará um SBC como primário e outro secundário?</td>
 </tr>
 </tbody>
 </table>

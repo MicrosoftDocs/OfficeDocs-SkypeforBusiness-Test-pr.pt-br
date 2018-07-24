@@ -19,19 +19,8 @@ Uma *política de voz* habilita um conjunto de recursos de chamada e associa um 
 
 O escopo da política de voz pode ser o *Site* (que define os recursos e as permissões padrão de um site de rede) ou *Usuário* (que define os recursos e as permissões a serem atribuídas em uma base por usuário ou por grupo). Os usuários não atribuídos a uma politica de voz serão atribuídos automaticamente à política global, que é a política de voz padrão instalada com o produto.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes, consulte <a href="lync-server-2013-voice-policies.md">Políticas de voz no Lync Server 2013</a> na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para obter detalhes, consulte <a href="lync-server-2013-voice-policies.md">Políticas de voz no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Nesta seção
 

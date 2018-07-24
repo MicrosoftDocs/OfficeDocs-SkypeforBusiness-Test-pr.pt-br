@@ -19,19 +19,8 @@ Após instalar e configurar o Estacionamento de Chamadavocê precisará verifica
 
   - Ligue para um usuário que tenha Estacionamento de Chamada ativado e faça com que o usuário estacione a chamada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você habilitou o Estacionamento de Chamada na política de voz antes de executar esse teste, o usuário estacionando a chamada precisa sair do Lync Server e entrar novamente para poder ver a opção Estacionamento de Chamada na lista de chamada em transferência.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se você habilitou o Estacionamento de Chamada na política de voz antes de executar esse teste, o usuário estacionando a chamada precisa sair do Lync Server e entrar novamente para poder ver a opção Estacionamento de Chamada na lista de chamada em transferência.
 
   - Disque o número de órbita para recuperar a chamada.
 

@@ -37,19 +37,8 @@ Para ativar o Exchange 2013 do Outlook Web Access (OWA) e a integração de mens
     
     No Exchange OWA, verifique se o pool do FQDN também é confiável.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se o seu servidor CAS <em>não</em> estiver alocado no mesmo servidor executando o Exchange 2013 Unified Messaging (UM), pule as etapas restantes neste procedimento e efetue o procedimento “Criar um aplicativo confiável para o servidor CAS Exchange 2013” mais adiante neste tópico. Se o servidor CAS estiver alocado no mesmo servidor que está executando o Exchange 2013 Unified Messaging (UM), complete as etapas deste procedimento e não efetue o procedimento “Criar um aplicativo confiável para o servidor CAS Exchange 2013” mais adiante neste tópico.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se o seu servidor CAS <em>não</em> estiver alocado no mesmo servidor executando o Exchange 2013 Unified Messaging (UM), pule as etapas restantes neste procedimento e efetue o procedimento “Criar um aplicativo confiável para o servidor CAS Exchange 2013” mais adiante neste tópico. Se o servidor CAS estiver alocado no mesmo servidor que está executando o Exchange 2013 Unified Messaging (UM), complete as etapas deste procedimento e não efetue o procedimento “Criar um aplicativo confiável para o servidor CAS Exchange 2013” mais adiante neste tópico.
 
 4.  Execute **Enable-CsTopology**.
 

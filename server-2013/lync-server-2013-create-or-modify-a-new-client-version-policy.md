@@ -25,19 +25,8 @@ Você pode utilizar políticas de versão de cliente para especificar as versõe
 
 3.  Na barra de navegação esquerda, clique em **Clientes**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A guia <strong>Política de Versão de Cliente</strong> está selecionada por padrão.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > A guia <strong>Política de Versão de Cliente</strong> está selecionada por padrão.
 
 4.  Na página **Política de Versão de Cliente**, siga um dos seguintes procedimentos:
     

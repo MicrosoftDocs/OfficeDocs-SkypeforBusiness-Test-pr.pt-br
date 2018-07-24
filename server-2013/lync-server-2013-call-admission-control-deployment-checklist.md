@@ -19,19 +19,8 @@ Consulte a lista de verificação para confirmar se você concluiu todas as tare
 
   - Se um ou mais Servidores de Borda for implantado, cada endereço IP de interface externa precisa ser adicionado à lista de subredes nas configurações de rede, com uma bitmask de 32. Associe também essa sub-rede (endereço IP) ao ID do site de rede para o local geográfico onde o serviço Borda A/V está implantado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Os Servidores de Borda não são necessários para implementar o CAC.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Os Servidores de Borda não são necessários para implementar o CAC.
 
   - Certifique-se de que CAC está habilitado, através do Painel de Controle do Lync Server ou executando o cmdlet conforme especificado no [Habilitar o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-enable-call-admission-control.md).
 

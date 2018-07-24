@@ -25,19 +25,8 @@ Você deve configurar os registros DNS (Domain Name Systems) antes de publicar s
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O nome especificado deve ser idêntico ao nome de computador configurado no servidor. O nome de computador de um computador que não está ingressado em um domínio é, por padrão, um nome curto, não um FQDN. Construtor de Topologias utiliza FQDNs, não nomes curtos. <strong>Utilize apenas caracteres padrão</strong> (incluindo A-Z, a-z, 0-9 e hifens) quando estiver atribuindo FQDNs de seus servidores executando Lync Server, Servidores de Borda e pools. Não use caracteres Unicode nem sublinhados. Caracteres não padrão em um FQDN normalmente não são suportados por um DNS externo e por autoridades de certificação (ACs) públicas (quando o FQDN deve ser atribuído ao SN no certificado).</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> O nome especificado deve ser idêntico ao nome de computador configurado no servidor. O nome de computador de um computador que não está ingressado em um domínio é, por padrão, um nome curto, não um FQDN. Construtor de Topologias utiliza FQDNs, não nomes curtos. <strong>Utilize apenas caracteres padrão</strong> (incluindo A-Z, a-z, 0-9 e hifens) quando estiver atribuindo FQDNs de seus servidores executando Lync Server, Servidores de Borda e pools. Não use caracteres Unicode nem sublinhados. Caracteres não padrão em um FQDN normalmente não são suportados por um DNS externo e por autoridades de certificação (ACs) públicas (quando o FQDN deve ser atribuído ao SN no certificado).
 
 Antes de operar a topologia após sua implantação, certifique-se de que os registros Active Directory e DNS a seguir estão criados (conforme suas necessidades por recursos específicos):
 
@@ -148,19 +137,8 @@ A tabela segue as arquiteturas de referência apresentadas na seção Planejamen
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VIP = Endereço IP virtual para balanceador de carga de hardware</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> VIP = Endereço IP virtual para balanceador de carga de hardware
 
 ## Registros SRV DNS para o Pool de Front-Ends
 

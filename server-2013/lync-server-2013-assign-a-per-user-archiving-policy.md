@@ -64,19 +64,8 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
 
 7.  Na caixa de diálogo **Atribuir Políticas**, sob **Política de arquivamento**, execute um dos seguintes procedimentos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como existem várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, a opção <strong>&lt;Manter como está&gt;</strong> está selecionada por padrão para todas as políticas na caixa de diálogo. Continue usando a política anteriormente atribuída ao usuário simplesmente não alterando esta configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Como existem várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, a opção <strong>&lt;Manter como está&gt;</strong> está selecionada por padrão para todas as políticas na caixa de diálogo. Continue usando a política anteriormente atribuída ao usuário simplesmente não alterando esta configuração.    
       - Permita que o Lync Server 2013 automaticamente escolha entre a política de nível global ou, se estiver definida, a política de nível de site.
     
       - Clique no nome de uma política de arquivamento por usuário definida anteriormente na página **Política de Arquivamento**.

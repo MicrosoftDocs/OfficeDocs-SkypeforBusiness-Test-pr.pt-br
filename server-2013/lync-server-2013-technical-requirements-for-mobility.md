@@ -19,36 +19,13 @@ _**Tópico modificado em:** 2016-12-08_
 
 Os usuários de dispositivos móveis encontram vários cenários de aplicativos de dispositivos móveis que requerem planejamento especial. Por exemplo, um usuário pode começar a usar um aplicativo de celular enquanto estiver fora do trabalho por meio da rede 3G, alternar para rede Wi-Fi corporativa ao chegar no trabalho e alternar para 3G novamente quando deixar o edifício. Você precisa planejar seu ambiente para suportar tais transições da rede e garantir uma experiência de usuário consistente. Esta seção descreve os requisitos de infraestrutura que você precisa atender para oferecer suporte a aplicativos de celular e a descoberta automática de recursos de dispositivos móveis.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Embora os aplicativos de celular também possam conectar-se a outros serviços do Lync Server 2013, o requisito para enviar todas as solicitações Web de aplicativos de celular para o mesmo FQDN externo da Web aplica-se somente ao Mobility Service do Lync Server 2013. Outros serviços de mobilidade não exigem essa configuração.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Embora os aplicativos de celular também possam conectar-se a outros serviços do Lync Server 2013, o requisito para enviar todas as solicitações Web de aplicativos de celular para o mesmo FQDN externo da Web aplica-se somente ao Mobility Service do Lync Server 2013. Outros serviços de mobilidade não exigem essa configuração.
 
 A exigência de afinidade com cookie em balanceadores de carga de hardware é reduzida dramaticamente e você pode substituir a afinidade com TCP se estiver usando o Lync Mobile oferecido com Lync Server 2013. A afinidade com cookie ainda pode ser usada, mas os serviços Web não a requerem mais.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todo o tráfego de Serviço de Mobilidade passa pelo proxy reverso, independentemente do ponto de origem - interno ou externo. Em caso de utilizar proxy reverso único, múltiplos proxies reversos ou ainda um dispositivo oferecendo a função de proxy reverso, pode surgir um problema em que o tráfego interno esteja saindo por uma interface e tentando ingressar imediatamente na mesma interface. Isso frequentemente leva a uma violação de regra de segurança conhecida como Spoof de pacote TCP ou apenas spoofing. O <em>Hairpin</em> (saída e reentrada imediata de um pacote ou série de pacotes) deve ser permitido para que a mobilidade possa funcionar. Uma solução para esse problema é usar um proxy reverso separado do firewall (a regra para prevenção de spoofing deve ser sempre obrigatória no firewall, para fins de segurança). O hairpin pode ocorrer na interface externa do proxy reverso em vez da interface externa do firewall. Você detecta o spoofing no firewall, cancela temporariamente a regra no proxy reverso permitindo assim o hairpin que a mobilidade requer.<br />
-Use os registros de host DNS ou CNAME para definir o proxy reverso para o comportamento de hairpin - não o firewall - se possível.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Todo o tráfego de Serviço de Mobilidade passa pelo proxy reverso, independentemente do ponto de origem - interno ou externo. Em caso de utilizar proxy reverso único, múltiplos proxies reversos ou ainda um dispositivo oferecendo a função de proxy reverso, pode surgir um problema em que o tráfego interno esteja saindo por uma interface e tentando ingressar imediatamente na mesma interface. Isso frequentemente leva a uma violação de regra de segurança conhecida como Spoof de pacote TCP ou apenas spoofing. O <em>Hairpin</em> (saída e reentrada imediata de um pacote ou série de pacotes) deve ser permitido para que a mobilidade possa funcionar. Uma solução para esse problema é usar um proxy reverso separado do firewall (a regra para prevenção de spoofing deve ser sempre obrigatória no firewall, para fins de segurança). O hairpin pode ocorrer na interface externa do proxy reverso em vez da interface externa do firewall. Você detecta o spoofing no firewall, cancela temporariamente a regra no proxy reverso permitindo assim o hairpin que a mobilidade requer.<br />Use os registros de host DNS ou CNAME para definir o proxy reverso para o comportamento de hairpin - não o firewall - se possível.
 
 Lync Server 2013 suporta serviços de mobilidade para clientes móveis Lync 2010 Mobile e Lync 2013. Ambos os clientes utilizam o serviço de Descoberta Automática Lync Server 2013 para encontrar o seu ponto de entrada de mobilidade, mas diferem no serviço de mobilidade que cada um usa. Lync 2010 Mobile usa o Mobility Service conhecido como *Mcx* , introduzido com a atualização cumulativa de novembro de 2011 para o Lync Server 2010. Clientes móveis Lync 2013 utilizam o Unified Communications Web API, ou *UCWA* , como seu provedor de serviços de mobilidade.
 
@@ -58,21 +35,8 @@ O Mobility Services Mcx (introduzido com a atualização cumulativa de novembro 
 
 Quando você usa a Descoberta Automática, os dispositivos móveis usam o DNS para localizar os recursos. Durante a pesquisa de DNS, ocorre uma tentativa de conexão ao FQDN (nome de domínio totalmente qualificado) que está associado ao registro DNS interno(lyncdiscoverinternal.*\<internal domain name\>*). Se não for possível estabelecer a conexão por meio do registro DNS interno, ocorre uma tentativa de conexão por meio do registro DNS externo (lyncdiscover. *\<sipdomain\>*). Um dispositivo móvel interno à rede se conecta à URL interna do serviço Descoberta Automática e um dispositivo móvel externo à rede se conecta à URL externa do serviço de Descoberta Automática. As solicitações de Descoberta Automática externas ocorrem por meio do proxy reverso. O serviço de Descoberta Automática do Lync Server 2013 retorna todas as URLs de serviços Web para o pool inicial do usuário, incluindo URLs do Mobility Service (Mcx e UWCA). No entanto, as URLs interna e externa do Mobility Service estão associadas ao FQDN de serviços Web externos. Portanto, independentemente de um dispositivo móvel ser interno ou externo à rede, o dispositivo sempre conecta-se ao serviço de dispositivos móveis do Lync Server 2013 externamente através do proxy reverso.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É importante compreender que a implantação pode ser composta por diversos namespaces diferentes para uso interno e externo. O nome de seu domínio SIP pode ser diferente do nome de domínio da implantação interna. Por exemplo, seu domínio SIP pode ser <strong>contoso.com</strong>, enquanto a implantação interna pode ser <strong>contoso.net</strong>. Os usuários que fizerem logon no Lync Server usarão o nome do domínio SIP, como <strong>john@contoso.com</strong>. Ao lidar com os serviços Web externos (definidos em Construtor de Topologias como <strong>Serviços Web externos</strong>), o nome de domínio e o nome de domínio SIP serão consistentes conforme as definições do DNS. Ao lidar com serviços Web internos (definidos em Construtor de Topologias como <strong>Serviços Web internos</strong>), o nome padrão dos serviços Web internos será o FQDN do Servidor Front-End, Pool de Front-Ends, Diretor ou Pool de diretores. É possível substituir o nome dos serviços Web internos. Use o nome de domínio interno (não o nome de domínio SIP) para os serviços Web internos e defina o registro do host DNS A (ou, para IPv6, AAAA) para refletir o nome substituído. Por exemplo, o FQDN padrão dos serviços Web internos pode ser <strong>pool01.contoso.net</strong>. O FQDN substituído dos serviços Web internos pode ser <strong>webpool.contoso.net</strong>. A definição dos serviços Web dessa forma garante que a localidade interna e externa dos serviços seja observada, em vez da localidade do usuário.<br />
-No entanto, como os serviços Web são definidos em Construtor de Topologias e é possível substituir o nome dos serviços Web internos, é possível definir os serviços web internos com qualquer nome de domínio, inclusive o nome de domínio SIP escolhido; isso contanto que o nome dos serviços Web resultante, o certificado que o valida e os registros DNS que o define sejam consistentes. A resolução do nome para o endereço IP é determinada pelos registros do host DNS e por um namespace consistente.<br />
-Para as finalidades deste tópico e dos exemplos, o nome de domínio interno é usado para ilustrar a topologia e as definições de DNS.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> É importante compreender que a implantação pode ser composta por diversos namespaces diferentes para uso interno e externo. O nome de seu domínio SIP pode ser diferente do nome de domínio da implantação interna. Por exemplo, seu domínio SIP pode ser <strong>contoso.com</strong>, enquanto a implantação interna pode ser <strong>contoso.net</strong>. Os usuários que fizerem logon no Lync Server usarão o nome do domínio SIP, como <strong>john@contoso.com</strong>. Ao lidar com os serviços Web externos (definidos em Construtor de Topologias como <strong>Serviços Web externos</strong>), o nome de domínio e o nome de domínio SIP serão consistentes conforme as definições do DNS. Ao lidar com serviços Web internos (definidos em Construtor de Topologias como <strong>Serviços Web internos</strong>), o nome padrão dos serviços Web internos será o FQDN do Servidor Front-End, Pool de Front-Ends, Diretor ou Pool de diretores. É possível substituir o nome dos serviços Web internos. Use o nome de domínio interno (não o nome de domínio SIP) para os serviços Web internos e defina o registro do host DNS A (ou, para IPv6, AAAA) para refletir o nome substituído. Por exemplo, o FQDN padrão dos serviços Web internos pode ser <strong>pool01.contoso.net</strong>. O FQDN substituído dos serviços Web internos pode ser <strong>webpool.contoso.net</strong>. A definição dos serviços Web dessa forma garante que a localidade interna e externa dos serviços seja observada, em vez da localidade do usuário.<br />No entanto, como os serviços Web são definidos em Construtor de Topologias e é possível substituir o nome dos serviços Web internos, é possível definir os serviços web internos com qualquer nome de domínio, inclusive o nome de domínio SIP escolhido; isso contanto que o nome dos serviços Web resultante, o certificado que o valida e os registros DNS que o define sejam consistentes. A resolução do nome para o endereço IP é determinada pelos registros do host DNS e por um namespace consistente.<br />Para as finalidades deste tópico e dos exemplos, o nome de domínio interno é usado para ilustrar a topologia e as definições de DNS.
 
 O diagrama a seguir ilustra o fluxo de solicitações Web de aplicativos de dispositivos móveis para o serviço de mobilidade e o serviço Descoberta Automática ao usar configuração DNS interna e externa.
 
@@ -80,20 +44,8 @@ O diagrama a seguir ilustra o fluxo de solicitações Web de aplicativos de disp
 
 ![Fluxo de solicitação de mobilidade](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "Fluxo de solicitação de mobilidade")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O diagrama ilustra os serviços Web genéricos. Um diretório virtual nomeado Mobilidade representa os serviços de mobilidade Mcx e/ou UCWA. Se você não aplicou as atualizações cumulativas de fevereiro de 2013 para o Lync Server 2013, você talvez não tenha o diretório virtual Ucwa definido em seus serviços Web internos e externos. Você terá um diretório virtual Descoberta Automática, e poderá ter também um diretório virtual Mcx.<br />
-A Descoberta Automática e a descoberta de serviços funcionam do mesmo modo, independentemente da tecnologia de serviços de mobilidade que você tenha implantado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O diagrama ilustra os serviços Web genéricos. Um diretório virtual nomeado Mobilidade representa os serviços de mobilidade Mcx e/ou UCWA. Se você não aplicou as atualizações cumulativas de fevereiro de 2013 para o Lync Server 2013, você talvez não tenha o diretório virtual Ucwa definido em seus serviços Web internos e externos. Você terá um diretório virtual Descoberta Automática, e poderá ter também um diretório virtual Mcx.<br />A Descoberta Automática e a descoberta de serviços funcionam do mesmo modo, independentemente da tecnologia de serviços de mobilidade que você tenha implantado.
 
 Para oferecer suporte aos usuários de dispositivos móveis de dentro e fora da rede corporativa, os FQDNs de web interno e externo devem atender a alguns pré-requisitos. Além disso, talvez você precise atender a outros requisitos, dependendo dos recursos escolhidos para implementar:
 
@@ -127,20 +79,8 @@ A URL de descoberta automática interna não deve ser endereçável a partir de 
 
 Os registros DNS podem ser registros CNAME ou registros A (host, se IPv6, AAAA).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os clientes de dispositivo móvel não suportam vários certificados de SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há redirecionamento CNAME para diferentes domínios por HTTPS. Por exemplo, um registro DNS CNAME para lyncdiscover.contoso.com que redireciona a um endereço de director.contoso.net não é suportado por HTTPS. Na topologia, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento de CNAME seja resolvido por HTTP. As solicitações subseqüentes usam HTTPS. Para oferecer suporte a esse cenário, você precisará configurar o proxy inverso com uma regra de publicação na web para a porta 80 (HTTP). Para obter detalhes, consulte &quot;Para criar uma regra de publicação na web para a porta 80&quot; in <a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a>.<br />
-O redirecionamento de CNAME ao mesmo domínio é suportado por HTTPS. Nesse caso, o certificado do domínio de destino cobre o domínio de origem.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Os clientes de dispositivo móvel não suportam vários certificados de SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há redirecionamento CNAME para diferentes domínios por HTTPS. Por exemplo, um registro DNS CNAME para lyncdiscover.contoso.com que redireciona a um endereço de director.contoso.net não é suportado por HTTPS. Na topologia, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento de CNAME seja resolvido por HTTP. As solicitações subseqüentes usam HTTPS. Para oferecer suporte a esse cenário, você precisará configurar o proxy inverso com uma regra de publicação na web para a porta 80 (HTTP). Para obter detalhes, consulte &quot;Para criar uma regra de publicação na web para a porta 80&quot; in <a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a>.<br />O redirecionamento de CNAME ao mesmo domínio é suportado por HTTPS. Nesse caso, o certificado do domínio de destino cobre o domínio de origem.
 
 Para detalhes sobre os registros de DNS requeridos para o seu cenário, consulte [Resumo do DNS – descoberta automática no Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md).
 

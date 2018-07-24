@@ -251,19 +251,8 @@ Por fim, habilite globalmente o Roteamento com Base no Local para sua configura�
 
 Para obter mais informações, consulte [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>embora o Roteamento com Base no Local deva ser habilitado via configuração global, o conjunto de regras a ser aplicado só será imposto aos sites, usuários e troncos para os quais ele foi configurado como especificado nesta documentação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> embora o Roteamento com Base no Local deva ser habilitado via configuração global, o conjunto de regras a ser aplicado só será imposto aos sites, usuários e troncos para os quais ele foi configurado como especificado nesta documentação.
 
 
 ## Consulte Também

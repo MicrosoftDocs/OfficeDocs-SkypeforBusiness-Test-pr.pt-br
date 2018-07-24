@@ -35,19 +35,8 @@ A caixa postal de Alice e o serviço UM do Exchange estão localizados no datace
 
   - Os valores definidos no atributo msExchUCVoiceMailSettings de conta de usuário de Alice solicitam que o aplicativo ExUM Routing verifique os detalhes de encaminhamento em uma política de caixa postal hospedada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O valor do atributo msExchUCVoiceMailSettings pode ser definido por um provedor de serviços do Exchange ou pelo administrador do Lync Server 2013. No exemplo mostrado no diagrama acima, o valor (CsHostedVoiceMail=1) foi definido pelo administrador do Lync Server 2013 para habilitar a caixa postal hospedada de Alice. Para obter detalhes sobre esse atributo, consulte <a href="lync-server-2013-hosted-exchange-user-management.md">Gerenciamento de usuário no Exchange hospedado no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O valor do atributo msExchUCVoiceMailSettings pode ser definido por um provedor de serviços do Exchange ou pelo administrador do Lync Server 2013. No exemplo mostrado no diagrama acima, o valor (CsHostedVoiceMail=1) foi definido pelo administrador do Lync Server 2013 para habilitar a caixa postal hospedada de Alice. Para obter detalhes sobre esse atributo, consulte <a href="lync-server-2013-hosted-exchange-user-management.md">Gerenciamento de usuário no Exchange hospedado no Lync Server 2013</a>.
 
   - A política de caixa postal hospedada atribuída à conta de usuário de Alice fornece os detalhes de encaminhamento:
     
@@ -55,31 +44,9 @@ A caixa postal de Alice e o serviço UM do Exchange estão localizados no datace
     
       - As organizações são identificadas pelas IDs de locatários, que são os FQDNs de encaminhamento de mensagens SIP para os locatários do Exchange Server localizados em ls.ExUm. *\<ServidorHospedadoExchange\>* .com (corp.contoso.com e corp.litwareinc.com neste exemplo).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O FQDN para Exchange Online é exap.um.outlook.com.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!note]  
+        > O FQDN para Exchange Online é exap.um.outlook.com.        
         Para obter detalhes, consulte [Políticas de correio de voz hospedado no Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o atributo msExchUCVoiceMailSettings e as configurações de endereço proxy do UM estiverem presentes em uma conta de usuário, o atributo msExchUCVoiceMailSettings prevalecerá.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se o atributo msExchUCVoiceMailSettings e as configurações de endereço proxy do UM estiverem presentes em uma conta de usuário, o atributo msExchUCVoiceMailSettings prevalecerá.

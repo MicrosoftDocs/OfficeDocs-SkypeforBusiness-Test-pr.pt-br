@@ -24,16 +24,5 @@ Se um cliente estiver localizado fora da rede ou em uma subrede indefinida, o us
 
 Quando um usuário insere manualmente um local, o local é mapeado para o endereço MAC do gateway padrão da rede do cliente, e é armazenado em uma tabela por usuário localizada no cliente. Quando o usuário retorna a qualquer local armazenado anteriormente, o cliente Lync se define automaticamente para esse local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É possível modificar somente o local atual de seu cliente, mas você também pode excluir qualquer local armazenado na tabela dos usuários locais.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> É possível modificar somente o local atual de seu cliente, mas você também pode excluir qualquer local armazenado na tabela dos usuários locais.

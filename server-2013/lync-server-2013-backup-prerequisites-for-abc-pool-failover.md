@@ -39,19 +39,8 @@ Para obter o máximo benefício de usar o procedimento de failover do pool ABC, 
         Xcopy  <Source: Pool A CPS File Store Path>  <Destination>
         Example: Xcopy  "<Pool A File Store Path>\LyncFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Destination:  Backup location 1>"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O aplicativo Estacionamento de Chamada pode armazenar somente um conjunto de configurações e um arquivo de áudio de música em espera personalizado por pool. Essas configurações podem ser acessados pelo cmdlet <strong>Get-CsCpsConfiguration</strong>. Como o mecanismo de recuperação de desastres do Estacionamento de Chamada se baseia no aplicativo Estacionamento de Chamada do pool de backup, o backup das configurações do pool primário não é feito nem preservado se um desastre ocorrer. Se o pool primário for perdido, essas configurações não poderão ser recuperadas e quando um novo pool for implantado para substituir o pool primário, as configurações do Estacionamento de Chamada e qualquer arquivo de áudio de música em espera personalizado precisará ser configurado novamente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O aplicativo Estacionamento de Chamada pode armazenar somente um conjunto de configurações e um arquivo de áudio de música em espera personalizado por pool. Essas configurações podem ser acessados pelo cmdlet <strong>Get-CsCpsConfiguration</strong>. Como o mecanismo de recuperação de desastres do Estacionamento de Chamada se baseia no aplicativo Estacionamento de Chamada do pool de backup, o backup das configurações do pool primário não é feito nem preservado se um desastre ocorrer. Se o pool primário for perdido, essas configurações não poderão ser recuperadas e quando um novo pool for implantado para substituir o pool primário, as configurações do Estacionamento de Chamada e qualquer arquivo de áudio de música em espera personalizado precisará ser configurado novamente.
 
   - Se você configurar qualquer comunicado como parte do Recurso de Voz com Número Não Atribuído, recomendamos que você tenha em outro local uma cópia de qualquer arquivo de áudio original usado durante a configuração inicial. Se você não fizer isso, é possível obter uma cópia dos arquivos de áudio configurados no armazenamento de arquivos do servidor ou do pool para o qual os arquivos de áudio foram importados. O backup desses arquivos não é feito como parte do processo de recuperação de desastres do Lync Server 2013 e eles serão perdidos se os arquivos carregados para o pool forem danificados, corrompidos ou apagados. Para copiar todos os arquivos de áudio utilizados para configurar o Recurso de Voz com Número Não Atribuído a partir do armazenamento de arquivos de um servidor ou de um pool, use:
     

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Se você implantou o Unificação de Mensagens (UM) do Exchange, conforme descrito em [Planejamento para integração de Unificação de Mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) na documentação de Planejamento e deseja fornecer recursos do UM do Exchange aos usuários do Enterprise Voice na sua organização, você pode executar os procedimentos abaixo para configurar o certificado no servidor que executa o UM do Exchange.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para os certificados internos, os servidores que executam o Lync Server 2013 e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz que sejam mutuamente confiáveis. A CA (autoridade de certificação) pode ser a mesma ou diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado em seu repositório de certificado de autoridade raiz confiável.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Para os certificados internos, os servidores que executam o Lync Server 2013 e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz que sejam mutuamente confiáveis. A CA (autoridade de certificação) pode ser a mesma ou diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado em seu repositório de certificado de autoridade raiz confiável.
 
 O Exchange Server deve ser configurado com um certificado de servidor para se conectar a Lync Server 2013:
 
@@ -51,19 +40,8 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 
 3.  Em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**, selecione **Método de Codificação em Base 64** e clique em **Fazer download de certificado de autoridade de certificação**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você também pode especificar a codificação DER (regras de codificação distintas) nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de <strong>Para instalar o Certificado de autoridade de certificação</strong> é. p7b, em vez de .cer.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você também pode especificar a codificação DER (regras de codificação distintas) nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de <strong>Para instalar o Certificado de autoridade de certificação</strong> é. p7b, em vez de .cer.
 
 4.  Na caixa de diálogo **Download de Arquivo**, clique em **Salvar** e salve o arquivo no disco rígido no servidor. (O arquivo terá um .cer ou uma extensão de arquivo .p7b, dependendo da codificação que você selecionou na etapa anterior).
 
@@ -119,19 +97,8 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 
 6.  Em **Informações de identificação para modelo offline**, na caixa **Nome**, digite o FQDN (nome de domínio totalmente qualificado) do Exchange Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você deve inserir o FQDN do Exchange Server para que a comunicação funcione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você deve inserir o FQDN do Exchange Server para que a comunicação funcione.
 
 7.  Em **Opções de Chave**, clique na caixa de seleção **Armazenar certificado no armazenamento de certificados do computador local**.
 
@@ -155,19 +122,8 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
     
     2.  "Importar um certificado do Exchange" em [http://go.microsoft.com/fwlink/?linkid=195496\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195496%26clcid=0x416)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para o certificado <strong>Nome da Entidade</strong>, digite o FQDN do Exchange Server para que as comunicações funcionem.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para o certificado <strong>Nome da Entidade</strong>, digite o FQDN do Exchange Server para que as comunicações funcionem.
 
 ## Para atribuir o certificado no Exchange Server 2007 (SP1)
 
@@ -179,35 +135,13 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 
 4.  Clique duas vezes no certificado para ler seus detalhes e verificar se ele é válido.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Possivelmente levará alguns minutos para que o certificado apareça como válido.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Possivelmente levará alguns minutos para que o certificado apareça como válido.
 
 5.  Reinicie o serviço de Unificação de Mensagens do Microsoft Exchange.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O servidor que está executando a Unificação de Mensagens do Exchange Server 2007 SP1 recupera automaticamente o certificado correto.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O servidor que está executando a Unificação de Mensagens do Exchange Server 2007 SP1 recupera automaticamente o certificado correto.
 
 6.  Abra o Visualizador de Eventos e procure a ID de Evento 1112, que especifica qual certificado foi recuperado pelo servidor que está executando a Unificação de Mensagens do Exchange Server 2007 SP1.
 

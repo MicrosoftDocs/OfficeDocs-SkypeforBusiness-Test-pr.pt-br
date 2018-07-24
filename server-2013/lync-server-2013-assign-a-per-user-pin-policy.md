@@ -64,19 +64,8 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
 
 7.  Em **Atribuir Políticas**, em **Política de PIN**, execute uma das seguintes ações:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como há várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, <strong>&lt;Manter como está&gt;</strong> está selecionado por padrão para cada política na caixa de diálogo. Continue usando a política previamente atribuída ao usuário não fazendo alterações nessa configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Como há várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, <strong>&lt;Manter como está&gt;</strong> está selecionado por padrão para cada política na caixa de diálogo. Continue usando a política previamente atribuída ao usuário não fazendo alterações nessa configuração.    
       - Permita que o Lync Server 2013 escolha automaticamente a política de nível global ou, se estiver definida, a política de nível de site.
     
       - Clique no nome de uma política PIN por usuário definida anteriormente na página **Política de PIN**.

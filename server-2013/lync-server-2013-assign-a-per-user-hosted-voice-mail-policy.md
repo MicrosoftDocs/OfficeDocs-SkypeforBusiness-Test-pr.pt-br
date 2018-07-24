@@ -43,16 +43,5 @@ Para obter detalhes sobre como atribuir ou remover a atribuição de políticas 
     
       - O Nome de exibição de serviços de domínio do Active Directory do usuário (por exemplo, Ken Myer). se estiver usando o Nome de exibição como o valor de Identidade, será possível usar o caractere curinga asterisco (\*). Por exemplo, a Identidade "\* Smith" retorna todos os usuários que tem um Nome de exibição que termina com o valor de string "Smith".
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Nome de conta SAM do Active Directory do usuário não pode ser usado como o valor de Identidade, pois o Nome de conta SAM não é necessariamente exclusivo na floresta.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O Nome de conta SAM do Active Directory do usuário não pode ser usado como o valor de Identidade, pois o Nome de conta SAM não é necessariamente exclusivo na floresta.

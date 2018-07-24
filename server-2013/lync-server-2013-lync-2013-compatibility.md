@@ -190,19 +190,8 @@ A tabela a seguir descreve o suporte do Lync 2013 a várias versões do Exchange
 <td><p>Exchange Server 2013</p></td>
 <td><p>Igual ao suporte ao Exchange Server 2010, com adição do Repositório de Contato Unificado, imagens em alta resolução e integração do arquivamento.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para detalhes, consulte <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para detalhes, consulte <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013</a>.
 </div></td>
 </tr>
 <tr class="even">
@@ -211,12 +200,7 @@ A tabela a seguir descreve o suporte do Lync 2013 a várias versões do Exchange
 </tr>
 <tr class="odd">
 <td><p>Exchange Server 2007 com Service Pack 1 (SP1) (exigido) ou o service pack mais recente (recomendado)</p></td>
-<td><p>Os recursos a seguir estão disponíveis somente através do EWS:</p>
-<ul>
-<li><p>Ler ou excluir itens na pasta Histórico da Conversa</p></li>
-<li><p>Ler ou excluir itens da caixa postal</p></li>
-<li><p>Exibir informações de disponibilidade avançadas e assunto da reunião e localização</p></li>
-</ul>
+<td><p>Os recursos a seguir estão disponíveis somente através do EWS:</p><ul><li><p>Ler ou excluir itens na pasta Histórico da Conversa</p></li><li><p>Ler ou excluir itens da caixa postal</p></li><li><p>Exibir informações de disponibilidade avançadas e assunto da reunião e localização</p></li></ul>
 <p>Pastas públicas são opcionais no Exchange Server 2007 com Service Pack 1 (SP1) (exigido) ou o service pack ou versão mais recente (recomendado).</p></td>
 </tr>
 <tr class="even">
@@ -281,25 +265,14 @@ Além disso, o recurso de integração XMPP do Lync Server 2013 permite que os u
 
 \*A/V suportado com a versão mais recente do Windows Live Messenger. Se estiver implementando federação de áudio/vídeo com o Windows Live Messenger, você também deve modificar o nível de criptografia do servidor. Por padrão, o nível de criptografia é Exigido (Required). Você deve alterar esta configuração para Suportado (Supported) usando o Shell de Gerenciamento do Lync Server.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Desde 1º de setembro de 2012, a Licença de Assinatura de Usuário para conectividade em IM público do Microsoft Lync (“PIC USL”) não está mais disponível para compra, tanto para novos acordos quanto para renovação destes. Os clientes com licenças ativas podem continuar a federar com o Yahoo! Messenger a partir da data de encerramento do serviço. Uma data de término do AOL e do Yahoo! prevista para junho de 2014 foi anunciada. Para detalhes, veja <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-<li><p>A PIC USL é uma licença de inscrição por usuário/por mês necessária para que Lync Server ou Office Communications Server possam federar com o Yahoo! Messenger. A capacidade da Microsoft de oferecer esse serviço depende do suporte do Yahoo!, cujo contrato correspondente está sendo encerrado.</p></li>
-<li><p>Mais do que nunca, Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licença de usuário/dispositivo além doLync Standard CAL.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Desde 1º de setembro de 2012, a Licença de Assinatura de Usuário para conectividade em IM público do Microsoft Lync (“PIC USL”) não está mais disponível para compra, tanto para novos acordos quanto para renovação destes. Os clientes com licenças ativas podem continuar a federar com o Yahoo! Messenger a partir da data de encerramento do serviço. Uma data de término do AOL e do Yahoo! prevista para junho de 2014 foi anunciada. Para detalhes, veja <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
+> 
+> <li><p>A PIC USL é uma licença de inscrição por usuário/por mês necessária para que Lync Server ou Office Communications Server possam federar com o Yahoo! Messenger. A capacidade da Microsoft de oferecer esse serviço depende do suporte do Yahoo!, cujo contrato correspondente está sendo encerrado.</p></li>
+> 
+> 
+> <li><p>Mais do que nunca, Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licença de usuário/dispositivo além doLync Standard CAL.</p></li></ul>
 
 
 ## Consulte Também

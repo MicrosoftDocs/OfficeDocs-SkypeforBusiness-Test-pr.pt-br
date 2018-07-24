@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2014-06-10_
 
 Para ingressar em uma conferência de discagem como usuário autenticado, um usuário do Lync Server 2013 com credenciais do AD DS (Serviços de Domínio Active Directory) requer um PIN (número de identificação pessoal). Se o usuário se esquecer do PIN de conferência de discagem ou não o tiver definido usando o Lync Server, você poderá configurar o PIN do usuário por meio do Painel de Controle do Lync Server. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. Para obter detalhes sobre a configuração de uma política de PIN, consulte <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurar regras de PIN da conferência discada no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. Para obter detalhes sobre a configuração de uma política de PIN, consulte <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurar regras de PIN da conferência discada no Lync Server 2013</a>.
 
 ## Para definir o PIN de um usuário
 
@@ -62,19 +51,8 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
     
     5.  Clique em **Localizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.
 
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Definir PIN**.
 

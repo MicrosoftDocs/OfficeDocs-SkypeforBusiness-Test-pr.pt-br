@@ -40,11 +40,7 @@ Ao implantar o Lync Server 2013,  Servidor Front-End, você pode escolher se ta
 </thead>
 <tbody>
 <tr class="odd">
-<td>Se sua implantação incluir reuniões organizadas usando os clientes do Office Communicator 2007 R2 (incluindo o console do Live Meeting ou o Suplemento de Conferência para Microsoft Office Outlook), as reuniões terão as seguintes limitações após serem migradas para o Lync Server 2013:
-<ul>
-<li><p>Os usuários na reunião não poderão usar os recursos de colaboração de dados, incluindo colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.</p></li>
-<li><p>Problemas de estabilidade podem surgir desde que os clientes do Office Communicator 2007 R2 não sejam suportados pelo Lync Server 2013.</p></li>
-</ul>
+<td>Se sua implantação incluir reuniões organizadas usando os clientes do Office Communicator 2007 R2 (incluindo o console do Live Meeting ou o Suplemento de Conferência para Microsoft Office Outlook), as reuniões terão as seguintes limitações após serem migradas para o Lync Server 2013:<ul><li><p>Os usuários na reunião não poderão usar os recursos de colaboração de dados, incluindo colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.</p></li><li><p>Problemas de estabilidade podem surgir desde que os clientes do Office Communicator 2007 R2 não sejam suportados pelo Lync Server 2013.</p></li></ul>
 Para evitar esses problemas, programe novamente qualquer reunião organizada usando os clientes do Office Communicator 2007 R2 com o Outlook 2010 ou o Outlook 2013 usando o Suplemento Reunião Online para Lync 2010 ou o Suplemento de Reunião Online para Lync 2013.</td>
 </tr>
 </tbody>

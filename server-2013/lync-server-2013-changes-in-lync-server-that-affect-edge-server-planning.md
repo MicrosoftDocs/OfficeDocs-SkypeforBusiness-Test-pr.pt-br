@@ -27,33 +27,11 @@ Um novo requisito para oferecer suporte ao IPv6 no Lync Server 2013 é criar reg
 
 O Servidor de Borda introduz um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP (implantado em seus Servidores Front-End). Você pode implantar a federação XMPP como um componente opcional. Ao adicionar e configurar o proxy e o gateway XMPP, você pode permitir que seus usuários do Microsoft Lync 2013 adicionem contatos de parceiros XMPP para IM (mensagens instantâneas) e presença.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No momento, os serviços XMPP do Servidor de Borda só fornecem IM e presença entre clientes do Lync Server e contatos XMPP. Além disso, o XMPP é hospedado somente em um site.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> No momento, os serviços XMPP do Servidor de Borda só fornecem IM e presença entre clientes do Lync Server e contatos XMPP. Além disso, o XMPP é hospedado somente em um site.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.
 
 ## Suporte a certificados de autenticação servidor a servidor e autenticação de áudio/vídeo
 
@@ -85,19 +63,8 @@ O recurso Descoberta Automática do Lync Server 2013 permite que os clientes loc
 
 Introduzidos na atualização cumulativa do Lync Server 2010 de novembro de 2011, os serviços de mobilidade do Lync Server 2013 permitem que celulares que executam o Lync Mobile, dispositivos tablet que usam os sistemas Apple iOS, Android e Windows Phone com suporte ou dispositivos móveis Nokia realizem atividades como enviar e receber mensagens instantâneas ou exibir contatos e presença. Além disso, os dispositivos móveis oferecem suporte a alguns recursos do Enterprise Voice, como clicar para ingressar em uma conferência, Telefonar via Trabalho, acesso por único número, caixa postal e notificação de chamadas perdidas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os serviços de mobilidade usam o proxy reverso e os serviços publicados implantados em seus Servidores Front-End. Nenhuma alteração é necessária nos Servidores de Borda. No mínimo, você precisa de SIP/TCP/5061 de saída do servidor que executa o Serviço de Borda de Acesso do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Os serviços de mobilidade usam o proxy reverso e os serviços publicados implantados em seus Servidores Front-End. Nenhuma alteração é necessária nos Servidores de Borda. No mínimo, você precisa de SIP/TCP/5061 de saída do servidor que executa o Serviço de Borda de Acesso do Lync Server.
 
 ## A função Diretor é opcional
 

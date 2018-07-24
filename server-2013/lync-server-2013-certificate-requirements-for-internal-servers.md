@@ -33,33 +33,11 @@ As tabelas a seguir mostram os requisitos de certificado por função de servido
 
 Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando o assistente de certificado é usado para solicitar certificados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cada nome amigável do certificado deve ser exclusivo no armazenamento do computador.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Cada nome amigável do certificado deve ser exclusivo no armazenamento do computador.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver configurado sipinternal.contoso.com ou sipexternal.contoso.com no seu DNS, será necessário adicioná-los no Nome Alternativo da Entidade do certificado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você tiver configurado sipinternal.contoso.com ou sipexternal.contoso.com no seu DNS, será necessário adicioná-los no Nome Alternativo da Entidade do certificado.
 
 ### Certificados para o servidor Standard Edition
 
@@ -96,15 +74,8 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="even">
 <td><p>Web interna</p></td>
 <td><p>FQDN do servidor</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN de web interna (que é o mesmo que o FQDN do servidor)</p></li>
-<li><p>Atender a URLs simples</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Administrar URL simples</p>
-<p></p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN de web interna (que é o mesmo que o FQDN do servidor)</p></li><li><p>Atender a URLs simples</p></li><li><p>URL simples de discagem</p></li><li><p>Administrar URL simples</p>
+<p></p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul>
 <p></p></td>
 <td><p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Como usar um certificado curinga:</p>
@@ -116,13 +87,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="odd">
 <td><p>Web externa</p></td>
 <td><p>FQDN do servidor</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN da web externa</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Encontre URLs simples por domínio SIP</p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul></td>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN da web externa</p></li><li><p>URL simples de discagem</p></li><li><p>Encontre URLs simples por domínio SIP</p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul></td>
 <td><p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Como usar um certificado curinga:</p>
 <p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
@@ -167,16 +132,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="even">
 <td><p>Web interna</p></td>
 <td><p>FQDN do pool</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN da Web interna (que NÃO é igual ao FQDN do servidor)</p></li>
-<li><p>FQDN do servidor</p></li>
-<li><p>FQDN do pool do Lync</p></li>
-<li><p>Atender a URLs simples</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Administrar URL simples</p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN da Web interna (que NÃO é igual ao FQDN do servidor)</p></li><li><p>FQDN do servidor</p></li><li><p>FQDN do pool do Lync</p></li><li><p>Atender a URLs simples</p></li><li><p>URL simples de discagem</p></li><li><p>Administrar URL simples</p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul>
 <p></p></td>
 <td><p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Como usar um certificado curinga:</p>
@@ -187,13 +143,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="odd">
 <td><p>Web externa</p></td>
 <td><p>FQDN do pool</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN da web externa</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Administrar URL simples</p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul></td>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN da web externa</p></li><li><p>URL simples de discagem</p></li><li><p>Administrar URL simples</p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul></td>
 <td><p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Como usar um certificado curinga:</p>
 <p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
@@ -233,14 +183,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="even">
 <td><p>Web interna</p></td>
 <td><p>FQDN do servidor</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN de web interna (que é o mesmo que o FQDN do servidor)</p></li>
-<li><p>Atender a URLs simples</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Administrar URL simples</p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN de web interna (que é o mesmo que o FQDN do servidor)</p></li><li><p>Atender a URLs simples</p></li><li><p>URL simples de discagem</p></li><li><p>Administrar URL simples</p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul>
 <p></p></td>
 <td><p>SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=*.contoso.com</p></td>
@@ -248,13 +191,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <tr class="odd">
 <td><p>Web externa</p></td>
 <td><p>FQDN do servidor</p></td>
-<td><p>Cada um dos seguintes:</p>
-<ul>
-<li><p>FQDN da web externa</p></li>
-<li><p>URL simples de discagem</p></li>
-<li><p>Administrar URL simples</p></li>
-<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
-</ul></td>
+<td><p>Cada um dos seguintes:</p><ul><li><p>FQDN da web externa</p></li><li><p>URL simples de discagem</p></li><li><p>Administrar URL simples</p></li><li><p>Ou, uma entrada curinga para os URLs simples</p></li></ul></td>
 <td><p>O FQDN de web externa de Diretores deve ser diferente do Pool de Front-Ends ou do Servidor Front-End.</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=*.contoso.com</p></td>

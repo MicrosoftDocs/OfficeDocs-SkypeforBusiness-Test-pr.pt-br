@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-05-25_
 
 Use o procedimento a seguir para configurar a certificação dos diretórios virtuais do IIS (Serviços de Informações da Internet) ou verificar se a certificação está configurada corretamente. Execute o procedimento a seguir em cada servidor que estiver executando o ISS no pool Lync Server e os servidores opcionais Diretor ou Pool de diretores.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O procedimento a seguir define um procedimento para solicitar um certificado combinado que é utilizado para todos os propósitos de Lync Server, Internal Web Site e External Web Site no IIS. Lync Server 2010 introduziu um conjunto de cmdlets Shell de Gerenciamento do Lync ServerWindows PowerShell para o propósito expresso de gerenciamento de solicitação de certificado, importação e atribuição. O procedimento assume que há uma autoridade de certificação (CA) implantada internamente que pode processar a solicitação. Se você usa certificados públicos para propósitos Lync Server ou o CA requer uma solicitação offline, consulte a sintaxe detalhada neste tópico para informações sobre o –Output parâmetro <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O procedimento a seguir define um procedimento para solicitar um certificado combinado que é utilizado para todos os propósitos de Lync Server, Internal Web Site e External Web Site no IIS. Lync Server 2010 introduziu um conjunto de cmdlets Shell de Gerenciamento do Lync ServerWindows PowerShell para o propósito expresso de gerenciamento de solicitação de certificado, importação e atribuição. O procedimento assume que há uma autoridade de certificação (CA) implantada internamente que pode processar a solicitação. Se você usa certificados públicos para propósitos Lync Server ou o CA requer uma solicitação offline, consulte a sintaxe detalhada neste tópico para informações sobre o –Output parâmetro <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a>
 
 ## Para configurar autenticação e certificados em diretórios virtuais de ISS
 

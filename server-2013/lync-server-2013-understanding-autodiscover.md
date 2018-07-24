@@ -23,33 +23,11 @@ No Lync Server 2013, a Descoberta Automática é expandida para comunicar ao cli
 
 O melhor modo de entender o documento de resposta de Descoberta Automática, incluindo como os serviços Web informam clientes sobre recursos por meio desse documento, é analisar minuciosamentecada linha e defini-la em uma resposta comum a partir do documento de resposta de Descoberta Automática do serviço Web Lync.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nos detalhes a seguir, o usuário já realizou a autenticação com o servidor inicial ao responder uma solicitação de autenticação.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Nos detalhes a seguir, o usuário já realizou a autenticação com o servidor inicial ao responder uma solicitação de autenticação.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O serviço Web de Descoberta Automática do Lync é definido no <strong>Microsoft Office Protocols</strong> na seção <strong>Especificações em aberto</strong> da biblioteca do <strong>Microsoft Developer Network</strong> (MSDN). Para detalhes, consulte o documento de especificação completo, &quot;Protocolo de serviço Web de Descoberta Automática do Lync&quot;, em: <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Para detalhes sobre autenticação, consulte &quot;Protocolo de serviço Web de autenticação OC&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O serviço Web de Descoberta Automática do Lync é definido no <strong>Microsoft Office Protocols</strong> na seção <strong>Especificações em aberto</strong> da biblioteca do <strong>Microsoft Developer Network</strong> (MSDN). Para detalhes, consulte o documento de especificação completo, &quot;Protocolo de serviço Web de Descoberta Automática do Lync&quot;, em: <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Para detalhes sobre autenticação, consulte &quot;Protocolo de serviço Web de autenticação OC&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.
 
 ## A resposta de Descoberta Automática do serviço Web do Lync Server
 

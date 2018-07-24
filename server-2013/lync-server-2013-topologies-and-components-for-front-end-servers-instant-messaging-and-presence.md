@@ -108,19 +108,8 @@ A primeira vez que você iniciar um novo Pool de Front-Ends, é essencial que 85
 
 Cada vez subsequente que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme exibido na tabela anterior). Caso não seja possível iniciar esse número de servidores (mas servidores suficientes podem ser iniciados para que não haja perda de quórum no nível do pool), é possível usar o cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** para permitir que o pool se recupere dessa perda de quórum no nível do grupo de roteamento e faça progresso. Para obter mais informações sobre como usar este cmdlet, consulte [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como o Lync Server usa o banco de dados SQL primário como testemunha, se você desligar o banco de dados primário, alternar para a cópia Espelho e desligarServidores Front-End suficientes para que um número insuficiente esteja em operação de acordo com a tabela anterior, todo o pool será desligado. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?linkid=393672">Testemunha de espelhamento de banco de dados</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Como o Lync Server usa o banco de dados SQL primário como testemunha, se você desligar o banco de dados primário, alternar para a cópia Espelho e desligarServidores Front-End suficientes para que um número insuficiente esteja em operação de acordo com a tabela anterior, todo o pool será desligado. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?linkid=393672">Testemunha de espelhamento de banco de dados</a>.
 
 ## Perda de quórum no nível do pool
 

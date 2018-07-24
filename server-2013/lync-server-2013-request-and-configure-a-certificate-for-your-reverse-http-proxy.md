@@ -44,19 +44,8 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>FQDN do pool</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O nome da entidade também deve estar presente no nome alternativo da entidade.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> O nome da entidade também deve estar presente no nome alternativo da entidade.
 </div></td>
 </tr>
 <tr class="odd">
@@ -68,19 +57,8 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>URL simples de reunião</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todas as URLs simples de reunião devem estar no nome alternativo da região. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Todas as URLs simples de reunião devem estar no nome alternativo da região. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.
 </div></td>
 <td><p>meet.contoso.com</p></td>
 </tr>
@@ -99,56 +77,23 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>URL de Serviço Descoberta Automática Externo</p></td>
 <td><p>lyncdiscover.contoso.com</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você também estiver usando o Microsoft Exchange Server também precisará configurar regras de proxy reverso para a descoberta automática do Exchange e URLs de serviços Web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você também estiver usando o Microsoft Exchange Server também precisará configurar regras de proxy reverso para a descoberta automática do Exchange e URLs de serviços Web.
 </div></td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sua implantação interna consiste em mais de um servidor Standard Edition ou pool de Front-End, você deve configurar regras de publicação na Web para cada FQDN de web farm externo e será necessário um ouvinte da web e certificado para cada um, ou você deve obter um certificado cujo nome alternativo da entidade contém os nomes usados por todos os pools, atribuí-lo a um ouvinte da web e compartilhá-lo entre várias regras de publicação na web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se sua implantação interna consiste em mais de um servidor Standard Edition ou pool de Front-End, você deve configurar regras de publicação na Web para cada FQDN de web farm externo e será necessário um ouvinte da web e certificado para cada um, ou você deve obter um certificado cujo nome alternativo da entidade contém os nomes usados por todos os pools, atribuí-lo a um ouvinte da web e compartilhá-lo entre várias regras de publicação na web.
 
 ## Criar uma solicitação de certificado
 
 Você cria uma solicitação de certificado no proxy reverso. Uma solicitação é criada em outro computador, mas é preciso exportar o certificado assinado com a chave privada e importá-lo para o proxy reverso assim que você o tiver recebido da autoridade de certificação pública.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Uma solicitação de certificado ou uma solicitação de assinatura de certificado (CSR) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome implica, a chave pública é disponibilizada para todas as solicitações públicas. A chave pública destina-se a ser usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar uma identidade de um computador. A chave privada é mantida segura e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outros fins. Para fins de proxy reverso, a codificação de dados é o uso principal. De forma secundária, a autenticação do certificado no nível da chave de certificado é outro uso e é limitada somente à validação de que um solicitante tenha a chave pública do computador ou que o computador em que você tenha uma chave pública seja realmente o computador que diz ser.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Uma solicitação de certificado ou uma solicitação de assinatura de certificado (CSR) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome implica, a chave pública é disponibilizada para todas as solicitações públicas. A chave pública destina-se a ser usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar uma identidade de um computador. A chave privada é mantida segura e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outros fins. Para fins de proxy reverso, a codificação de dados é o uso principal. De forma secundária, a autenticação do certificado no nível da chave de certificado é outro uso e é limitada somente à validação de que um solicitante tenha a chave pública do computador ou que o computador em que você tenha uma chave pública seja realmente o computador que diz ser.
 
 
 > [!TIP]
@@ -186,19 +131,8 @@ Para gerar uma solicitação de assinatura de certificado no computador para ond
 
 13. Na página **Propriedades do Certificado**, clique na guia **Chave Privada**. Clique na seta **Opções de chave**. Para **Tamanho de chave**, selecione **2048** na lista suspensa. Se você estiver gerando esse par de chaves e o CSR em um computador diferente do proxy reverso para o qual este certificado se destina, selecione **Tornar a chave privada exportável**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Segurança Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A seleção de <strong>Tornar uma chave privada exportável</strong> é geralmente aconselhável quando você tem mais de um proxy reverso em um farm, porque você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deverá tomar cuidado adicional com o certificado e o computador em que ele será gerado. A chave privada, se comprometida, inutilizará o certificado, além de potencialmente expor o computador ou computadores a acesso externo e a outras vulnerabilidades de segurança.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!security]  
+    > A seleção de <strong>Tornar uma chave privada exportável</strong> é geralmente aconselhável quando você tem mais de um proxy reverso em um farm, porque você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deverá tomar cuidado adicional com o certificado e o computador em que ele será gerado. A chave privada, se comprometida, inutilizará o certificado, além de potencialmente expor o computador ou computadores a acesso externo e a outras vulnerabilidades de segurança.
 
 14. Na guia **Chave Privada**, clique na seta **Tipo de chave**. Selecione a opção **Exchange**.
 
@@ -214,16 +148,5 @@ Para gerar uma solicitação de assinatura de certificado no computador para ond
 
 20. Localize o arquivo de solicitação salvo na etapa anterior. Envie para sua autoridade de certificação pública.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A Microsoft identificou CAs públicas que atendem aos requisitos para fins de Comunicações Unificadas. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > A Microsoft identificou CAs públicas que atendem aos requisitos para fins de Comunicações Unificadas. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>

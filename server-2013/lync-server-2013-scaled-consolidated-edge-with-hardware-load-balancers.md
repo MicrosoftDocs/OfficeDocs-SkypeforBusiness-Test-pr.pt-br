@@ -21,19 +21,8 @@ Se sua organização precisar de suporte a mais de 15 mil conexões de cliente d
 
 A figura não mostra Diretores, uma função de servidor opcional implantada na rede interna entre os Servidores de Borda e seus Pools de Front-Ends ou servidor. Para obter detalhes sobre a topologia para Diretores, consulte [Componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A figura mostrada tem fins de orientação e exemplificação do endereçamento IP, mas não representa fluxos reais de comunicação com o tráfego de entrada e saída correto. A figura representa uma visão geral do tráfego possível. Detalhes do fluxo de tráfego e se são de entrada (para as portas de escuta) e saída (para os servidores ou clientes de destino) são representados no diagrama Resumo de Portas em cada cenário. Por exemplo, TCP 443 é somente de entrada (para o Servidor de Borda ou o proxy reverso) e só é um fluxo bidirecional do ponto de vista do protocolo (TCP). Além disso, a figura mostra a natureza do tráfego à medida que muda quando a NAT (conversão de endereços de rede) ocorre (o endereço de destino é alterado na entrada e o endereço de origem é alterado na saída). O firewall externo e interno e interfaces de servidor de exemplo são mostrados somente para fins de referência. Por fim, um gateway padrão e relações de rota de exemplo são mostrados quando aplicável. Observe também que o diagrama usa a zona DNS <em>.com</em> para representar a zona DNS externa para o proxy reverso e o Servidores de Borda, assim como a zona DNS <em>.net</em> refere-se à zona DNS interna.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A figura mostrada tem fins de orientação e exemplificação do endereçamento IP, mas não representa fluxos reais de comunicação com o tráfego de entrada e saída correto. A figura representa uma visão geral do tráfego possível. Detalhes do fluxo de tráfego e se são de entrada (para as portas de escuta) e saída (para os servidores ou clientes de destino) são representados no diagrama Resumo de Portas em cada cenário. Por exemplo, TCP 443 é somente de entrada (para o Servidor de Borda ou o proxy reverso) e só é um fluxo bidirecional do ponto de vista do protocolo (TCP). Além disso, a figura mostra a natureza do tráfego à medida que muda quando a NAT (conversão de endereços de rede) ocorre (o endereço de destino é alterado na entrada e o endereço de origem é alterado na saída). O firewall externo e interno e interfaces de servidor de exemplo são mostrados somente para fins de referência. Por fim, um gateway padrão e relações de rota de exemplo são mostrados quando aplicável. Observe também que o diagrama usa a zona DNS <em>.com</em> para representar a zona DNS externa para o proxy reverso e o Servidores de Borda, assim como a zona DNS <em>.net</em> refere-se à zona DNS interna.
 
 Novo no Microsoft Lync Server 2013 é o suporte para endereço IPv6. Parecido com o endereço IPv4, os endereços IPv6 devem ser atribuídos de forma que os endereços façam parte do seu espaço de endereço IPv6 atribuído. Os endereços neste tópico são apenas para exemplo. Você deve adquirir endereços IPv6 que irão funcionar na sua implantação, ofereça o escopo correta e irá interoperar com endereço interno e externo. O Windows Server oferece um recurso importante para operação IPv6 transicional e comunicação de IPv4 para IPv6 chamada *pilha dupla* . A pilha dupla é uma pilha de rede distinta e separada para IPv4 e IPv6. A pilha dupla permite atribuir endereço para IPv4 e IPv6 simultaneamente e permite o servidor se comunicar com outros hosts e clientes baseados em seus requisitos.
 
@@ -55,19 +44,8 @@ Para obter detalhes, consulte a seção “Requisitos do balanceador de carga de
 
 ![Topologia de borda consolidada dimensionada](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "Topologia de borda consolidada dimensionada")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se estiver usando CAC, você ainda deve atribuir endereços IPv4 para a interface interna do Servidor de Borda. O CAC usa endereços IPv4 e você deve disponibilizá-los para operar.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se estiver usando CAC, você ainda deve atribuir endereços IPv4 para a interface interna do Servidor de Borda. O CAC usa endereços IPv4 e você deve disponibilizá-los para operar.
 
 ## Nesta seção
 

@@ -31,35 +31,13 @@ Certifique-se que o ambiente está configurado com os grupos de usuários admini
     
       - **CsAdministrator:** Essa função de administrador pode realizar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A representação permite que mais administradores participem da sua implantação do Lync Server sem abrir acessos não necessários a recursos.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > A representação permite que mais administradores participem da sua implantação do Lync Server sem abrir acessos não necessários a recursos.
 
   - A infraestrutura de chave gerenciada (MKI) é implantada e configurada, usando uma infraestrutura de autoridade de certificação (CA) da Microsoft ou de um terceiro.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para obter detalhes sobre os requisitos do certificado do Lync Server, consulte <a href="lync-server-2013-certificate-infrastructure-requirements.md">Requisitos de infraestrutura de certificado para o Lync Server 2013</a> na documentação de Planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para obter detalhes sobre os requisitos do certificado do Lync Server, consulte <a href="lync-server-2013-certificate-infrastructure-requirements.md">Requisitos de infraestrutura de certificado para o Lync Server 2013</a> na documentação de Planejamento.
 
 ## Configuração do usuário
 
@@ -67,19 +45,8 @@ Se você colocou o Servidor de Mediação com cada pool de Front-Ends ou Servido
 
 Se você estiver recém implantando a carga de trabalho do Enterprise Voice, antes de iniciar o processo de implantação, designe um número de telefone principal para cada usuário que você planeja habilitar para o Enterprise Voice. Como administrador, você é responsável por certificar-se que esse número seja exclusivo. Antes da implementação, todos os números de telefone principais devem ser normalizados (corretamente formatados) e copiados para a propriedade **URI da Linha** de cada usuário, usando o Painel de Controle do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter exemplos dos números de telefone principais necessários para a implantação do Enterprise Voice, consulte a seção <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> do <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para obter exemplos dos números de telefone principais necessários para a implantação do Enterprise Voice, consulte a seção <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> do <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Próximas etapas: Instalar arquivos ou configurar a conectividade da PSTN
 

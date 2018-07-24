@@ -74,19 +74,8 @@ Para facilitar o failover, esse registro CNAME deve ser atualizado para referenc
 
   - OCSServices.\<domain\>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter os procedimentos detalhados de administração e gerenciamento, consulte <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Fazendo backup e restaurando o Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Para obter os procedimentos detalhados de administração e gerenciamento, consulte <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Fazendo backup e restaurando o Lync Server 2013</a>.
 
 ## Consulte Também
 

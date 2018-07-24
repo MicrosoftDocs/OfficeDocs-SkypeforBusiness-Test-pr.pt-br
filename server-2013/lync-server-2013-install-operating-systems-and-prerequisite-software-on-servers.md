@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Após configurar a infraestrutura de hardware e software, você precisará instalar os sistemas operacionais e as atualizações adequadas do Windows, além de todos os outros softwares de pré-requisito em cada servidor que está implantando. Isso inclui cada função de servidor do Lync Server 2013 e todos os servidores de infraestrutura adicionais e servidores baseados no SQL Server necessários para sua implantação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta seção descreve a instalação de sistemas operacional e software de pré-requisito para servidores internos. Se os Servidores de Borda estiverem sendo implementados para dar suporte ao acesso de usuário externo, também será preciso instalar sistemas operacionais e software de pré-requisito para esses servidores, incluindo Servidores de Borda e servidores de proxy reverso. Para obter mais detalhes sobre como preparar os servidores para darem suporte ao acesso de usuário externo, consulte <a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparando para instalação de servidores na rede de perímetro para Lync Server 2013</a> na documentação da Implementação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Esta seção descreve a instalação de sistemas operacional e software de pré-requisito para servidores internos. Se os Servidores de Borda estiverem sendo implementados para dar suporte ao acesso de usuário externo, também será preciso instalar sistemas operacionais e software de pré-requisito para esses servidores, incluindo Servidores de Borda e servidores de proxy reverso. Para obter mais detalhes sobre como preparar os servidores para darem suporte ao acesso de usuário externo, consulte <a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparando para instalação de servidores na rede de perímetro para Lync Server 2013</a> na documentação da Implementação.
 
 ## Como instalar os sistemas operacionais Windows em servidores
 
@@ -39,20 +28,8 @@ Em cada servidor que estiver sendo implantado, instale o sistema operacional Win
 
   - **Servidores de banco de dados**   Para obter detalhes sobre os requisitos de sistema operacional para servidores de banco de dados, incluindo o banco de dados back-end, o Banco de dados de arquivamento e o Banco de dados de monitoramento, consulte a documentação do SQL Server. Para SQL Server 2012, consulte o SQL Server 2012 Books Online em [http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0x416).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver instalando o Lync Server 2013 no Windows Server 2008 R2 com SP1, será necessário instalar primeiro a atualização descrita no artigo 2646886 da Base de Dados de Conhecimento da Microsoft, “CORREÇÃO: A corrupção de heap ocorre quando um módulo chama o método InsertEntityBody em IIS 7.5” em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;clcid=0x416</a>.<br />
-Também é necessário modificar o registro conforme descrito no artigo da KB, <a href="http://go.microsoft.com/fwlink/p/?linkid=506893">IDs de Evento 32402, 61045 estão registradas nos servidores Front-End do Lync Server 2013 instalados no Windows Server 2012 R2</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você estiver instalando o Lync Server 2013 no Windows Server 2008 R2 com SP1, será necessário instalar primeiro a atualização descrita no artigo 2646886 da Base de Dados de Conhecimento da Microsoft, “CORREÇÃO: A corrupção de heap ocorre quando um módulo chama o método InsertEntityBody em IIS 7.5” em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;clcid=0x416</a>.<br />Também é necessário modificar o registro conforme descrito no artigo da KB, <a href="http://go.microsoft.com/fwlink/p/?linkid=506893">IDs de Evento 32402, 61045 estão registradas nos servidores Front-End do Lync Server 2013 instalados no Windows Server 2012 R2</a>.
 
 ## Instalar o Windows Update em servidores
 
@@ -74,45 +51,12 @@ O Lync Server 2013 exige a instalação dos seguintes softwares adicionais em se
 
   - **Pré-requisito de software para servidores de banco de dados** Para obter mais detalhes sobre o Windows Update requerido por servidores de bando de dados, incluindo os banco de dados de back-end, o Banco de dados de arquivamento e o Banco de dados de monitoramento, consulte a documentação do SQL Server 2012 em [http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0x416).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Lync Server 2013 instala automaticamente o Microsoft SQL Server 2012 Express em cada Servidor Standard Edition e em cada servidor executando o Lync Server 2013 no qual o repositório de configuração local está localizado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O Lync Server 2013 instala automaticamente o Microsoft SQL Server 2012 Express em cada Servidor Standard Edition e em cada servidor executando o Lync Server 2013 no qual o repositório de configuração local está localizado.
 
   - **Tempo de execução do Windows Media Format**   Todos os Servidores Front-End e Servidores Standard Edition nos quais a conferência será implantada precisam ter o Tempo de execução do Windows Media Format instalado. O Tempo de execução do Windows Media Format é necessário para executar arquivos de Windows Media Audio (.wma) que os aplicativos de Estacionamento de chamada, Anúncio e Grupo de resposta reproduzem para anúncios e música.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para Windows Server 2012 e Windows Server 2012 R2, o Tempo de Execução do Windows Media Format é instalado com o Microsoft Media Foundation.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para Windows Server 2008 e Windows Server 2008 R2, o Tempo de execução do Windows Media Format é instalado como parte da Experiência de Desktop do Windows. Recomenda-se instalar a Experiência de Desktop do Windows antes da instalação de Lync Server 2013. Se Lync Server 2013 não encontrar esse software no servidor, será solicitada sua instalação, a qual só será concluída quando o servidor for reiniciado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para Windows Server 2012 e Windows Server 2012 R2, o Tempo de Execução do Windows Media Format é instalado com o Microsoft Media Foundation.    
+    > [!note]  
+    > Para Windows Server 2008 e Windows Server 2008 R2, o Tempo de execução do Windows Media Format é instalado como parte da Experiência de Desktop do Windows. Recomenda-se instalar a Experiência de Desktop do Windows antes da instalação de Lync Server 2013. Se Lync Server 2013 não encontrar esse software no servidor, será solicitada sua instalação, a qual só será concluída quando o servidor for reiniciado.

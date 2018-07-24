@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-22_
 
 É possível usar o seguinte procedimento para remover uma conta de usuário adicionada anteriormente no Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Remover um usuário pode causar a perda de qualquer configuração definida para a conta de usuário. Se você gostaria de desabilitar temporariamente uma conta de usuário, consulte o tópico <a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Habilitar ou reabilitar uma conta de usuário para o Lync Server</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Remover um usuário pode causar a perda de qualquer configuração definida para a conta de usuário. Se você gostaria de desabilitar temporariamente uma conta de usuário, consulte o tópico <a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Habilitar ou reabilitar uma conta de usuário para o Lync Server</a>.
 
 ## Para remover uma conta de usuário do Lync Server Lync Server
 

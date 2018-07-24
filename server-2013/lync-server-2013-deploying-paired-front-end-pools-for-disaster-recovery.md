@@ -67,16 +67,5 @@ _**Tópico modificado em:** 2013-02-21_
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 ```
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A opção <strong>Failover automático e failback para voz</strong> e os intervalos de tempo associado no Construtor de Topologias se aplicam apenas aos recursos de resiliência de voz introduzidos no Lync Server 2010. Selecionar esta opção não implica que o failover de pool discutido neste documento seja automático. O failover de pool e failback sempre exige que um administrador invoque manualmente os cmdlets de failover e failback, respectivamente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A opção <strong>Failover automático e failback para voz</strong> e os intervalos de tempo associado no Construtor de Topologias se aplicam apenas aos recursos de resiliência de voz introduzidos no Lync Server 2010. Selecionar esta opção não implica que o failover de pool discutido neste documento seja automático. O failover de pool e failback sempre exige que um administrador invoque manualmente os cmdlets de failover e failback, respectivamente.
