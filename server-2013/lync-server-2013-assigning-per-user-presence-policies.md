@@ -42,21 +42,11 @@ Uma política de presença é um conjunto de limites e restrições que afetam a
 <td><p>Número máximo de inscrições de categoria do assinante</p></td>
 <td><p>Limita o número de inscrições de categoria do assinante. Por exemplo, quando o Communicator se inscreve para a presença de um usuário, ele obtém uma inscrição de categoria para cada cartão de contato, dados de calendário, notas, serviços e categorias de estado.</p>
 <p>Uma configuração 0 significa que o objeto de usuário ou contato não pode ser inscrito por outros.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Essa configuração pode ter um impacto significativo no desempenho se for definida para um número alto e o usuário médio tem um grande número de usuários inscrevendo para sua presença.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Essa configuração pode ter um impacto significativo no desempenho se for definida para um número alto e o usuário médio tem um grande número de usuários inscrevendo para sua presença.
+
+</td>
 <td><p>Inteiro</p></td>
 <td><p>0-3000</p></td>
 </tr>

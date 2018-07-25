@@ -27,19 +27,9 @@ To return a per-user policy that has the Identity “RedmondAccessPolicy”, use
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>When referencing a per-user policy, the tag <strong>prefix</strong> is optional. This syntax, which includes the prefix, is also valid:<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> When referencing a per-user policy, the tag <strong>prefix</strong> is optional. This syntax, which includes the prefix, is also valid:<br />
+Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 
 To return all policies except the global policies (that is, all the per-user policies), use this command:
@@ -62,19 +52,8 @@ The following cmdlets operate against both the global scope and the per-user (ta
 
   - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Despite the name, dial plans are, functionally speaking, policies. The term <em>dial plan</em> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Despite the name, dial plans are, functionally speaking, policies. The term <em>dial plan</em> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.
 
 ## Consulte Também
 

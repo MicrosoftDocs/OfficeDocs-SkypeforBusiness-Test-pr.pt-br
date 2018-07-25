@@ -47,74 +47,31 @@ Para confirmar que você atende aos requisitos de certificado corretos da sua im
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para suportar o namespace do XMPP do contoso.com</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Para suportar o namespace do XMPP do contoso.com
+
 <p>sip.fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para dar suporte ao namespace do SIP do fabrikam.com</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Para dar suporte ao namespace do SIP do fabrikam.com
+
 <p>fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para dar suporte ao namespace do XMPP do fabrikam.com</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Para dar suporte ao namespace do XMPP do fabrikam.com
+
+</td>
 <td><p>O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o EKU do cliente se a conectividade de IM pública com a AOL ainda esteja para ser implementada. O certificado é atribuído para as interfaces externas do Servidor de Borda para:</p>
 <ul>
 <li><p>Serviço de Borda de Acesso</p></li>
 <li><p>Serviço de Borda de Webconferência</p></li>
 <li><p>Serviço de Borda A/V</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tecnicamente, um certificado não é atribuído à Borda A/V Edge. A comunicação e autenticação seguras são gerenciadas por meio do Serviço de Autenticação de Media Relay (MRAS). O MRAS usa o certificado atribuído à interface interna do Servidor de Borda.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Tecnicamente, um certificado não é atribuído à Borda A/V Edge. A comunicação e autenticação seguras são gerenciadas por meio do Serviço de Autenticação de Media Relay (MRAS). O MRAS usa o certificado atribuído à interface interna do Servidor de Borda.
+
 <p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
 </tr>
 </tbody>

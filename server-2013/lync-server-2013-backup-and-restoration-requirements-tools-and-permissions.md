@@ -66,21 +66,11 @@ Para fazer backup do Lync Server, use as ferramentas identificadas na tabela a s
 </tr>
 <tr class="odd">
 <td><p>Todos arquivos armazenam: repositório de arquivo do Lync Server, repositório de arquivo de Arquivamento</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não faça o backup dos arquivos com o nome <strong>Meeting.Active</strong>. Eles estão em uso e são bloqueados enquanto a reunião ocorre.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Não faça o backup dos arquivos com o nome <strong>Meeting.Active</strong>. Eles estão em uso e são bloqueados enquanto a reunião ocorre.
+
+</td>
 <td><p>Ferramenta de gerenciamento de sistema de arquivos padrão, como o Robocopy.</p></td>
 </tr>
 </tbody>
@@ -129,21 +119,11 @@ Para restaurar o Lync Server, use as ferramentas na tabela a seguir. Todos os co
 </tr>
 <tr class="even">
 <td><p>Restaure o ponteiro do Serviços de Domínio Active Directory para o Repositório de Gerenciamento Central</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você perder o ponto de conexão de serviço a qualquer momento, você pode executar este cmdlet novamente.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se você perder o ponto de conexão de serviço a qualquer momento, você pode executar este cmdlet novamente.
+
+</td>
 <td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
@@ -163,16 +143,9 @@ Para restaurar o Lync Server, use as ferramentas na tabela a seguir. Todos os co
 <tr class="even">
 <td><p>Reinstale os componentes do Lync Server</p></td>
 <td><p>Configuração do Lync Server</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Localizado na pasta ou mídia de instalação do Lync Server em \setup\amd64\Setup.exe.</td>
+
+> [!NOTE]  
+> Localizado na pasta ou mídia de instalação do Lync Server em \setup\amd64\Setup.exe.</td>
 </tr>
 </tbody>
 </table>
@@ -190,21 +163,11 @@ Para restaurar o Lync Server, use as ferramentas na tabela a seguir. Todos os co
 <tr class="odd">
 <td><p>Dados da configuração do Grupo de Respostas (RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se a configuração estiver sendo restaurada em um pool implantado recentemente que não possui dados de Grupo de Resposta no banco de dados, use a opção –OverwriteOwner. Use essa opção mesmo se os dados sendo restaurados estiverem em um pool com o mesmo nome de domínio totalmente qualificado (FQDN). Caso contrário, a importação não terá sucesso devido aos objetos de contatos para os Grupos de Resposta já existirem no .</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se a configuração estiver sendo restaurada em um pool implantado recentemente que não possui dados de Grupo de Resposta no banco de dados, use a opção –OverwriteOwner. Use essa opção mesmo se os dados sendo restaurados estiverem em um pool com o mesmo nome de domínio totalmente qualificado (FQDN). Caso contrário, a importação não terá sucesso devido aos objetos de contatos para os Grupos de Resposta já existirem no .
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Restaure os bancos de dados a seguir:</p>

@@ -80,21 +80,11 @@ A tabela a seguir fornece uma visão geral do processo de integração da UM do 
 <li><p>Crie objetos de contato Acesso do Assinante para UM do Exchange hospedada.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para criar, modificar ou remover objetos de contato, o usuário que executa o cmdlet New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact precisa ter a permissão correta para a unidade organizacional Active Directory na qual os novos objetos de contato são armazenados. Essa permissão pode ser atribuída por meio da execução do cmdlet Grant-CsOUPermission. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Para criar, modificar ou remover objetos de contato, o usuário que executa o cmdlet New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact precisa ter a permissão correta para a unidade organizacional Active Directory na qual os novos objetos de contato são armazenados. Essa permissão pode ser atribuída por meio da execução do cmdlet Grant-CsOUPermission. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
+
+</td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Criar objetos de contato para Exchange UM hospedado no Lync Server 2013</a></p></td>
 </tr>
 </tbody>

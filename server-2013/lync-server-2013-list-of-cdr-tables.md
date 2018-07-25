@@ -266,21 +266,11 @@ O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste 
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Tabela VoipDetails no Lync Server 2013</a></p></td>
 <td><p>Armazena, para cada chamada VoIP/PSTN de duas partes, informações sobre a chamada, tais como ID de telefone do telefone VoIP, gateway usado e qual parte desconectou. Consulte <a href="lync-server-2013-sessiondetails-table.md">Tabela SessionDetails no Lync Server 2013</a> para horários de início/término de chamadas e código de resposta.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se uma parte em uma chamada é um usuário VoIP ou se um Servidor de Mediação esteve envolvido na chamada, um registro será criado nesta tabela. Informações sobre chamadas VoIP/VoIP não envolvendo um telefone PSTN (rede de telefonia pública comutada) são capturadas no <a href="lync-server-2013-sessiondetails-table.md">Tabela SessionDetails no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se uma parte em uma chamada é um usuário VoIP ou se um Servidor de Mediação esteve envolvido na chamada, um registro será criado nesta tabela. Informações sobre chamadas VoIP/VoIP não envolvendo um telefone PSTN (rede de telefonia pública comutada) são capturadas no <a href="lync-server-2013-sessiondetails-table.md">Tabela SessionDetails no Lync Server 2013</a>.
+
+</td>
 </tr>
 </tbody>
 </table>
@@ -304,21 +294,11 @@ O esquema de banco de dados de registro de detalhes das chamadas (CDR) consiste 
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Tabela Locations no Lync Server 2013</a></p></td>
 <td><p>Armazena, para cada chamada de emergência, tal como uma chamada Enhanced 9-1-1 (E9-1-1), informações locais sobre a chamada. Consulte <a href="lync-server-2013-sessiondetails-table.md">Tabela SessionDetails no Lync Server 2013</a> para horários de início/término de chamadas e código de resposta.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta tabela contém apenas o blob de local para a chamada E9-1-1. Consulte a tabela SessionDetails para outras informações detalhadas sobre a chamada.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Esta tabela contém apenas o blob de local para a chamada E9-1-1. Consulte a tabela SessionDetails para outras informações detalhadas sobre a chamada.
+
+</td>
 </tr>
 </tbody>
 </table>

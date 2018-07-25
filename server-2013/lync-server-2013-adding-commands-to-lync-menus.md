@@ -72,42 +72,22 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = Executável (padrão)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer ApplicationInstallPath.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Requer ApplicationInstallPath.
+
+
 <p>1 = Protocolo</p></td>
 </tr>
 <tr class="odd">
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Caminho completo do executável.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Deve ser especificado se o Tipo de Aplicativo for 0 (Executável).</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Deve ser especificado se o Tipo de Aplicativo for 0 (Executável).
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Path</p></td>
