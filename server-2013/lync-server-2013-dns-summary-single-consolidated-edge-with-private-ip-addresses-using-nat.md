@@ -41,19 +41,8 @@ Você pode configurar dois adaptadores de rede em seu Servidor de Borda da segui
     
     Três endereços IP privados são atribuídos a esse adaptador de rede, por exemplo 10.45.16.10 para acesso de borda, 10.45.16.20 para borda de webconferência, 10.45.16.30 para borda de AV
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível, embora não seja recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora economize endereços IP, isso exige diferentes números de porta para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permitirá o tráfego. Alterar os valores de porta para (por exemplo) 5061/TCP para borda de acesso, 444/TCP para borda de webconferência e 443/TCP para borda de AV pode causar problemas para usuários remotos quando eles estiverem atrás de um firewall que não permite tráfego através de 5061/TCP e 444/TCP. Além disso, três endereços IP distintos tornam a solução de problemas mais fácil, devido a possibilidade de filtrar os endereços IP.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > É possível, embora não seja recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora economize endereços IP, isso exige diferentes números de porta para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permitirá o tráfego. Alterar os valores de porta para (por exemplo) 5061/TCP para borda de acesso, 444/TCP para borda de webconferência e 443/TCP para borda de AV pode causar problemas para usuários remotos quando eles estiverem atrás de um firewall que não permite tráfego através de 5061/TCP e 444/TCP. Além disso, três endereços IP distintos tornam a solução de problemas mais fácil, devido a possibilidade de filtrar os endereços IP.    
     O endereço IP da Borda de Acesso é principal com o gateway padrão definido para o roteador integrado (10.45.16.1).
     
     Webconferências e endereços IP de Borda de A/V secundários.
@@ -122,19 +111,8 @@ Você pode configurar dois adaptadores de rede em seu Servidor de Borda da segui
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os registros listados na tabela anterior são exibidos com uma extensão <em>.net</em> ou <em>.com</em> para destacar em qual zona eles devem ser hospedados se você não estiver usando DNS split-brain. Se você estiver usando DNS split-brain, todos os registros estariam na mesma zona <em>.com</em> , com apenas uma diferença sendo se eles estão na versão de zona DNS interna ou externa. Para obter mais detalhes, consulte &quot;DNS Split-Brain&quot; em <a href="lync-server-2013-determine-dns-requirements.md">Determinar requisitios de DNS para Lync Server 2013</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Os registros listados na tabela anterior são exibidos com uma extensão <em>.net</em> ou <em>.com</em> para destacar em qual zona eles devem ser hospedados se você não estiver usando DNS split-brain. Se você estiver usando DNS split-brain, todos os registros estariam na mesma zona <em>.com</em> , com apenas uma diferença sendo se eles estão na versão de zona DNS interna ou externa. Para obter mais detalhes, consulte &quot;DNS Split-Brain&quot; em <a href="lync-server-2013-determine-dns-requirements.md">Determinar requisitios de DNS para Lync Server 2013</a>
 
 ## Registros necessários para federação
 
@@ -161,19 +139,8 @@ Você pode configurar dois adaptadores de rede em seu Servidor de Borda da segui
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa de borda de acesso SIP obrigatória para descoberta de DNS automática de sua federação para outros parceiros potenciais de federação, conhecida também como &quot;Domínio SIP Permitido&quot; (chamada de federação avançada em versões anteriores). Repita conforme o necessário para todos os domínios SIP com usuários habilitados do Lync.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esse registro SRV é obrigatório para mobilidade e Push Notification Clearing House (PNCH)</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Esse registro SRV é obrigatório para mobilidade e Push Notification Clearing House (PNCH)
 </div></td>
 </tr>
 </tbody>

@@ -25,26 +25,19 @@ O Lync Server 2013 usa os certificados para fornecer criptografias de comunicaç
 
 Não há suporte para uma entrada curinga como nome de entidade (também conhecido como nome comum ou CN) para nenhuma função. As funções do servidor apresentadas a seguir são suportadas quando são usadas entradas curinga no SAN:
 
-  -   
-    **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação de URL simples (reunir e discar).
+   **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação de URL simples (reunir e discar).
 
-  -   
-    **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação do LyncDiscover.
+   **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação do LyncDiscover.
 
-  -   
-    **Diretor.** A entrada de SAN curinga tem suporte de URLs simples (reunir e e discar) e por entradas do LyncDiscover e LyncDiscoverInternal nos componentes de Web do Diretor.
+   **Diretor.** A entrada de SAN curinga tem suporte de URLs simples (reunir e e discar) e por entradas do LyncDiscover e LyncDiscoverInternal nos componentes de Web do Diretor.
 
-  -   
-    **Servidor Front-End ( Standard Edition) e Pool de Front-Ends ( Enterprise Edition).** A entrada de SAN curinga é suportada para URLs simples (reunir e discar) e por entradas SAN para o LyncDiscover e LyncDiscoverInternal de componentes da Web de Front-Ends.
+   **Servidor Front-End ( Standard Edition) e Pool de Front-Ends ( Enterprise Edition).** A entrada de SAN curinga é suportada para URLs simples (reunir e discar) e por entradas SAN para o LyncDiscover e LyncDiscoverInternal de componentes da Web de Front-Ends.
 
-  -   
-    **Unificação de Mensagens (UM) do Exchange.** O servidor não usa entradas de SAN quando implantado como um servidor autônomo.
+   **Unificação de Mensagens (UM) do Exchange.** O servidor não usa entradas de SAN quando implantado como um servidor autônomo.
 
-  -   
-    Servidor de Acesso para Cliente do **Microsoft Exchange Server.** As entradas curinga no SAN são suportadas por clientes internos e externos.
+   Servidor de Acesso para Cliente do **Microsoft Exchange Server.** As entradas curinga no SAN são suportadas por clientes internos e externos.
 
-  -   
-    Servidor de Acesso para Cliente **Unificação de Mensagens (UM) do Exchange e Microsoft Exchange Server no mesmo servidor.** As entradas curinga de SAN são suportadas.
+   Servidor de Acesso para Cliente **Unificação de Mensagens (UM) do Exchange e Microsoft Exchange Server no mesmo servidor.** As entradas curinga de SAN são suportadas.
 
 As funções do servidor que não são abordadas neste tópico:
 
@@ -54,19 +47,8 @@ As funções do servidor que não são abordadas neste tópico:
 
   - Servidor de Borda interno
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.
 
 Para obter detalhes sobre o uso de certificados no Exchange, consulte o seguinte:
 

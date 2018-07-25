@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reunião Online para Lync 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Suplemento de Reunião Online para Lync 2013, que dá suporte ao gerenciamento de reuniões no cliente de mensagem e colaboração do Outlook, é instalado automaticamente com o Lync 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Suplemento de Reunião Online para Lync 2013, que dá suporte ao gerenciamento de reuniões no cliente de mensagem e colaboração do Outlook, é instalado automaticamente com o Lync 2013.
 
 ### Requisitos de software para Lync 2013 e o Suplemento de Reunião Online para Lync 2013
 
@@ -52,19 +41,8 @@ Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reuni
 <p>Sistema operacional Windows 7</p>
 <p>Windows Server 2008 R2 com o service pack mais recente</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync 2013 e o Suplemento de Reunião Online para Lync 2013 não têm suporte no Windows Vista ou no Windows XP (nenhuma versão).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Lync 2013 e o Suplemento de Reunião Online para Lync 2013 não têm suporte no Windows Vista ou no Windows XP (nenhuma versão).
 </div></td>
 </tr>
 <tr class="even">
@@ -79,36 +57,17 @@ Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reuni
 <p>Navegador de Internet Internet Explorer 7</p>
 <p>Navegador web Mozilla Firefox</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver usando o Lync com Microsoft Exchange Online e sua organização tiver implantado um proxy HTTP de autenticação, Internet Explorer 9 ou Internet Explorer 8 é obrigatório.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você estiver usando o Lync com Microsoft Exchange Online e sua organização tiver implantado um proxy HTTP de autenticação, Internet Explorer 9 ou Internet Explorer 8 é obrigatório.
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Integração com o Microsoft Office</p></td>
-<td><p>Para o conjunto completo de recursos de integração:</p>
-<ul>
-<li><p>Cliente de mensagem e colaboração do Outlook 2013</p></li>
-<li><p>Outlook 2010nm-outlk-15</p></li>
-</ul></td>
+<td><p>Para o conjunto completo de recursos de integração:</p><ul><li><p>Cliente de mensagem e colaboração do Outlook 2013</p></li><li><p>Outlook 2010nm-outlk-15</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Integração com o Microsoft Exchange</p></td>
-<td><p>Para o conjunto completo de recursos de integração:</p>
-<ul>
-<li><p>Microsoft Exchange Server 2013</p></li>
-<li><p>Microsoft Exchange Server 2010</p></li>
-</ul></td>
+<td><p>Para o conjunto completo de recursos de integração:</p><ul><li><p>Microsoft Exchange Server 2013</p></li><li><p>Microsoft Exchange Server 2010</p></li></ul></td>
 </tr>
 </tbody>
 </table>

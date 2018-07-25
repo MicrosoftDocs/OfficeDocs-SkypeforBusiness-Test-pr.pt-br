@@ -17,31 +17,9 @@ _**Tópico modificado em:** 2012-10-18_
 
 Conclua as tarefas seguintes no local central. Se estiver implantando um Servidor de Filial Persistente, ignore a primeira tarefa.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de realizar as tarefas desta seção, as condições a seguir devem estar em vigor:
-<ul>
-<li><p>O Lync Server deve ser instalado no site central.</p></li>
-<li><p>Um técnico de instalação do site de filial deve ser adicionado ao grupo RTCUniversalSBATechnicians.</p></li>
-</ul>
-Além disso, recomendamos que você faça o seguinte:
-<ul>
-<li><p>Implantar um servidor DHCP no site de filial para permitir que os cliente obtenham os endereços IP.</p></li>
-<li><p>Como alternativa para implantar um servidor DHCP em cada site de filial, habilite o DHCP do Lync Server no Aparelho de Filial Persistente ou Servidor de Filial Persistente utilizando o cmdlet Shell de Gerenciamento do Lync Server<strong>Set-CsRegistrarConfiguration –EnableDHCPServer $true</strong>. Para obter detalhes, consulte a seção “Requisitos de Hardware e Software” do <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação de Planejamento.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Antes de realizar as tarefas desta seção, as condições a seguir devem estar em vigor:<ul><li><p>O Lync Server deve ser instalado no site central.</p></li><li><p>Um técnico de instalação do site de filial deve ser adicionado ao grupo RTCUniversalSBATechnicians.</p></li></ul>
+> Além disso, recomendamos que você faça o seguinte:<ul><li><p>Implantar um servidor DHCP no site de filial para permitir que os cliente obtenham os endereços IP.</p></li><li><p>Como alternativa para implantar um servidor DHCP em cada site de filial, habilite o DHCP do Lync Server no Aparelho de Filial Persistente ou Servidor de Filial Persistente utilizando o cmdlet Shell de Gerenciamento do Lync Server<strong>Set-CsRegistrarConfiguration –EnableDHCPServer $true</strong>. Para obter detalhes, consulte a seção “Requisitos de Hardware e Software” do <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação de Planejamento.</p></li></ul>
 
 ## Nesta seção
 

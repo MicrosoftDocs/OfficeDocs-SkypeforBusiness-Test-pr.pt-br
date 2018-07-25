@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-06-14_
 
 Ao executar o Analisador de Práticas Recomendadas do Lync Server 2013 em seu ambiente do Lync Server 2013, a ferramenta usa os resultados da pesquisa para gerar relatórios de problemas com sua implantação. É possível usar os relatórios gerados pelo Analisador de Práticas Recomendadas para identificar e resolver problemas específicos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Analisador de Práticas Recomendadas do Lync Server 2013 pesquisa e relata problemas apenas com os componentes do Lync Server 2013. Se sua implantação inclui componentes do Microsoft Lync Server 2010 ou Office Communications Server 2007 R2, use a versão anterior do Analisador de Práticas Recomendadas para analisar estes componentes. Para obter detalhes, consulte <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requisitos para Excutar o Analisador de Práticas Recomendadas</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Analisador de Práticas Recomendadas do Lync Server 2013 pesquisa e relata problemas apenas com os componentes do Lync Server 2013. Se sua implantação inclui componentes do Microsoft Lync Server 2010 ou Office Communications Server 2007 R2, use a versão anterior do Analisador de Práticas Recomendadas para analisar estes componentes. Para obter detalhes, consulte <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requisitos para Excutar o Analisador de Práticas Recomendadas</a>.
 
 ## Nesta seção
 

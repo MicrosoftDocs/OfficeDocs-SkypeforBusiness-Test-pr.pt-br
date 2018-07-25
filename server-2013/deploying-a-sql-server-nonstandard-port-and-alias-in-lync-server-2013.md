@@ -27,19 +27,8 @@ O Construtor de Topologias do Lync Server 2013 oferece suporte ao uso de um alia
 
 Para determinar com êxito a porta que o Lync Server 2013 utiliza para se comunicar com o SQL Server, o invasor precisa verificar todas as portas para obter as informações da porta. A verificação de porta realizada por um invasor aumenta as chances de a segurança detectar e interromper a instrução. Além de adicionar mais segurança com uma porta não padrão, também é possível usar um alias do SQL Server para oferecer flexibilidade à implantação. Isso é importante para reduzir as alterações de configuração em situações em que uma alteração de nome no SQL Server é necessária.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O SQL Server fornece dois métodos de tolerância a falhas (Cluster de Failover e Espelhamento). Os dois métodos de tolerância a falhas do SQL Server têm suporte ao usar uma porta não padrão e um alias do SQL Server com o Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O SQL Server fornece dois métodos de tolerância a falhas (Cluster de Failover e Espelhamento). Os dois métodos de tolerância a falhas do SQL Server têm suporte ao usar uma porta não padrão e um alias do SQL Server com o Lync Server 2013.
 
 Ao configurar a conectividade do banco de dados do SQL Server a partir do Construtor de Topologias, ou ao utilizar o cmdlet Install-CsDatabase, não é possível definir explicitamente um número de porta não padrão do SQL Server e associá-lo a uma instância SQL. Para definir uma porta não padrão, é necessário usar os utilitários do SQL Server e do Windows Server.
 
@@ -99,19 +88,8 @@ A porta não padrão e o alias do SQL Server devem ser configurados na instânci
     
     ![Redefinir o serviço SQL Server para instância.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Redefinir o serviço SQL Server para instância.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Certifique-se de atualizar as configurações de firewall para acomodar a nova porta do SQL Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Certifique-se de atualizar as configurações de firewall para acomodar a nova porta do SQL Server.
 
 **Criar e configurar um alias do SQL Server**
 
@@ -163,19 +141,8 @@ A porta não padrão e o alias do SQL Server devem ser configurados na instânci
 
 Há muitas maneiras diferentes para se certificar de que esteja funcionando. Você quer ter certeza de que o banco de dados do SQL Server está fazendo a escuta na porta especificada que utiliza o alias. Uma verificação rápida pode ser concluída utilizando os comandos **netstat** e **telnet**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Cliente Telnet é um recurso que acompanha o Windows Server, mas que deve ser instalado. Abra o Gerenciador de Servidores e selecione Adicionar Funções e Recursos no menu Gerenciar para instalar um recurso do Windows Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Cliente Telnet é um recurso que acompanha o Windows Server, mas que deve ser instalado. Abra o Gerenciador de Servidores e selecione Adicionar Funções e Recursos no menu Gerenciar para instalar um recurso do Windows Server.
 
 **Usar netstat e telnet para verificar a conectividade do banco de dados**
 

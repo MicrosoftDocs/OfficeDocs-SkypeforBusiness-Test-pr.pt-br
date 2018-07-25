@@ -27,19 +27,8 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 4.  Na página **Região**, clique na região que você deseja excluir.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível excluir mais de uma região por vez. Para fazer isso, pressione CTRL e selecione várias regiões enquanto mantém pressionada a tecla CTRL. Ou, para selecionar todas as regiões, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > É possível excluir mais de uma região por vez. Para fazer isso, pressione CTRL e selecione várias regiões enquanto mantém pressionada a tecla CTRL. Ou, para selecionar todas as regiões, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.
 

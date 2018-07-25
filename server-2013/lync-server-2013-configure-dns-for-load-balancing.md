@@ -19,19 +19,8 @@ Para concluir com este procedimento com êxito, você deve estar conectado no se
 
 O Balanceamento de Carga do DNS (Domain Name System) balanceia o tráfego de rede que é exclusivo ao Lync Server 2013, como tráfego SIP e de mídia. O balanceamento de carga DNS é suportado para pools de Front-Ends, pools de Borda, pools de Diretores e pools de Mediação autônomos. Um pool configurado para usar o balanceamento de carga DNS deve possuir dois FQDNs (nomes de domínio totalmente qualificados) definidos: o FQDN do pool normal que é usado pelo balanceamento de carga DNS (por exemplo, pool1.contoso.com) e que resolve aos IPs físicos dos servidores no pool, e outro FQDN para o Serviços Web do pool (por exemplo, web1.contoso.net), que resolve para o endereço IP virtual do pool. Para obter detalhes sobre Balanceamento de Carga DNS, consulte [Balanceamento de carga DNS no Lync Server 2013](lync-server-2013-dns-load-balancing.md) na documentação de Planejamento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O balanceamento de carga de hardware ainda é exigido para tráfego HTTPS de cliente para servidor.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O balanceamento de carga de hardware ainda é exigido para tráfego HTTPS de cliente para servidor.
 
 Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguinte:
 
@@ -47,19 +36,8 @@ Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguinte:
 
 3.  Habilite randomização de Endereço IP ou, no caso do Windows Server DNS, habilite o Round robin.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Round robin deve ser habilitado por padrão.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O Round robin deve ser habilitado por padrão.
 
 ## Substituir o FQDN de Serviços Web internos
 
@@ -140,19 +118,8 @@ Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguinte:
     
     ![Caixa de diálogo Repetição alternada DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo Repetição alternada DNS")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este recurso deve ser habilitado por padrão.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Este recurso deve ser habilitado por padrão.
 
 ## Consulte Também
 

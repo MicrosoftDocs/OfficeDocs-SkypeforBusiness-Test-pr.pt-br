@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Para ingressar em uma conferência de discagem como usuário autenticado, um usuário do Lync Server 2013 com credenciais do AD DS (Serviços de Domínio Active Directory) precisa de um PIN (número de identificação pessoal). Você pode exibir as informações de PIN de um usuário no Painel de Controle do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário perder seu PIN, você poderá redefini-lo seguindo os procedimentos em <a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Configurar PIN de conferência discada de um usuário no Lync Server 2013</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário perder seu PIN, você poderá redefini-lo seguindo os procedimentos em <a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Configurar PIN de conferência discada de um usuário no Lync Server 2013</a>
 
 ## Para exibir o PIN de um usuário no Painel de Controle do Lync Server
 
@@ -62,19 +51,8 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
     
     5.  Clique em **Localizar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.
 
 6.  Clique em um usuário nos resultados da pesquisa, em **Ação** e depois em **Exibir status do PIN**.
 

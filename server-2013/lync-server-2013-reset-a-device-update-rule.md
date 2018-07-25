@@ -19,19 +19,8 @@ Se você não gosta do modo como uma atualização funciona em seus dispositivos
 
 Você pode remover uma regra de atualização de dispositivo utilizando o Painel de Controle do Lync Server ou então o Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para desinstalar uma regra que você já tenha aprovado (ou seja, implantadas), restaure-a. Para detalhes, consulte <a href="lync-server-2013-restore-a-device-update-rule.md">Restaurar uma regra de atualização de dispositivo</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para desinstalar uma regra que você já tenha aprovado (ou seja, implantadas), restaure-a. Para detalhes, consulte <a href="lync-server-2013-restore-a-device-update-rule.md">Restaurar uma regra de atualização de dispositivo</a>.
 
 ## Para resetar uma regra de atualização de dispositivo utilizando Painel de Controle do Lync Server
 
@@ -61,19 +50,8 @@ Você pode remover uma regra de atualização de dispositivo utilizando o Painel
 
 As regras de atualização de dispositivo também podem ser resetadas utilizando o Windows PowerShell e o cmdlet **Reset-CsDeviceUpdateRule**. Este cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
 
 ## Para resetar uma regra de atualização de dispositivo específica em um servidor
 

@@ -53,21 +53,11 @@ As exigências de certificado para um Diretor com balanceamento de carga de DNS 
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Nenhuma entrada</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div>
+> [!IMPORTANT]  
+> Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.
+
 <p>O certificado OAuthTokenIssuer é um certificado para o fim único de autenticar servidores em um ambiente de grande escala e pode ser solicitado de um CA interno ou público. O certificado é exigido.</p></td>
 </tr>
 </tbody>

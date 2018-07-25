@@ -19,19 +19,8 @@ Você pode gerenciar as configurações e políticas de usuários para aqueles q
 
 ## Movendo usuários novamente para o local
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta seção aplica-se apenas a usuários criados e habilitados para Lync no local e movidos de uma implantação local para o Lync Online. Caso queira mover usuários criados no Lync Online (e que nunca foram habilitados para o Lync em implantações locais) consulte, <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuários do Lync Online para o Lync no local no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Esta seção aplica-se apenas a usuários criados e habilitados para Lync no local e movidos de uma implantação local para o Lync Online. Caso queira mover usuários criados no Lync Online (e que nunca foram habilitados para o Lync em implantações locais) consulte, <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuários do Lync Online para o Lync no local no Lync Server 2013</a>.
 
   - Execute os cmdlets a seguir para mover os usuários do Lync Online novamente ao Lync local:
     

@@ -67,24 +67,13 @@ Usar o balanceamento de carga DNS nos servidores de borda provoca uma perda da c
 
   - Troca de mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas (IM), AOLand Yahoo\!, além de provedores e servidores com base em XMPP, como o Google Talk.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>O Google Talk atualmente é o único parceiro XMPP.</p></li>
-    <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para Conectividade a Redes Públicas de Mensagens Instantâneas do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada uma data de descontinuação para o AOL e o Yahoo! em junho de 2013. Para ver detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!important]  
+    > <ul>    
+> 
+> <li><p>O Google Talk atualmente é o único parceiro XMPP.</p></li>    
+> 
+> 
+> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para Conectividade a Redes Públicas de Mensagens Instantâneas do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada uma data de descontinuação para o AOL e o Yahoo! em junho de 2013. Para ver detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    </ul>
 
 
 Esses cenários funcionarão desde que todos os servidores de borda no pool estejam funcionando. Se um servidor de borda estiver disponível, as solicitações enviadas para esses cenários falharão, em vez de rotear para outro servidor de borda.

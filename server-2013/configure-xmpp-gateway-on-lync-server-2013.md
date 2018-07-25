@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-10-28_
 
 As etapas finais para migração do seu Gateway XMPP são para configurar certificados para o Servidor de Borda do Lync Server 2013, implantar o Gateway XMPP do Lync Server 2013 e atualizar os registros DNS para o Gateway XMPP. Estas etapas devem ser realizadas em paralelo para minimizar o tempo de inatividade do seu Gateway XMPP. Todos os usuários devem ser movidos para sua implantação do Microsoft Lync Server 2013 antes de realizar estas etapas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A federação XMPP não é suportado por usuários hospedados em aparelhos de filial persistente. Isso se aplica à visualização de informações de presença e troca de mensagens instantâneas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> A federação XMPP não é suportado por usuários hospedados em aparelhos de filial persistente. Isso se aplica à visualização de informações de presença e troca de mensagens instantâneas.
 
 ## Configurar certificados do Gateway XMPP no Servidor de Borda do Lync Server 2013
 
@@ -123,35 +112,27 @@ As etapas finais para migração do seu Gateway XMPP são para configurar certif
     
       - **Negociação TLS**    Define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional, ou definir que o TLS não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações possíveis e detalhes para negociação SASL, TLS e Discagem -incluindo configurações de erros conhecidos e não válidos - consulte [Configurações de negociação para parceiros de XMPP federados no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
-          -   
-            **Obrigatório**    O serviço XMPP exige a negociação TLS.
+           **Obrigatório**    O serviço XMPP exige a negociação TLS.
         
-          -   
-            **Opcional**    O serviço XMPP indica que o TLS é obrigatório para negociar.
+           **Opcional**    O serviço XMPP indica que o TLS é obrigatório para negociar.
         
-          -   
-            **Não suportado**    O serviço XMPP não suporta TLS.
+           **Não suportado**    O serviço XMPP não suporta TLS.
     
       - **Negociação SASL**    Define as regras de negociação SASL. Um serviço XMPP pode exigir SASL, pode tornar SASL opcional ou definir que o SASL não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP parceiro para uma decisão de obrigatório para negociar.
         
-          -   
-            **Obrigatório**    O serviço XMPP exige negociação SASL.
+           **Obrigatório**    O serviço XMPP exige negociação SASL.
         
-          -   
-            **Opcional**    O serviço XMPP indica que o SASL é obrigatório para negociar.
+           **Opcional**    O serviço XMPP indica que o SASL é obrigatório para negociar.
         
-          -   
-            **Não suportado**    O serviço XMPP não suporta SASL.
+           **Não suportado**    O serviço XMPP não suporta SASL.
     
       - **Negociação de discagem do servidor de suporte** O processo de negociação de discagem do servidor de suporte usa o DNS e um servidor autoritativo para verifique se a solicitação veio de um parceiro XMPP válido. Para fazer isso, o servidor originador cria uma mensagem de um tipo específico com uma chave de discagem gerada e procura o servidor de recebimento no DNS. O servidor originador envia a chave em um fluxo XML para a pesquisa DNS resultante, provavelmente o servidor recebedor. Na receita do fluxo chave sobre XML, o servidor recebedor não responde ao servidor originador, mas envia a chave para um servidor autoritativo conhecido. O servidor autoritativo verifica se a chave é válida ou inválida. Se não for válida, o servidor recebedor não responde ao servidor originador. Se a chave é válida, o servidor recebedor informa ao servidor originador que a identidade e a chave é válida e a conversação pode começar.
         
         Existem dois estados válidos para **Negociação de discagem**:
         
-          -   
-            **Verdadeiro**    O servidor XMPP é configurado para usar a negociação de Discagem se uma solicitação deve ser recebida de um servidor originador.
+           **Verdadeiro**    O servidor XMPP é configurado para usar a negociação de Discagem se uma solicitação deve ser recebida de um servidor originador.
         
-          -   
-            **Falso**    O servidor XMPP não está configurado para usar negociação de Discagem e se uma solicitação deve ser recebida do servidor originador, será ignorada.
+           **Falso**    O servidor XMPP não está configurado para usar negociação de Discagem e se uma solicitação deve ser recebida do servidor originador, será ignorada.
 
 10. Clique em **Confirmar** para salvar suas mudanças para a política local ou do usuário.
 

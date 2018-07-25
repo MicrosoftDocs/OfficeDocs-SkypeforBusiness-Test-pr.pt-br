@@ -49,19 +49,8 @@ Configurar o recebimento de chamadas de grupo requer qualquer uma das seguintes 
 
   - **CsAdministrator:** Esta função de administrador pode executar todas as tarefas do CsVoiceAdministrator, CsServerAdministrator e CsUserAdministrator.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para obter detalhes sobre direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.
 
 ## Consulte Também
 

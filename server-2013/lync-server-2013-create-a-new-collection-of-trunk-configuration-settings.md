@@ -61,12 +61,7 @@ Ao criar definições de configuração de tronco SIP usando Painel de Controle 
 <td><p>Nível de suporte de criptografia</p></td>
 <td><p>SRTPMode</p></td>
 <td><p>Indica o nível de suporte para proteger o tráfego de mídia entre o Servidor de Mediação e o Gateway da PSTN, IP-PBX ou SBC no provedor do serviço. Nos casos de desvio de mídia, este valor deve ser compatível com a definição EncryptionLevel da configuração de mídia. A configuração de mídia é ajustada utilizando-se os cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
-<p>Os valores permitidos são:</p>
-<ul>
-<li><p>Requeridos: criptografia do SRTP deve ser usada.</p></li>
-<li><p>Opcional: o SRTP será usado caso o gateway o suporte.</p></li>
-<li><p>Não suportado: a criptografia do SRTP não é suportada, por tanto não será usada.</p></li>
-</ul>
+<p>Os valores permitidos são:</p><ul><li><p>Requeridos: criptografia do SRTP deve ser usada.</p></li><li><p>Opcional: o SRTP será usado caso o gateway o suporte.</p></li><li><p>Não suportado: a criptografia do SRTP não é suportada, por tanto não será usada.</p></li></ul>
 <p>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.</p></td>
 </tr>
 <tr class="odd">
@@ -145,19 +140,8 @@ Ao criar definições de configuração de tronco SIP usando Painel de Controle 
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O cmdlets Lync Server CsTrunkConfiguration suporta propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico da Ajuda do cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a> cmdlet.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O cmdlets Lync Server CsTrunkConfiguration suporta propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico da Ajuda do cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a> cmdlet.
 
 ## Criação de nova definição de configuração de tronco usando o Painel de Controle do Lync Server
 

@@ -41,19 +41,8 @@ Usando o Shell de Gerenciamento do Lync Server, configure um provedor de hospeda
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver usando o Office 365 operado pela 21Vianet na China, substitua o valor do parâmetro <strong>ProxyFqdn</strong> neste exemplo (&quot;exap.um.outlook.com&quot;) pelo FQDN do serviço operado pela 21Vianet: &quot;exap.um.partner.outlook.cn&quot;.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você estiver usando o Office 365 operado pela 21Vianet na China, substitua o valor do parâmetro <strong>ProxyFqdn</strong> neste exemplo (&quot;exap.um.outlook.com&quot;) pelo FQDN do serviço operado pela 21Vianet: &quot;exap.um.partner.outlook.cn&quot;.
 
   - **Identity** especifica um identificador de valor de cadeia de caracteres único para o provedor de hospedagem que está sendo criado (por exemplo "Exchange Online"). Valores que contêm espaços devem estar entre aspas duplas.
 

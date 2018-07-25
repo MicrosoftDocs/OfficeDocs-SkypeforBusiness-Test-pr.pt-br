@@ -29,19 +29,8 @@ As políticas de voz global e no nível do site são automaticamente atribuídas
 
 5.  Em **Editar Usuário do Lync Server**, em **Política de voz**, selecione a política de usuário que você deseja aplicar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações do servidor padrão ou de política global.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações do servidor padrão ou de política global.
 
 ## Para atribuir uma política de voz específica do usuário usando o Shell de Gerenciamento do Lync Server
 

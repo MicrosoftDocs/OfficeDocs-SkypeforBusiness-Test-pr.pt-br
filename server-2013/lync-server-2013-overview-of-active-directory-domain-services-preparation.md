@@ -43,21 +43,11 @@ A tabela a seguir descreve as etapas necessárias para preparar o AD DS para o 
 <td><p>Estende o esquema do Active Directory adicionando novas classes e atributos que são usados pelo Lync Server.</p>
 <p>Execute uma vez para cada floresta em sua implantação onde o Lync Server será implantado.</p></td>
 <td><p>No esquema mestre no domínio raiz de cada floresta na qual o Lync Server será implantado.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não é necessário executar essa etapa no domínio raiz se você tiver permissões no esquema mestre, mas é necessário ser membro do grupo Administradores de Esquema no domínio raiz e membro do grupo Administradores de Empresa no esquema mestre. Em uma topologia de floresta de recursos, execute esta etapa somente na floresta de recursos, e não nas florestas de usuários. Em uma topologia de floresta central, execute esta etapa somente na floresta central, e não nas florestas de usuários.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Não é necessário executar essa etapa no domínio raiz se você tiver permissões no esquema mestre, mas é necessário ser membro do grupo Administradores de Esquema no domínio raiz e membro do grupo Administradores de Empresa no esquema mestre. Em uma topologia de floresta de recursos, execute esta etapa somente na floresta de recursos, e não nas florestas de usuários. Em uma topologia de floresta central, execute esta etapa somente na floresta central, e não nas florestas de usuários.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
@@ -65,42 +55,22 @@ A tabela a seguir descreve as etapas necessárias para preparar o AD DS para o 
 <td><p>Cria configurações globais e grupos universais que são usados pelo Lync Server.</p>
 <p>Execute uma vez para cada floresta em sua implantação onde o Lync Server será implantado.</p></td>
 <td><p>No domínio raiz de cada floresta na qual o Lync Server será implantado. Para executar essa etapa, você precisa ser membro do grupo Administradores de Empresa.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Em uma topologia de floresta de recursos, execute esta etapa somente na floresta de recursos, não em florestas de qualquer usuário. Em uma topologia de floresta central, execute esta etapa somente na floresta central, não em florestas de qualquer usuário.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Em uma topologia de floresta de recursos, execute esta etapa somente na floresta de recursos, não em florestas de qualquer usuário. Em uma topologia de floresta central, execute esta etapa somente na floresta central, não em florestas de qualquer usuário.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Preparando domínios para Server 2013</a></p></td>
 <td><p>Adiciona permissões sobre objetos a serem usados por membros de grupos universais.</p>
 <p>Execute uma vez por domínio de usuário ou domínio de servidor.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver migrando do Lync Server 2013 para o Lync Server 2010, o Assistente de Implantação poderá indicar que a preparação do domínio já está completa. Não é necessário executar a preparação do domínio novamente. As permissões não foram alteradas de Lync Server 2013 para Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se você estiver migrando do Lync Server 2013 para o Lync Server 2010, o Assistente de Implantação poderá indicar que a preparação do domínio já está completa. Não é necessário executar a preparação do domínio novamente. As permissões não foram alteradas de Lync Server 2013 para Lync Server 2010.
+
+</td>
 <td><p>Em um servidor membro em cada domínio no qual o Lync Server será implantado. Para executar essa etapa, você precisa ser membro do grupo Administradores do Domínio.</p></td>
 </tr>
 </tbody>

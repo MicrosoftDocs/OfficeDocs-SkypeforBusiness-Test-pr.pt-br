@@ -81,39 +81,39 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 22. Após receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do Servidor de Borda. Você faz isso digitando no console do Gerenciamento do Lync Server:
     
+```
         Stop-CsWindowsService
-    
+```
+```    
         Start-CsWindowsService
+```
 
 23. Para configurar o DNS para a federação XMPP, adicione o seguinte registro SRV ao DNS externo:\_xmpp-server.\_tcp.\<nome de domínio\> O registro SRV será resolvido no FQDN (nome de domínio totalmente qualificado) de borda de acesso do servidor de borda com o valor de porta 5269. Além disso, configure um registro de host "A" (por exemplo, xmpp.contoso.com) que aponte para o endereço IP do servidor de borda de acesso.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você tiver pools de borda em vários sites, é recomendável que adicione vários registros SRV para federação XMPP. Adicione um registro SRV para cada pool de borda de sua organização e atribua a cada um desses registros SRV uma prioridade diferente. Quando todos os pools de borda estiverem em execução, as solicitações XMPP serão todas manipuladas pelo pool de borda com a maior prioridade, mas, se esse pool de borda ficar inoperante, você não precisará adicionar um novo registro SRV para recuperar a funcionalidade de federação XMPP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se você tiver pools de borda em vários sites, é recomendável que adicione vários registros SRV para federação XMPP. Adicione um registro SRV para cada pool de borda de sua organização e atribua a cada um desses registros SRV uma prioridade diferente. Quando todos os pools de borda estiverem em execução, as solicitações XMPP serão todas manipuladas pelo pool de borda com a maior prioridade, mas, se esse pool de borda ficar inoperante, você não precisará adicionar um novo registro SRV para recuperar a funcionalidade de federação XMPP.
 
 24. Configure uma nova política de acesso externo para habilitar todos os usuários abrindo o Shell de Gerenciamento do Lync Server no front-end e digitando:
     
+```
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
+```
+```    
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
+```
+```    
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    
+```
+```
+
     Habilite o acesso XMPP para usuários externos digitando:
-    
+```
+```    
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    
+```
+```    
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+```
 
 25. No Servidor de Borda em que o proxy XMPP está implantado, abra um prompt de comando ou uma Interface da linha de comando do Windows PowerShell™ e digite o seguinte:
     

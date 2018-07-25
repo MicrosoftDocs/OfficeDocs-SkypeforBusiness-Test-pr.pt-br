@@ -19,35 +19,13 @@ A federação com um cliente Microsoft Lync Online 2010 requer que você conclua
 
   - Configurar e suportar o domínio do cliente Lync Online 2010 (por exemplo, contoso.onmicrosoft.com). Conforme especificado na sessão [Pré-requisitos para federação com um cliente do Lync Online](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) desta documentação, sua organização já deve estar habilitada para a federação. A habilitação da federação exige a especificação do método a ser usado para controlar o acesso dos domínios federados. Caso tenha configurado sua organização para usar a descoberta, a inclusão do domínio na sua lista de organizações permitidas é opcional. Se você não habilitar a descoberta de domínio, será necessário adicionar o nome do domínio do cliente Lync Online à sua lista de domínios permitidos. Você pode adicionar um nome de domínio usando o Painel de Controle do Lync Server ou executando o cmdlet **New-CSAllowedDomain**. Para obter mais detalhes sobre o uso do Painel de Controle do Lync Server, incluindo a habilitação de descoberta de domínios, consulte [Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) na documentação de Operações. Para mais detalhes sobre o uso do cmdlet **New-CSAllowedDomain** para adicionar um domínio, consulte [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain) na documentação de Operações.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Um cliente Lync Online pode ter vários domínios. Caso deseje federar com mais de um dos domínios, você deve configurar o suporte para cada domínio individual com o qual você deseja ter suporte federado e o administrador do cliente Lync Online deve habilitar a federação para cada um dos domínios a serem federados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Um cliente Lync Online pode ter vários domínios. Caso deseje federar com mais de um dos domínios, você deve configurar o suporte para cada domínio individual com o qual você deseja ter suporte federado e o administrador do cliente Lync Online deve habilitar a federação para cada um dos domínios a serem federados.
 
   - Configurar o suporte para o provedor de hospedagem do domínio do cliente Lync Online 2010 com o qual você deseja ser federado. Use os procedimentos desta seção para configurar o suporte ao provedor de hospedagem.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Esta etapa é necessária somente para a federação com um domínio de um cliente Lync Online, não é necessária para a federação com qualquer domínio implantado localmente no parceiro federado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Esta etapa é necessária somente para a federação com um domínio de um cliente Lync Online, não é necessária para a federação com qualquer domínio implantado localmente no parceiro federado.
 
 ## Configurar o suporte para um provedor de hospedagem
 

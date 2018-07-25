@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-07-11_
 
 A seção a seguir descreve como configurar o Lync Server 2013 com as Atualizações Cumulativas de julho de 2013 para dar suporte à autenticação passiva. Depois de habilitada, os usuários do Lync habilitados para a autenticação de dois fatores terão de usar um cartão inteligente físico ou virtual e um PIN válido para se conectar usando o cliente do Lync 2013 com Atualizações Cumulativas de julho de 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que os clientes habilitem a autenticação passiva para o Registrador e para os Serviços Web no nível de serviço. Caso a autenticação passiva esteja habilitada para o Registrador e para os Serviços Web no nível global, é provável que ocorram falhas de autenticação em toda a organização para usuários que não estão se conectando com o cliente de desktop do 2013 com Atualizações Cumulativas de julho de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Recomendamos que os clientes habilitem a autenticação passiva para o Registrador e para os Serviços Web no nível de serviço. Caso a autenticação passiva esteja habilitada para o Registrador e para os Serviços Web no nível global, é provável que ocorram falhas de autenticação em toda a organização para usuários que não estão se conectando com o cliente de desktop do 2013 com Atualizações Cumulativas de julho de 2013.
 
 ## Configuração dos Serviços Web
 
@@ -73,11 +62,14 @@ As etapas a seguir descrevem como criar uma configuração personalizada de prox
 
 1.  Na linha de comandoShell de Gerenciamento do Lync Server, crie uma nova configuração de proxy para cada servidor de pool Edge, pool Enterprise e Standard Edition do Lync Server 2013 com Atualizações Cumulativas de julho de 2013 que será habilitado para a autenticação passiva executando os seguintes comandos:
     
+```
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-    
+```
+```    
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+```
 
 2.  Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com sucesso executando o seguinte comando:
     

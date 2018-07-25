@@ -95,22 +95,12 @@ Esta seção descreve a sequência de etapas necessárias para implantar o recur
 <li><p>Se você desejar oferecer suporte a notificações por push em uma rede Wi-Fi, configure uma regra de firewall de saída para a porta TCP 5223.</p></li>
 <li><p>Use o cmdlet <strong>Set-CsPushNotificationConfiguration</strong> para habilitar as notificações de envio por push para o APNS (Apple Push Notification Service) e o MPNS (Microsoft Push Notification Service). Este recurso está desabilitado por padrão.</p></li>
 <li><p>Use o cmdlet <strong>Test-CsFederatedPartner</strong> para testar a configuração da federação e o cmdlet <strong>Test-CsMCXPushNotification</strong> para testar as notificações de envio por push.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Notificações push são utilizadas para clientes Lync 2010 Mobile em dispositivos Apple e Windows Phone<br />
-Notificações push são exigidas para clientes móveis Lync 2013 somente com Windows Phone</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Notificações push são utilizadas para clientes Lync 2010 Mobile em dispositivos Apple e Windows Phone<br />
+Notificações push são exigidas para clientes móveis Lync 2013 somente com Windows Phone
+
+</li>
 </ul></td>
 <td><p>RtcUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Configurando notificações por push no Lync Server 2013</a></p></td>

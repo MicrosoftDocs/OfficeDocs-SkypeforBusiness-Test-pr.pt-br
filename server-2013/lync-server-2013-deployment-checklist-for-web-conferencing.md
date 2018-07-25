@@ -45,21 +45,11 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <tr class="odd">
 <td><p><strong>Instalar prerrequisitos de hardware e software</strong></p></td>
 <td><p>Conferências são executadas no Servidores Front-End em um Pool de Front-Ends e Servidores Standard Edition. Elas não têm requisitos de hardware ou software adicionais além do que é exigido para instalar esses servidores.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 usa Office Web Apps e o Servidor Office Web Apps para lidar com o compartilhamento e renderização de apresentações do PowerPoint. Para obter informações sobre a instalação e configuração do Servidor Office Web Apps, consulte <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com servidor de Office Web Apps e Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> O Lync Server 2013 usa Office Web Apps e o Servidor Office Web Apps para lidar com o compartilhamento e renderização de apresentações do PowerPoint. Para obter informações sobre a instalação e configuração do Servidor Office Web Apps, consulte <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com servidor de Office Web Apps e Lync Server 2013</a>.
+
+</td>
 <td><p>Domínio do usuário que é membro do grupo local de Administradores</p></td>
 <td><p><a href="lync-server-2013-supported-hardware.md">Hardware suportado para Lync Server 2013</a> na documentação Suporte</p>
 <p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Suporte a software e à infraestrutura de servidor no Lync Server 2013</a> na documentação Suporte</p>

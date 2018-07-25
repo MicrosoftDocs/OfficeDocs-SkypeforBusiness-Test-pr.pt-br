@@ -47,36 +47,13 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     
     2.  Para criar um novo compartilhamento de arquivo, clique em **Definir um novo compartilhamento de arquivo**, digite o FQDN do local do compartilhamento de arquivo em **FQDN do servidor de arquivos**, digite o nome do compartilhamento em **Compartilhamento de Arquivo** e clique em **Avançar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />
-    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.
 
 7.  Na caixa de diálogo **Especificar a URL dos Serviços Web**, em **URL Base Externa**, especifique o FQDN para os Diretores e clique em **Concluir**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O nome deve ser resolvido a partir dos servidores DNS da Internet e apontar para o endereço IP público do proxy reverso, que escuta solicitações HTTP/HTTPS para aquela URL e as encaminha via proxy para o diretório virtual dos Serviços Web externos naquele Diretor.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > O nome deve ser resolvido a partir dos servidores DNS da Internet e apontar para o endereço IP público do proxy reverso, que escuta solicitações HTTP/HTTPS para aquela URL e as encaminha via proxy para o diretório virtual dos Serviços Web externos naquele Diretor.    
 
     > [!WARNING]
     > Se você tiver mais de um Pool de Front-Ends ou Servidor Front-End, os serviços FQDN de Web externo devem ser exclusivos. Por exemplo, se você definir os serviços FQDN de Web externo de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você também estiver implantando Diretores, os serviços FQDN de Web externo definidos por qualquer Diretor ou Pool de diretores devem ser exclusivos de qualquer outro Diretor ou Pool de diretores, além de qualquer Pool de Front-Ends ou Servidor Front-End. Se você decidir ultrapassar os serviços de web internos com um FQDN autodefinido, cada FQDN deve ser exclusivo a partir de qualquer outro Pool de Front-Ends, Diretor ou um Pool de diretores.
@@ -113,36 +90,13 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     
       - Para criar um novo compartilhamento de arquivo, clique em **Definir um novo compartilhamento de arquivo**, digite o FQDN do local do compartilhamento de arquivo em **FQDN do servidor de arquivos**, digite o nome do compartilhamento em **Compartilhamento de Arquivo** e clique em **Avançar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />
-    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.
 
 8.  Na caixa de diálogo **Especificar a URL dos Serviços Web**, em **URL Base Externa**, especifique o FQDN para os Diretores e clique em **Concluir**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O nome precisa ser resolvido a partir dos servidores DNS de Internet e apontar para o endereço IP público do proxy reverso, que escuta as solicitações HTTP/HTTPS enviadas a essa URL e as atribui ao diretório virtual dos Serviços Web nesse pool de Diretores.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > O nome precisa ser resolvido a partir dos servidores DNS de Internet e apontar para o endereço IP público do proxy reverso, que escuta as solicitações HTTP/HTTPS enviadas a essa URL e as atribui ao diretório virtual dos Serviços Web nesse pool de Diretores.    
 
     > [!WARNING]
     > Se você tiver mais de um Pool de Front-Ends ou Servidor Front-End, os serviços FQDN de Web externo devem ser exclusivos. Por exemplo, se você definir os serviços FQDN de Web externo de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você também estiver implantando Diretores, os serviços FQDN de Web externo definidos por qualquer Diretor ou Pool de diretores devem ser exclusivos de qualquer outro Diretor ou Pool de diretores, além de qualquer Pool de Front-Ends ou Servidor Front-End. Se você decidir ultrapassar os serviços de web internos com um FQDN autodefinido, cada FQDN deve ser exclusivo a partir de qualquer outro Pool de Front-Ends, Diretor ou um Pool de diretores.

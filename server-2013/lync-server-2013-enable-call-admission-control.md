@@ -49,19 +49,8 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
 
 5.  Na página **Editar Configurações Globais**, marque a caixa de seleção **Ativar controle de admissão de chamada**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você deseja desativar o controle de admissão de chamada durante a implantação, desmarque esta caixa de seleção.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se você deseja desativar o controle de admissão de chamada durante a implantação, desmarque esta caixa de seleção.
 
 6.  Clique em **Confirmar**.
 

@@ -15,20 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2012-09-21_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico considera que você já tenha configurado o desvio de mídia em todas as conexões de tronco do Servidor de Mediação para um ponto (gateway PSTN, PBX IP ou Controlador de Limite de Sessões no Provedor de Serviços de Telefonia pela Internet) de um site ou serviço específico no qual deseja que a mídia ignore o Servidor de Mediação.<br />
-Este tópico também considera que você já tenha definido todos os sites centrais e sites de filial no Construtor de Topologias de uma forma que sejam compatíveis com a rede regional, ao site da rede e à configuração de sub-rede que você realizou, de acordo com as etapas em <a href="lync-server-2013-create-or-modify-a-network-region.md">Criar ou modificar uma região de rede no Lync Server 2013</a>, <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a> e <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associar uma subrede a um site de rede no Lync Server 2013</a>. Se elas não forem compatíveis, o desvio de mídia não será bem-sucedido.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Este tópico considera que você já tenha configurado o desvio de mídia em todas as conexões de tronco do Servidor de Mediação para um ponto (gateway PSTN, PBX IP ou Controlador de Limite de Sessões no Provedor de Serviços de Telefonia pela Internet) de um site ou serviço específico no qual deseja que a mídia ignore o Servidor de Mediação.<br />Este tópico também considera que você já tenha definido todos os sites centrais e sites de filial no Construtor de Topologias de uma forma que sejam compatíveis com a rede regional, ao site da rede e à configuração de sub-rede que você realizou, de acordo com as etapas em <a href="lync-server-2013-create-or-modify-a-network-region.md">Criar ou modificar uma região de rede no Lync Server 2013</a>, <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a> e <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associar uma subrede a um site de rede no Lync Server 2013</a>. Se elas não forem compatíveis, o desvio de mídia não será bem-sucedido.
 
 Além de habilitar o desvio de mídia para conexões de tronco individuais associadas a um par, você também precisa definir as configurações globais. Se você usar as etapas deste tópico para definir as configurações globais do desvio de mídia, a hipótese é de que uma ou ambas as situações a seguir afetem sua configuração:
 
@@ -36,19 +24,8 @@ Além de habilitar o desvio de mídia para conexões de tronco individuais assoc
 
   - O controle de admissão de chamadas (CAC) para gerenciamento de largura de banda está habilitado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para detalhes sobre as considerações para o controle de admissão de chamadas e para o desvio de mídia, consulte a seção &quot;Controle de admissão de chamadas das conexões PSTN&quot; no <a href="lync-server-2013-media-bypass-and-mediation-server.md">Bypass de mídia e Servidor de Mediação no Lync Server 2013</a> na documentação de Planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Para detalhes sobre as considerações para o controle de admissão de chamadas e para o desvio de mídia, consulte a seção &quot;Controle de admissão de chamadas das conexões PSTN&quot; no <a href="lync-server-2013-media-bypass-and-mediation-server.md">Bypass de mídia e Servidor de Mediação no Lync Server 2013</a> na documentação de Planejamento.
 
 As informações de região de rede e de site de rede são compartilhadas entre os recursos avançados do Enterprise Voice de controle de admissão de chamadas e de desvio de mídia quando os dois estão habilitados. Portanto, se você já configurou o controle de admissão de chamadas, não é preciso usar o procedimento a seguir para editar as informações do site e da região especificamente para o desvio de mídia. Siga as etapas neste procedimento se você ainda não tiver configurado as regiões e os sites de rede quanto ao controle de admissão de chamadas e se quiser alterar as configurações do desvio de chamada.
 
@@ -70,37 +47,15 @@ Além disso, para que o desvio de mídia funcione corretamente, deve haver consi
 
 6.  Se necessário, marque a caixa de seleção **Habilitar desvio de mídia para sites não mapeados**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Marque essa caixa de seleção somente se você tiver um ou mais sites grandes associados na mesma região e que não possuem restrições de largura de banda (por exemplo, um grande site central), mas também tem sites de filial associados à mesma região e que possuem restrições de largura de banda. Ao habilitar o desvio para sites não mapeados, a configuração é simplificada de forma que você especifica apenas as sub-redes associadas com os sites de filial em vez de precisar especificar todas as sub-redes associadas com todos os sites. Recomendamos que você não marque essa caixa de seleção se o controle de admissão de chamadas estiver habilitado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Marque essa caixa de seleção somente se você tiver um ou mais sites grandes associados na mesma região e que não possuem restrições de largura de banda (por exemplo, um grande site central), mas também tem sites de filial associados à mesma região e que possuem restrições de largura de banda. Ao habilitar o desvio para sites não mapeados, a configuração é simplificada de forma que você especifica apenas as sub-redes associadas com os sites de filial em vez de precisar especificar todas as sub-redes associadas com todos os sites. Recomendamos que você não marque essa caixa de seleção se o controle de admissão de chamadas estiver habilitado.
 
 7.  Clique em **Confirmar**.
 
 Depois, adicione sub-redes ao site de região conforme descrito em [Associar subredes com locais de rede para bypass de mídia](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md). (Os procedimentos atuais para a associação de sub-redes a sites de rede estão descritos em [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).) Depois de associar todas as sub-redes com os sites de rede, a implantação do desvio de mídia estará completa.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do desvio de mídia. Para obter detalhes, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Criar ou modificar uma região de rede no Lync Server 2013</a> e <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do desvio de mídia. Para obter detalhes, consulte <a href="lync-server-2013-create-or-modify-a-network-region.md">Criar ou modificar uma região de rede no Lync Server 2013</a> e <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.
 
 ## Consulte Também
 

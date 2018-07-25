@@ -56,21 +56,10 @@ A tabela a seguir lista as etapas necessárias para preparar o seu ambiente para
 <td><p></p></td>
 <td><p>Preparar-se para sincronização do Active Directory</p></td>
 <td><p>A sincronização do Active Directory mantém o seu Active Directory local continuamente sincronizado com o Office 365. Isso permite que você crie versões sincronizadas de cada grupo e conta de usuário, e também habilita a sincronização de lista de endereços globais (GAL) a partir do seu ambiente local do Microsoft Exchange Server para Microsoft Exchange Online.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você precisará configurar as contas AD para todos os usuários do Lync em sua organização entre as implantações do Lync no local e online, mesmo se os usuários não forem movidos para o Lync Online. Se você não sincronizar todos os usuários, a comunicação entre os usuários online e locais em sua organização pode não funcionar como o esperado.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!IMPORTANT]  
+> Você precisará configurar as contas AD para todos os usuários do Lync em sua organização entre as implantações do Lync no local e online, mesmo se os usuários não forem movidos para o Lync Online. Se você não sincronizar todos os usuários, a comunicação entre os usuários online e locais em sua organização pode não funcionar como o esperado.
+
 <p>Para preparar seu ambiente para sincronização Active Directory, siga as etapas descritas em <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">Sincronização de diretório: Roteiro</a>, incluindo configuração de logon único.</p></td>
 </tr>
 <tr class="odd">

@@ -21,19 +21,8 @@ Se um aplicativo SNMP estiver instalado e o Serviço de Informações de Local f
 
 Para obter detalhes, consulte [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Endereços MAC não estão disponíveis em computadores executando o Windows 8.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Endereços MAC não estão disponíveis em computadores executando o Windows 8.
 
 ## Para configurar a URL do aplicativo SNMP
 

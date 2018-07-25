@@ -29,19 +29,8 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É necessário criar um registro DNS SRV para o serviço Exchange de hospedagem antes de você executar essas etapas. Para obter detalhes, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Criar um registro DNS SRV para integração com Exchange UM hospedado</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> É necessário criar um registro DNS SRV para o serviço Exchange de hospedagem antes de você executar essas etapas. Para obter detalhes, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Criar um registro DNS SRV para integração com Exchange UM hospedado</a>.
 
 ## Para configurar o Servidor de Borda para federação
 
@@ -79,19 +68,8 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
     
       - **EnabledSharedAddressSpace** indica se o provedor de hospedagem está sendo usado em um cenário de espaço de endereço SIP compartilhado (domínio dividido).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Antes de definir <code>EnableSharedAddressSpace</code> como True, tente resolver o registro SRV de Federação internamente. Se esse registro não puder ser resolvido internamente, você precisará criar os registros, _sipfederationtls._tcp.&lt;domain&gt; e _sip._tls.&lt;domain&gt; no DNS interno. Esses registros devem apontar para o endereço IP externo da Interface de Acesso do Servidor de Borda.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Antes de definir <code>EnableSharedAddressSpace</code> como True, tente resolver o registro SRV de Federação internamente. Se esse registro não puder ser resolvido internamente, você precisará criar os registros, _sipfederationtls._tcp.&lt;domain&gt; e _sip._tls.&lt;domain&gt; no DNS interno. Esses registros devem apontar para o endereço IP externo da Interface de Acesso do Servidor de Borda.    
       - **HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar contas do Lync Server 2013. Se estiver definido como **Falso** , o provedor hospedará outros tipos de conta, como contas do Microsoft Exchange.
     
       - **ProxyFQDN** especifica o FQDN (nome de domínio totalmente qualificado) para o servidor proxy usado pelo provedor de hospedagem, neste exemplo, **proxyserver.fabrikam.com** . Esse valor não pode ser modificado. Se o provedor de hospedagem alterar o seu servidor proxy, será necessário excluir e recriar a entrada desse provedor.

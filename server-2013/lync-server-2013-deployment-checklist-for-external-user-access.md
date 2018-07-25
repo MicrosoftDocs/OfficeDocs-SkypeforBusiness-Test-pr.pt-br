@@ -69,21 +69,11 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 </ul>
 <p></p></td>
 <td><p>Grupo <strong>Admins. do Domínio</strong> e grupo <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você pode definir uma topologia usando uma conta que seja membro do grupo de usuários locais, mas a publicação de uma topologia requer uma conta que seja membro do grupo <strong>Admins. do Domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Você pode definir uma topologia usando uma conta que seja membro do grupo de usuários locais, mas a publicação de uma topologia requer uma conta que seja membro do grupo <strong>Admins. do Domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong>.
+
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de borda e de diretor no Lync Server 2013</a> na documentação de Implantação</p></td>
 </tr>
 <tr class="even">
@@ -94,28 +84,14 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 <li><p>Configure registros DNS internos e externos (host A e AAAA para IPv4 e IPv6), incluindo a configuração do sufixo DNS no computador para ser implantado como um Servidor de Borda.</p></li>
 <li><p>(Opcional) Crie e instale certificados públicos. O tempo necessário para obter certificados depende de qual CA (autoridade de certificação) emite o certificado. Se você não executar essa etapa neste ponto, você deverá fazê-lo durante a instalação do Servidor de Borda. O serviço de Servidor de Borda não pode ser iniciado enquanto os certificados não forem obtidos e instalados.</p></li>
 <li><p>Forneça suporte para conectividade de IM pública, se a sua implantação for dar suporte a comunicações com usuários do Windows Live, AOL ou Yahoo!.</p>
-<div class="alert">
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-<li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
-<li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
+> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
+> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li></ul>
+
+</li>
 <li><p>Fornecimento de suporte para XMPP e suporte de federação para parceiros Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010caso a sua implantação utilize-os</p></li>
 <li><p>Configure firewalls.</p></li>
 </ol></td>

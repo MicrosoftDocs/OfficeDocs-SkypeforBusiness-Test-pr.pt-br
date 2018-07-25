@@ -17,49 +17,16 @@ _**Tópico modificado em:** 2012-09-29_
 
 É possível mover os usuários para a nova implantação do Lync Server 2013 usando o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server. Você deve cumprir alguns requisitos para assegurar uma transição suave para o Lync Server 2013. Para obter detalhes sobre os pré-requisitos para concluir os procedimentos deste tópico, consulte [Configurar clientes para migração](configure-clients-for-migration.md). Para obter informações sobre as etapas detalhadas de movimentação de usuários, consulte [Fase 4: Mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não é possível usar o snap-in Usuários e Computadores do Active Directory ou as ferramentas administrativas do Lync Server 2010 para mover usuários de seu ambiente herdado para o Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Não é possível usar o snap-in Usuários e Computadores do Active Directory ou as ferramentas administrativas do Lync Server 2010 para mover usuários de seu ambiente herdado para o Lync Server 2013.
 
 Quando você mover um usuário para um pool do Lync Server 2013, os dados do usuário são movidos para o banco de dados back-end associado ao novo pool.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Isso inclui as reuniões ativas criadas pelo usuário herdado. Por exemplo, se um usuário antigo configurou uma conferência <strong>minha reunião</strong> , ela ainda estará disponível no novo pool do Lync Server 2013. Os detalhes para acessá-la ainda serão as mesmas <strong>URL e ID da conferência</strong> . A única diferença é que agora a conferência será hospedada no pool do Lync Server 2013 e não no pool do Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Isso inclui as reuniões ativas criadas pelo usuário herdado. Por exemplo, se um usuário antigo configurou uma conferência <strong>minha reunião</strong> , ela ainda estará disponível no novo pool do Lync Server 2013. Os detalhes para acessá-la ainda serão as mesmas <strong>URL e ID da conferência</strong> . A única diferença é que agora a conferência será hospedada no pool do Lync Server 2013 e não no pool do Lync Server 2010.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A hospedagem de usuários no Lync Server 2013 não exige a implantação de clientes atualizados ao mesmo tempo. A nova funcionalidade estará disponível aos usuários somente após a atualização para o novo software cliente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A hospedagem de usuários no Lync Server 2013 não exige a implantação de clientes atualizados ao mesmo tempo. A nova funcionalidade estará disponível aos usuários somente após a atualização para o novo software cliente.
 
 ## Tarefa pós-migração
 

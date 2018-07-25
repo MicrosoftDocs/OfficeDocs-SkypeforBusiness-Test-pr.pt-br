@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-18_
 
 Siga estas etapas para excluir uma política de PIN no nível de usuário ou local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não pode excluir a política de PIN global.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Você não pode excluir a política de PIN global.
 
 ## Para excluir uma política de PIN de usuário ou de site
 

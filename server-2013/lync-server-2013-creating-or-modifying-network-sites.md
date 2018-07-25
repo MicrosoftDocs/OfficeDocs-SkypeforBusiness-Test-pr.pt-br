@@ -29,71 +29,27 @@ Sites da rede são os escritórios ou locais configurados em cada região de um 
 
 5.  Em **Novo Local**, digite um nome para este local no campo **Nome**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Os nomes de locais devem ser exclusivos dentro da implantação do Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Os nomes de locais devem ser exclusivos dentro da implantação do Lync Server 2013.
 
 6.  Na lista suspensa **Região**, selecione uma região da rede para associar a este local.
 
 7.  (Opcional) Se deseja impor limitações de largura de banda em chamadas de áudio ou vídeo para este local, selecione o perfil da política da largura de banda com as configurações apropriadas na lista suspensa **Política da largura de banda**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode ver os detalhes dos perfis disponíveis da política de largura de banda, ou criar um novo perfil, na página <strong>Perfil de Política</strong> do grupo <strong>Configuração de Rede</strong>. Para obter os detalhes, consulte <a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Criar ou modificar perfis da política de largura de banda</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você pode ver os detalhes dos perfis disponíveis da política de largura de banda, ou criar um novo perfil, na página <strong>Perfil de Política</strong> do grupo <strong>Configuração de Rede</strong>. Para obter os detalhes, consulte <a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Criar ou modificar perfis da política de largura de banda</a>.
 
 8.  (Opcional) Se deseja fornecer configurações de localização para esse local, selecione uma política de localização na lista suspensa **Política de localização**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A política de localização atribui configurações específicas de 9-1-1 Aprimorado (E9-1-1) e de localização do cliente ao local. Você pode ver os detalhes das políticas de localização disponíveis ou criar uma política nova na página <strong>Política de localização</strong> do grupo <strong>Configuração de Rede</strong>. Para obter os detalhes, consulte <a href="lync-server-2013-viewing-location-policy-information.md">Visualizando informações de política de local</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > A política de localização atribui configurações específicas de 9-1-1 Aprimorado (E9-1-1) e de localização do cliente ao local. Você pode ver os detalhes das políticas de localização disponíveis ou criar uma política nova na página <strong>Política de localização</strong> do grupo <strong>Configuração de Rede</strong>. Para obter os detalhes, consulte <a href="lync-server-2013-viewing-location-policy-information.md">Visualizando informações de política de local</a>.
 
 9.  (Opcional) Digite um valor no campo **Descrição** para fornecer mais informações sobre esse local, que não podem ser expressadas apenas pelo nome.
 
 10. Clique em **Comprometer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você não usa a tabela <strong>Sub-redes Associadas</strong> ao criar um novo local de rede. Você associa a sub-rede ao local quando criá-la ou modificá-la. Para obter os detalhes, consulte <a href="lync-server-2013-create-or-modify-network-subnets.md">Criar ou modificar subredes</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você não usa a tabela <strong>Sub-redes Associadas</strong> ao criar um novo local de rede. Você associa a sub-rede ao local quando criá-la ou modificá-la. Para obter os detalhes, consulte <a href="lync-server-2013-create-or-modify-network-subnets.md">Criar ou modificar subredes</a>.
 
 ## Para modificar um local de rede
 
@@ -123,19 +79,8 @@ Você não pode modificar a tabela **Sub-redes Associadas** nesta página. A lis
 
 4.  Na página **Local**, clique no local que deseja excluir.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <strong>Selecionar Tudo</strong> no menu <strong>Editar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <strong>Selecionar Tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.
 

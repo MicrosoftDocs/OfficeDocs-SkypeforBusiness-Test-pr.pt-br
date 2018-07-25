@@ -31,19 +31,8 @@ As configurações do aplicativo de Estacionamento de Chamada incluem o limite d
 
 2.  Na linha de comando, digite o seguinte:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se suas configurações do aplicativo de Estacionamento de Chamada do Lync Server 2013 são idênticas às configurações herdadas do Lync Server 2010, é possível pular esta etapa. Se as configurações de aplicativo de Estacionamento de Chamada são diferentes para os ambientes do Lync Server 2013 e Lync Server 2010, use o cmdlet abaixo como um modelo para atualizar estas mudanças.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Se suas configurações do aplicativo de Estacionamento de Chamada do Lync Server 2013 são idênticas às configurações herdadas do Lync Server 2010, é possível pular esta etapa. Se as configurações de aplicativo de Estacionamento de Chamada são diferentes para os ambientes do Lync Server 2013 e Lync Server 2010, use o cmdlet abaixo como um modelo para atualizar estas mudanças.    
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
 
 Para reatribuir todos os intervalos de órbita do Estacionamento de Chamada do pool do Lync Server 2010 para o pool do Lync Server 2013, é possível usar o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server.

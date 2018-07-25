@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-21_
 
 Após concluir a instalação do Lync Server 2013, Ferramenta de Planejamento, você estará pronto para iniciar a Ferramenta de Planejamento e começar a projetar a infraestrutura do Lync Server 2013 proposta.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A Ferramenta de Planejamento é uma ferramenta orientada por assistente, com guias detalhados para informá-lo no processo de tomada de decisões durante o design dos seus sites e da sua topologia. Este tópico não tem a intenção de servir como guia detalhado, mas simplesmente de ajudá-lo a começar a usar a Ferramenta de Planejamento em suas sessões de design.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A Ferramenta de Planejamento é uma ferramenta orientada por assistente, com guias detalhados para informá-lo no processo de tomada de decisões durante o design dos seus sites e da sua topologia. Este tópico não tem a intenção de servir como guia detalhado, mas simplesmente de ajudá-lo a começar a usar a Ferramenta de Planejamento em suas sessões de design.
 
 ## Para iniciar usando a Ferramenta de Planejamento e criar o design inicial
 
@@ -57,19 +46,8 @@ Após concluir a instalação do Lync Server 2013, Ferramenta de Planejamento, v
 
 6.  Clique em **Design de sites** para definir seu site central.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cada topologia do Lync Server 2013 terá pelo menos um site central. Seu design pode ter um único site central, um site central com vários sites de lote, vários sites centrais ou vários sites centrais com sites de lote associados com cada site central.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Cada topologia do Lync Server 2013 terá pelo menos um site central. Seu design pode ter um único site central, um site central com vários sites de lote, vários sites centrais ou vários sites centrais com sites de lote associados com cada site central.
 
 7.  Em **Nome do site** , digite o nome que identificará este site central.
 
@@ -79,19 +57,8 @@ Após concluir a instalação do Lync Server 2013, Ferramenta de Planejamento, v
 
 10. Modifique as seleções para Colaboração Online, Usuários, Voz, Opções de Implantação Adicional ou Aplicativos do Servidor conforme necessário.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Neste ponto do design, você pode apenas selecionar ou desmarcar opções de sua implantação. No entanto, você pode configurar outras opções em uma fase posterior da Ferramenta de Planejamento. Existem também opções que não estão disponíveis e não podem ser desmarcadas. Além disso, talvez você precisa desmarcar uma opção para desmarcar outra. Por exemplo, se você desmarcar a opção <strong>Enterprise Voice</strong> em Voz, as opções <strong>Grupo de Resposta</strong> , <strong>Anúncio</strong> e <strong>Estacionamento de Chamada</strong> em Aplicativos do Servidor (todas elas recursos do Enterprise Voice) também serão desmarcadas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Neste ponto do design, você pode apenas selecionar ou desmarcar opções de sua implantação. No entanto, você pode configurar outras opções em uma fase posterior da Ferramenta de Planejamento. Existem também opções que não estão disponíveis e não podem ser desmarcadas. Além disso, talvez você precisa desmarcar uma opção para desmarcar outra. Por exemplo, se você desmarcar a opção <strong>Enterprise Voice</strong> em Voz, as opções <strong>Grupo de Resposta</strong> , <strong>Anúncio</strong> e <strong>Estacionamento de Chamada</strong> em Aplicativos do Servidor (todas elas recursos do Enterprise Voice) também serão desmarcadas.
 
 11. Após definir um nome de site e número de usuários, clique em **Avançar** .
 

@@ -27,19 +27,8 @@ Para detalhes, consulte a documentação do Shell de Gerenciamento do Lync Serve
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Uma política entre sites de rede é obrigatória <em>somente</em> se houver um link cruzado direto entre dois sites de rede.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Uma política entre sites de rede é obrigatória <em>somente</em> se houver um link cruzado direto entre dois sites de rede.
 
 Na região América do Norte da topologia de exemplo, existe um link direto entre os sites Reno e Albuquerque. Esses dois sites exigem uma política entre sites que aplique um perfil de política de largura de banda adequado. O exemplo a seguir aplica o perfil 20Mb\_Link.
 

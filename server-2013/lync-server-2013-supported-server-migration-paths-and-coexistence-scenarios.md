@@ -29,8 +29,7 @@ A migração de todas as topologias e funções de servidor do Lync Server é su
 
 O Lync Server 2013 suporta apenas o seguinte método de migração:
 
-  -   
-    **Migração lado a lado.** Na migração lado a lado, o Lync Server 2013 é implantando junto com uma implantação existente do Microsoft Lync Server 2010 ou do Office Communications Server 2007 R2 e, em seguida, você transfere as operações para o novo servidor e move os usuários para o Lync Server 2013. Esse método exige plataformas de servidor adicionais, incluindo hardware e software, durante a migração, e nomes de sistema e de pool são diferentes na nova configuração. Se for necessário reverter para a versão anterior, você poderá retornar as operações para os servidores anteriores.
+   **Migração lado a lado.** Na migração lado a lado, o Lync Server 2013 é implantando junto com uma implantação existente do Microsoft Lync Server 2010 ou do Office Communications Server 2007 R2 e, em seguida, você transfere as operações para o novo servidor e move os usuários para o Lync Server 2013. Esse método exige plataformas de servidor adicionais, incluindo hardware e software, durante a migração, e nomes de sistema e de pool são diferentes na nova configuração. Se for necessário reverter para a versão anterior, você poderá retornar as operações para os servidores anteriores.
 
 A migração entre florestas do Serviços de Domínio Active Directory não é suportada.
 
@@ -52,19 +51,8 @@ Você deve separar e distinguir os computadores executando o Microsoft SQL Serve
 
 O Construtor de Topologias exibirá a seguinte mensagem para informar deste problema: "O SQL server \[FQDN do servidor\] já contém uma instância do SQL hospedando a função 'Repositório do Usuário'."
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você pretende implantar funções do servidor novos para sua implantação do Lync Server 2013, deve primeiro atualizar sua implantação existente conforme descrito na documentação de Migração e de Implantação e implantar as novas funções do servidor conforme descrito na documentação de Planejamento e Implantação. Se estiver migrando de uma versão anterior do Chat de Grupo, migre por último, após concluir o processo para migrar todos os outros componentes do Lync Server 2010 ou Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você pretende implantar funções do servidor novos para sua implantação do Lync Server 2013, deve primeiro atualizar sua implantação existente conforme descrito na documentação de Migração e de Implantação e implantar as novas funções do servidor conforme descrito na documentação de Planejamento e Implantação. Se estiver migrando de uma versão anterior do Chat de Grupo, migre por último, após concluir o processo para migrar todos os outros componentes do Lync Server 2010 ou Office Communications Server 2007 R2.
 
 Para requisitos de coexistência específicos e outros detalhes sobre a coexistência e migração do Lync Server 2010 ou Office Communications Server 2007 R2 e componentes do Lync Server 2013, consulte [Migração do Lync Server 2010 para o Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) e [Migração do Office Communications Server 2007 R2 para Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) na documentação de Migração. Para obter detalhes sobre a versão mista de suporte para clientes, consulte [Clientes com suporte de implantações anteriores no Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
 

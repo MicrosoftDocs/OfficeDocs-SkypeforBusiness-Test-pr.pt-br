@@ -47,19 +47,8 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     ![Exemplo de topologia de rede com 3 regiões de rede](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemplo de topologia de rede com 3 regiões de rede")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte o tópico “ <a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Controle de admissão de chamadas em uma rede MPLS com o Lync Server 2013</a>” na documentação Planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte o tópico “ <a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Controle de admissão de chamadas em uma rede MPLS com o Lync Server 2013</a>” na documentação Planejamento.    
     No exemplo anterior de topologia de rede, há três regiões de rede, cada uma com um site central do Lync Server que gerencia o CAC. O site central apropriado para uma região de rede é escolhido pela proximidade geográfica. Como o tráfego de mídia será o mais intenso nas regiões de rede, a propriedade por proximidade geográfica o tornará autocontido e continuará funcionando mesmo se outros sites centrais ficarem indisponíveis.
     
     Nesse exemplo, uma implantação do Lync Server chamada Chicago é o site central para a região América do Norte.
@@ -95,19 +84,8 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     </tbody>
     </table>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dependendo de sua topologia do Lync Server, o mesmo site central pode ser atribuído a várias regiões de rede.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Dependendo de sua topologia do Lync Server, o mesmo site central pode ser atribuído a várias regiões de rede.
 
 3.  Para cada região de rede, identifique todos os sites de rede (escritórios ou locais) cujas conexões WAN não sofrem restrições de largura de banda. Como esses sites não sofrem restrições de largura de banda, não é necessário aplicar as políticas de largura de banda de CAC neles.
     
@@ -276,46 +254,15 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 6.  Para cada sub-rede em sua rede, especifique seu site de rede associado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cada sub-rede em sua rede precisa estar associada a um site de rede, mesmo se o site de rede não sofrer restrição de largura de banda. Isso é devido ao controle de admissão de chamada usar as informações da sub-rede para determinar em qual site de rede um ponto de extremidade está localizado. Quando os locais de ambas as partes na sessão são determinados, o controle de admissão de chamada pode determinar se há largura de banda suficiente para estabelecer uma chamada. Quando uma sessão é estabelecida sobre um link que não possui limites de largura de banda, um alerta é gerado.<br />
-    Se você implantar os Servidores de Borda de Áudio/Vídeo, os endereços IP públicos de cada Servidor de Borda deverão ser associados ao site externo no qual o Servidor de Borda está implantado. Cada endereço IP público do Servidor de Borda A/V precisa ser adicionado às suas configurações de rede como uma sub-rede com a máscara de sub-rede de 32. Por exemplo, se você implantar os Servidores de Borda A/V em Chicago, para cada endereço IP externo desses servidores, crie uma sub-rede com uma máscara de sub-rede de 32 e associe o site de rede Chicago a essas sub-redes. Para obter detalhes sobre os endereços IP públicos, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar firewall A/V externo e requisitos de porta para Lync Server 2013</a> na documentação Planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Um alerta de KHI (Key Health Indicator) é acionado, especificando uma lista de endereços IP presentes em sua rede, mas que não estão associados a uma sub-rede ou a sub-rede que inclui os endereços IP não está associada a um site de rede. Esse alerta não será acionado novamente durante um período de oito horas. Veja a seguir as informações relevantes do alerta e um exemplo:<br />
-    <strong>Origem :</strong> Serviço de Política de Largura de Banda CS (Núcleo)<br />
-    <strong>Número do evento :</strong> 36034<br />
-    <strong>Nível :</strong> 2<br />
-    <strong>Descrição :</strong> as sub-redes dos seguintes endereços IP: &lt;Lista de endereços IP&gt; não estão configuradas ou as sub-redes não estão associadas a um site de rede.<br />
-    <strong>Causa :</strong> as sub-redes para os endereços IP correspondentes estão ausentes nas definições de configuração da rede ou as sub-redes não estão associadas a um site da rede.<br />
-    <strong>Resolução :</strong> adicione sub-redes correspondentes à lista anterior de endereços IP nas definições de configuração de rede e associe todas as sub-redes a um site de rede.<br />
-    Por exemplo, a lista de endereços IP do alerta especifica 10.121.248.226 e 10.121.249.20. Esses dois endereços IP não estão associados a uma sub-rede ou a sub-rede a qual eles estão associados não pertence a um site de rede. Se 10.121.248.0/24 e 10.121.249.0/24 forem as sub-redes correspondentes desses endereços, será possível resolver esse problema da seguinte maneira:
-    <ol>
-    <li><p>Certifique-se de que o endereço IP 10.121.248.226 está associado à sub-rede 10.121.248.0/24 e que o endereço IP 10.121.249.20 está associado à sub-rede 10.121.249.0/24.</p></li>
-    <li><p>Certifique-se de que ambas as sub-redes 10.121.248.0/24 e 10.121.249.0/24 estejam associadas a um site da rede.</p></li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!important]  
+    > Cada sub-rede em sua rede precisa estar associada a um site de rede, mesmo se o site de rede não sofrer restrição de largura de banda. Isso é devido ao controle de admissão de chamada usar as informações da sub-rede para determinar em qual site de rede um ponto de extremidade está localizado. Quando os locais de ambas as partes na sessão são determinados, o controle de admissão de chamada pode determinar se há largura de banda suficiente para estabelecer uma chamada. Quando uma sessão é estabelecida sobre um link que não possui limites de largura de banda, um alerta é gerado.<br />    Se você implantar os Servidores de Borda de Áudio/Vídeo, os endereços IP públicos de cada Servidor de Borda deverão ser associados ao site externo no qual o Servidor de Borda está implantado. Cada endereço IP público do Servidor de Borda A/V precisa ser adicionado às suas configurações de rede como uma sub-rede com a máscara de sub-rede de 32. Por exemplo, se você implantar os Servidores de Borda A/V em Chicago, para cada endereço IP externo desses servidores, crie uma sub-rede com uma máscara de sub-rede de 32 e associe o site de rede Chicago a essas sub-redes. Para obter detalhes sobre os endereços IP públicos, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar firewall A/V externo e requisitos de porta para Lync Server 2013</a> na documentação Planejamento.    
+    > [!note]  
+    > Um alerta de KHI (Key Health Indicator) é acionado, especificando uma lista de endereços IP presentes em sua rede, mas que não estão associados a uma sub-rede ou a sub-rede que inclui os endereços IP não está associada a um site de rede. Esse alerta não será acionado novamente durante um período de oito horas. Veja a seguir as informações relevantes do alerta e um exemplo:<br />    <strong>Origem :</strong> Serviço de Política de Largura de Banda CS (Núcleo)<br />    <strong>Número do evento :</strong> 36034<br />    <strong>Nível :</strong> 2<br />    <strong>Descrição :</strong> as sub-redes dos seguintes endereços IP: &lt;Lista de endereços IP&gt; não estão configuradas ou as sub-redes não estão associadas a um site de rede.<br />    <strong>Causa :</strong> as sub-redes para os endereços IP correspondentes estão ausentes nas definições de configuração da rede ou as sub-redes não estão associadas a um site da rede.<br />    <strong>Resolução :</strong> adicione sub-redes correspondentes à lista anterior de endereços IP nas definições de configuração de rede e associe todas as sub-redes a um site de rede.<br />    Por exemplo, a lista de endereços IP do alerta especifica 10.121.248.226 e 10.121.249.20. Esses dois endereços IP não estão associados a uma sub-rede ou a sub-rede a qual eles estão associados não pertence a um site de rede. Se 10.121.248.0/24 e 10.121.249.0/24 forem as sub-redes correspondentes desses endereços, será possível resolver esse problema da seguinte maneira:    <ol>    
+> 
+> <li><p>Certifique-se de que o endereço IP 10.121.248.226 está associado à sub-rede 10.121.248.0/24 e que o endereço IP 10.121.249.20 está associado à sub-rede 10.121.249.0/24.</p></li>    
+> 
+> 
+> <li><p>Certifique-se de que ambas as sub-redes 10.121.248.0/24 e 10.121.249.0/24 estejam associadas a um site da rede.</p></li>    </ol>
     
     ### Sites de rede e sub-redes associadas (largura de banda em kbps)
     
@@ -473,19 +420,8 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 8.  Defina uma rota entre cada par de regiões de rede.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dois links são necessários para a rota entre as regiões América do Norte e APAC, pois não há um link de região que as conecte diretamente.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Dois links são necessários para a rota entre as regiões América do Norte e APAC, pois não há um link de região que as conecte diretamente.    
     ### Rotas de região
     
     <table>
@@ -584,16 +520,5 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
 Depois de coletar as informações necessárias, é possível realizar a implantação de CAC usando o Shell de Gerenciamento do Lync Server ou o Painel de Controle do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Embora seja possível realizar a maioria das tarefas de configuração de rede usando o Painel de Controle do Lync Server, para criar sub-redes e links entre locais, é necessário usar o Shell de Gerenciamento do Lync Server. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server para os cmdlets <strong>New-CsNetworkSubnet</strong> e <strong>New-CsNetworkIntersitePolicy</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Embora seja possível realizar a maioria das tarefas de configuração de rede usando o Painel de Controle do Lync Server, para criar sub-redes e links entre locais, é necessário usar o Shell de Gerenciamento do Lync Server. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server para os cmdlets <strong>New-CsNetworkSubnet</strong> e <strong>New-CsNetworkIntersitePolicy</strong>.

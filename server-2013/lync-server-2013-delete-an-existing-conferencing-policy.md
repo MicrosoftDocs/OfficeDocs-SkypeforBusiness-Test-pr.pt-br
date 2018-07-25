@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Siga estas etapas para excluir uma política de conferência no nível do usuário ou no nível do local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não pode excluir a política global de conferência.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Você não pode excluir a política global de conferência.
 
 ## Para excluir uma política de conferência de site ou usuário
 

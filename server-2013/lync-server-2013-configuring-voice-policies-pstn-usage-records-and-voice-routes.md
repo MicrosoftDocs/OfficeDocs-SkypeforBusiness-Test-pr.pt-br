@@ -19,19 +19,8 @@ Políticas de voz, registros de uso PSTN e rotas de voz estão totalmente relaci
 
 O fluxo de trabalho recomendado para uma nova implantação Enterprise Voice é de começar configurando uma política de voz que inclua os registros de uso PSTN adequados e, então, associar as rotas apropriadas à cada registro de uso PSTN.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você também pode criar políticas de voz com escopo de <em>usuário</em> e atribuí-las a grupos ou usuários individuais.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Você também pode criar políticas de voz com escopo de <em>usuário</em> e atribuí-las a grupos ou usuários individuais.
 
 Para as etapas detalhas para realizar cada uma destas tarefas, consulte os procedimentos nesta seção.
 

@@ -52,75 +52,35 @@ A tabela seguinte lista os recursos com suporte em uma implantação híbrida qu
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
 <li><p>Lista de contatos (via repositório de contato unificado)</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurando Microsoft Lync Server 2013 para usar o repositório de contato unificado</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer Exchange 2013.<br />
-Um cliente de desktop do Lync 2013 é necessário.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Requer Exchange 2013.<br />
+Um cliente de desktop do Lync 2013 é necessário.
+
+</li>
 <li><p>Foto do contato em alta resolução no cliente do Lync 2013 e Lync Web App.</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurando o Uso de Fotos de Alta Resolução no Microsoft Lync Server 2013</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Requer Exchange 2013.
+
+</li>
 <li><p>Delegação da reunião</p>
 <p>Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.</p></li>
 <li><p>O histórico de Conversas Perdidas e Registros de Chamadas são escritos para a caixa de correio do Exchange do usuário</p></li>
 <li><p>Arquivamento de conteúdo (IM e reunião) no Exchange</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lista de verificação da implantação para Arquivamento no Lync Server 2013</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Requer Exchange 2013.
+
+</li>
 <li><p>Pesquise o conteúdo arquivado</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Requer Exchange 2013.
+
+</li>
 <li><p>Caixa postal</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Implantando Exchange UM no local para fornecer correio de voz do Lync Server 2013</a></p></li>
 </ul></td>
@@ -136,21 +96,11 @@ Um cliente de desktop do Lync 2013 é necessário.</td>
 <li><p>Participe de uma reunião online em clientes de dispositivos móveis</p></li>
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
 <li><p>Lista de contatos (via repositório de contato unificado). Para mais informações, consulte <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurando Microsoft Lync Server 2013 para usar o repositório de contato unificado</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Somente Lync Server 2013. Um cliente de desktop do Lync 2013 é necessário.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Somente Lync Server 2013. Um cliente de desktop do Lync 2013 é necessário.
+
+</li>
 <li><p>Foto do contato em alta resolução no cliente do Lync 2013 e Lync Web App.</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurando o Uso de Fotos de Alta Resolução no Microsoft Lync Server 2013</a>.</p></li>
 <li><p>Delegação da reunião</p>
@@ -170,21 +120,11 @@ Um cliente de desktop do Lync 2013 é necessário.</td>
 <li><p>IM/Presença em clientes de dispositivos móveis</p></li>
 <li><p>O histórico de Conversas Perdidas e Registros de Chamadas são escritos para a caixa de correio do Exchange do usuário</p></li>
 <li><p>Foto do contato em alta resolução no cliente do Lync 2013.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requer Microsoft Exchange Server 2013. Não é suportado no Lync Web App quando os usuários estão localizados em Skype for Business Online.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Requer Microsoft Exchange Server 2013. Não é suportado no Lync Web App quando os usuários estão localizados em Skype for Business Online.
+
+</li>
 <li><p>Participe de uma reunião online em clientes de dispositivos móveis</p></li>
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
 <li><p>Delegação da reunião</p>
@@ -200,21 +140,11 @@ Um cliente de desktop do Lync 2013 é necessário.</td>
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
 <li><p>O histórico de Conversas Perdidas e Registros de Chamadas são escritos para a caixa de correio do Exchange do usuário</p></li>
 <li><p>Lista de contatos (via repositório de contato unificado)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O cliente Lync Server 2013 é requerido</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> O cliente Lync Server 2013 é requerido
+
+</li>
 <li><p>Foto do contato em alta resolução no cliente do Lync 2013 e Lync Web App</p></li>
 <li><p>Delegação da reunião</p>
 <p>Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.</p></li>

@@ -78,21 +78,11 @@ A tabela a seguir especifica requisitos DNS para uma implantação de pool Front
 <tr class="even">
 <td><p>Descoberta do Serviço Web de Atualização de Dispositivo por dispositivos UC (comunicações unificadas)</p></td>
 <td><p>Um registro A interno com o nome ucupdates-r2.&lt;SIP domain&gt; que resolve para o endereço IP do pool Front-End que hospeda o Serviço Web de Atualização de Dispositivo. Na situação na qual um dispositivo UC é ativado, mas um usuário nunca entrou no dispositivo, o registro A permite que o dispositivo descubra o pool Front-End que hospeda o Serviço Web de Atualização de Dispositivo e obtenha atualizações. Caso contrário, os dispositivos obtêm essas informações por meio do fornecimento em banda na primeira vez que um usuário faz login.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver uma implantação existente do Serviço Web de Atualização de Dispositivo no Lync Server 2010, você já terá criado um registro A interno com o nome ucupdates.<em>&lt;SIP domain&gt;</em>. Para o Microsoft Office Communications Server 2007 R2, é necessário criar um registro DNS A adicional com o nome ucupdates-r2.<em>&lt;SIP domain&gt;</em>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!IMPORTANT]  
+> Se você tiver uma implantação existente do Serviço Web de Atualização de Dispositivo no Lync Server 2010, você já terá criado um registro A interno com o nome ucupdates.<em>&lt;SIP domain&gt;</em>. Para o Microsoft Office Communications Server 2007 R2, é necessário criar um registro DNS A adicional com o nome ucupdates-r2.<em>&lt;SIP domain&gt;</em>.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Um proxy reverso para suportar o tráfego HTTP</p></td>

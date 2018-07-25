@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Para concluir com êxito este procedimento, você deve estar conectado como um usuário que seja membro do grupo RTCUniversalServerAdmins ou com as permissões delegadas corretas. Para obter detalhes sobre delegação de permissões, consulte [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Dependendo da sua organização e dos requisitos para a solicitação de certificados, talvez sejam necessárias associações a outros grupos. Consulte o grupo que gerencia a autoridade de certificação da sua PKI (infraestrutura de chave pública).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 inclui suporte para o pacote do SHA-2 (o SHA-2 usa extensões de disco de 224, 256, 384 ou 512 bits) de hash de disco e algoritmos de assinatura para conexões de clientes executando o Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, além do Lync Phone Edition. Para suportar o acesso externo usando o pacote do SHA-2, o certificado externo é emitido por um CA público que também pode emitir um certificado com a mesma extensão disco.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Lync Server 2013 inclui suporte para o pacote do SHA-2 (o SHA-2 usa extensões de disco de 224, 256, 384 ou 512 bits) de hash de disco e algoritmos de assinatura para conexões de clientes executando o Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, além do Lync Phone Edition. Para suportar o acesso externo usando o pacote do SHA-2, o certificado externo é emitido por um CA público que também pode emitir um certificado com a mesma extensão disco.
 
 
 > [!WARNING]
@@ -41,19 +30,8 @@ Cada Servidor Standard Edition ou Servidor Front-End exige até quatro certifica
 
 Use o seguinte procedimento para solicitar, atribuir e instalar o Servidor Standard Edition ou certificados do Servidor Front-End. Repita o procedimento para cada Servidor Front-End.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O procedimento a seguir descreve como configurar certificados a partir de um PKI empresarial interno implantado por sua organização e com processamento de solicitação offline. Para obter informações sobre como obter certificados de uma CA pública, consulte <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Requisitos de certificado para servidores internos no Lync Server 2013</a> na documentação Planejamento. Além disso, esse procedimento descreve como solicitar, atribuir e instalar certificados durante a configuração do Servidor Front-End. Se você tiver solicitado certificados com antecedência, conforme descrito na seção <a href="lync-server-2013-request-certificates-in-advance-optional.md">Solicitar certificados com antecedência (opcional) para Lync Server 2013</a> desta documentação Implantação ou não usar um PKI empresarial interno implantado em sua organização a fim de obter certificados, será necessário modificar esse procedimento conforme o apropriado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> O procedimento a seguir descreve como configurar certificados a partir de um PKI empresarial interno implantado por sua organização e com processamento de solicitação offline. Para obter informações sobre como obter certificados de uma CA pública, consulte <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Requisitos de certificado para servidores internos no Lync Server 2013</a> na documentação Planejamento. Além disso, esse procedimento descreve como solicitar, atribuir e instalar certificados durante a configuração do Servidor Front-End. Se você tiver solicitado certificados com antecedência, conforme descrito na seção <a href="lync-server-2013-request-certificates-in-advance-optional.md">Solicitar certificados com antecedência (opcional) para Lync Server 2013</a> desta documentação Implantação ou não usar um PKI empresarial interno implantado em sua organização a fim de obter certificados, será necessário modificar esse procedimento conforme o apropriado.
 
 ## Para configurar certificados para um Servidor Front-End
 
@@ -71,35 +49,13 @@ Use o seguinte procedimento para solicitar, atribuir e instalar o Servidor Stand
 
 7.  Na página **Especificar Modelo de Certificado Alternativo** , para usar o modelo de Servidor da web padrão, clique em **Avançar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se sua organização tiver criado um modelo para ser usado como uma alternativa para o modelo de CA padrão do Servidor da web, marque a caixa de seleção, e digite o nome do modelo alternativo. Você precisará do nome do modelo, conforme definido pelo administrador de CA.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se sua organização tiver criado um modelo para ser usado como uma alternativa para o modelo de CA padrão do Servidor da web, marque a caixa de seleção, e digite o nome do modelo alternativo. Você precisará do nome do modelo, conforme definido pelo administrador de CA.
 
 8.  Na página **Nome e Configurações de Segurança** , especifique um **Nome Amigável** que deve permiti-lo identificar o certificado e a finalidade. Se você deixá-lo em branco, um nome será gerado automaticamente. Defina o **Tamanho do bit** da chave ou aceite o padrão de 2048 bits. Selecione **Marcar a chave privada do certificado como exportável** se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Lync Server 2013 tem requisitos mínimos para uma chave privada exportável. Um local como esse é nos Servidores de Borda em um pool, onde o Serviço de Autenticação de Media Relay usa cópias do certificado, em vez de certificados individuais para cada instância no pool.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O Lync Server 2013 tem requisitos mínimos para uma chave privada exportável. Um local como esse é nos Servidores de Borda em um pool, onde o Serviço de Autenticação de Media Relay usa cópias do certificado, em vez de certificados individuais para cada instância no pool.
 
 9.  Na página **Informações da Organização** , forneça, opcionalmente, as informações da organização e clique em **Avançar** .
 
@@ -121,19 +77,8 @@ Use o seguinte procedimento para solicitar, atribuir e instalar o Servidor Stand
 
 18. Na página **Repositório de Certificados** , selecione o certificado que você solicitou. Se você quiser ver o certificado, clique em **Exibir Detalhes do Certificado** e clique em **Avançar** para continuar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se a página <strong>Status da Solicitação de Certificado Online</strong> informar um problema com o certificado, como um certificado inválido, a exibição do certificado real pode ajudar a resolver o problema. Dois problemas específicos que podem causar a invalidez de um certificado são a ausência mencionada anteriormente do certificado CA raiz confiável e a ausência de uma chave privada associada ao certificado. Consulte sua documentação de CA para resolver esses dois problemas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Se a página <strong>Status da Solicitação de Certificado Online</strong> informar um problema com o certificado, como um certificado inválido, a exibição do certificado real pode ajudar a resolver o problema. Dois problemas específicos que podem causar a invalidez de um certificado são a ausência mencionada anteriormente do certificado CA raiz confiável e a ausência de uma chave privada associada ao certificado. Consulte sua documentação de CA para resolver esses dois problemas.
 
 19. Na página **Resumo de Atribuição de Certificado** , examine as informações apresentadas a fim de garantir que esse certificado deve ser atribuído e clique em **Avançar** .
 

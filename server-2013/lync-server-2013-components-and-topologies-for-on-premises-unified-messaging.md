@@ -37,16 +37,5 @@ O Lync Server 2013 suporta as seguintes topologias da integração do UM do Exch
 
   - Várias floresta (ou seja, floresta de recursos). O Lync Server 2013 é implantado em uma única floresta e os usuários são distribuídos entre várias florestas. Os atributos UM do Exchange dos usuários devem ser replicados pela floresta do Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Exchange pode ser implantado em várias florestas. Cada organização do Exchange pode oferecer o UM do Exchange para seus usuários ou o UM do Exchange pode ser implantado na mesma floresta que o Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > O Exchange pode ser implantado em várias florestas. Cada organização do Exchange pode oferecer o UM do Exchange para seus usuários ou o UM do Exchange pode ser implantado na mesma floresta que o Lync Server 2013.

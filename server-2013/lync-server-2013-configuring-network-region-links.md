@@ -29,19 +29,8 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 5.  Em **Novo Link de Região**, digite um valor no campo **Nome**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Este valor deve ser único em sua implantação do Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Este valor deve ser único em sua implantação do Lync Server 2013.
 
 6.  Na lista suspensa **Região de rede \#1**, selecione uma das duas regiões a serem vinculadas.
 
@@ -76,7 +65,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 #### Outros Recursos
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 

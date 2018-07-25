@@ -21,19 +21,8 @@ O recurso de mobilidade no Atualizações Cumulativas para Lync Server 2013: Fev
 
 O recurso de mobilidade apresentado nas Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 suporta a funcionalidade de cliente móvel Lync 2013. As Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 instalam a API Web de Comunicações Unificadas, ou UCWA. A UCWA é o componente usado para clientes móveis Lync 2013. No Lync Server 2013, o Mcx é usado para clientes Lync 2010 Mobile. As Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 apresentam o UCWA como um novo ponto de entrada para serviços de mobilidade. Lync Server 2013, ao mesmo tempo, implementa o Serviço de mobilidade (Mcx), introduzido no Atualizações Cumulativas para Lync Server 2010: Novembro de 2011, e fornece suporte para Lync 2010 Mobile. Ao implantar as Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013, os usuários podem usar os dispositivos suportados Apple iOS, Android e Windows Phone para efetuar as seguintes atividades:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recursos suportados pelo Serviço de Mobilidade do Atualizações Cumulativas para Lync Server 2010: Novembro de 2011 estão marcadas com (Mcx). Todos os recursos listados são suportados pela UCWA, apresentados na Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Recursos suportados pelo Serviço de Mobilidade do Atualizações Cumulativas para Lync Server 2010: Novembro de 2011 estão marcadas com (Mcx). Todos os recursos listados são suportados pela UCWA, apresentados na Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
   - Enviar e receber mensagens instantâneas (Mcx)
 
@@ -55,19 +44,8 @@ O recurso de mobilidade apresentado nas Atualizações Cumulativas para Lync Ser
 
   - Vídeo de participante (H.264)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync 2010 Mobile forneceu um cliente para dispositivos Nokia Symbian. O Lync 2013 móvel não possui um cliente para dispositivos com base em Nokia Symbian.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> O Lync 2010 Mobile forneceu um cliente para dispositivos Nokia Symbian. O Lync 2013 móvel não possui um cliente para dispositivos com base em Nokia Symbian.
 
 Usuários do Apple iPad terão acesso a recursos avançados. Depois de entrar em uma reunião usando retorno de chamada de áudio, um usuário do iPad poderá visualizar apresentações do Microsoft PowerPoint carregadas dentro de uma reunião, compartilhar aplicativos e áreas de trabalho, visualizar a lista de participantes da reunião e receber notificações de outros tipos de conteúdo que estiverem sendo compartilhados dentro da reunião.
 
@@ -77,35 +55,13 @@ Usuários do Apple iPad terão acesso a recursos avançados. Depois de entrar em
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nem todos os recursos funcionam exatamente da mesma forma em dispositivos móveis. Para obter informações sobre os recursos suportados nos dispositivos móveis, consulte Tabelas de comparação do cliente móvel em <a href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</a>. Para obter informações sobre os dispositivos suportados e os sistemas operacionais, consulte os tópicos de requisitos em <a href="lync-server-2013-planning-for-mobile-clients.md">Planejamento para clientes móveis no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Nem todos os recursos funcionam exatamente da mesma forma em dispositivos móveis. Para obter informações sobre os recursos suportados nos dispositivos móveis, consulte Tabelas de comparação do cliente móvel em <a href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</a>. Para obter informações sobre os dispositivos suportados e os sistemas operacionais, consulte os tópicos de requisitos em <a href="lync-server-2013-planning-for-mobile-clients.md">Planejamento para clientes móveis no Lync Server 2013</a>.
 
 Quando você usa o Serviço de Descoberta Automática do Lync Server 2013, os aplicativos móveis podem localizar automaticamente os Serviços da Web do Lync Server 2013 sem solicitar que os usuários insiram manualmente as URLs em suas configurações dos dispositivos. A inserção manual de URLs nas configurações do dispositivo móvel também é suportada, principalmente para fins de solução de problemas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Mcx e a UCWA são serviços complementares e implantados para fornecer suporte a clientes móveis Lync 2010 Mobile e Lync 2013. O Lync 2013 móvel não pode entrar em implantações Lync Server 2010. Lync 2010 Mobile e Lync 2013 móveis poderão usar uma implantação Lync Server 2013 com Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 aplicada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> O Mcx e a UCWA são serviços complementares e implantados para fornecer suporte a clientes móveis Lync 2010 Mobile e Lync 2013. O Lync 2013 móvel não pode entrar em implantações Lync Server 2010. Lync 2010 Mobile e Lync 2013 móveis poderão usar uma implantação Lync Server 2013 com Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 aplicada.
 
 O recurso de mobilidade também dá suporte às *notificações por push* para dispositivos móveis que não suportam os aplicativos executados em segundo plano. Uma notificação por push é um aviso enviado a um dispositivo móvel sobre um evento que ocorre enquanto o aplicativo está inativo. Por exemplo, um convite de mensagem instantânea pode resultar em uma notificação por push.
 

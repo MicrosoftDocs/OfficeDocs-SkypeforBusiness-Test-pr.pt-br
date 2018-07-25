@@ -23,38 +23,27 @@ Este documento contém informações importantes que você deve conhecer antes d
 
 Este documento contém as seguintes seções:
 
-  -   
-    Cliente Lync 2013
+   Cliente Lync 2013
 
-  -   
-    Lync Server
+   Lync Server
 
-  -   
-    Instalação
+   Instalação
 
-  -   
-    Mobilidade
+   Mobilidade
 
-  -   
-    Conferência
+   Conferência
 
-  -   
-    Enterprise Voice
+   Enterprise Voice
 
-  -   
-    Presença
+   Presença
 
-  -   
-    Aplicativo Grupo de Resposta, Aplicativo de Estacionamento de Chamada e Recebimento de Chamadas de Grupo
+   Aplicativo Grupo de Resposta, Aplicativo de Estacionamento de Chamada e Recebimento de Chamadas de Grupo
 
-  -   
-    Painel de Controle do Lync Server, Construtor de Topologias e Ferramenta de Planejamento
+   Painel de Controle do Lync Server, Construtor de Topologias e Ferramenta de Planejamento
 
-  -   
-    Localização
+   Localização
 
-  -   
-    Direitos autorais
+   Direitos autorais
 
 ## Cliente Lync 2013
 
@@ -90,9 +79,12 @@ Quando a configuração de endereço IP for alterada para uma implantação do L
 
 Para solucionar esse problema, reinicie os serviços do Lync Server após alterar a configuração dos endereços de IP da implantação. Para isso, execute os cmdlets a seguir no Shell de Gerenciamento do Lync Server:
 
+```
     Stop-CsWindowsService -graceful
-
+```
+```
     Start-CsWindowsService
+```
 
 ## O cmdlet de transação sintética de conferência discada não está mais disponível no Pacote de Gerenciamento do Lync Server 2013 (3212342)
 
@@ -514,19 +506,8 @@ Para forçar uma atualização para a versão mais recente do plug-in de compart
 
 ## Em alguns casos, um cliente do Lync em execução em um computador configurado para usar uma pilha dupla de IPv4 e IPv6 poderá não ter suporte a recursos baseados na sub-rede IP do computador, como E911, Desvio de Mídia, Controle de Admissão de Chamadas e Roteamento com Base no Local (3335508)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
 
@@ -582,19 +563,8 @@ Essa solução exibirá corretamente o status de Presença dos usuários hospeda
 
 ## Um chamador pode ouvir um segundo de música em espera durante o estabelecimento de uma chamada com a parte de recuperação (3334097)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
 
@@ -678,19 +648,8 @@ Não há nenhuma solução alternativa para este problema. A chamada estacionada
 
 ## Limitações da Ferramenta de Planejamento (3331056 e 3331059)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
 
@@ -780,19 +739,8 @@ O parâmetro *DropExistingDatabasesOnMirror* faz com que os banco de dados afeta
 
 3.  Publique a topologia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sempre que você fizer uma alteração em uma relação de espelhamento de banco de dados de backend, será necessário reiniciar todos os Servidores Front-End no pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Sempre que você fizer uma alteração em uma relação de espelhamento de banco de dados de backend, será necessário reiniciar todos os Servidores Front-End no pool.
 
 ## Erros de validação são retornados no Construtor de Topologias quando um administrador tenta remover uma implantação com um pool de front end que tenha um armazenamento testemunha associado (3199266)
 
@@ -854,19 +802,8 @@ Para solucionar esse problema, atualize a página do Painel de Controle do Lync 
 
 ## A indexação no Catálogo de Endereços não funciona como esperado em alguns idiomas (3336047)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 Se as propriedades de um usuário contiverem um campo indexado, e se esse campo contiver somente caracteres que não possam ser indexados, então o usuário não aparecerá em pesquisas realizadas no Catálogo de Endereços.
 
@@ -916,19 +853,8 @@ Se desejar selecionar um idioma com um local neutro, certifique-se sempre de adi
 
 ## Há um suporte limitado para localidades Azeri e Uzbeque ao usar o Programador do Lync Web, a Discagem, o Iniciador de Ingresso, o Gerenciamento de Sala de Chat Persistente e OCTab em alguns navegadores da Web (3336748)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
 

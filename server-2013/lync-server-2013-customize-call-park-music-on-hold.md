@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-09-10_
 
 Você pode especificar seu próprio arquivo de música para utilizar para música em espera em vez do arquivo de música padrão que é enviado com Lync Server 2013. Para personalizar música em espera, utilize o cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você personalizar a música em espera e quiser a mesma música para diversos sites, você deve configurar o arquivo para cada site que executa o Aplicativo de Estacionamento de Chamada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se você personalizar a música em espera e quiser a mesma música para diversos sites, você deve configurar o arquivo para cada site que executa o Aplicativo de Estacionamento de Chamada.
 
 ## Para personalizar o arquivo de música
 

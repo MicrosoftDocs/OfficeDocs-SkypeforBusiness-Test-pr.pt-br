@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Visualize detalhes de regras de atualização de dispositivo que já tenham sido importadas, incluindo o tipo, modelo e marca de dispositivos aos quais a atualização se aplica; versão e tipo da atualização, local e pool para ela. Há informações disponíveis para todas as regras de atualização de dispositivos importadas - aquelas com aprovação pendente, implantadas (aprovadas), reimplementadas (restauradas), e aquelas que você decidiu não utilizar (resetar). Acesse essas informações a partir do Painel de Controle do Lync Server ou do Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para detalhes sobre como importar, aprovar, resetar, restaurar e remover regras, consulte os tópicos listados em <a href="lync-server-2013-device-update-rules.md">Regras de atualização de dispositivo no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para detalhes sobre como importar, aprovar, resetar, restaurar e remover regras, consulte os tópicos listados em <a href="lync-server-2013-device-update-rules.md">Regras de atualização de dispositivo no Lync Server 2013</a>.
 
 ## Para visualizar uma regra de atualização de dispositivo utilizando Painel de Controle do Lync Server
 
@@ -43,19 +32,8 @@ Visualize detalhes de regras de atualização de dispositivo que já tenham sido
 
 Informação detalhada sobre todas as regras de atualização do seu dispositivo também podem ser visualizadas pelo uso de Windows PowerShell e do cmdlet **Get-CsDeviceUpdateRule**. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou a partir de uma sessão remota de Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
 
 ## Para visualizar todas as suas regras de atualização de dispositivo
 

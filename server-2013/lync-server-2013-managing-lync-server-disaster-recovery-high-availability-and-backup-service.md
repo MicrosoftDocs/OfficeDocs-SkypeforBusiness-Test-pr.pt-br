@@ -36,13 +36,13 @@ Os procedimentos de recuperação de desastres no restante dessa seção pressup
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nos procedimentos a seguir, o parâmetro <em>PoolFQDN</em> se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<br />
-Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas:
-<ol>
-<li><p>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, <em>PoolFQDN</em> é o FQDN de P1.</p></li>
-<li><p>Transfira todos os usuários originalmente hospedados em P2 para o P1 utilizando o cmdlet de failover. Nesse caso, a propriedade <em>PoolFQDN</em> é o FQDN de P2.</p></li>
-<li><p>Se o administrador desejar retornar posteriormente os usuários para o P2, o <em>PoolFQDN</em> é o FQDN do P2.</p></li>
-</ol>
+<td>Nos procedimentos a seguir, o parâmetro <em>PoolFQDN</em> se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<br />Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas:<ol>
+> <li><p>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, <em>PoolFQDN</em> é o FQDN de P1.</p></li>
+> 
+> <li><p>Transfira todos os usuários originalmente hospedados em P2 para o P1 utilizando o cmdlet de failover. Nesse caso, a propriedade <em>PoolFQDN</em> é o FQDN de P2.</p></li>
+> 
+> 
+> <li><p>Se o administrador desejar retornar posteriormente os usuários para o P2, o <em>PoolFQDN</em> é o FQDN do P2.</p></li></ol>
 Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.</td>
 </tr>
 </tbody>

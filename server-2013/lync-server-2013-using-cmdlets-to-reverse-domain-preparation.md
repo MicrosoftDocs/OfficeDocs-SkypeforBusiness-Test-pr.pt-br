@@ -34,18 +34,8 @@ Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do dom
     
     Se o parâmetro Force estiver presente, a preparação do domínio é revertido, mesmo se um ou mais Servidores Front-End ou Servidores de Conferência A/V no domínio público estiverem ativados. Se o parâmetro Force não estiver presente, a preparação do domínio revertido é finalizado caso qualquer Servidores Front-End ou Servidores de Conferência A/V no domínio estivere ativado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O parâmetro GlobalSettingsDomainController permite que você indique onde as configurações globais estão armazenadas. Se suas configurações estão armazenadas no contêiner Sistema (o que é normal com implantações atualizadas que não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz de sua floresta Active Directory. Caso as configurações globais estejam no contêiner Configuração (o que é normal com novas implantações ou implantações atualizadas onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Caso você não especifique este parâmetro, o cmdlet presume que as configurações estão armazenadas no contêiner Configuração e faz referência a qualquer controlador de domínio no AD DS.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > O parâmetro GlobalSettingsDomainController permite que você indique onde as configurações globais estão armazenadas. Se suas configurações estão armazenadas no contêiner Sistema (o que é normal com implantações atualizadas que não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz de sua floresta Active Directory. Caso as configurações globais estejam no contêiner Configuração (o que é normal com novas implantações ou implantações atualizadas onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Caso você não especifique este parâmetro, o cmdlet presume que as configurações estão armazenadas no contêiner Configuração e faz referência a qualquer controlador de domínio no AD DS.
 
 
 ## Consulte Também

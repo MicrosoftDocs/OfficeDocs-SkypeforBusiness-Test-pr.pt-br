@@ -23,19 +23,8 @@ O Lync Server dá suporte às seguinte três URLs simples: Meet, Dial-In e Admin
 
 Na Opção 1, você cria uma nova URL de base para cada URL simples.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando um usuário clica no link de reunião de uma URL simples, o servidor que o registro do DNS A resolve determina o software do cliente correto para iniciar. Depois que o software de cliente é iniciado, ele se comunica automaticamente com o pool em que a conferência está hospedada. Assim, os usuários são encaminhados ao servidor apropriado para o conteúdo da reunião, independente do servidor ou pool para o qual os registros de DNS A da URL resolvem.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Quando um usuário clica no link de reunião de uma URL simples, o servidor que o registro do DNS A resolve determina o software do cliente correto para iniciar. Depois que o software de cliente é iniciado, ele se comunica automaticamente com o pool em que a conferência está hospedada. Assim, os usuários são encaminhados ao servidor apropriado para o conteúdo da reunião, independente do servidor ou pool para o qual os registros de DNS A da URL resolvem.
 
 ### Opção 1 de URL simples
 
@@ -150,29 +139,21 @@ Se você tiver múltiplos sites que contenham Pools de Front-Ends e seu provedor
 
 Para fazer essa configuração, crie dois endereços de GeoDNS. Cada endereço contém dois registros DNS A ou CNAME que são decompostos em dois pools que são unidos para fins de recuperação de desastres. Um endereço de GeoDNS é usado para acesso interno e é decomposto no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. O outro endereço GeoDNS é usado para acesso externo e é decomposto no FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools. Veja a seguir um exemplo da URL simples Meet, usando os FQDNs dos pools:
 
+```
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
-
+```
+```
     Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
+```
 
 Em seguida, crie registros CNAME que decomponham sua URL simples Meet (como meet.contoso.com) nos dois endereços de GeoDNS.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sua rede usar <em>grampeamento</em> (roteamento de todo o tráfego de URLs simples pelos links externos, inclusive o tráfego que vem de dentro de sua organização), será possível simplesmente configurar os endereços de GeoDNS externos e decompor sua URL simples Meet apenas nesses endereços externos.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Se sua rede usar <em>grampeamento</em> (roteamento de todo o tráfego de URLs simples pelos links externos, inclusive o tráfego que vem de dentro de sua organização), será possível simplesmente configurar os endereços de GeoDNS externos e decompor sua URL simples Meet apenas nesses endereços externos.
 
 Quando esse método é usado, é possível configurar cada endereço de GeoDNS para usar um método de round robin e distribuir solicitações nos dois pools ou para fazer a conexão principalmente com um pool (como o pool localizado geograficamente mais perto) e usar o outro pool apenas em caso de falhas de conectividade.
 
@@ -180,8 +161,12 @@ Você pode definir a mesma configuração para a URL simples Dial-In. Para isso,
 
 Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir o monitoramento de HTTP para rastrear as falhas. Para acesso externo, monitore para ter certeza de que as solicitações de autodetecção HTTPS GET para o FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools sejam bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
 
+```
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
+```    
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Para acesso interno, é preciso monitorar a porta 5061 no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. Se alguma falha de conectividade for detectada, o VIP desses pools deverão fechar as portas 80, 443 e 444.
 

@@ -73,29 +73,15 @@ A seção Integridade oferece uma indicação visual da integridade da conexão,
 
 ## Observações adicionais sobre o portal administrativo da Web
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Por motivos de segurança, o portal administrativo da Web desconecta você a cada 15 minutos.</p></li>
-<li><p>As alterações da configuração são aplicadas somente após a reinicialização do sistema do LRS.</p></li>
-<li><p>As notificações sobre o portal administrativo da Web do LRS são fixas; em outras palavras, elas não desaparecem.</p></li>
-<li><p>As notificações aparecem somente depois que você atualiza a página.</p></li>
-<li><p>O status das salas do LRS aparecem depois que você atualiza a página.</p></li>
-<li><p>Se a senha da conta LRSApp expirar, você não poderá ver o status das salas. Configure a senha da conta LRSAppuser de modo que ela nunca expire, ou atualize a senha quando estiver perto da data de expiração.</p></li>
-<li><p>Há suporte para o portal administrativo da Web do LRS somente nas implantações locais.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> <ul><li><p>Por motivos de segurança, o portal administrativo da Web desconecta você a cada 15 minutos.</p></li><li><p>As alterações da configuração são aplicadas somente após a reinicialização do sistema do LRS.</p></li><li><p>As notificações sobre o portal administrativo da Web do LRS são fixas; em outras palavras, elas não desaparecem.</p></li>
+> <li><p>As notificações aparecem somente depois que você atualiza a página.</p></li>
+> <li><p>O status das salas do LRS aparecem depois que você atualiza a página.</p></li>
+> 
+> <li><p>Se a senha da conta LRSApp expirar, você não poderá ver o status das salas. Configure a senha da conta LRSAppuser de modo que ela nunca expire, ou atualize a senha quando estiver perto da data de expiração.</p></li>
+> 
+> 
+> <li><p>Há suporte para o portal administrativo da Web do LRS somente nas implantações locais.</p></li></ul>
 
 
 ## Solução de problemas

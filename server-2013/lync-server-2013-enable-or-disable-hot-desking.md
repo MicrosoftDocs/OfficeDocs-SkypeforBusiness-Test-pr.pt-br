@@ -32,19 +32,8 @@ Você usa o parâmetro EnableHotdesking do cmdlet **New-CSClientPolicy** ou o cm
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Após essa política ter sido criada, você deve atribuí-la aos telefones de área comum apropriados. Para obter detalhes, consulte <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Atribuir políticas a um telefone de área comum</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Após essa política ter sido criada, você deve atribuí-la aos telefones de área comum apropriados. Para obter detalhes, consulte <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Atribuir políticas a um telefone de área comum</a>.
 
 ## Desativar hot desk
 
