@@ -39,7 +39,7 @@ O Lync Server 2013 introduz vários novos recursos que melhoram a conferência, 
     
     Em videoconferências, os usuários podem ver vídeos de até cinco participantes ao mesmo tempo.
     
-    > [!note]  
+    > [!NOTE]  
     > O modo de exibição de galeria é experimentada em conferências com até 75 participantes. Quando a conferência tem mais 75 participantes, a experiência é revertida para exibição única.
 
   - **Vídeo HD**

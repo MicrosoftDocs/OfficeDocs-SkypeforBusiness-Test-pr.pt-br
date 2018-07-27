@@ -23,7 +23,7 @@ Mesmo se as informações no certificado forem válidas, deve haver uma forma de
 
 Cada certificado é vinculado a uma chave pública. O servidor nomeado no certificado mantém uma chave privada correspondente que somente ele conhece. Um cliente ou servidor de conexão usa a chave pública para criptograr partes aleatórias das informações e as envia ao servidor. Se o servidor descriptografar as informações e retorná-las como texto sem formatação, a entidade de conexão pode se assegurar de que o servidor vincula a chave privada ao certificado e, portanto, o servidor é nomeado no certificado
 
-> [!note]  
+> [!NOTE]  
 > Nem todas as ACs públicas cumprem os requisitos dos certificados do Lync Server 2013. Recomendamos que consulte a lista de fornecedores certificados de AC pública para suas necessidades de certificados públicos. Para obter mais detalhes, consulte Parceiros de certificação de comunicação unificados em <a href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</a>
 
 ## Pontos de distribuição das listas de certificados revogados (CRLs)
@@ -34,5 +34,5 @@ O Lync Server 2013 requer que todos os certificados de servidor contenham um ou 
 
 O Lync Server 2013 requer que todos certificados de servidor suportem o uso avançado de chave (EKU) para fins de autenticação de servidor. A configuração do campo do EKU para autenticação do servidor significa que o certificado é válido para fins de autenticação de servidores. Esse EKU é essencial para MTLS. É possível ter mais de uma entrada no EKU, permitindo o uso do certificado para mais de uma finalidade.
 
-> [!note]  
+> [!NOTE]  
 > O EKU de autenticação do cliente é exigido para conexões de saída MTLS do Live Communications Server 2003 e Live Communications Server 2005, porém não é mais necessário. Entretanto, esse EKU deve estar presente nos Servidores de Borda que se conectam ao AOL por meio da conectividade a redes públicas de mensagens instantâneas.

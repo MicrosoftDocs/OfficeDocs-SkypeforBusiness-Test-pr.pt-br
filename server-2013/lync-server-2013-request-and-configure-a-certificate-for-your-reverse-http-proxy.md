@@ -44,7 +44,7 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>FQDN do pool</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > O nome da entidade também deve estar presente no nome alternativo da entidade.
 </div></td>
 </tr>
@@ -57,7 +57,7 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>URL simples de reunião</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Todas as URLs simples de reunião devem estar no nome alternativo da região. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.
 </div></td>
 <td><p>meet.contoso.com</p></td>
@@ -77,7 +77,7 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>URL de Serviço Descoberta Automática Externo</p></td>
 <td><p>lyncdiscover.contoso.com</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Se você também estiver usando o Microsoft Exchange Server também precisará configurar regras de proxy reverso para a descoberta automática do Exchange e URLs de serviços Web.
 </div></td>
 </tr>
@@ -85,14 +85,14 @@ Você também deve instalar um certificado de servidor web público no seu servi
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Se sua implantação interna consiste em mais de um servidor Standard Edition ou pool de Front-End, você deve configurar regras de publicação na Web para cada FQDN de web farm externo e será necessário um ouvinte da web e certificado para cada um, ou você deve obter um certificado cujo nome alternativo da entidade contém os nomes usados por todos os pools, atribuí-lo a um ouvinte da web e compartilhá-lo entre várias regras de publicação na web.
 
 ## Criar uma solicitação de certificado
 
 Você cria uma solicitação de certificado no proxy reverso. Uma solicitação é criada em outro computador, mas é preciso exportar o certificado assinado com a chave privada e importá-lo para o proxy reverso assim que você o tiver recebido da autoridade de certificação pública.
 
-> [!note]  
+> [!NOTE]  
 > Uma solicitação de certificado ou uma solicitação de assinatura de certificado (CSR) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome implica, a chave pública é disponibilizada para todas as solicitações públicas. A chave pública destina-se a ser usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar uma identidade de um computador. A chave privada é mantida segura e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outros fins. Para fins de proxy reverso, a codificação de dados é o uso principal. De forma secundária, a autenticação do certificado no nível da chave de certificado é outro uso e é limitada somente à validação de que um solicitante tenha a chave pública do computador ou que o computador em que você tenha uma chave pública seja realmente o computador que diz ser.
 
 
@@ -148,5 +148,5 @@ Para gerar uma solicitação de assinatura de certificado no computador para ond
 
 20. Localize o arquivo de solicitação salvo na etapa anterior. Envie para sua autoridade de certificação pública.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A Microsoft identificou CAs públicas que atendem aos requisitos para fins de Comunicações Unificadas. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>

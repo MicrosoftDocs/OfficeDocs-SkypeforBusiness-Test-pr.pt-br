@@ -19,10 +19,10 @@ O Lync Server 2013 permite especificar a versão dos clientes que são compatív
 
 Além de criar uma política global, é possível criar políticas de versão do cliente para um serviço ou site específico ou políticas com escopo no usuário que podem ser atribuídas a usuários individuais. A política de versão cliente com escopo no usuário pode ser atribuída a usuários individuais a partir do grupo **Usuários** no Painel de Controle do Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.
 
-> [!important]  
+> [!IMPORTANT]  
 > Os filtros são listados em ordem de precedência. Por exemplo, se você tiver um filtro que permite a conexão de clientes que executam a versão 1.5 ou mais recente, seguido por um filtro que bloqueia os clientes executando uma versão anterior a 2.0, o primeiro filtro terá precedência e os clientes que executam a versão 1.5 terão permissão para se conectar.
 
 ## Para editar a política de versão de cliente padrão
@@ -33,7 +33,7 @@ Além de criar uma política global, é possível criar políticas de versão do
 
 3.  Na barra de navegação esquerda, clique em **Clientes**.
     
-    > [!note]  
+    > [!NOTE]  
     > A guia <strong>Política de Versões de Clientes</strong> está selecionada por padrão.
 
 4.  Na página **Política de Versões de Clientes**, clique duas vezes na política **Global** na lista.
@@ -44,7 +44,7 @@ Além de criar uma política global, é possível criar políticas de versão do
     
       - Clique em um dos tipos de cliente definidos na lista e em **Mostrar detalhes**.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível usar caracteres curinga para indicar o tipo de cliente.
 
 6.  Em **Agente do usuário**, selecione um tipo de cliente.
@@ -59,7 +59,7 @@ Além de criar uma política global, é possível criar políticas de versão do
     
       - Em **Atualização**, digite o número que corresponde à versão atualizada do cliente.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode usar caracteres curinga para indicar o número da versão do cliente.
 
 8.  Para especificar a operação correspondente para a versão do cliente especificada nas etapas anteriores, em **Operação de comparação**, clique em um dos seguintes:
@@ -82,7 +82,7 @@ Além de criar uma política global, é possível criar políticas de versão do
     
       - Para permitir que o cliente faça o login e receba atualizações do Windows Server Update Service ou Microsoft Update, clique em **Permitir e atualizar**. Esta seção está disponível apenas quando o agente de usuário **OC** é selecionado.
         
-        > [!note]  
+        > [!NOTE]  
         > Selecionar esta ação faz com que uma notificação seja exibida na próxima vez que o usuário fizer o login em um Lync 2013. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.    
       - Para permitir que o cliente faça logon e exiba uma mensagem sobre onde baixar outra versão de cliente, clique em **Permitir com URL**. Você especifica a URL posteriormente neste procedimento.
     

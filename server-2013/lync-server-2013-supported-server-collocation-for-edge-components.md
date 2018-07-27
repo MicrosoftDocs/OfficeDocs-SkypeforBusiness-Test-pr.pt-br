@@ -23,5 +23,5 @@ O serviço de Borda de Acesso, o serviço de Borda de Webconferência, o serviç
 
   - Proxy reverso
 
-> [!important]  
+> [!IMPORTANT]  
 > O proxy reverso não precisa ser dedicado apenas a serviço Lync Server 2013. Por exemplo, você pode fornecer serviços para publicar os serviços da Web Lync Server e, concomitantemente, fornecer um site da Web publicado para outro site da Web que não possua rolamento nenhum em Lync Server. Se você já tiver um servidor proxy reverso na rede de perímetro para dar suporte a outros serviços, poderá usá-lo para o Lync Server 2013.

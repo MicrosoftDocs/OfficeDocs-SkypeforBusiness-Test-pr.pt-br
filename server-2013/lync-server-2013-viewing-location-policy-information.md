@@ -31,7 +31,7 @@ Você pode configurar as políticas de local a partir do grupo **Configuração 
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode visulizar informações apenas de uma política de local por vez.
 
 Uma política única, chamada de Global, existe por padrão e não pode ser excluída ou renomeada. Porém, você pode modificar a política Global. Essa política será aplicada a todos os usuários e contatos, a não ser que você crie políticas de sites ou políticas por usuário. As políticas por usuário devem ser aplicadas a usuários específicos.

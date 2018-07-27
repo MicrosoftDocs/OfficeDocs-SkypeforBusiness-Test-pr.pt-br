@@ -23,7 +23,7 @@ O seguinte procedimento descreve como testar a implantação de uma Servidor Sta
 
 2.  Se o objeto do usuário está conectado atualmente, desconecte e conecte-se novamente para registrar a nova atribuição de grupo.
     
-    > [!note]  
+    > [!NOTE]  
     > A conta de usuário não pode ser o administrador local do servidor executando Lync Server 2013, Standard Edition. Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, você receberá um erro ao abrir Painel de Controle do Lync Server 2013, que informa “Não autorizado: acesso negado devido a uma falha na autorização de RBAC (controle de acesso baseado na função).”
 
 3.  Use a conta administrativa para fazer o login no computador onde o Painel de Controle do Lync Server está instalado.

@@ -33,7 +33,7 @@ Use o procedimento a seguir para Enterprise Voice para uma conta de usuário ati
 
 7.  Na página **Editar usuário do servidor Lync**, sob **Telefonia**, clique em qualquer opção exceto **Enterprise Voice**.
     
-    > [!note]  
+    > [!NOTE]  
     > Para restringir um usuário de fazer chamadas de vídeo ou áudio utilizando o Lync, em <strong>Telefonia</strong>, clique em <strong>Áudio/vídeo desativado</strong>.
 
 8.  Clique em **Confirmar**.

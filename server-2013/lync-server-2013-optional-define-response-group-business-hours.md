@@ -25,10 +25,10 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
 
 
 
-> [!note]  
+> [!NOTE]  
 > Se um fluxo de trabalho é definido como o Fluxo de trabalho gerenciado, qualquer usuário com a função CsResponseGroupManager atribuída pode definir e modificar o horário comercial personalizado para fluxos de trabalho que gerenciam.
 
-> [!important]  
+> [!IMPORTANT]  
 > Use a notação 24 horas para os parâmetros nos seguintes cmdlets (por exemplo, 20:00=20:00 horas).
 
 ## Para criar um conjunto de horário comercial predefinido
@@ -39,7 +39,7 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
 
 3.  Para cada intervalo de horas exclusivo que você deseja definir, execute:
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Para criar o conjunto de horário comercial que usa os intervalos definidos, execute:
     
@@ -61,6 +61,6 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
 
 #### Outros Recursos
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

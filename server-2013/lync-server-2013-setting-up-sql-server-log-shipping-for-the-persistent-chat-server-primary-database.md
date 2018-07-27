@@ -33,7 +33,7 @@ Usando o SQL Server Management Studio conectado à instância de banco de dados 
 
 7.  Se a pasta de backup estiver localizada no servidor primário, digite o caminho local até a pasta de backup na caixa **Se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta (exemplo: c:\\backup)**. (Se a pasta backup não estiver no servidor primário, deixa essa caixa em branco.)
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se a conta de serviço SQL Server no servidor primário for executada na conta do sistema local, você deverá criar sua pasta de backup no servidor primário e especificar o caminho local desta pasta.
 
 8.  Configure os parâmetros **Excluir arquivos com mais de** e **Alertar se nenhum backup ocorrer em**.

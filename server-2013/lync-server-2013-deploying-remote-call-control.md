@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-10-20_
 
 Esta seção fornece orientações para o processo de implantação da funcionalidade de controle de chamada remota para usuários da sua organização.
 
-> [!note]  
+> [!NOTE]  
 > Embora os recursos de controle de chamada remota estejam disponíveis aos usuários remotos enquanto estão fora do firewall da organização, os detalhes sobre a implantação de cenários de acesso externo estão fora do escopo desta documentação. Para obter detalhes sobre como implantar o acesso de usuário externo, consulte <a href="lync-server-2013-deploying-external-user-access.md">Implantação de acesso do usuário externo no Lync Server 2013</a> na documentação de Implantação.
 
 ## Nesta seção

@@ -29,14 +29,14 @@ Você pode configurar as políticas de local a partir do grupo **Configuração 
 
 4.  Na página **Política de local**, selecione a política de local que você quer excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode excluir mais que uma política de local ao mesmo tempo. Para isso, mantenha a tecla CTRL e selecione várias políticas. Ou, para selecionar todas as políticas, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.
 
 6.  Clique em **OK**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Você não pode excluir uma política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso, e essa política será redefinida aos seus valores padrão.
 
 ## Consulte Também

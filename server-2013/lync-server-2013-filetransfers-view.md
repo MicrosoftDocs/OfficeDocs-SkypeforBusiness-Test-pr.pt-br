@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 O repositório de exibição FileTranfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Esta exibição foi introduzida no Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > A exibição do FileTransfers contém todas as colunas no <a href="lync-server-2013-sessiondetails-view.md">Exibir SessionDetails</a> além das colunas listadas abaixo.
 
 

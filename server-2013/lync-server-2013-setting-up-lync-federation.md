@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 Se o servidor de borda já foi implantado nos servidores, a adição dos recursos de cenários federados é o próximo passo. Se os servidores de borda ainda não foram definidos, faça isso primeiro. Para obter detalhes, consulte: [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [Implantação de acesso do usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
-> [!note]  
+> [!NOTE]  
 > Se você pretende instalar uma combinação de federação XMPP, federação do Lync ou uma conectividade pública de mensagens instantâneas, é possível implantá-las simultaneamente ou uma de cada vez. Se configurar as opções com o Construtor de Topologias e o shell de gerenciamento do Lync Server e executar o Assistente de implantação no servidor de borda depois de configurar as opções para um, dois ou todos os três tipos de federação, será possível reduzir o número de etapas necessárias.
 
 ## Instalando a federação do Lync no Construtor de Topologias e o Assistente de implantação
@@ -32,7 +32,7 @@ Se o servidor de borda já foi implantado nos servidores, a adição dos recurso
 
 5.  Em Instalar Componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações conforme forem executadas. Depois que a implantação estiver concluída, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para concluir a implantação.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > É possível selecionar esta opção, mas apenas um pool de borda ou servidor de borda de sua organização pode ser publicado externamente para federação. Todo o acesso de usuários federados, inclusive usuários públicos de IM (mensagens instantâneas), atravessa o mesmo pool de borda ou servidor de borda único. Por exemplo, se sua implantação contém um pool de borda ou servidor de borda único implantado em Nova Iorque e outro implantado um Londres e você habilita o suporte à federação no pool de borda ou servidor de borda único de Nova Iorque, o tráfego do sinal para os usuários federados atravessará o pool de borda ou servidor de borda único de Nova Iorque. Isso é verdadeiro até mesmo para comunicações com os usuários de Londres, embora um usuário interno de Londres que liga para um usuário federado do Nova Iorque use um pool ou servidor de borda de Londres para o tráfego de áudio/vídeo.
 
 ## Configurando a federação com parceiros
@@ -100,7 +100,7 @@ Se o servidor de borda já foi implantado nos servidores, a adição dos recurso
 > <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Criar ou editar provedores hospedados federados SIP no Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Esse tipo de federação define os provedores de serviços e hospedagem que você deseja configurar para seus usuários. Os usos mais comuns incluem a configuração de provedores de IM públicos como Windows Live Messenger, Yahoo! e AOL, bem como provedores de hospedagem, como Lync Online e Office 365</p>
     <div class="alert">
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    
 > 
@@ -119,7 +119,7 @@ Se o servidor de borda já foi implantado nos servidores, a adição dos recurso
 
 3.  Defina e configure todas as políticas usando o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de Gerenciamento do Lync Server, consulte [Cmdlets de federação e acesso externo no Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
-    > [!note]  
+    > [!NOTE]  
     > O Lync Room System (LRS) não mostra o botão Ingressar para reuniões enviadas pelos organizadores em parceiros federados do Lync. Para que o link Ingressar de uma reunião apareça no LRS, a organização remetente deverá habilitar o TNEF usando o seguinte cmdlet:<br />    <br />    <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />    <code>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</code><br />    Observe que isso não é específico do LRS. O Outlook e o Lync também não mostrarão links Ingressar nesse caso, pois as propriedades MAPI não são transportadas, mas no caso do Outlook, o usuário pode abrir o convite para reunião e clicar na URL da reunião. Quando TNEFEnabled está definido como true, o Exchange 2013 não remove as propriedades MAPI, inclusive OnlineMeetingExternalLink, e o botão Ingressar será mostrado no lembrete.
 
 ## Consulte Também

@@ -19,7 +19,7 @@ Por padrão, nenhum usuário tem permissão para convidar usuários anônimos pa
 
 Use o procedimento desta seção para aplicar uma política de conferência que já você criou para um ou mais usuários ou grupos de usuários.
 
-> [!note]  
+> [!NOTE]  
 > Além de configurar e aplicar uma política para permitir que os usuários convidem usuários anônimos, você deve também habilitar o suporte a usuários anônimos em sua organização. Para obter detalhes, consulte <a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Configurar políticas para controlar o acesso de usuário público no Lync Server 2013</a>.
 
 ## Para configurar uma política de usuário para participação anônima em reuniões
@@ -44,7 +44,7 @@ Use o procedimento desta seção para aplicar uma política de conferência que 
 
 8.  Em **Editar Usuário do Lync Server** , **Política de conferência** , selecione a política de usuário com a configuração de acesso de usuário anônimo que você deseja aplicar a este usuário.
     
-    > [!note]  
+    > [!NOTE]  
     > As configurações <strong>&lt;Automáticas&gt;</strong> aplicam as configurações padrão de instalação do servidor e são aplicadas automaticamente pelo servidor.
 
 Para permitir que os usuários convidem usuários anônimos para conferências, você também deve habilitar o suporte para usuários anônimos na sua organização. Para obter detalhes, consulte [Configurar políticas para controlar o acesso de usuário público no Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md) na documentação de Implantação ou na documentação de Operações.

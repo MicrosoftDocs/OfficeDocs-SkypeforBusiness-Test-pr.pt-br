@@ -209,7 +209,7 @@ A preparação de floresta cria ACEs particulares e públicas. Ela cria ACEs pri
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > <strong>*</strong>As ACEs que não são herdadas não concedem acesso aos objetos filho desses contêineres. As ACEs que são herdadas concedem acesso aos objetos filho desses contêineres.
 
 No contêiner Configuração, no contexto de nomenclatura de configuração, a preparação de floresta executa as seguintes tarefas:

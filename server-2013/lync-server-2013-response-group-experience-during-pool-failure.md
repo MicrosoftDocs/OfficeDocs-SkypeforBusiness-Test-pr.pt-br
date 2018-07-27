@@ -27,7 +27,7 @@ Essa seção descreve em detalhes como a atividade do grupo de resposta é afeta
 
 Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda não iniciou o failover, a atividade do grupo de resposta é manipulada como descrito na seguinte tabela.
 
-> [!note]  
+> [!NOTE]  
 > Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 ### Ocorre a interrupção
@@ -76,7 +76,7 @@ Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda n�
 
 Quando um administrador chama um failover para um pool de backup, a atividade do grupo de resposta é manipulada durante e depois do failover, conforme descrito na tabela seguinte. A primeira coluna descreve o tipo de atividade que pode estar ocorrendo. A coluna do meio descreve como cada atividade é manipulada durante o breve período necessário para enviar o failover ao pool de backup. A última coluna descreve como a atividade é manipulada durante todo o período, após o processo de failover ser concluído e o pool de backup estar disponível para o pool primário.
 
-> [!note]  
+> [!NOTE]  
 > Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 ### O failover é iniciado
@@ -133,7 +133,7 @@ Quando um administrador chama um failover para um pool de backup, a atividade do
 
 Quando um administrador chama o failback para o pool primário, a atividade do grupo de resposta é manipulada durante e após o failback, conforme descritos na tabela seguinte.
 
-> [!note]  
+> [!NOTE]  
 > Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 ### Administração de chamada no Failback

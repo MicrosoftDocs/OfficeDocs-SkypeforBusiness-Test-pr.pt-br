@@ -43,5 +43,5 @@ O Analisador de Prática Recomendada compara os dados reunidos com um conjunto d
 
 Após comparar os dados coletados com as regras pré-definidas, a ferramenta relata problemas. Para cada problema relatado, o Analisador de Prática Recomendada oferece informações sobre o que foi encontrado no ambiente do Lync Server 2013 verificado e a configuração recomendada. O Analisador de Prática Recomendada também oferece links para informações mais detalhadas sobre problemas específicos.
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server 2013, Analisador de Prática Recomendada reúne as informações de configuração apenas de componentes do Lync Server 2013. É possível usar versões anteriores da ferramenta para verificar ambientes anteriores. Para obter detalhes, consulte <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requisitos para Excutar o Analisador de Práticas Recomendadas</a>.

@@ -23,15 +23,15 @@ Em ambientes em que os usuários não estão localizados em um layout de escrit�
 
 O atendimento de chamadas em grupo é construído no Aplicativo de Estacionamento de Chamada. Quando você implanta atendimento de chamadas em grupo, você configura a tabela de órbitas do estacionamento com intervalos separados de números de extensões que são denominados números de atendimento de chamadas em grupo. Como os números de órbita de estacionamento de chamadas, os números de grupo de atendimento de chamadas precisam ser extensões virtuais que não têm um usuário ou telefone atribuídos a elas. Cada Pool de Front-Ends em que você implanta o atendimento de chamadas em grupo pode ter um ou mais intervalos de números de atendimento de chamadas em grupo. Os intervalos de números de grupo precisam ser únicos globalmente por toda a implantação do Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Intervalos de números que são atribuídos como números de atendimento de chamadas em grupo na tabela de órbita de estacionamento de chamadas não podem ser gerenciados ou visualizados utilizando o Painel de Controle do Lync Server. O único jeito de ver todos os intervalos de números na tabela de órbita de estacionamento de chamadas é utilizar o Shell de Gerenciamento do Lync Server. De modo similar, o único modo de adicionar, modificar ou remover números de atendimento de chamadas em grupo é utilizar o Shell de Gerenciamento do Lync Server.
 
 Após você configurar os números de grupos de atendimento de chamadas, você atribui usuários a um grupo de atendimento de chamadas. Qualquer usuário que for atribuído a um grupo de atendimento de chamadas pode ter suas chamadas atendidas por outros usuários. Quando uma chamada chega para um usuário atribuído a um grupo de atendimento de chamadas, qualquer outro usuário que perceba a chamada pode atendê-la manualmente discando o número de grupo de atendimento de chamadas. O usuário que atender a chamada não precisa ser um membro do grupo. Quando uma chamada é atendida por outro usuário, uma notificação é enviada ao número que foi chamado originalmente.
 
-> [!note]  
+> [!NOTE]  
 > Um usuário pode ser membro de somente um grupo de atendimento de chamadas.
 
-> [!note]  
+> [!NOTE]  
 > Apesar de qualquer usuário na implantação Lync Server poder responder a uma chamada para um membro de um determinado grupo de atendimento de chamadas, a pessoa respondendo a chamada precisa saber o número de grupo de atendimento de chamadas correto a discar.
 
 Se um usuário discar um número de grupo de atendimento de chamadas para atender uma chamada quando diversos telefones no grupo estiverem tocando, o usuário atenderá a chamada que estiver tocando a mais tempo.
@@ -52,7 +52,7 @@ Atendimento de chamadas em grupo não pode ser utilizado para atender aos tipos 
 
   - Porção de vídeo de chamadas de áudio/vídeo
     
-    > [!note]  
+    > [!NOTE]  
     > Se um usuário responde uma chamada de áudio/vídeo, ele recebe somente o áudio. Tanto a pessoa que realizou a chamada quanto a que está recebendo podem escalar a chamada para adicionar o vídeo.
 
   - Chamadas de toque simultâneo que são direcionada para membros da equipe de atendimento de chamadas

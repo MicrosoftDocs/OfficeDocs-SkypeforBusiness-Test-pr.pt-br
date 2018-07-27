@@ -110,7 +110,7 @@ Para configurar grupos de resposta, você deve ser membro de pelo menos uma das 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > <strong>(1)</strong> Um objeto de usuário Serviços de Domínio Active Directory deve ser um membro do grupo de segurança especificado Active Directory na lista. Um administrador ou outro membro do grupo Active Directory delegado com permissões adequadas para adicionar usuários a um grupo de segurança (por exemplo, Administrador, Operadores de conta), é necessário adicionar um objeto de usuário ao grupo de segurança listado ou ao grupo para o usuário poder efetuaras funções listadas. <strong>(2)</strong> Apenas para fluxos de trabalho que o CsResponseGroupAdministrator possui atribuído ao CsResponseGroupManager. <strong>(3)</strong> Um Gerenciador Grupo de Resposta pode atribuir outro membro do CsResponseGroupManager para um fluxo de trabalho que o gerenciador atual já gerencia. <strong>(4)</strong> CsViewOnlyAdministrator pode executar apenas cmdlets com o verbo &quot;Get&quot; Shell de Gerenciamento do Lync Server.
 
 ## Grupo de Resposta Pré-requisitos de configuração
@@ -167,7 +167,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 
 Essa seção se aplica apenas em caso de a sua organização precisar suportar caracteres Yi, Meng ou Zang.
 
-> [!note]  
+> [!NOTE]  
 > Para obter informações sobre quais são os caracteres Yi, Meng e Zang e por que eles podem ser importantes para a implantação, consulte as informações no conjunto de caracteres GB18030 <a href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</a>.
 
 Para suportar caracteres Yi, Meng ou Zang, você precisa modificar o agrupamento para o banco de dados Rgsconfig. Altere o agrupamento da coluna **Nome** nas seguintes tabelas em cada banco de dados Rgsconfig:

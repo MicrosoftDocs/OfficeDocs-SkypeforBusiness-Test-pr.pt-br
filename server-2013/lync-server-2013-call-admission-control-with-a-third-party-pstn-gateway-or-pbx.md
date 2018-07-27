@@ -33,7 +33,7 @@ Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e um gateway PST
 
 Isto funciona para as chamadas PSTN de entrada para um cliente no Local de Rede 1 e para chamadas PSTN de saída provenientes de um aplicativo cliente no Local de Rede 1.
 
-> [!note]  
+> [!NOTE]  
 > Certifique-se de que a sub-rede do IP ao qual o gateway PSTN pertence está configurada e associada ao Local de Rede 2.<br />Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.<br />Para obter detalhes, consulte <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associar uma subrede a um site de rede no Lync Server 2013</a>.
 
 ## Caso 2: CAC entre o Servidor de Mediação e um PBX de terceiros com Ponto de Terminação de Mídia
@@ -52,7 +52,7 @@ Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e o PBX/MTP. Se 
 
 Isto funciona para ambas, chamadas PSTN de entrada para um cliente no Local de Rede 1 e chamadas PSTN de saída provenientes de um cliente no Local de Rede 1.
 
-> [!note]  
+> [!NOTE]  
 > Certifique-se de que a sub-rede do IP à qual o MTP pertence está configurada e associada ao Local de Rede 2.<br />Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.<br />Para obter detalhes, consulte <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associar uma subrede a um site de rede no Lync Server 2013</a>.
 
 ## Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem um Ponto de Terminação de Mídia
@@ -67,5 +67,5 @@ Neste exemplo, se um usuário cliente do Lync no Local de Rede 1 fizer uma liga�
 
 Para chamadas provenientes do ponto de extremidade de terceiros, a informação sobre este dispositivo está disponível no momento da solicitação da sessão e a verificação CAC pode ser executada em ambos os lados do Servidor de Mediação.
 
-> [!note]  
+> [!NOTE]  
 > Certifique-se de que a sub-rede do IP à qual os dispositivos de ponto de extremidade pertencem está configurada e associada ao Local de Rede 2.<br />Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.<br />Para obter detalhes, consulte <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associar uma subrede a um site de rede no Lync Server 2013</a>.

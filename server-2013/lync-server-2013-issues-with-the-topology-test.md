@@ -19,7 +19,7 @@ Como o cmdlet **Test-CsTopology**, o Analisador de Prática Recomendada oferece 
 
 Além de verificar a validade de Lync Server como um todo, **Test-CsTopology** também verifica a valididade de um serviço específico. Para detalhes sobre como usar o cmdlet para testar serviços específicos, consulte a documentação [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology) in the Shell de Gerenciamento do Lync Server. Use as informações a seguir para ajudar a resolver problemas com sua topologia.
 
-> [!note]  
+> [!NOTE]  
 > Dependendo da configurçaão de seus servidores de borda e quasquer definições de rede de perímetro relacionada, incluindo de firewall e permissões, o Analisar de Práticas Recomendadas pode não conseguir acessar e escanear seus servidores de borda. Se incluir servidores de borda no escaneamento e os relatórios indicarem que há um problema no acesso aos servidores de borda, remova a seleção da caixa <strong>Servidores de Borda</strong> e execute o scan novamente para evitar que o problema conste nos relatórios.
 
 ## Resolver problemas com sua topologia

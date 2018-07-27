@@ -19,10 +19,10 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 Depois de definir sua topologia no Construtor de Topologias, você deve publicar a topologia para o Repositório de Gerenciamento Central. O Repositório de Gerenciamento Central oferece um armazenamento robusto e esquematizado dos dados necessários para definir, configurar, manter, administrar, descrever e operar uma implantação do Lync Server 2013. Também valida os dados para garantir a consistência da configuração. Todas as alterações para estes dados de configuração acontecem no Repositório de Gerenciamento Central, eliminando os problemas “fora de sincronização”. As cópias somente leitura dos dados são replicadas para todos os servidores na topologia, incluindo os Servidores de Borda.
 
-> [!note]  
+> [!NOTE]  
 > O SQL Server precisa de um mínimo de 20 GB de espaço em disco livre para publicar a topologia inicial com êxito e criar o Servidor de Gerenciamento Central.
 
-> [!note]  
+> [!NOTE]  
 > Para o Enterprise Edition somente: para publicar a topologia, o Servidor Back-End baseado no SQL Server deve estar online e acessível com exceções de firewall no lugar. Para obter detalhes sobre a especificação de exceções de firewall, consulte <a href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Compreendendo os requisitos de firewall para Servidor SQL com Lync Server 2013</a>. Para obter detalhes sobre a configuração do SQL Server, consulte <a href="lync-server-2013-configure-sql-server-for-lync-server.md">Configurar o SQL Server para Lync Server 2013</a>.
 
 ## Para publicar uma topologia
@@ -37,7 +37,7 @@ Depois de definir sua topologia no Construtor de Topologias, você deve publicar
 
 5.  Na página **Criar bancos de dados** , selecione os bancos de dados que deseja publicar.
     
-    > [!note]  
+    > [!NOTE]  
     > Se não tiver os direitos apropriados para criar os bancos de dados, você poderá desmarcar as caixas de seleção ao lado desses bancos de dados e, posteriormente, alguém com os direitos apropriados poderá criar bancos de dados. Para obter detalhes, consulte <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permissões de implantação para Servidor SQL no Lync Server 2013</a>.
 
 6.  Opcionalmente, clique em **Avançado** . As opções avançadas de posicionamento do arquivo de dados do SQL Server permitem que você selecione entre as seguintes opções:

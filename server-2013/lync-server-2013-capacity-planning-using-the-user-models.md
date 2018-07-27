@@ -83,7 +83,7 @@ A tabela a seguir resume essas recomendações.
 <td><p>Conferência A/V</p></td>
 <td><p>O serviço de conferência A/V fornecido por um Pool de Front-Ends suporta as conferências do pool, supondo um tamanho máximo de conferência de 250 usuários e apenas uma conferência deste tamanho sendo executada ao mesmo tempo.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Além disso, você pode suportar grandes conferências de 250 a 1000 usuários implantando um Pool de Front-Ends separado com dois Servidores Front-End para hospedar as grandes conferências. Para obter detalhes, consulte <a href="lync-server-2013-supporting-large-meetings.md">Suporte a Reuniões Grandes usando Lync Server 2013</a>.
 </div></td>
 </tr>
@@ -115,7 +115,7 @@ A tabela a seguir resume essas recomendações.
 
 ## Servidor Front-End
 
-> [!note]  
+> [!NOTE]  
 > Pools alongados não são suportados pela função desse servidor.
 
 Em um Pool de Front-Ends, você deve ter um Servidor Front-End para cada 6.600 usuários hospedados no pool, supondo que o hyper-threading esteja ativado em todos os servidores no pool, e que o hardware do servidor atenda às recomendações em [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md). O número máximo de usuários em um Pool de Front-Ends é 80.000. Se houver mais de 80.000 usuários em um site, é possível implantar mais de um Pool de Front-Ends.
@@ -136,7 +136,7 @@ O número de usuários suportados com bom desempenho por um Pool de Front-Ends e
 
   - A utilização da sua organização difere de forma significativa dos modelos de usuário, bem como possui um volume consideravelmente maior de tráfego de conferências.
 
-> [!important]  
+> [!IMPORTANT]  
 > No Lync Server 2013, os bancos de dados de presença são agora hospedados nos Servidores Front-End, ao contrário do Lync Server 2010, onde eram hospedados no Servidor Back-End. Isso significa que o desempenho e capacidade de disco em seus Servidores Front-End não deve ser comprometida das recomendações listas anteriormente nesta seção e nas <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a>, independentemente do número de usuários hospedados por seus Servidores Front-End.
 
 A tabela a seguir exibe a largura de banda média para IM e presença, considerado o modelo de usuário conforme definido em [Modelos de usuário no Lync Server 2013](lync-server-2013-user-models.md).
@@ -162,7 +162,7 @@ A tabela a seguir exibe a largura de banda média para IM e presença, considera
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Para aprimorar o desempenho de mídia da Conferência A/V colocada e a funcionalidade do Servidor de Mediação em seus Servidores Front-End, você deve permitir receive-side scaling (RSS) nos adaptadores de rede em seus Servidores Front-End. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter mais detalhes, consulte &quot;Receive-Side Scaling Enhancements in Windows Server 2008&quot; (aprimoramentos no dimensionamento do lado receptor no Windows Server 2008&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>. Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## Máximos de Conferência
@@ -179,19 +179,19 @@ Se sua organização tem muito mais conferências de modo misto do que as supost
 
 ## Servidor de Borda
 
-> [!note]  
+> [!NOTE]  
 > Pools alongados não são suportados pela função desse servidor.
 
 Você deve implantar um Servidor de Borda para cada 12.000 usuários que acessarão um site simultaneamente. São recomendados no mínimo dois Servidores de Borda para alta disponibilidade. Essas recomendações supõem que o hardware para o seus Servidores de Borda cumpre as recomendações em [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
 
 Ao contar o número de usuários para os Servidores de Borda, inclua os usuários hospedados em Aparelhos de Filial Persistente e Servidores de Filial Persistente em filiais associadas a um Pool de Front-Ends neste local.
 
-> [!note]  
+> [!NOTE]  
 > Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para detalhes, consulte <a href="http://go.microsoft.com/fwlink/?linkid=206013" class="uri">http://go.microsoft.com/fwlink/?linkid=206013</a>. Para informações sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 ## Diretor
 
-> [!note]  
+> [!NOTE]  
 > Pools alongados não são suportados pela função desse servidor.
 
 Se implantar a função de servidor Diretor, recomendamos que você implante um Diretor para cada 12.000 usuários remotos que acessarão um site ao mesmo tempo. São recomendados no mínimo dois Diretores para alta disponibilidade. Essas recomendações supõem que o hardware para seus Servidores de Borda atende as recomendações em [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
@@ -200,7 +200,7 @@ Ao contar o número de usuários para os Diretores, inclua os usuários hospedad
 
 ## Servidor de Mediação
 
-> [!note]  
+> [!NOTE]  
 > Pools alongados não são suportados pela função desse servidor.
 
 Se você colocar o Servidor de Mediação com Servidor Front-End, o Servidor de Mediação será executado em cada Servidor Front-End no pool, e deverá fornecer capacidade suficiente para os usuários no pool.
@@ -245,7 +245,7 @@ Todas as tabelas a seguir supõem a utilização resumida em [Modelos de usuári
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Embora servidores com 32 GB de memória tenham sido usados para testes de desempenho, servidores com 16 GB de memória são suportados para um Servidor de Mediação autônomo e são suficientes para fornecer o desempenho mostrado nesta tabela.
 
 ### Servidor de Mediação Capacidade ( Servidor de Mediação Colocado com Servidor Front-End) 70% de usuários internos, 30% de usuários externos, capacidade de chamadas sem contorno (processamento de mídia executado por Servidor de Mediação)
@@ -270,10 +270,10 @@ Todas as tabelas a seguir supõem a utilização resumida em [Modelos de usuári
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Este número é muito menor que os números para o Servidor de Mediação autônomo, pois o Servidor Front-End precisa lidar com outros recursos e funções dos 6.600 usuários hospedados nele, além da transcodificação necessária para chamadas de voz.
 
-> [!note]  
+> [!NOTE]  
 > Para melhorar o desempenho do Servidor de Mediação, você precisa ativar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidor de Mediação. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter mais detalhes, consulte &quot;Receive-Side Scaling Enhancements in Windows Server 2008&quot; (aprimoramentos no dimensionamento do lado receptor no Windows Server 2008&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>. Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## Servidor Back-End

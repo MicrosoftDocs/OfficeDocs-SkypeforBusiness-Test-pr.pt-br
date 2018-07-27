@@ -89,14 +89,14 @@ Quando você restaura um servidor, é precisso iniciar com um computador novo ou
 
   - Um servidor novo ou limpo com o mesmoFQDN (nome de domínio totalmente qualificado) do servidor que falhou.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Ao instalar o sistema operacional, verifique se não foi excluída a conta de computador no Serviços de Domínio Active Directory e se as permissões de grupo da conta estão retidas.
 
   - Software de instalação para o sistema operacional. Para instalar o sistema operacional, use as configurações de implantação do servidor e procedimentos estabelecidos pela organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando restaurar o serviço.
 
   - Software de instalação para o SQL Server 2012 ou o SQL Server 2008 R2. Para instalar um servidor de banco de dados, use a versão adequada do SQL Server e os procedimentos de implantação do servidor de banco de dados e configurações estabelecidos pela sua organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando restaurar o serviço.
     
-    > [!note]  
+    > [!NOTE]  
     > O Assistente de Instalação do Lync Server instala automaticamente o SQL Server 2012 Express em cada Servidor Standard Edition e em qualquer outro servidor do Lync Server, quando é instalado um armazenamento de configuração local, a menos que você tenha o SQL Server 2012 ou o SQL Server 2008 R2 pré-instalado no servidor.
 
   - Software para fazer imagens de sistema.
@@ -133,7 +133,7 @@ Antes de restaurar o servidor, você deverá executar as seguintes etapas:
 
 4.  Faça uma captura de imagem do sistema antes de iniciar a restauração para usar como um ponto de reversão caso algo dê errado durante a restauração.
 
-> [!note]  
+> [!NOTE]  
 > O Assistente de Implantação e os cmdlets do Lync Server descritos nos procedimentos neste tópico, e tópicos relacionados, definem todas as listas de controle do acesso (ACLs) necessárias.
 
 Verificar se o hardware e o software que você precisa para os componentes que pretende restaurar estão disponíveis antes de iniciar a restauração. Depois de instalar o sistema operacional e o SQL Server, a maioria das etapas nos procedimentos de restauração a seguir pode ser executada remotamente. As exceções estão indicadas nos procedimentos.

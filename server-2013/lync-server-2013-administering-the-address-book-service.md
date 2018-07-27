@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 Como parte da implantação do Lync Server, Enterprise Edition ou Servidor Standard Edition, o Serviço de Catálogo de Endereços é instalado por padrão. Os bancos de dados usados pelo Serviço de Catálogo de Endereços – RTCab – é criado no SQL Server (para o Enterprise Edition, é o SQL Server de Back-End, para o Servidor Standard Edition, o SQL Server colocado).
 
-> [!note]  
+> [!NOTE]  
 > Para obter informações sobre como usar o <strong>Editor ADSI</strong> para editar atributos do objeto do Serviços de Domínio Active Directory, consulte <a href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI Edit</a>. Para obter mais informações sobre uma ferramenta no Resource Kit, especificamente o serviço de Catálogo de Endereços, consulte <a href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</a>.
 
 ## Normalização de Número de Telefone do Servidor de Catálogo de Endereços
@@ -239,7 +239,7 @@ Os números da coluna **ID** devem ser exclusivos e nunca devem ser reutilizados
 
 Nas versões anteriores de Lync Server, ao aplicar uma mudança no Active Directory, o administrador deveria executar os cmdlets **Update -CSUserDatabase** e **Update –CSAddressBook**Windows PowerShell para realizar a mudança no banco de dados Lync Server e no banco de dados RTCab imediatamente. Em Lync Server 2013, Lync Server o Replicador de Usuários usará as mudanças no Active Directory e atualizará o banco de dados do Lync Server com base em um intervalo configurado. Lync Server O Replicador de Usuários também propagará as mudanças ao banco de dados RTCab rapidamente sem que o administrador tenha que executar o Update-CSAddressBook. Se a consulta web ao Catálogo de Endereços estiver habilitada, as mudanças serão refletidas nos resultados de busca por clientes Lync. Os administradores precisarão executar o Atualizar -CSAddressBook somente se o download de arquivo do Catálogo de Endereços estiver habilitado.
 
-> [!note]  
+> [!NOTE]  
 > Por padrão, Lync Server o Replicador de Usuários é executado automaticamente a cada 5 minutos. Você pode configurar esse intervalo usando Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt;.
 
 ## Filtrando o catálogo de endereços
@@ -285,7 +285,7 @@ Atualmente existem três filtros diferentes. A tabela a seguir lista esses filtr
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Se os bits de sinalizador 0x4000 (excluir atributo) e 0x8000 (incluir atributo) estão definidos, o bit 0x4000 substitui o bit 0x8000 e o contato é excluído.
 
 Embora você possa filtrar o catálogo de endereços para incluir somente certos usuários, limitar as entradas não limita a capacidade de outros usuários para entrar em contato com os usuários filtrados ou para ver seu status de presença. Os usuários sempre podem enviar manualmente mensagens instantâneas, iniciar chamadas ou encontrar os usuários que não estão no catálogo de endereços, digitando o nome completo de entrada de um usuário. Além disso, as informações de contato para um usuário também podem ser encontradas no Outlook.
@@ -294,8 +294,8 @@ Embora a existência de registros completos de contatos nos arquivos do catálog
 
 Depois de modificar a tabela AbAttribute, você pode atualizar os dados na tabela AbUserEntry executando o comando do cmdlet **Update-CsUserDatabase**. Após a conclusão da replicação UR, é possível atualizar o arquivo no repositório de arquivos do servidor de catálogo de endereços manualmente, executando o comando cmdlet **UpdateCsAddressBook**.
 
-> [!note]  
+> [!NOTE]  
 > O Servidor Front-End no qual o servidor de catálogo de endereços é colocado não é configurável administrativamente. Um deles é escolhido durante a implantação; normalmente o primeiro Servidor Front-End implantado. Em caso de falha, o serviço de catálogo de endereços será movido para outro Servidor Front-End e não requer nenhuma atenção administrativa.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se você consolidou ou modificou de alguma forma a infra-estrutura da implantação de várias florestas ou uma implantação de pai e filho (por exemplo, consolidar a infra-estrutura antes de mover ao Lync Server), é possível encontrar o download do serviço de catálogo de endereços e as falhas de consulta à Web do catálogo de endereços para alguns usuários. Quando em uma implantação que tinha vários domínios ou florestas, o atributo <strong>MsRTCSIP-OriginatorSid</strong> é preenchido nos objetos de usuário que estão apresentando o problema. O atributo <strong>MsRTCSIP-OriginatorSid</strong> deve ser definido como NULO nesses objetos para solucionar o problema.

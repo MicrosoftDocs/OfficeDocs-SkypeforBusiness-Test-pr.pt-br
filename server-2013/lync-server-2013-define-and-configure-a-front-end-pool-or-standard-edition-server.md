@@ -60,7 +60,7 @@ Se você estiver implantando um servidor Enterprise, é necessário que haja um 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Para Lync Server 2013, sempre que você adicionar ou remover um Servidor Front-End do pool, é necessário reiniciar os serviços. A remoção e adição de servidores devem ser feitas como operações separadas. Por exemplo, se você adicionar dois Servidores Front-End e remover dois Servidores Front-End, use o seguinte processo:<ol><li><p>Remova os dois servidores front-end.</p></li><li><p>Publique e reative a topologia.</p></li>
 > <li><p>Reinicie os serviços</p></li>
 > <li><p>Adicione os dois servidores front-end.</p></li>
@@ -102,7 +102,7 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     
       - **Monitoramento**   O servidor de Monitoramento permite coletar dados que descrevem a qualidade da mídia na rede e nos pontos de extremidade, informações de uso relacionadas a chamadas VoIP, mensagens de IM, conversas A/V, compartilhamento de aplicativos e transferências de arquivos, além de informações de erros e solução de problemas de chamadas com falha.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você deseja habilitar o CAC na implantação, é necessário habilitar o CAC em exatamente um pool por site central. O CAC é recomendado se você está implantando os recursos de voz ou conferência de A/V.    
     A tabela a seguir mostra os recursos disponíveis (superior) e as funções oferecidas aos usuários (esquerdo). As seleções na tabela são aquelas que você deve selecionar para habilitar estes recursos para sua organização.
     
@@ -165,7 +165,7 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     
       - Se você pretende implantar o Servidor de Mediação como servidores autônomos, desmarque a caixa de seleção apropriada. Você implantará Servidor de Mediação em uma etapa da implantação separada, depois de implantar completamente o Servidor Front-End.
     
-    > [!note]  
+    > [!NOTE]  
     > Recomendamos colocar o servidor de mediação, se possível. Para obter detalhes sobre o suporte a servidores de mediação colocados ou autônomos, consulte <a href="lync-server-2013-components-and-topologies-for-mediation-server.md">Componentes e topologias para o Servidor de Mediação no Lync Server 2013</a> na documentação de Planejamento.
 
 6.  A página **Associar funções de servidor a este pool de Front-Ends** permite definir e associar funções de servidor com o Pool de Front-Ends. A seguinte função está disponível:
@@ -202,12 +202,12 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     
       - Para definir um novo compartilhamento de arquivo, selecione **Definir um novo compartilhamento de arquivo** na caixa **FQDN do Servidor de Arquivos**, insira o FQDN do servidor de arquivos existente onde o compartilhamento de arquivo deve residir e insira um nome para o compartilhamento de arquivo na caixa **Compartilhamento de Arquivos**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O compartilhamento de arquivos do Lync Server 2013 não pode ser localizado na Servidor Front-End. Observe que neste exemplo, o compartilhamento de arquivo foi localizado no servidor Back-End com base no SQL Server. Este pode não ser um local ideal para as necessidades da sua organização, um servidor de arquivos pode ser uma escolha melhor. Você pode definir o compartilhamento de arquivos sem que este tenha sido criado. Será necessário criar o compartilhamento de arquivos no local que você definir antes de publicar a topologia.
 
 9.  Na página **Especificar a URL dos serviços Web**, execute um ou estes dois procedimentos:
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A URL base é a identidade do Serviços Web para a URL, sem o https://. Por exemplo, se a URL completa para o Serviços Web do pool é https://pool01.contoso.net, a URL base será pool01.contoso.net.    
 
     > [!WARNING]
@@ -223,7 +223,7 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     
     2.  Opcionalmente, insira a URL base externa em **URL base externa**. Insira a URL base externa para diferenciá-la da nomeação de domínio interna. Por exemplo, seu domínio interno é contoso.net, mas seu nome de domínio externo é contoso.com. Você deve definir a URL usando o nome do domínio contoso.com. Isso também é importante no caso de um proxy reverso. O nome de domínio da URL base externa seria igual ao nome de domínio do FQDN do proxy inverso. As mensagens instantâneas e presença exigem acesso HTTP para o Pool de Front-Ends.
     
-    > [!note]  
+    > [!NOTE]  
     > Para usar o balanceamento de carga DNS, você deve criar os registros DNS apropriados. Para obter detalhes, consulte <a href="lync-server-2013-configure-dns-for-load-balancing.md">Configurar DNS para balanceamento de carga no Lync Server 2013</a>.
 
 10. Caso você selecione **Conferência** na página **Selecionar Recursos**, na página **Selecione um Servidor Office Web Apps**, selecione **Associar pool a um Servidor Office Web Apps** e clique em **Novo** (ou selecione um Servidor Office Web Apps existente na lista suspensa).
@@ -234,7 +234,7 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     
     Se o Servidor Office Web Apps for implantado fora do firewall interno, selecione a opção **O Servidor Office Web Apps é implantado em uma rede externa (ou seja, de perímetro/Internet)**.
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes, consulte <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com servidor de Office Web Apps e Lync Server 2013</a>.
 
 12. Na página **Definir o Repositório do SQL de Arquivamento**, selecione uma instância existente do SQL Server ou defina uma nova instância para armazenar os dados associados a arquivamento.

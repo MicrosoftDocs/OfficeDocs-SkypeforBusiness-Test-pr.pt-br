@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-01-21_
 
 As regras de diretiva de versão de cliente definem as ações que devem ser executadas quando o usuário tenta fazer logon com clientes e versões de clientes específicas. Você pode criar ou modificar regras específicas para a versão de cliente do Painel de Controle do Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > As regras foram listadas em ordem de precedência. Por exemplo, se você tiver uma regra que permita aos clientes executarem a versão 1.5 para se conectar, seguida pela regra que bloqueia os clientes que estiverem executando uma versão anterior à 2.0, a primeira regra tem precedência e os clientes que estiverem executando a versão 1.5 podem se conectar.
 
 ## Para criar ou modificar a versão das regras de diretiva de versão de cliente com o Painel de Controle do Lync Server
@@ -30,7 +30,7 @@ As regras de diretiva de versão de cliente definem as ações que devem ser exe
     
       - Clique em um dos tipos de cliente definidos na lista e em **Mostrar detalhes**.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível usar caracteres curinga para indicar o tipo de cliente.
 
 3.  Em **Agente do usuário**, selecione um tipo de cliente.
@@ -45,7 +45,7 @@ As regras de diretiva de versão de cliente definem as ações que devem ser exe
     
       - Em **Atualização**, digite o número que corresponde à versão atualizada do cliente.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode usar caracteres curinga para indicar o número da versão do cliente.
 
 5.  Para especificar a operação correspondente para a versão do cliente especificada nas etapas anteriores, em **Operação de comparação**, clique em um dos seguintes:
@@ -68,7 +68,7 @@ As regras de diretiva de versão de cliente definem as ações que devem ser exe
     
       - Para permitir que o cliente faça o login e receba atualizações do Windows Server Update Service ou Microsoft Update, clique em **Permitir e atualizar**. Esta seção está disponível apenas quando o agente de usuário **OC** é selecionado.
         
-        > [!note]  
+        > [!NOTE]  
         > Selecionar esta ação faz com que uma notificação seja exibida na próxima vez que o usuário fizer o login em um Lync 2013. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.    
       - Para permitir que o cliente faça logon e exiba uma mensagem sobre onde baixar outra versão de cliente, clique em **Permitir com URL**. Você especifica a URL posteriormente neste procedimento.
     

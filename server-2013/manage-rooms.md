@@ -19,7 +19,7 @@ Para criar uma nova sala do Servidor de Chat Persistente
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-> [!important]  
+> [!IMPORTANT]  
 > -PersistentChatPoolFqdn não é necessário se um dos seguintes for verdadeiro:<ul>
 > <li><p>Há apenas um Pool de Servidor de Chat Persistente.</p></li>
 > 

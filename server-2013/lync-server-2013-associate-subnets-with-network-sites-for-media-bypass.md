@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2012-09-12_
 
-> [!note]  
+> [!NOTE]  
 > Este tópico assume que você tenha definido as configurações globais de desvio de mídia, a região da rede e os locais de rede para desvio de mídia.
 
 Cada sub-rede em sua rede deve ser associada a um site de rede específico. Isso ocorre porque as informações da sub-rede são usadas para determinar o site de rede no qual um ponto de extremidade está localizado. Quando os locais de ambas as partes em uma sessão são conhecidos, os desvio de mídia pode determinar para onde a mídia é enviada para processamento.

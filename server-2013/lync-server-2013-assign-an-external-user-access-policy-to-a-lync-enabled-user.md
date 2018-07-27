@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-22_
 
 Se o usuário tiver sido habilitado para o Lync Server, você poderá configurar a federação SIP, a federação XMPP, o acesso de usuário remoto e a conectividade a redes públicas de mensagens instantâneas (IM) no Painel de Controle do Lync Server aplicando as políticas adequadas a usuários específicos. Por exemplo, se você criou uma política para oferecer suporte ao acesso de usuário remoto, deverá aplicá-la ao usuário antes que ele possa se conectar ao Lync Server de um local remoto e colaborar com usuários internos do local remoto.
 
-> [!note]  
+> [!NOTE]  
 > Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, consulte <a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando suporte para acesso de usuário externo no Lync Server 2013</a> na documentação de implantação ou <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciando de federação e acesso externo ao Lync Server 2013</a> na documentação de Operações.
 
 Use o procedimento neste tópico para aplicar uma política de acesso de usuário externo criada anteriormente para uma ou mais contas de usuário.
@@ -34,7 +34,7 @@ Use o procedimento neste tópico para aplicar uma política de acesso de usuári
 
 5.  Em **Editar Usuário do Lync Server**, em **Política de acesso externo**, selecione a política de usuário que você deseja aplicar.
     
-    > [!note]  
+    > [!NOTE]  
     > As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações do servidor padrão ou de política global.
 
 ## Atribuindo políticas de acesso externo por usuário usando os cmdlets Windows PowerShell

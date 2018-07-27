@@ -27,7 +27,7 @@ _**Tópico modificado em:** 2012-10-02_
 
 5.  Em **Especificar Versão de Borda**, insira o tipo de configuração do Servidor de Borda e clique em **Avançar**. Esse exemplo usa a opção **Servidor de Borda Único**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <strong>Implantação de Borda Expandida</strong> não é uma configuração suportada. Um <strong>Servidor de Borda Expandida</strong> deve primeiro ser convertido em um <strong>Servidor de Borda Único</strong> ou em um Servidor <strong>Implantação de Borda Consolidada Balanceada</strong>.
 
 6.  Em **Especificar Configurações de Borda Interna**, insira as informações relevantes para FQDN e portas internos do pool da Borda conforme necessário e clique em **Avançar**.
@@ -36,7 +36,7 @@ _**Tópico modificado em:** 2012-10-02_
 
 7.  Em **Especificar Borda Externa**, insira as informações de FQDN de conferência da Web do seu Servidor de Borda.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Antes de clicar em <strong>Avançar</strong>, realize a próxima etapa deste procedimento. É muito importante que você não pule esta etapa.
 
 8.  Marque a caixa de seleção **Este pool de Borda é usado para conectividade de IM pública e de federação** se você planeja usar esse Servidor de Borda do Office Communications Server 2007 R2 herdado para federação. Se você possui vários Servidores de Borda implantados, somente um deles ficará habilitado para federação. Se você não marcar essa caixa e depois decidir que quer habilitar a federação, deve executar o assistente de Mesclagem de Construtor de Topologia novamente e depois publicar sua topologia novamente.
@@ -65,5 +65,5 @@ _**Tópico modificado em:** 2012-10-02_
 
 17. Quando o **Assistente de publicação** for concluído, clique em **Finalizar**.
     
-    > [!note]  
+    > [!NOTE]  
     > É importante que você complete o próximo tópico, <a href="import-policies-and-settings.md">Importar políticas e configurações</a>, para garantir que as configurações da política herdada foram importadas ao Lync Server 2013.

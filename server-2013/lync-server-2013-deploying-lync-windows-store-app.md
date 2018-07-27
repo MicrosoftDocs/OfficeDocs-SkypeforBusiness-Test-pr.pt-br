@@ -21,7 +21,7 @@ Antes de disponibilizar o Aplicativo Lync Windows Store aos usuários, verifique
 
 Atualizações acumulativas para Lync Server 2013: junho de 2013 adiciona a autenticação multifator para clientes do Aplicativo Lync Windows Store. Além do nome de usuário e senha, você pode precisar de métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários externos quando eles entrarem em reuniões do Lync. Para ativar a autenticação multifator, implante o servidor de federação do Serviço de Federação do Active Directory (AD FS) e habilite a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, usuários externos que tentarem ingressar em reuniões do Lync visualizam uma página da Web de autenticação multifator do AD FS que contém o desafio de nome de usuário e senha junto com todos os métodos de autenticação adicionais que você configurou.
 
-> [!important]  
+> [!IMPORTANT]  
 > Veja a seguir considerações importantes se você pretende configurar o AD FS para autenticação multifator para o Aplicativo Lync Windows Store:<ul>
 > <li><p>Lync Server 2013 com Atualizações acumulativas para Lync Server 2013: junho de 2013 é necessário, no mínimo. Clientes de desktop Lync 2013 não requerem Atualizações acumulativas para Lync Server 2013: junho de 2013, por isso pode parecer que a autenticação passiva está funcionando porque os clientes do Lync 2013 conseguem se autenticar. No entanto, o processo de autenticação para clientes do Aplicativo Lync Windows Store não será concluído e nenhuma mensagem de notificação ou de erro será exibida.</p></li>
 > <li><p>O servidor deve ser configurado para que a autenticação passiva seja o único tipo de autenticação oferecido.</p></li>

@@ -19,7 +19,7 @@ O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros 
 
 O certificado atribuído às interfaces externas do Servidor de Borda foi solicitado pela autoridade de certificação pública (CA). As CAs públicas obtiveram êxito no fornecimento de certificados para os fins de Comunicações Unificadas que estão listados no artigo a seguir: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) Ao solicitar o certificado, é possível usar a solicitação do certificado gerada pelo Assistente de Implantação do Lync Server ou criar a solicitação manualmente ou através do processo fornecido pela CA pública. Ao atribuir o certificado, ele foi atribuído à interface do Serviço de Borda de Acesso, Serviço de Borda de Webconferência, e ao serviço de Autenticação de Áudio/Vídeo. O serviço de Autenticação de Áudio/Vídeo não deve ser confundido com o Serviço de Borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface interna do Servidor de Borda pode usar um certificado de uma CA interna (à sua organização) ou um certificado de uma CA pública. O certificado de interface interna usa apenas o SN e não precisa de entradas SAN nem as usa.
 
-> [!note]  
+> [!NOTE]  
 > A tabela a seguir exibe uma segunda entrada SIP (sip.fabrikam.com) na lista de nomes alternativos de entidade como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo de entidade do certificado.
 
 ## Borda consolidada dimensionada, DNS com carga balanceada com endereços IP privados usando NAT

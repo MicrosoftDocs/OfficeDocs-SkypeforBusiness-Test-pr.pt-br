@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-10-18_
 
 Siga estas etapas para excluir uma política de PIN no nível de usuário ou local.
 
-> [!note]  
+> [!NOTE]  
 > Você não pode excluir a política de PIN global.
 
 ## Para excluir uma política de PIN de usuário ou de site

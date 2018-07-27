@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 Federação, conectividade de mensagem instantânea pública e protocolo XMPP (Extensible Messaging and Presence Protocol) definem uma classe diferente de usuários externos - os usuários federados. Os usuários de uma implantação federada do Lync Server ou implantação XMPP têm um conjunto de serviços limitados e são autenticados pela implantação externa. Usuários remotos são membros da sua implantação do Lync Server e têm acesso a todos os serviços oferecidos por sua implantação.
 
-> [!note]  
+> [!NOTE]  
 > A data de fim de vida de junho de 2014 para o AOL e o Yahoo! foi anunciada. Para detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.
 
 A conectividade de mensagem instantânea pública é um tipo especial de federação que permite que um cliente Lync Server acesse parceiros configurados de mensagem instantânea pública usando o Lync 2013. Os parceiros atuais de conectividade de mensagem instantânea pública são:
@@ -50,7 +50,7 @@ A federação XMPP define uma implantação externa baseada no protocolo XMPP (e
 
   - Criação de contatos federados XMPP no cliente Lync
 
-> [!important]  
+> [!IMPORTANT]  
 > O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.
 
 ## Federação externa de servidor de borda, conectividade de mensagem instantânea pública e processo de implantação de usuários XMPP
@@ -77,7 +77,7 @@ A federação XMPP define uma implantação externa baseada no protocolo XMPP (e
 <td><p>Execute a Construtor de Topologias para editar as configurações do Servidor de Borda e criar e publica a topologia. Sua topologia de borda existente irá replicar as alterações do Repositório de Gerenciamento Central no Servidor de Borda.</p></td>
 <td><p>Grupo de administradores de domínio e grupo RTCUniversalServerAdmins</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Você pode editar uma topologia usando uma conta que é membro do grupo de usuários locais, mas publicar uma topologia exige uma conta que seja membro de um grupo de administradores de domínio e do grupo RTCUniversalServerAdmins
 </div></td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de borda e de diretor no Lync Server 2013</a></p></td>

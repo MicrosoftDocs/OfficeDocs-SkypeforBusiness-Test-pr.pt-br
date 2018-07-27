@@ -33,7 +33,7 @@ Se você tiver feito qualquer alteração não confirmada na configurações de 
 
 6.  Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo** .
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que importar um arquivo de configuração de voz, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também

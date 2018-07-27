@@ -17,10 +17,10 @@ _**Tópico modificado em:** 2013-01-30_
 
 Utilize o procedimento a seguir para criar ou modificar o intervalo de números de um grupo de atendimento de chamadas na tabela de órbita de estacionamento de chamadas.
 
-> [!note]  
+> [!NOTE]  
 > Você precisa utilizar Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar intervalos de números de atendimento de chamadas em grupo na tabela de órbita de estacionamento de chamadas. Intervalos de números de atendimento de chamadas em grupo não estão disponíveis em Painel de Controle do Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > É preciso atribuir ao intervalo de números de grupo de atendimento de chamadas o tipo GroupPickup. Usuários são habilitados para o atendimento de chamadas em grupo somente se o número de grupo a que foram atribuídos for do tipo GroupPickup.
 
 Os intervalos de números de grupo de atendimento de chamadas precisam estar de acordo com as regras a seguir:
@@ -55,7 +55,7 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o Aplicativo de Estacionamento de Chamada não poderá mais utilizar aquele intervalo de órbitas para estacionar chamadas.
 
 ## Consulte Também

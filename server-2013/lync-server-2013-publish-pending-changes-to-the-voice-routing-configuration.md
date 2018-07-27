@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-08-07_
 
 Após fazer alterações em qualquer uma das definições de configuração nas páginas do grupo **Roteamento de Voz** , execute este procedimento para examinar, publicar ou cancelar as alterações pendentes.
 
-> [!important]  
+> [!IMPORTANT]  
 > Certifique-se de que somente um usuário por vez modifique as definições de configurações do Roteamento de voz.<br />Todas as alterações pendentes devem ser publicadas ao mesmo tempo, executando o comando <strong>Confirmar todos</strong> . Não é possível publicar seletivamente as alterações pendentes. Antes de publicar as alterações pendentes, execute o comando <strong>Revisar alterações não confirmadas</strong> e cancele qualquer alteração de configuração que não deseja publicar.<br />Se você navegar longe das páginas do grupo <strong>Roteamento de voz</strong> antes de confirmar as alterações pendentes, todas as alterações pendentes serão perdida. No entanto, é possível exportar a configuração atual (incluindo quaisquer alterações pendentes) para um arquivo de configuração de voz e, em seguida, importar e publicar a configuração atualizada. Para obter detalhes, consulte <a href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportar um arquivo de configuração de rota de voz no Lync Server 2013</a>.
 
 ## Para revisar, publicar ou cancelar as alterações de configuração do roteamento de voz

@@ -58,7 +58,7 @@ _**Tópico modificado em:** 2013-02-22_
 
 7.  Em **Atribuir políticas**, em **Política de Chat persistente**, siga um destes procedimentos:
     
-    > [!note]  
+    > [!NOTE]  
     > Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.    
       - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
     

@@ -19,7 +19,7 @@ Siga as próximas etapas para configurar um tronco com bypass de mídia habilita
 
 É altamente recomendável habilitar o bypass de mídia. No entanto, antes de habilitá-lo em um tronco SIP, confirme se seu provedor do tronco SIP oferece suporte ao bypass de mídia e pode acomodar os requisitos para habilitar o cenário com êxito. Especificamente, o provedor deve ter os endereços IP dos servidores na rede interna da sua organização. Se o provedor não oferecer suporte a este cenário, o bypass de mídia não terá sucesso. Para detalhes, consulte [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na documentação de Planejamento.
 
-> [!note]  
+> [!NOTE]  
 > O bypass de mídia não interoperará com todos gateways de rede de telefonia comutada pública (PSTN), IP-BX e SBC (Controlador de Borda de Sessão). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado somente por produtos e versões listadas na Infraestrutura qualificada para Microsoft Lync em <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x416</a>.
 
 Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâmetros que são aplicados a troncos atribuídos a essa configuração de tronco. O escopo de uma configuração de tronco específica pode ser global (para todos os troncos que não têm configuração de site ou pool mais específica), ou para um site ou pool. A configuração de tronco no nível do pool é usada para fazer o escopo de uma configuração de tronco específico para um único tronco.
@@ -42,12 +42,12 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
         
           - **Tronco do pool :** Escolha o nome do tronco ao qual essa configuração de tronco se aplica. Esse tronco pode ser o tronco raiz de qualquer tronco adicional definido em Construtor de Topologias. Em **Selecionar um Serviço** , clique em **OK** . Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço** .
     
-    > [!note]  
+    > [!NOTE]  
     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado.<br />    O campo <strong>Nome</strong> é pré-preenchido com o nome do site ou serviço associado à configuração de tronco e não pode ser alterado.
 
 5.  Especifique um valor em **Máximo de caixas de diálogo iniciais com suporte** . Este é o número máximo de respostas bifurcadas que um gateway de rede de telefonia comutada pública (PSTN), IP-PBX, ou Controlador de Borda de Sessão (SBC) ITSP pode receber para um INVITE enviado para o Servidor de Mediação. O valor padrão é 20.
     
-    > [!note]  
+    > [!NOTE]  
     > Antes de alterar este valor, consulte seu provedor de serviços ou fabricante do equipamento para detalhes sobre as capacidades do seu sistema.
 
 6.  Selecione uma das seguintes opções de **Nível de suporte de criptografia** :
@@ -60,15 +60,15 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
 
 7.  Selecione a opção **Habilitar bypass de mídia** se você deseja que que a mídia desvie do Servidor de Mediação para processamento pelo ponto do tronco.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Para que o bypass de mídia funcione com êxito, o gateway PSTN gateway, IP-PBX ou Controlador de Borda de Sessão ITSP deve oferecer suporte a determinados recursos. Para detalhes, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planejamento de bypass de mídia no Lync Server 2013</a> na documentação de Planejamento.
 
 8.  Selecione a opção **Processamento de mídia centralizado** se houver um ponto de terminação de mídia conhecido (por exemplo, um gateway PSTN em que a terminação de mídia tem o mesmo IP da terminação de sinalização). Desmarque esta opção se o tronco não possuir um ponto de terminação de mídia conhecido.
 
 9.  Se o ponto do tronco suportar o recebimento de solicitações SIP REFER do Servidor de Mediação, selecione a caixa de seleção **Permitir envio de referência ao gateway** .
     
-    > [!note]  
-    > Se esta opção for desabilitada enquanto a opção <strong>Habilitar bypass de mídia</strong> estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet <strong>set-cstrunkconfiguration</strong> para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Para detalhes, consulte a documentação do <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.<br />    Como alternativa, é possível selecionar <strong>Ativar referenciamento usando controle de chamada de terceiros</strong> se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER.
+    > [!NOTE]  
+    > Se esta opção for desabilitada enquanto a opção <strong>Habilitar bypass de mídia</strong> estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet <strong>Set-CsTrunkConfiguration</strong> para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Para detalhes, consulte a documentação do <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.<br />    Como alternativa, é possível selecionar <strong>Ativar referenciamento usando controle de chamada de terceiros</strong> se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER.
 
 10. (Opcional) Para permitir roteamento entre troncos, associe e configure os registros de uso de PSTN a essa configuração de tronco. O uso de PSTN associado com essa configuração de tronco será aplicado a todas as chamadas recebidas através do tronco que não estiverem se originando de um ponto de extremidade do Lync. Para gerenciar os registros de uso de PSTN associados à configuração de tronco, use um dos métodos a seguir:
     
@@ -82,7 +82,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
         
         2.  No campo **Nome** , especifique um nome descritivo que seja exclusivo para o registro.
             
-            > [!note]  
+            > [!NOTE]  
             > O nome do registro de uso de PSTN deve ser exclusivo dentro da implantação do Enterprise Voice. Após a gravação do registro, o campo <strong>Nome</strong> não poderá ser editado.        
         3.  Use um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
             
@@ -112,12 +112,12 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
         
         3.  Clique em **OK** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > É importante associar registros de uso do PSTN de acordo com o ponto do Servidor de Mediação associado ao tronco que está sendo configurado. Se o ponto do Servidor de Mediação for um gateway do PSTN ou um Controlador de Borda de Sessão (SBC), recomenda-se que a configuração de tronco não seja associada com um registro de uso do PSTN ou qualquer outro sistema downstream conectado através do Lync Server.
 
 11. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, selecione o registro de uso e clique na seta para cima ou para baixo.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A ordem na qual PSTN registros de uso são listados na configuração de tronco é significativa. O Lync Server percorre a lista de cima para baixo.
 
 12. **Enable RTP Latching** deve ser selecionado para permitir desvio de mídia para clientes atrás de uma NAT (conversão de endereço de rede) ou firewall, e um SBC que suporte travamento.
@@ -166,14 +166,14 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
 
 18. Verifique se as regras de conversão do tronco estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, realce o nome da regra e clique na seta para cima ou para baixo.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O Lync Server 2013 percorre a lista de regras de conversão de cima para baixo e usa a primeira regra que corresponda ao número discado. Se você configurar um tronco de forma que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você incluiu uma regra de conversão que corresponda a qualquer número de 11 dígitos e uma regra de conversão que corresponda somente a números de 11 dígitos que comecem com +1425, certifique-se de que a regra que corresponda a qualquer número de 11 dígitos esteja classificada <em>abaixo</em> da regra mais restritiva.
 
 19. Ao terminar de configurar o tronco, clique em **OK** .
 
 20. Na página **Configuração do Tronco** , clique em **Confirmar** e clique em **Confirmar tudo** .
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que criar ou modificar uma configuração de tronco, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 Depois de concluir a configuração do tronco, continue configurando o bypass de mídia escolhendo entre as opções de bypass de mídia global, conforme descrito em [Opções de bypass de mídia global no Lync Server 2013](lync-server-2013-global-media-bypass-options.md) na documentação de Implantação.

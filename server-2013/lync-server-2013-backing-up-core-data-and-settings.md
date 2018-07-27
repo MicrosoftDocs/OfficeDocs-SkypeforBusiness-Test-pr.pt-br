@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2014-04-23_
 
 Os procedimentos a seguir usam os cmdlets do Shell de Gerenciamento do Lync Server para criar arquivos de backup para configurações e dados para serviços básicos. Para obter detalhes sobre as ferramentas usadas nesta seção, incluindo onde estão localizadas, consulte [Requisitos de backup e restauração: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). Para obter detalhes sobre como fazer backup de dados de arquivamento e de monitoramento, consulte [Fazendo backup de bancos de dados de monitoramento e arquivamento](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
 
-> [!note]  
+> [!NOTE]  
 > A etapa nesta seção para fazer backup do Repositório de Gerenciamento Central inclui as configurações para arquivamento e monitoramento.
 
 É possível executar os cmdlets descritos nesta seção local ou remotamente.
@@ -38,7 +38,7 @@ Os procedimentos a seguir usam os cmdlets do Shell de Gerenciamento do Lync Serv
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
-    > [!note]  
+    > [!NOTE]  
     > Esta etapa exporta a topologia, as políticas e configurações de seu Lync Server para um arquivo. Nenhuma outra etapa é necessária para fazer backup dos dados de topologia.
 
 5.  Copie o arquivo de configuração do Repositório de Gerenciamento Central de backup para $Backup\\.

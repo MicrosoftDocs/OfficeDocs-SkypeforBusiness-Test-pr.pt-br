@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2016-12-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Essas etapas são necessárias somente para migração de contas de usuários que foram originalmente habilitadas para Lync no Lync Online, antes de implantar o Lync local. Para mover os usuários que foram originalmente habilitados para Lync local e posteriormente movidos para o Lync Online, consulte <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrando usuários em uma implantação híbrida do Lync Server 2013</a>.<br />Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativo local.
 
 ## Como migrar para o Lync local contas de usuários habilitadas originalmente no Lync Online
@@ -130,7 +130,7 @@ _**Tópico modificado em:** 2016-12-08_
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    > [!note]  
+    > [!NOTE]  
     > O tamanho máximo padrão para arquivos de registro de transação do banco de dados rtcxds é 16 GB. Este tamanho pode não ser suficiente caso você esteja movendo uma grande quantidade de usuários de uma só vez, especialmente se o espelhamento estiver ativado. Para contornar a situação, aumente o tamanho de arquivo ou faça backup dos arquivos de registro regularmente. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
 
 8.  Esta etapa é opcional. Caso precise fazer a integração com o Exchange 2013 Online, será necessário utilizar um provedor de hospedagem adicional. Para obter mais detalhes, consulte [Configurando integração local do Lync Server 2013 com o Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).

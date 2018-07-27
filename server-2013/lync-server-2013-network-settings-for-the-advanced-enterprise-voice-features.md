@@ -31,7 +31,7 @@ Este tópico fornece uma visão geral dos requisitos de configuração que são 
 
 Uma região de rede é um hub de rede ou backbone de rede usada somente na configuração do serviço de controle de admissão de chamadas (CAC), E9-1-1 e bypass de mídia.
 
-> [!note]  
+> [!NOTE]  
 > As regiões de rede não são as mesmas que as regiões de conferência de discagem do Lync Server, que são necessárias para associar os números de de conferência de discagem com um ou mais planos de discagem do Lync Server. Para obter detalhes sobre as regiões de conferência de discagem, consulte &quot;<a href="lync-server-2013-dial-in-conferencing-requirements.md">Exigências da conferência discada no Lync Server 2013</a>&quot; na documentação de Planejamento.
 
 O CAC requer que cada região de rede tenha um tipo de site central do Lync Server associado, que gerencia o tráfego de mídia dentro da região (ou seja, toma decisões com base em políticas que você configurou sobre se uma sessão de vídeo ou áudio em tempo real pode ou não ser estabelecida). Os sites centrais do Lync Server não representam localizações geográficas, mas grupos lógicos de servidores configurados como um pool ou um conjunto de pools. Para obter detalhes sobre os sites centrais, consulte "[Topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md)" na documentação de Planejamento. Consulte também "[Topologias suportadas no Lync Server 2013](lync-server-2013-supported-topologies.md)" na documentação de Suporte.
@@ -46,7 +46,7 @@ Para associar um site central do Lync Server com uma região de rede, especifiqu
 
 Um site de rede representa uma localização geográfica, como um escritório principal, filiais ou regionais. Cada site de rede deve ser associado a uma região específica de rede.
 
-> [!note]  
+> [!NOTE]  
 > Os sites de rede são usados somente pelos recursos avançados da Enterprise Voice. Eles não são os mesmos sites de filial que você pode configurar na topologia do Lync Server. Para obter detalhes sobre os sites de filial, consulte &quot;<a href="lync-server-2013-reference-topologies.md">Topologias de referência no Lync Server 2013</a>&quot; na documentação de Planejamento. Consulte também <a href="lync-server-2013-supported-topologies.md">Topologias suportadas no Lync Server 2013</a> na documentação de Suporte.
 
 Para configurar um site de rede e associá-lo a uma região de rede, você poderá usar a seção **Configuração de Rede** do Painel de Controle do Lync Server, ou executar os cmdlets Shell de Gerenciamento do Lync Server**New-CsNetworkSite** ou **Set-CsNetworkSite**. Para obter detalhes, consulte [Criar ou modificar um site da rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) na documentação de Implantação, ou consulte a documentação do Shell de Gerenciamento do Lync Server.

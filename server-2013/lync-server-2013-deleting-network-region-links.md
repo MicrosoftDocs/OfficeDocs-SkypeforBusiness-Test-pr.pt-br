@@ -27,7 +27,7 @@ _**Tópico modificado em:** 2012-11-01_
 
 4.  Na página **Links de região**, clique no link deregião que deseja excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível excluir mais de um link de região de uma vez. Para isso, mantenha a tecla CTRL pressionada e selecione vários links de região. Para selecionar todos os links de região, clique em <strong>Selecionar todos</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, selecione **Excluir**.

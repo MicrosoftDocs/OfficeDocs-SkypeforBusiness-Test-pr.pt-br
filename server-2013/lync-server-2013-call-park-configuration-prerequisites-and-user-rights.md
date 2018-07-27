@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-10_
 
 O Estacionamento de Chamada é um recurso de gerenciamento de chamada instalado por padrão ao implantar o Enterprise Voice. Este tópico descreve o que você precisa ter antes de poder configurar o Estacionamento de Chamada e os direitos de usuário que você precisará para realizar tarefas de configuração.
 
-> [!important]  
+> [!IMPORTANT]  
 > Arquivos de música em espera personalizada para o Aplicativo de Estacionamento de Chamada não são armazenados como parte do processo de recuperação de desastres do Lync Server 2013 e os arquivos serão perdidos se forem carregados para o pool danificado, corrompido ou apagado. Sempre mantenha uma cópia reserva separada dos arquivos de música em espera personalizada que você carregou para o Estacionamento de Chamada.
 
 Esta seção assume que você leu a documentação de planejamento relacionada ao Estacionamento de Chamada (consulte [Planejamento de recursos de gerenciamento de chamada no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
@@ -54,7 +54,7 @@ Configurar o Estacionamento de Chamada exige qualquer uma das seguintes funçõe
 
   - **CsAdministrator :** Esta função de administrador pode executar todas as tarefas do CsVoiceAdministrator, CsServerAdministrator e CsUserAdministrator.
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.
 
 ## Consulte Também

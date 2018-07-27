@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-09-11_
 
 Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho do grupo de busca.
 
-> [!note]  
+> [!NOTE]  
 > É possível usar o Shell de Gerenciamento do Lync Server ou o Ferramenta de Configuração de Grupo de Resposta para criar e modificar fluxos de trabalho do grupo de busca. É possível acessar o Ferramenta de Configuração de Grupo de Resposta do Painel de Controle do Lync Server ou abrindo a página da Web diretamente por um navegador da Web digitando a seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong> .
 
 ## Para usar o Ferramenta de Configuração de Grupo de Resposta para criar ou modificar um fluxo de trabalho do grupo de busca
@@ -32,7 +32,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 5.  No campo de pesquisa **Selecione um Serviço** , digite parte ou todo o nome do serviço do **ApplicationServer** que hospeda o fluxo de trabalho que você deseja alterar ou criar. Na lista de serviços resultante, clique no serviço que deseja e clique em **OK** .
     
-    > [!note]  
+    > [!NOTE]  
     > O Ferramenta de Configuração de Grupo de Resposta abre. Você também pode abrir o Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador digitando a seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong> .
 
 6.  Siga um destes procedimentos:
@@ -43,29 +43,29 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 7.  Se estiver pronto para que os usuários comecem a fazer chamadas para o fluxo de trabalho, selecione **Ativar o fluxo de trabalho** .
     
-    > [!note]  
+    > [!NOTE]  
     > Se você estiver criando um fluxo de trabalho gerenciado, é necessário selecionar <strong>Ativar o fluxo de trabalho</strong> . Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
 
 8.  Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação** . Você também deve ter uma política de acesso externo aplicável ao Aplicativo Grupo de Resposta configurado para federação.
     
-    > [!note]  
+    > [!NOTE]  
     > A política de acesso externo global é aplicada ao Aplicativo Grupo de Resposta. É possível configurar a política global para federação do grupo de resposta usando o Painel de Controle do Lync Server ou o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess para True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre as configurações de federação, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.    
-    > [!note]  
+    > [!NOTE]  
     > Usuários hospedados em Lync Online não podem encaminhar chamadas para responder a grupos de resposta hospedados em outro ambiente local. Isso se aplica tanto para ambientes híbridos quanto para casos em que o ambiente local é federado com um ambiente Lync Online .
 
 9.  Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador** .
     
-    > [!note]  
+    > [!NOTE]  
     > Chamadas anônimas não podem ter início com sistemas de mensagens instantâneas (IM) ou vídeo, embora o operador ou chamadas possam adicionar IM e vídeo depois que a chamada estiver estabelecida. Um operador anônimo também pode colocar chamadas em espera, transferir (transferências ocultas e de consulta), estacionar e recuperar chamadas. Chamadas anônimas não oferecem suporte a conferência, compartilhamento de aplicativos, transferência de arquivos, whiteboarding e colaboração de dados e gravação de chamadas. Agentes utilizando o Plugin Lync VDI podem atender chamadas em entrada anonimamente, mas não podem realizar chamadas em saída anonimamente.
 
 10. Sob **Insira o endereço do grupo que receberá as chamadas** , digite o endereço URI SIP primário do grupo que irá receber chamadas para o fluxo de trabalho.
     
-    > [!note]  
+    > [!NOTE]  
     > O URI primário para um fluxo de trabalho é como o fluxo de trabalho é identificado e referenciado. O URI SIP inserido é criado como um objeto de contato no Serviços de Domínio Active Directory. Para criar o URI, o objeto deve ser exclusivo no Active Directory.
 
 11. Em **Nome de Exibição** , digite o nome que você deseja exibir para o fluxo de trabalho (por exemplo, Vendas do Grupo de Resposta).
     
-    > [!note]  
+    > [!NOTE]  
     > Não inclua os caracteres &quot;&lt;&quot; ou &quot;&gt;&quot; no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: <strong>Observador de Presença RG</strong> ou <strong>Serviço de Anúncio</strong> .
 
 12. Sob **Número de telefone** , digite o URI de linha para o grupo de resposta (por exemplo, +14255550165).
@@ -80,7 +80,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
     2.  Digite o URI SIP de gerentes adicionais para adicionar ao fluxo de trabalho e clique em **Adicionar** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Cada usuário que é designado como um gerente de um grupo de resposta deve ser atribuído à função CsResponseGroupManager. Se os usuários não sã atribuídos com esta função, eles não podem gerenciar grupos de resposta.
 
 16. Sob **Etapa 2 Selecione um Idioma** , clique no idioma que deseja usar para reconhecimento de fala e conversão de texto em fala.
@@ -89,25 +89,25 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para inserir uma mensagem de boas vindas como texto convertido para fala para os chamadores, clique em **Usar conversão de texto em fala** e digite a mensagem de boas vindas na caixa de texto.
         
-        > [!note]  
+        > [!NOTE]  
         > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo de áudio wave (.wav) ou (.wma) do Windows Media para a mensagem de boas vindas, clique em **Selecionar uma gravação** . Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação** . Na janela do navegador, clique em **Procurar** , selecione o arquivo de áudio que deseja usar e clique em **Abrir** . Clique em **Carregar** para carregar o arquivo de áudio.
         
-        > [!note]  
+        > [!NOTE]  
         > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 18. Sob **Etapa 4 Especifique seu Horário Comercial** , em **Seu fuso horário** , clique no fuso horário para o fluxo de trabalho.
     
-    > [!note]  
+    > [!NOTE]  
     > O fuso horário é onde os chamadores e operadores do fluxo de trabalho residem. Ele é usado para calcular os horários de abertura e encerramento. Por exemplo, se o fluxo de trabalho está configurado para usar o fuso horário da costa leste norte-americana e o fluxo de trabalho estiver agendado para abrir às 7:00 A.M e fechar às 11:00 P.M., os horários de abertura e fechamento são assumidos como sendo 7:00 horário da costa leste e 23:00 horário da costa leste, respectivamente (você deve inserir os horários na notação de 24 horas).
 
 19. Selecione o tipo de agenda de horário comercial que deseja usar executando um dos seguintes procedimentos:
     
       - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
         
-        > [!note]  
+        > [!NOTE]  
         > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Defina agendas predefinidas usando o cmdlet <strong>New-CSRgsHoursOfBusiness</strong>. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013</a>.        
-        > [!note]  
+        > [!NOTE]  
         > Ao selecionar uma agenda predefinida, <strong>Dia</strong> , <strong>Abertura</strong> e <strong>Fechamento</strong> são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.    
       - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada** .
 
@@ -115,18 +115,18 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 21. Se estiver criando uma agenda personalizada, digite as horas de **Abertura** e **Fechamento** para cada dia da semana em que o grupo de resposta estará disponível.
     
-    > [!note]  
+    > [!NOTE]  
     > As horas de <strong>Abertura</strong> e <strong>Fechamento</strong> devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como <strong>Abertura</strong> 9:00, <strong>Fechamento</strong> 12:00, <strong>Abertura</strong> 13:00 e <strong>Fechamento</strong> 17:00.
 
 22. Se você desejar reproduzir uma mensagem quando o escritório não estiver aberto, selecione a opção **Reproduzir uma mensagem quando o grupo de resposta estiver fora do horário comercial** e especifique a mensagem a ser reproduzida executando um dos seguintes procedimentos:
     
       - Para inserir as mensagem como um texto a ser convertido para fala para o chamador, clique em **Usar conversão de texto para fala** e digite a mensagem na caixa de texto.
         
-        > [!note]  
+        > [!NOTE]  
         > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo de áudio para a mensagem, clique em **Selecionar uma gravação** . Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação** . Na nova janela do navegador, clique em **Procurar** , selecione o arquivo que deseja usar e clique em **Abrir** . Clique em **Carregar** para carregar o arquivo de áudio.
         
-        > [!note]  
+        > [!NOTE]  
         > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivos de áudio com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 23. Especifique como tratar chamadas após a reprodução da mensagem (se uma mensagem estiver configurada):
@@ -141,18 +141,18 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 24. Sob **Etapa 5 Especifique seus Feriados** , clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
     
-    > [!note]  
+    > [!NOTE]  
     > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets <strong>New-CsRgsHoliday</strong> e <strong>New-CsRgsHolidaySet</strong> para definir feriados e conjuntos de feriados. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013</a>.
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
     
       - Para inserir as mensagem como um texto a ser convertido para fala para o chamador, clique em **Usar conversão de texto para fala** e digite a mensagem na caixa de texto.
         
-        > [!note]  
+        > [!NOTE]  
         > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo de áudio para a mensagem, clique em **Selecionar uma gravação** . Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação** . Na nova janela do navegador, clique em **Procurar** , selecione o arquivo que deseja usar e clique em **Abrir** . Clique em **Carregar** para carregar o arquivo de áudio.
         
-        > [!note]  
+        > [!NOTE]  
         > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivos de áudio com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 26. Especifique como tratar chamadas após a reprodução da mensagem (se uma mensagem estiver configurada):
@@ -173,7 +173,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para usar uma gravação de arquivo de áudio para a música de espera, clique em **Selecionar um arquivo de música** . Se você deseja carregar um novo arquivo de áudio, clique no link **um arquivo de música** . Na nova janela do navegador, clique em **Procurar** , selecione o arquivo que deseja usar e clique em **Abrir** . Clique em **Carregar** para carregar o arquivo de áudio.
         
-        > [!note]  
+        > [!NOTE]  
         > Todos os arquivos de áudio fornecidos pelo usuário devem atender determinados requisitos. Para detalhes sobre formatos de arquivos de áudio com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 29. Clique em **Implantar** .
@@ -192,7 +192,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     
-    > [!note]  
+    > [!NOTE]  
     > Para usar um arquivo de áudio no prompt, use o cmdlet <strong>Import-CsRgsAudioFile</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 4.  Obtenha a identidade da fila ou pergunta onde as chamadas serão direcionadas. Na linha de comando, execute:
@@ -205,7 +205,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
         $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
     
-    > [!note]  
+    > [!NOTE]  
     > Para fluxos de trabalho do grupo de busca, a ação padrão deve direcionar a chamada para uma fila. Este parâmetro é necessário para fluxos de trabalho ativos. Não é necessário para fluxos de trabalho inativos.    
     Por exemplo:
     
@@ -227,9 +227,9 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Todos os usuários que são gerentes para fluxos de trabalho devem ser atribuídos à função CsResponseGroupManager.    
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre parâmetros opcionais adicionais, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a> ou <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a>
 
 ## Consulte Também

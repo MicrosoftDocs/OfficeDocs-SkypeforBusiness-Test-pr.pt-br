@@ -79,7 +79,7 @@ Localize seu estado de presença personalizado especificando um ou mais esquema 
 
 Para obter detalhes, consulte [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) e [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) na documentação Shell de Gerenciamento do Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > 
 > <li><p>Por padrão, o Lync Server 2013 atualiza políticas e configurações de cliente a cada três horas.</p></li>

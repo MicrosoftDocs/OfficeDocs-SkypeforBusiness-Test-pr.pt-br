@@ -45,7 +45,7 @@ Use um destes procedimentos para excluir um intervalo de órbitas do Estacioname
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Consulte Também

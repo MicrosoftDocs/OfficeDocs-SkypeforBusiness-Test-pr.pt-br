@@ -39,7 +39,7 @@ Além disso, você precisa publicar as URLs simples. Caso a organização possua
 
 Você pode usar o Microsoft Forefront Threat Management Gateway 2010, o Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1 ou o Internet Information Server 7.0, 7.5 ou 8.0 com o Application Request Routing (IIS ARR) como um proxy reverso. As etapas detalhadas nesta seção descrevem como configurar o Forefront Threat Management Gateway (TMG) 2010 e as etapas para configurar o ISA Server 2006 são quase idênticas. Há orientações também para o IIS ARR. Se você estiver usando outro proxy reverso, consulte a documentação do produto e mapeie os requisitos definidos aqui para os recursos associados em outros proxies reversos.
 
-> [!important]  
+> [!IMPORTANT]  
 > O Internet Information Server Application Request Routing (IIS ARR) é uma opção totalmente testada e compatível para a implementação de um proxy reverso para o Lync Server 2010 e o Lync Server 2013. Em novembro de 2012, a Microsoft encerrou a venda de licenças do ForeFront Threat Management Gateway 2010 (TMG). O TMG ainda conta com suporte completo e está disponível para venda em dispositivos vendidos por terceiros. Além disso, muitos balanceadores de carga de hardware e firewalls de terceiros oferecem suporte a proxy reverso. Para saber quais balanceadores de carga de hardware e firewalls oferecem recursos de proxy reverso, consulte seu fornecedor para obter instruções específicas sobre como configurar seus produtos para ter suporte ao proxy reverso para o Lync Server. Você também pode ver outros fabricantes que enviaram documentações de seus produtos à Microsoft. A responsabilidade pelo suporte é do fabricante de cada solução. Para ver outros fabricantes que são ativos no fornecimento de soluções, consulte <a href="http://go.microsoft.com/fwlink/?linkid=268730">Infra-estruturar qualificada para o Microsoft Lync</a>268730
 
 Os tópicos e procedimentos a seguir usam o Forefront Threat Management Gateway 2010 e o IIS ARR como base para os procedimentos de implantação e configuração.
@@ -78,5 +78,5 @@ Para implementar com sucesso o IIS ARR como seu proxy reverso, leia os tópicos 
 
    Para instalar o ARR, siga as instruções em [Instalar o Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
-    > [!note]  
+    > [!NOTE]  
     > As instruções publicadas atualmente aplicam-se ao ARR 2.0. Para instalar a extensão, não há diferença entre as duas versões.

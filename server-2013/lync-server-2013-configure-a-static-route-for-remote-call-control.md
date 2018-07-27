@@ -44,7 +44,7 @@ O controle de chamada remota exige que cada pool do Lync Server seja configurado
     
       - Para uma conexão TCP (Transmission Control Protocol), digite o seguinte no prompt de comando:
         
-        > [!note]  
+        > [!NOTE]  
         > Se especificar um nome de domínio totalmente qualificado (FQDN), você deve configurar um registro A de DNS primeiro.        
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         

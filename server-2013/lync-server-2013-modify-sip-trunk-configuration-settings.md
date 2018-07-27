@@ -140,8 +140,8 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 </table>
 
 
-> [!note]  
-> Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</a> cmdlet.
+> [!NOTE]  
+> Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> cmdlet.
 
 ## Modificar as Configurações do Tronco SIP Usando Painel de Controle do Lync Server
 

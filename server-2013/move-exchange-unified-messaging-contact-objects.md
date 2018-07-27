@@ -21,7 +21,7 @@ Para migrar os objetos de contato do AA (Atendedor Automático) ou SA (Acesso de
 
   - Adicioná-lo aos grupos de busca de unificação de mensagens
 
-> [!note]  
+> [!NOTE]  
 > Para usar os cmdlets <strong>Get-CsExUmContact</strong> e <strong>Move-CsExUmContact</strong>, é preciso ser membro do grupo RTCUniversalUserAdmins e ter permissão de OU (unidade organizacional) para a OU em que os objetos de contato estão armazenados. A permissão de OU pode ser concedida usando o cmdlet <strong>Grant-OUPermission</strong>.
 
 ## Para mover objetos de contato usando o Shell de Gerenciamento do Lync Server
@@ -54,5 +54,5 @@ Para migrar os objetos de contato do AA (Atendedor Automático) ou SA (Acesso de
     
     onde *FQDN da floresta* especifica a floresta na qual o Lync Server 2013 está implantado.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Certifique-se de reiniciar o serviço de <strong>Front-End do Lync Server</strong> (rtcsrv.exe) <em>depois</em> de executar exchucutil.ps1. Caso contrário, o Lync Server 2013 não detectará a unificação de mensagens.

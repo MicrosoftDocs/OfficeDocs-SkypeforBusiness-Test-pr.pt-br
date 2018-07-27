@@ -23,7 +23,7 @@ O Lync Server 2013 introduz os seguintes novos recursos de vídeo:
 
   - **Vídeo H.264**   O codec de vídeo H.264 é agora o padrão para codificação de vídeo em clientes do Lync 2013. O vídeo H.264 suporta uma variedade maior de resoluções e taxas de quadro e melhora a escalabilidade de vídeo.
     
-    > [!note]  
+    > [!NOTE]  
     > O Lync Server 2013 ainda suporta o codec VC1 para interoperabilidade com versões anteriores do Lync. Para obter detalhes e informações de histórico sobre o novo codec de vídeo, consulte o artigo do Blog do Jeff Schertz, &quot;Interoperabilidade de vídeo no Lync 2013&quot;, em <a href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/" class="uri">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</a>.
 
 Esta seção descreve como gerenciar a largura de banda para vídeo no Lync Server 2013 e como configurar recursos de vídeo.

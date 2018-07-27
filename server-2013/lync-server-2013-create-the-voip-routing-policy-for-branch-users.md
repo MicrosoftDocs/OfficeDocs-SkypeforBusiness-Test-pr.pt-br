@@ -27,7 +27,7 @@ _**Tópico modificado em:** 2012-09-23_
 
 4.  Defina uma rota de chamada de backup no gateway do Aparelho de Filial Persistente ou do Servidor de Filial Persistente para apontar para o pool do Registrador de backup (colocado com o Servidor de Mediação) no site central. (Consulte sua documentação de fornecedor do Aparelho de Filial Persistente ou do Servidor de Filial Persistente).
     
-    > [!note]  
+    > [!NOTE]  
     > A instalação da rota de chamada de backup ajuda a garantir que chamadas de entrada ao usuário de filial funcionarão quando o Aparelho de Filial Persistente ou o Servidor de Filial Persistente não estiver disponível (por exemplo, se estiver inoperante para manutenção). Se o Registrado e o Servidor de Mediação no Aparelho de Filial Persistente ou no Servidor de Filial Persistente não estão disponíveis, e se o usuário está registrado com o pool do Registrador de backup no site central, as chamadas de entrada ainda podem ser roteadas ao usuário.
 
 **Próxima etapa** : [Definir configurações de reroteamento de caixa postal no Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)

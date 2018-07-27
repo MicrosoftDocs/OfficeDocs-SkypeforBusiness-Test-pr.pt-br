@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 A tabela a seguir descreve o modelo de usuário de Recebimento de chamada de grupo que pode ser usado como base para requisitos de planejamento de capacidade.
 
-> [!important]  
+> [!IMPORTANT]  
 > O Recebimento de chamada de grupo baseia-se no Aplicativo de Estacionamento de Chamada. Tenha em mente que, para planejamento de capacidade de recuperação de desastres, cada pool do pool pareado deve poder lidar com cargas de trabalho para serviçso do Estacionamento de Chamada, incluindo o Recebimento de chamada de grupo, em ambos pools.
 
 ### Modelo de usuário de Recebimento de chamada de grupo
@@ -65,7 +65,7 @@ A tabela a seguir descreve o modelo de usuário de Recebimento de chamada de gru
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > 
 > <li><p>Para os Pools de Front-Ends que possuem menos que oito Servidores Front-End, calcule as métricas linearmente. Por exemplo, se o Pool de Front-Ends possuir um Servidor Front-End, calcule a carga máxima para 1/8 dos valores exibidos na tabela.</p></li>

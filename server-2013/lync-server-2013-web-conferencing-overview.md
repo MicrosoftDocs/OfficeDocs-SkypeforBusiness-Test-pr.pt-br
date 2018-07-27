@@ -29,7 +29,7 @@ O recurso de sondagem aprimora a colaboração ao permitir que os apresentadores
 
 Durante uma conferência, você pode compartilhar todo o desktop, um aplicativo individual ou monitores individuais em um ambiente de vários monitores. À parte de apenas visualizar o conteúdo, os outros participantes na conferência também podem solicitar controle da sua tela e, com permissão, interagir com o conteúdo (incluindo rolar e editar).
 
-> [!note]  
+> [!NOTE]  
 > Os participantes que estão visualizando a conferência podem assumir o controle e iniciar o compartilhamento de conteúdo durante a reunião.
 
 ## Compartilhamento do PowerPoint

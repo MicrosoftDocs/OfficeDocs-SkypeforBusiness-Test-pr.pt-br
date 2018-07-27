@@ -27,14 +27,14 @@ Se um servidor Standard Edition que não hospeda o Repositório de Gerenciamento
 
 1.  Comece com um servidor novo ou limpo que tenha o mesmo FQDN (nome de domínio totalmente qualificado) que o computador que falhou, instale o sistema operacional e restaure os certificados ou registre-os novamente.
     
-    > [!note]  
+    > [!NOTE]  
     > Siga os procedimentos de implantação de servidor de sua organização para executar essa etapa.
 
 2.  Em uma conta de usuário membro do grupo RTCUniversalServerAdmins e do grupo Administradores Locais, faça logon no servidor que você está restaurando.
 
 3.  Restaure o Repositório de Arquivos copiando o Repositório de Arquivos apropriado de $Backup para o local de Repositório de Arquivos no servidor e compartilhe a pasta.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O caminho e o nome de arquivo para o Repositório de Arquivos restaurado devem ser exatamente iguais ao Repositório de Arquivos armazenado em backup para que os componentes que usam os arquivos possam acessá-los.
 
 4.  Execute Construtor de Topologias:

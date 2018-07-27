@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-11-13_
 
 Comunicações de áudio/vídeo (A/V) é um principal componente do Microsoft Lync Server 2013. Recursos como compartilhamento de aplicativos e conferência de áudio e vídeo dependem dos certificados atribuídos ao Serviço de Borda A/V, especificamente o serviço de Autenticação A/V.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ol>
 > 
 > <li><p>Este novo recurso é projetado para funcionar com o Serviço de Borda A/V e o certificado <em>OAuthTokenIssuer</em>. Outros tipos de certificados podem ser provisionados junto com o Serviço de Borda A/V e o tipo de certificado OAuth, mas não serão beneficiados com o comportamento de coexistência que o certificado do Serviço de Borda A/V será.</p></li>
@@ -56,7 +56,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
 
 4.  Configurar o certificado importado com o cmdlet Set-CsCertificate e usar o parâmetro –Roll com o parâmetro –EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 2:00:00 PM) menos o tempo de vida do token (por padrão, oito horas). Isto nos fornece um tempo que o certificado deve ser definido para ativo e é o –EffectiveDate \<string\>: “22/7/2012 6:00:00 AM”.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Para um Pool de borda, você deve ter todos os certificados AudioVideoAuthentication implantados e provisionados pela data e hora definida pelo parâmetro –EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções das comunicações A/V devido ao vencimento do certificado mais antigo antes que todos os tokens dos clientes e consumidores sejam renovados usando o novo certificado.    
     O comando Set-CsCertificate com o parâmetro –Roll e –EffectiveTime:
     
@@ -66,7 +66,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A EffectiveDate deve ser formatada para corresponder às configurações de idioma e região do seu servidor. O exemplo usa as configurações de Idioma e Região Inglês dos EUA
 
 Para compreender ainda mais o processo que o Set-CsCertificate, -Roll e –EffectiveDate usam para dividir um novo certificado para emissão de novos tokens AudioVideoAuthentication enquanto ainda usa um certificado existente para validar o AudioVideoAuthentication que está em uso por consumidores, um prazo visual é um meio eficaz de compreender o processo.
@@ -97,7 +97,7 @@ Quando a hora efetiva é atingida (22/7/2012 6:00:00 AM), todos os novos tokens 
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O EffectiveDate deve ser formatado para corresponder às configurações de idioma e região do seu servidor. O exemplo usa as configurações de Idioma e Região Inglês dos EUA
 
 Quando a hora efetiva é atingida (21/7/2012 1:00:00 AM), todos os novos tokens são emitidos pelo novo certificado. Ao validar tokens, os tokens serão validados primeiro no novo certificado. Se a validação falhar, o certificado antigo é testado. O processo de teste do novo certificado e retorno ao certificado antigo continuará até o tempo de expiração do certificado antigo. Quando o certificado antigo vencer (22/7/2012 14:00:00 PM), os tokens serão validados apenas pelo novo certificado. O certificado antigo pode ser removido com segurança usando o cmdlet Remove-CsCertificate com o parâmetro –Previous.

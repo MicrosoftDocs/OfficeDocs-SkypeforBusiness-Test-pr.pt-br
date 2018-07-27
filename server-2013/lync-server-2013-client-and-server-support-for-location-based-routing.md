@@ -141,7 +141,7 @@ A tabela a seguir identifica os clientes com suporte do Roteamento com Base no L
 
   
 
-> [!note]  
+> [!NOTE]  
 > Para desativar o VoIP para os clientes do Lync Mobile 2013, atribua uma política de mobilidade com a configuração Áudio/Vídeo IP desabilitada para todos os usuários habilitados para o Roteamento com Base no Local. Para maiores detalhes sobre a política de mobilidade, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.
 
 ## Consulte Também

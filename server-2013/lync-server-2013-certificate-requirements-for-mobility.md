@@ -27,7 +27,7 @@ Se você implantar o recurso de mobilidade e suportar a descoberta automática p
 
 Esta seção descreve as entradas de nome de entidade alternativo necessárias em seus certificados para descoberta automática.
 
-> [!note]  
+> [!NOTE]  
 > A reemissão de certificados usando uma autoridade de certificação interna é normalmente um processo simples, mas a adição de múltiplas entradas de nome de entidade alternativo aos certificados públicos usados pelo proxy reverso pode ser cara. Se você tiver muitos domínios SIP, tornando a adição de nomes de entidade alternativos muito cara, será possível configurar o proxy reverso para usar HTTP para a solicitação do Serviço de Descoberta Automática, em vez de usar HTTPS (a configuração padrão). Para obter detalhes, consulte <a href="lync-server-2013-technical-requirements-for-mobility.md">Requisitos técnicos para mobilidade no Lync Server 2013</a>.
 
 ### Requisitos de certificado do Pool de Diretores
@@ -56,7 +56,7 @@ Esta seção descreve as entradas de nome de entidade alternativo necessárias e
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Como alternativa, é possível usar SAN=*.&lt;sipdomain&gt;
 
 ### Requisitos de certificado do pool Front-End
@@ -85,7 +85,7 @@ Esta seção descreve as entradas de nome de entidade alternativo necessárias e
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Como alternativa, é possível usar SAN=*.&lt;sipdomain&gt;
 
 ### Requisitos de certificado de proxy reverso (CA pública)
@@ -110,8 +110,8 @@ Esta seção descreve as entradas de nome de entidade alternativo necessárias e
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Atribua esse SAN ao certificado atribuído ao Ouvinte de SSL no proxy reverso.
 
-> [!note]  
+> [!NOTE]  
 > Seu ouvinte de proxy reverso terá nomes alternativos de entidade para seu(s) URL(s) de serviços Web externos (por exemplo, SAN=lyncwebextpool01.contoso.com e dirwebexternal.contoso.com se tiver implantado o Diretor opcional).

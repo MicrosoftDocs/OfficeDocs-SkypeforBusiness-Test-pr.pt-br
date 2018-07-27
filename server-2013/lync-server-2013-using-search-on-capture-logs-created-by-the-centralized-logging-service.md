@@ -47,7 +47,7 @@ O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar 
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
-    > [!note]  
+    > [!NOTE]  
     > Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você deseja salvar os resultados da pesquisa em um arquivo, use –OutputFilePath <em>&lt;caminho do arquivo totalmente qualificado da sequência&gt;</em>. Para definir o parâmetro –OutputFilePath, ofereça um caminho e um nome de arquivo como parte do parâmetro em um formato de sequência entre aspas (por exemplo; C:\LogFiles\SearchOutput.txt). Neste exemplo, você deve garantir que o diretório C:\LogFiles exista e que você possui permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado e não é substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa.    
     Por exemplo:
     
@@ -89,7 +89,7 @@ O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar 
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
-    > [!note]  
+    > [!NOTE]  
     > A sequência data e hora que você especificar pode ser “data hora” ou “hora data”. O comando analisará a sequência e usará os valores adequados para data e hora.
 
 3.  Se você deseja recuperar os logs começando às 11:00 horas em 20/11/2012, você define –StartTime. O intervalo de hora padrão para a pesquisa é de 30 minutos, a não ser que você defina um –EndTime específico. A pesquisa resultante retornará logs do computador ou pools definidos de 11:00 horas a 11:30 horas.

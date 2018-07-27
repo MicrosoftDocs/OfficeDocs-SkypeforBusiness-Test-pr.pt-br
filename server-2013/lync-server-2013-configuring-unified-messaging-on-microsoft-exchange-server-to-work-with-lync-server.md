@@ -15,14 +15,14 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2016-12-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Se você quer usar a Unificação de Mensagens (UM) do Exchange para fornecer atendimento de chamadas, Outlook Voice Access ou serviços de atendedor automático para usuários do Enterprise Voice, leia as informações em <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planejamento para integração de Unificação de Mensagens do Exchange no Lync Server 2013</a> na documentação do Planejamento e siga as instruções desta seção.
 
 Para configurar o Unificação de Mensagens (UM) do Exchange a fim de funcionar com o Enterprise Voice, será necessário executar as seguintes tarefas:
 
   - Configurar certificados no servidor que executa os serviços do Unificação de Mensagens (UM) do Exchange
     
-    > [!note]  
+    > [!NOTE]  
     > Adicionar todos os servidores de Acesso ao cliente e de Caixa postal a todos os planos de discagem UM SIP URI. Caso contrário, o roteamento de chamada de saída não funcionará conforme o esperado.
 
   - Criar um ou mais planos de discagem SIP URI da UM, juntamente com seus número de telefone de acesso do assinante, conforme necessário, e criar planos de discagem de Lync Server correspondentes
@@ -53,7 +53,7 @@ Também observe o seguinte:
 
   - As etapas de integração são realizadas em ambas as funções do Exchange Server nas quais os serviços de Unificação de Mensagens estão em execução e no servidor que executa o Lync Server 2013, sendo que as primeiras devem ser realizadas antes das etapas de integração do Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Para visualizar quais etapas de integração são realizadas, em quais servidores e por quais funções de administrador, consulte <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Processo de implantação para integração de Unificação de Mensagens local com Lync Server 2013</a>.
 
 As ferramentas a seguir devem estar disponíveis em cada servidor que execute o UM do Exchange:

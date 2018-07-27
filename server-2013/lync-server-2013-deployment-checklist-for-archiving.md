@@ -27,7 +27,7 @@ O modo de configuração do Arquivamento depende da opção de armazenamento esc
 
 Se você habilitar o arquivamento em um pool de Front-Ends ou em um servidor Standard Edition, você deve habilitá-lo em todos os pools e servidores de mesmo tipo na sua implantação. Isso porque os usuários cujas comunicações precisam ser arquivadas podem ser convidados a um grupo de conversação de IM ou a reuniões hospedadas em um pool diferente. Se o arquivamento não estiver habilitado no pool no qual a conversa ou a reunião está hospedada, a sessão completa não poderá ser arquivada. Nesses casos, as IMs com usuários habilitados para arquivamento ainda poderão ser arquivados, menos para arquivos de conteúdo de conferência e eventos de ingresso ou saída de conferências.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se o arquivamento for crucial na sua organização por questões de conformidade, certifique-se de implantar o Arquivamento, configurar políticas e outras opções no nível apropriado e habilitá-las para todos os usuários apropriados antes de habilitar esses usuários ao Lync Server 2013.
 
 ## Processo de implantação do Arquivamento
@@ -55,7 +55,7 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <td><p><strong>Instalar os pré-requisitos de hardware e software</strong></p></td>
 <td><ul><li><p>Para usar a integração do Microsoft Exchange (usando o Exchange 2013 para armazenamento de arquivamento para alguns ou todos os usuários), você precisa de uma implantação do Exchange 2013 existente.</p></li><li><p>Para usar bancos de dados de Arquivamento separados (usando bancos de dados do SQL Server) para armazenamento de arquivamento para alguns ou todos os usuários, SQL Server no servidor que armazenará os dados de arquivamento.</p></li></ul>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > O Arquivamento é executado nos servidores front-end de um pool Enterprise e servidores Standard Edition. Não há requisitos adicionais de hardware e software além daqueles para instalar esses servidores.
 </div></td>
 <td><p>Usuário do domínio que é membro do grupo local de administradores.</p></td>

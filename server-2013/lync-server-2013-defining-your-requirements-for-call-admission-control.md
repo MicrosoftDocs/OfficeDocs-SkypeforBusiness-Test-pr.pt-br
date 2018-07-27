@@ -25,7 +25,7 @@ O planejamento do CAC (serviço de controle de admissão de chamadas) requer inf
 
 4.  Determine os limites de largura de banda para cada link WAN.
     
-    > [!note]  
+    > [!NOTE]  
     > Os limites de largura de banda indicam a quantidade de largura de banda em um link WAN que é alocado para o Enterprise Voice e o tráfego de áudio e vídeo. Quando um link WAN é descrito como &quot;largura de banda restrita&quot;, o link WAN tem um limite de largura de banda menor do que os picos de tráfego esperados pelo link.
 
 5.  Identifique as subredes de IP que são atribuídas a cada site de rede.
@@ -36,7 +36,7 @@ Para explicar esses conceitos, usaremos a topologia de rede de exemplo mostrada 
 
 ![Exemplo da topologia de rede do Litware Inc.](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Exemplo da topologia de rede do Litware Inc.")
 
-> [!note]  
+> [!NOTE]  
 > Todos os sites de rede estão associados a uma região de rede. Por exemplo, Portland, Reno e Albuquerque estão incluídos na região da América do Norte. Nessa figura, são mostrados apenas links WAN que têm políticas de CAC aplicadas, com limites de largura de banda. Os sites de rede de Chicago, Nova York e Detroit são mostrados dentro da região oval da América do Norte, porque eles não estão com restrições largura de banda e não exigem políticas de CAC.
 
 Os componentes da topologia neste exemplo são explicados nas seções a seguir. Para obter detalhes sobre como essa topologia foi planejada, incluindo os limites de largura de banda, consulte [Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
@@ -53,7 +53,7 @@ Nossa topologia de exemplo tem três regiões de rede: América do Norte, EMEA e
 
 O CAC exige que um site central do Lync Server seja definido para cada região de rede. O site central é selecionado com a melhor conectividade de rede e maior largura de banda para todos os outros sites nessa região de rede. O exemplo anterior da topologia de rede mostra três regiões de rede, cada uma com um site central que gerencia decisões do CAC. A partir do exemplo anterior, a associação apropriada é exibida na tabela a seguir.
 
-> [!note]  
+> [!NOTE]  
 > Os sites centrais não correspondem necessariamente aos sites de rede. Nos exemplos nesta documentação, alguns sites centrais (Chicago, Londres e Pequim) compartilham os mesmos nomes que os sites de rede. Entretanto, mesmo se um site central e um site local compartilharem o mesmo nome, o site central será um elemento da topologia de Lync Server, enquanto o site local será parte da rede geral na qual a topologia de Lync Server reside.
 
 ### Regiões de rede, sites centrais e sites de rede
@@ -128,10 +128,10 @@ As políticas de largura de banda do CAC podem definir o seguinte:
 
   - Largura de banda máxima alocada para uma única chamada de vídeo (sessão).
 
-> [!note]  
+> [!NOTE]  
 > Todos os valores de largura de banda do CAC representam os limites máximos de largura de banda <em>unidirecional</em> .
 
-> [!note]  
+> [!NOTE]  
 > Os recursos de Política de Voz do Lync Server 2013 fornecem a capacidade de substituir as verificações de política de largura de banda nas chamadas de entrada para o usuário (não nas chamadas de saída que são inseridas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte <a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a> ou <a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a> na Documentação de implantação.
 
 Para otimizar a utilização de largura de banda com base por sessão, considere o tipo de codec de áudio e vídeo que será usado. Mais especificamente, evite alocar menos largura de banda para um codec que você espera que seja usado com frequência. Por outro lado, se você deseja impedir que a mídia use um codec que exija mais largura de banda, deverá definir a largura de banda máxima por sessão menor o suficiente para desencorajar tal uso. Para o áudio, nem todos os codecs estão disponíveis para cada cenário. Por exemplo:
@@ -199,7 +199,7 @@ Use a tabela a seguir para ajudar a otimizar as configurações de largura de ba
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Os requisitos de largura de banda consideram a sobrecarga de conta para o seguinte: Ethernet II, IP, protocolo de datagrama de usuário (UDP), RTP (protocolo de transporte em tempo real) e SRTP (protoco de controle de transporte em tempo real). Eles também incluem 10 kbps para sobrecarga RTCP.
 
 Os codecs G.722.1 e Siren são semelhantes, mas oferecem diferentes taxas de bits.

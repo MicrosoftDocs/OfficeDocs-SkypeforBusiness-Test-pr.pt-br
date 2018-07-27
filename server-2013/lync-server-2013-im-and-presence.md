@@ -27,7 +27,7 @@ Com a integração entre o Lync Server e outros produtos, como o Outlook e o Sha
 
 Com as mensagens instantâneas no Lync Server, os usuários podem enviar mensagens rapidamente para outros com informações imediatas. Se você preferir, os usuários também poderão se comunicar com usuários de redes públicas de mensagens instantâneas, como MSN/Windows Live, Yahoo\! e AOL. Observe que uma licença separada pode ser necessária para a conectividade de serviços públicos de IM com Windows Live, AOL e Yahoo\!. O Lync Server também inclui compatibilidade com o protocolo XMPP, para que seus usuários possam trocar mensagens instantâneas e informações de presença com usuários de serviços XMPP como o Google Talk.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 

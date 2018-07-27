@@ -90,7 +90,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 23. Para configurar o DNS para a federação XMPP, adicione o seguinte registro SRV ao DNS externo:\_xmpp-server.\_tcp.\<nome de domínio\> O registro SRV será resolvido no FQDN (nome de domínio totalmente qualificado) de borda de acesso do servidor de borda com o valor de porta 5269. Além disso, configure um registro de host "A" (por exemplo, xmpp.contoso.com) que aponte para o endereço IP do servidor de borda de acesso.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se você tiver pools de borda em vários sites, é recomendável que adicione vários registros SRV para federação XMPP. Adicione um registro SRV para cada pool de borda de sua organização e atribua a cada um desses registros SRV uma prioridade diferente. Quando todos os pools de borda estiverem em execução, as solicitações XMPP serão todas manipuladas pelo pool de borda com a maior prioridade, mas, se esse pool de borda ficar inoperante, você não precisará adicionar um novo registro SRV para recuperar a funcionalidade de federação XMPP.
 
 24. Configure uma nova política de acesso externo para habilitar todos os usuários abrindo o Shell de Gerenciamento do Lync Server no front-end e digitando:

@@ -27,7 +27,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 4.  Na página **Rota de Região**, clique na rota de região que deseja exibir.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível ver apenas uma rota de região por vez.
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.

@@ -27,14 +27,14 @@ Veja a seguir os requisitos para o certificado público usado para interfaces ex
 
   - O nome do assunto do certificado é o FQDN da interface externa do Serviço de Borda de Acesso ou o VIP do balanceador de carga de hardware (por exemplo, access.contoso.com).
     
-    > [!note]  
+    > [!NOTE]  
     > Para o Lync Server 2013, isso não é mais um requisito, mas ainda é recomendado para compatibilidade com o Office Communications Server.
 
   - A lista de nomes de entidade alternativos contém os FQDNs do seguinte:
     
       - A interface externa do Serviço de Borda de Acesso ou o VIP do balanceador de carga de hardware (por exemplo, sip.contoso.com).
         
-        > [!note]  
+        > [!NOTE]  
         > Embora o nome de entidade do certificado seja igual ao FQDN da Borda de acesso, o nome de entidade alternativo também precisa conter o FQDN da Borda de acesso, pois a TLS ignora o nome de entidade e usa as entradas de nome de entidade alternativo para validação.    
       - Da interface externa da Borda de webconferência ou VIP do balanceador de carga de hardware (por exemplo, webcon.contoso.com).
     
@@ -42,7 +42,7 @@ Veja a seguir os requisitos para o certificado público usado para interfaces ex
     
       - O Serviço de Borda A/V não usa o nome do assunto ou as entradas de nomes alternativos do assunto.
     
-    > [!note]  
+    > [!NOTE]  
     > A ordem dos FQDNs na lista de nomes de entidade alternativos não importa.
 
 Se você estiver implantando múltiplos Servidores de Borda com carga balanceada em um site, o certificado do serviço de autenticação A/V instalado em cada Servidor de Borda deverá ser da mesma CA e deverá usar a mesma chave privada. Observe que a chave privada do certificado precisa ser exportável, independentemente se for usada em um Servidor de Borda ou em muitos Servidores de Borda. Também deve ser exportável se você solicitar o certificado de qualquer computador além do Servidor de Borda. Como o serviço de autenticação A/V não usa o nome de entidade ou o nome alternativo de entidade, é possível reutilizar o certificado de Borda de acesso contanto que os requisitos de nome de entidade e de nome de entidade alternativo sejam atendidos para a Borda de acesso e para a Borda de webconferência e a chave privada do certificado seja exportável.

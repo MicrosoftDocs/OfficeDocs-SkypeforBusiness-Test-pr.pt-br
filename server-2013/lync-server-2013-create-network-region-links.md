@@ -61,7 +61,7 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
 
 8.  Opcionalmente, clique em **Política da largura de banda** e selecione o perfil da política de largura de banda que deseja aplicar para o link de região de rede.
     
-    > [!note]  
+    > [!NOTE]  
     > Aplique uma política de largura de banda apenas se o link de região de rede é restrito por largura de banda e se deseja usar o CAC para controlar o tráfego de mídia naquele link.
 
 9.  Clique em **Confirmar**.

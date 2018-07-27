@@ -46,5 +46,5 @@ Se for necessário remover a autenticação Kerberos de um site ou desativar um 
     ```    
         Enable-CsTopology
     ```    
-    > [!important]  
+    > [!IMPORTANT]  
     > Depois de aplicar quaisquer alterações para a autenticação Kerberos, como adicionar ou remover uma conta, você deve executar o <strong>Enable-CsTopology</strong> a partir do prompt de comando do Shell de Gerenciamento do Lync Server.

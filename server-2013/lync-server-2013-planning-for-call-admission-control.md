@@ -21,7 +21,7 @@ O CAC determinar se há largura de banda suficiente para estabelecer uma sessão
 
 Esta seção descreve a funcionalidade de controle de admissão de chamada e explica como planejar CAC.
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server possui três recursos Enterprise Voice avançados: controle de admissão de chamadas (CAC), serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral da informação de planejamento que é comum a todos os três recursos, consulte <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configurações de rede para recursos avançados do Enterprise Voice no Lync Server 2013</a>.
 
 ## Nesta seção

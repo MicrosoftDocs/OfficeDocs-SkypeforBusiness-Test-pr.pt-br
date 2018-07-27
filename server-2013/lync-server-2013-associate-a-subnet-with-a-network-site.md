@@ -17,10 +17,10 @@ _**Tópico modificado em:** 2014-10-20_
 
 Todas as sub-redes da sua rede devem ser associadas a um local de rede específico, pois as informações da sub-rede são usadas para determinar o local de rede em que um ponto de extremidade se encontra quando uma nova sessão é iniciada. Quando a localização de cada parte for conhecida, os recursos avançados do Enterprise Voice poderão aplicar essas informações para determinar como manipular a configuração ou o encaminhamento da chamada.
 
-> [!important]  
+> [!IMPORTANT]  
 > Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/Vídeo em sua implantação devem ser adicionados às suas definições de configuração de rede. Estes endereços IP são adicionados como sub-redes com uma máscara de 32. O site de rede associado deve corresponder ao site de rede configurado adequado. Por exemplo, o endereço IP público que corresponde ao Servidor de Borda de A/V no site central Chicago seria o NetworkSiteID de Chicago. Para detalhes sobre endereços IP públicos, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar firewall A/V externo e requisitos de porta para Lync Server 2013</a> na documentação de Planejamento.
 
-> [!note]  
+> [!NOTE]  
 > Um alerta Key Health Indicator (KHI) é disparado, especificando uma lista de endereços IP presentes em sua rede mas que não estão associados a uma sub-rede ou à sub-rede que inclui os endereços IP não está associada a um site de rede. Este alerta não será disparado mais de uma vez dentro de um período de 8 horas. A informação de alerta relevante e um exemplo são como segue:<br /><strong>Origem:</strong> Serviço de Política de Largura de Banda CS (Núcleo)<br /><strong>Número do evento :</strong> 36034<br /><strong>Nível :</strong> 2<br /><strong>Descrição :</strong> as sub-redes para os seguintes endereços IP: &lt;Lista de Endereços IP&gt; não estão configuradas ou as sub-redes não estão associadas a um Site da Rede.<br /><strong>Causa:</strong> as sub-redes para os endereços IP correspondentes estão ausentes nas definições de configuração da rede ou as sub-redes não estão associadas a um site da rede.<br /><strong>Solução :</strong> adicione sub-redes correspondentes à lista de endereços IP nas definições de configuração da rede e associe todas as sub-redes a um site da rede.<br />Por exemplo, se a lista de endereços IP no alerta especificar 10.121.248.226 e 10.121.249.20, ou estes endereços IP não estão associados a uma sub-rede ou a sub-rede à qual estão associados não pertence a um site da rede. Se 10.121.248.0/24 e 10.121.249.0/24 forem as sub-redes correspondentes para estes endereços, você pode resolver o problema da seguinte forma:<ol>
 > 
 > <li><p>Certifique-se de que o endereço IP 10.121.248.226 está associado à sub-rede 10.121.248.0/24 e que o endereço IP 10.121.249.20 está associado à sub-rede 10.121.249.0/24.</p></li>
@@ -97,7 +97,7 @@ Para detalhes sobre como trabalhar com sub-redes da rede, consulte a documentaç
 
 7.  Clique em **ID do site da rede** e selecione o ID do site para o qual está adicionando esta sub-rede.
     
-    > [!note]  
+    > [!NOTE]  
     > Se sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>. Você também pode configurar IDs de site para a sua implantação executando o cmdlet <strong>Get-CsNetworkSite</strong>. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 8.  Opcionalmente, clique em **Descrição** e digite informações adicionais para descrever esta sub-rede.

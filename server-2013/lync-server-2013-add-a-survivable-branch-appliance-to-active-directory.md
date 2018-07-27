@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-23_
 
 Se você planejar implantar um Aparelho de Filial Persistente, adicione o Aparelho de Filial Persistente aos Serviços de Domínio Active Directory. Execute este procedimento no local central.
 
-> [!important]  
+> [!IMPORTANT]  
 > Execute este procedimento somente se você estiver implantando um Aparelho de Filial Persistente. Não o execute se estiver implantando um Servidor de Filial Persistente.
 
 ## Para adicionar um Aparelho de Filial Persistente aos Serviços de Domínio do Active Directory
@@ -32,7 +32,7 @@ Se você planejar implantar um Aparelho de Filial Persistente, adicione o Aparel
 
 5.  Na caixa de diálogo **Selecionar Usuário ou Grupo**, adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.
 
 6.  Clique em **OK** para salvar o objeto de computador Aparelho de Filial Persistente.

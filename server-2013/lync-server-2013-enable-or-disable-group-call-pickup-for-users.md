@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-22_
 
 Quando um intervalo de recebimento de chamadas de grupo é adicionado à tabela da órbita de estacionamento de chamadas, você pode ativar e desativar o recebimento de chamadas de grupo para o usuário, se necessário. Esta seção descreve como usar a ferramenta do Kit de recursos do SEFAUtil para ativar e desativar o recebimento de chamadas de grupo para os usuários.
 
-> [!note]  
+> [!NOTE]  
 > O parâmetro SEFAUtil, /enablegrouppickup, ativa o recebimento de chamadas de grupo e atribui o número de grupo.
 
 ## Nesta seção

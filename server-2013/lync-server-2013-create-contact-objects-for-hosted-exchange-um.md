@@ -25,7 +25,7 @@ Para detalhes sobre como configurar objetos de contato, consulte a documentaçã
 
   - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-> [!important]  
+> [!IMPORTANT]  
 > Antes que objetos de contato do Lync Server 2013 possam ser habilitados para a UM do Exchange hospedado, uma política de caixa postal hospedada que se aplique a eles deve ser implantada. Para detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
 
 ## Para criar objetos de contato no AA ou SA para a UM do Exchange hospedado
@@ -47,7 +47,7 @@ Para detalhes sobre como configurar objetos de contato, consulte a documentaçã
     
       - **RegistrarPool** especifica o nome de domínio totalmente qualificado (FQDN) do pool em que o serviço do Registrador Avançado está sendo executado.
         
-        > [!note]  
+        > [!NOTE]  
         > Objetos de contato da UM do Exchange não podem ser movidos para pools que sejam parte de implantações do Lync Server 2013 antes do Lync Server 2013.    
       - **OU** especifica a unidade organizacional do Active Directory em que este objeto de contato estará localizado.
     

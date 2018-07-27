@@ -47,7 +47,7 @@ Siga estas etapas para criar ou modificar uma política de PIN (número de ident
 
 12. Para permitir padrões comuns de dígitos nos PINs, como números sequenciais e conjuntos repetitivos de números, marque a caixa de seleção **Permitir padrões comuns** . Se você não selecionar essa opção, somente os padrões complexos de dígitos serão permitidos. Por padrão, somente os padrões complexos de dígitos são permitidos.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Recomendamos que você não permita os padrões comuns.
 
 13. Clique em **Confirmar** .

@@ -27,7 +27,7 @@ Uma região de rede interconecta várias partes de uma rede de diversas áreas g
 
 4.  Na página **Região**, clique na região que deseja exibir.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível exibir apenas uma região por vez.
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.

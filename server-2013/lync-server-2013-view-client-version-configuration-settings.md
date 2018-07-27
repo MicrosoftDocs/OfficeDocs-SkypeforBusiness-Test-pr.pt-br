@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 As configurações da versão cliente são usadas para ativar ou desativar o controle de versão do cliente. A configuração da versão do cliente global é instalada com o Lync Server 2013 e é usada para habilitar ou desabilitar o controle da versão do cliente de toda a implantação do servidor. Quando a configuração Global é habilitada, quaisquer políticas de versão do cliente existentes entrarão em vigor quando os usuários tentarem fazer logon. É possível visualizar as configurações da versão de cliente a partir do Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.
 
 ## Para visualizar as configurações de versão de cliente utilizando o Painel de Controle do Lync Server

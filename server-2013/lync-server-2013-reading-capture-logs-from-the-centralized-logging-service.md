@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-28_
 
 Você percebe o benefício real do Serviço de Log Centralizado após executar a pesquisa e possui um arquivo que pode usar para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você pode usar uma ferramenta como Snooper.exe projetado para ler e analisar o resultado do registro em log do Serviço de Log Centralizado. O Snooper é incluído com as Ferramentas de Depuração do Lync Server 2013 disponíveis como um download separado. Não há atalhos ou itens de menu criados para as Ferramentas de Depuração do Lync Server 2013. Após instalar as Ferramentas de Depuração Lync Server 2013, abra o Windows Explorer, uma janela da linha de comando ou o Shell de Gerenciamento do Lync Server e vá para o diretório (local padrão) C:\\Program Files\\Microsoft Lync Server 2013\\Ferramentas de Depuração. Clique duas vezes em Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou o Shell de Gerenciamento do Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre os fundamentos da resolução de problemas e cargas de trabalho específicas da resolução de problemas, consulte o livro do Kit de recursos do Microsoft Lync Server 2010 em <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x416</a>. Os processos e procedimentos ainda se aplicam ao Lync Server 2013.
 
 O Lync Server 2013 introduz a versão atualizada do Snooper incluindo alguns novos recursos. A tela a seguir mostra a versão do Snooper do Office Communications Server 2007.
@@ -58,7 +58,7 @@ E, o novo recurso que adiciona valor é a exibição do Fluxograma (fluxo de cha
 
 3.  Clique em **Fluxo de chamadas**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você clicar em uma mensagem ou rastreamento que não faz parte do fluxo de chamadas, o diagrama não aparecerá e uma mensagem de status aparece na parte inferior do Snooper dizendo “Esta mensagem não é elegível para fluxo de chamadas”. Escolha outra mensagem ou rastreamento e o fluxo de chamadas aparecerá se a mensagem ou o rastreamento faz parte de um fluxo de chamadas.
 
 4.  Mova pelas Mensagens ou linhas de Rastreamento e observe se o fluxograma de chamada atualiza ou muda para exibir um novo diagrama.

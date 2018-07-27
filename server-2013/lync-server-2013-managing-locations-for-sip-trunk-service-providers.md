@@ -25,7 +25,7 @@ Você preenche o banco de dados de serviço de Informação de Local com um Loca
 
   - Se o local for aproximado por ser determinado por um ponto de acesso sem fio, convém adicionar a palavra Near (por exemplo, "próximo ao 1º andar, 1234").
 
-> [!note]  
+> [!NOTE]  
 > Os locais adicionados ao banco de dados central de local não ficam disponíveis para o cliente até que tenham sido publicados usando um comando Shell de Gerenciamento do Lync Server e tenham replicado para os repositórios de local do pool. Para obter detalhes, consulte <a href="lync-server-2013-publish-the-location-database.md">Publicar o banco de dados de localização</a> na documentação Implantação.
 
 As seções a seguir discutem as considerações que devem ser analisadas ao preencher e manter o banco de dados de local.

@@ -33,10 +33,10 @@ As tabelas a seguir mostram os requisitos de certificado por função de servido
 
 Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando o assistente de certificado é usado para solicitar certificados.
 
-> [!note]  
+> [!NOTE]  
 > Cada nome amigável do certificado deve ser exclusivo no armazenamento do computador.
 
-> [!note]  
+> [!NOTE]  
 > Se você tiver configurado sipinternal.contoso.com ou sipexternal.contoso.com no seu DNS, será necessário adicioná-los no Nome Alternativo da Entidade do certificado.
 
 ### Certificados para o servidor Standard Edition

@@ -21,7 +21,7 @@ Esta seção identifica os clientes que podem ser usados para estacionar chamada
 
 Chamadas de qualquer telefone IP, PBX, PSTN ou celular podem ser estacionadas.
 
-> [!note]  
+> [!NOTE]  
 > Apenas chamadas de áudio podem ser estacionadas. Conferências e mensagens instantâneas não podem ser estacionadas.
 
 Os clientes a seguir podem usar Estacionamento de Chamada para estacionar chamadas:
@@ -34,7 +34,7 @@ Os clientes a seguir podem usar Estacionamento de Chamada para estacionar chamad
 
   - Lync Phone Edition
 
-> [!note]  
+> [!NOTE]  
 > Celulares não podem usar Estacionamento de Chamada para estacionar chamadas.
 
 ## Clientes com suporte para Recuperação de Chamadas

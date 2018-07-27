@@ -24,12 +24,12 @@ Cada Servidor de Borda é um computador multihomed com interfaces externas e int
 
 1.  Instale dois adaptadores de rede para cada Servidor de Borda, um para a interface interna e outro para a interface externa.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > As sub-redes interna e externa não devem ser roteáveis ente si.
 
 2.  Na interface externa, configure três endereços IP estáticos na sub-rede da rede de perímetro externa (também conhecida como DMZ, zona desmilitarizada, e sub-rede filtrada), e aponte o gateway padrão à interface interna do firewall externo. Defina as configurações DNS do adaptador para apontar para um par de servidores DNS de perímetro.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível usar um endereço IP para essa interface, mas para fazer isso você precisa alterar as atribuições de porta para valores não padrão. Determine isso ao criar a topologia no Construtor de Topologias.
 
 3.  Na interface interna, configure um endereço IP estático na sub-rede da rede de perímetro e não defina o gateway padrão. Defina as configurações DNS do adaptador a fim de apontar para pelo menos um servidor DNS, preferencialmente um par de servidores DNS de perímetro.
@@ -40,12 +40,12 @@ Cada Servidor de Borda é um computador multihomed com interfaces externas e int
 
 1.  Instale dois adaptadores de rede para cada Servidor de Borda, um para a interface interna e outro para a interface externa.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > As sub-redes interna e externa não devem ser roteáveis ente si.
 
 2.  Na interface externa, configure três endereços IP estáticos na sub-rede da rede de perímetro externa. Também é possível configurar o gateway padrão na interface externa. Por exemplo, defina o roteador da Internet ou o firewall externo como o gateway padrão. Defina as configurações de DNS a fim de apontar para um servidor DNS, preferencialmente para um par de servidores DNS externos.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível, mas não recomendado, usar um endereço IP para a interface externa. Para que isso funcione, você precisa alterar as atribuições de porta para valores não padrão e para longe da porta padrão 443 que normalmente é “amigável com firewall” para a comunicações do cliente. É possível determinar a configuração do endereço IP e as configurações de porta ao criar a topologia no Construtor de Topologias.
 
 3.  Na interface interna, configure um endereço IP estático na sub-rede da rede de perímetro e não defina o gateway padrão. Deixe as configurações DNS do adaptador vazias.

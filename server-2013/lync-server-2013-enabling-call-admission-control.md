@@ -27,7 +27,7 @@ O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, s
 
 4.  Na página **Global**, clique na configuração **Global**.
     
-    > [!note]  
+    > [!NOTE]  
     > Apenas uma rede pode ser configurada para qualquer implantação Microsoft Lync Server 2013, portanto nunca haverá mais do que uma configuração de rede na lista. Você não pode renomear a configuração Global.
 
 5.  No menu **Editar**, clique em **Mostrar detalhes**.

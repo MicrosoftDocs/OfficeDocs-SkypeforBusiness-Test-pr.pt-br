@@ -79,7 +79,7 @@ _**Tópico modificado em:** 2016-12-27_
 
   - Domínios SIP. É o sufixo de domínio do URL SIP que os usuários usam atualmente para mensagens instantâneas. Se a sua organização tiver mais de um domínio SIP, especifique o sufixo de cada domínio para mensagens instantâneas. Por exemplo, para usuario1@contoso.com, especifique contoso.com como o domínio SIP; para usuário1@example.fabrikam.com, especifique example.fabrikam.com como o domínio SIP.
     
-    > [!note]  
+    > [!NOTE]  
     > Especifique somente o sufixo de domínio para o domínio SIP. Não especifique qualquer FQDN, incluindo o FQDN do serviço de Borda de Acesso, para o domínio SIP.
 
   - Informações de contato. Especifique um endereço de email para o administrador de cada domínio SIP especificado por você.

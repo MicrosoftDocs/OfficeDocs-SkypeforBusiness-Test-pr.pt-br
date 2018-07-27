@@ -41,7 +41,7 @@ Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadore
     
     Três endereços IP públicos são designados a este adaptador de rede, por exemplo, 131.107.155.10 para Serviço de Borda de Acesso, 131.107.155.20 para Serviço de Borda de Webconferência e 131.107.155.30 para Serviço de Borda A/V.
     
-    > [!note]  
+    > [!NOTE]  
     > Os endereços IP que estão atribuídos às interfaces de rede externas atuais do Servidor de Borda podem depender de qual balanceador de carga de hardware você escolheu. Consulte a documentação do seu balanceador de carga de hardware para entender os requisitos do endereço IP atual.<br />    É possível, embora não recomendado, usar um único endereço IP para todas as três interfaces de serviço de Borda. embora isto não salve o endereço IP, exige números de porta diferentes para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permita o tráfego. Alterar os valores de porta (por exemplo) 5061/TCP para o Serviço de Borda de Acesso, 444/TCP para o Serviço de Borda de Webconferência e 443/TCP para o Serviço de Borda A/V pode causar problemas para usuários remotos onde um firewall que estão utilizando não permite tráfego por 5061/TCP e 444/TCP. Além disso, três endereços IP diferentes torna a resolução de problemas mais fácil porque podem filtrar no endereço IP.    
     O endereço IP de Serviço de Borda de Acesso é primário com o gateway padrão definido para o roteador voltado para a Internet (131.107.155.1).
     

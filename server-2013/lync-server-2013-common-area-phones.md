@@ -21,7 +21,7 @@ Para gerenciar telefones de área comum, você cria objetos de contato Serviços
 
 Use os tópicos nesta seção para aprender como criar objetos de contato para telefones de área comum, modificá-los e excluí-los, além de configurar e visualizar informações sobre os telefones de área comum em sua implantação.
 
-> [!note]  
+> [!NOTE]  
 > Você tem três opções para telefones de área comum: o telefone de área comum Aastra 6721ip, o telefone HP 4110 IP, e o telefone de área comum Polycom CX500 IP. O telefone de conferência Polycom CX3000 IP é outra variante de telefone de área comum. Porém, é destinado a uso em salas de conferência. Para detalhes sobre telefones de área comum, consulte a seção de Telefones de área comum em <a href="http://technet.microsoft.com/pt-br/library/gg398958(v=ocs.14).aspx">Escolha de novos dispositivos</a>.
 
 ## Nesta seção

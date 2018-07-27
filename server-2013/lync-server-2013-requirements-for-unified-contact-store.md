@@ -25,5 +25,5 @@ A lista a seguir descreve os requisitos para implementar o repositório de conta
 
   - Você deve ter uma autenticação servidor para servidor configurada entre o Lync Server 2013 e o Exchange 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter requisitos detalhados sobre a configuração de autenticação entre o Lync Server 2013 e o Exchange 2013, consulte <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013</a> na documentação de Operações.

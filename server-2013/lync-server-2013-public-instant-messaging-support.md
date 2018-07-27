@@ -29,7 +29,7 @@ Os parceiros de conectividade de mensagem instantânea pública suportados atual
 
 Para comunicações com usuários do Windows Live, o Lync Server 2013 suporta IM ponto a ponto e chamadas de áudio e vídeo. Para comunicações com AOL e Yahoo\!, o Lync Server 2013 suporta IM ponto a ponto. Uma licença separada pode ser necessária.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 

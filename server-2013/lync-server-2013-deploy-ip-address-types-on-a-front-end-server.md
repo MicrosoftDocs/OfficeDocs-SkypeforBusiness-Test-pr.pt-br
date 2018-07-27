@@ -29,7 +29,7 @@ Usando a Construtor de Topologias, execute as etapas no seguinte procedimento pa
     
       - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado.
         
-        > [!note]  
+        > [!NOTE]  
         > Esta é a opção recomendada para as configurações da versão 6 do IP (IPv6).    
       - **Limitar uso de serviços para selecionar endereços IP**. Selecione esta opção para especificar um endereço específico para usar um novo servidor. Se você selecionar esta opção, é necessário inserir um valor para o **Endereço IP principal** .
     

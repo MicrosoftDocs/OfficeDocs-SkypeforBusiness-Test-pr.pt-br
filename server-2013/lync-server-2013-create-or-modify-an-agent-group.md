@@ -17,17 +17,17 @@ _**Tópico modificado em:** 2014-02-07_
 
 Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 
-> [!note]  
+> [!NOTE]  
 > Um Administrador—por exemplo, CsVoiceAdministrator—deve habilitar os usuários para Enterprise Voice e Lync Server antes de poderem ser designados a grupos de agentes. Se você é um dos Gerentes de Grupo de Resposta designados para um fluxo de trabalho gerenciado, você pode criar grupos de agentes e usá-los nos fluxos de trabalho que gerencia.
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando você atribui usuários como agentes de grupo de resposta, informe-os de que, se eles tiverem o modo Privacidade habilitado, precisarão pesquisar por contatos &quot;RGS Presence Watcher&quot; e adicioná-los à sua lista Contatos. Agentes que tem o modo Privacidade habilitado, mas não tem &quot;RGS Presence Watcher&quot; em sua lista de Contatos, não podem receber chamadas no grupo de resposta. Agentes que não têm o modo Privacidade habilitado não são afetados.
 
 ## Usar Painel de Controle do Lync Server para criar ou modificar um grupo de agentes
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você é um dos Gerentes de Grupo de Resposta delegados para um fluxo de trabalho gerenciado, você pode criar grupos e os usar nos fluxos de trabalho que você gerencia.
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
@@ -52,7 +52,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 
 8.  Em **Tempo de alerta (segundos)**, especifique a duração em segundos do toque para um agente antes de oferecer a chamada para o próximo agente disponível (o padrão é de 20 segundos).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.
 
 9.  No **Método de roteamento**, selecione o método para roteamento de chamadas a agentes no grupo da seguinte maneira:
@@ -89,7 +89,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
         
           - Se a lista de distribuição contiver usuários, para os quais o Lync Server 2010 estiver habilitado, porém o Enterprise Voice não estiver habilitado, eles serão adicionados ao grupo de agentes como agentes não funcionais. Garanta que todos os membros da lista de distribuição tenham o Enterprise Voice habilitado em suas contas de usuário.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Se você usar uma lista de distribuição de email, associações ou listas ocultas poderão ficar visíveis ao administrador ou usuários do Grupo de Resposta.        
         Associações ou listas ocultas podem se tornar visíveis da seguinte maneira:
         
@@ -113,7 +113,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.
 
 4.  Confirme a criação do novo grupo. Execute:

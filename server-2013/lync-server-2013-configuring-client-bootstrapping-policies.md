@@ -144,7 +144,7 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    > [!note]  
+    > [!NOTE]  
     > Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos.
 
 2.  Crie uma subpasta para cada idioma que for utilizar. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:

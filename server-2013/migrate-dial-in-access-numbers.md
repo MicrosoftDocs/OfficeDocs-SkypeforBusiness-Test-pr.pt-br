@@ -35,10 +35,10 @@ Números de acesso discado criados no Lync Server 2010, mas movidos para o Lync 
 
 É necessário concluir a migração dos números de acesso de discagem que apontam para um pool do Lync Server 2010 antes de encerrar o pool do Lync Server 2010. Se você não concluir a migração do número de acesso de discagem conforme descrito no procedimento a seguir, as chamadas recebidas para os números de acesso falharão.
 
-> [!important]  
+> [!IMPORTANT]  
 > É necessário realizar esse procedimento antes de encerrar o pool do Lync Server 2010.
 
-> [!note]  
+> [!NOTE]  
 > Recomendamos que você mova os números de acesso de discagem quando o uso da rede estiver baixo, caso exista um período curto de interrupção do serviço.
 
 **Para identificar e mover os números de acesso de discagem**
@@ -57,7 +57,7 @@ Números de acesso discado criados no Lync Server 2010, mas movidos para o Lync 
 
 6.  Verifique se nenhum número de acesso discado permanece para o pool do Lync Server 2010 que você está migrando.
     
-    > [!note]  
+    > [!NOTE]  
     > Quando todos os números de acesso de discagem apontarem para o pool do Lync Server 2013, você poderá encerrar o pool do Lync Server 2010.
 
 **Verificar a migração do número de acesso discado usando o Painel de Controle do Lync Server**

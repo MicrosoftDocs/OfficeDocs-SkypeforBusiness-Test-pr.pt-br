@@ -19,7 +19,7 @@ Para obter detalhes sobre requisitos de licenciamento e como concluir o processo
 
 Se estiver implementando federação de áudio/vídeo (A/V) com o Windows Live Messenger, há dois parâmetros que você precisará modificar: o nível de criptografia do Lync Server e a política EnablePublicCloudAccess. Como padrão, o nível de criptografia está definido como Obrigatório. Você deve mudar esse nível para Suportado. Se a política EnablePublicCloudAccess está definida como "false", ela precisa ser alterada para **True** . Isso pode ser feito a partir do Shell de Gerenciamento do Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Mais do que nunca, o Lync é uma ferramenta poderosa para conexões com organizações e indivíduos ao redor do mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da Licença de Acesso Padrão do Cliente Lync (CAL). No próximo ano, a federação do Skype será adicionada à lista, permitindo que os usuários Lync contatem milhões de pessoas via IM e voz.
 
 ## Configurar a federação para Windows Live
@@ -35,5 +35,5 @@ Se estiver implementando federação de áudio/vídeo (A/V) com o Windows Live M
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
     
-    > [!note]  
+    > [!NOTE]  
     > Esta etapa é obrigatória pois o Windows Live Messenger não suporta criptografia de áudio/vídeo. O comando define sua política global para suportar uma criptografia em vez de exigir criptografia de dados de áudio/vídeo. Os clientes que suportam criptografia ainda usarão a criptografia, como o Lync 2013

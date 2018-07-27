@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 Você pode usar o Setup ou cmdlets do Shell de Gerenciamento do Lync Server para preparar o esquema do Active Directory. O cmdlet que estende o esquema do Active Directory é **Install-CsAdServerSchema**.
 
-> [!note]  
+> [!NOTE]  
 > O cmdlet de preparação de esquema (<strong>Install-CsAdServerSchema</strong>) deve acessar o mestre de esquema, que requer que o serviço do registro remoto esteja em execução e que a chave do registro remoto esteja habilitada. Se o serviço do registro remoto não puder ser habilitado no mestre de esquema, você poderá executar o cmdlet localmente no mestre de esquema. Para obter detalhes sobre o acesso remoto ao registro, consulte o artigo 314837 da Base de Dados de Conhecimento da Microsoft, &quot;Como gerenciar o Acesso Remoto ao Registro&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</a>.
 
 Após a conclusão da preparação do esquema, verifique manualmente se a partição do esquema foi replicada antes de prosseguir para a preparação da floresta. Para obter detalhes, consulte [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).

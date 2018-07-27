@@ -43,7 +43,7 @@ Conclua as etapas a seguir para criar ou modificar uma regra de normalização m
 
 9.  (Opcional) Insira um número para testar a regra de normalização e clique em **Ir** . Os resultados do teste são exibidos em **Inserir um número para testar** .
     
-    > [!note]  
+    > [!NOTE]  
     > É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.
 
 10. Clique em **OK** para salvar a regra de normalização.
@@ -52,7 +52,7 @@ Conclua as etapas a seguir para criar ou modificar uma regra de normalização m
 
 12. Na página **Plano de Discagem** , clique em **Confirmar** e clique em **Confirmar tudo** .
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando <strong>Confirmar todos</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também

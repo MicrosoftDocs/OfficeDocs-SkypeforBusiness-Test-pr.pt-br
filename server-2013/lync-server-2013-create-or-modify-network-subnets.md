@@ -33,7 +33,7 @@ Na maioria das implantações do Microsoft Lync Server 2013 nas quais o CAC (con
 
 6.  No campo **Máscara**, digite um valor numérico de 1 a 32.
     
-    > [!note]  
+    > [!NOTE]  
     > Este valor é o bitmask que será aplicado na sub-rede criada.
 
 7.  Em **ID do site da rede**, selecione o site ao qual a sub-rede pertence.

@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Esta exibição foi apresentada no Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente aos erros, mas a mensagens que indicam o status das chamadas ou mensagens.
 
 

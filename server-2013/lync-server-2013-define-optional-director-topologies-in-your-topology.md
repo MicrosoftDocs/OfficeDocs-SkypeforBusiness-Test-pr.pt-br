@@ -47,12 +47,12 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     
     2.  Para criar um novo compartilhamento de arquivo, clique em **Definir um novo compartilhamento de arquivo**, digite o FQDN do local do compartilhamento de arquivo em **FQDN do servidor de arquivos**, digite o nome do compartilhamento em **Compartilhamento de Arquivo** e clique em **Avançar**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.
 
 7.  Na caixa de diálogo **Especificar a URL dos Serviços Web**, em **URL Base Externa**, especifique o FQDN para os Diretores e clique em **Concluir**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O nome deve ser resolvido a partir dos servidores DNS da Internet e apontar para o endereço IP público do proxy reverso, que escuta solicitações HTTP/HTTPS para aquela URL e as encaminha via proxy para o diretório virtual dos Serviços Web externos naquele Diretor.    
 
     > [!WARNING]
@@ -90,12 +90,12 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     
       - Para criar um novo compartilhamento de arquivo, clique em **Definir um novo compartilhamento de arquivo**, digite o FQDN do local do compartilhamento de arquivo em **FQDN do servidor de arquivos**, digite o nome do compartilhamento em **Compartilhamento de Arquivo** e clique em **Avançar**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O compartilhamento de arquivo especificado ou criado nesta etapa precisa existir ou ser criado antes da publicação da topologia.<br />    O compartilhamento de arquivo atribuído a um Diretor não é realmente usado. Dessa forma, você pode atribuir o compartilhamento de arquivo de qualquer pool na organização.
 
 8.  Na caixa de diálogo **Especificar a URL dos Serviços Web**, em **URL Base Externa**, especifique o FQDN para os Diretores e clique em **Concluir**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O nome precisa ser resolvido a partir dos servidores DNS de Internet e apontar para o endereço IP público do proxy reverso, que escuta as solicitações HTTP/HTTPS enviadas a essa URL e as atribui ao diretório virtual dos Serviços Web nesse pool de Diretores.    
 
     > [!WARNING]

@@ -17,12 +17,12 @@ _**Tópico modificado em:** 2016-12-08_
 
 Para implantar e gerenciar o recebimento de chamadas em grupo, você deve usar a ferramenta do kit de recursos SEFAUtil. A ferramenta integra as ferramentas do kit de recursos do Lync Server 2013. Antes de poder instalar a SEFAUtil, você deve ter um pool de aplicativos confiáveis em sua topologia, especificar SEFAUtil como um aplicativo confiável e habilitar a topologia.
 
-> [!important]  
+> [!IMPORTANT]  
 > O Microsoft UCMA (Unified Communications Managed API) 3.0 Core SDK deve estar instalado em qualquer computador no qual você planeja executar a ferramenta SEFAUtil.
 
 Você pode executar a SEFAUtil em qualquer Pool de Front-Ends de sua implantação.
 
-> [!note]  
+> [!NOTE]  
 > Para obter mais detalhes sobre a execução da SEFAUtil, consulte o artigo do blog da TechNet, &quot;How to get SEFAUtil running?&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=278940" class="uri">http://go.microsoft.com/fwlink/?linkid=278940</a>.
 
 ## Para implantar a SEFAUtil
@@ -39,7 +39,7 @@ Você pode executar a SEFAUtil em qualquer Pool de Front-Ends de sua implantaç�
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    > [!note]  
+    > [!NOTE]  
     > Se necessário, você pode usar uma porta diferente.
 
 5.  Habilite a topologia com suas alterações. Na linha de comando, digite:
@@ -52,7 +52,7 @@ Você pode executar a SEFAUtil em qualquer Pool de Front-Ends de sua implantaç�
     
     1.  Execute a ferramenta no prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamada de um usuário de sua implantação.
         
-        > [!note]  
+        > [!NOTE]  
         > A ferramenta está localizada em \Arquivos de Programas\Microsoft Lync Server 2013\Reskit.    
     2.  Exiba as configurações de encaminhamento de chamada de um usuário, Na linha de comando, execute:
         

@@ -35,7 +35,7 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir u
 
 5.  Em **Selecionar funções de servidor colocadas** , marque a opção **Colocar Servidor de Mediação**.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>    
 > <li><p>Se o tipo de Pool de Front-Ends que você selecionou for o Enterprise Edition, o componente do Servidor de Mediação será instalado em todos os Servidores Front-End desse Pool de Front-Ends.</p></li>    
 > 
@@ -49,7 +49,7 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir u
 
 7.  Clique em **Concluir** quando tiver terminado de associar um ou mais pares ao Pool de Front-Ends.
     
-    > [!note]  
+    > [!NOTE]  
     > Antes de prosseguir para a próxima etapa do processo de implantação do Enterprise Voice, verifique se o pool de Servidor de Mediação (ou seja, o Pool de Front-Ends com o componente do Servidor de Mediação colocado) está usando os FQDNs que você especificou.
 
 8.  Em seguida, siga os procedimentos em [Publicar a topologia no Lync Server 2013](lync-server-2013-publish-the-topology.md) na documentação do Guia de Implantação para adicionar o Servidor de Mediação à sua topologia antes de prosseguir para a próxima etapa de modificação das portas de escuta do Servidor de Mediação, se necessário. Você deve publicar sua topologia sempre que usar o Construtor de Topologias para definir ou modificá-la.
@@ -60,7 +60,7 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir u
 
 Se você já implantou o Servidor de Mediação colocado nos Pools de Front-Ends desse site, pode pular esta seção e a [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) e ir para a [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-> [!note]  
+> [!NOTE]  
 > Esta seção pressupõe que você tenha configurado pelo menos um Pool de Front-Ends, conforme descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> e em <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a> na documentação do Guia de Implantação.
 
 ## Para adicionar um Servidor de Mediação
@@ -77,7 +77,7 @@ Se você já implantou o Servidor de Mediação colocado nos Pools de Front-Ends
     
       - Se você desejar implantar vários Servidor de Mediação no pool para fornecer alta disponibilidade, selecione **Pool de vários computadores** .
         
-        > [!note]  
+        > [!NOTE]  
         > Você deve implantar o balanceamento de carga DNS para oferecer suporte a pools de Servidor de Mediação com vários Servidor de Mediação. Para obter detalhes, consulte a seção &quot;Usando o balanceamento de carga DNS em pools de Servidor de Mediação&quot; de <a href="lync-server-2013-dns-load-balancing.md">Balanceamento de carga DNS no Lync Server 2013</a> na documentação de planejamento.    
       - Se você desejar implantar somente um Servidor de Mediação do pool porque não precisa alta disponibilidade, selecione **Pool de Computador Único** . Ignore a etapa seguinte.
 
@@ -107,7 +107,7 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir a
 
 4.  Especifique o intervalo desejado de portas de escuta TLS ou TCP a partir das quais o Servidor de Mediação aceitará conexões de entrada de gateways PSTN.
     
-    > [!note]  
+    > [!NOTE]  
     > Não é necessário inserir um intervalo de portas TCP se a opção <strong>Habilitar porta TCP</strong> não estiver marcada. Essa configuração é opcional.
 
 Em seguida, execute o procedimento em [Definir um gateway no Construtor de Topologia no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) e instale os arquivos em cada Servidor de Mediação do pool seguindo os procedimentos em [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md).
