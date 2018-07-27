@@ -47,7 +47,7 @@ Além de especificar a versão de clientes aos quais você deseja oferecer supor
 
 ## Modificação da ação padrão utilizando cmdlets do Lync Server PowerShell
 
-A ação padrão a ser executada quando os usuários tentarem entrar utilizando os clientes que não são explicitamente suportados ou restritos por uma política de versão do cliente também pode ser gerenciada utilizando Interface da linha de comando do Windows PowerShell e o cmdlet **set-csclientversionpolicy**. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+A ação padrão a ser executada quando os usuários tentarem entrar utilizando os clientes que não são explicitamente suportados ou restritos por uma política de versão do cliente também pode ser gerenciada utilizando Interface da linha de comando do Windows PowerShell e o cmdlet **Set-CsClientVersionPolicy**. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Configuração da ação padrão para Bloquear acesso
 
@@ -61,7 +61,7 @@ A ação padrão a ser executada quando os usuários tentarem entrar utilizando 
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Para obter detalhes, consulte o tópico de ajuda para o cmdlet [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 
 ## Consulte Também
 
