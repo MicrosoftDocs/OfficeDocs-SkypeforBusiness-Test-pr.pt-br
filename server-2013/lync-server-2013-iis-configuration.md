@@ -114,9 +114,12 @@ A tabela a seguir indica os serviços de função do IIS 7.5 necessário.
 
 No sistema operacional x64 do Windows Server 2008 R2 SP1, é possível usar o Windows PowerShell 2.0. Primeiro é necessário importar o módulo ServerManager e, em seguida, instalar a função e os serviços de função IIS 7.5.
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
 > [!NOTE]  
 > A autenticação anônima é instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte “Habilitar autenticação Anônima (IIS 7)“ em <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.
@@ -298,9 +301,12 @@ A tabela a seguir indica os serviços de função IIS 8.0 e e IIS 8.5 para o Win
 
 No Windows Server 2012 e Windows Server 2012 R2, você pode usar o Windows PowerShell 3.0 para instalar os requisitos do IIS. Usando o módulo ServerManager no Windows PowerShell 3.0, digite:
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
 
 > [!IMPORTANT]  
 > Novidade no Windows Server 2012 é o parâmetro -Origem que define onde a mídia de origem Windows Server 2012 pode ser encontrada. A mídia pode ser definida como unidade de DVD (por exemplo, D:\Sources\Sxs), ou como compartilhamento em rede para a qual os arquivos de mídia foram copiados (por exemplo, \\fileserver\windows2012\sources\Sxs).

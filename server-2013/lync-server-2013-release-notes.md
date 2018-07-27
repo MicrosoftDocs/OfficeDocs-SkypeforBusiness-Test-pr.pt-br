@@ -338,9 +338,12 @@ Para solucionar esse problema, atualize o registro do sistema antes de instalar 
 
 1.  Execute o Windows PowerShell e os seguintes cmdlets:
     
+    ```
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
+    ```
+    ```    
         $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Para exibir o valor atual, execute o seguinte cmdlet:
     

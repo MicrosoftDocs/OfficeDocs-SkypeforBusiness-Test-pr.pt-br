@@ -95,31 +95,33 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 24. Configure uma nova política de acesso externo para habilitar todos os usuários abrindo o Shell de Gerenciamento do Lync Server no front-end e digitando:
     
-```
+    ```
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-```
-```    
+    ```
+    ```    
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-```
-```    
+    ```
+    ```    
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-```
-```
-
+    ```
+    ```
     Habilite o acesso XMPP para usuários externos digitando:
-```
-```    
+    ```
+    ```    
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-```
-```    
+    ```
+    ```    
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
-```
+    ```
 
 25. No Servidor de Borda em que o proxy XMPP está implantado, abra um prompt de comando ou uma Interface da linha de comando do Windows PowerShell™ e digite o seguinte:
     
+    ```
         Netstat -ano | findstr 5269
-    
+    ```
+    ```    
         Netstat -ano | findstr 23456
+    ```    
     
     O comando **netstat –ano** é um comando de estatísticas de rede, os parâmetros **–ano** exigem que netstat exiba todas as conexões e portas de escuta, que o endereço e as portas sejam exibidos em um formato numérico, e que o ID do processo proprietário seja associado a cada conexão. O caractere **|** define uma barra vertical ao próximo comando, **findstr**, ou localizar cadeia de caracteres. O número 5269 e 23456 passado ao findstr como parâmetro instrui findstr a pesquisar a saída de netstat para a cadeia de caracteres 5269 e 23456. Se XMPP estiver configurado corretamente, o resultado dos comandos deve resultar em conexões estabelecidas e de escuta nas interfaces externa (porta 5269) e interna (porta 23456) do Servidor de Borda.
     

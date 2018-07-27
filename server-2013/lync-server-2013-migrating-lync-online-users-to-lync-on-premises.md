@@ -29,10 +29,10 @@ _**Tópico modificado em:** 2016-12-08_
       - Em suas implantações locais, no Shell de Gerenciamento do Lync Server, digite os cmdlets a seguir para criar o provedor de host para o Lync Online:
         
     ```
-                Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
     ```
     ```        
-            New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
     ```
 
 2.  Confirme se, nos Servidores de Borda locais, você possui a cadeia de certificados que possibilita a conexão ao Lync Online, conforme mostra a tabela a seguir. A tabela está disponível para download aqui: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
@@ -98,13 +98,18 @@ _**Tópico modificado em:** 2016-12-08_
     
     Para mover um único usuário, digite:
     
+    ```
         $cred = Get-Credential
-    
+    ```
+    ```    
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
     
     Você pode mover usuários únicos por meio do cmdlet **Get-CsUSer** com o parâmetro –Filtro para selecionar os usuários com determinada propriedade. Por exemplo, você pode selecionar todos os usuários do Lync Online filtrando por {Provedor de Hospedagem – eq “sipfed.online.lync.om”}. Em seguida, poderá canalizar os usuários retornados para o cmdlet **Move-CsUSer**, como mostra abaixo.
     
+    ```
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
+    ```
     
     O formato da URL específica para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL para o pool no qual o serviço de migração hospedada está sendo executado, no seguinte formato: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     

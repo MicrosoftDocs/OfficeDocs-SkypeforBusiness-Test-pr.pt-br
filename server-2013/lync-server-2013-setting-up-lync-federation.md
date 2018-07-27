@@ -37,82 +37,68 @@ Se o servidor de borda já foi implantado nos servidores, a adição dos recurso
 
 ## Configurando a federação com parceiros
 
-1.  Para instalar uma federação bem-sucedida com outro Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, selecione o tipo de federação da tabela a seguir e defina os registros SRV de DNS, o host DNS (A ou AAAA para IPv6) e configure as políticas aplicáveis ao tipo de federação:
+1.  Para instalar uma federação bem-sucedida com outro Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, selecione o tipo de federação da tabela a seguir e defina os registros SRV de DNS, o host DNS (A ou AAAA para IPv6) e configure as políticas aplicáveis ao tipo de federação:    
     
-    
-    <table>
-    <colgroup>
-    <col style="width: 25%" />
-    <col style="width: 25%" />
-    <col style="width: 25%" />
-    <col style="width: 25%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Tipo de federação</th>
-    <th>Registros DNS</th>
-    <th>Definição de política</th>
-    <th>Notas</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Domínio do parceiro descoberto</p></td>
-    <td><p>Configure o registro SRV de formato _sipfederationtls._tcp.&lt;nome do domínio externo&gt; em que o valor da porta do registro SRV é TCP 5061 e o <strong>Host que oferece esse serviço</strong> é definido como sip. &lt;nome do domínio externo&gt; - o FQDN de seu Serviço de Borda de Acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre a criação do registro SRV</p></td>
-    <td><ul>    
-> 
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    
-> 
-> 
-> <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar ou desabilitar descoberta de parceiros de federação no Lync Server 2013</a></p></li>    </ul></td>
-    <td><p>As versões anteriores se referiam a esse tipo de federação como <strong>Federação avançada aberta</strong>. A criação do registro SRV é obrigatória para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Domínio de parceiro permitido</p></td>
-    <td><p>Configure o registro SRV de formato _sipfederationtls._tcp.&lt;nome do domínio externo&gt; em que o valor da porta do registro SRV é TCP 5061 e o <strong>Host que oferece esse serviço</strong> é definido como sip. &lt;nome do domínio externo&gt; - o FQDN de seu Serviço de Borda de Acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre a criação do registro SRV</p></td>
-    <td><ul>    
-> 
-> 
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    </ul></td>
-    <td><p>As versões anteriores se referiam a esse tipo de federação como <strong>Federação avançada</strong>. A criação do registro SRV é opcional para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação. Isso é obviamente uma <strong>Federação avançada aberta</strong> ou um <strong>Domínio de parceiro descoberto</strong></p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Servidor de parceiro permitido</p></td>
-    <td><p>Configure o nome do domínio SIP e o FQDN de parceiro do Servidor de Borda como um parceiro de federação em Políticas</p></td>
-    <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    
-> 
-> <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar suprote para domínios externos permitidos no Lync Server 2013</a></p></li>    
-> 
-> 
-> <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurar suporte para domínios externos bloqueados no Lync Server 2013</a></p></li>    </ul></td>
-    <td><p>Esse tipo de federação é a definição de uma relação um-para-um e não permite a descoberta de outros parceiros de federação. Cada parceiro de federação é configurado explicitamente. Nas versões anteriores, isso era conhecido como <strong>Federação direta</strong></p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Hospedando provedor e provedor de IM público</p></td>
-    <td><p>Nenhum requisito específico de DNS é definido para esse tipo de federação</p></td>
-    <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    
-> 
-> <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar fornecedores SIP públicos federados no Lync Server 2013</a></p></li>    
-> 
-> 
-> <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Criar ou editar provedores hospedados federados SIP no Lync Server 2013</a></p></li>    </ul></td>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de federação</th>
+<th>Registros DNS</th>
+<th>Definição de política</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Domínio do parceiro descoberto</p></td>
+<td><p>Configure o registro SRV de formato _sipfederationtls._tcp.&lt;nome do domínio externo&gt; em que o valor da porta do registro SRV é TCP 5061 e o <strong>Host que oferece esse serviço</strong> é definido como sip. &lt;nome do domínio externo&gt; - o FQDN de seu Serviço de Borda de Acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre a criação do registro SRV</p></td>
+<td>      
+<ul>   
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>   
+<li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar ou desabilitar descoberta de parceiros de federação no Lync Server 2013</a></p></li></ul></td>
+<td><p>As versões anteriores se referiam a esse tipo de federação como <strong>Federação avançada aberta</strong>. A criação do registro SRV é obrigatória para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação.</p></td>
+</tr>
+<tr class="even">
+<td><p>Domínio de parceiro permitido</p></td>
+<td><p>Configure o registro SRV de formato _sipfederationtls._tcp.&lt;nome do domínio externo&gt; em que o valor da porta do registro SRV é TCP 5061 e o <strong>Host que oferece esse serviço</strong> é definido como sip. &lt;nome do domínio externo&gt; - o FQDN de seu Serviço de Borda de Acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre a criação do registro SRV</p></td>
+<td><ul>    
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    </ul></td>
+<td><p>As versões anteriores se referiam a esse tipo de federação como <strong>Federação avançada</strong>. A criação do registro SRV é opcional para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação. Isso é obviamente uma <strong>Federação avançada aberta</strong> ou um <strong>Domínio de parceiro descoberto</strong></p></td>
+</tr>
+<tr class="odd">
+<td><p>Servidor de parceiro permitido</p></td>
+<td><p>Configure o nome do domínio SIP e o FQDN de parceiro do Servidor de Borda como um parceiro de federação em Políticas</p></td>
+<td><ul>    
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar suprote para domínios externos permitidos no Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurar suporte para domínios externos bloqueados no Lync Server 2013</a></p></li>    </ul></td>
+<td><p>Esse tipo de federação é a definição de uma relação um-para-um e não permite a descoberta de outros parceiros de federação. Cada parceiro de federação é configurado explicitamente. Nas versões anteriores, isso era conhecido como <strong>Federação direta</strong></p></td>
+</tr>
+<tr class="even">
+<td><p>Hospedando provedor e provedor de IM público</p></td>
+<td><p>Nenhum requisito específico de DNS é definido para esse tipo de federação</p></td>
+<td><ul>    
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar fornecedores SIP públicos federados no Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Criar ou editar provedores hospedados federados SIP no Lync Server 2013</a></p></li>   </ul></td>
     <td><p>Esse tipo de federação define os provedores de serviços e hospedagem que você deseja configurar para seus usuários. Os usos mais comuns incluem a configuração de provedores de IM públicos como Windows Live Messenger, Yahoo! e AOL, bem como provedores de hospedagem, como Lync Online e Office 365</p>
     <div class="alert">
     > [!IMPORTANT]  
     > <ul>    
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    
-> 
-> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>    
-> 
-> 
-> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li>    </ul>
+<li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    
+<li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>    
+<li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li>    </ul>
 
-    </div></td>
-    </tr>
-    </tbody>
-    </table>
+</div></td>
+</tr>
+</tbody>
+</table>
 
 
 2.  Defina e configure todos os hosts DNS exigidos (A ou AAAA para IPv6) e registros SRV de DNS

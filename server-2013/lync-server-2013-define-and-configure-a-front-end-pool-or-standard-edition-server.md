@@ -19,7 +19,6 @@ Este procedimento não exige associação a um grupo de administradores locais o
 
 Se você estiver implantando um servidor Enterprise, é necessário que haja um número mínimo de Servidores Front-End em execução no pool em todos os momentos. A tabela a seguir resume esses requisitos.
 
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -64,12 +63,8 @@ Se você estiver implantando um servidor Enterprise, é necessário que haja um 
 > Para Lync Server 2013, sempre que você adicionar ou remover um Servidor Front-End do pool, é necessário reiniciar os serviços. A remoção e adição de servidores devem ser feitas como operações separadas. Por exemplo, se você adicionar dois Servidores Front-End e remover dois Servidores Front-End, use o seguinte processo:<ol><li><p>Remova os dois servidores front-end.</p></li><li><p>Publique e reative a topologia.</p></li>
 > <li><p>Reinicie os serviços</p></li>
 > <li><p>Adicione os dois servidores front-end.</p></li>
-> 
 > <li><p>Publique e reative a topologia.</p></li>
-> 
-> 
 > <li><p>Reinicie os serviços.</p></li></ol>
-
 
 Após definir a topologia, execute o procedimento a seguir para definir um Pool de Front-Ends para o site. Para obter detalhes sobre a definição da topologia, consulte [Definir e configurar uma topologia no Construtor de Topologia para Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md).
 
@@ -84,23 +79,23 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
 4.  
     Na página **Selecionar recursos**, marque as caixas de seleção para os recursos que você deseja neste pool de front-ends. Por exemplo, se você estiver implantando somente mensagens instantâneas (IM) e recursos de presença, marque a caixa de seleção **Conferência** para permitir IM com várias partes, mas não marque as caixas de seleção **Conferência discada (PSTN)**, **Enterprise Voice** ou **Controle de Admissão de Chamadas**, porque representam recursos de conferência de voz, vídeo e colaboração.
     
-      - **Conferência** Esta seleção habilita um rico conjunto de recursos, incluindo:
+    - **Conferência** Esta seleção habilita um rico conjunto de recursos, incluindo:
         
-          - IM com mais de duas partes em uma sessão de mensagens instantâneas
+        - IM com mais de duas partes em uma sessão de mensagens instantâneas
         
-          - Conferência, que inclui a colaboração de documento, o compartilhamento de aplicativo e o compartilhamento de área de trabalho.
+        - Conferência, que inclui a colaboração de documento, o compartilhamento de aplicativo e o compartilhamento de área de trabalho.
         
-          - Conferência A/V, que permite que os usuários realizem conferências de áudio/vídeo (A/V) em tempo real sem a necessidade de serviços externos, como o serviço do Live Meeting ou uma ponte de áudio de terceiros.
+        - Conferência A/V, que permite que os usuários realizem conferências de áudio/vídeo (A/V) em tempo real sem a necessidade de serviços externos, como o serviço do Live Meeting ou uma ponte de áudio de terceiros.
     
-      - **Conferência (PSTN) discada**    Permite que os usuários participem da parte de áudio de uma conferência do Lync Server 2013 usando um telefone PSTN sem exigir um provedor de conferência de áudio.
+    - **Conferência (PSTN) discada**    Permite que os usuários participem da parte de áudio de uma conferência do Lync Server 2013 usando um telefone PSTN sem exigir um provedor de conferência de áudio.
     
-      - **Enterprise Voice**    Enterprise Voice é a solução VoIP (voz sobre solução IP) no Lync Server 2013 que permite aos usuários fazer e receber chamadas telefônicas. Você implanta esse recurso quando planeja usar o Lync Server 2013 para chamadas de voz, correio de voz e outras funções que usam um dispositivo de hardware ou um cliente de software.
+    - **Enterprise Voice**    Enterprise Voice é a solução VoIP (voz sobre solução IP) no Lync Server 2013 que permite aos usuários fazer e receber chamadas telefônicas. Você implanta esse recurso quando planeja usar o Lync Server 2013 para chamadas de voz, correio de voz e outras funções que usam um dispositivo de hardware ou um cliente de software.
     
-      - **Controle de admissão de chamada (CAC)**    O CAC determina, com base na largura de banda de rede disponível, se é permitido que as sessões de comunicações em tempo real (como chamadas de voz ou vídeo) sejam estabelecidas. Se você implantou apenas IM e presença, o CAC não é necessário porque nenhum destes dois recursos usam o CAC.
+    - **Controle de admissão de chamada (CAC)**    O CAC determina, com base na largura de banda de rede disponível, se é permitido que as sessões de comunicações em tempo real (como chamadas de voz ou vídeo) sejam estabelecidas. Se você implantou apenas IM e presença, o CAC não é necessário porque nenhum destes dois recursos usam o CAC.
     
-      - **Arquivamento**   O Arquivamento é um meio de arquivar conteúdo de IM, conferências (reuniões) ou ambos enviados pelo Lync Server 2013.
+    - **Arquivamento**   O Arquivamento é um meio de arquivar conteúdo de IM, conferências (reuniões) ou ambos enviados pelo Lync Server 2013.
     
-      - **Monitoramento**   O servidor de Monitoramento permite coletar dados que descrevem a qualidade da mídia na rede e nos pontos de extremidade, informações de uso relacionadas a chamadas VoIP, mensagens de IM, conversas A/V, compartilhamento de aplicativos e transferências de arquivos, além de informações de erros e solução de problemas de chamadas com falha.
+    - **Monitoramento**   O servidor de Monitoramento permite coletar dados que descrevem a qualidade da mídia na rede e nos pontos de extremidade, informações de uso relacionadas a chamadas VoIP, mensagens de IM, conversas A/V, compartilhamento de aplicativos e transferências de arquivos, além de informações de erros e solução de problemas de chamadas com falha.
     
     > [!NOTE]  
     > Se você deseja habilitar o CAC na implantação, é necessário habilitar o CAC em exatamente um pool por site central. O CAC é recomendado se você está implantando os recursos de voz ou conferência de A/V.    

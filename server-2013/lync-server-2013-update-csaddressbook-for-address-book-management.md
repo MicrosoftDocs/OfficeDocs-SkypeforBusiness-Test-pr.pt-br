@@ -9,9 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Update-CsAddressBook para Gerenciamento de catálogo de endereços
-
- 
+# Update-CsAddressBook para Gerenciamento de catálogo de endereços 
 
 _**Tópico modificado em:** 2012-11-01_
 
@@ -26,9 +24,12 @@ O cmdlet Update-CsAddressBook substitui o comando **abserver.exe –syncNow** do
 
 Por exemplo:
 
+```
     Update-CsAddressBook
-
+```
+```
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
 
 Para uma descrição detalhada do comando completo, consulte o seguinte na referência principal do Lync Server Windows PowerShell RTCCmdlets.
 

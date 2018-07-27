@@ -48,16 +48,16 @@ Habilitar a federação entre Microsoft Lync Server 2013, Lync Server 2010 e Off
        Para configuração manual da federação, você deve ter o FQDN do Servidor de Borda parceiro e o nome de domínio ou um nome de domínio online, que é inserido no Painel de Controle do Lync Server, **Acesso Externo e Federação**, **Domínios Federados SIP**. Crie uma política **Novo** ou **Edite** uma política existente para permitir ou bloquear domínios pelo FQDN.
         
 
-        > [!WARNING]
-        > A configuração manual de um Servidor de Borda parceiro de federação é propenso a falhar em casos onde o parceiro mude o endereço IP de seu Servidor de Borda.
+      > [!WARNING]
+      > A configuração manual de um Servidor de Borda parceiro de federação é propenso a falhar em casos onde o parceiro mude o endereço IP de seu Servidor de Borda.
 
         
-        > [!NOTE]  
-        > Para <strong>Novos domínios federados SIP</strong>, você deve fornecer o <strong>Nome de domínio (ou FQDN)</strong> para Microsoft Lync Online, Microsoft Office 365. Para o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server você também deve oferecer um <strong>Serviço de Borda de Acesso (FQDN)</strong>    
+      > [!NOTE]  
+      > Para <strong>Novos domínios federados SIP</strong>, você deve fornecer o <strong>Nome de domínio (ou FQDN)</strong> para Microsoft Lync Online, Microsoft Office 365. Para o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server você também deve oferecer um <strong>Serviço de Borda de Acesso (FQDN)</strong>    
        Para federação parceira descoberta, onde os parceiros podem descobrir seu Servidor de Borda, você cria um registro SRV em seu DNS externo - \_sipfederationtls.\_tcp.contoso.com – que aponta para a porta 5061 e o registro de host (A) do seu Servidor de Borda
         
-        > [!IMPORTANT]  
-        > Se você está suportando clientes do Microsoft Lync Mobile no Windows Phone ou Apple iPhone, iPad ou outro dispositivo da Apple e está usando o Serviços de Notificação por Push ou Serviços de Notificação por Push, você deve planejar por _sipfederationtls._tcp. <em>&lt;Domínio SIP&gt;</em> registros SRV para cada domínio SIP que você possui clientes do Lync Mobile. Android e Nokia Symbian Lync Mobile não usam notificações de push e não estão sujeitos a este requisito.
+      > [!IMPORTANT]  
+      > Se você está suportando clientes do Microsoft Lync Mobile no Windows Phone ou Apple iPhone, iPad ou outro dispositivo da Apple e está usando o Serviços de Notificação por Push ou Serviços de Notificação por Push, você deve planejar por _sipfederationtls._tcp. <em>&lt;Domínio SIP&gt;</em> registros SRV para cada domínio SIP que você possui clientes do Lync Mobile. Android e Nokia Symbian Lync Mobile não usam notificações de push e não estão sujeitos a este requisito.
 
   - Configure políticas de acesso do usuário externo para suportar domínios federados
 

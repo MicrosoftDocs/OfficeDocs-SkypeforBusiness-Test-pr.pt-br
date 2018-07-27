@@ -9,9 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Implantando o Enterprise Voice no Lync Server 2013
-
- 
+# Implantando o Enterprise Voice no Lync Server 2013 
 
 _**Tópico modificado em:** 2012-10-03_
 
@@ -75,19 +73,19 @@ Se você usou o Construtor de Topologias para definir e publicar um Servidor de 
 
    [Implantando recursos avançados de Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
-      - [Sobre regiões de rede, sites e subredes no Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [Sobre regiões de rede, sites e subredes no Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
-      - [Criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
     
-      - [Criar ou modificar um site da rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
+  - [Criar ou modificar um site da rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
     
-      - [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
     
-      - [Configurar controle de admissão de chamada no Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
+  - [Configurar controle de admissão de chamada no Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
     
-      - [Configurar 9-1-1 Avançado no Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Configurar 9-1-1 Avançado no Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
     
-      - [Configurar bypass de mídia no Lync Server 2013](lync-server-2013-configure-media-bypass.md)
+  - [Configurar bypass de mídia no Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
    [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 

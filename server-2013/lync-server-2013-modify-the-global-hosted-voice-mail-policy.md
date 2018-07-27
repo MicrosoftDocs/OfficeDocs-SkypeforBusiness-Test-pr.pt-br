@@ -34,8 +34,11 @@ Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](https://docs.mi
       - **Organização** especifica a lista separada por vírgulas dos inquilinos do Exchange que hospedam os usuários do Lync Server. Cada inquilino deve ser especificado como o FQDN daquele inquilino no serviço UM do Exchange hospedado.
     
     > [!NOTE]  
-    > No cmdlet de exemplo anterior, o valor “corp1.litwareinc.com” substitui qualquer valor que pode já estar presente no parâmetro Organização. Por exemplo, se a política já contém uma lista separada por vírgulas da organização, a lista completa seria substituída. Se deseja adicionar uma organização à lista ao invés de substituir toda a lista, execute um comando similar ao seguinte.    
+    > No cmdlet de exemplo anterior, o valor “corp1.litwareinc.com” substitui qualquer valor que pode já estar presente no parâmetro Organização. Por exemplo, se a política já contém uma lista separada por vírgulas da organização, a lista completa seria substituída. Se deseja adicionar uma organização à lista ao invés de substituir toda a lista, execute um comando similar ao seguinte. 
+
+      ```
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
         Set-CsHostedVoicemailPolicy -Organization $a.Organization
+      ```
 
