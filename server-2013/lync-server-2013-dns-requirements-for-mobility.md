@@ -95,7 +95,7 @@ Você precisa criar um dos seguintes registros DNS externos:
 <p>Resolve para hospedar o registro (A ou AAAA) do Serviço de Borda de Acesso</p></td>
 <td><p>Para suportar o Serviços de Notificação por Push e Serviços de Notificação por Push da Apple, você cria um registro SRV para cada domínio SIP que possui clientes do Microsoft Lync Mobile.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Este requisito é aplicável somente aos clientes do Microsoft Lync Mobile em dispositivos móveis baseados em Apple ou Microsoft. Dispositivos Android e Nokia Symbian não usam notificação de push.
 </div></td>
 </tr>
@@ -103,5 +103,5 @@ Você precisa criar um dos seguintes registros DNS externos:
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Lyncdiscover, também conhecido como descoberta automática; o tráfego passa pelo proxy reverso. O registro SRV aponta para um registro que é resolvido pelo Serviço de Borda de Acesso.

@@ -51,7 +51,7 @@ Você deve separar e distinguir os computadores executando o Microsoft SQL Serve
 
 O Construtor de Topologias exibirá a seguinte mensagem para informar deste problema: "O SQL server \[FQDN do servidor\] já contém uma instância do SQL hospedando a função 'Repositório do Usuário'."
 
-> [!note]  
+> [!NOTE]  
 > Se você pretende implantar funções do servidor novos para sua implantação do Lync Server 2013, deve primeiro atualizar sua implantação existente conforme descrito na documentação de Migração e de Implantação e implantar as novas funções do servidor conforme descrito na documentação de Planejamento e Implantação. Se estiver migrando de uma versão anterior do Chat de Grupo, migre por último, após concluir o processo para migrar todos os outros componentes do Lync Server 2010 ou Office Communications Server 2007 R2.
 
 Para requisitos de coexistência específicos e outros detalhes sobre a coexistência e migração do Lync Server 2010 ou Office Communications Server 2007 R2 e componentes do Lync Server 2013, consulte [Migração do Lync Server 2010 para o Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) e [Migração do Office Communications Server 2007 R2 para Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) na documentação de Migração. Para obter detalhes sobre a versão mista de suporte para clientes, consulte [Clientes com suporte de implantações anteriores no Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).

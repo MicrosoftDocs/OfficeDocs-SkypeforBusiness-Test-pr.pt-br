@@ -31,7 +31,7 @@ Ajude a aprimorar a segurança de dispositivos que executam o Lync Phone Edition
 
 6.  Em **Editar Configuração dos Dispositivos**, em **Bloqueio de Telefone**, selecione ou desmarque a caixa de seleção **Impor bloqueio de dispositivo** (selecionada por padrão) e especifique o tamanho mínimo do PIN (seis caracteres por padrão) e o período de tempo limite (10 minutos por padrão). Recomendamos usar esses padrões ou aumentar o tamanho do PIN e/ou reduzir o período de tempo limite.
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes, consulte <a href="lync-server-2013-enforce-phone-locking.md">Aplicar Bloqueio de Telefone</a>.
 
 ## Definir configurações de segurança para telefones do Lync Phone Edition usando os cmdlets do Shell de Gerenciamento do Lync Server

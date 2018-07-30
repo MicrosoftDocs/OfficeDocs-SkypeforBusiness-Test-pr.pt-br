@@ -37,7 +37,7 @@ Se um servidor que estiver executando uma das seguintes funções de servidor fa
 
 1.  Comece com um servidor novo ou limpo que tenha o mesmo FQDN (nome de domínio totalmente qualificado) que o servidor que falhou, instale o sistema operacional e restaure os certificados ou registre-os novamente.
     
-    > [!note]  
+    > [!NOTE]  
     > Siga os procedimentos de implantação de servidor de sua organização para executar essa etapa.
 
 2.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins, faça logon no servidor que você está restaurando.

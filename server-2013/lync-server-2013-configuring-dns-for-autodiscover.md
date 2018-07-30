@@ -39,7 +39,7 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
     
       - Para um DNS interno, na árvore de console do servidor DNS, expanda **Zonas de pesquisa direta** de seu domínio do Active Directory (por exemplo, contoso.local).
         
-        > [!note]  
+        > [!NOTE]  
         > Este é o domínio do Active Directory no qual seu pool do Lync Server 2013 Diretor e Pool de Front-Ends estão instalados.    
       - Para um registro DNS externo, na árvore de console do servidor DNS, expanda **Zonas de pesquisa direta** de seu domínio SIM (por exemplo, contoso.com).
 
@@ -57,7 +57,7 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
 
 6.  Para um registro DNS interno, na árvore de console do servidor de DNS, expanda **Zonas de pesquisa direta** de seu domínio SIP (por exemplo, contoso.com).
     
-    > [!note]  
+    > [!NOTE]  
     > Se você estiver criando um registro DNS externo, <strong>Zonas de pesquisa direta</strong> já estará expandido para o domínio SIP da etapa 3.
 
 7.  Clique com o botão direito do mouse no nome do domínio SIP e, depois, em **Novo Alias (CNAME)**.
@@ -74,9 +74,9 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
     
       - Para um registro DNS externo, digite ou procure o FQDN dos serviços Web externos de seu Pool de diretores (por exemplo, lyncwebextdir.contoso.com) e clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você não usar uma Diretor, use o FQDN dos serviços Web internos e externos do Pool de Front-Ends ou, para um único servidor, o FQDN da Servidor Front-End ou Servidor Standard Edition.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Você deve criar um novo registro CNAME de Descoberta Automática na zona de pesquisa direta de cada domínio SIP com suporte em seu ambiente do Lync Server 2013.
 
 ## Para criar registros DNS A
@@ -93,7 +93,7 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
     
       - Para um DNS interno, na árvore de console do servidor DNS, expanda **Zonas de pesquisa direta** de seu domínio do Active Directory (por exemplo, contoso.local).
         
-        > [!note]  
+        > [!NOTE]  
         > Este é o domínio do Active Directory no qual seu pool do Lync Server 2013 Diretor e Pool de Front-Ends estão instalados.    
       - Para um registro DNS externo, na árvore de console do servidor DNS, expanda **Zonas de pesquisa direta** de seu domínio SIM (por exemplo, contoso.com).
 
@@ -111,7 +111,7 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
 
 6.  Para um registro DNS interno, na árvore de console do servidor DNS, expanda **Zonas de pesquisa direta** de seu domínio SIP (por exemplo, contoso.com).
     
-    > [!note]  
+    > [!NOTE]  
     > Se você estiver criando um registro DNS externo, <strong>Zonas de pesquisa direta</strong> já estará expandido para o domínio SIP da etapa 3.
 
 7.  Clique com o botão direito do mouse no nome do domínio SIP e, então, em **Novo Host (A ou AAAA)**.
@@ -122,14 +122,14 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
     
       - Para um registro DNS externo, digite lyncdiscover como o nome do host da URL externa do serviço Descoberta Automática.
     
-    > [!note]  
+    > [!NOTE]  
     > O nome de domínio é presumido pela zona em que o registro está definido e, portanto, não precisa ser inserido como parte do registro A.
 
 9.  Em **Endereço IP**, digite o endereço IP conforme segue:
     
       - Para um registro DNS interno, digite o endereço IP dos serviços Web internos da Diretor (ou, se você usa um balanceador de carga, digite o VIP (IP virtual) do balanceador de carga da Diretor).
         
-        > [!note]  
+        > [!NOTE]  
         > Se você não usar um Diretor, digite o endereço IP do Servidor Front-End ou Servidor Standard Edition, ou se usar um balanceador de carga, digite VIP do balanceador do Pool de Front-Ends.    
       - Para um registro DNS externo, digite o endereço IP externo ou público do proxy reverso.
 
@@ -137,7 +137,7 @@ Os registros DNS podem ser registros A (host) ou CNAME, com base em sua capacida
 
 11. Para criar um registro A adicional, repita as etapas de 8 a 10.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Você deve criar novos registros A lyncdiscover e lyncdiscoverinternal na zona de pesquisa direta de cada domínio SIP com suporte no ambiente do Lync Server 2013.
 
 12. Quando terminar de criar os registros A (para IPv6, AAAA), clique em **Concluído**.

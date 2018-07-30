@@ -46,7 +46,7 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 <p>Para Microsoft Exchange Server 2010, consulte &quot; Criar um Plano de Discagem da UM&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
 <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;Como criar um plano de discagem URI de SIP de Unificação de Mensagens&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li><li><p>Crie um ou mais planos de discagem correspondentes do Lync Server, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">Criar um plano de discagem no Lync Server 2013</a>.</p>
 
-> [!important]  
+> [!IMPORTANT]  
 > Se você estiver utilizando uma versão do Exchange que seja anterior ao Microsoft Exchange Server 2010 SP1, é necessário inserir o FQDN (nome de domínio totalmente qualificado) do plano de discagem de SIP correspondente do Unificação de Mensagens (UM) do Exchange no campo <strong>Nome simples</strong> do plano de discagem do Lync Server 2013. Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou service pack mais recente, essa correspondência de nome de plano de discagem não é necessária.
 
 </li><li><p>Crie um atendedor automático e certifique-se que o número de acesso do assinante e o número do atendedor automático estejam no formato E.164.</p></li></ul></td>
@@ -67,22 +67,22 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 
 5.  Na caixa **Contato**, aceite a unidade organizacional padrão ou clique em **Procurar** para iniciar o **Seletor de UO**. Na caixa **Seletor de UO**, você pode selecionar uma UO e clicar em **OK**, ou pode clicar em **Criar Nova UO** para criar uma nova unidade organizacional na raiz ou em qualquer outra UO do domínio (por exemplo, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"); em seguida, clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > O nome diferenciado (DN) da UO selecionada ou criada será agora exibido na caixa <strong>Unidade Organizacional</strong>.
 
 6.  Na caixa **Nome**, aceite o nome padrão do plano de discagem ou digite um novo nome de exibição para o objeto de contato que você está criando.
     
-    > [!note]  
+    > [!NOTE]  
     > Por exemplo, se estiver criando um objeto de contato de acesso do assinante, bastará nomeá-lo como Acesso do Assinante.
 
 7.  Na caixa **Endereço SIP**, aceite o endereço SIP padrão ou digite um novo endereço SIP.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você digitar um novo endereço SIP, ele deve começar com <strong>SIP:</strong> (isto é, &quot;SIP:&quot; incluindo os dois pontos).
 
 8.  Na lista **Servidor ou Pool**, selecione o servidor do Standard Edition ou o Pool de Front-Ends no qual o objeto de contato será habilitado.
     
-    > [!note]  
+    > [!NOTE]  
     > Preferencialmente, o pool selecionado é o mesmo em que os usuários habilitados para Enterprise Voice e UM do Exchange estão implantados.
 
 9.  Na lista **Número de Telefone**, selecione **Insira o número de telefone** ou **Usar este número piloto do UM do Exchange** e digite um número de telefone.
@@ -91,7 +91,7 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 
 11. Repita as etapas de 1 a 10 para outros objetos de contato que você deseje criar.
     
-    > [!note]  
+    > [!NOTE]  
     > Você deve criar pelo menos um contato para cada atendedor automático. Se desejar acesso externo, você também precisará de um contato Acesso do Assinante e terá que especificar números DID (discagem direta interna).
 
 Para verificar se os objetos de contato foram criados, abra Usuários e Computadores do Active Directory e selecione a UO na qual os objetos foram criados. Os objetos de contato devem aparecer no painel de detalhes.

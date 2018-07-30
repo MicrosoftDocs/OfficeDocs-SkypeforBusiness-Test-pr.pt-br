@@ -142,7 +142,7 @@ Se o valor padrão de UseNormalizationRules for definido como Falso, de forma qu
     
       - Se sua implantação incluir uma combinação de Lync Server 2013 e Lync Server 2010 ou Office Communications Server 2007 R2, execute o cmdlet a seguir e atribua-o a cada pool do Lync Server 2013 na topologia:
         
-            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Espere para que a replicação de CMS ocorra em todos os pools.
 
@@ -338,9 +338,12 @@ Para solucionar esse problema, atualize o registro do sistema antes de instalar 
 
 1.  Execute o Windows PowerShell e os seguintes cmdlets:
     
+    ```
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
+    ```
+    ```    
         $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Para exibir o valor atual, execute o seguinte cmdlet:
     
@@ -506,7 +509,7 @@ Para forçar uma atualização para a versão mais recente do plug-in de compart
 
 ## Em alguns casos, um cliente do Lync em execução em um computador configurado para usar uma pilha dupla de IPv4 e IPv6 poderá não ter suporte a recursos baseados na sub-rede IP do computador, como E911, Desvio de Mídia, Controle de Admissão de Chamadas e Roteamento com Base no Local (3335508)
 
-> [!note]  
+> [!NOTE]  
 > A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
@@ -563,7 +566,7 @@ Essa solução exibirá corretamente o status de Presença dos usuários hospeda
 
 ## Um chamador pode ouvir um segundo de música em espera durante o estabelecimento de uma chamada com a parte de recuperação (3334097)
 
-> [!note]  
+> [!NOTE]  
 > A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
@@ -648,7 +651,7 @@ Não há nenhuma solução alternativa para este problema. A chamada estacionada
 
 ## Limitações da Ferramenta de Planejamento (3331056 e 3331059)
 
-> [!note]  
+> [!NOTE]  
 > A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**
@@ -739,7 +742,7 @@ O parâmetro *DropExistingDatabasesOnMirror* faz com que os banco de dados afeta
 
 3.  Publique a topologia.
 
-> [!important]  
+> [!IMPORTANT]  
 > Sempre que você fizer uma alteração em uma relação de espelhamento de banco de dados de backend, será necessário reiniciar todos os Servidores Front-End no pool.
 
 ## Erros de validação são retornados no Construtor de Topologias quando um administrador tenta remover uma implantação com um pool de front end que tenha um armazenamento testemunha associado (3199266)
@@ -802,7 +805,7 @@ Para solucionar esse problema, atualize a página do Painel de Controle do Lync 
 
 ## A indexação no Catálogo de Endereços não funciona como esperado em alguns idiomas (3336047)
 
-> [!note]  
+> [!NOTE]  
 > A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 Se as propriedades de um usuário contiverem um campo indexado, e se esse campo contiver somente caracteres que não possam ser indexados, então o usuário não aparecerá em pesquisas realizadas no Catálogo de Endereços.
@@ -853,7 +856,7 @@ Se desejar selecionar um idioma com um local neutro, certifique-se sempre de adi
 
 ## Há um suporte limitado para localidades Azeri e Uzbeque ao usar o Programador do Lync Web, a Discagem, o Iniciador de Ingresso, o Gerenciamento de Sala de Chat Persistente e OCTab em alguns navegadores da Web (3336748)
 
-> [!note]  
+> [!NOTE]  
 > A informação nesta seção está relacionada às Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
 
 **Problema:**

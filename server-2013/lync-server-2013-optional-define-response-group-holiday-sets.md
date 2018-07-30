@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2014-02-07_
 
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
 
-> [!note]  
+> [!NOTE]  
 > Se um fluxo de trabalho for definido como um fluxo de trabalho gerenciado, então qualquer usuário que estiver atribuído à função CsResponseGroupManager poderá definir e modificar feriados para fluxos de trabalho que eles gerenciam.
 
 ## Para criar um conjunto de feriados

@@ -23,7 +23,7 @@ O Lync Server dá suporte às seguinte três URLs simples: Meet, Dial-In e Admin
 
 Na Opção 1, você cria uma nova URL de base para cada URL simples.
 
-> [!note]  
+> [!NOTE]  
 > Quando um usuário clica no link de reunião de uma URL simples, o servidor que o registro do DNS A resolve determina o software do cliente correto para iniciar. Depois que o software de cliente é iniciado, ele se comunica automaticamente com o pool em que a conferência está hospedada. Assim, os usuários são encaminhados ao servidor apropriado para o conteúdo da reunião, independente do servidor ou pool para o qual os registros de DNS A da URL resolvem.
 
 ### Opção 1 de URL simples
@@ -152,7 +152,7 @@ Para fazer essa configuração, crie dois endereços de GeoDNS. Cada endereço c
 
 Em seguida, crie registros CNAME que decomponham sua URL simples Meet (como meet.contoso.com) nos dois endereços de GeoDNS.
 
-> [!note]  
+> [!NOTE]  
 > Se sua rede usar <em>grampeamento</em> (roteamento de todo o tráfego de URLs simples pelos links externos, inclusive o tráfego que vem de dentro de sua organização), será possível simplesmente configurar os endereços de GeoDNS externos e decompor sua URL simples Meet apenas nesses endereços externos.
 
 Quando esse método é usado, é possível configurar cada endereço de GeoDNS para usar um método de round robin e distribuir solicitações nos dois pools ou para fazer a conexão principalmente com um pool (como o pool localizado geograficamente mais perto) e usar o outro pool apenas em caso de falhas de conectividade.

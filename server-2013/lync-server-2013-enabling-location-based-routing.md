@@ -132,23 +132,23 @@ Para este exemplo, os comandos do Windows PowerShell a seguir ilustram a criaç�
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Assim que uma configuração de tronco for configurada por tronco, você poderá usar o comando do Lync ServerWindows PowerShell, set-cstrunkconfiguration, para habilitar o Roteamento com Base no Local para seus troncos que devem impor restrições de roteamento. Habilite o Roteamento com Base no Local para troncos que roteiem chamadas para gateways de PSTN que roteiem chamadas para PSTN e associe o site de rede onde o gateway está localizado.
+Assim que uma configuração de tronco for configurada por tronco, você poderá usar o comando do Lync ServerWindows PowerShell, Set-CsTrunkConfiguration, para habilitar o Roteamento com Base no Local para seus troncos que devem impor restrições de roteamento. Habilite o Roteamento com Base no Local para troncos que roteiem chamadas para gateways de PSTN que roteiem chamadas para PSTN e associe o site de rede onde o gateway está localizado.
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Para obter mais informações, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Neste exemplo, o Roteamento com Base no Local é habilitado para cada tronco associado a gateways de PSTN em Délhi e em Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 Não habilite o Roteamento com Base no Local para troncos que não roteiem chamadas à PSTN; você ainda deverá associar o tronco ao site de rede onde o sistema está localizado à medida que restrições do Roteamento com Base no Local tenham de ser impostas para chamadas de PSTN que estejam chegando a pontos de extremidade conectados por meio desse tronco. Para este exemplo, o Roteamento com Base no Local não está habilitado para cada tronco associado a sistemas PBX em Délhi e em Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Pontos de extremidade que estejam conectados a sistemas que não roteiem chamadas para o PSTN (isto é, um PBX) terão restrições semelhantes aos pontos de extremidade do Lync de usuários habilitados para o Roteamento com Base no Local. Isso significa que esses usuários poderão fazer e receber chamadas de e para um usuário do Lync, independentemente do local do usuário. Eles também poderão fazer e receber chamadas de e para outros sistemas que não roteiem chamadas para a rede PSTN (isto é, um ponto de extremidade conectado a um PBX diferente) independentemente do site de rede ao qual o sistema está associado. Todas as chamadas de entrada, chamadas de saída, transferências de chamada e encaminhamento de chamada envolvendo pontos de extremidade de PSTN estarão sujeitas a imposições do Roteamento com Base no Local. Tais chamadas deverão usar somente gateways de PSTN definidos como locais para tais sistemas.
@@ -251,7 +251,7 @@ Por fim, habilite globalmente o Roteamento com Base no Local para sua configura�
 
 Para obter mais informações, consulte [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
-> [!note]  
+> [!NOTE]  
 > embora o Roteamento com Base no Local deva ser habilitado via configuração global, o conjunto de regras a ser aplicado só será imposto aos sites, usuários e troncos para os quais ele foi configurado como especificado nesta documentação.
 
 

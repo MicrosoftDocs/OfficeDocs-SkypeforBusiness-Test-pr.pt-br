@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 Siga estas etapas para excluir uma política de PIN (número de identificação pessoal).
 
-> [!note]  
+> [!NOTE]  
 > Não é possível excluir a política PIN global.
 
 ## Para excluir uma política de PIN em Painel de Controle do Lync Server 2013

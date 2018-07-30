@@ -19,10 +19,10 @@ A federação é um relacionamento de confiança entre dois ou mais domínios SI
 
 Utilize os procedimentos a seguir para realizar a transição da rota de federação e de tráfego de mídia do seu Diretor e Servidor de Borda Office Communications Server 2007 R2 para o seu Servidor de Borda Lync Server 2013, para implantação em um único site.
 
-> [!important]  
+> [!IMPORTANT]  
 > A alteração da rota de federação e de tráfego de mídia exige o agendamento de tempo e inatividade de manutenção dos Servidores de Borda Lync Server 2013 e Office Communications Server 2007 R2. Todo este processo de transição também significa que o acesso federado estará indisponível durante a interrupção. Você deve agendar o tempo de inatividade para um período em que você espera mínima atividade do usuário. Você também deve fornecer notificações suficientes para os seus usuários finais. Planeje conforme o especificado para esta interrupção e defina as expectativas apropriadas na sua organização.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se o seu Servidor de Borda Office Communications Server 2007 R2 herdado está configurado para usar o mesmo FQDN para os serviços de Borda de Acesso, Borda de Webconferência e Borda A/V, os procedimentos desta seção para realizar a transição das configurações de federação para um Servidor de Borda Lync Server 2013 não são suportadas. Se os serviços de borda herdados estão configurados para usar o mesmo FQDN, você deve primeiro migrar todos os seus usuários do Office Communications Server 2007 R2 para o Lync Server 2013, e depois desativar o Servidor de Borda Office Communications Server 2007 R2 antes de ativar a federação no Servidor de Borda Lync Server 2013. Para obter mais informações, consulte os seguintes tópicos:<ul>
 > 
 > <li><p><a href="move-remaining-users-to-lync-server-2013_1.md">Mover os usuários restantes para o Lync Server 2013</a></p></li>
@@ -31,7 +31,7 @@ Utilize os procedimentos a seguir para realizar a transição da rota de federa�
 > <li><p>&quot;Remover Servidores e Funções de Servidores&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</a></p></li></ul>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Se sua federação XMPP é roteada através de um Servidor de Borda Lync Server 2013, os usuários do Office Communications Server 2007 R2 herdado não poderão se comunicar com o parceiro XMPP federado até que todos os usuários tenham sido movidos para o Lync Server 2013, até que as políticas XMPP e certificados tenham sido configurados, até que o parceiro XMPP federado tenha sido configurado no Lync Server 2013 e, finalmente, até que as entradas de DNS tenham sido atualizadas.
 
 Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou remover uma função de servidor, você deve estar conectado como um usuário membro dos grupos RTCUniversalServerAdmins e Administradores de Domínio. Também é possível delegar os direitos e permissões apropriados de usuário para adição de funções de servidor. Para obter detalhes, consulte [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) na documentação Implantação do servidor Standard Edition ou do servidor Enterprise Edition. Para fazer outras alterações na configuração, apenas a associação ao grupo RTCUniversalServerAdmins é necessária.
@@ -72,7 +72,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 5.  Em **Especificar Borda Externa**, desmarque a caixa de seleção **Este pool de Borda é usado para conectividade de IM pública e de federação**. Essa ação removerá a associação de federação com o BackCompatSite.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Esta etapa é importante. É necessário desmarcar essa opção para remover a associação de federação herdada.
 
 6.  Clique em **Avançar** e aceite as configurações padrão das páginas restantes do assistente.
@@ -119,7 +119,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 2.  Expanda o nó, clique com o botão direito do mouse no Servidor de Borda listado e clique em **Editar Propriedades**.
     
-    > [!note]  
+    > [!NOTE]  
     > A federação só pode ser habilitada para um único Pool de borda. Se você tiver múltiplos servidores de Borda, selecione um para usar como o Pool de borda de federação.
 
 3.  Na página **Geral**, marque a caixa de seleção **Habilitar federação para este pool de Borda (Porta 5061)**.
@@ -164,7 +164,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 3.  Aguarde que a replicação do Active Directory ocorra em todos os pools na implantação.
     
-    > [!note]  
+    > [!NOTE]  
     > Poderá ser exibido a seguinte mensagem:<br />    <strong>Aviso: a topologia contém mais de um Servidor de Borda Federado. Isso pode ocorrer durante a migração para uma versão superior do produto. Nesse caso, somente um Servidor de Borda seria ativamente usado para federação. Verifique se o registro SRV DNS externo aponta para o Servidor de Borda correto. Se desejar que vários Servidores de Borda de federação permaneçam ativos simultaneamente (isto é, não em um cenário de migração), verifique se todos os parceiros federados estão usando o Office Comunications Server 2007 R2 ou superior e certifique-se de que o registro SRV DNS externo liste todos os Servidores de Borda ativamente para federação.</strong><br />    Esse aviso é esperado e pode ser ignorado com segurança.
 
 ## Para verificar o acesso remoto e de federação para usuários externos
@@ -189,7 +189,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 2.  Atualize as funções de roteamento do firewall externo ou as configurações do balanceador de carga de hardware para enviar tráfego SIP para acesso externo (geralmente, a porta 443) e federação (geralmente, a porta 5061) para o Lync Server 2013  Servidor de Borda, em vez do Servidor de Borda herdado.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você não tem um balanceador de carga de hardware, você precisa atualizar o registro A do DNS para a federação resolver o novo servidor de borda de acesso do Lync Server. Para realizar essa tarefa com o mínimo de interrupção, reduza o valor de TTL do FQDN da Borda de Acesso do Lync Server externo para que quando o DNS for atualizado para apontar para a nova Borda de Acesso do Lync Server, a federação e o acesso remoto sejam atualizado rapidamente.
 
 3.  Em seguida, interrompa a **Borda de Acesso do Servidor do Lync Server** de cada computador do Servidor de Borda.

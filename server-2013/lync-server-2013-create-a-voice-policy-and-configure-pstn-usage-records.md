@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-11-01_
 
 Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar uma política de voz, consulte [Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) para ver o procedimento.
 
-> [!note]  
+> [!NOTE]  
 > Cada política de voz precisa ter pelo menos um registro de uso de PSTN (Rede Telefônica Pública Comutada) associada. Para ver uma lista de todos os registros de uso de PSTN disponível em sua implantação do Enterprise Voice e ver suas propriedades, consulte <a href="lync-server-2013-view-pstn-usage-records.md">Exibir registros de uso PSTN no Lync Server 2013</a>.
 
 ## Para criar uma política de voz
@@ -36,7 +36,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
 
 5.  Se o escopo da política de voz for Usuário, digite um nome descritivo para a política no campo **Nome**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o escopo da política de voz for Site, o campo <strong>Nome</strong> na <strong>Nova Política de Voz</strong> será pré-preenchido com o nome do site e não poderá ser alterado.
 
 6.  (Opcional) Insira informações descritivas adicionais para a política de voz.
@@ -45,7 +45,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
     
       - **Escape de caixa postal** impede que chamadas sejam imediatamente encaminhadas ao sistema de caixa postal do telefone celular do usuário quando o toque simultâneo estiver configurado e o telefone estiver desligado, sem bateria, ou fora de área.
         
-        > [!note]  
+        > [!NOTE]  
         > Este recurso é configurável apenas através do Shell de Gerenciamento do Lync Server    
       - **Encaminhamento de chamadas** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. O Lync Server 2013 oferece uma gama significativamente maior de opções de configuração de encaminhamento de chamadas. Por exemplo, se uma organização não deseja permitir que chamadas de entrada sejam encaminhadas externamente à PSTN, um administrador por aplicar uma política especial de voz para implantar esta restrição. Habilitado por padrão.
     
@@ -63,7 +63,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
     
       - **Substituição da política de largura de banda** permite que os administradores substituam as decisões da política de controle de admissão de chamada para um usuário específico. Desabilitada por padrão.
         
-        > [!note]  
+        > [!NOTE]  
         > A política será substituída somente para chamadas de entrada para o usuário e não para chamadas de saída feitas pelo usuário. Após o estabelecimento da sessão, o consumo de largura de banda será registrado de forma precisa. Essa configuração deve ser usada com moderação e deve ser reservado em prol de decisões apropriadas de controle de chamada.    
       - **Rastreamento de chamada mal-intencionada** permite que os usuários reportem chamadas mal intencionadas (como ameaças de bomba) usando a UI do cliente, o que por sua vez marca as chamadas nos CDRs (registros de detalhe da chamada). Desabilitado por padrão.
 
@@ -79,7 +79,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
         
         2.  No campo **Nome**, digite um nome descritivo para o registro. Por exemplo, convém criar um registro de uso PSTN chamado **Redmond** para funcionários em tempo integral localizados em Redmond e outro chamado **RedmondTemps** para funcionários temporários.
             
-            > [!note]  
+            > [!NOTE]  
             > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo <strong>Nome</strong> não pode ser editado.        
         3.  Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
             
@@ -111,7 +111,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
 
 9.  Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, realce o nome de registro e clique na seta para cima ou para baixo.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A ordem na qual PSTN registros de uso são listados na diretiva de voz é significativa. Lync Serverpercorre a lista de cima para baixo. Recomendamos que você organize a lista por freqüência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 10. Para associar e configurar registros de uso do PSTN para enchaminhamento de chamadas e toque simultâneo nesta política de voz, execute um destes procedimentos:
@@ -132,7 +132,7 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
             
             2.  No campo **Nome**, digite um nome descritivo para o registro.
                 
-                > [!note]  
+                > [!NOTE]  
                 > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo <strong>Nome</strong> não pode ser editado.            
             3.  Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
                 
@@ -164,14 +164,14 @@ Siga essas etapas se quiser criar uma nova política de voz. Se quiser editar um
 
 11. (Opcional) Insira um número para testar a política de voz e clique em **Ir** . Os resultados do teste são exibidos em **Número convertido para fazer um teste**.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível salvar uma política de voz que não passou ainda no teste e reconfigurá-la mais tarde. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.
 
 12. Clique em **OK**.
 
 13. Na página **Política de Voz**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que você criar ou modificar uma política de voz, será necessário executar o comando <strong>Confirmar tudo</strong> para publicar a alteração de configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação Operações.
 
 14. (Opcional) O Escape de Caixa Postal detecta que uma chamada foi imediatamente atendida pela caixa postal do celular do usuário e desconecta a chamada da caixa postal de telefone celular. Isso permite que uma chamada continue a tocar nos outros pontos de extremidade do usuário, dando ao usuário a oportunidade de atender uma chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurando escape da caixa postal no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).

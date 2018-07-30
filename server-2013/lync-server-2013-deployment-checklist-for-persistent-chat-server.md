@@ -84,5 +84,5 @@ A tabela a seguir lista as etapas básicas para implantar o Servidor de Chat Per
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Você pode implantar um ou mais Pools de Servidor de Chat Persistente. Nós oferecemos suporte a vários Pools de Servidor de Chat Persistente por motivos regulatórios pelos quais os dados gerados em determinada região são parte dessa região. Por exemplo, se você implantar um Pool de Servidor de Chat Persistente em Chicago e outro em Zurique para que sejam compatíveis com os regulamentos de dados na Suíça, os usuários podem se conectar a salas em ambos os Pools de Servidor de Chat Persistente, considerando que tenham acesso.

@@ -33,7 +33,7 @@ Os casos de teste, que podem ser criados com o uso do Painel de Controle do Lync
 
 6.  Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que você importa um arquivo .vtest, deve executar o comando <strong>Confirmar todos</strong> para publicar o caso de teste. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de operações.
 
 ## Consulte Também

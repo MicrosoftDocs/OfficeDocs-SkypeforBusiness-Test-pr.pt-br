@@ -60,7 +60,7 @@ As configurações de QoE podem ser criadas no Painel de Controle do Lync Server
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > O cmdlet New-CsQoEConfiguration inclui opções adicionais não disponíveis no Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico de ajuda <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.
 
 ## Para criar configurações de QoE usando o Painel de Controle do Lync Server

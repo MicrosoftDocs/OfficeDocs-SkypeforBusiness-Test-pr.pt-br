@@ -45,7 +45,7 @@ Use um dos seguintes procedimentos para excluir um intervalo de números não at
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Para detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Consulte Também

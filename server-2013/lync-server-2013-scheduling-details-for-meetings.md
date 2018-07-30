@@ -27,7 +27,7 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
     
       - Se a reunião for somente interna, defina o tipo de acesso à reunião como **Para qualquer pessoa de minha organização**.
         
-        > [!note]  
+        > [!NOTE]  
         > Evite definir o tipo de acesso à reunião como <strong>Pessoas que eu convidar da minha empresa</strong>, pois quando essa configuração é usada, os organizadores devem adicionar os endereços de email de todos os usuários à lista de convidados e você não pode convidar um grupo de distribuição.<br />        Evite definir o tipo de acesso à reunião como <strong>Apenas eu, o organizador da reunião</strong>, pois esta configuração exige que todos os participantes da reunião, inclusive apresentadores, sejam colocados no saguão no tempo de execução da reunião. A pessoa responsável pela execução da grande reunião deverá monitorar a escalação do saguão e aceitar os novos usuários que estão no saguão.
 
   - Permita que usuários ligando de telefones entrem na reunião automaticamente marcando a configuração **Chamadores entram diretamente**.
@@ -38,7 +38,7 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
     
       - A lista de apresentadores fornecida pelo solicitante da reunião
     
-    > [!note]  
+    > [!NOTE]  
     > Se o tipo de acesso à reunião estiver definido como <strong>Pessoas que eu escolher</strong>, será preciso adicionar explicitamente cada participante da grande reunião como convidado da reunião.
 
   - Gerencie explicitamente os apresentadores, em vez de definir a opção de apresentador como um dos valores promovidos automaticamente. Certifique-se de adicionar os seguintes usuários como apresentadores:
@@ -47,7 +47,7 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
     
       - A lista de apresentadores fornecida pelo solicitantes da grande reunião
     
-    > [!note]  
+    > [!NOTE]  
     > Ao gerenciar explicitamente os apresentadores, é possível controlar o número de apresentadores para que você possa limitá-los a um número pequeno o suficiente para que seja possível conduzir uma grande reunião eficiente. Se a maioria dos participantes da reunião tiverem a função de participante, isso ajudará a reduzir as chances de alguém acidentalmente assumir o controle da apresentação, excluindo a apresentação do PowerPoint, ativando/desativando o áudio dos apresentadores e outras interrupções na reunião.
 
   - Marque a configuração **Desativar o áudio de todos os participantes** para assegurar que apenas os apresentadores possam transmitir áudio para a reunião.

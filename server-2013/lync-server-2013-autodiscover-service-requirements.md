@@ -49,7 +49,7 @@ Por exemplo, presuma que um cliente móvel que execute o Lync Mobile esteja conf
     
     Neste cenário, não há alterações necessárias para dar suporte à mobilidade.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o servidor Web de destino possuir um certificado que não tenha um valor de correspondência para lyncdiscover.contoso.com como um valor de lista de nome alternativo de entidade:<br />    a.   O servidor Web responde com uma “Saudação de Servidor” e nenhum certificado.<br />    b.   O dispositivo móvel que executa o Lync Mobile encerra a sessão imediatamente.<br />    Se o servidor da Web de destino tiver um certificado que inclui lyncdiscover.contoso.com como valor de lista de nome alternativo de entidade:<br />    a.   O servidor Web responde com uma “Saudação de Servidor” e um certificado.<br />    b.   O dispositivo móvel que executa o Lync Mobile valida o certificado e completa o aperto de mãos.
 
 Para dar suporte a uma conexão inicial ao serviço de descoberta automática usando a porta 80 no seu servidor de proxy reverso, você pode criar uma regra de publicação de http semelhante a este exemplo para uma regra de publicação de proxy reverso do Forefront Threat Management Gateway 2010:

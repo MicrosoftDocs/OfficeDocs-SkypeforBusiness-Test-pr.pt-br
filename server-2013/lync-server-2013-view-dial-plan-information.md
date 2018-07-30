@@ -27,7 +27,7 @@ Para exibir informações de um plano de discagem existente, realize as etapas n
 
 4.  Na página **Plano de Discagem**, dê um duplo clique no nome de um plano de discagem.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível exibir informações para apenas um plano de discagem por vez.
 
 ## Exibir planos de discagem usando cmdlets do Windows PowerShell

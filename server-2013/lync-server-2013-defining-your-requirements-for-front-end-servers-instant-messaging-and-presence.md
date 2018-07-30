@@ -27,9 +27,9 @@ A principal tarefa do planejamento para mensagem instantânea (IM) e presença �
 
   - **Usuários públicos**   Usuários de serviços de IM pública, como serviços de IM fornecidos pela rede do Windows Live de serviços de Internet, Yahoo\! e AOL e usuários de provedores e servidores que usam o XMPP (Extensible Messaging and Presence Protocol), como Google Talk e Jabber.
     
-    > [!note]  
+    > [!NOTE]  
     > Observe que talvez seja necessário ter uma licença separada para conectividade de IM pública com o Windows Live, AOL e Yahoo!    
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    
 > 

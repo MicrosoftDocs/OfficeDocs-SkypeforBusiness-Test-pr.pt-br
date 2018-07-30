@@ -41,7 +41,7 @@ Você pode executar todos os casos de teste no seu pacote de casos de teste de r
     
     5.  **Primeiro roteamento:** O primeiro roteamento de voz no primeiro registro de uso do PSTN que corresponde o número discado.
         
-        > [!note]  
+        > [!NOTE]  
         > Os campos <strong>Registro de uso PSTN esperado</strong> e <strong>Roteamento esperado</strong> são opcionais na configuração do caso de teste de roteamento de voz. Se o caso de teste não especificar estes valores, o campo correspondente nos resultados de teste estarão vazios.
 
 ## Para executar um ou mais casos de teste de roteamento de voz selecionados
@@ -70,7 +70,7 @@ Você pode executar todos os casos de teste no seu pacote de casos de teste de r
     
     5.  **Primeiro roteamento:** O primeiro roteamento de voz no primeiro registro de uso do PSTN que corresponde o número discado.
         
-        > [!note]  
+        > [!NOTE]  
         > Os campos <strong>Registro de uso PSTN esperado</strong> e <strong>Roteamento esperado</strong> são opcionais na configuração do caso de teste de roteamento de voz. Se o caso de teste não especificar estes valores, o campo correspondente nos resultados de teste estarão vazios.
 
 ## Consulte Também

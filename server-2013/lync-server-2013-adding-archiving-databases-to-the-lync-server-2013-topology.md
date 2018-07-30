@@ -17,14 +17,14 @@ _**Tópico modificado em:** 2012-10-10_
 
 É necessário incorporar o arquivamento à sua topologia antes de poder configurar sua implantação para suportar o arquivamento. As informações neste tópico explicam como usar o Construtor de Topologias para adicionar o arquivamento à sua topologia existente.
 
-> [!note]  
+> [!NOTE]  
 > Se você quiser usar a integração do Microsoft Exchange para armazenar dados de arquivamento e arquivos nos servidores do Exchange 2013 para todos seus usuários em sua implantação, não especifique informações do <strong>Repositório do SQL Server de Arquivamento</strong> ou <strong>Usar espelhamento do SQL Server Store</strong>.
 
 ## Para adicionar suporte ao banco de dados de Arquivamento à sua topologia
 
 1.  Em um computador que está executando o Lync Server 2013 ou no qual as ferramentas administrativas do Lync Server estão instaladas, faça logon usando uma conta membro do grupo local Usuários (ou uma conta com direitos de usuário equivalentes).
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode definir uma topologia usando uma conta membro do grupo local Usuários, mas para publicar uma topologia, o que é necessário para adicionar um servidor à topologia, você precisa usar uma conta membro do grupo <strong>Admins. de Domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong> e ter permissões de controle total (ou seja, leitura, gravação e modificação) no compartilhamento de arquivo que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, para que o Construtor de Topologias possa configurar as DACLs [lista de controle de acesso discricionário] necessárias), ou uma conta com direitos equivalentes.
 
 2.  Inicie o Construtor de Topologias.

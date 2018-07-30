@@ -19,7 +19,7 @@ Os dispositivos de conferência trazem recursos do Lync Phone Edition para as sa
 
 Use os tópicos desta seção para saber como configurar e gerenciar seus dispositivos de conferência.
 
-> [!note]  
+> [!NOTE]  
 > Para obter mais informações sobre os dispositivos de conferência com suporte para uso com o Lync Server 2013, consulte a página da Web <a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Telefones e dispositivos qualificados para o Microsoft Lync</a>.
 
 ## Nesta seção

@@ -21,21 +21,21 @@ O agrupamento do SQL Server deve ser criado e configurado antes da instalação 
 
 Ao instalar o SQL Server, o SQL Server Management Studio deve ser instalado para gerenciar os locais de bases de dados e arquivos de log. O SQL Server Management Studio é instalado como componente opcional quando da instalação do SQL Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Para instalar e implantar as bases de dados no servidor de SQL Server, é preciso ser um membro do grupo sysadmin do SQL Server no servidor de SQL Server onde os arquivos de bases de dados estão sendo instalados. Se você não é um membro do grupo sysadmin do SQL Server, é necessário solicitar ao grupo que lhe adicione até que os arquivos de base de dados sejam implantados. Se não for possível se tornar um membro do grupo sysadmin, forneça o script de configuração e implantação das bases de dados ao seu administrador de bases de dados do SQL Server. Para saber mais sobre direitos e permissões necessários para concluir procedimentos, veja <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Permissões de implantação para Servidor SQL no Lync Server 2013</a>.
 
 ## Para configurar o agrupamento no SQL Server
 
 1.  Depois de completar a instalação e configuração do agrupamento no SQL Server, defina o armazenamento do SQL Server no Construtor de Topologia usando uma instância de nome de cluster virtual no SQL Server (como configurado nas definições para agrupamento de SQL Server) e uma instância de nomes da base de dados do SQL Server. Diferentemente de um único Servidor SQL Server, você usará o nó do nome de domínio totalmente qualificado (FQDN) para um agrupamento de Servidor SQL Server.
     
-    > [!note]  
+    > [!NOTE]  
     > Os nós de cluster individuais do Windows Server não precisam ser configurados para o Construtor de Topologia. Você usará somente o nome de cluster virtual do SQL Server.
 
 2.  Se estiver usando o Contrutor de Topologia para implantação das bases de dados, é preciso ser um membro do grupo sysadmin do SQL Server. Se você já é um membro do grupo sysadmin do SQL Server, mas ainda não tem privilégios neste domínio (por exemplo, função de administrador de bases de dados do SQL Server), então você tem direitos de criação de bases de dados mas não de leitura de informações necessárias no Lync Server. Para saber mais sobre direitos e permissões necessárias para implantar o Lync Server, veja [Permissões de implantação para Servidor SQL no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
 3.  Verifique se a pasta da base de dados e os arquivos de log padrão estão mapeadas corretamente nos discos compartilhados no cluster do SQL Server ao usar o SQL Server Management Studio. Esse procedimento é obrigatório para criar bases de dados usando o Contrutor de Topologias.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você não instalou o SQL Server Management Studio, é possível fazê-lo ao executar novamente a instalação do SQL Server e selecionar a ferramenta de gerenciamento como recurso adicionado para a implantação do SQL Server existente.
 
 4.  Instale as bases de dados para o Servidor SQL Server usando o Contrutor de Topologia ou os cmdlets do Windows PowerShell. Para usar o Contrutor de Topologia, siga as etapas a seguir. Para usar cmdlets Windows PowerShell, veja [Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server no Lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md).

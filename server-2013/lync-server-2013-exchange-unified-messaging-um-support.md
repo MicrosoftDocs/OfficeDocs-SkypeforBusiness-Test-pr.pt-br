@@ -29,7 +29,7 @@ O Lync Server 2013 suporta as seguintes versões:
 
 Você não pode colocar o UM do Exchange com o Lync Server 2013 ou com um banco de dados do Lync Server 2013. Você pode instalar o UM do Exchange e o Lync Server 2013 em florestas separadas.
 
-> [!note]  
+> [!NOTE]  
 > O UM do Exchange pode não ser necessário para implantações do Enterprise Voice que possuem a PBX implantada, pois a PBX pode continuar a fornecer os serviços de caixa postal e outros relacionados a todos os usuários. Se você acabar desativando a PBX [por exemplo, se você implantar o tronco SIP para a conectividade da rede telefônica pública comutada (PSTN)], é preciso reconfigurar o UM do Exchange para oferecer a caixa postal aos usuários que anteriormente usavam o sistema de caixa postal da PBX.
 
 ## Nesta seção

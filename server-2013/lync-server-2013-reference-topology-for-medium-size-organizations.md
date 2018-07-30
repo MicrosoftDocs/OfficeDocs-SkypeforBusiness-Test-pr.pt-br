@@ -55,7 +55,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
     
       - Seus usuários podem trocar mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas, incluindo qualquer um ou todos os seguintes: Windows Live, AOL, Yahoo\! e Google Talk\!. Observe que uma licença separada pode ser necessária para a conectividade de mensagens instantâneas públicas com esses serviços.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > <ul>        
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>        
 > 

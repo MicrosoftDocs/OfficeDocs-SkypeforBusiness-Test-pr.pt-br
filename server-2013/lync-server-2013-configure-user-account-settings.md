@@ -33,7 +33,7 @@ O procedimento neste tópico descreve como atribuir um **URI da Linha** para uma
 
 6.  Em **Telefonia** , no campo **URI da Linha** , digite um número de telefone exclusivo e normalizado (por exemplo, tel:+14255550200).
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode especificar o <strong>URI de linha</strong> somente se a <strong>Telefonia</strong> estiver definida como <strong>Somente PC para PC</strong> , <strong>Enterprise Voice</strong> , <strong>Controle de chamada remota</strong> ou <strong>Somente controle de chamada remota</strong> .
 
 7.  Clique em **Confirmar** .

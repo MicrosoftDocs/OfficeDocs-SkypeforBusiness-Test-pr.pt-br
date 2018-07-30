@@ -19,7 +19,7 @@ A preparação da floresta cria objetos e configurações globais do Active Dire
 
 A preparação da floresta também cria objetos que contêm conjuntos de propriedades e especificadores de exibição usados pelo Lync Server 2013 e os armazena no contêiner Configuração.
 
-> [!important]  
+> [!IMPORTANT]  
 > Certifique-se de que as alterações na preparação de esquema foram replicadas em todos os controladores de domínio antes de executar o procedimento de preparação de floresta. Se não for concluída a replicação, ocorrerá um erro.
 
 Se você estiver executando uma nova implantação do Lync Server, armazene as configurações globais no contêiner Configuração. Se você estiver atualizando de uma versão mais antiga e ainda armazenar configurações globais no contêiner Sistema, poderá continuar usando o contêiner Sistema.

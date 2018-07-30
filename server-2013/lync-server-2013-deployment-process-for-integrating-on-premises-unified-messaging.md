@@ -19,7 +19,7 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 
 ## Processo de integração do Unified Messaging
 
-> [!important]  
+> [!IMPORTANT]  
 > É importante que você coordene com os administradores do Exchange da sua organização para confirmar as tarefas que cada um executará para garantir uma integração tranquila e bem-sucedida.
 
 
@@ -119,12 +119,12 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 <td><p>Configure planos de discagem do Lync Server 2013.</p></td>
 <td><p>Se você estiver integrando com o Exchange 2007 SP1 ou service pack mais recente ou Exchange 2010, crie um novo plano de discagem Enterprise Voice com um nome que corresponde o FQDN do plano de discagem de UM do Exchange.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Você precisará fazer isso para cada plano de discagem UM.
 </div>
 <p>Se você estiver integrando com o Exchange 2010 SP1, certifique-se de que os planos de discagem de nível local/global ou nível do pool do Enterprise Voice foram configurados.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Se você estiver integrando com o Exchange 2010 SP1, o plano de discagem do Lync Server e os nomes do plano de discagem do UM do Exchange não precisam corresponder.
 </div></td>
 <td><p>RTCUniversalServerAdmins</p></td>
@@ -136,11 +136,11 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 <p>Essa ferramenta funciona pela verificação do Active Directory para configurações do UM do Exchange e permite o administrador do Lync Server 2013 exibir, criar e editar objetos de contato.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> RTCUniversalUserAdmins</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Para executar com êxito o ocsumutil.exe, o usuário deve pertencer aos dois grupos.
 </div>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Para criar objetos de Contato, o usuário que executa ocsumutil.exe deve ter a permissão correta para a unidade organizacional (OU) do Active Directory onde novos objetos de contato são armazenados. Esta permissão pode ser concedida executando o cmdlet <strong>Grant-CsOUPermission</strong>. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 </div></td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server</a></p></td>

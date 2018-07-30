@@ -29,7 +29,7 @@ Usando a Construtor de Topologias, execute as etapas no seguinte procedimento pa
     
       - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado.
         
-        > [!note]  
+        > [!NOTE]  
         > Esta é a opção recomendada para as configurações da versão 6 do IP (IPv6).    
       - **Limitar o uso do serviço para os endereços IP selecionados**. Selecione esta opção para informar um endereço específico a ser usado no novo servidor. Se você selecionar esta opção, terá que inserir um valor para Endereço IP principal.
     
@@ -37,5 +37,5 @@ Usando a Construtor de Topologias, execute as etapas no seguinte procedimento pa
     
       - **Endereço IP da PSTN**. Defina um endereço IP da PSTN quando um Servidor de mediação for colocado no Servidor front-end. Este endereço deve ser compatível com o formato do tipo de endereço selecionado.
         
-        > [!note]  
+        > [!NOTE]  
         > A instalação de NICs (placas de interface de rede) adicionais para oferecer suporte à configuração do endereço IP da PSTN para Lync Server 2013 não é compatível. Para mais informações sobre configurações de NIC compatíveis para Lync Server 2013, consulte <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a>.

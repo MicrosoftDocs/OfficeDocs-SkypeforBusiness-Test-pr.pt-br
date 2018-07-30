@@ -23,5 +23,5 @@ Se você reutilizar um Servidor de Gerenciamento Central de uma implantação ex
 
 2.  Use o cmdlet **Update-CsAdminRole** para atualizar as funções RBAC armazenadas no Servidor de Gerenciamento Central.
     
-    > [!note]  
+    > [!NOTE]  
     > Nenhum resultado é esperado a não ser que haja um erro.

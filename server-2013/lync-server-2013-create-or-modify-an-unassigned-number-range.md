@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-11-01_
 
 Use um dos seguintes procedimentos para configurar intervalos de números não atribuídos para o Aplicativo Comunicado.
 
-> [!important]  
+> [!IMPORTANT]  
 > Antes de configurar a tabela de números não atribuídos, um ou mais comunicados já devem estar definidos ou um Atendedor Automático da Unificação de Mensagens (UM) do Exchange deve estar configurado.
 
 ## Para usar o Painel de Controle do Lync Server para configurar intervalos de números não atribuídos
@@ -32,13 +32,13 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
       - Para criar um novo intervalo de números, clique em **Novo**. Em **Nome**, digite o nome que identifica este intervalo de números.
         
-        > [!note]  
+        > [!NOTE]  
         > Depois de confirmar o novo intervalo de números não atribuídos para o banco de dados, não é possível alterar este nome.    
       - Para modificar um intervalo de números existente, digite todo o nome do intervalo de órbita, ou parte dele, no campo de pesquisa. Na lista de resultados de intervalos de número, clique no nome desejado, clique em **Editar** e depois, clique em **Exibir Detalhes**.
 
 5.  No primeiro campo **Intervalo Numérico**, digite o número inicial do intervalo e no segundo campo **Intervalo Numérico** digite o número final do intervalo.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>    
 > <li><p>O número inicial do intervalo deve ser menor ou igual ao número final.</p></li>    
 > 

@@ -27,7 +27,7 @@ Você pode utilizar o seguinte procedimento para visualizar uma sub-rede da rede
 
 4.  Na página de **Sub-rede**, clique na sub-rede que deseja visualizar.
     
-    > [!note]  
+    > [!NOTE]  
     > Você só pode visualizar uma sub-rede por vez.
 
 5.  No menu **Editar**, clique em **Exibir detalhes…**.

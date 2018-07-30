@@ -83,7 +83,7 @@ _**Tópico modificado em:** 2013-03-11_
 
 6.  No menu **Ação**, clique em **Mover todos os usuários para o pool**.
     
-    > [!note]  
+    > [!NOTE]  
     > Quando um filtro é aplicado a um conjunto de usuário existente, a opção <strong>Mover todos os usuários para o pool</strong> está no contexto do subconjunto de usuários filtrados, não em <strong><em>todos</em></strong> os usuários possíveis.
 
 7.  Em **Mover Usuários**, selecione o pool que contenha as contas de usuário que você deseja mover no **Pool de registradores de origem**.

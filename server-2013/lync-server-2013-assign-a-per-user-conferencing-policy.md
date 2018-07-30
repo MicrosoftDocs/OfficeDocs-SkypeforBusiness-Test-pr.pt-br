@@ -66,7 +66,7 @@ Para obter detalhes sobre a criação de políticas de conferência, consulte [C
 
 7.  Em **Atribuir políticas**, na **Política de conferência**, faça o seguinte procedimento:
     
-    > [!note]  
+    > [!NOTE]  
     > Como há várias políticas que você pode configurar em <strong>Atribuir políticas</strong>, <strong>&lt;Manter&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue a usar a política atribuída anteriormente ao usuário sem realizar alterações nesta configuração.    
       - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
     

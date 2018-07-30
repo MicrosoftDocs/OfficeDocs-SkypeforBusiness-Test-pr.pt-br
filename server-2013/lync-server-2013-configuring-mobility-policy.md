@@ -35,7 +35,7 @@ Para que os usuários possam usar o Telefonar via Trabalho, eles devem atender a
 
   - Os usuários devem ser atribuídos a uma política de mobilidade que tem a opção **EnableOutsideVoice** definida como True.
 
-> [!note]  
+> [!NOTE]  
 > Os usuários que não estão habilitados para o Enterprise Voice podem usar seus dispositivos móveis para realizar chamadas de Lync para Lync por VoIP, ou ingressar em conferências usando o link Clique para Ingressar em seus dispositivos móveis, quando você atribuir aos usuários as opções apropriadas para política de voz. Para detalhes, consulte <a href="lync-server-2013-defining-your-mobility-requirements.md">Definindo seus requisitos de mobilidade para Lync Server 2013</a>.
 
 Para detalhes sobre como habilitar usuários para o Lync Server 2013, consulte [Habilitar ou reabilitar uma conta de usuário para o Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Para detalhes sobre como habilitar usuários para o Enterprise Voice, consulte [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Para detalhes sobre como definir opções de política de voz, consulte [Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
@@ -50,7 +50,7 @@ Para detalhes sobre como habilitar usuários para o Lync Server 2013, consulte [
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode desabilitar o Telefonar via Trabalho sem desativar o acesso à mobilidade. No entanto, você não pode desabilitar a mobilidade sem também desabilitar o Telefonar via Trabalho.
 
 ## Para modificar a política de mobilidade por site

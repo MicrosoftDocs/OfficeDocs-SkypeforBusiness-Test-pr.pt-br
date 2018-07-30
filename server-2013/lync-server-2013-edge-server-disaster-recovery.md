@@ -23,7 +23,7 @@ Para habilitar procedimentos de recuperação de desastre, é necessário ter po
 
 Se houver vários sites, cada um com um pool de servidores de Borda, e um pool de Borda inteiro falhar, os serviços de acesso remoto continuarão funcionando sem que um administrador precise agir. Ao criar pools de Borda em sites diferentes, você não poderá usar o mesmo FQDN. Cada pool de Borda deverá ter FQDNs exclusivos (interno e externo). Os pools de Borda não usam regras de publicação de proxy reverso para falar com os servidores Front End. O failover automático ocorre quando o cliente consulta novamente os registros do serviço DNS de acesso remoto e os usuários remotos são roteados para os servidores de Borda em outro local. O cliente tenta todos os FQDNs de Borda externos de acordo com a prioridade dos registros de serviidor do DNS.
 
-> [!note]  
+> [!NOTE]  
 > Para que o failover funcione corretamente, verifique se o firewall permite que os servidores Front End de cada pool se comuniquem com todos os servidores de Borda.
 
 ## Federação

@@ -53,7 +53,7 @@ Para evitar problemas de roteamento, verifique se existem pelo menos dois adapta
     
     Os endereços IP privados do Serviço de Borda de Webconferência e Serviço de Borda A/V são endereços IP adicionais na seção **Avançado** das propriedades do **Internet Protocol Version 4 (TCP/IPv4)** e **Internet Protocol Version 6 (TCP/IPv6)** das **Propriedades de Conexão de Área Local** no Windows Server.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível, embora não recomendado, usar um único endereço IP para todas as três interfaces de serviço de Borda. embora isto não salve o endereço IP, exige números de porta diferentes para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permita o tráfego. Alterar os valores de porta (por exemplo) 5061/TCP para o Serviço de Borda de Acesso, 444/TCP para o Serviço de Borda de Webconferência e 443/TCP para o Serviço de Borda A/V pode causar problemas para usuários remotos onde um firewall que estão utilizando não permite tráfego por 5061/TCP e 444/TCP. Além disso, três endereços IP diferentes torna a resolução de problemas mais fácil porque podem filtrar no endereço IP.
 
   - **Adaptador de rede 2 Nó 2 (Interface Externa)**
@@ -153,7 +153,7 @@ Para evitar problemas de roteamento, verifique se existem pelo menos dois adapta
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do SIP Serviço de Borda de Acesso. Exigido para descoberta DNS automática de sua federação para outros parceiros de federação em potencial e é conhecido como “Domínios SIP Permitidos” (chamado federação avançada em versões anteriores).</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Repita conforme necessário para todos os domínios SIP com usuários habilitados do Lync e clientes do Microsoft Lync Mobile que usam o Serviços de Notificação por Push ou Serviços de Notificação por Push da Apple
 </div></td>
 </tr>

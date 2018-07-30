@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-11-01_
 
 Você pode usar o Registrador para configurar protocolos de autenticação de servidor proxy. Para obter informações sobre os protocolos disponíveis, consulte [Criar configurações do Registrador](lync-server-2013-create-registrar-configuration-settings.md).
 
-> [!note]  
+> [!NOTE]  
 > É recomendável que você habilite Kerberos e NTLM quando um servidor oferecer suporte a autenticação a ambos, clientes remotos e corporativos. O Servidor de Borda e servidores internos se comunicam para garantir que somente a autenticação NTLM seja oferecida a clientes remotos. Se somente Kerberos estiver habilitada nesses servidores, eles não poderão autenticar usuários remotos. Se os usuários corporativos também se autenticarem no servidor, Kerberos será usada.
 
 Siga estas etapas para modificar um Registrador Avançado existente.

@@ -42,7 +42,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
 
 4.  Importe os fluxos de trabalho do serviço Grupo de resposta do Lync Server copiados em backup do pool A para o pool B.
     
-    > [!note]  
+    > [!NOTE]  
     > Atualmente, o cmdlet <strong>Import-CsRgsConfiguration</strong> requer que os nomes da fila e do fluxo de trabalho no pool A sejam are diferentes dos nomes da fila e do fluxo de trabalho no pool B. Se os nomes não forem diferentes, ocorrerá um erro na execução do cmdlet <strong>Import-CsRgsConfiguration</strong> e as filas e do fluxos de trabalho deverão ser renomeados no pool B antes de prosseguir com o cmdlet <strong>Import-CsRgsConfiguration</strong>.    
     Você tem duas opções para importar a configuração do Grupo de Resposta do pool A para o pool B. Qual opção você deve usar depende de se deseja sobrescrever as configurações em nível de aplicativo do pool B com as configurações em nível de aplicativo do pool A.
     
@@ -76,7 +76,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    > [!note]  
+    > [!NOTE]  
     > Essa etapa não requer os intervalos de Números não atribuídos que usam &quot;UM do Exchange&quot; como serviço de comunicado selecionado.
 
 7.  Faça failover do Pool A para o Pool B no modo de Recuperação de Desastres (DR), executando o seguinte cmdlet:
@@ -178,7 +178,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
     
       - (Opcional) Remova do pool B os comunicados que foram recriados no pool C, se eles não forem mais usados no pool B. Para remover os comunicados, use o cmdlet **Remove-CsAnnouncement**.
         
-        > [!note]  
+        > [!NOTE]  
         > Essa etapa não requer os intervalos de Números não atribuídos que usam &quot;UM do Exchange&quot; como serviço de comunicado.
 
 21. Limpe os dados do usuário do pool A no pool B executando o seguinte cmdlet:
@@ -250,7 +250,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
             }
         
-        > [!note]  
+        > [!NOTE]  
         > Uma interrupção do serviço ocorrerá para os usuários que estiverem hospedados nos SBAs que estiverem associados ao pool A até esses usuários serem movidos para o pool C.
 
 28. No Construtor de Topologias , para cada SBA X anteriormente associado ao Pool A, faça o seguinte:

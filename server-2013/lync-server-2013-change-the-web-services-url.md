@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-11-16_
 
 Ao configurar os pools de Front-Ends e os servidores Standard Edition, você tem a opção de configurar um FQDN (nome de domínio totalmente qualificado) de Web farm externo e as portas associadas. Se não tiver configurado essa URL ao executar o Assistente de Implantação do Lync Server, você precisará definir manualmente as configurações. Um administrador normalmente não precisa alterar essas configurações, pois essas são as portas recomendadas e padrão.
 
-> [!note]  
+> [!NOTE]  
 > A captura de tela a seguir foi obtida durante a configuração de um servidor Standard Edition, portanto, a opção Substituir FQDN está desabilitada. Essa opção é habilitada durante a configuração de um servidor Enterprise Edition em um pool de Front-Ends.
 
 ![Editar configurações do pool de serviços da Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar configurações do pool de serviços da Web")

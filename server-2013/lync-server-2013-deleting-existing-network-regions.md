@@ -27,7 +27,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 4.  Na página **Região**, clique na região que você deseja excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível excluir mais de uma região por vez. Para fazer isso, pressione CTRL e selecione várias regiões enquanto mantém pressionada a tecla CTRL. Ou, para selecionar todas as regiões, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.

@@ -66,7 +66,7 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
 
 7.  Em **Atribuir políticas**, em **Política de local**, siga um destes procedimentos:
     
-    > [!note]  
+    > [!NOTE]  
     > Uma vez que há várias políticas que podem ser configuradas na caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.    
       - Permita Lync Server 2013 para escolher a política de nível global automaticamente ou, se definido, a política de nível de sub-rede.
     

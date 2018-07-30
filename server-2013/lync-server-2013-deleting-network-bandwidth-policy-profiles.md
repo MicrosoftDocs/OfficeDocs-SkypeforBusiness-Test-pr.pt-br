@@ -27,7 +27,7 @@ Como parte do controle de admissão de chamadas (CAC), é usada uma política de
 
 4.  Na página **Política de largura de banda**, clique no perfil de política de largura de banda que você deseja excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode excluir mais de um perfil por vez. Para isso, pressione CTRL e selecione vários perfis mantendo a tecla CTRL pressionada. Ou, para selecionar perfis, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.

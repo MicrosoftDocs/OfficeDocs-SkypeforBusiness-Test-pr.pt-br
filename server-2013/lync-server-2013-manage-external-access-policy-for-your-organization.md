@@ -25,7 +25,7 @@ Por padrão, não há políticas configuradas para suportar o acesso de usuário
 
   - **Política de usuário**   Você pode criar e configurar uma ou mais políticas de usuário para limitar o suporte para acesso de usuário remoto a usuários específicos. A configuração da política de usuário substitui a política global e de site, mas somente para os usuários específicos para os quais a política de usuário for atribuída. Por exemplo, se você habilitar o acesso de usuário remoto na política global e de site, deve ser especificada uma política de usuário que desabilita o acesso de usuário remoto e, em seguida, atribuir essa política de usuário para usuários específicos. Se você criar uma política de usuário, você deve aplicá-la a um ou mais usuários antes que ela entre em vigor.
 
-> [!important]  
+> [!IMPORTANT]  
 > As definições de política do Lync Server que são aplicadas em um nível de política podem substituir definições que são aplicadas em outro nível de política. A precedência de política do Lync Server é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quão mais perto a definição de política está do objeto que ela está afetando, maior a influência que ela terá no objeto.
 
 Essas opções incluem os seguintes tipos de acesso externo:
@@ -34,14 +34,14 @@ Essas opções incluem os seguintes tipos de acesso externo:
     
     Como opção, você pode selecionar **Permitir comunicações com parceiros XMPP federados** se você primeiro selecionar **Permitir comunicações com usuários federados** . A federação XMPP é uma federação com organizações que utilizam o XMPP (extensible messaging and presence protocol).
     
-    > [!note]  
+    > [!NOTE]  
     > Se você habilitar a federação XMPP, será necessário também selecionar para implantar a <strong>federação XMPP</strong> na seção de configuração do Pools de bordaConstrutor de Topologias. Configurar a federação XMPP implanta um proxy XMPP no Servidor de Borda e um gateway XMPP no Servidor Front-End.
 
   - **Permitir comunicações com usuários remotos** Habilite essa opção se desejar que os usuários na sua organização fora do firewall, como telecomutadores e usuários que estão viajando, possam se conectar ao Lync Server pela internet.
 
   - **Habilitar comunicações com usuários públicos**    Habilite essa opção se desejar que os usuários internos sejam capazes de estabelecer comunicação com os contatos do provedor de IM público, como fornecido pelo Windows Live, Yahoo\! e America Online (AOL).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    
 > 
@@ -51,7 +51,7 @@ Essas opções incluem os seguintes tipos de acesso externo:
 > <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li>    </ul>
 
 
-> [!note]  
+> [!NOTE]  
 > Além de habilitar o suporte ao acesso de usuário externo, você também deve configurar políticas para controlar o uso do acesso de usuário externo na organização antes de qualquer tipo de acesso de usuário externo estar disponível para os usuários. Para obter detalhes sobre como criar, configurar e aplicar políticas de acesso de usuário externo, consulte <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013</a>.
 
 **Para visualizar as políticas de acesso externo utilizando os cmdlets Windows PowerShell**

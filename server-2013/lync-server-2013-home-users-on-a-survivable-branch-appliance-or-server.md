@@ -29,7 +29,7 @@ O processo de hospedar usuários em uma função Aparelho de Filial Persistente 
 
 2.  No Shell de Gerenciamento do Lync Server, execute o cmdlet **Move-CsUser** para mover usuários domésticos.
 
-> [!note]  
+> [!NOTE]  
 > Você também pode usar o Painel de Controle do Lync Server para verificar os pré-requisitos e os usuários domésticos.
 
 ## Consulte Também

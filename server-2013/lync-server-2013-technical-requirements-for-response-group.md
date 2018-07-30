@@ -47,10 +47,10 @@ O Aplicativo Grupo de Resposta utiliza as seguintes portas:
 
   - **Porta 8404**   Utilizado para comunicações entre servidores
     
-    > [!note]  
+    > [!NOTE]  
     > Esta porta é utilizada pra o serviço de Correspondência e é obrigatório quando o Aplicativo Grupo de Resposta é implantado em um pool que possua mais de um Servidor Front-End.
 
-> [!note]  
+> [!NOTE]  
 > Essas portas são configurações padrão que você pode alterar utilizando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre este cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 ## Requisitos do arquivo de áudio
@@ -83,7 +83,7 @@ Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo p
 
 O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de sistemas operacionais e navegadores da web descritos na tabela a seguir.
 
-> [!note]  
+> [!NOTE]  
 > Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
 
 ### Sistemas operacionais e navegadores da web suportados
@@ -135,7 +135,7 @@ O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de 
 
 O console de agente suporta as combinações de sistemas operacionais e navegadores da web descritas na tabela a seguir.
 
-> [!note]  
+> [!NOTE]  
 > Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
 
 ### Sistemas operacionais e navegadores da web suportados

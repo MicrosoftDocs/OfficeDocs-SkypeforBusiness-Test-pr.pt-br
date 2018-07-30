@@ -21,7 +21,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você for um dos Gerentes de grupo de resposta delegados para um fluxo de trabalho gerenciado, é possível criar ou modificar filas de grupo de resposta e atribuí-las aos fluxos de trabalho gerenciados.
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
@@ -46,7 +46,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para alterar a ordem em que os agentes são pesquisados, na lista de grupos de agentes, clique em um grupo e na seta para cima ou para baixo.
         
-        > [!note]  
+        > [!NOTE]  
         > Quando o servidor pesquisa por um agente disponível para a fila, ele usa a ordem do grupo. Ou seja, o primeiro grupo da lista é pesquisado primeiro, seguido pelo segundo e assim sucessivamente.
 
 8.  Para especificar um período máximo de tempo para um chamador aguardar em espera antes que um agente responda à chamada, marque a caixa de seleção **Habilitar o tempo limite da fila** e, em seguida, faça o seguinte:
@@ -93,7 +93,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você for um dos Gerentes do grupo de resposta designado para um fluxo de trabalho gerenciado, será possível criar grupos de agentes e filas, bem como atribuir grupos de agentes a filas.
 
 2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
@@ -106,14 +106,14 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
         "All agents are currently busy. Please call back later."
     
-    > [!note]  
+    > [!NOTE]  
     > Para usar um arquivo de áudio no prompt, use o cmdlet <strong>Import-CsRgsAudioFile</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 4.  Defina a ação que será executada quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Por exemplo:
     
@@ -127,14 +127,14 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
-    > [!note]  
+    > [!NOTE]  
     > Para usar um arquivo de áudio no prompt, use o cmdlet <strong>Import-CsRgsAudioFile</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 6.  Defina a ação que será executada quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Por exemplo:
     
@@ -148,7 +148,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre como criar o grupo de agentes, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a>
 
 9.  Crie a fila. Na linha de comando, execute:

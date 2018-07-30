@@ -71,7 +71,7 @@ As políticas por usuário devem ser criadas para você pelo Suporte do Office 3
 
     Identity : tag:AllowPublicIMCommunication
 
-> [!note]  
+> [!NOTE]  
 > A marca <strong>prefix</strong> já existia nos primórdios do desenvolvimento do Lync Server 2010. Nessa época, as políticas por usuário eram chamadas de <em>políticas de marca</em> e eram identificadas pela marca <strong>prefix</strong>. Essas políticas agora são chamadas mais precisamente de <em>políticas por usuário</em>, e o escopo de marca é chamado mais precisamente de <em>escopo por usuário</em>. Entretanto, por motivos técnicos, a marca <strong>prefix</strong> nunca foi mudada.
 
 Outro termo importante usado ao trabalhar com o Skype for Business Online e o Windows PowerShell é *locatário*. Quando você configura uma conta do Skype for Business Online, sua nova implantação recebe um número de ID de locatário, que é um identificador global exclusivo (GUID) como este:

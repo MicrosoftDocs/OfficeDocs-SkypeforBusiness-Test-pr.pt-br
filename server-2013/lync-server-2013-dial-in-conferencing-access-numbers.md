@@ -19,7 +19,7 @@ Para habilitar os usuários a participarem da parte de áudio de conferências l
 
 Os números de acesso discado são exibidos em convites de reunião e em páginas de Configuração de Conferência Discada.
 
-> [!note]  
+> [!NOTE]  
 > Não é possível usar um novo número de acesso discado até que a replicação do Active Directory deste número de acesso esteja completa. A replicação pode levar várias horas.
 
 ## Nesta seção

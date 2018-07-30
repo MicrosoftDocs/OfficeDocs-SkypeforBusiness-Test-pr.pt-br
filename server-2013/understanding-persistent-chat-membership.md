@@ -25,7 +25,7 @@ Um administrador do Chat Persistente pode criar e gerenciar as categorias de sal
 
 O Servidor de Chat Persistente confia no Active Directory para o pool de usuários internos do Chat Persistente. Depois de instalar o Chat Persistente (cliente), você poderá adicionar domínios de usuários e grupos ao escopo à categoria de sala. Você poderá depois adicionar esses usuários e grupos aos membros de suas categorias de salas.
 
-> [!important]  
+> [!IMPORTANT]  
 > É necessário garantir que não existam nomes duplicados para usuários que desejam fazer alterações nas salas do Chat Persistente. Se nomes de usuários duplicados existirem, altere-os para nomes diferentes para desbloquear os usuários para fazer essas alterações. Se o usuário tiver nomes duplicados no Active Directory e tentar fazer alterações em suas salas, uma mensagem de erro será exibida avisando ao usuário para entrar em contato com o administrador para solucionar o caso.
 
 ## Como funciona a associação de categoria
@@ -44,7 +44,7 @@ Os **Membros Permitidos** de uma categoria devem incluir todos os usuários que 
 
 As categorias podem ser também usadas para criar barreiras éticas. As barreiras éticas evitam qualquer conflito de interesses em uma organização. Por exemplo, um administrador pode criar salas de chat em uma categoria apenas para comerciantes, ao passo que as salas de chat em outra categoria podem ser usadas somente por analistas.
 
-> [!note]  
+> [!NOTE]  
 > No Lync Server 2013, Servidor de Chat Persistente, nós não suportamos acesso a usuários federados. Se houver chats de usuários federados em versões anteriores do Servidor de Chat Persistente, eles serão migrados. Os usuários federados são adicionados como princípios desativados.
 
 ## Como estreitar o escopo para grupos de usuário

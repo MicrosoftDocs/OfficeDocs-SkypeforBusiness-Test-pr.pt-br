@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2017-03-07_
 
 Em um ambiente de infraestrutura de desktop virtual (VDI), as máquinas virtuais e o computador local do usuário devem atender os requisitos destacados nesta seção.
 
-> [!note]  
+> [!NOTE]  
 > Consulte o provedor de solução de virtualização para obter detalhes sobre como instalar e implantar o ambiente virtualizado. Para obter informações sobre como implantar um ambiente virtualizado com base nos Serviços de Área de Trabalho Remota e Hyper-V, consulte os artigos a seguir na Biblioteca TechNet da Microsoft:<ul>
 > 
 > <li><p>Hyper-V em <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>

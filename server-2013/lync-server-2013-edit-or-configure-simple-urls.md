@@ -42,7 +42,7 @@ Por padrão, as URLs simples serão configurados no formulário (por exemplo, a 
     > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é <STRONG>https://admin.</STRONG> <EM>&lt;domain&gt;</EM> .
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se você alterar uma URL simples após a implantação inicial, esteja ciente das alterações que afetam seus registros de DNS (Sistema de Nome de Domínio) e certificados para URLs simples. Se a alteração impactar a base de uma URL simples, você deverá alterar os registros DNS e certificados também. Por exemplo, a alteração de https://lync.contoso.com/Meet para https://meet.contoso.com altera a URL base de lync.contoso.com para meet.contoso.com, portanto, você precisaria alterar os registros DNS e certificados para se referir a meet.contoso.com. Se você alterou a URL simples de https://lync.contoso.com/Meet para https://lync.contoso.com/Meetings, a URL base de lync.contoso.com permanece a mesma, portanto, não são necessárias alterações de DNS ou de certificado. No entanto, sempre que você altera um nome de URL simples, deve executar <strong>Enable-CsComputer</strong> em cada Diretor e Servidor Front-End para registrar a alteração.
 
 ## Consulte Também

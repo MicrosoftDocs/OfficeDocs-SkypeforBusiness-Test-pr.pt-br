@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-17_
 
 Se você implantou o Arquivamento ou Monitoramento, será necessário fazer backup desses bancos de dados de acordo com a política de backup do SQL Server de sua organização.
 
-> [!note]  
+> [!NOTE]  
 > As configurações de Arquivamento e Monitoramento são armazenadas em backup quando você backup do Repositório de Gerenciamento Central. Para obter detalhes, consulte <a href="lync-server-2013-backing-up-core-data-and-settings.md">Fazendo backup dos dados principais e das configurações</a>.
 
 Para Arquivamento e Monitoramento, você pode usar uma ferramenta de SQL Server, como SQL Server Management Studio, para executar um backup manual ou pode usar ferramentas de gerenciamento de SQL Server para agendar backups automáticos e regulares.

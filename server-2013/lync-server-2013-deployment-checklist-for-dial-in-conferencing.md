@@ -19,7 +19,7 @@ Os componentes necessários para conferência discada são implantados quando a 
 
 Todas as etapas na tabela a seguir devem ser executadas antes que os usuários possam discar a partir do PSTN para entrar em uma conferência de áudio/vídeo.
 
-> [!note]  
+> [!NOTE]  
 > Se estiver migrando do Office Communications Server 2007 R2, você deve aplicar a atualização mais recente do ambiente Office Communications Server 2007 R2 antes de implantar a conferência discada.
 
 ### Processo de implantação da conferência discada
@@ -44,7 +44,7 @@ Todas as etapas na tabela a seguir devem ser executadas antes que os usuários p
 <td><p><strong>Crie uma topologia que inclua a carga de trabalho das Conferências, incluindo um Servidor de Mediação e o gateway PSTN e implante o Pool de Front-Ends ou Servidor Standard Edition</strong></p></td>
 <td><ol><li><p>Execute o Construtor de Topologias para configurar sua topologia. Enquanto a configuração da topologia é executada, selecione a opção de conferência discada.</p></li><li><p>Publique a topologia e implante o Pool de Front-Ends ou Servidor Standard Edition.</p></li><li><p>Se necessário, crie um Servidor de Mediação autônomo e o associe a um gateway PSTN.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Esta etapa é necessária somente se você não implantar o Enterprise Voice e não colocar o Servidor de Mediação com o Enterprise EditionServidor Front-End ou Servidor Standard Edition. Se o Enterprise Voice for implantado, instale e configure o Servidor de Mediação e gateways PSTN como parte da implantação do Enterprise Voice. Se o Servidor de Mediação for colocado, instale e configure o Servidor de Mediação como parte da implantação do Pool de Front-Ends ou Servidor Standard Edition.
 </div></li></ol></td>
 <td><p>Admins. do Domínio</p>
@@ -97,7 +97,7 @@ Todas as etapas na tabela a seguir devem ser executadas antes que os usuários p
 <td><p><strong>Configure números de acesso de discagem</strong></p></td>
 <td><p>Use o Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server para configurar números de acesso de discagem para os quais os usuários ligarão para entrar em uma conferência discada e especifique as regiões que associam o número de aceso aos planos de discagem apropriados. Os três primeiros números de acesso para a região especificada pelo plano de discagem do organizador são incluídos no convite da conferência. Todos os números de acesso estão disponíveis em Página Configurações de Conferência Discada.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Depois de criar números de acesso de discagem, você pode usar o cmdlet <strong>Set-CsDialInConferencingAccessNumber</strong> para modificar o nome de exibição dos objetos de contato do Active Directory, de forma que os usuários possam identificar mais facilmente o número de acesso correto.
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>

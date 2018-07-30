@@ -19,7 +19,7 @@ Ao adicionar Arquivamento à sua topologia e publicá-la, o Lync Server cria uma
 
 Para obter detalhes sobre como as configurações de Arquivamento funcionam, incluindo a hierarquia de configurações globais, de site e pool, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, Implantação ou Operações.
 
-> [!note]  
+> [!NOTE]  
 > Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de habilitá-lo.
 
 ## Configurar opções de arquivamento a nível global

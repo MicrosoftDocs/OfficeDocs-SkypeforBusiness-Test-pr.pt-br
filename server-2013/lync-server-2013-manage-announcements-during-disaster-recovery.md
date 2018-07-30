@@ -42,10 +42,10 @@ Se você não fez cópias de backup de arquivos de áudio personalizado e os arq
 
 Para usar o Aplicativo Comunicado durante uma interrupção, é necessário recriar a configuração de anúncio no pool de backup realizando as tarefas descritas nesta seção.
 
-> [!note]  
+> [!NOTE]  
 > Recomendamos realizar estas tarefas se você falhar no pool de backup, porque assim que você realizar a etapa 2, o pool de backup tem propriedade dos intervalos de número não atribuídos.
 
-> [!note]  
+> [!NOTE]  
 > Estas etapas não são necessárias para intervalos de número que usam um número de telefone do Atendedor Automático do Exchange UM.
 
 **Para recriar a configuração de comunicado no pool de backup**
@@ -56,7 +56,7 @@ Para usar o Aplicativo Comunicado durante uma interrupção, é necessário recr
     
     2.  Recriar cada anúncio usando o cmdlet **New-CsAnnouncement** e especificando o pool de backup para o parâmetro Parent.
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre o uso destes parâmetros para criar anúncios no pool de backup, consulte <a href="lync-server-2013-create-an-announcement.md">Criar um comunicado no Lync Server 2013</a>.
 
 2.  Após todos os anúncios serem recriados no pool de backup, redirecione todos os intervalos de número não atribuídos que usam anúncios no pool primário para os anúncios recriados no pool de backup.
@@ -69,7 +69,7 @@ Para usar o Aplicativo Comunicado durante uma interrupção, é necessário recr
 
 Quando o pool primário se torna disponível, você precisa redirecionar os intervalos de número não atribuídos que você alterou para a interrupção de volta para o pool primário.
 
-> [!note]  
+> [!NOTE]  
 > Estas etapas não são necessárias para intervalos de número que usam um número de telefone do Atendedor Automático do Exchange UM.
 
 **Para restaurar comunicados no pool primário**

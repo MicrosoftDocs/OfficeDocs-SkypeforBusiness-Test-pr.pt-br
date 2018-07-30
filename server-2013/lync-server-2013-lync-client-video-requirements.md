@@ -40,7 +40,7 @@ O Lync 2013 introduz aceleração de hardware para codificação e decodificaç�
 <td><p>Decodificação H.264 acelerada por hardware usando DirectX Video Acceleration (DXVA)</p></td>
 <td><ul><li><p>A placa de vídeo deve suportar DirectX 9.0 e deve expor o modo de decodificação DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>O driver mais recente da placa de vídeo deve estar instalado.</p></li></ul>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre modos de decodificação, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
 </tr>
@@ -53,7 +53,7 @@ O Lync 2013 introduz aceleração de hardware para codificação e decodificaç�
 <td><p>Codificação H.264 acelerado por hardware: Requisitos de câmera</p></td>
 <td><p>Câmera de vídeo USB com codificador de hardware H.264 integrado com conformidade com a especificação USB Video Class (UVC) versão 1.5.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > O Lync 2013 suporta câmeras UVC 1.5 com Windows 8 ou Windows 8.1, que inclui suporte para UVC 1.5. Como o Windows 7 não inclui suporte para câmeras UVC 1.5, o Lync 2013 trata as câmeras UVC 1.5 como câmeras regulares sem suporte para codificação de hardware.
 </div></td>
 </tr>
@@ -61,7 +61,7 @@ O Lync 2013 introduz aceleração de hardware para codificação e decodificaç�
 <td><p>Decodificação H.264 acelerada por hardware usando DirectX Video Acceleration (DXVA)</p></td>
 <td><ul><li><p>A placa de vídeo deve suportar DirectX 9.0 e deve expor o modo de decodificação DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>O driver mais recente da placa de vídeo deve estar instalado.</p></li></ul>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre modos de decodificação, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
 </tr>
@@ -74,7 +74,7 @@ O Lync 2013 introduz aceleração de hardware para codificação e decodificaç�
 <td><p>Codificação H.264 acelerado por hardware: Requisitos de câmera</p></td>
 <td><p>Câmera de vídeo USB com codificador de hardware H.264 integrado com conformidade com a especificação USB Video Class (UVC) versão 1.5.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > O Lync 2013 suporta câmeras UVC 1.5 com Windows 8 ou Windows 8.1, que inclui suporte para UVC 1.5. Como o Windows 7 não inclui suporte para câmeras UVC 1.5, o Lync 2013 trata as câmeras UVC 1.5 como câmeras regulares sem suporte para codificação de hardware.
 </div></td>
 </tr>
@@ -262,7 +262,7 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > A pontuação WinSAT no Windows 7 está limitada a um máximo de 7,9. Desta forma, a capacidade de codificação de um computador sem um codificador acelerado por hardware pode ser atingida somente no Windows 8 ou Windows 8.1, onde a pontuação WinSAT é 9,9.
 
 ### Computador com DXVA e com codificador acelerado por hardware Intel HD Graphics

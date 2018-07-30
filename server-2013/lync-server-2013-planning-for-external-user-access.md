@@ -23,7 +23,7 @@ Para suportar as comunicações por seu firewall organizacional, implante o Serv
 
 Dependendo de seus requisitos, é possível implantar um ou mais Servidores de Borda em um ou mais locais. Esta seção descreve o acesso de usuário externo no Lync Server 2013 e explica como planejar sua topologia de borda e proxy reverso.
 
-> [!note]  
+> [!NOTE]  
 > Embora você precise de um Servidor de Borda para suportar o Enterprise Voice e o acesso de usuário externo, esta seção se concentra no suporte para IM, presença, conferência A/V, federação, webconferência e Lync Mobile. Para obter detalhes sobre o suporte ao Enterprise Voice, consulte <a href="lync-server-2013-planning-for-enterprise-voice.md">Planejamento para Enterprise Voice no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Nesta seção

@@ -47,7 +47,7 @@ As funções do servidor que não são abordadas neste tópico:
 
   - Servidor de Borda interno
     
-    > [!note]  
+    > [!NOTE]  
     > Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.
 
 Para obter detalhes sobre o uso de certificados no Exchange, consulte o seguinte:

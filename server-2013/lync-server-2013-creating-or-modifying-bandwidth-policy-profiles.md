@@ -41,7 +41,7 @@ Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se um
 
 11. Clique em **Confirmar**.
     
-    > [!note]  
+    > [!NOTE]  
     > Criar um novo perfil de política de largura de banda não reforça as restrições de largura de banda automaticamente. É preciso, primeiro, associar o perfil da política com um site. Para obter mais detalhes sobre como associar um perfil de política com um site, consulte <a href="lync-server-2013-creating-or-modifying-network-sites.md">Criar ou modificar sites de rede</a>.
 
 ## Para modificar um perfil de política de largura de banda
@@ -60,7 +60,7 @@ Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se um
 
 7.  Clique em **Confirmar**.
     
-    > [!note]  
+    > [!NOTE]  
     > Ao modificar o perfil de política de largura de banda, as limitações de largura de banda de todos os sites da rede associados a esse perfil serão atualizadas imediatamente.
 
 ## Consulte Também

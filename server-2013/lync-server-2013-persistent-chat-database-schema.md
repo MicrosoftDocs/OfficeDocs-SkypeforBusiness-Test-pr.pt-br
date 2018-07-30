@@ -19,7 +19,7 @@ Documenta o esquema do banco de dados do Chat Persistente no Lync Server 2013  
 
 O banco de dados do Chat Persistente refere-se ao banco de dados correspondente às funções do Servidor Back-end do Lync Server 2013**PersistentChatStore** (correspondente ao banco de dados mgc) e **PersistentChatComplianceStore** (correspondente ao banco de dados mgccomp). O objetivo da publicação desse esquema é permitir que você crie consultas e obtenha algumas ideias sobre a criação de relatórios úteis sobre uso de chat, salas ativas, pôsteres principais e etc.
 
-> [!important]  
+> [!IMPORTANT]  
 > Reservamo-nos o direito de desenvolver este esquema. A Microsoft não garante manter compatibilidade com versões anteriores completa para esse esquema publicado.
 
 Sigas estas práticas recomendadas:

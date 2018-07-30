@@ -67,7 +67,7 @@ Usar o balanceamento de carga DNS nos servidores de borda provoca uma perda da c
 
   - Troca de mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas (IM), AOLand Yahoo\!, além de provedores e servidores com base em XMPP, como o Google Talk.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > 
 > <li><p>O Google Talk atualmente é o único parceiro XMPP.</p></li>    

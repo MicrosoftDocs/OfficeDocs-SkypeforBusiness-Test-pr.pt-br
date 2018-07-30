@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 Se não quiser usar as configurações padrão do Estacionamento de Chamada, será possível personalizá-las. Quando você instala o Aplicativo de Estacionamento de Chamada, as configurações globais são definidas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
 
-> [!note]  
+> [!NOTE]  
 > No mínimo, recomendamos configurar a opção <strong>OnTimeoutURI</strong> para o destino de fallback a ser usado quando uma chamada estacionada excede o tempo limite e o retorno de toque falha.
 
 Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para definir qualquer uma das seguintes configurações:

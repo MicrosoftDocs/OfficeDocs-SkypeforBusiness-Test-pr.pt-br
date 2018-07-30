@@ -33,7 +33,7 @@ A configuração do filtro de IM inteligente inclui o seguinte:
 
 Antes de você implantar a ferramenta de filtro de mensagem de IM inteligente, é preciso entender como as opções de filtro são roteadas de um servidor Lync Server 2013 a outro. A forma como essas opções de filtragem são aplicadas é consistente, quer os servidores estejam em uma única organização ou ultrapasse os limites organizacionais. Essa consistência se aplica à forma com que os textos personalizados de observação e aviso são inseridos em mensagens e enviados pelos servidores.
 
-> [!note]  
+> [!NOTE]  
 > O filtro de mensagem instantânea aumenta a quantidade de recursos da CPU necessários para processar URLs em uma mensagem. Esse aumento de demanda da CPU também afeta o desempenho do Lync Server.
 
 Usando a página **Filtro de URL** no grupo **IM e Presença** no Painel de Controle do Lync Server, você pode bloquear alguns ou todos os hiperlinks ou configurar um aviso. Esse aviso é inserido no início de uma mensagem instantânea que contém um hiperlink quando você escolhe a opção **Enviar mensagem de aviso** em **Prefixo de hiperlink**.
@@ -44,7 +44,7 @@ Quando uma mensagem instantânea passa de um servidor para outro, as seguintes d
 
   - Se um servidor (Servidor1) adiciona um aviso a uma mensagem instantânea que contém um hiperlink ativo, um servidor subsequente (Servidor2) que recebe essa mensagem ainda pode tomar uma ação diferente com base nesse hiperlink ativo, bloqueando a mensagem instantânea ou adicionando um aviso. Se o Servidor2 estiver configurado apenas para adicionar um aviso a esse URL, o aviso anterior adicionado pelo Servidor1 é removido, e o aviso configurado no Servidor2 é adicionado ao início da mensagem instantânea.
 
-> [!note]  
+> [!NOTE]  
 > Se você estiver executando o Lync Server 2013 em um ambiente misto, o Live Communications Server 2005 com SP1 é a versão mínima requerida para uso do aplicativo Filtro de IM Inteligente. O Filtro de IM Inteligente não é suportado no Live Communications Server 2005 sem o SP1.
 
 ## Filtro de URL
@@ -63,7 +63,7 @@ Se você não configurar o filtro de mensagem instantânea para realizar o filtr
 
   - **Bloquear URLs com extensão de arquivo**   O filtro de mensagem instantânea bloqueia qualquer URL ativo da intranet ou da Internet que contenha um arquivo com uma das extensões listadas em **Extensões de tipos de arquivos a serem bloqueadas** na caixa de diálogo **Editar Filtro de Arquivo**. Quando um URL é bloqueado, uma mensagem de erro é exibida para o remetente. Quando selecionada, essa opção busca precedência em todas as outras opções de filtro para quaisquer extensões de arquivos definidas em **Extensões de tipos de arquivos a serem bloqueadas**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A filtragem de extensões de arquivo está limitada aos nomes padrão. A filtragem pode não funcionar com extensões de arquivo incorporadas em outros nomes.
 
 Para configurar como hiperlinks são manuseados em conversas de mensagem instantânea, selecione uma das opções a seguir em **Prefixo de hiperlink**:
@@ -86,7 +86,7 @@ Se você selecionar **Bloquear hiperlinks** ou **Enviar mensagem de aviso**, as 
 
 O filtro de transferência de arquivo afeta as mensagens instantâneas e as conferências. Para as conferências, essas configurações afetam o recurso de folheto no cliente Office Live Meeting 2007 e os recursos de reprodução de multimídia.
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server também oferece opções de configuração de transferência de arquivo. Essa opção do servidor é oferecida em adição aos controles de cliente disponíveis no Lync Server.
 
 Você pode filtrar transferências de arquivos durante as conversas com mensagens instantâneas, quando você estiver usando um recurso de folheto no cliente do Office Live Meeting 2007 e para recursos de reprodução de multimídia para todos os tipos de arquivo. Você pode definir as seguintes opções para controlar arquivos de transferência:
@@ -99,7 +99,7 @@ Você pode filtrar transferências de arquivos durante as conversas com mensagen
     
       - **Bloquear tudo**   O servidor remove todas as mensagens instantâneas que contém solicitações de transferência de arquivo e retornar uma mensagem de erro ao remetente da solicitação. O recurso de folheto do cliente do Office Live Meeting 2007 será desabilitado.
 
-> [!important]  
+> [!IMPORTANT]  
 > A filtragem de extensões de arquivo está limitada aos nomes padrão. A filtragem pode não funcionar com extensões de arquivo incorporadas em outros nomes.
 
 ## Nesta seção

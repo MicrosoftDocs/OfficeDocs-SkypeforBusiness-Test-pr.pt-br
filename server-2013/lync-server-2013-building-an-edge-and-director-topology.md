@@ -25,7 +25,7 @@ Você não pode implantar componentes do Servidor de Borda até que tenha implan
 
 Para saber mais sobre essas ferramentas, consulte [Llista de verificação de implantação para acesso de usuário externo no Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
-> [!note]  
+> [!NOTE]  
 > Caso você tenha usado o Construtor de Topologias anteriormente para definir uma topologia completa, incluindo a topologia de borda, você pode pular as tarefas do <a href="lync-server-2013-define-your-edge-topology.md">Definir sua topologia de borda no Lync Server 2013</a> e do <a href="lync-server-2013-publish-your-topology.md">Publicar sua topologia no Lync Server 2013</a> desta seção, mas precisa completar a tarefa do <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda</a>.
 
 ## Nesta seção

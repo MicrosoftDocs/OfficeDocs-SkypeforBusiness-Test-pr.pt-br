@@ -37,7 +37,7 @@ A tabela a seguir compara os recursos e capacidades entre os clientes móveis do
 
 Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis aos usuários do Skype for Business Online e do Microsoft Office 365, exceto quando indicado o contrário na notas de rodapé da tabela.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Para obter ajuda e recursos online para os usuários finais, consulte &quot;Microsoft Lync 2013 para clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
 > 

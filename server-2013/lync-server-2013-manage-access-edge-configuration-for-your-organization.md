@@ -33,7 +33,7 @@ Essas opções incluem os seguintes tipos de acesso que podem ser configurados p
 
   - **Habilitar usuários anônimos para acessar conferências**    Habilite essa opção se quiser que os usuários internos convidem usuários anônimos externos para conferências que organizam. A habilitação dessa configuração permite apenas usuários anônimos para conferências. Para configurar a experiência de conferência e opções que definirão como e o que seus usuários podem fazer com as conferências e para a inclusão de usuários anônimos, consulte detalhes em [Criar ou modificar a experiência do usuário de conferência para um local ou grupo de usuários](https://technet.microsoft.com/pt-br/library/gg429715\(v=ocs.15\)) e [Referência das configurações da política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
-> [!note]  
+> [!NOTE]  
 > Além de permitir o suporte ao acesso de usuário externo, você também configura políticas para controlar o uso do acesso de usuário remoto em sua organização antes de qualquer tipo de acesso de usuário externo ficar disponível para os usuários. Para obter detalhes sobre como criar, configurar e aplicar políticas de acesso para usuário externo, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>.
 
 **Exibindo as informações de configuração da Borda de Acesso utilizando os cmdlets Windows PowerShell**

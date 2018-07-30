@@ -71,5 +71,5 @@ As configurações de intervalo da porta de mídia podem impactar significanteme
     
         Set-CsConferencingConfiguration
     
-    > [!note]  
+    > [!NOTE]  
     > É possível criar conjuntos adicionais de definições de configuração de conferência para sites específicos. Use o cmdlet <strong>New- CsConferencingConfiguration</strong> com uma identidade de site. Ao criar uma nova definição de configuração de conferência, as configurações do site têm precedência sobre as configurações globais. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.

@@ -27,7 +27,7 @@ Depois de usar o Assistente de Implantação para instalar cada Servidor de Bord
 
 3.  Iniciar o assistente de implantação.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você receber uma mensagem dizendo que você precisa instalar o Microsoft Visual C++ Redistribuível, clique em <strong>Sim</strong> . Na próxima caixa de diálogo, você pode aceitar o padrão <strong>Local de instalação</strong> ou clique em <strong>Pesquisar</strong> para selecionar um local e alterá-lo, depois clique em <strong>Instalar</strong> . Na próxima caixa de diálogo, marque a caixa de seleção <strong>Aceito os termos do contrato de licença</strong> e clique em <strong>OK</strong> .
 
 4.  No Assistente de Implantação, clique em **Instalar ou Atualizar o Sistema do Lync Server** .

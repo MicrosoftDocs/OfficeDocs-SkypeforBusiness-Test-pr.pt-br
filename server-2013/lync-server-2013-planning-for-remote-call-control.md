@@ -19,7 +19,7 @@ No Lync Server 2013, o suporte a cenários de controle de chamada remota permite
 
 A integração entre um PBX e o Lync Server 2013 permite que usuários habilitados para o controle de chamada remota usem a interface do usuário do Lync 2013 para controlar chamadas em seus telefones PBX das seguintes maneiras:
 
-> [!note]  
+> [!NOTE]  
 > Por fim, os recursos do PBX que hospeda o telefone PBX de um usuário determinam os recursos de controle de chamada remota disponíveis para o usuário.
 
   - Fazer uma chamada de saída
@@ -28,7 +28,7 @@ A integração entre um PBX e o Lync Server 2013 permite que usuários habilitad
 
   - Atender uma chamada com uma mensagem instantânea
     
-    > [!note]  
+    > [!NOTE]  
     > Ou seja, quando o número de telefone do chamador pode ser associado a um endereço de mensagens instantâneas na GAL (lista de endereços global) da organização, na lista de Contatos do Lync do receptor, ou em uma organização de parceiro federado.
 
   - Transfira uma chamada

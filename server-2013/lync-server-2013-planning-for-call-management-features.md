@@ -21,7 +21,7 @@ O recurso de gerenciamento de chamada do Enterprise Voice controla como as chama
 
   - **Grupo de recebimento**:   Permite que os usuários de voz atendam chamadas que estiverem tocando para outro usuário de voz que estiverem atribuídos aos grupos de recebimento de chamadas.
     
-    > [!note]  
+    > [!NOTE]  
     > O grupo de recebimento é novo com as Atualizações cumulativas do Lync Server 2013: fevereiro de 2013.
 
   - **Grupo de Resposta:** encaminha chamadas de entrada para grupos de agentes usando grupos de busca ou perguntas e respostas de IVR (resposta interativa de voz).

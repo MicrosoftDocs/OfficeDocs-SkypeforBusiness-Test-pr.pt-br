@@ -81,7 +81,7 @@ Além disso, um pool de Front-Ends na implantação também executa o *Servidor 
 
 Os servidores back-end são servidores de banco de dados que executam o Microsoft SQL Server. Eles fornecem os serviços de bancos de dados ao pool front-end. Os servidores back-end atuam como repositórios de backup dos dados de usuários e conferências do pool e são os repositórios principais de outros bancos de dados, como o banco de dados Grupo de Resposta. Você pode ter um único servidor back-end, mas uma solução que usa o espelhamento SQL Server é recomendada para failover. Os servidores back-end não executam softwares do Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Não recomendamos colocar bancos de dados do Lync Server com outros bancos de dados. Caso contrário, a disponibilidade e o desempenho poderão ser afetados.
 
 As informações armazenadas nos bancos de dados do servidor Back-End incluem informações de presença, listas de contatos dos usuários, dados de conferência, incluindo os dados persistentes sobre o estado de todas as conferências atuais e dados de agendamento de conferência.
@@ -90,7 +90,7 @@ As informações armazenadas nos bancos de dados do servidor Back-End incluem in
 
 O Servidor de Borda permite que os usuários se comuniquem e colaborem com usuários fora dos firewalls da organização. Esses usuários externos podem incluir os próprios usuários da organização que atualmente trabalham externamente, os usuários de organizações parceiras federadas e usuários externos que foram convidados para participar de conferências hospedadas em sua implantação do Lync Server O Servidor de Borda também permite a conectividade com os serviços de conectividade a redes públicas de IM, incluindo Windows Live, AOL, Yahoo\! e Google Talk.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 

@@ -35,5 +35,5 @@ O Assistente de Implantação do Lync Server é usado para instalar os component
 
 7.  Quando a instalação dos componentes do Lync Server 2013 for concluída e você já tiver revisto os logs conforme necessário, clique em **Concluir** para concluir esta etapa na instalação.
     
-    > [!note]  
+    > [!NOTE]  
     > Caso você seja solicitado a reiniciar o servidor (o que pode acontecer caso seja necessário instalar a Experiência de Desktop do Windows), siga a instrução. Quando o computador voltar a funcionar, é necessário repetir estas etapas, começando da etapa 3 listada acima (basicamente execute a Etapa 2 no Assistente para Implantação mais uma vez).

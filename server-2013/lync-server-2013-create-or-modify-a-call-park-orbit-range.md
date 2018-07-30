@@ -29,13 +29,13 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
     
       - Para criar um novo intervalo de órbitas, clique em **Novo** . Em **Nome** , digite um nome de identificação para esse intervalo de números.
         
-        > [!note]  
+        > [!NOTE]  
         > Após confirmar o intervalo de órbitas do banco de dados, não será possível alterar esse nome.    
       - Para modificar um intervalo de órbitas existente, digite todo ou parte do nome do intervalo de órbitas no campo de pesquisa. Na lista de resultados de órbitas, clique na órbita que desejar, clique em **Editar** e clique em **Mostrar detalhes** .
 
 5.  No primeiro campo do **Intervalo numérico** , digite o número inicial do intervalo de extensões desta órbita de estacionamento de chamada e, no segundo campo **Intervalo numérico** , digite o número final do intervalo.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>    <li><p>O número inicial do intervalo deve ser menor ou igual ao número final.</p></li>    <li><p>O valor do número inicial do intervalo deve ter o mesmo comprimento que o número final do intervalo.</p></li>    
 > <li><p>O intervalo de órbita deve ser exclusivo. Este intervalo não pode sobrepor outro intervalo.</p></li>    
 > <li><p>Se o intervalo de órbita começa com o caractere * ou #, o intervalo deve ser maior que 100.</p></li>    

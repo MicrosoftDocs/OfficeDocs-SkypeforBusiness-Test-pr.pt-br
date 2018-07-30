@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-11-02_
 
 O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o Lync Server aplique a rota estática para encaminhar chamadas ao gateway.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se você estivar migrando os usuários de uma versão anterior da implantação do Lync Server, verifique se removeu todas as entradas confiáveis de aplicativo existentes (previamente conhecidas como entradas de host autorizado) criadas para o gateway SIP/CSTA antes de seguir os procedimentos deste tópico. Para obter detalhes, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remover um host autorizado herdado no Lync Server 2013 (opcional)</a>.
 
 ## Para configurar uma entrada de aplicativo confiável para o gateway SIP/CSTA

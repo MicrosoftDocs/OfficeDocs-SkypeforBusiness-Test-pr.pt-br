@@ -39,7 +39,7 @@ Antes de encerrar um pool, é necessário realizar o seguinte procedimento para 
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-> [!note]  
+> [!NOTE]  
 > Talvez ocorra um erro (mostrado a seguir) causado pelo Shell de Gerenciamento do Lync Server ao exigir um conjunto atualizado de permissões do Active Directory. Para solucionar esse erro, fecha a janela atual, abra um novo Shell de Gerenciamento do Lync Server e execute o comando novamente.
 
 ![Saída de erro Move-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Saída de erro Move-CsConferenceDirectory")

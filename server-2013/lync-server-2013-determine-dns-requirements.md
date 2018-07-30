@@ -17,14 +17,14 @@ _**Tópico modificado em:** 2016-12-08_
 
 Use o fluxograma a seguir para determinar os requisitos do Sistema de Nomes de Domínio (DNS). Alterações das atualizações cumulativas do Lync Server 2013: fevereiro de 2013 são observadas onde se aplicam.
 
-> [!important]  
+> [!IMPORTANT]  
 > O Microsoft Lync Server 2013 suporta o uso de endereçamento IPv6. Para usar endereços IPv6, é necessário também fornecer suporte para DNS IPv6 e configurar os registros AAAA (conhecido como &quot;quad-A&quot;) de host DNS. Em implantações onde IPv4 e IPv6 estão sendo usados, é melhor configurar e manter ambos os registros A de host para IPv4 e AAAA de host para IPv6. Mesmo foi realizada a transição completa da sua implantação para IPv6, os registros de host DNS IPv4 ainda podem ser necessários quando usuários externos ainda estão usando IPv4.
 
 **Fluxograma - Como determinar os requisitos do DNS**
 
 ![Fluxograma de Requisitos DNS](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "Fluxograma de Requisitos DNS")
 
-> [!important]  
+> [!IMPORTANT]  
 > Por padrão, o nome de um computador que não está vinculado a um domínio é um nome de host, não um nome de domínio totalmente qualificado (FQDN). O Construtor de Topologias usa FQDNs, não nomes de host. Portanto, você deve configurar um sufixo DNS no nome do computador a ser implantado como um Servidor de Borda que não está vinculado a um domínio. <strong>Use somente caracteres padrão</strong> (incluindo A-Z, a-z, 0-9 e hífens) ao atribuir FQDNs dos seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode ou sublinhados. Caracteres que não são padrão em um FQDN geralmente não são suportados por DNSs externos e CAs públicos (ou seja, quando o FQDN deve ser atribuído ao SN no certificado). Para obter mais detalhes, consulte <a href="lync-server-2013-configure-dns-host-records.md">Configurar registros de Host DNS para Lync Server 2013</a>
 
 ## Como os clientes do Lync localizam serviços
@@ -63,7 +63,7 @@ Quando uma conexão é bem sucedida, o Serviço de Descoberta Automática retorn
 
 Se as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 tiverem sido instaladas, o Serviço de Descoberta Automática também retorna referências a Interno/UCWA, Externo/UCWA e UCWA. Essas entradas se referem ao componente Web Unified Communications Web API (UCWA). Atualmente, apenas a entrada UCWA é usada e fornece uma referência a uma URL do componente Web. UCWA é usado por clientes móveis do Lync 2013 em vez do Serviço de Mobilidade Mcx usado pelos clientes do Lync 2010 Mobile.
 
-> [!note]  
+> [!NOTE]  
 > Ao criar registros SRV, é importante lembrar que eles devem apontar para um registro A ou AAAA (se você estiver usando endereçamento IPv6) de DNS no mesmo domínio em que o registro SRV do DNS for criado. Por exemplo, se o registro SRV está em contoso.com, o registro A ou AAAA (se você estiver usando endereçamento IPv6) para o qual aponta não pode estar em fabrikam.com.
 
 
@@ -72,7 +72,7 @@ Se as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 tiverem 
 
 
 
-> [!note]  
+> [!NOTE]  
 > Embora aplicativos móveis também possam se conectar a outros serviços do Lync Server 2013, como o Serviço de Catálogo de Endereços, solicitações web de aplicativos móveis internos vão para o FQDN externo da web somente para o Serviço de Mobilidade. Outras solicitações de serviços, como solicitações do Catálogo de Endereços, não exigem esta configuração.
 
 Os dispositivos móveis são compatíveis com a descoberta manual de serviços. Neste caso, cada usuário deve configurar as definições do dispositivo móvel com as URIs do Serviço de Descoberta Automática interna e externa completas, incluindo o protocolo e o caminho, da seguinte forma:
@@ -87,7 +87,7 @@ Recomendamos utilizar a descoberta automática, em vez da descoberta manual. No 
 
 O split-brain DNS é conhecido por vários nomes, por exemplo, DNS dividido ou DNS de horizonte dividido. Ele descreve simplesmente uma configuração de DNS onde há duas zonas DNS com o mesmo namespace - mas uma zona de DNS serve apenas solicitações internas e a outra DNS serve apenas solicitações externas. No entanto, muitos dos DNS SRV e registros A contidos no DNS interno não serão contidos no DNS externo, e o inverso é também verdadeiro. Nos casos onde o mesmo registro DNS existe tanto no DNS interno quanto externo (p.ex., www.contoso.com), o endereço IP retornado será diferente baseado em onde (interno ou externo) a consulta iniciou.
 
-> [!important]  
+> [!IMPORTANT]  
 > No momento o Split-Brain DNS não é suportado pela mobilidade, ou mais especificamente, os registros de DNS LyncDiscover e LyncDiscoverInternal. O LyncDiscover deve ser definido em um servidor de DNS externo e o LyncDiscoverInternal deve ser definido em um servidor de DNS interno.
 
 Nestes tópicos, o termo split-brain DNS será usado.
@@ -150,7 +150,7 @@ Se a configuração automática for necessária para clientes executando o Lync,
 
   - **Objetos de Política de Grupo**   Use objetos de Política de Grupo (GPOs) para popular os valores de servidor corretos.
     
-    > [!note]  
+    > [!NOTE]  
     > Esta opção não habilita a configuração automática, mas automatiza o processo de configuração manual; assim, se esta abordagem for utilizada, os registros SRV associados à configuração automática não são necessários.
 
   - **Comparação da zona interna**   Crie uma zona no DNS interno que corresponda à zona do DNS externo (por exemplo, contoso.com) e crie registros A ou AAAA (se você estiver usando endereçamento IPv6) de DNS correspondentes ao pool do Lync Server 2013 usado para a configuração automática. Por exemplo, se um usuário está hospedado em pool01.contoso.net mas entra no Lync como bob@contoso.com, crie uma zona do DNS interno chamada contoso.com e, dentro dela, crie um registro A ou AAAA (se você estiver usando endereçamento IPv6) de DNS para pool01.contoso.com.
@@ -175,12 +175,12 @@ Se a configuração automática for necessária para clientes executando o Lync,
         dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
 
-> [!note]  
+> [!NOTE]  
 > O FQDN do pool de Front End aparece duas vezes, mas com dois endereços IP diferentes. Isso acontece porque o balanceamento de carga do DNS é usado, mas se o balanceamento de carga do hardware for utilizado, existirá apenas uma única entrada do pool de Front End. Além disso, os valores do FQDN do pool de Front End mudam entre os exemplos contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso acontece porque usuários entrando a partir do domínio SIP usam o mesmo pool de Front End para a configuração automática.
 
 Para obter detalhes, consulte o artigo do blog DMTF, "Configuração Automática do Comunicador e Split-Brain DNS," em [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707).
 
-> [!note]  
+> [!NOTE]  
 > O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.
 
 ## Configurar o Sistema de nomes de domínios (DNS) para Recuperação de Desastres
@@ -302,7 +302,7 @@ Por exemplo, se houver três servidores front end em um pool chamado pool01.cont
 
   - Se o cliente experimenta todas as entradas em cache sem uma conexão bem sucedida, o usuário é notificado de que nenhum servidor executando o Lync Server 2013 está disponível no momento.
 
-> [!note]  
+> [!NOTE]  
 > O balanceamento de carga baseado em DNS é diferente do round robin de DNS (DNS RR), que normalmente faz referência ao balanceamento de carga confiando no DNS para fornecer uma ordem diferente de endereços IP correspondentes aos servidores em um pool. Normalmente o DNS RR só habilita a distribuição de carga, mas não habilita o failover. Por exemplo, se a conexão com um endereço IP retornado pela consulta DNS A e AAAA (se estiver usando o endereçamento IPv6), a conexão falha. Portanto, o round robin de DNS por si só é menos confiável do que o balanceamento de carga baseado em DNS. O round robin de DNS pode ser usado em conjunto com o balanceamento de carga do DNS.
 
 O balanceamento de carga do DNS é usado para:

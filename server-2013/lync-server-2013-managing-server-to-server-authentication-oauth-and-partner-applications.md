@@ -21,7 +21,7 @@ O uso de um único método padronizado para a autenticação de servidor para se
 
 A autenticação com o OAuth geralmente envolve três partes: um servidor de autorização individual e dois realms que precisam se comunicar entre si. (Também é possível usar autenticação de servidor para servidor sem usar um servidor de autorização, um processo que será analisado mais tarde neste documento.) Os tokens de segurança são emitidos pelo servidor de autorização (também conhecido como servidor do token de segurança) para os dois realms que precisam se comunicar; esse tokens verificam se as comunicações originadas de um realm devem ser confiadas pelo outro realm. Por exemplo, o servidor de autorização pode emitir tokens que verificam se os usuários de um realm do Lync Server 2013 específico podem acessar um relam do Exchange 2013 e vice-versa.
 
-> [!note]  
+> [!NOTE]  
 > Um realm é simplesmente um contêiner de segurança, Por padrão, o Lync Server 2013 usa seu domínio SIP padrão como realm de OAuth.
 
 O Lync Server 2013 dá suporte a três cenários de autenticação de servidor para servidor. Com o Lync Server 2013, é possível:
@@ -48,7 +48,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
   - Configurar o servidor com que o Lync Server 2013 se comunicará para que seja um "aplicativo de parceiro". Por exemplo, se o Lync Server 2013 precisa se comunicar com o Exchange 2013, será preciso configurar o Exchange para que ele seja um aplicativo de parceiro.
 
-> [!note]  
+> [!NOTE]  
 > Um &quot;aplicativo de parceiro&quot; é qualquer aplicativo com o qual o Lync Server 2013 pode trocar diretamente tokens de segurança sem ter que atravessar um servidor de token de segurança terceirizado.
 
 Observe que o OAuth é uma parte essencial do produto e não pode ser desabilitado, nem removido.

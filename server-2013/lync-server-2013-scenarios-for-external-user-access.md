@@ -33,7 +33,7 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 
 
 
-> [!note]  
+> [!NOTE]  
 > Todos os serviços de borda são executados em cada Servidor de Borda. Os serviços não podem ser divididos entre dois Servidores de Borda diferentes. Se você implantar um Pool de borda para escalabilidade, todos os serviços de borda são implantados em cada Servidor de Borda no pool. Federação XMPP, Office Communications Server e federação Lync Server, conectividade de IM público e mobilidade do cliente são serviços adicionais que podem ser implantados após implantar seu primeiro Servidor de Borda ou Pool de borda. Serviços de mobilidade é o recurso que usa proxy inverso. A instalação de serviços de mobilidade não adicionará recursos para seu Servidores de Borda, mas exigirá a reconfiguração do seu proxy inverso. A coluna <strong>objetivo de instalação</strong> que lista estes recursos oferece diretrizes de planejamento na coluna associada em <strong>Seção ou seções de planejamento do Servidor de Borda</strong> para o planejamento simultâneo destes recursos para ser implantado quando o Servidores de Borda é instalado e configurado.
 
 ## Identificando e mapeando suas metas de implantação

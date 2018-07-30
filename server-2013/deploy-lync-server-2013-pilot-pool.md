@@ -19,7 +19,7 @@ Uma das primeiras etapas necessárias para a migração para Lync Server 2013 é
 
 Ao implantar um pool piloto, você usa o assistente Definir novo pool de front end. Você deve implantar os mesmos recursos e cargas de trabalho no pool piloto que tenham no pool do Lync Server 2013 que você tenha em seu pool do Lync Server 2010. Se você implantou o Servidor de Arquivamento, Servidor de Monitoramento, ou System Center Operations Manager para arquivamento ou monitorar do seu ambiente do Lync Server 2010 deseja continuar o arquivamento ou o monitoramento durante a migração, é necessário também implantar esses recursos em seu ambiente piloto. A versão implantada para arquivamento ou monitor do seu ambiente do Lync Server 2010 não irá capturar dados no seu ambiente do Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > O procedimento a seguir discute os recursos e configurações que você deve considerar como parte do processo de implantação do pool piloto. Esta seção destaca somente os principais pontos que você deve considerar como parte da implantação do pool piloto. Para obter detalhes sobre as etapas, consulte o guia de implantação <a href="lync-server-2013-deploying-lync-server.md">Implantando o Lync Server 2013</a>.
 
 **Para implantar um pool piloto do Lync Server 2013**

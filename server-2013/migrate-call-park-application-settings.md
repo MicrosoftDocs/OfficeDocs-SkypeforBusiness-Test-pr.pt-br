@@ -31,7 +31,7 @@ As configurações do aplicativo de Estacionamento de Chamada incluem o limite d
 
 2.  Na linha de comando, digite o seguinte:
     
-    > [!note]  
+    > [!NOTE]  
     > Se suas configurações do aplicativo de Estacionamento de Chamada do Lync Server 2013 são idênticas às configurações herdadas do Lync Server 2010, é possível pular esta etapa. Se as configurações de aplicativo de Estacionamento de Chamada são diferentes para os ambientes do Lync Server 2013 e Lync Server 2010, use o cmdlet abaixo como um modelo para atualizar estas mudanças.    
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
 

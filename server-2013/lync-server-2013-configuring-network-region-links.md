@@ -29,7 +29,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 5.  Em **Novo Link de Região**, digite um valor no campo **Nome**.
     
-    > [!note]  
+    > [!NOTE]  
     > Este valor deve ser único em sua implantação do Lync Server 2013.
 
 6.  Na lista suspensa **Região de rede \#1**, selecione uma das duas regiões a serem vinculadas.

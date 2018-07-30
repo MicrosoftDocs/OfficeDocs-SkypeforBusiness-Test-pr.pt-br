@@ -4188,8 +4188,8 @@
         - name: Cmdlets do Windows PowerShell para gerenciamento de catálogo de endereços
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: new-csaddressbookconfiguration para Gerenciamento do catálogo de endereços
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: New-CsAddressBookConfiguration para Gerenciamento do catálogo de endereços
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration para Gerenciamento de catálogo de endereços
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Get-CsAddressBookConfiguration para Gerenciamento de catálogo de endereços
@@ -4208,8 +4208,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService para gerenciamento de catálogo de endereços
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: new-cswebserviceconfiguration para Gerenciamento de catálogo de endereços
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: New-CsWebServiceConfiguration para Gerenciamento de catálogo de endereços
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration para Gerenciamento de catálogo de endereços
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Set-CsWebServiceConfiguration para Gerenciamento do catálogo de endereços

@@ -44,7 +44,7 @@ Instruções para executar cada uma dessas tarefas são fornecidas abaixo.
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     ```
 
-    > [!note]  
+    > [!NOTE]  
     > Sempre que você editar o registro, você poderá receber um erro em que o comando falha caso a chave de registro já exista. Caso isso aconteça, você pode ignorar com segurança o erro.
 
 **Configurar o servidor de gerenciamento System Center Operations Manager primário para substituir o nó do candidato a inspetor de descoberta central.**

@@ -27,7 +27,7 @@ Cada região de uma configuração de CAC (controle de admissão de chamadas) de
 
 4.  Na página **Rota de Região**, clique na rota de região que deseja excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode excluir mais de uma rota de região por vez. Para fazer isso, pressione CTRL e selecione várias rotas de região mantendo pressionada a tecla CTRL. Para selecionar todas as rotas da região, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.

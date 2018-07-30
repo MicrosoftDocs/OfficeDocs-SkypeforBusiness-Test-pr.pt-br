@@ -49,7 +49,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
 
 4.  Na página **Executando comandos** , o SQL Server Express é instalado como o Servidor de Gerenciamento Central. Regras de firewall necessárias são criadas. Quando a instalação do banco de dados e software de pré-requisito estiver concluída, clique em **Finalizar** .
     
-    > [!note]  
+    > [!NOTE]  
     > A instalação inicial pode levar algum tempo sem nenhuma atualização visível na tela de resumo de saída do comando. Isto ocorre devido à instalação do SQL Server Express. Se você precisa monitorar a instalação do banco de dados, use o Gerenciador de Tarefas para monitorar a configuração.
 
 5.  Para criar o novo Repositório de Gerenciamento Central no Lync Server 2013 Standard Edition Servidor Front-End, no Shell de Gerenciamento do Lync Server, digite:
@@ -96,7 +96,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
     
         Get-CsManagementStoreReplicationStatus
     
-    > [!note]  
+    > [!NOTE]  
     > A replicação pode levar algum tempo para atualizar todas as réplicas atuais.
 
 ## Para remover os arquivos do Lync Server 2010Repositório de Gerenciamento Central após uma movimentação

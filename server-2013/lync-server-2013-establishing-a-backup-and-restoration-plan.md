@@ -39,7 +39,7 @@ Enquanto desenvolve seu plano, você precisa considerar, e reponsabilizar-se por
 
 Modifique os procedimentos de backup e restauração neste tópico, adicionando-os e excluindo-os conforme o apropriado para refletir os servidores e componentes na sua implantação. Você também pode adicionar detalhes como a agenda do backup aos procedimentos adequados, para garantir que a informação não seja negligenciada.
 
-> [!note]  
+> [!NOTE]  
 > É boa prática criar scripts para tantas etapas quanto forem possíveis para ajudar a garantir a qualidade e a reprodutibilidade dos procedimentos.
 
 Em seu plano, especifique quem será responsável por analisá-lo, testá-lo e pela validação de quaisquer procedimentos ou ferramentas novos e quem deve aprovar quaisquer mudanças no plano e procedimentos relacionados.

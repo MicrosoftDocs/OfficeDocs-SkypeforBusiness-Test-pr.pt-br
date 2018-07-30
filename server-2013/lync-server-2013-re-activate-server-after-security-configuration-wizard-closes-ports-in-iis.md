@@ -25,5 +25,5 @@ Algumas funções do Lync Server 2013 executam o Serviços Web na porta 4443 do 
 
 3.  Na página **Executando Comandos** , quando o status da tarefa é exibido como concluído, clique em **Concluir** .
     
-    > [!note]  
+    > [!NOTE]  
     > Também é possível usar bootstrapper.exe ou <strong>Enable-CsComputer</strong> para reativar o servidor.
