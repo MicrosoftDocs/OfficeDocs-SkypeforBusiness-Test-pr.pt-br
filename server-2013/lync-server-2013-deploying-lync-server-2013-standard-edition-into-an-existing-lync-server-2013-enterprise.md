@@ -32,7 +32,7 @@ A implantação de um Servidor Standard Edition em uma implantação do Enterpri
 6.  Configure e instale um Servidor Standard Edition. Para obter informações detalhadas, consulte Setting Up Standard Edition Server.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você implantou um ambiente com apenas um Servidor Standard Edition, você terá iniciado o processo de instalação a partir do Assistente de Implantação do Lync Server usando o link <STRONG>Preparar primeiro servidor Standard Edition</STRONG> para instalar os arquivos de banco de dados iniciais ao novo Servidor Standard Edition. <STRONG>Não</STRONG> siga esse processo ao instalar um Servidor Standard Edition em uma implantação existente do Lync Server 2013.
 
 

@@ -36,13 +36,9 @@ Siga as etapas deste tópico para usar o Construtor de Topologias para definir u
 5.  Em **Selecionar funções de servidor colocadas** , marque a opção **Colocar Servidor de Mediação**.
     
     > [!NOTE]  
-    > <ul>    
-> <li><p>Se o tipo de Pool de Front-Ends que você selecionou for o Enterprise Edition, o componente do Servidor de Mediação será instalado em todos os Servidores Front-End desse Pool de Front-Ends.</p></li>    
-> 
-> <li><p>O <strong>Pool do próximo salto</strong> usado pelo Servidor de Mediação será o Pool de Front-Ends no qual o Servidor de Mediação será colocado.</p></li>    
-> 
-> 
-> <li><p>O <strong>Pool de Borda</strong> usado pelo Servidor de Mediação será o mesmo Pool de borda associado ao Pool de Front-Ends no qual o Servidor de Mediação é colocado.</p></li>    </ul>
+    > <ul><li><p>Se o tipo de Pool de Front-Ends que você selecionou for o Enterprise Edition, o componente do Servidor de Mediação será instalado em todos os Servidores Front-End desse Pool de Front-Ends.</p></li>    
+    > <li><p>O <strong>Pool do próximo salto</strong> usado pelo Servidor de Mediação será o Pool de Front-Ends no qual o Servidor de Mediação será colocado.</p></li>    
+    > <li><p>O <strong>Pool de Borda</strong> usado pelo Servidor de Mediação será o mesmo Pool de borda associado ao Pool de Front-Ends no qual o Servidor de Mediação é colocado.</p></li>    </ul>
 
 
 6.  Clique em **Tornar Padrão** para usar esse Pool de Front-Ends para encaminhar as chamadas de Microsoft Office Communications Server 2007 R2 para o PSTN.

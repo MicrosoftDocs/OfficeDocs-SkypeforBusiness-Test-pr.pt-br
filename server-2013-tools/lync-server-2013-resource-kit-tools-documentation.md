@@ -1072,7 +1072,7 @@ A versão atual do SEFAUtil é apenas uma ferramenta de linha de comando; não h
   - Habilitar/desabilitar/modificar configurações do recebimento de chamada de grupo
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Novidade na ferramenta Lync Server 2013 SEFAUtil
 
 

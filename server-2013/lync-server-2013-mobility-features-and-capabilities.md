@@ -50,7 +50,7 @@ O recurso de mobilidade apresentado nas Atualizações Cumulativas para Lync Ser
 Usuários do Apple iPad terão acesso a recursos avançados. Depois de entrar em uma reunião usando retorno de chamada de áudio, um usuário do iPad poderá visualizar apresentações do Microsoft PowerPoint carregadas dentro de uma reunião, compartilhar aplicativos e áreas de trabalho, visualizar a lista de participantes da reunião e receber notificações de outros tipos de conteúdo que estiverem sendo compartilhados dentro da reunião.
 
 
-> [!TIP]
+> [!TIP]  
 > Com o acesso a único número, um usuário recebe chamadas feitas de um telefone móvel que discou para o número do trabalho. Com o Chamada via Trabalho, o usuário estabelece uma chamada de saída de um cliente Lync Mobile usando o número de telefone do trabalho em vez do número do celular. Com a discagem, o cliente envia uma solicitação ao Mcx ou UCWA (com base na versão Lync Mobile) para chamar. O servidor inicia a chamada e depois retorna a chamada no celular do usuário. Quando o usuário atende, o servidor completa a chamada discando para a outra parte. Usando o Chamada via Trabalho, os usuários podem manter sua identidade de trabalho durante uma chamada, o que significa que o destinatário da chamada não visualiza o número de celular do chamador, e este evita incorrer em tarifas da chamada de saída.
 
 

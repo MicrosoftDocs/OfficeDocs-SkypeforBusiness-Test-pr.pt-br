@@ -68,6 +68,7 @@ O banco de dados de conformidade do Chat Persistente (mgccomp) não é failed ov
 7.  Defina os servidores ativos do Servidor de Chat Persistente. No Shell de Comando do Lync Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista dos servidores ativos.
     
     > [!IMPORTANT]  
-    > Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.    
+    > Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.  
+      
     Neste ponto, o failover do banco de dados do Servidor de Chat Persistente para o banco de dados de backup do Servidor de Chat Persistente é concluído com sucesso.
 

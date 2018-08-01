@@ -115,7 +115,7 @@ Em que $LyssProvider é a variável que contém o cenário definido criado com *
 O resultado final do comando é que cenário site:Redmond/RedmondLyssInfo terá atualizado os sinalizadores e o nível do provedor atribuído a ele. Você pode exibir o novo cenário usando Get-CsClsScenario. Para obter detalhes, consulte [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
 
-> [!WARNING]
+> [!WARNING]  
 > <STRONG>New-ClsCsProvider</STRONG> não faz uma verificação para determinar se os sinalizadores são válidos. Certifique-se de que os sinalizadores (por exemplo, TF_DIAG ou TF_CONNECTION) estejam grafados corretamente. Se os sinalizadores não estiverem grafados corretamente, o provedor não poderá retornar as informações de log esperadas.
 
 
@@ -148,7 +148,7 @@ Em que cada provedor definido com a diretiva Add já foi definido com o uso do p
         Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O cmdlet <STRONG>Remove-CsClsScenario</STRONG> não solicita sua confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.
 
 

@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2013-02-21_
 Se um servidor Standard Edition que não hospeda o Repositório de Gerenciamento Central falhar, siga os procedimentos nesta seção. Se o Repositório de Gerenciamento Central falhar, consulte [Restaurar o servidor que hospeda o Repositório de Gerenciamento Central](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você faça uma cópia da imagem do sistema antes de iniciar a restauração. Você poderá usar essa imagem como um ponto de reversão caso ocorra algo errado durante a restauração. Convém usar a cópia da imagem depois de instalar o sistema operacional e o SQL Server e restaurar ou registrar novamente os certificados.
 
 

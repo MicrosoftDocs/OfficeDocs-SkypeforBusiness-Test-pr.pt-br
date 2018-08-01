@@ -26,7 +26,7 @@ Digite o seguinte em uma linha de comando do promt:
     Get-CsClsConfiguration
 
 
-> [!TIP]
+> [!TIP]  
 > Você pode diminuir ou ampliar o escopo das definições das configurações que retornam ao definir <CODE>-Identity</CODE> e um escopo, como “Site:Redmond”, para retornar apenas o CsClsConfiguration para o Redmond local. Caso deseje detalhes sobre uma dada parte da configuração, você pode canalizar a saída em outro cmdlet Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração para o "Redmond" loca, digite: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
 

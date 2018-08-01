@@ -40,7 +40,7 @@ Para detalhes sobre como trabalhar com sub-redes da rede, consulte a documentaç
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
 
-> [!TIP]
+> [!TIP]  
 > Se estiver trabalhando com um número grande de sub-redes, é recomendável usar um arquivo de valores separados por vírgula (CSV) para associar as sub-redes a sites. O arquivo CSV deve ter as quatro colunas a seguir: <STRONG>IPAddress</STRONG>, <STRONG>mask</STRONG>, <STRONG>description</STRONG>, <STRONG>NetworkSiteID</STRONG>.
 
 

@@ -45,7 +45,8 @@ A caixa postal de Alice e o serviço UM do Exchange estão localizados no datace
       - As organizações são identificadas pelas IDs de locatários, que são os FQDNs de encaminhamento de mensagens SIP para os locatários do Exchange Server localizados em ls.ExUm. *\<ServidorHospedadoExchange\>* .com (corp.contoso.com e corp.litwareinc.com neste exemplo).
         
         > [!NOTE]  
-        > O FQDN para Exchange Online é exap.um.outlook.com.        
+        > O FQDN para Exchange Online é exap.um.outlook.com.  
+              
         Para obter detalhes, consulte [Políticas de correio de voz hospedado no Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
 > [!NOTE]  

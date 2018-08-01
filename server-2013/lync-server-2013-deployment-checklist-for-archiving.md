@@ -54,10 +54,10 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <tr class="odd">
 <td><p><strong>Instalar os pré-requisitos de hardware e software</strong></p></td>
 <td><ul><li><p>Para usar a integração do Microsoft Exchange (usando o Exchange 2013 para armazenamento de arquivamento para alguns ou todos os usuários), você precisa de uma implantação do Exchange 2013 existente.</p></li><li><p>Para usar bancos de dados de Arquivamento separados (usando bancos de dados do SQL Server) para armazenamento de arquivamento para alguns ou todos os usuários, SQL Server no servidor que armazenará os dados de arquivamento.</p></li></ul>
-<div class="alert">
+
 > [!NOTE]  
 > O Arquivamento é executado nos servidores front-end de um pool Enterprise e servidores Standard Edition. Não há requisitos adicionais de hardware e software além daqueles para instalar esses servidores.
-</div></td>
+</td>
 <td><p>Usuário do domínio que é membro do grupo local de administradores.</p></td>
 <td><p><a href="lync-server-2013-supported-hardware.md">Hardware suportado para Lync Server 2013</a> na documentação de capacidade de suporte.</p>
 <p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Suporte a software e à infraestrutura de servidor no Lync Server 2013</a> na documentação de capacidade de suporte.</p>

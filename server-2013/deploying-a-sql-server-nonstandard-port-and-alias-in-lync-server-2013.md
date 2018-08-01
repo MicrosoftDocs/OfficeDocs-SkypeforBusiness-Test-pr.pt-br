@@ -108,7 +108,7 @@ A porta não padrão e o alias do SQL Server devem ser configurados na instânci
     ![Criando um novo alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Criando um novo alias")
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Certifique-se de inserir a mesma porta não padrão utilizada na etapa anterior, pois ela é a porta na qual o SQL Server fará a escuta. Se um alias configurado estiver conectado ao FQDN ou à Instância incorretos do SQL Server, desabilite e reabilite o protocolo de rede associado. Essa operação limpa qualquer informação de conexão em cache e permite que o cliente se conecte corretamente.
 
 

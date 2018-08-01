@@ -20,7 +20,7 @@ A configuração das salas do Chat Persistente é geralmente feita pelos usuári
 Usuários que são **Criadores** em uma dada categoria podem usar o cliente do Lync para criar e gerenciar salas. Os usuários que foram designados como gerentes de uma sala de chat específica também podem realizar gerenciamento contínuo da sala, como edição das propriedades ou associação das salas.
 
 
-> [!TIP]
+> [!TIP]  
 > Os administradores do Chat Persistente podem ser também Criadores, e eles não estão sujeitos às restrições colocadas nos Criadores.
 
 

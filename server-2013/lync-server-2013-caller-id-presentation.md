@@ -42,7 +42,7 @@ O Lync Server 2013 introduz a opção de também converter o número de telefone
       - Para remover uma regra de conversão do tronco, destaque o nome da regra e clique em **Remover** .
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
 
 

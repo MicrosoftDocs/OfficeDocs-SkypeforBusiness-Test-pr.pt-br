@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2012-09-08_
 No Microsoft Lync Server 2013  software de comunicação, é possível executar o Microsoft Lync Server 2013, Ferramenta de Planejamento sem documentar os endereços IP e os FQDNs (nomes de domínio totalmente qualificado) do Servidor de Borda existentes e propostos, mas é muito mais difícil fazer isso sem causar erros de configuração. Por exemplo, se for necessária uma coexistência durante um período, um erro comum é reutilizar os FQDNs de uma implantação de Borda existente na implantação de Borda do Lync Server 2013. Tendo endereços IP existentes e propostos e FQDNs gravados em uma planilha, tabela ou outro formato visual, você ajuda a evitar problemas de configuração durante a instalação.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você usou versões anteriores do Ferramenta de Planejamento, pode ter usado a ferramenta para criar sua topologia e exportado o documento de topologia para uso no Construtor de Topologias para publicar sua topologia. A capacidade de exportar a topologia foi removida do Ferramenta de Planejamento. Usar uma versão anterior do Ferramenta de Planejamento para criar um documento de topologia para o Lync Server 2013 não é recomendado e produzirá resultados inesperados;
 
 

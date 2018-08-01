@@ -28,7 +28,7 @@ Se um servidor que estiver executando uma das seguintes funções de servidor fa
   - Servidor de Borda
 
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você faça uma cópia da imagem do sistema antes de iniciar a restauração. Você pode utilizar essa imagem como ponto de reversão caso ocorra algo errado durante a restauração. Convém usar a cópia da imagem depois de instalar o sistema operacional e o SQL Server e restaurar ou registrar novamente os certificados.
 
 

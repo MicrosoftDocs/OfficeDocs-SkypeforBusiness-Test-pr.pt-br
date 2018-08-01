@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2016-12-08_
 Os tópicos a seguir oferecem instruções sobre como encerrar pools e como desativar e remover servidores e pools de uma implantação herdada do Office Communications Server 2007 R2. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia as informações de cada tópico para determinar qual procedimento de encerramento deve ser usado.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você importou diretórios de conferência para conferência discada no Lync Server 2013, é importante fazer a transição da propriedade de diretório de conferência para o Lync Server 2013 antes de começar a encerrar seus pools. Se você encerrar um pool sem antes fazer a transição da propriedade de diretório de conferência, o recurso de discagem para todas as reuniões migradas deixará de funcionar. Você deve executar a etapa para fazer a transição da propriedade uma vez para cada diretório de conferência no pool herdado.
 
 

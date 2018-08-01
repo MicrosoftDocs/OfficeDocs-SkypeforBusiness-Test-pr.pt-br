@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2013-02-16_
 A Descoberta Automática foi lançada para o Lync Server na atualização cumulativa para Lync Server 2010: novembro de 2011. A principal finalidade dessa implementação inicial da Descoberta Automática foi fornecer maneiras do Lync Mobile localizar o serviço de Mobilidade (Mcx). O serviço de Descoberta Automática no Lync Server 2013 agora é um serviço usado pelos clientes para localizar os servidos dos servidores e dos usuários. O serviço de Descoberta Automática do Microsoft Lync Server 2013 é executado no Diretores e no Servidores Front-End.
 
 
-> [!TIP]
+> [!TIP]  
 > Para obter mais compreensão técnica sobre a Descoberta Automática e o que é comunicado aos clientes, consulte <A href="lync-server-2013-understanding-autodiscover.md">Noções básicas sobre a descoberta automática no Lync Server 2013</A>.<BR>A Mobilidade ainda é um cenário distinto e os serviços de Mobilidade ainda necessitam de algum planejamento especial. Para obter detalhes adicionais, consulte <A href="lync-server-2013-planning-for-mobility.md">Planejamento para mobilidade no Lync Server 2013</A>.
 
 

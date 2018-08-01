@@ -37,7 +37,7 @@ Ao implantar um pool piloto, você usa o Assistente Definir novo pool de front-e
 5.  Insira FQDN do pool. Ao definir seu pool piloto, é possível escolher para implantar um Pool de Front-Ends Enterprise Edition ou um Servidor Standard Edition. O Lync Server 2013 não exige que as características do seu pool piloto correspondam àquilo que foi implantado em seu pool herdado.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O pool ou o FQDN definido para seu pool piloto deve ser exclusivo. Ele não pode corresponder ao nome de atualmente implantado no pool do Office Communications Server 2007 R2 ou qualquer outro servidor atualmente implantado.
 
     

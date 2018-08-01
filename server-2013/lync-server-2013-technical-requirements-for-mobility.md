@@ -89,7 +89,7 @@ Para detalhes sobre os registros de DNS requeridos para o seu cenário, consulte
 Se você oferece suporte a notificações de envio e deseja que os dispositivos móveis da Apple recebam notificações de envio pela rede Wi-Fi, é preciso abrir a porta 5223 em sua rede corporativa Wi-Fi. A porta 5223 é uma porta TCP de saída usada pelo APNS (Apple Push Notification Service). O dispositivo móvel inicia a conexão. Para obter mais detalhes, consulte [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629?viewlocale=pt_br).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Um dispositivo Apple utilizando o cliente móvel Lync 2013 não requer notificações push.
 
 

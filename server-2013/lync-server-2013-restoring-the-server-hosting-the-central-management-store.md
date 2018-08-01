@@ -25,7 +25,7 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
 > Se um Servidor Back End ou um Servidor Standard Edition que não hospeda o Repositório de Gerenciamento Central falhou, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor de back-end do Enterprise Edition</a> ou <a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor do Standard Edition</a>. Se um servidor de Back End que hospeda o repositório de Gerenciamento Central estiver em uma configuração espelhada e esse espelho falhar, consulte <a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado – espelho</a>. Se qualquer outro servidor tiver falhado, consulte <a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro do Enterprise Edition</a>.
 
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos fazer uma cópia da imagem do sistema antes de iniciar a restauração. Você pode usar essa imagem como um ponto de reversão caso algo dê errado durante a restauração. Convém tirar a cópia da imagem depois de instalar o sistema operacional e o SQL Server e restaurar ou registrar novamente os certificados.
 
 
@@ -110,7 +110,7 @@ Se o Servidor de Back End que hospeda o repositório do Gerenciamento Central Se
     7.  Siga o restante do assistente e clique em **Concluir**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Em vez de executar o Construtor de Topologias, você pode usar o cmdlet <STRONG>Install-CsDatabase</STRONG> para criar cada banco de dados, e o cmdlet <STRONG>Install-CsMirrorDatabase</STRONG> para configurar o espelhamento. Para obter detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> e <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
 

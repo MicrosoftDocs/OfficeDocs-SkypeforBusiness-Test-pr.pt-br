@@ -105,7 +105,7 @@ Use os procedimentos a seguir para criar regras de publicação da Web.
 6.  Na caixa de diálogo **Adicionar servidor** em **Endereço do servidor**, digite nome de domínio totalmente qualificado (FQDN) dos serviços da Web externos no Servidor Front-End. Os nomes que serão usados aqui para fim de exemplo são os mesmos usados na seção Planejamento do proxy reverso, [Resumo de certificado - Proxy reverso no Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Em relação ao planejamento de proxy reverso, deve-se digitar o FQDN `webext.contoso.com`. Confirme se a caixa de seleção próxima a **Online** está selecionada. Clique em **Adicionar** para adicionar o servidor ao pool de servidores da web desta configuração.
     
 
-    > [!WARNING]
+    > [!WARNING]    
     > Lync Server usa balanceadores de carga de hardware para pool do Diretor e o Servidores Front-End para tráfego HTTP e HTTPS. Você deverá fornecer apenas um FQDN ao adicionar um servidor para o Farm de servidores ARR. O FQDN será o Servidor Front-End ou Diretor nas configurações do servidor sem pool ou o FQDN do balanceador de carga de hardware configurado para os pools do servidor. O único método suportado para balancear a carga do tráfego HTTP e HTTPS é o uso dos balanceadores de carga de hardware.
 
 
@@ -126,7 +126,7 @@ Use os procedimentos a seguir para criar regras de publicação da Web.
 11. Clique no nome do farm de servidores. Em **Farm de servidores** na Visualização de Recursos do Gerenciador de IIS, clique duas vezes em **Regras de roteamento**. Na caixa de diálogo Regras de roteamento abaixo de Roteamento, desmarque a caixa de seleção próxima a Habilitar descarregamento de SSL. Se o recurso para desmarcar a caixa de seleção não estiver disponível, selecione a caixa de seleção para **Use Reescrita de URL para inspecionar as solicitações de entrada**. Clique em **Aplicar** para salvar suas alterações.
     
 
-    > [!WARNING]
+    > [!WARNING]    
     > Descarregamento de SSL por proxy reverso não tem suporte.
 
 
@@ -165,7 +165,7 @@ Use os procedimentos a seguir para criar regras de publicação da Web.
 15. Repita o procedimento definido no Passo 14 para cada uma das regras de de reescrita de SSL que você definiu, uma por URL de farm de servidores.
     
 
-    > [!WARNING]
+    > [!WARNING]    
     > Por padrão, as regras de HTTP também são criadas e são indicadas pela nomenclatura semelhante às regras de SSL. Para nosso exemplo atual, a regra de HTTP seria nomeada como <STRONG>ARR_webext.contoso.com_loadbalance</STRONG>. Não são necessárias modificações para essas regras e elas podem ser facilmente ignoradas.
 
 

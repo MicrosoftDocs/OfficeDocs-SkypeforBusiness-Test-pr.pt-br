@@ -33,7 +33,7 @@ Se sua organização utiliza unidades organizacionais (UO) em vez de três cont�
 Para obter detalhes sobre o cmdlet **Grant-CsOuPermission**, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 
-> [!TIP]
+> [!TIP]  
 > Para detalhes sobre as ACEs criadas na raiz do domínio e nos contêineres Usuários, Computadores e Controladores de Domínio, consulte <A href="lync-server-2013-changes-made-by-domain-preparation.md">Alterações feitas pela preparação de domínio no Lync Server 2013</A>.
 
 

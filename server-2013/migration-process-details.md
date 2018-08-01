@@ -40,7 +40,7 @@ Realize as seguintes etapas para preparar adequadamente seus dados de origem par
 2.  Inspecione suas salas de bate-papo e configuração de categoria do Lync Server 2010, Chat de Grupo ou Office Communications Server 2007 R2  Chat de Grupo. Qualquer mudança nas categorias, salas ou complementos em sua implantação herdada existente será realizada pelo Ferramenta de Administração do Chat de Grupo.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Qualquer mudança nas categorias, salas ou complementos do Lync Server 2013, as implantações do Servidor de Chat Persistente são realizadas pelos cmdlets do Painel de Controle do Lync Server ou Windows PowerShell.
 
     

@@ -78,5 +78,5 @@ Para implementar com sucesso o IIS ARR como seu proxy reverso, leia os tópicos 
 
    Para instalar o ARR, siga as instruções em [Instalar o Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
-    > [!NOTE]  
-    > As instruções publicadas atualmente aplicam-se ao ARR 2.0. Para instalar a extensão, não há diferença entre as duas versões.
+  > [!NOTE]  
+  > As instruções publicadas atualmente aplicam-se ao ARR 2.0. Para instalar a extensão, não há diferença entre as duas versões.

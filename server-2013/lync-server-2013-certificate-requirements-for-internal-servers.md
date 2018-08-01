@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2017-02-17_
 Entre os servidores internos que executam o Lync Server e exigem certificados estão o servidor Standard Edition, o Servidor Front-End Enterprise Edition, o Servidor de Mediação e o Diretor. A tabela abaixo mostra os requisitos de certificado desses servidores. Você pode usar o Assistente de Certificado do Lync Server para solicitar esses certificados.
 
 
-> [!TIP]
+> [!TIP]  
 > Certificados curinga têm o suporte de nomes alternativos de entidade associados com os URLs simples em Pool de Front-Ends, Servidor Front-End ou Diretor. Para obter detalhes sobre suporte de certificado curinga, consulte <A href="lync-server-2013-wildcard-certificate-support.md">Suporte a certificado curinga no Lync Server 2013</A>.
 
 

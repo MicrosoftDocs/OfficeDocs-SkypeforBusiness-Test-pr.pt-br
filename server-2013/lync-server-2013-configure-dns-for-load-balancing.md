@@ -27,7 +27,7 @@ Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguinte:
 1.  Substituir o pool FQDN Serviços Web interno.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você decidir substituir os serviços web internos com um FQDN definido automaticamente, cada FQDN deve ser único se comparado a outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 

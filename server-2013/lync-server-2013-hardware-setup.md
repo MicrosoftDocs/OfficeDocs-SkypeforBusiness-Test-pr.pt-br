@@ -28,7 +28,7 @@ A configuração do hardware e de outros componentes, necessários na infraestru
     Para obter detalhes sobre a atualização usando compartilhamento de arquivos em um DFS (sistema de arquivos distribuído), consulte [Configurar armazenamento de arquivo para Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O compartilhamento de arquivo do Lync Server 2013, Enterprise Edition não pode ser localizado no Servidor Front-End.
 
 

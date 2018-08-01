@@ -23,7 +23,7 @@ O modo como você configura a tabela de números não atribuída depende de como
 > Antes desconfigurar a tabela de números não atribuída, é necessário que Announcements já esteja definido no sistema ou que já haja um atendedor automático do Unificação de Mensagens (UM) do Exchange configurado.
 
 
-> [!TIP]
+> [!TIP]  
 > Quando alguém chama um número não atribuído, o Lync Server pesquisa a tabela de número não atribuído do início ao fim e usa o primeiro intervalo correspondente. Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela.
 
 

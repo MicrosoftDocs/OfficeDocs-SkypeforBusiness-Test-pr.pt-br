@@ -55,7 +55,7 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     > [!IMPORTANT]  
     > O nome deve ser resolvido a partir dos servidores DNS da Internet e apontar para o endereço IP público do proxy reverso, que escuta solicitações HTTP/HTTPS para aquela URL e as encaminha via proxy para o diretório virtual dos Serviços Web externos naquele Diretor.    
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você tiver mais de um Pool de Front-Ends ou Servidor Front-End, os serviços FQDN de Web externo devem ser exclusivos. Por exemplo, se você definir os serviços FQDN de Web externo de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você também estiver implantando Diretores, os serviços FQDN de Web externo definidos por qualquer Diretor ou Pool de diretores devem ser exclusivos de qualquer outro Diretor ou Pool de diretores, além de qualquer Pool de Front-Ends ou Servidor Front-End. Se você decidir ultrapassar os serviços de web internos com um FQDN autodefinido, cada FQDN deve ser exclusivo a partir de qualquer outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 
@@ -98,7 +98,7 @@ Este tópico descreve as etapas para definir e publicar a topologia de duas topo
     > [!IMPORTANT]  
     > O nome precisa ser resolvido a partir dos servidores DNS de Internet e apontar para o endereço IP público do proxy reverso, que escuta as solicitações HTTP/HTTPS enviadas a essa URL e as atribui ao diretório virtual dos Serviços Web nesse pool de Diretores.    
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você tiver mais de um Pool de Front-Ends ou Servidor Front-End, os serviços FQDN de Web externo devem ser exclusivos. Por exemplo, se você definir os serviços FQDN de Web externo de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você também estiver implantando Diretores, os serviços FQDN de Web externo definidos por qualquer Diretor ou Pool de diretores devem ser exclusivos de qualquer outro Diretor ou Pool de diretores, além de qualquer Pool de Front-Ends ou Servidor Front-End. Se você decidir ultrapassar os serviços de web internos com um FQDN autodefinido, cada FQDN deve ser exclusivo a partir de qualquer outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 

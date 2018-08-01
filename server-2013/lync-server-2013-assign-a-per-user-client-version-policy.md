@@ -48,7 +48,7 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
     4.  Dependendo da propriedade do usuário selecionada, insira o critério que deseja usar para filtrar os resultados de pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -57,7 +57,7 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja que a mesma política de versão do cliente por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
@@ -71,7 +71,7 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
       - Clique no nome de uma política de versão do cliente por usuário definida anteriormente na página **Política de versão do cliente**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
 
 

@@ -67,7 +67,7 @@ Se as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 tiverem 
 > Ao criar registros SRV, é importante lembrar que eles devem apontar para um registro A ou AAAA (se você estiver usando endereçamento IPv6) de DNS no mesmo domínio em que o registro SRV do DNS for criado. Por exemplo, se o registro SRV está em contoso.com, o registro A ou AAAA (se você estiver usando endereçamento IPv6) para o qual aponta não pode estar em fabrikam.com.
 
 
-> [!TIP]
+> [!TIP]  
 > A configuração padrão serve para direcionar todo o tráfego do cliente móvel para o site externo. É possível modificar as configurações para retornar apenas a URL interna, se isso for preferível para as suas necessidades. Com esta configuração, os usuários podem usar aplicativos móveis do Lync em seus dispositivos móveis apenas quando estiverem dentro da rede corporativa. Para definir esta configuração, use o cmdlet <STRONG>Set-CsMcxConfiguration</STRONG>.
 
 
@@ -85,7 +85,7 @@ Recomendamos utilizar a descoberta automática, em vez da descoberta manual. No 
 
 ## Configurando Split-Brain DNS com Lync Server
 
-O split-brain DNS é conhecido por vários nomes, por exemplo, DNS dividido ou DNS de horizonte dividido. Ele descreve simplesmente uma configuração de DNS onde há duas zonas DNS com o mesmo namespace - mas uma zona de DNS serve apenas solicitações internas e a outra DNS serve apenas solicitações externas. No entanto, muitos dos DNS SRV e registros A contidos no DNS interno não serão contidos no DNS externo, e o inverso é também verdadeiro. Nos casos onde o mesmo registro DNS existe tanto no DNS interno quanto externo (p.ex., www.contoso.com), o endereço IP retornado será diferente baseado em onde (interno ou externo) a consulta iniciou.
+O split-brain DNS é conhecido por vários nomes, por exemplo, DNS dividido ou DNS de horizonte dividido. Ele descreve simplesmente uma configuração de DNS onde há duas zonas DNS com o mesmo namespace - mas uma zona de DNS serve apenas solicitações internas e a outra DNS serve apenas solicitações externas. No entanto, muitos dos DNS SRV e registros A contidos no DNS interno não serão contidos no DNS externo, e o inverso é também verdadeiro. Nos casos onde o mesmo registro DNS existe tanto no DNS interno quanto externo (p.ex., www<span>.contoso.com), o endereço IP retornado será diferente baseado em onde (interno ou externo) a consulta iniciou.
 
 > [!IMPORTANT]  
 > No momento o Split-Brain DNS não é suportado pela mobilidade, ou mais especificamente, os registros de DNS LyncDiscover e LyncDiscoverInternal. O LyncDiscover deve ser definido em um servidor de DNS externo e o LyncDiscoverInternal deve ser definido em um servidor de DNS interno.

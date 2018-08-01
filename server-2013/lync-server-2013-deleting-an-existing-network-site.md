@@ -35,7 +35,7 @@ Sites de rede são escritórios ou locais configurados dentro de cada região de
 6.  Clique em **OK**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.
 
 

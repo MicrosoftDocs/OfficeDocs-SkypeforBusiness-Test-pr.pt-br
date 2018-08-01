@@ -38,7 +38,7 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 7.  No Servidor de Borda, no Assistente de Implantação do Lync Server, ao lado de **Etapa 3: Solicitar, Instalar ou Atribuir Certificados**, clique em **Executar Novamente**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se estiver implantando o Servidor de Borda pela primeira vez, você verá Executar ao invés de Executar novamente.
 
 
@@ -72,7 +72,7 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 18. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique quaisquer nomes alternativos de entidade adicionais que sejam necessários.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o proxy XMPP é instalado, por padrão o nome de domínio (como contoso.com) é preenchido nas entradas SAN. Se você precisa de mais entradas, adicione-as nesta etapa.
 
 

@@ -38,7 +38,7 @@ Por padrão, as URLs simples serão configurados no formulário (por exemplo, a 
 2.  Na caixa **URL de acesso administrativo**, digite a URL simples que você deseja para acesso administrativo ao Painel de Controle do Lync Server 2013 e clique em **OK**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é <STRONG>https://admin.</STRONG> <EM>&lt;domain&gt;</EM> .
 
     

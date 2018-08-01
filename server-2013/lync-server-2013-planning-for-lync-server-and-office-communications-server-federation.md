@@ -48,7 +48,7 @@ Habilitar a federação entre Microsoft Lync Server 2013, Lync Server 2010 e Off
        Para configuração manual da federação, você deve ter o FQDN do Servidor de Borda parceiro e o nome de domínio ou um nome de domínio online, que é inserido no Painel de Controle do Lync Server, **Acesso Externo e Federação**, **Domínios Federados SIP**. Crie uma política **Novo** ou **Edite** uma política existente para permitir ou bloquear domínios pelo FQDN.
         
 
-      > [!WARNING]
+      > [!WARNING]  
       > A configuração manual de um Servidor de Borda parceiro de federação é propenso a falhar em casos onde o parceiro mude o endereço IP de seu Servidor de Borda.
 
         

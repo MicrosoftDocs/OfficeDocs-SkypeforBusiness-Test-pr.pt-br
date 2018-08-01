@@ -35,7 +35,7 @@ Após migrar os grupos de resposta, você precisará utilizar cmdlets Painel de 
 Ao migrar grupos de resposta, os grupos de resposta Lync Server 2010 não são removidos. Quando você gerencia grupos de resposta após a migração utilizando o Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server, você pode ver tanto os grupos de resposta Lync Server 2010 quanto os grupos de resposta Lync Server 2013. Você deve aplicar atualizações apenas aos grupos de resposta Lync Server 2013. Os grupos de resposta Lync Server 2010 são retidos apenas para propósitos de reversão.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Após a conclusão da migração e a criação de novos grupos de resposta, o Painel de Controle do Lync Server e o Shell de Gerenciamento do Lync Server exibirão as versões do Lync Server 2010 e do Lync Server 2013 de cada grupo de respostas. Não use Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server para remover os grupos de respostas do Lync Server 2010. Se você não remover um, o grupo de resposta correspondente criado durante a migração parará de funcionar. Os grupos de respostas do Lync Server 2010 serão removidos quando você desprogramar o pool do Lync Server 2010.
 
 

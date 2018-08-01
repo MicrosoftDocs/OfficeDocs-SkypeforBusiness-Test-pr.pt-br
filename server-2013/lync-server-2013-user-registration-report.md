@@ -79,7 +79,7 @@ Além de saber o número de logons exclusivos, você precisa saber o número tot
 Se o comando anterior retorna um valor de 1.236 e a métrica de Usuários de logon exclusivos retorna um valor médio de 667, isso sugere que um pouco mais da metade de seus usuários habilitados para o Lync estão realmente fazendo logon no sistema a cada dia (isso é, 667 dividido por 1.236, que é aproximadamente 54%).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Lembre-se de que as métricas de logon registram usuários que realmente fizeram logons durante o período de tempo especificado. Elas não rastreiam os usuários que já estão logados no sistema. Por exemplo, se a sua métrica de Usuários de logon exclusivos mostra 667 logons e você possui 1.236 usuários, isso sugere que quase a metade de seus usuários estão fazendo logon no sistema. No entanto, suponha que 300 usuários já estavam logados no sistema no momento em que você começou a verificar os dados de logon. Isso significaria que você tinha na verdade quase 1.000 usuários logados no Lync Server, o que significaria que cerca de 80% de seus usuários estavam logados.
 
 

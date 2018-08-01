@@ -52,7 +52,7 @@ A implantação do balanceamento DNS de carga nos pools de Front-Ends e pools do
   - Para suportar o FQDN usado pelo balanceamento de carga DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão atualmente implantados.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você tiver mais de um Pool de Front-Ends ou Servidor Front-End, os serviços FQDN de Web externo devem ser exclusivos. Por exemplo, se você definir os serviços FQDN de Web externo de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você também estiver implantando Diretores, os serviços FQDN de Web externo definidos por qualquer Diretor ou Pool de diretores devem ser exclusivos de qualquer outro Diretor ou Pool de diretores, além de qualquer Pool de Front-Ends ou Servidor Front-End. Se você decidir ultrapassar os serviços de web internos com um FQDN autodefinido, cada FQDN deve ser exclusivo a partir de qualquer outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 
@@ -68,12 +68,8 @@ Usar o balanceamento de carga DNS nos servidores de borda provoca uma perda da c
   - Troca de mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas (IM), AOLand Yahoo\!, além de provedores e servidores com base em XMPP, como o Google Talk.
     
     > [!IMPORTANT]  
-    > <ul>    
-> 
-> <li><p>O Google Talk atualmente é o único parceiro XMPP.</p></li>    
-> 
-> 
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para Conectividade a Redes Públicas de Mensagens Instantâneas do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada uma data de descontinuação para o AOL e o Yahoo! em junho de 2013. Para ver detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    </ul>
+    > <ul> <li><p>O Google Talk atualmente é o único parceiro XMPP.</p></li>    
+    > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para Conectividade a Redes Públicas de Mensagens Instantâneas do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada uma data de descontinuação para o AOL e o Yahoo! em junho de 2013. Para ver detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>    </ul>
 
 
 Esses cenários funcionarão desde que todos os servidores de borda no pool estejam funcionando. Se um servidor de borda estiver disponível, as solicitações enviadas para esses cenários falharão, em vez de rotear para outro servidor de borda.

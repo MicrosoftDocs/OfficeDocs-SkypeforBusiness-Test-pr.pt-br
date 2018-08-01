@@ -49,7 +49,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 8.  Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação** . Você também deve ter uma política de acesso externo aplicável ao Aplicativo Grupo de Resposta configurado para federação.
     
     > [!NOTE]  
-    > A política de acesso externo global é aplicada ao Aplicativo Grupo de Resposta. É possível configurar a política global para federação do grupo de resposta usando o Painel de Controle do Lync Server ou o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess para True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre as configurações de federação, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.    
+    > A política de acesso externo global é aplicada ao Aplicativo Grupo de Resposta. É possível configurar a política global para federação do grupo de resposta usando o Painel de Controle do Lync Server ou o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess para True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre as configurações de federação, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.   
+
     > [!NOTE]  
     > Usuários hospedados em Lync Online não podem encaminhar chamadas para responder a grupos de resposta hospedados em outro ambiente local. Isso se aplica tanto para ambientes híbridos quanto para casos em que o ambiente local é federado com um ambiente Lync Online .
 
@@ -106,7 +107,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
       - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
         
         > [!NOTE]  
-        > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Defina agendas predefinidas usando o cmdlet <strong>New-CSRgsHoursOfBusiness</strong>. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013</a>.        
+        > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Defina agendas predefinidas usando o cmdlet <strong>New-CSRgsHoursOfBusiness</strong>. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013</a>. 
+
         > [!NOTE]  
         > Ao selecionar uma agenda predefinida, <strong>Dia</strong> , <strong>Abertura</strong> e <strong>Fechamento</strong> são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.    
       - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada** .
@@ -228,7 +230,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
     > [!IMPORTANT]  
-    > Todos os usuários que são gerentes para fluxos de trabalho devem ser atribuídos à função CsResponseGroupManager.    
+    > Todos os usuários que são gerentes para fluxos de trabalho devem ser atribuídos à função CsResponseGroupManager.  
+      
     > [!NOTE]  
     > Para obter detalhes sobre parâmetros opcionais adicionais, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a> ou <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a>
 

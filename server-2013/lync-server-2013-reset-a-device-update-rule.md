@@ -41,7 +41,7 @@ Você pode remover uma regra de atualização de dispositivo utilizando o Painel
 5.  Clique em **Ação** e depois em **Cancelar atualizações pendentes**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se tem certeza de que você nunca desejará implementar a(s) regra(s) de atualização de dispositivo que você cancelou, pode ser melhor excluí-las. Para detalhes, consulte <A href="lync-server-2013-remove-a-device-update-rule.md">Remover uma regra de atualização de dispositivo</A>.
 
 

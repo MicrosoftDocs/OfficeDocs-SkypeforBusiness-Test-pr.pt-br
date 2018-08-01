@@ -45,7 +45,7 @@ Atendimento de chamadas em grupo não pode ser utilizado para atender aos tipos 
   - Chamadas por um contato ao qual atribuiu-se a política de privacidade Amigos e Família
     
 
-    > [!TIP]
+    > [!TIP]  
     > Um usuário membro de um grupo de atendimento de chamadas pode prevenir que certas chamadas sejam respondidas pelo atendimento de chamadas em grupo tornando o contato seu contato pessoal no cliente Lync. Para marcar um contato como seu contato pessoal, defina a Relação de Privacidade para o contato como Amigos e Família. Qualquer chamada em entrada de contatos com a Relação de Privacidade configurada como Amigos e Família não pode ser respondida utilizando atendimento de chamadas em grupo.
 
 

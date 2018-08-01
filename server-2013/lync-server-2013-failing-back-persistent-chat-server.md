@@ -31,11 +31,8 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     > [!IMPORTANT]  
     > O agente do SQL Server no Servidor Back-End do Servidor de Chat Persistente secundário deve estar em execução em uma conta privilegiada. Em termos específicos, a conta deve incluir:    <ul>    
-> 
-> <li><p>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</p></li>    
-> 
-> 
-> <li><p>Acesso de gravação ao diretório local específico em que os backups serão copiados.</p></li>    </ul>
+        > <li><p>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</p></li>    
+    > <li><p>Acesso de gravação ao diretório local específico em que os backups serão copiados.</p></li>    </ul>
 
 
 2.  Desabilite o espelhamento no banco de dados mgc de backup:

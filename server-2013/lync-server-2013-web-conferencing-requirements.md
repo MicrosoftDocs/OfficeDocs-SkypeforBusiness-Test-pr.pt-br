@@ -44,7 +44,7 @@ O serviço de webconferências então armazena conteúdo como slides do PowerPoi
 O administrador deve definir permissões no compartilhamento de arquivos para que grupos do RTC tenham o acesso de leitura e gravação necessário.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você encontrar erros com as permissões, abra o Construtor de Topologias, faça download e publique novamente a topologia existente. Publicar a topologia verificará as permissões do compartilhamento de arquivos e as redefinirá, se necessário.
 
 

@@ -69,7 +69,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
         Enable-CsTopology
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se <CODE>Enable-CsTopology</CODE> não tem êxito, resolva o problema evitando que o comando conclua antes de continuar. Se <STRONG>Enable-CsTopology</STRONG> não tem êxito, a movimentação falhará e poderá deixar sua topologia em um estado onde não há Repositório de Gerenciamento Central.
 
 
@@ -106,7 +106,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
 2.  Abra o Shell de Gerenciamento do Lync Server
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Não continue com a remoção dos arquivos do banco de dados anteriores até que a replicação esteja concluída e estável. Se você remover os arquivos antes de concluir a replicação, você irá interromper o processo de replicação e deixar o Servidor de Gerenciamento Central recentemente movido em um estado desconhecido. Use o cmdlet <STRONG>Get-CsManagementStoreReplicationStatus</STRONG> para confirmar o status da replicação.
 
 

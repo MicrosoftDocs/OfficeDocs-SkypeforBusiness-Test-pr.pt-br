@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-11-01_
 As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Os administradores do Grupo de Resposta podem usar o cmdlet **New-CsRgsHoursOfBusiness** para criar programações predefinidas que você pode usar para vários grupos de resposta.
 
 
-> [!TIP]
+> [!TIP]  
 > Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013</A> ou <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013</A>.
 
 

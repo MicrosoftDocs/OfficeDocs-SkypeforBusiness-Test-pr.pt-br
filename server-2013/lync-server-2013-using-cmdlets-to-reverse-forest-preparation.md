@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2013-06-19_
 Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da floresta.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você executar o cmdlet <STRONG>Disable-CsAdForest</STRONG> em um ambiente onde você já tinha uma versão anterior do Lync Server implantada, as configurações globais da versão anterior também serão excluídas.
 
 

@@ -29,7 +29,7 @@ Use o procedimento a seguir para configurar a certificação dos diretórios vir
 3.  Em **Gerenciador do Serviços de Informações da Internet (IIS)**, selecione **ServerName**. Em **Exibição de recursos**, selecione **Certificados do servidor**, clique com o botão direito e selecione **Abrir recurso**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Na Exibição de recursos dos Certificados do servidor, caso haja certificados atribuídos ao servidor, eles aparecerão aí. Caso exista um certificado que corresponda aos requisitos para o External Web Site no IIS, você pode reutilizar tal certificado. Para visualizar um certificado, clique com o botão direito no certificado e selecione <STRONG>Visualizar…</STRONG>
 
 
@@ -53,7 +53,7 @@ Use o procedimento a seguir para configurar a certificação dos diretórios vir
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
 
-    > [!TIP]
+    > [!TIP]  
     > Por padrão, o Request-CsCertificate preencherá o nome da entidade com o nome do pool ou servidor, além das entradas no nome de entidade alternativo com o FQDN do servidor, o FQDN do pool, FQDNs de URL simples e FQDNs de serviços web internos e externos. Isso é feito ao fazer referência ao documento de topologia na sua implantação. Caso exista um valor faltando e você tenha especificado o parâmetro -Verbose, você será notificado de que os valores atuais e computados para os nomes alternativos são diferentes, mas não será informado qual valor está faltando. É fornecido apenas o valor computado completo ao qual o cmdlet fez referência. Utilize a cadeia de nomes alternativos computados na saída para solicitar novamente um novo certificado que incluirá todos os valores.
 
     
