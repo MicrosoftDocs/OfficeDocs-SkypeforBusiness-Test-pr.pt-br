@@ -50,7 +50,8 @@ Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadore
     Três endereços IP privados são atribuídos a este adaptador de rede, por exemplo, 10.45.16.10 para Borda de Acesso, 10.45.16.20 para Borda de Webconferência e 10.45.16.30 para Borda de AV.
     
     > [!NOTE]  
-    > É possível, embora não seja recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora economize endereços IP, isso exige diferentes números de porta para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permitirá o tráfego. Alterar os valores de porta para (por exemplo) 5061/TCP para borda de acesso, 444/TCP para borda de webconferência e 443/TCP para borda de AV pode causar problemas para usuários remotos quando eles estiverem atrás de um firewall que não permite tráfego através de 5061/TCP e 444/TCP. Além disso, três endereços IP distintos tornam a solução de problemas mais fácil, devido a possibilidade de filtrar os endereços IP.    
+    > É possível, embora não seja recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora economize endereços IP, isso exige diferentes números de porta para cada serviço. O número de porta padrão é 443/TCP, que garante que a maioria dos firewalls remotos permitirá o tráfego. Alterar os valores de porta para (por exemplo) 5061/TCP para borda de acesso, 444/TCP para borda de webconferência e 443/TCP para borda de AV pode causar problemas para usuários remotos quando eles estiverem atrás de um firewall que não permite tráfego através de 5061/TCP e 444/TCP. Além disso, três endereços IP distintos tornam a solução de problemas mais fácil, devido a possibilidade de filtrar os endereços IP. 
+
     O endereço IP público da Borda de Acesso é o principal com o gateway padrão definido como roteador integrado (10.45.16.1).
     
     Endereços IP privados de Borda de Webconferências e de A/V são endereços IP adicionais na seção **Avançado** das propriedades do **Protocolo IP versão 4 (TCP/IPv4)** e do **Protocolo IP versão 6 (TCP/IPv6)** das **Propriedades da Conexão Local** no Windows Server.
@@ -64,7 +65,7 @@ Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadore
     Endereços IP privados de Borda de Webconferências e de A/V são endereços IP adicionais na seção **Avançado** das propriedades do **Protocolo IP versão 4 (TCP/IPv4)** e do **Protocolo IP versão 6 (TCP/IPv6)** das **Propriedades da Conexão Local** no Windows Server.
 
 
-> [!TIP]
+> [!TIP]    
 > Configurar o Servidor de Borda com dois adaptadores de rede é uma das duas opções. A outra opção é usar um adaptador de rede para o lado interno e três adaptadores de rede para o lado externo no Servidor de Borda. O principal benefício desta opção é distinguir o adaptador de rede por serviço do Servidor de Borda e potencialmente um conjunto de dados mais conciso quando a resolução de problemas é necessária
 
 
@@ -151,10 +152,10 @@ Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadore
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa de borda de acesso SIP obrigatória para descoberta de DNS automática de sua federação para outros parceiros potenciais de federação, conhecida também como &quot;Domínio SIP Permitido&quot; (chamada de federação avançada em versões anteriores). Repita conforme o necessário para todos os domínios SIP com usuários habilitados do Lync.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Esse registro SRV é obrigatório para mobilidade e Push Notification Clearing House (PNCH)
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

@@ -25,7 +25,7 @@ Este tópico descreve como configurar o Unificação de Mensagens (UM) do Exchan
 1.  Crie um plano de discagem do Identificador de recurso uniforme (URI) do Protocolo de iniciação de sessão (SIP) do UM para cada perfil de local do Enterprise Voice. Se a opção for por usar o Console de Gerenciamento do Exchange, crie um novo plano de discagem com a definição de segurança **Seguro (preferencial)**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você definir o valor de configuração de segurança como <STRONG>SIP Seguro</STRONG> para exigir criptografia apenas para o tráfego do SIP, como recomendado anteriormente, observe que essa definição de segurança em um plano de discagem é insuficiente se o pool de Front-Ends estiver configurado para exigir criptografia, o que significa que o pool exige criptografia para o tráfego de SIP e de RTP. Quando as definições de plano de discagem e de configurações de segurança não são compatíveis, todas as chamadas para o UM do Exchange a partir do pool de Front-Ends falharão, resultando em um erro que indica que há uma “Configuração de segurança incompatível”.
 
     
@@ -102,6 +102,7 @@ Este tópico descreve como configurar o Unificação de Mensagens (UM) do Exchan
     
     > [!NOTE]  
     > Essa etapa é necessária para garantir que as chamadas de saída do servidor que estiver executando a UM do Exchange Server para usuários externos (por exemplo, como o caso dos cenários tocar no telefone) atravesse com segurança o firewall da empresa.    
+
     > [!IMPORTANT]  
     > Ao selecionar o gateway IP da UM através dos qual as chamadas de saída são permitidas, escolha um que provavelmente manipule a maior parte do tráfego. Não permita o tráfego de saída através de um gateway IP que se conecte a um pool de Diretores do Lync Server. Evite também pools em outro site central ou de filial. Você pode usar os métodos a seguir para impedir que as chamadas de saída passem por um gateway IP:    
       - Se você usar o Shell de Gerenciamento do Exchange, desabilite cada gateway IP executando o seguinte comando:
@@ -120,9 +121,12 @@ Este tópico descreve como configurar o Unificação de Mensagens (UM) do Exchan
 7.  Crie um atendimento automático da UM para cada plano de diálogo do Lync Server.
     
     > [!IMPORTANT]  
-    > Não inclua espaços no nome do atendedor automático.    
+    > Não inclua espaços no nome do atendedor automático.   
+
+    ``` 
         New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```
+
     Para obter detalhes, consulte:
     
       - Para o Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" em [http://go.microsoft.com/fwlink/?linkid=268689\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=268689%26clcid=0x416).
@@ -135,8 +139,10 @@ Este tópico descreve como configurar o Unificação de Mensagens (UM) do Exchan
     
     > [!NOTE]  
     > O <strong>SIPResourceIdentifier</strong> do exemplo a seguir deve ser o endereço do SIP do usuário do Lync Server.    
+    ```
         enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```
+
     Para obter detalhes, consulte:
     
       - Para o Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" em [http://go.microsoft.com/fwlink/?linkid=268691\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=268691%26clcid=0x416).

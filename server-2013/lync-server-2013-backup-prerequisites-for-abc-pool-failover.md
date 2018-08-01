@@ -30,7 +30,7 @@ Para obter o máximo benefício de usar o procedimento de failover do pool ABC, 
     O aplicativo Grupo de Resposta pode armazenar somente um conjunto de configurações no nível de aplicativo por pool. Essas configurações podem ser acessadas pelos cmdlets **Get-CsRgsConfiguration**. As configurações incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de espera do agente e a configuração de contexto da chamada. Essas configurações podem ser transferidas de um pool para outro por meio do cmdlet **Import-CsRgsConfiguration** usando o parâmetro **ReplaceExistingSettings**, mas essa operação sobrescreverá quaisquer configurações no nível de aplicativo no pool de destino.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Em um local separado, mantenha uma cópia de backup de todos os arquivos de áudio originais que você usou para configurar o aplicativo Grupo de Resposta (ou seja, quaisquer arquivos de gravação ou de músicas em espera).
 
     

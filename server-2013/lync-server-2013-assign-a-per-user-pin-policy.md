@@ -48,7 +48,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
     4.  Dependendo da propriedade do usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar outras cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar Filtro</STRONG>.
 
     
@@ -57,7 +57,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e clique em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você quiser a mesma política de PIN por usuário aplicada a diversos usuários, selecione múltiplos usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
@@ -71,7 +71,7 @@ Para obter detalhes sobre como criar políticas de PIN de conferência discada p
       - Clique no nome de uma política PIN por usuário definida anteriormente na página **Política de PIN**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudá-lo a decidir a política que você deseja atribuir, após clicar em um nome de política, clique em <STRONG>Exibir</STRONG> para exibir os direitos e permissões de usuário definidos na política.
 
 

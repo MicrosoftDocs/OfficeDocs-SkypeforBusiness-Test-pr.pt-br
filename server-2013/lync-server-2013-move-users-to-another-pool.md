@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2013-03-11_
 É possível usar o Painel de Controle do Lync Server para atribuir usuários a um servidor ou pool específico.
 
 
-> [!TIP]
+> [!TIP]  
 > Mover todos os usuários existentes de um pool de recursos que está executando o Microsoft Office Communications Server 2007 R2 ou anterior para um pool de destino do Lync Server 2013 em um ambiente complexo do Active Directory pode resultar em uma replicação mais lenta do Active Directory. Para evitar isso, é possível usar os filtros de pesquisa para mover usuários de pools que estão executando o Microsoft Office Communications Server 2007 R2 ou anterior separadamente, ou é possível usar o Shell de Gerenciamento do Lync Server para mover usuários com cmdlets. Além disso, a funcionalidade de filtro funciona com usuários do Lync Server 2013.
 
 
@@ -42,7 +42,7 @@ _**Tópico modificado em:** 2013-03-11_
 8.  (Opcional) Se o pool ou o servidor de destino não estiver disponível, marque a caixa de seleção **Forçar**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você selecionar <STRONG>Forçar</STRONG>, a conta de usuário será movida, mas nenhum dado de usuário associado será excluído (por exemplo, conferências agendadas pelo usuário). Se essa opção não for selecionada, a conta e os dados associados serão movidos.
 
 
@@ -64,7 +64,7 @@ _**Tópico modificado em:** 2013-03-11_
 7.  (Opcional) Se o pool ou o servidor de destino não estiver disponível, marque a caixa de seleção **Forçar**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você selecionar <STRONG>Forçar</STRONG>, a conta de usuário será movida, mas nenhum dado de usuário associado será excluído (por exemplo, conferências agendadas pelo usuário). Se essa opção não for selecionada, a conta e os dados associados serão movidos.
 
 
@@ -93,7 +93,7 @@ _**Tópico modificado em:** 2013-03-11_
 9.  (Opcional) Se o pool ou o servidor de destino não estiver disponível, marque a caixa de seleção **Forçar**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você selecionar <STRONG>Forçar</STRONG>, a conta de usuário será movida, mas nenhum dado de usuário associado será excluído (por exemplo, conferências agendadas pelo usuário e os contatos). Se essa opção não for selecionada, a conta e os dados associados serão movidos.
 
 

@@ -61,6 +61,7 @@ Além disso, você deve configurar a infraestrutura para o armazenamento de arqu
       - Microsoft SQL Server 2012 Standard
     
     > [!NOTE]  
-    > Microsoft SQL Server 2008 R2 Express e Microsoft SQL Server 2012 Express não são compatíveis com versões de arquivamento de 32 bits do SQL Server. Para conhecer outros requisitos e restrições do SQL, consulte <a href="lync-server-2013-database-software-support.md">Suporte a software de banco de dados no Lync Server 2013</a> na documentação de planejamento e suporte.    
+    > Microsoft SQL Server 2008 R2 Express e Microsoft SQL Server 2012 Express não são compatíveis com versões de arquivamento de 32 bits do SQL Server. Para conhecer outros requisitos e restrições do SQL, consulte <a href="lync-server-2013-database-software-support.md">Suporte a software de banco de dados no Lync Server 2013</a> na documentação de planejamento e suporte. 
+       
     Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter mais informações sobre o SQL Server, consulte o SQL Server TechCenter em [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x416).
 

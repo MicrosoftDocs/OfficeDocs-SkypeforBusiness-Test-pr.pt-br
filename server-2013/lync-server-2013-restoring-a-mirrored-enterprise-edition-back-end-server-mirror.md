@@ -54,7 +54,7 @@ Recomendamos que você faça uma cópia da imagem do sistema antes de iniciar a 
       - Siga o assistente até que o prompt **Criar Banco de Dados de Espelho** apareça. Selecione o banco de dados que você deseja instalar e complete o processo.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Em vez de executar o Construtor de Topologia, você pode utilizar o cmdlet <STRONG>Install-CsMirrorDatabase</STRONG> para configurar o espelhamento. Para mais detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 

@@ -43,31 +43,31 @@ O processo de provisionamento para a conectividade Lync-Skype mudou, em compara�
 <tbody>
 <tr class="odd">
 <td><ol><li><p>Entre no site <strong>https://pic.lync.com</strong> com seu Microsoft Windows Live ID.</p></li><li><p>Selecione o tipo de contrato de licenciamento da Microsoft.</p></li>
-> <li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
-> <li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
-> 
-> <li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
-<div class="alert">
+<li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
+<li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
+
+<li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
+
+
+ <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
+
 > [!IMPORTANT]  
 > É necessário pelo menos um servidor de Borda de Acesso e um domínio SIP para concluir o processo de provisionamento. O domínio SIP e o servidor de Borda de Acesso devem estar ativos, em funcionamento e acessíveis na rede.
-</div></li><li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
+</div></li>
+<li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
 </tr>
 <tr class="even">
 <td><ol><li><p>Entre no site <strong>https://pic.lync.com</strong> com seu Microsoft Windows Live ID.</p></li><li><p>Selecione o tipo de contrato de licenciamento da Microsoft.</p></li>
-> <li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
-> <li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
-> 
-> <li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
-<div class="alert">
+<li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
+
+<li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
+<li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
+<li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
+
 > [!IMPORTANT]  
 > É necessário pelo menos um servidor de Borda de Acesso e um domínio SIP para concluir o processo de provisionamento. O domínio SIP e o servidor de Borda de Acesso devem estar ativos, em funcionamento e acessíveis na rede.
-</div></li><li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
+</div></li>
+<li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
 </tr>
 </tbody>
 </table>

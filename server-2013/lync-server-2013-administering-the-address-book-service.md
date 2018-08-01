@@ -249,7 +249,7 @@ Os usuários preenchidos nos arquivos do servidor de catálogo de endereços pod
 Você pode usar alguns bits de sinalizadores para definir um filtro a ser usado nos atributos do servidor de catálogo de endereços. Por exemplo, a presença de determinados bits de sinalizador pode identificar um atributo como um atributo de inclusão ou exclusão. O Replicador de usuários filtra os contactos que contêm um atributo de exclusão e filtra conteúdos que não têm um atributo de inclusão.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Para obter informações sobre como filtrar o Catálogo de Endereços, consulte <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets do servidor de catálogo de endereços</A> e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</A>
 
 

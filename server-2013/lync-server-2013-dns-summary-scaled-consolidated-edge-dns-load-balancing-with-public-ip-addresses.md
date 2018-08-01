@@ -65,7 +65,7 @@ Para evitar problemas de roteamento, verifique se existem pelo menos dois adapta
     Os endereços IP privados do Serviço de Borda de Webconferência e Serviço de Borda A/V são endereços IP adicionais na seção **Avançado** das propriedades do **Internet Protocol Version 4 (TCP/IPv4)** e **Internet Protocol Version 6 (TCP/IPv6)** das **Propriedades de Conexão de Área Local** no Windows Server.
 
 
-> [!TIP]
+> [!TIP]    
 > Configurar o Servidor de Borda com dois adaptadores de rede é uma das duas opções. A outra opção é usar um adaptador de rede para o lado interno e três adaptadores de rede para o lado externo no Servidor de Borda. O principal benefício desta opção é distinguir o adaptador de rede por serviço do Servidor de Borda e potencialmente um conjunto de dados mais conciso quando a resolução de problemas é necessária
 
 
@@ -152,10 +152,10 @@ Para evitar problemas de roteamento, verifique se existem pelo menos dois adapta
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do SIP Serviço de Borda de Acesso. Exigido para descoberta DNS automática de sua federação para outros parceiros de federação em potencial e é conhecido como “Domínios SIP Permitidos” (chamado federação avançada em versões anteriores).</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Repita conforme necessário para todos os domínios SIP com usuários habilitados do Lync e clientes do Microsoft Lync Mobile que usam o Serviços de Notificação por Push ou Serviços de Notificação por Push da Apple
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

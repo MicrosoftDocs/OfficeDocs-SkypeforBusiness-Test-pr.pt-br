@@ -94,20 +94,20 @@ Para detalhes sobre executar estas etapas, consulte [Procedimento de recuperaç�
 <tr class="even">
 <td><p>Durante a interrupção</p></td>
 <td><p>Execute o cmdlet <strong>Import-CsRgsConfiguration</strong> para importar a configuração do Serviço Grupo de Resposta do Lync Server de backup do pool primário ao pool de backup.</p>
-<div class="alert">
+
 > [!NOTE]  
 > Use o parâmetro -ReplaceExistingSettings caso queira substituir definições do Grupo de Resposta de nível de aplicativo no pool de backup pelas definições do pool primário. Se você não transferir as definições de nível de aplicativo do pool primário ao pool de backup, e o pool primário não possa ser recuperado, você perderá as definições do pool primário.
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>
 <tr class="odd">
 <td><p>Após importar</p></td>
 <td><p>Execute os cmdlets do Grupo de Resposta com o parâmetro -ShowAll (para exibir todos os grupos de resposta), ou com o parâmetro -Owner (para exibir apenas os grupos de resposta importados) para verificar se todas as configurações de grupo de resposta foram importadas ao pool de backup.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Caso não use nenhum dos parâmetros -ShowAll ou -Owner, os grupos de resposta que você importou ao pool de backup não serão listados nos resultados retornados pelos cmdlets.
-</div>
+<
 <p>Execute os cmdlets a seguir:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
@@ -116,7 +116,7 @@ Para detalhes sobre executar estas etapas, consulte [Procedimento de recuperaç�
 <td><p>Após o failover</p></td>
 <td><ul><li><p>Realize uma chamada de teste a um grupo de resposta que foi importado ao pool de backup e verifique se a chamada é atendida corretamente.</p></li><li><p>Todos os operadores formais devem entrar novamente em seus grupos formais no pool de backup.</p></li><li><p>Gerencie alterações de configuração:</p>
 <p>Grupos de resposta no pool de backup, sejam importados ao pool de backup, ou de propriedade do pool de backup, podem ser modificados normalmente durante a interrupção.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Você deve usar o Shell de Gerenciamento do Lync Server para gerenciar grupos de resposta que você importou ao pool de backup. Você não pode usar o Painel de Controle do Lync Server para gerenciar os grupos de resposta enquanto eles estão no pool de backup.
 </div></li></ul></td>
@@ -131,10 +131,10 @@ Para detalhes sobre executar estas etapas, consulte [Procedimento de recuperaç�
 <tr class="even">
 <td><p>Após failback</p></td>
 <td><ul><li><p>Execute o cmdlet <strong>Import-CsRgsConfiguration</strong> para importar os grupos de resposta de volta ao pool primário.</p>
-<div class="alert">
+
 > [!NOTE]  
 > Caso o pool primário não possa ser recuperado e você implante um novo pool para substituí-lo, use o parâmetro -ReplaceExistingSettings para transferir as definições de nível de aplicativo do pool de backup ao novo pool. Caso não transfira as configurações do pool de backup, o novo pool usará as configurações padrão.
-</div></li><li><p>Execute os cmdlets a seguir com o parâmetro -ShowAll (para exibir todos os grupos de resposta) ou o parâmetro -Owner (para exibir apenas grupos de resposta importados) para verificar se todas as configurações de grupo de resposta foram importados com sucesso de volta ao pool primário:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></li><li><p>Realize uma chamada de teste a um grupo de resposta que foi importado de volta ao pool primário e verifique se a chamada é atendida corretamente.</p></li><li><p>Execute, opcionalmente, o cmdlet <strong>Export-CsRgsConfiguration</strong> no pool de backup com o parâmetro -RemoveExportedConfiguration para remover os grupos de resposta pertencentes ao pool primário, a partir do pool de backup.</p></li></ul></td>
+</li><li><p>Execute os cmdlets a seguir com o parâmetro -ShowAll (para exibir todos os grupos de resposta) ou o parâmetro -Owner (para exibir apenas grupos de resposta importados) para verificar se todas as configurações de grupo de resposta foram importados com sucesso de volta ao pool primário:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></li><li><p>Realize uma chamada de teste a um grupo de resposta que foi importado de volta ao pool primário e verifique se a chamada é atendida corretamente.</p></li><li><p>Execute, opcionalmente, o cmdlet <strong>Export-CsRgsConfiguration</strong> no pool de backup com o parâmetro -RemoveExportedConfiguration para remover os grupos de resposta pertencentes ao pool primário, a partir do pool de backup.</p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>

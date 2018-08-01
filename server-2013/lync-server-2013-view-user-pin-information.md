@@ -45,7 +45,7 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
     4.  Dependendo da propriedade de usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando-os ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para inserir cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     

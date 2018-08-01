@@ -68,9 +68,9 @@ Quando você tiver terminado de usar o Lync, poderá fechar a tela, sair da sua 
 <tr class="even">
 <td><p>Sair</p></td>
 <td><p>Encerra a sessão do Lync associada à sua ID de usuário, mas o Lync continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.</p>
-<div class="alert">
 
-> [!TIP]
+
+> [!TIP]  
 > Selecione <STRONG>Excluir minhas informações de entrada</STRONG> ao sair para remover o registro de sua ID de logon e da senha do computador. Fazer isso torna mais fácil para o pessoal de suporte solucionar problemas de entrada. Também ajuda a garantir que suas informações de entrada fiquem mais seguras ao dificultar que usuários não autorizados façam logon com suas credenciais.
 
 

@@ -43,10 +43,11 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>FQDN do pool</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > O nome da entidade também deve estar presente no nome alternativo da entidade.
-</div></td>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Nome alternativo de entidade</p></td>
@@ -56,10 +57,11 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <tr class="even">
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>URL simples de reunião</p>
-<div class="alert">
+
 > [!NOTE]  
 > Todas as URLs simples de reunião devem estar no nome alternativo da região. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.
-</div></td>
+
+</td>
 <td><p>meet.contoso.com</p></td>
 </tr>
 <tr class="odd">
@@ -76,10 +78,11 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>URL de Serviço Descoberta Automática Externo</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+
 > [!NOTE]  
 > Se você também estiver usando o Microsoft Exchange Server também precisará configurar regras de proxy reverso para a descoberta automática do Exchange e URLs de serviços Web.
-</div></td>
+
+</td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +99,7 @@ Você cria uma solicitação de certificado no proxy reverso. Uma solicitação 
 > Uma solicitação de certificado ou uma solicitação de assinatura de certificado (CSR) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome implica, a chave pública é disponibilizada para todas as solicitações públicas. A chave pública destina-se a ser usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar uma identidade de um computador. A chave privada é mantida segura e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outros fins. Para fins de proxy reverso, a codificação de dados é o uso principal. De forma secundária, a autenticação do certificado no nível da chave de certificado é outro uso e é limitada somente à validação de que um solicitante tenha a chave pública do computador ou que o computador em que você tenha uma chave pública seja realmente o computador que diz ser.
 
 
-> [!TIP]
+> [!TIP]  
 > Se você planejar seus certificados do Servidor de Borda e seus certificados de proxy reverso ao mesmo tempo, deverá observar que há muita semelhança entre os dois requisitos de certificado. Quando você configurar e solicitar seu certificado do Servidor de Borda, combine o Servidor de Borda e os nomes alternativos de entidade de proxy reverso. Você poderá usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e então importar o par certificado/chave e o atribuir como necessário aos próximos procedimentos. Consulte os requisitos de certificado para o Servidor de Borda&nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">Planejar certificados do Servidor de Borda no Lync Server 2013</A> e o proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Resumo de certificado - Proxy reverso no Lync Server 2013</A>. Crie o certificado com uma chave privada exportável. A criação do certificado e da solicitação de certificado com uma chave privada exportável é necessária para o Servidores de Borda em pool, portanto essa é uma prática normal e o Assistente de Certificado na Assistente de Implantação do Lync Server para a Servidor de Borda permitirá que você defina o sinalizador <STRONG>Tornar a chave privada exportável</STRONG>. Assim que você receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "Para exportar o certificado com a chave privada para Servidores Edge em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configurar certificados para a interface de borda externa para Lync Server 2013</A> para obter detalhes sobre como criar e exportar seu certificado com uma chave privada. A extensão do certificado deverá ser do tipo <STRONG>.pfx</STRONG>.
 
 

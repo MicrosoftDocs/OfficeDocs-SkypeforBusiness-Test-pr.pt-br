@@ -203,7 +203,7 @@ Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de
       - Exportar todas as propriedades avançadas
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Ao exportar o certificado de um servidor de Borda, não selecione <STRONG>Excluir a chave privada se a exportação tiver êxito</STRONG>. Selecionar esta opção exigirá a importação do certificado e da chave privada para este Servidor de Borda.
 
     

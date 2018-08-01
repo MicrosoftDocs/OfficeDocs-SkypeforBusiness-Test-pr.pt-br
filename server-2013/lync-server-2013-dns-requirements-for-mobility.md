@@ -94,10 +94,10 @@ Você precisa criar um dos seguintes registros DNS externos:
 <td><p>_sipfederationtls._tcp. <em>&lt;sipdomain&gt;</em></p>
 <p>Resolve para hospedar o registro (A ou AAAA) do Serviço de Borda de Acesso</p></td>
 <td><p>Para suportar o Serviços de Notificação por Push e Serviços de Notificação por Push da Apple, você cria um registro SRV para cada domínio SIP que possui clientes do Microsoft Lync Mobile.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Este requisito é aplicável somente aos clientes do Microsoft Lync Mobile em dispositivos móveis baseados em Apple ou Microsoft. Dispositivos Android e Nokia Symbian não usam notificação de push.
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

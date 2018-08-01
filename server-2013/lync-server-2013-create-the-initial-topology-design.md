@@ -37,7 +37,7 @@ Após concluir a instalação do Lync Server 2013, Ferramenta de Planejamento, v
 4.  Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Cada página possui uma descrição do critério de seleção e recomendações com base nas práticas preferidas e no planejamento de capacidade. Se você precisa de mais detalhes, clique em <STRONG>Saber mais</STRONG> para ler a informação detalhada da documentação de Planejamento do Lync Server 2013 no site da Microsoft TechNet. Você deve ter uma conectividade com a Internet para acessar o site da Microsoft TechNet.
 
 

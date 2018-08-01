@@ -16,10 +16,12 @@ ms.translationtype: HT
 _**Tópico modificado em:** 2012-10-19_
 
 A migração do aplicativo de Estacionamento de Chamada do Lync Server 2010 para o Lync Server 2013 inclui o provisionamento do pool do Lync Server 2013 com qualquer música personalizada em arquivos em espera que foram carregados no Lync Server 2010, restaurando as configurações de nível de serviço e redefinindo as órbitas de Estacionamento de Chamada para o pool do Lync Server 2013. Se os arquivos de música em espera personalizada foram configurados no pool do Lync Server 2010, estes arquivos precisam ser copiados para o novo pool do Lync Server 2013. Além disso, é recomendado fazer o backup de qualquer arquivo de música em espera personalizada do Estacionamento de Chamada do Lync Server 2010 para outro destino para manter uma cópia de backup separada de qualquer arquivo de música em espera personalizada que foi carregado para o Estacionamento de Chamada. Os arquivos de música em espera personalizada para o aplicativo de Estacionamento de Chamada são armazenados no repositório de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivos do pool do Lync Server 2010 para um repositório de arquivos do Lync Server 2013, use o comando **Xcopy** com os seguintes parâmetros:
-
+```
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
-
+```
+```
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
 
 Quando todos os arquivos de áudio personalizados forem copiados para o repositório de arquivos do Lync Server 2013, as configurações do aplicativo de Estacionamento de Chamada do pool do Lync Server 2013 devem ser definidas e os intervalos de órbita do Estacionamento de Chamadas associados com o pool do Lync Server 2010 devem ser reatribuídos para o pool do Lync Server 2013.
 
@@ -32,9 +34,11 @@ As configurações do aplicativo de Estacionamento de Chamada incluem o limite d
 2.  Na linha de comando, digite o seguinte:
     
     > [!NOTE]  
-    > Se suas configurações do aplicativo de Estacionamento de Chamada do Lync Server 2013 são idênticas às configurações herdadas do Lync Server 2010, é possível pular esta etapa. Se as configurações de aplicativo de Estacionamento de Chamada são diferentes para os ambientes do Lync Server 2013 e Lync Server 2010, use o cmdlet abaixo como um modelo para atualizar estas mudanças.    
+    > Se suas configurações do aplicativo de Estacionamento de Chamada do Lync Server 2013 são idênticas às configurações herdadas do Lync Server 2010, é possível pular esta etapa. Se as configurações de aplicativo de Estacionamento de Chamada são diferentes para os ambientes do Lync Server 2013 e Lync Server 2010, use o cmdlet abaixo como um modelo para atualizar estas mudanças.   
+    ``` 
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
-
+    ```
+    
 Para reatribuir todos os intervalos de órbita do Estacionamento de Chamada do pool do Lync Server 2010 para o pool do Lync Server 2013, é possível usar o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server.
 
 **Reatribuir todos os intervalos de órbita do Estacionamento de Chamada usando o Painel de Controle do Lync Server**

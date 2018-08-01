@@ -72,11 +72,8 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
 11. Depois que o certificado tiver sido emitido, clique em **Instalar este certificado** para concluir o processo de registro.
     
     > [!NOTE]  
-    > Caso sua solicitação de certificado falhe com o erro “Este navegador da Web não dá suporte à geração de solicitações de certificados”, há três maneiras possíveis para resolver o problema:    <ol>    
-> <li><p>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</p></li>    
-> 
-> <li><p>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</p></li>    
-> 
-> 
-> <li><p>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</p></li>    </ol>
+    > Caso sua solicitação de certificado falhe com o erro “Este navegador da Web não dá suporte à geração de solicitações de certificados”, há três maneiras possíveis para resolver o problema: 
+    > <ol><li><p>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</p></li>    
+    > <li><p>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</p></li>    
+    > <li><p>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</p></li>    </ol>
 

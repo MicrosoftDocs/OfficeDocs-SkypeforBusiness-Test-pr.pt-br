@@ -20,7 +20,7 @@ Utilize as seguintes soluções alternativas para resolver questões de configur
   - Caso a mensagem de erro "diretor não fornecido", o diretor que você tentou adicionar não está disponível.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Solução alternativa ? Não há. Esta mensagem de erro significa que o diretor não está disponível.
 
 

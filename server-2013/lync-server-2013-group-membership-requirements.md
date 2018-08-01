@@ -33,9 +33,9 @@ A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para in
 <tr class="odd">
 <td><p><strong>Setup.exe</strong> - Executável que inicia a instalação das ferramentas administrativas do Lync Server 2013.</p></td>
 <td><p>Membro do grupo de Administradores Locais no computador o qual o executável está em execução. Membro do grupo Usuários do Domínio para ler informações no Serviços de Domínio Active Directory. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitam ler e gravar dos recursos do computador local protegido, como diretórios de Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local.</p>
-<div class="alert">
 
-> [!TIP]
+
+> [!TIP]  
 > Você também pode delegar permissões de instalação para usuários e grupos os quais não deseja fornecer participação no grupo de Administradores de Domínio. Para detalhes, consulte <A href="lync-server-2013-granting-setup-permissions.md">Concedendo permissões de configuração no Lync Server 2013</A> na documentação de Implantação
 
 

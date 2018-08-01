@@ -32,7 +32,7 @@ Informações importantes sobre o Windows PowerShell no Lync Server 2013:
   - Para executar os cmdlets do Lync Server, abra o Shell de Gerenciamento do Lync Server.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você abrir uma janela do Windows PowerShell em vez do Shell de Gerenciamento do Lync Server, por padrão, não poderá executar os cmdlets do Lync Server. Para executar os cmdlets do Lync Server a partir do Windows PowerShell, primeiro digite o seguinte no prompt de comando do Windows PowerShell:<BR>Import-Module Lync
 
 

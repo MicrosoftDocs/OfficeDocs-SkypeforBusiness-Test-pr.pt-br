@@ -26,7 +26,7 @@ Se você tiver um Enterprise Edition Back End espelhado e apenas o banco de dado
 Se o Repositório de Gerenciamento Central falhar, consulte [Restaurar o servidor que hospeda o Repositório de Gerenciamento Central](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Se um servidor membro do Enterprise Edition que não seja o Servidor de Back End falhar, consulte [Restaurando um servidor membro do Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você obtenha uma imagem de cópia do sistema antes de começar a restauração. Você pode usar essa imagem como ponto de reversão em caso de algo dar errado durante a restauração. Talvez você queira obter essa imagem depois de instalar o sistema operacional e o SQL Server, e restaurar ou registrar novamente os certificados.
 
 
@@ -64,7 +64,7 @@ Se o Repositório de Gerenciamento Central falhar, consulte [Restaurar o servido
     7.  Siga o restante do assistente e clique em **Concluir**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Em vez de executar o Construtor de Topologias, você pode usar o cmdlet do <STRONG>Install-CsDatabase</STRONG> para criar cada banco de dados, e o cmdlet <STRONG>Install-CsMirrorDatabase</STRONG> para espelhamento da configuração. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 

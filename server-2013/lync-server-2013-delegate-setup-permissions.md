@@ -35,7 +35,8 @@ Tenha em mente que esse cmdlet somente concede permissões ao grupo RTCUniversal
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
     > [!NOTE]  
-    > Se OU não for o nível superior, você deve fornecer o nome de domínio completo.    
+    > Se OU não for o nível superior, você deve fornecer o nome de domínio completo.  
+      
     No exemplo a seguir, a UO é o "Lync Server", que está no domínio contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com

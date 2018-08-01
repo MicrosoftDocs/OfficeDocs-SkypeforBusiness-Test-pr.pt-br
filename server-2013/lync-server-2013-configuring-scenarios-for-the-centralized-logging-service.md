@@ -122,7 +122,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o módulo for carregado com êxito, você será redirecionado para o prompt de comando do Windows PowerShell. Para confirmar que o módulo está carregado e que Edit-CsClsScenario está disponível, digite <CODE>Get-Help Edit-CsClsScenario</CODE>. Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario.
 
 
@@ -132,7 +132,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
         Remove-Module ClsController
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o módulo for descarregado com êxito, você será redirecionado para o prompt de comando do Windows PowerShell. Para confirmar que o módulo foi descarregado, digite <CODE>Get-Help Edit-CsClsScenario</CODE>. O Windows PowerShell tentará localizar a ajuda do cmdlet e falhará.
 
 

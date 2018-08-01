@@ -42,7 +42,7 @@ _**Tópico modificado em:** 2013-02-22_
     4.  Dependendo da propriedade do usuário selecionada, insira o critério que deseja usar para filtrar os resultados de pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -51,7 +51,7 @@ _**Tópico modificado em:** 2013-02-22_
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja aplicar a mesma política de Chat persistente para usuários múltiplos, selecione os usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
@@ -65,7 +65,7 @@ _**Tópico modificado em:** 2013-02-22_
       - Clique no nome de uma política de chat persistente por usuário definida anteriormente na página **Política de chat persistente**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
 
 

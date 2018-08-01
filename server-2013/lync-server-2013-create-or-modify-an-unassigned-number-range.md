@@ -39,13 +39,9 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
 5.  No primeiro campo **Intervalo Numérico**, digite o número inicial do intervalo e no segundo campo **Intervalo Numérico** digite o número final do intervalo.
     
     > [!NOTE]  
-    > <ul>    
-> <li><p>O número inicial do intervalo deve ser menor ou igual ao número final.</p></li>    
-> 
-> <li><p>Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.</p></li>    
-> 
-> 
-> <li><p>Os números devem corresponder à expressão regular (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Isso significa que o número pode começar com a cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.</p></li>    </ul>
+    > <ul><li><p>O número inicial do intervalo deve ser menor ou igual ao número final.</p></li>    
+    > <li><p>Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.</p></li>    
+    > <li><p>Os números devem corresponder à expressão regular (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Isso significa que o número pode começar com a cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.</p></li>    </ul>
 
 
 6.  Em **Serviço de Comunicado**, execute um dos seguintes procedimentos:
@@ -67,7 +63,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
 10. Na página **Número Não Atribuído**, certifique-se de que os intervalos numéricos não atribuídos estejam organizados da ordem que você deseja. Para alterar a posição do intervalo na tabela, clique em um ou mais nomes consecutivos na lista de intervalos e clique na seta para cima ou para baixo.
     
 
-    > [!TIP]
+    > [!TIP]    
     > O Lync Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponda ao número não atribuído. Se você tem intervalos sobrepostos e um intervalo que especifica uma última ação de reclassificação, certifique-se de que o intervalo esteja no final da lista.
 
 
@@ -83,7 +79,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
 3.  Use **New-CsUnassignedNumber** para criar um intervalo de números não atribuídos. Use **Set-CsUnassignedNumber** para modificar um intervalo de números não atribuídos existente.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você tiver intervalos sobrepostos e desejar que os intervalos sejam aplicados em uma ordem específica, inclua o parâmetro Prioridade. O intervalo com a maior prioridade será aplicado à chamada.
 
     

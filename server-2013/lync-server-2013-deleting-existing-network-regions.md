@@ -35,7 +35,7 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 6.  Clique em **OK**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Uma região de rede não pode ser removida se estiver associada a um site de rede. Se você quiser tentar remover uma região associada a um site, receberá uma mensagem de erro. Para ver se um região está associada a algum site, selecione a região e clique em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.
 
 

@@ -167,7 +167,7 @@ O comando anterior retornará informações semelhantes a essa, dependendo das t
     DataConference
 
 
-> [!TIP]
+> [!TIP]  
 > Para exibir as transações sintéticas em ordem alfabética, use este comando:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 

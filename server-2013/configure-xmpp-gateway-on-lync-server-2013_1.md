@@ -22,7 +22,7 @@ Quando você configura políticas de suporte de parceiros federados XMPP (extens
 1.  No Servidor de Borda, no Assistente de Implantação, próximo a **Etapa 3: Solicitar, instalar ou atribuir certificados**, clique em **Executar novamente**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se estiver implantando o Servidor de Borda pela primeira vez, você verá Executar ao invés de Executar novamente.
 
 
@@ -56,7 +56,7 @@ Quando você configura políticas de suporte de parceiros federados XMPP (extens
 12. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique quaisquer nomes alternativos de entidade adicionais que sejam necessários.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o proxy XMPP é instalado, por padrão o nome de domínio (como contoso.com) é preenchido nas entradas SAN. Se você precisa de mais entradas, adicione-as nesta etapa.
 
 

@@ -28,7 +28,7 @@ O proxy reverso tem requisitos mínimos de firewall e porta/protocolo.
     ![Proxy Reverso e Serviços Web Externos](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Proxy Reverso e Serviços Web Externos")  
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Não confunda o tráfego da porta 4443 por TCP do proxy reverso para a implantação interna com o tráfego da porta 4443 por TCP do Standard Edition Server ou do Pool de Front-Ends que gerencia a função do Repositório de Gerenciamento Central.
 
 

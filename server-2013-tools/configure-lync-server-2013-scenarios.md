@@ -22,7 +22,7 @@ To run the Lync Server 2013 Stress and Performance Tool (LyncPerfTool), the Lync
 We have provided example Shell de Gerenciamento do Lync Server scripts that may be used in preparation for running load simulation. Because the scripts are intended for load simulation, they are simple and permissive, and therefore may not be appropriate for production. All scripts are examples and must be reviewed, and, in some cases, modified to reflect your topology. At a minimum, we expect that the Response Group Service (RGS) scenario would need to be modified to specify the agents that are assigned to the agent groups. However, you have the option to not simulate this load.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Take care in reviewing and understanding the examples provided. Scripts will overwrite any existing settings in the topology.
 
 

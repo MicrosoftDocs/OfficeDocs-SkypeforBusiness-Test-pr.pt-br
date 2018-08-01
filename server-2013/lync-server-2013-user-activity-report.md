@@ -42,7 +42,7 @@ O Relatório de Atividades do Usuário é acessado pela home page dos Relatório
 Embora haja muitas informações relevantes no Relatório de Atividades do Usuário, essas informações podem, por vezes, ser difíceis de localizar. Por exemplo, toda a atividade de usuários que ocorre em sua organização durante um período específico está incluída no Relatório de Atividades do Usuário; isso significa que o relatório encerra informações sobre quais usuários realmente utilizaram o Microsoft Lync Server 2013 de alguma forma.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Tecnicamente, é possível que algumas das atividades do usuário não sejam registradas: embora o Lync Server se esforce para manter as informações sobre todas as chamadas telefônicas, é possível que uma chamada tenha sido feita sem que as informações sobre ela fossem gravadas no banco de dados. O Lync Server foi projetado para oferecer uma visão extremamente precisa, porém não necessariamente perfeita de como o Lync Server 2013 está sendo usado. (O fato de não haver garantia de 100% de que todas as chamadas serão registradas explica por que o monitoramento do Lync Server não deve ser usado como sistema de faturamento.)<BR>Em segundo lugar, um Relatório de Monitoramento pode exibir apenas um máximo de 1.000 registros. Dependendo da quantidade de usuários que você tem e também de período com o qual está trabalhado, isso significa que sua consulta pode não retornar todos os dados realmente armazenados no banco de dados.
 
 

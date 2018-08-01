@@ -48,7 +48,7 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja usar para filtrar os resultados da pesquisa digitando-o ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para incluir cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar Filtro</STRONG>.
 
     
@@ -57,7 +57,7 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja que a mesma política de arquivamento por usuário se aplique a vários usuários, selecione-os nos resultados da pesquisa, clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
@@ -71,7 +71,7 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
       - Clique no nome de uma política de arquivamento por usuário definida anteriormente na página **Política de Arquivamento**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudá-lo a decidir a política que deseja atribuir, depois de clicar no nome da política, clique em <STRONG>Exibir</STRONG> para visualizar os direitos e permissões de usuário definidos.
 
 

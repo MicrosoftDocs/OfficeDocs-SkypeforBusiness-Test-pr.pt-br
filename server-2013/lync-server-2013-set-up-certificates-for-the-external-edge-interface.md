@@ -173,7 +173,7 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
       - Exportar todas as propriedades avançadas
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Ao exportar o certificado de um servidor de Borda, não selecione <STRONG>Excluir a chave privada se a exportação tiver êxito</STRONG>. Selecionar esta opção exigirá a importação do certificado e da chave privada para este Servidor de Borda.
 
 

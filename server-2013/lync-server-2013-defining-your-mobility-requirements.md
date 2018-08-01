@@ -48,7 +48,8 @@ A seguir estão as decisões que você precisa considerar:
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
     > [!NOTE]  
-    > Não há requisitos adicionais de configurações para UCWA. O UCWA não tem uma configuração exclusivamente interna que seja equivalente.    
+    > Não há requisitos adicionais de configurações para UCWA. O UCWA não tem uma configuração exclusivamente interna que seja equivalente.
+        
     > [!IMPORTANT]  
     > Se estiver usando um Lync Server 2013Servidor Front-End ou Pools de Front-Ends e <strong>você não tem</strong> qualquer Lync Server 2010Servidores Front-End ou Pools de Front-Ends, <strong>não há requisitos para persistência com base em cookies</strong>. Se precisar reter qualquer Lync Server 2010Servidores Front-End ou Pools de Front-Ends, as mesmas regras se aplicam assim como na persistência com base em cookie do Lync Server 2010.
 

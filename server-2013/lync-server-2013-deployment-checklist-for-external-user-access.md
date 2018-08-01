@@ -30,7 +30,7 @@ Para detalhes sobre a Ferramenta de Planejamento e o Construtor de Topologia, co
 A tabela a seguir apresenta uma visão geral do processo de implantação do Servidor de Borda. Para revisar as decisões que precisam ser tomadas antes de implantar o acesso de usuário externo, consulte [Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
 
-> [!WARNING]
+> [!WARNING]  
 > As informações na tabela a seguir enfatizam uma nova implementação. Se você tiver implantado Servidores de Borda em um ambiente Lync Server 2010, Office Communications Server 2007 R2 ou Office Communications Server 2007, consulte <A href="migration.md">Migração</A> para obter detalhes sobre como migrar para o Lync Server 2013. Não há suporte para a migração em nenhuma versão anterior à Office Communications Server 2007 R2, incluindo Office Communications Server 2007, Live Communications Server 2005 e Live Communications Server 2003.
 
 

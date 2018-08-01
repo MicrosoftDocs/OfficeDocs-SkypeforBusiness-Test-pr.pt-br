@@ -31,7 +31,7 @@ Você pode especificar seu próprio arquivo de música para utilizar para músic
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Utilize o cmdlet <STRONG>Get-CsService</STRONG> para identificar o serviço. Para detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     

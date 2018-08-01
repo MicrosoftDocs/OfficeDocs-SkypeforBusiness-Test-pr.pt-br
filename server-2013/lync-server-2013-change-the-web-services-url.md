@@ -33,7 +33,7 @@ Ao configurar os pools de Front-Ends e os servidores Standard Edition, você tem
 4.  Adicione ou edite o **FQDN de Serviços Web Externos** e clique em **OK**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você possui mais de um Pool de Front-Ends ou Servidor Front-End, o FQDN dos serviços Web externo devem ser únicos. Por exemplo, se você define o FQDN dos serviços web externos de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você estiver implantando também Diretores, o FQDN dos serviços web externos definido para qualquer Diretor ou Pool de diretores deve ser único se comparado a outro Diretor ou Pool de diretores, assim como qualquer Pool de Front-Ends ou Servidor Front-End.
 
 
@@ -53,7 +53,7 @@ Existem alguns requisitos que você deve estar ciente ao configurar as portas de
   - Você pode substituir os serviços web internos em um Pool de Front-Ends, um Diretor ou um Pool de diretores e definir seu próprio FQDN.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você decidir substituir os serviços web internos com um FQDN definido automaticamente, cada FQDN deve ser único se comparado a outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 

@@ -140,7 +140,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
       - Para remover uma regra de conversão do tronco, destaque o nome da regra e clique em **Remover**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
 
 

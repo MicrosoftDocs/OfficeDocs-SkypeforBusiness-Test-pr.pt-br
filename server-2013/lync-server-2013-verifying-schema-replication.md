@@ -24,7 +24,7 @@ Antes de executar a preparação da floresta, verifique manualmente se a partiç
 2.  Abra o Editor ADSI clicando em **Iniciar** , **Ferramentas Administrativas** e em **Editor ADSI** .
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se desejar, você pode executar <STRONG>adsiedit.msc</STRONG> na linha de comando.
 
 

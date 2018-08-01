@@ -73,6 +73,7 @@ A preparação do domínio é a etapa final da preparação do Serviços de Dom�
     
     > [!NOTE]  
     > O parâmetro GlobalSettingsDomainController permite indicar onde as configurações globais estão armazenadas. Se estiverem armazenadas no contêiner Sistema (o que é comum, quando as importações de atualização não tiveram a configuração global migrada para o contêiner Configuração), você definirá um controlador de domínio na raiz da sua floresta do Active Directory. Se as configurações globais estiverem no contêiner Configuração (o que é comum nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você definirá qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet supõe que todas as configurações estão armazenadas no contêiner Configuração e se refere a qualquer controlador de domínio no AD DS.    
+    
     Se você não especificar o parâmetro **Domain**, o padrão será o domínio local.
     
     Esse cmdlet retorna um valor **LC\_DOMAINSETTINGS\_STATE\_READY** se a preparação de domínio teve êxito.

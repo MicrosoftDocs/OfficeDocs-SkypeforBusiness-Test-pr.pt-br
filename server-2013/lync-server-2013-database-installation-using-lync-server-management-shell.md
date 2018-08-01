@@ -23,7 +23,7 @@ A separação de funções e responsabilidades entre administradores de servidor
 **Install-CsDatabase** é o cmdlet do Windows PowerShell usado para instalar os bancos de dados. O cmdlet **Install-CsDatabase** tem muitos parâmetros, somente alguns deles são discutidos aqui. Para obter detalhes sobre os possíveis parâmetros, consulte a documentação do Shell de Gerenciamento do Lync Server 2013.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Para evitar possíveis problemas de tempo limite e de desempenho, sempre use os FQDNs (nomes de domínio totalmente qualificados) ao se referir aos servidores baseados no SQL Server. Evite usar referências somente ao nome do host. Por exemplo, use sqlbe01.contoso.net, mas evite usar SQLBE01.
 
 
@@ -55,7 +55,7 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
 ```    
 
-> [!TIP]
+> [!TIP]  
 > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 
@@ -92,7 +92,7 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 ```
 
 
-> [!TIP]
+> [!TIP]  
 > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 

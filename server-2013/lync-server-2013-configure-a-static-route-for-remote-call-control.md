@@ -26,7 +26,7 @@ O controle de chamada remota exige que cada pool do Lync Server seja configurado
 3.  Para criar um roteamento estático e colocá-lo na variável $TLSRoute ou $TCPRoute, siga um destes procedimentos:
     
 
-    > [!TIP]
+    > [!TIP]  
     > Para corresponder a domínios filhos de um domínio, é possível especificar um valor curinga no parâmetro MatchUri. Por exemplo, <STRONG>*. contoso.net</STRONG> . O valor corresponde a qualquer domínio que termina com o sufixo <STRONG>contoso.net</STRONG> .
 
     
@@ -45,9 +45,11 @@ O controle de chamada remota exige que cada pool do Lync Server seja configurado
       - Para uma conexão TCP (Transmission Control Protocol), digite o seguinte no prompt de comando:
         
         > [!NOTE]  
-        > Se especificar um nome de domínio totalmente qualificado (FQDN), você deve configurar um registro A de DNS primeiro.        
+        > Se especificar um nome de domínio totalmente qualificado (FQDN), você deve configurar um registro A de DNS primeiro.   
+        ```     
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
-        
+        ```
+
         Por exemplo:
         
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
@@ -67,7 +69,7 @@ O controle de chamada remota exige que cada pool do Lync Server seja configurado
 4.  Para manter um roteamento estático recém-criado no Repositório de Gerenciamento Central, execute um dos seguintes conforme apropriado:
     
     ```
-            Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
     ```
     ```
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}

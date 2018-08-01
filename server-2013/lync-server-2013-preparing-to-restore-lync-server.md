@@ -102,7 +102,7 @@ Quando você restaura um servidor, é precisso iniciar com um computador novo ou
   - Software para fazer imagens de sistema.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Recomendamos que você faça uma cópia da imagem do sistema depois de instalar o sistema operacional e o SQL Server e antes de iniciar a restauração para que você possa usar essa imagem como um ponto de reversão, caso algo dê errado durante a restauração.
 
 

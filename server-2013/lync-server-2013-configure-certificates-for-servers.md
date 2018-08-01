@@ -21,7 +21,7 @@ Para concluir com êxito este procedimento, você deve estar conectado como um u
 > O Lync Server 2013 inclui suporte para o pacote do SHA-2 (o SHA-2 usa extensões de disco de 224, 256, 384 ou 512 bits) de hash de disco e algoritmos de assinatura para conexões de clientes executando o Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, além do Lync Phone Edition. Para suportar o acesso externo usando o pacote do SHA-2, o certificado externo é emitido por um CA público que também pode emitir um certificado com a mesma extensão disco.
 
 
-> [!WARNING]
+> [!WARNING]  
 > A seleção do hash de disco e do algoritmo de assinatura dependerá do cliente e dos servidores que utilizarão o certificado, e de outros computadores e dispositivos que os clientes e servidores comunicarão a quem também deve saber como usar os algoritmos usados no certificado. Para obter mais informações sobre quais extensões de disco são suportadas no sistema operacional e em alguns aplicativos do cliente, consulte <A href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</A>.
 
 

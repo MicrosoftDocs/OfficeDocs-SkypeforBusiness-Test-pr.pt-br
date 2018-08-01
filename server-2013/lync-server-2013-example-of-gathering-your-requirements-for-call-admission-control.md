@@ -49,6 +49,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     > [!NOTE]  
     > Uma rede MPLS (Multiprotocol Label Switching) deve ser representada como uma região de rede na qual cada local geográfico tem um site de rede correspondente. Para obter detalhes, consulte o tópico “ <a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Controle de admissão de chamadas em uma rede MPLS com o Lync Server 2013</a>” na documentação Planejamento.    
+    
     No exemplo anterior de topologia de rede, há três regiões de rede, cada uma com um site central do Lync Server que gerencia o CAC. O site central apropriado para uma região de rede é escolhido pela proximidade geográfica. Como o tráfego de mídia será o mais intenso nas regiões de rede, a propriedade por proximidade geográfica o tornará autocontido e continuará funcionando mesmo se outros sites centrais ficarem indisponíveis.
     
     Nesse exemplo, uma implantação do Lync Server chamada Chicago é o site central para a região América do Norte.

@@ -20,7 +20,7 @@ Para concluir com sucesso este procedimento, você deve ter feito logon como usu
 Se for necessário remover a autenticação Kerberos de um site ou desativar um site, você deve remover a atribuição da conta da autenticação Kerberos do site usando o cmdlet **Remove-CsKerberosAccountAssignment**. Use o procedimento a seguir para remover a atribuição da conta da autenticação Kerberos, o que remove a atribuição de todos os computadores no site.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você está desativando a conta habilitada para Kerberos de forma permanente, deve usar os Usuários e Computadores do Active Directory para excluí-la do Serviços de Domínio Active Directory depois de remover a atribuição. Se você planeja usar o objeto no futuro, pode ser desejável manter o objeto do Active Directory.
 
 

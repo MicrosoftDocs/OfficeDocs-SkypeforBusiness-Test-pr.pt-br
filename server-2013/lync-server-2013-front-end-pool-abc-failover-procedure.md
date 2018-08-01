@@ -44,6 +44,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
     
     > [!NOTE]  
     > Atualmente, o cmdlet <strong>Import-CsRgsConfiguration</strong> requer que os nomes da fila e do fluxo de trabalho no pool A sejam are diferentes dos nomes da fila e do fluxo de trabalho no pool B. Se os nomes não forem diferentes, ocorrerá um erro na execução do cmdlet <strong>Import-CsRgsConfiguration</strong> e as filas e do fluxos de trabalho deverão ser renomeados no pool B antes de prosseguir com o cmdlet <strong>Import-CsRgsConfiguration</strong>.    
+    
     Você tem duas opções para importar a configuração do Grupo de Resposta do pool A para o pool B. Qual opção você deve usar depende de se deseja sobrescrever as configurações em nível de aplicativo do pool B com as configurações em nível de aplicativo do pool A.
     
       - Se você deseja sobrescrever as configurações do Pool B, execute o cmdlet **Import-CsRgsConfiguration** com a opção **ReplaceExistingSettings** :
@@ -55,7 +56,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Tenha em mente que se você não quiser sobrescrever as configurações em nível de aplicativos do pool de backup (pool B) com as configurações pool primário (pool A), as configurações em nível de aplicativos do pool A serão perdidas, pois o aplicativo Grupo de Resposta pode somente armazenar um conjunto de configurações em nível de aplicativos por pool. Quando o pool C é implantado para substituir o pool A, as configurações em nível de aplicativos devem ser reconfiguradas, incluindo o arquivo de áudio de música em espera padrão.
 
 
@@ -151,7 +152,7 @@ Para executar os cmdlets, abra um Shell de Gerenciamento do Lync Server usando E
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Tenha em mente que se você não quiser sobrescrever as configurações em nível de aplicativos do Pool C com as configurações do pool de backup (pool B), as configurações em nível de aplicativos do pool B serão perdidas, pois o aplicativo Grupo de Resposta pode somente armazenar um conjunto de configurações em nível de aplicativos por pool.
 
 

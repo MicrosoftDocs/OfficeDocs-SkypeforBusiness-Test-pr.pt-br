@@ -45,7 +45,7 @@ Ao instalar o SQL Server, o SQL Server Management Studio deve ser instalado para
 1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O procedimento a seguir pressupõe que a topologia no Construtor de Topologia já foram definidas e configuradas. Para saber mais sobre definições de topologia, veja<A href="lync-server-2013-defining-and-configuring-the-topology.md">Definindo e configurando a topologia no Lync Server 2013</A>. Para usar o Contrutor de Topologia para publicar uma topologia e configurar uma base de dados, você deve logar com direitos e permissões de usuário de grupo corretas. Para saber mais sobre direitos e permissões de grupo necessários, veja <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Permissões de implantação para Servidor SQL no Lync Server 2013</A>.
 
 

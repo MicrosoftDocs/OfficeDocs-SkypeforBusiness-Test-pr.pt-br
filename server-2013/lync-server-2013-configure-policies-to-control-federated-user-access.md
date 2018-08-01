@@ -67,7 +67,7 @@ Se essa for uma política de usuário, você também deverá aplicar a política
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
 
-    > [!TIP]
+    > [!TIP]  
     > O parâmetro “EnablePublicCloudAudioVideoAccess” não possui uma seleção correspondente no Painel de Controle do Lync Server
 
 

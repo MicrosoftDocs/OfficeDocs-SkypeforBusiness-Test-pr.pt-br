@@ -28,7 +28,7 @@ Esta seção define os cenários para implantações do Servidor de Borda e mape
 Usando este processo, é possível planejar e documentar a configuração de todos os recursos em potencial que você pretende implantar para seus usuários. No entanto, é possível adicionar serviços de federação e mobilidade após ter implantado o Servidor de Borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação do Servidor de Borda existente é abordada na seção Implantação. Para obter detalhes sobre a implantação, consulte [Implantação de acesso do usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) Ao incluir planejamento para estes recursos durante o processo de planejamento inicial, é possível preparar para os requisitos de DNS, firewall e certificado para recursos adicionados, que permite adquirir certificados e configurar os requisitos DNS e porta/protocolo antecipadamente.
 
 
-> [!TIP]
+> [!TIP]  
 > Se você estiver planejando instalar o Servidores de Borda e o proxy inverso e adicionar recursos posteriormente (por exemplo, federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. Planejamento e aquisição de certificados para todos os recursos antecipadamente, implantado inicialmente ou não, evita que você precise solicitar novos certificados para satisfazer os requisitos de federação (isto é, no Servidores de Borda) ou o proxy inverso (isto é, serviços de mobilidade).
 
 
@@ -89,7 +89,7 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 
 
 
-> [!TIP]
+> [!TIP]  
 > Nas seguintes seções Cenários existem arquiteturas de referência, DNS de exemplo, definições de porta/protocolo e requisitos de certificado. Também inclui diagramas para seu DNS, definições de porta/protocolo e necessidades de certificado. Os diagramas oferecerão um modelo para você preencher e distribuir para outras equipes (por exemplo, a Equipe de Rede da sua organização, Equipe de Infraestrutura de Chave Pública e Equipe de Implantação do Servidor). O objetivo do diagrama é melhorar a comunicação e garantir o sucesso ao comunicar os elementos de configuração obrigatórios do Servidor de Borda para pessoas que irão realizar o trabalho de configuração. Recomendamos que você use os diagramas e as arquiteturas de referência associados para planejar sua implantação.
 
 

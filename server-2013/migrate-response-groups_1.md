@@ -33,7 +33,7 @@ Para migrar grupos de resposta de um pool antigo para o Lync Server 2013, você 
 Depois que você migrar os grupos de resposta, precisará atualizar a URL que os agentes formais usam para entrar e sair de seus grupos de resposta e usar os cmdlets do Painel de Controle do Lync Server ou do Shell de Gerenciamento do Lync Server para verificar se todos os fluxos de trabalho, filas e grupos de agente foram transferidos com êxito.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Quando você migra grupos de resposta, os grupos de resposta do Office Communications Server 2007 R2 não são removidos. Não remova os grupos de resposta do Office Communications Server 2007 R2. Se você remover um grupo de resposta do Office Communications Server 2007 R2, os grupos de resposta do Lync Server 2013 pararão de funcionar.
 
 
@@ -73,6 +73,7 @@ O procedimento de migração de configurações do Grupo de Resposta a seguir pr
     
     > [!NOTE]  
     > A URL normalmente é https://webpoolFQDN/RgsClients/Tab.aspx, na qual <em>webpoolFQDN</em> é o FQDN (nome de domínio totalmente qualificado) do pool da Web associado ao pool que você migrou para o Lync Server 2013.    
+    
     > [!NOTE]  
     > Esta etapa não é necessária depois que os usuários atualizam para o Lync 2013, pois a URL está disponível no menu <strong>Ferramentas</strong> no Lync.
 

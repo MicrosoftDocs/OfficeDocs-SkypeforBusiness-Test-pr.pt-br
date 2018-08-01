@@ -50,6 +50,7 @@ Ao implantar Lync Server 2013 e publicar a topologia, é habilitado o armazename
         
         > [!NOTE]  
         > Você também pode alterar o URI do SIP ou o usuário remoto em vez do nome do usuário.        
+        
         Por exemplo:
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True

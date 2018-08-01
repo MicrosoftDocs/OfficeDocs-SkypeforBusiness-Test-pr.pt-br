@@ -18,7 +18,7 @@ _**Tópico modificado em:** 2013-03-21_
 O Lync Server 2013 usa os certificados para fornecer criptografias de comunicações e autenticação de identidade do servidor. Em alguns casos, como em publicações na web através do proxy reverso, uma entrada forte de nome alternativo da entidade (SAN) que corresponda ao nome de domínio totalmente qualificado (FQDN) do servidor apresentando o serviço não é necessária. Nesses casos, é possível usar certificados com entradas curingas de SAN (comumente conhecidos como "certificados curinga") para reduzir o custo de um certificado solicitado por uma autoridade de certificação pública e para reduzir a complexidade do processo de planejamento para certificados.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Para reter a funcionalidade de dispositivos de comunicações unificadas (UC) (por exemplo, telefones de mesa), você deve testar o certificado implantado com cuidado para garantir que os dispositivos funcionem adequadamente depois de implantar um certificado curinga.
 
 

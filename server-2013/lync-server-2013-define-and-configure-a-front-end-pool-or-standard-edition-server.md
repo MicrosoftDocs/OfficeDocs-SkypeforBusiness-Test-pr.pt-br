@@ -98,7 +98,8 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     - **Monitoramento**   O servidor de Monitoramento permite coletar dados que descrevem a qualidade da mídia na rede e nos pontos de extremidade, informações de uso relacionadas a chamadas VoIP, mensagens de IM, conversas A/V, compartilhamento de aplicativos e transferências de arquivos, além de informações de erros e solução de problemas de chamadas com falha.
     
     > [!NOTE]  
-    > Se você deseja habilitar o CAC na implantação, é necessário habilitar o CAC em exatamente um pool por site central. O CAC é recomendado se você está implantando os recursos de voz ou conferência de A/V.    
+    > Se você deseja habilitar o CAC na implantação, é necessário habilitar o CAC em exatamente um pool por site central. O CAC é recomendado se você está implantando os recursos de voz ou conferência de A/V.
+        
     A tabela a seguir mostra os recursos disponíveis (superior) e as funções oferecidas aos usuários (esquerdo). As seleções na tabela são aquelas que você deve selecionar para habilitar estes recursos para sua organização.
     
     
@@ -205,14 +206,14 @@ Após definir a topologia, execute o procedimento a seguir para definir um Pool 
     > [!IMPORTANT]  
     > A URL base é a identidade do Serviços Web para a URL, sem o https://. Por exemplo, se a URL completa para o Serviços Web do pool é https://pool01.contoso.net, a URL base será pool01.contoso.net.    
 
-    > [!WARNING]
+    > [!WARNING]  
     > Caso tenha mais de um Pool de Front-Ends ou Servidor Front-End, o FQDN de serviços Web externos deverá ser exclusivo. Por exemplo, caso defina o FQDN de serviços Web externos de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, não será possível usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End.
 
     
     1.  Se você configurar o balanceamento de carga DNS, marque a caixa de seleção **Substituir o FQDN do pool de serviços internos da Web**, insira a URL base interna (que deve ser diferente do FQDN de pool e poderia ser, por exemplo, interno-\<sua base URL\>) em **URL base interna**.
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Se você decidir substituir os serviços Web internos por um FQDN autodefinido, cada FQDN deve ser exclusivo de qualquer Pool de Front-Ends, Diretor ou um Pool de diretores. <STRONG>Use apenas caracteres padrão</STRONG> (incluindo A-Z, a-z, 0-9 e hifens) ao definir URLs ou nomes de domínio totalmente qualificados. Não use caracteres Unicode ou sublinhados. Caracteres não padrão em uma URL ou FQDN, em geral, não têm suporte de DNS externos e CAs públicas (ou seja, quando a URL ou FQDN tiverem de ser atribuídos ao nome da entidade ou ao nome de entidade alternativo em um certificado).
 
     

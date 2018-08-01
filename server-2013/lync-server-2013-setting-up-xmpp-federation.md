@@ -32,7 +32,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 6.  No Servidor de Borda, no Assistente de Implantação, próximo a Etapa 3: Solicitar, instalar ou atribuir certificados, clique em Executar novamente.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se estiver implantando o Servidor de Borda pela primeira vez, você verá Executar ao invés de Executar novamente.
 
 
@@ -66,7 +66,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 17. Na página Configurar Nomes Alternativos da Entidade Adicionais, especifique os nomes alternativos de entidade adicionais que sejam necessários.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o proxy XMPP é instalado, por padrão o nome de domínio (como contoso.com) é preenchido nas entradas SAN. Se você precisa de mais entradas, adicione-as nesta etapa.
 
 
@@ -154,7 +154,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 10. Publique a topologia. Para obter detalhes, consulte [Publicar sua topologia no Lync Server 2013](lync-server-2013-publish-your-topology.md)
     
 
-    > [!TIP]
+    > [!TIP]  
     > Embora não seja obrigatório e geralmente não seja necessário, eventualmente, você talvez precise reiniciar os Servidores de Borda
 
 

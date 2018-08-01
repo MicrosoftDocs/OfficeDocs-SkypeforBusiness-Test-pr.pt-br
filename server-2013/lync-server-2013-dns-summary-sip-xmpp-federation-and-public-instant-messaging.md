@@ -50,10 +50,10 @@ Ao configurar o DNS (Sistema de Nome de Domínio) para a conectividade de mensag
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do Serviço de Borda de Acesso necessária para descoberta DNS automática da sua federação para outros parceiros de federação em potencial e é conhecido como “Domínios SIP Permitidos” (federação avançada nas versões anteriores). Repita conforme necessário para todos os domínios SIP com usuários habilitados do Lync</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Este registro SRV é necessário para mobilidade e o push notification clearing house. Em casos onde há mais de um domínio SIP, criar e publicar um registro SRV para cada domínio que terá clientes Lync Mobile. O Serviços de Notificação por Push e o Serviços de Notificação por Push da Apple podem não funcionar como esperado se não há um registro SRV explícito para cada domínio SIP que a implantação suporta.
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

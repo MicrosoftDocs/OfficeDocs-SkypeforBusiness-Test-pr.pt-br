@@ -35,7 +35,7 @@ Tipos de endereço comuns que você usará para endereço IPv6 serão os endere�
 NAT para IPv6 existe que permite o NAT IPv6 para IPv4 (geralmente chamado como NAT64) e NAT IPv6 para IPv6 (geralmente chamado como NAT66). A existência de tecnologias NAT significa que os cinco cenários apresentados para o Lync ServerServidores de Borda ainda são válidos.
 
 
-> [!WARNING]
+> [!WARNING]  
 > IPv6 é um tópico complexo e exige planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para garantir que os endereços atribuídos no nível do servidor Windows e no nível do Lync Server 2013 funcionarão como esperado. Consulte os links no final deste tópico para obter recursos adicionais no endereço IPv6 e planejamento.
 
 

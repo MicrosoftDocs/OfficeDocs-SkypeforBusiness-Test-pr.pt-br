@@ -40,7 +40,7 @@ Use as etapas no seguinte procedimento para preparar e executar a recuperação 
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se não substituir as configurações no pool de backup e não for possível recuperar o pool principal, então as configurações do pool principal serão perdidas. Para obter detalhes, consulte <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planejamento para recuperação de desastre de grupos de resposta no Lync Server 2013</A>.
 
 

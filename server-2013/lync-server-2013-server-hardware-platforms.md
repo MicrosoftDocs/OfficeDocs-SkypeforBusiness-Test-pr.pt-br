@@ -58,7 +58,7 @@ Para melhor desempenho, recomendamos executar o Lync Server em servidores com ha
 <tr class="even">
 <td><p>Rede</p></td>
 <td><ul><li><p>1 adaptador de rede de porta dupla, 1 Gbps ou superior (recomendamos 2 Gbps, o que requer agrupamento com um único endereço MAC e um único endereço IP).</p>
-<div class="alert">
+
 > [!NOTE]  
 > Não há suporte para configurações duais nem multihomed em Servidores Front-End, Servidores Back-End, Servidores Standard Edition nem Servidores de Chat Persistente.<br />Conexões ILO/DRAC/etc. não expostas ao sistema operacional e usadas para monitorar e gerenciar o hardware de servidor não constituem um servidor multihomed e, por isso, não têm suporte.
 </div></li></ul></td>
@@ -100,7 +100,7 @@ Para melhor desempenho, recomendamos executar o Lync Server em servidores com ha
 <tr class="even">
 <td><p>Rede</p></td>
 <td><ul><li><p>1 adaptador de rede de porta dupla, 1 Gbps ou superior (recomenda-se usar 2 Gbps, o que requer agrupamento com um único endereço MAC e um único endereço IP). Duas interfaces de rede são necessárias em Servidores de Borda, com suporte em Servidor de Mediação autônomos.</p></li></ul>
-<div class="alert">
+
 > [!NOTE]  
 > Não há suporte para configurações duplas nem multihomed para Diretores.<br />Conexões ILO/DRAC/etc. não expostas ao sistema operacional e usadas para monitorar e gerenciar o hardware de servidor não constituem um servidor multihomed e, por isso, não têm suporte.
 </div>

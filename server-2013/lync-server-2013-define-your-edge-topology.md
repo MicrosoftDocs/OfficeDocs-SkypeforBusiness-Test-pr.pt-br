@@ -351,7 +351,7 @@ O processo de definição da topologia do servidor de borda é executado no Cons
 
 19. Em **Associar pools de Front End**, especifique um ou mais pools internos, que podem incluir pools de Front End e servidores Standard Edition, a serem associados a este Servidor de Borda, selecionando os nomes do(s) pool(s) interno(s) que usará(ão) este Servidor de Borda para comunicação com usuários externos suportados.
     
-    > [!NOTE]  
+  > [!NOTE]  
 	> Somente um pool de Borda com balanceamento de carga ou Servidor de Borda único pode ser associado a um cada pool interno para tráfego de A/V. Se você já possui um pool interno associado a um pool de Borda ou Servidor de Borda, um aviso será exibido, indicando que o pool interno já está associado a um pool de Borda ou Servidor de Borda. Se um pool que já está associado a outro Servidor de Borda for selecionado, ele alterará a associação.
 
 
