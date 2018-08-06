@@ -212,6 +212,7 @@ Os pontos de decisão principal para seleção de topologia são alta disponibil
         
         > [!IMPORTANT]  
         > Balanceamento de carga DNS para Exchange 2010 SP1 e mais recente é suportado para UM do Exchange.    
+    
     Esses três aplicativos continuarão a operar, mas eles não estão cientes do balanceamento de carga DNS e só se conectam ao primeiro Servidor de Borda no pool. Se este servidor não estiver disponível, a conexão falhará. Por exemplo, se vários Servidores de Borda são implantados em um pool para manipular a carga de tráfego federado, apenas um proxy de acesso realmente recebe tráfego enquanto outros ficam ociosos.
 
 > [!IMPORTANT]  
