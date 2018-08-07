@@ -45,7 +45,7 @@ Use o procedimento a seguir para visualizar resultados de verificações gerados
       - Para exibir relatórios da lista de resultados de verificação armazenados localmente, clique no nome da verificação e clique em **Exibir um relatório desta verificação**.
         
         > [!NOTE]  
-        > O Analisador de Práticas Recomendadas cria a lista de arquivos locais na pasta <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.    
+        > O Analisador de Práticas Recomendadas cria a lista de arquivos locais na pasta <em>&lt;systemDrive&gt;</em>\Documents and Settings\\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.    
       - Para exibir os relatórios de resultados de uma verificação armazenados em outro local, clique em **Importar verificação**, localize o arquivo que contém os resultados da verificação e clique em **Abrir**.
         
         > [!NOTE]  

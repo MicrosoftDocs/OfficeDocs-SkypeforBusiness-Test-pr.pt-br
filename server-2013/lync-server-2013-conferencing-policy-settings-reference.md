@@ -103,7 +103,7 @@ A tabela a seguir lista todas as configurações de política de conferência qu
 <td><p>Permitir que os participantes federados e anônimos assumam o controle</p></td>
 <td><p>Permite que os participantes externos e anônimos assumam o controle do aplicativo compartilhado de outro usuário.</p>
 
-> [!IMPORTANT]  
+> [!NOTE]  
 > Se essa configuração estiver definida como Verdadeiro e <strong>Permitir que os participantes assumam o controle</strong> estiver definida como Falso, essa configuração será substituída.
 
 </td>

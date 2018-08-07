@@ -55,7 +55,7 @@ Com o espelhamento SQL, você pode configurar a topologia do espelhamento no mom
 
 
 > [!NOTE]  
-> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço que o SQL Server e o SQL Agent estão executando precisam de acesso de leitura/gravação. Se o serviço SQL Server estiver executando no Serviço de Rede, você pode adicionar &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ dos Servidores Principal and SQL Espelhos para compartilhar as permissões. O $ é importante para identificar uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço que o SQL Server e o SQL Agent estão executando precisam de acesso de leitura/gravação. Se o serviço SQL Server estiver executando no Serviço de Rede, você pode adicionar &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ dos Servidores Principal and SQL Espelhos para compartilhar as permissões. O $ é importante para identificar uma conta de computador.
 
 ## Para configurar o espelhamento SQL no momento da criação de um pool no Construtor de Topologias
 

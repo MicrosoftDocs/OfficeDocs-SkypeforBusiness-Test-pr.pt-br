@@ -100,8 +100,8 @@ Cenários de failover de borda suportados com Balanceamento de Borda DNS são se
 
 > [!NOTE]  
 > As topologias de Borda única e Borda escalonável (balanceamento de carga DNS) podem usar:<ul><li><p>Endereço IP público roteável</p></li><li><p>Endereço IP privado não roteável se a tradução de endereço de rede (NAT) simétrica for usada</p>
-> [!NOTE]  
-> Se você usar endereço IP público ou privado com NAT, você ainda usará o mesmo número de endereços IP baseados na sua opção de configuração no Construtor de Topologias. Você pode configurar o Servidor de Borda para usar um único endereço IP com portas distintas por serviço ou usar endereços IP distintos por serviço, mas use a mesma porta (por padrão, TCP 443).
+    > [!NOTE]  
+    > Se você usar endereço IP público ou privado com NAT, você ainda usará o mesmo número de endereços IP baseados na sua opção de configuração no Construtor de Topologias. Você pode configurar o Servidor de Borda para usar um único endereço IP com portas distintas por serviço ou usar endereços IP distintos por serviço, mas use a mesma porta (por padrão, TCP 443).
 > </li></ul>
 > Se você decidir usar endereços IP privados não roteáveis com NAT:<ul><li><p>Você deve usar endereços IP privados roteáveis em todas as três interfaces externas</p></li><li><p>Você deve configurar NAT simétrico para tráfego de entrada e saída</p></li></ul>
 > Topologia de borda escalonável (balanceamento de carga de hardware) deve usar endereços IP públicos.
@@ -212,6 +212,7 @@ Os pontos de decisão principal para seleção de topologia são alta disponibil
         
         > [!IMPORTANT]  
         > Balanceamento de carga DNS para Exchange 2010 SP1 e mais recente é suportado para UM do Exchange.    
+    
     Esses três aplicativos continuarão a operar, mas eles não estão cientes do balanceamento de carga DNS e só se conectam ao primeiro Servidor de Borda no pool. Se este servidor não estiver disponível, a conexão falhará. Por exemplo, se vários Servidores de Borda são implantados em um pool para manipular a carga de tráfego federado, apenas um proxy de acesso realmente recebe tráfego enquanto outros ficam ociosos.
 
 > [!IMPORTANT]  
