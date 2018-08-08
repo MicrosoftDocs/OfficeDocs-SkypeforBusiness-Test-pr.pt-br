@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar uma entrada de aplicativo confiável para controle de chamada remota'
+title: "Lync Server 2013: Config. uma entrada de app confiável p/ contr. de ch. remota"
 TOCTitle: Configurar uma entrada de aplicativo confiável para controle de chamada remota
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558636(v=OCS.15)

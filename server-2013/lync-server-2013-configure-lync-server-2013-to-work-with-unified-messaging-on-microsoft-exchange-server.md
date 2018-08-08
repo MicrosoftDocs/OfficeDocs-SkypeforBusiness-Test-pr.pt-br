@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server'
+title: "Config. o Lync Server 2013 p/ trabalhar c/ a Unif. de Mensagens no M. Exchange Server"
 TOCTitle: Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398193(v=OCS.15)

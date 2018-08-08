@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo seus requisitos para o Servidor de Chat Persistente'
+title: "Lync Server 2013: Definindo seus requisitos p/ o Servidor de Chat Persistente"
 TOCTitle: Definindo os requisitos de sua organização para o Servidor de Chat Persistente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398372(v=OCS.15)

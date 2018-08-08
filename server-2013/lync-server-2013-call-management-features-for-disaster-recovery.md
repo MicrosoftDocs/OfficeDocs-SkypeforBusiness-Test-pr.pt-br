@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Recursos de gerenciamento de chamada para recuperação de desastre'
+title: "Lync Server 2013: Recursos de gerenciamento de chamada p/ recup. de desastre"
 TOCTitle: Recursos de gerenciamento de chamada para recuperação de desastre
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721935(v=OCS.15)

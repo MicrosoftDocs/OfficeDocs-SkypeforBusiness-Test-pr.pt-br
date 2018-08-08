@@ -1,6 +1,6 @@
 ﻿---
-title: Números de acesso para conferência discada (números de acesso/configuração) no Lync Server 2013
-TOCTitle: Números de acesso para conferência discada (números de acesso/configuração) no Lync Server 2013
+title: "Nºs de acesso p/ confer. Disc. (números de acesso/config.) no Lync Server 2013"
+TOCTitle: "Nºs de acesso p/ confer. Disc. (números de acesso/config.) no Lync Server 2013"
 ms:assetid: e9b6143a-5ded-4ff8-9c5b-f0a1127e6193
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721923(v=OCS.15)
 ms:contentKeyID: 49886457

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pré-requisitos e permissões de configuração de conferência discada'
+title: "Lync Server 2013: Pré-requisitos e permissões de config. de confer. discada"
 TOCTitle: Pré-requisitos e permissões de configuração de conferência discada
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412865(v=OCS.15)

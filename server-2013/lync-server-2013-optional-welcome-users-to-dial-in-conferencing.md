@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Dar as boas-vindas aos usuários na conferência discada'
+title: "Lync Server 2013: (Opcional) Dar as boas-vindas aos usuários na confer. discada"
 TOCTitle: (Opcional) Dar as boas-vindas aos usuários na conferência discada
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398846(v=OCS.15)

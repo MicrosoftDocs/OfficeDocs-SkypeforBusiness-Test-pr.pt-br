@@ -1,6 +1,6 @@
 ﻿---
-title: Criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013
-TOCTitle: Criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013
+title: "Criar uma política de voz e config. registros de uso PSTN no Lync Server 2013"
+TOCTitle: "Criar uma política de voz e config. registros de uso PSTN no Lync Server 2013"
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399027(v=OCS.15)
 ms:contentKeyID: 49308439

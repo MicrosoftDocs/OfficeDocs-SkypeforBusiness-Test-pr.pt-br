@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Borda consolidada em escala com balanceadores de carga de hardware'
+title: "Lync Server 2013: Borda consol. em escala com balanc.de carga de hardware"
 TOCTitle: Borda consolidada em escala com balanceadores de carga de hardware
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398478(v=OCS.15)

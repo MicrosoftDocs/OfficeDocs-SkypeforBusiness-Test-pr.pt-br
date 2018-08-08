@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Acessando o site de configuração de conectividade a redes públicas de mensagens instantâneas do Lync Server'
+title: "Acess. o site de config. de conect. a redes públicas de m. instantâneas do Lync Server"
 TOCTitle: Acessando o site de configuração de conectividade a redes públicas de mensagens instantâneas do Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn440174(v=OCS.15)

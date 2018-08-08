@@ -1,6 +1,6 @@
 ﻿---
-title: Resumo do Certificado – conectividade para redes públicas de mensagens instantâneas
-TOCTitle: Resumo do Certificado – conectividade para redes públicas de mensagens instantâneas
+title: "Res. do Certificado – conectividade para redes públicas de mens. instantâneas"
+TOCTitle: "Res. do Certificado – conectividade para redes públicas de mens. instantâneas"
 ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ618370(v=OCS.15)
 ms:contentKeyID: 49306218

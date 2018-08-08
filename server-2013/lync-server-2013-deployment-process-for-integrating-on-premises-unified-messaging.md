@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Processo de implantação para integração de Unificação de Mensagens local'
+title: "Lync Server 2013: Processo de implant. p/ integração de Unificação de Mensagens local"
 TOCTitle: Processo de implantação para integração de Unificação de Mensagens local com Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425737(v=OCS.15)

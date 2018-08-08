@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar ou desabilitar o modo crítico para bloquear ou permitir mensagens instantâneas e sessões de conferência da Web se o arquivamento falhar
-TOCTitle: Habilitar ou desabilitar o modo crítico para bloquear ou permitir mensagens instantâneas e sessões de conferência da Web se o arquivamento falhar
+title: "Hab./Desab. modo crítico p/ bloq./perm. m. inst. e s. de confer. web se arq. falhar"
+TOCTitle: "Hab./Desab. modo crítico p/ bloq./perm. m. inst. e s. de confer. web se arq. falhar"
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182609(v=OCS.15)
 ms:contentKeyID: 49308683

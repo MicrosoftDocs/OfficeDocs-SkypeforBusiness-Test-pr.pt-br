@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Adicionar um Aplicativo de Filial Persistente ao Active Directory'
+title: "Lync Server 2013: Adicionar um App de Filial Persistente ao Active Directory"
 TOCTitle: Adicionar um Aplicativo de Filial Persistente ao Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425906(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Verificar implantação de Estacionamento de Chamadas'
+title: "Lync Server 2013: (Opcional) Verificar implant. de Estacionamento de Chamadas"
 TOCTitle: (Opcional) Verificar implantação de Estacionamento de Chamadas
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413076(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware'
+title: "Res. de cert. - pool Certificate sum. - pool de direts esc, balanc. de c de hardware"
 TOCTitle: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204846(v=OCS.15)

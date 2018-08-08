@@ -1,6 +1,6 @@
 ﻿---
-title: Usiando Resultados de Varredura para Analisar e Resolver Problemas Informados pelo Analisador de Práticas Recomendadas
-TOCTitle: Usiando Resultados de Varredura para Analisar e Resolver Problemas Informados pelo Analisador de Práticas Recomendadas
+title: "Usando Result. de Varred. p/ Analisar e Resolver Probl. Inf. P. Analis. de Prát. Rec."
+TOCTitle: "Usando Result. de Varred. p/ Analisar e Resolver Probl. Inf. P. Analis. de Prát. Rec."
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591350(v=OCS.15)
 ms:contentKeyID: 49308171

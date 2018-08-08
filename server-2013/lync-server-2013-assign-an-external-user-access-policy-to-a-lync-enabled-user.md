@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Atribuir uma política de usuário externo a um usuário habilitado do Lync'
+title: "Lync Server 2013: Atribuir pol. de usuário ext, a um usuário habil. do Lync"
 TOCTitle: Atribuir uma política de usuário externo a um usuário habilitado do Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398551(v=OCS.15)

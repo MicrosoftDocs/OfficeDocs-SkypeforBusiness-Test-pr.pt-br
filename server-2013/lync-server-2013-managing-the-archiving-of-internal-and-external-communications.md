@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013
-TOCTitle: Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013
+title: "Gerenc. o arquivamento de comunicações internas e externas no Lync Server 2013"
+TOCTitle: "Gerenc. o arquivamento de comunicações internas e externas no Lync Server 2013"
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204977(v=OCS.15)
 ms:contentKeyID: 49307031

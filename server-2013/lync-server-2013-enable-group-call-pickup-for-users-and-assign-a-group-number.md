@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar o recebimento de chamadas em grupo para os usuários e atribuir um número de grupo
-TOCTitle: Habilitar o recebimento de chamadas em grupo para os usuários e atribuir um número de grupo
+title: "Habilitar o receb. de chamadas em grupo p/ usuários e atribuir um nº de grupo"
+TOCTitle: "Habilitar o receb. de chamadas em grupo p/ usuários e atribuir um nº de grupo"
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945650(v=OCS.15)
 ms:contentKeyID: 52057720

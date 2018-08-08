@@ -1,6 +1,6 @@
 ﻿---
-title: Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013
-TOCTitle: Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013
+title: "Modif. política de voz e configurar registros de uso PSTN no Lync Server 2013"
+TOCTitle: "Modif. política de voz e configurar registros de uso PSTN no Lync Server 2013"
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 49307033

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando intervalos de portas para seus servidores de medicação, aplicativos e sua conferência
-TOCTitle: Configurando intervalos de portas para seus servidores de medicação, aplicativos e sua conferência
+title: "Config. interv. de portas p/ seus servidores de medicação, apps e sua confer."
+TOCTitle: "Config. interv. de portas p/ seus servidores de medicação, apps e sua confer."
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 49306662

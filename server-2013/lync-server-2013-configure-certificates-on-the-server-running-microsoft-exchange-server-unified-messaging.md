@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar certificados no servidor executando o Unified Messaging do Microsoft Exchange Server
-TOCTitle: Configurar certificados no servidor executando o Unified Messaging do Microsoft Exchange Server
+title: "config. cert.s no serv. executando o Unified Messaging do Microsoft Exchange Server"
+TOCTitle: "config. cert.s no serv. executando o Unified Messaging do Microsoft Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 49307126

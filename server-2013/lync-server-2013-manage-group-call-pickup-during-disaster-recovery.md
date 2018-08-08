@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciar o recebimento de chamadas em grupo durante a recuperação de desastres
-TOCTitle: Gerenciar o recebimento de chamadas em grupo durante a recuperação de desastres
+title: "Gerenciar o recebimento de chamadas em grupo durante a recup. de desastres"
+TOCTitle: "Gerenciar o recebimento de chamadas em grupo durante a recup. de desastres"
 ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945618(v=OCS.15)
 ms:contentKeyID: 52057591

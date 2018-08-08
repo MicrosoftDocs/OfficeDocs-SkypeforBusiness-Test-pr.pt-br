@@ -1,6 +1,6 @@
 ﻿---
-title: Excluir um conjunto existente de definições de configuração da versão do cliente
-TOCTitle: Excluir um conjunto existente de definições de configuração da versão do cliente
+title: "Excluir um conjunto existente de definições de config. da versão do cliente"
+TOCTitle: "Excluir um conjunto existente de definições de config. da versão do cliente"
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ898480(v=OCS.15)
 ms:contentKeyID: 52057658

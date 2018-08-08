@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk'
+title: "Lync Server 2013: Ex. de config. XMPP no Lync Server 2013 – fed. XMPP com GTalk"
 TOCTitle: Exemplo de configuração de XMPP – federação XMPP com Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204807(v=OCS.15)

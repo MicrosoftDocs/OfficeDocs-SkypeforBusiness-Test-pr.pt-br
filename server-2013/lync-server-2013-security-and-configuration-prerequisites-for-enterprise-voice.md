@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pré-requisitos de configuração e segurança para Entreprise Voice'
+title: "Lync Server 2013: Pré-requisitos de config. e segurança p/ Entreprise Voice"
 TOCTitle: " Pré-requisitos de configuração e segurança para Entreprise Voice"
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398221(v=OCS.15)

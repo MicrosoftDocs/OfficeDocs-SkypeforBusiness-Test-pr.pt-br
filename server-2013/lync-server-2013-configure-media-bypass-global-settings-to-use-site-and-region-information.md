@@ -1,6 +1,6 @@
 ﻿---
-title: Definir as configurações globais de bypass de mídia para usar informações locais e da região
-TOCTitle: Definir as configurações globais de bypass de mídia para usar informações locais e da região
+title: "Definir config. globais de bypass de mídia p/ usar inf. locais e da região"
+TOCTitle: "Definir config. globais de bypass de mídia p/ usar inf. locais e da região"
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 49305825

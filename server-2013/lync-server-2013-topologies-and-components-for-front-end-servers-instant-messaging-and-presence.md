@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença'
+title: "Topologias e componentes p/ Serv. Front-End, serviço de m. instantâneas e presença"
 TOCTitle: Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412996(v=OCS.15)

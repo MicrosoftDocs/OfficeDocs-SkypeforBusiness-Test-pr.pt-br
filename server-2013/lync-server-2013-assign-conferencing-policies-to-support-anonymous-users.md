@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Atribuir políticas de conferência para suporte de usuários anônimos'
+title: "Lync Server 2013: Atribuir políticas de confer. p/ suporte de usuários anônimos"
 TOCTitle: Atribuir políticas de conferência para suporte de usuários anônimos
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521007(v=OCS.15)

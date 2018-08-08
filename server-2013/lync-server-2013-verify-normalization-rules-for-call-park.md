@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificar regras de normalização para Estacionamento de Chamadas'
+title: "Lync Server 2013: Verificar regras de normalização p/ Estacionamento de Chamadas"
 TOCTitle: Verificar regras de normalização para Estacionamento de Chamadas
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398981(v=OCS.15)

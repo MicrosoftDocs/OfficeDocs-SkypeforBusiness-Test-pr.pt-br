@@ -1,6 +1,6 @@
 ﻿---
-title: Criando uma configuração de arquivamento para gerenciar o arquivamento de sites ou pools específicos
-TOCTitle: Criando uma configuração de arquivamento para gerenciar o arquivamento de sites ou pools específicos
+title: "Criando uma config. de arq. p/ gerenc. o arq. de sites ou pools específicos"
+TOCTitle: "Criando uma config. de arq. p/ gerenc. o arq. de sites ou pools específicos"
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205251(v=OCS.15)
 ms:contentKeyID: 49308049

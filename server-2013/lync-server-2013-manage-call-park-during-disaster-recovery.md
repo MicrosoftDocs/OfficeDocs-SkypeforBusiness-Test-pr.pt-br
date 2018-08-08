@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciar Estacionamento de Chamadas durante recuperação de desastre'
+title: "Lync Server 2013: Gerenciar Estacionamento de Chamadas durante recup. de desastre"
 TOCTitle: Gerenciar Estacionamento de Chamadas durante recuperação de desastre
 ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688052(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Llista de verificação de implantação para acesso de usuário externo'
+title: "Lync Server 2013: Lista de verif. de implant. p/ acesso de usuário externo"
 TOCTitle: Llista de verificação de implantação para acesso de usuário externo
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425910(v=OCS.15)

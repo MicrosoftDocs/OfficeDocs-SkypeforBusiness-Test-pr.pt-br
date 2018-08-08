@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pool de diretores em escala - balanceamento de carga de DNS e balanceador de carga de hardware'
+title: "Lync Server 2013: Pool de dir. em escala - balanceam. de carga de DNS e hardware"
 TOCTitle: Pool de diretores em escala - balanceamento de carga de DNS e balanceador de carga de hardware
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205142(v=OCS.15)

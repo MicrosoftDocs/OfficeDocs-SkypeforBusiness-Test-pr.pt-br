@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar um número de acesso de conferência discada'
+title: "Lync Server 2013: Criar ou modificar um número de acesso de confer. discada"
 TOCTitle: Criar ou modificar um número de acesso de conferência discada
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398126(v=OCS.15)

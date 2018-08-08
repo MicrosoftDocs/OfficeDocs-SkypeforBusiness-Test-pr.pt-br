@@ -1,6 +1,6 @@
 ﻿---
-title: Pré-requisitos de configuração do recebimento de chamadas em grupo e direitos do usuário
-TOCTitle: Pré-requisitos de configuração do recebimento de chamadas em grupo e direitos do usuário
+title: "Pré-requisitos de config. do recebimento de chamadas em grupo e direitos do usuário"
+TOCTitle: "Pré-requisitos de config. do recebimento de chamadas em grupo e direitos do usuário"
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 52057645

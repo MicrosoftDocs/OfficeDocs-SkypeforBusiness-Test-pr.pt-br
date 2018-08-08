@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar o intervalo de órbita de Estacionamento de Chamadas'
+title: "Lync Server 2013: Criar ou modif. o intervalo de órbita de Estac. de Chamadas"
 TOCTitle: Criar ou modificar o intervalo de órbita de Estacionamento de Chamadas
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398361(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Experiência de Estacionamento de Chamadas durante falha de pool'
+title: "Lync Server 2013: Experiência de Estacionamento de Chamadas durante falha de pool"
 TOCTitle: Experiência de Estacionamento de Chamadas durante falha de pool
 ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205383(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Personalizar a música de espera do estacionamento de chamada no Lync Server 2013
-TOCTitle: Personalizar a música de espera do estacionamento de chamada no Lync Server 2013
+title: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
+TOCTitle: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688031(v=OCS.15)
 ms:contentKeyID: 49886186

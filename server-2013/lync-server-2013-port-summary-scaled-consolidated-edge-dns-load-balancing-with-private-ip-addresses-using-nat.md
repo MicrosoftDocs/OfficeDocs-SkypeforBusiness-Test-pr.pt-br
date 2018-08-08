@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de porta - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT'
+title: ".Res. de porta - b. consol. em esc., balanc. carga de DNS c/ end. IP priv. usando NAT"
 TOCTitle: Resumo de porta - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT
 ms:assetid: a296c2af-54d4-4b4f-9795-9191baf688cb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412756(v=OCS.15)

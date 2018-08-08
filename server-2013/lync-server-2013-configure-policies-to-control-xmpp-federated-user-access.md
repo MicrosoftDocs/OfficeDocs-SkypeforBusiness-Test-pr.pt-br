@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controlar o acesso de usuário federado'
+title: "Lync Server 2013: config. políticas p/ controlar o acesso de usuário federado"
 TOCTitle: Configurar políticas para controlar o acesso de usuário federado
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ552446(v=OCS.15)

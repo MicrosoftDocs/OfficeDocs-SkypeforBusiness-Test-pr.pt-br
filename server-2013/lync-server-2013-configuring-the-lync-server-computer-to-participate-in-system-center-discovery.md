@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando o computador com Lync Server para participar da System Center Discovery
-TOCTitle: Configurando o computador com Lync Server para participar da System Center Discovery
+title: "Configurando o computador com Lync Server p/ participar da System Center Discovery"
+TOCTitle: "Configurando o computador com Lync Server p/ participar da System Center Discovery"
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204776(v=OCS.15)
 ms:contentKeyID: 49306271

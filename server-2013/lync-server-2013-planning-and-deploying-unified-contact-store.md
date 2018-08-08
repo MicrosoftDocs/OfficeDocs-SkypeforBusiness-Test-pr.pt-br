@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planejamento e implantação de repositório unificado de contatos'
+title: "Lync Server 2013: planj. e implant. de repositório unificado de contatos"
 TOCTitle: Planejamento e implantação de repositório unificado de contatos
 ms:assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205283(v=OCS.15)

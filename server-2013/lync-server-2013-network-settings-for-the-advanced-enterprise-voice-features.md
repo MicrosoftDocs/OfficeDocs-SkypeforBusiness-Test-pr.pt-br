@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurações de rede para recursos avançados do Enterprise Voice'
+title: "Lync Server 2013: Config. de rede p/ recursos avançados do Enterprise Voice"
 TOCTitle: Configurações de rede para recursos avançados do Enterprise Voice
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398637(v=OCS.15)

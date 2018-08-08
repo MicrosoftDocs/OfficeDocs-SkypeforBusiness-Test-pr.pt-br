@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Excluir um site ou uma política de usuário para acesso de usuário externo'
+title: "Lync Server 2013: Excluir um site ou uma pol. de usuário p/ acesso de usuário ext."
 TOCTitle: Excluir um site ou uma política de usuário para acesso de usuário externo
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521013(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: DNS summary - Resumo de DNS - borda consolidada em escala com balanceadores de carga de hardware'
+title: "DNS summary - Res. de DNS - borda consol. em esc. com balanc. de carga de hardware"
 TOCTitle: Resumo de DNS - borda consolidada em escala com balanceadores de carga de hardware
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398670(v=OCS.15)

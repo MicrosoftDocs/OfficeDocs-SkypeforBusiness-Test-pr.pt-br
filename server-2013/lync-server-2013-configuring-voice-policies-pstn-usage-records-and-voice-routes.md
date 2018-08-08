@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando políticas de voz, registros de uso de PSTN e rotas de voz'
+title: "Lync Server 2013: Config. pol. de voz, registros de uso de PSTN e rotas de voz"
 TOCTitle: Configurando políticas de voz, registros de uso de PSTN e rotas de voz
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398272(v=OCS.15)

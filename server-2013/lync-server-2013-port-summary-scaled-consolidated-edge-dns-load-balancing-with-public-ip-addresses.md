@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de porta - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos'
+title: ".Res. de porta - Borda consol. em escala, balanc. de carga de DNS com end. IP púb."
 TOCTitle: Resumo de porta - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205394(v=OCS.15)

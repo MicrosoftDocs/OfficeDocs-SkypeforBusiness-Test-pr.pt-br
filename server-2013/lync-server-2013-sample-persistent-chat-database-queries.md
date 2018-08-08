@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Amostragem de consultas de banco de dados de Chat Persistente'
+title: "Lync Server 2013: Amostragem de consultas de banco de dados de Chat Persistente"
 TOCTitle: Amostragem de consultas de banco de dados de Chat Persistente
 ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558649(v=OCS.15)

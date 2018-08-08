@@ -1,6 +1,6 @@
 ﻿---
-title: Habilitar ou desabilitar um aplicativo do servidor de idiomas de processamento SIP da Microsoft (MSPL)
-TOCTitle: Habilitar ou desabilitar um aplicativo do servidor de idiomas de processamento SIP da Microsoft (MSPL)
+title: "Hab./Desab. um app do servidor de idiomas de proc. SIP da Microsoft (MSPL)"
+TOCTitle: "Hab./Desab. um app do servidor de idiomas de proc. SIP da Microsoft (MSPL)"
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182573(v=OCS.15)
 ms:contentKeyID: 49307852

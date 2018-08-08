@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Publicar alterações pendentes na configuração de roteamento de voz'
+title: "Lync Server 2013: Publicar alterações pendentes na config. de roteam. de voz"
 TOCTitle: Publicar alterações pendentes na configuração de roteamento de voz
 ms:assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413088(v=OCS.15)

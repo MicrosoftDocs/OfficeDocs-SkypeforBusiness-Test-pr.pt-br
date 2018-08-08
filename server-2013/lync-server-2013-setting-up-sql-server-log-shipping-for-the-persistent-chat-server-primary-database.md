@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando o envio de logs do SQL Server ao banco de dados primário do servidor de chat persistente'
+title: "Config. envio de logs do SQL Server ao b. de dados prim. do serv. de chat persist."
 TOCTitle: Configurando o envio de logs do SQL Server ao banco de dados primário do servidor de chat persistente
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204653(v=OCS.15)

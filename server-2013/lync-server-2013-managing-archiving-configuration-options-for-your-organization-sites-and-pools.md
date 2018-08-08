@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools
-TOCTitle: Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools
+title: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
+TOCTitle: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 49306384

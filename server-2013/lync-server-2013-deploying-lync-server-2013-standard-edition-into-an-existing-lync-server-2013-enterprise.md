@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente'
+title: "Impl. o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente"
 TOCTitle: Implantando o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398112(v=OCS.15)

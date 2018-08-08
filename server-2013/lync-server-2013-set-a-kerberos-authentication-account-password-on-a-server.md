@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar uma senha da conta de autenticação Kerberos authentication em um servidor'
+title: "Lync Server 2013: Config. uma senha da conta de autent. Kerberos em um servidor"
 TOCTitle: Configurar uma senha da conta de autenticação Kerberos authentication em um servidor
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398734(v=OCS.15)

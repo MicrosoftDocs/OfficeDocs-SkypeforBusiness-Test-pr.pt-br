@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciar configuração da borda de acesso para sua organização'
+title: "Lync Server 2013: Gerenciar config. da borda de acesso p/ sua organização"
 TOCTitle: Gerenciar configuração da borda de acesso para sua organização
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ552443(v=OCS.15)

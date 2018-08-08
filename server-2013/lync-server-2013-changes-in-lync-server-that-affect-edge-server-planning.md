@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Alterações no Lync Server que afetam o planejamento do Servidor de Borda'
+title: "Lync Server 2013: Alterações no Lync Server que afetam o planj. do Serv. de Borda"
 TOCTitle: Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204965(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planejamento para integração de Unificação de Mensagens do Exchange'
+title: "Lync Server 2013: Planej. p/ integração de Unificação de Mensagens do Exchange"
 TOCTitle: Planejamento para integração de Unificação de Mensagens do Exchange
 ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399031(v=OCS.15)

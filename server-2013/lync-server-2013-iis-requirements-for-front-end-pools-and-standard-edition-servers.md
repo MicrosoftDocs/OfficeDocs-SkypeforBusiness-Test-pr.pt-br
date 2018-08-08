@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de IIS para pools Front-End pools e servidores Standard Edition'
+title: "Lync Server 2013: Requisitos de IIS p/ pools Front-End pools e serv. Standard Edition"
 TOCTitle: Requisitos de IIS para pools Front-End pools e servidores Standard Edition
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399038(v=OCS.15)

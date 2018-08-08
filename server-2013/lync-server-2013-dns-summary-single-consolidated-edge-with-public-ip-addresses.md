@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de DNS - Única borda consolidada com endereços IP públicos'
+title: "Lync Server 2013: Res. de DNS - Única borda consol. com end. IP públicos"
 TOCTitle: Resumo de DNS - Única borda consolidada com endereços IP públicos
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205025(v=OCS.15)

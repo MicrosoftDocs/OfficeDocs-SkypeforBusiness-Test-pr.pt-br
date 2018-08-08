@@ -1,6 +1,6 @@
 ﻿---
-title: Instalando os Arquivos de Núcleo de Lync Server 2013 e o Banco de Dados RTCLocal
-TOCTitle: Instalando os Arquivos de Núcleo de Lync Server 2013 e o Banco de Dados RTCLocal
+title: "Instal. os Arquivos de Núcleo de Lync Server 2013 e o Banco de Dados RTCLocal"
+TOCTitle: "Instal. os Arquivos de Núcleo de Lync Server 2013 e o Banco de Dados RTCLocal"
 ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204734(v=OCS.15)
 ms:contentKeyID: 49306116

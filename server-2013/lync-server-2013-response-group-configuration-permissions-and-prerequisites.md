@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Permissões e pré-requisitos de configuração de Grupo de Resposta'
+title: "Lync Server 2013: Permissões e pré-requisitos de config. de Grupo de Resposta"
 TOCTitle: Permissões e pré-requisitos de configuração de Grupo de Resposta
 ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204840(v=OCS.15)

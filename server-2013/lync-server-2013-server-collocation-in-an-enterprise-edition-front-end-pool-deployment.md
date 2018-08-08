@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition'
+title: "Posic. servidor em uma implant. do pool de front-ends do Enterprise Edition"
 TOCTitle: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398102(v=OCS.15)

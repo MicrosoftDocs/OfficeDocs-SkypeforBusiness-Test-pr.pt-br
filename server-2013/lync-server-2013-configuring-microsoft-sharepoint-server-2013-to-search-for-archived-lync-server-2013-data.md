@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando Microsoft SharePoint Server 2013 para buscar dados arquivados no Microsoft Lync Server 2013
-TOCTitle: Configurando Microsoft SharePoint Server 2013 para buscar dados arquivados no Microsoft Lync Server 2013
+title: "Config. M. SharePoint Server 2013 p/ buscar dados arq. no M. Lync Server 2013"
+TOCTitle: "Config. M. SharePoint Server 2013 p/ buscar dados arq. no M. Lync Server 2013"
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ687978(v=OCS.15)
 ms:contentKeyID: 49886116

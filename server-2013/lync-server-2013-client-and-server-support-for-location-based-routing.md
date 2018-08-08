@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Suporte a cliente e servidor para Roteamento Baseado em Local'
+title: "Lync Server 2013: Suporte a cliente e serv. p/ Roteamento Baseado em Local"
 TOCTitle: Suporte a cliente e servidor para Roteamento Baseado em Local
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ994024(v=OCS.15)

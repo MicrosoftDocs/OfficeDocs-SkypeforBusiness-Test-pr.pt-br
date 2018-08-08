@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando locais para fornecedores de serviço de tronco SIP'
+title: "Lync Server 2013: Gerenciando locais p/ fornecedores de serviço de tronco SIP"
 TOCTitle: Gerenciando locais para fornecedores de serviço de tronco SIP
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398959(v=OCS.15)

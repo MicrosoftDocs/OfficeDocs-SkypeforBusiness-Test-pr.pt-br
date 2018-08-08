@@ -1,6 +1,6 @@
 ﻿---
-title: Usando Microsoft SQL Server 2008 R2 como seu banco de dados de System Center Operations Manager
-TOCTitle: Usando Microsoft SQL Server 2008 R2 como seu banco de dados de System Center Operations Manager
+title: "Usando M. SQL Server 2008 R2 como seu b. de dados de System Center Operations Manager"
+TOCTitle: "Usando M. SQL Server 2008 R2 como seu b. de dados de System Center Operations Manager"
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ687969(v=OCS.15)
 ms:contentKeyID: 49886101

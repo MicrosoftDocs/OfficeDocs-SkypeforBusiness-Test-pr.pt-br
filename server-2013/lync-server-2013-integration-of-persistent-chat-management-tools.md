@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Integração de ferramentas de gerenciamento de Chat Persistente'
+title: "Lync Server 2013: Integração de ferramentas de gerenciam. de Chat Persistente"
 TOCTitle: Integração de ferramentas de gerenciamento de Chat Persistente
 ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688057(v=OCS.15)

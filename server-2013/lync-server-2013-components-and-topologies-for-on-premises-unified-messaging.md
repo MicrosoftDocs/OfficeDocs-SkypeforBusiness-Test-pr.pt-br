@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Componentes e topologias para o Sistema de Mensagens Instantâneas local'
+title: "Lync Server 2013: Compon. e topolog. p/ o Sist. de Mensagens Instantâneas local"
 TOCTitle: Componentes e topologias para o Sistema de Mensagens Instantâneas local
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425711(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server'
+title: "Gerenc. Recup. de desastre, alta dispon. e Serviço de Backup do Lync Server"
 TOCTitle: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721939(v=OCS.15)

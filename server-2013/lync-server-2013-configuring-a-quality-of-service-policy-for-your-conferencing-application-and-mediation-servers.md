@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando uma política de Qualidade de Serviço para seus servidores de Conferência, de Aplicativo e de Mediação'
+title: "Config. uma pol. de Qual. de Serv. p/ seus servid. de confer., de App e de Mediação"
 TOCTitle: Configurando uma política de Qualidade de Serviço para seus servidores de Conferência, de Aplicativo e de Mediação
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205076(v=OCS.15)

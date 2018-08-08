@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados'
+title: "Hab./Desab. envio de um aviso de isenção de respons. de Arq. a parceiros federados"
 TOCTitle: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182584(v=OCS.15)

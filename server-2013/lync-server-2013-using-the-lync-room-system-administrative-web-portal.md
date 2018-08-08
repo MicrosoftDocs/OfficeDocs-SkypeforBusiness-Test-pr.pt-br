@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usando o portal administrativo da Web do Sistema de Salas do Lync'
+title: "Lync Server 2013: Usando o portal adm. da Web do Sistema de Salas do Lync"
 TOCTitle: Usando o portal administrativo da Web do Sistema de Salas do Lync
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743660(v=OCS.15)

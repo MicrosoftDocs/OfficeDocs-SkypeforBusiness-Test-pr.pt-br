@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Caminhos de migração de servidor suportado e cenários de coexistência'
+title: "Lync Server 2013: Caminhos de migração de serv. suportado e cenários de coexistência"
 TOCTitle: Caminhos de migração de servidor suportado e cenários de coexistência
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425764(v=OCS.15)

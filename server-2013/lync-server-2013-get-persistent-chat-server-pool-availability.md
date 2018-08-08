@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Obter disponibilidade do pool do Servidor de Chat Persistente'
+title: "Lync Server 2013: Obter dispon. do pool do Servidor de Chat Persistente"
 TOCTitle: Obter disponibilidade do pool do Servidor de Chat Persistente
 ms:assetid: 61668ff9-1962-47e0-ac9f-a1272acf5372
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204950(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End'
+title: "Lync Server 2013: Implant. espelhamento SQL p/ alta dispon. de Serv. Back-End"
 TOCTitle: Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204992(v=OCS.15)
