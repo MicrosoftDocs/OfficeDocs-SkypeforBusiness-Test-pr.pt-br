@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir e configurar um pool Front-End ou um servidor Standard Edition'
+title: "Lync Server 2013: Def. e config. um pool Front-End ou serv.r Standard Edition"
 TOCTitle: Definir e configurar um pool Front-End ou um servidor Standard Edition
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398538(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de DNS - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos'
+title: "Res. de DNS - Borda consol. em escala, balanc. de carga de DNS com end. IP públicos"
 TOCTitle: Resumo de DNS - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205319(v=OCS.15)

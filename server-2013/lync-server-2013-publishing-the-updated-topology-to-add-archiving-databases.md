@@ -1,6 +1,6 @@
 ﻿---
-title: Publicando a topologia atualizada para adicionar ao arquivamento de bancos de dados
-TOCTitle: Publicando a topologia atualizada para adicionar ao arquivamento de bancos de dados
+title: "Publicando a topologia atualizada p/ adicionar ao arquivamento de bancos de dados"
+TOCTitle: "Publicando a topologia atualizada p/ adicionar ao arquivamento de bancos de dados"
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204860(v=OCS.15)
 ms:contentKeyID: 49306557

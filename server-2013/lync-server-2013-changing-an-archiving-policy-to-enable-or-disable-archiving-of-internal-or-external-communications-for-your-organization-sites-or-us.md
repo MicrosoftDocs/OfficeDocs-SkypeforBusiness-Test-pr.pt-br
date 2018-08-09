@@ -1,6 +1,6 @@
 ﻿---
-title: Mudar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para sua Empresa, Sites ou Usuários
-TOCTitle: Mudar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para sua Empresa, Sites ou Usuários
+title: "Mudar Pol. de Arquiv. p/ Hab./Desab. Arq. de Comunic. Int./Ext. p/ Emp., Sites ou Us."
+TOCTitle: "Mudar Pol. de Arquiv. p/ Hab./Desab. Arq. de Comunic. Int./Ext. p/ Emp., Sites ou Us."
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182576(v=OCS.15)
 ms:contentKeyID: 49307905

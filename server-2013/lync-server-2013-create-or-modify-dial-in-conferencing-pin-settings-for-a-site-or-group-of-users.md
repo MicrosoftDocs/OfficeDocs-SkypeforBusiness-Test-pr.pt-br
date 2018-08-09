@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários'
+title: "Lync Server 2013: Criar/modif, config, PIN de conf, disc. p/ site ou g. usuários"
 TOCTitle: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412959(v=OCS.15)

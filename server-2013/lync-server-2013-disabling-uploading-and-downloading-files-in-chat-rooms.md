@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Desabilitando o carregamento e o download de arquivos em salas de chat'
+title: "Lync Server 2013: Desab. carregamento e download de arquivos em salas de chat"
 TOCTitle: Desabilitando o carregamento e o download de arquivos em salas de chat
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215882(v=OCS.15)

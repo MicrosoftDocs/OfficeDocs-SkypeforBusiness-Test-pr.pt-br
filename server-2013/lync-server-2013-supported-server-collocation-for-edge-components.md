@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Colocação em conjunto de servidor suportado para componentes de borda'
+title: "Lync Server 2013: Coloc. em conjunto de servidor suportado para compon. de borda"
 TOCTitle: Colocação em conjunto de servidor suportado para componentes de borda
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425934(v=OCS.15)

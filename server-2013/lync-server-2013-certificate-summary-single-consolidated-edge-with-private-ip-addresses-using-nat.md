@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - única borda consolidada com endereços IP privados usando NAT'
+title: "Lync Server 2013: Res. de certif. - única borda cons.a com end.s IP priv. usando NAT"
 TOCTitle: Resumo de certificado - única borda consolidada com endereços IP privados usando NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398519(v=OCS.15)

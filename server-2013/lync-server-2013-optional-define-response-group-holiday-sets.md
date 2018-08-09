@@ -1,6 +1,6 @@
 ﻿---
-title: (Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
-TOCTitle: (Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
+title: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
+TOCTitle: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49886226

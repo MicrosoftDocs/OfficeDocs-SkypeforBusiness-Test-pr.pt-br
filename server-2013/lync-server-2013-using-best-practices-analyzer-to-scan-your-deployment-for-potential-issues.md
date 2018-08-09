@@ -1,6 +1,6 @@
 ﻿---
-title: Usando o analisador de práticas recomendadas para buscar possíveis problemas em sua implantação
-TOCTitle: Usando o analisador de práticas recomendadas para buscar possíveis problemas em sua implantação
+title: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
+TOCTitle: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591343(v=OCS.15)
 ms:contentKeyID: 49305824

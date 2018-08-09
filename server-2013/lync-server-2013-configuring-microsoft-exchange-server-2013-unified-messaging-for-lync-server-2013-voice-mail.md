@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando Unified Messaging do Microsoft Exchange Server 2013 para caixa postal de Microsoft Lync Server 2013
-TOCTitle: Configurando Unified Messaging do Microsoft Exchange Server 2013 para caixa postal de Microsoft Lync Server 2013
+title: "Config. Unified Messaging do M. Exc. Server 2013 p/ cx postal de M. Lync Server 2013"
+TOCTitle: "Config. Unified Messaging do M. Exc. Server 2013 p/ cx postal de M. Lync Server 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49886121

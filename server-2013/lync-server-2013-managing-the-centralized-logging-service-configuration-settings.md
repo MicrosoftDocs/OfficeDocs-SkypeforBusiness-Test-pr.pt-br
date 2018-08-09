@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando as configurações do serviço de registro em log centralizado usando PowerShell
-TOCTitle: Gerenciando as configurações do serviço de registro em log centralizado usando PowerShell
+title: "Gerenciando as config. do serviço de registro em log centralizado usando PowerShell"
+TOCTitle: "Gerenciando as config. do serviço de registro em log centralizado usando PowerShell"
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49886482

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de certificado para o servidor de Chat Persistente'
+title: "Lync Server 2013: Requisitos de cert. p/ o serv. de Chat Persistente"
 TOCTitle: Requisitos de certificado para o servidor de Chat Persistente
 ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412990(v=OCS.15)

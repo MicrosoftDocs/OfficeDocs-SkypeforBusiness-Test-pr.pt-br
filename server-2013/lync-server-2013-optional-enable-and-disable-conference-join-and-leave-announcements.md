@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Habilitar e desabilitar comunicados de ingresso e saída de conferência'
+title: "Lync Server 2013: (Opc.) Hab. e desab. comunic. de ingresso e saída de confer."
 TOCTitle: (Opcional) Habilitar e desabilitar comunicados de ingresso e saída de conferência
 ms:assetid: c9529568-e66c-48d8-aef2-9072f9c336ff
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398834(v=OCS.15)

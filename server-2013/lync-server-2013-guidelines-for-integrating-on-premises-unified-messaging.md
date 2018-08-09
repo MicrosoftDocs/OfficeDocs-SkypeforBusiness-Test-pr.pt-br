@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Orientações para integração de Unificação de Mensagens local e Lync Server'
+title: "Lync Server 2013: Orient. p/ integr. de Unif. de Mensagens local e Lync Server"
 TOCTitle: Orientações para integração de Unificação de Mensagens local e Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398656(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando seu ambiente do Lync Server 2013 para Porta da Web Administrativo do Sistema de Sala do Lync'
+title: "Config. seu amb. do Lync Server 2013 p/ Porta da Web Adm. do Sit. de Sala do Lync"
 TOCTitle: Configurando seu ambiente do Lync Server 2013 para Porta da Web Administrativo do Sistema de Sala do Lync
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn436325(v=OCS.15)

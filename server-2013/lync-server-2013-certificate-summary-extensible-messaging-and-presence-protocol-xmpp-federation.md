@@ -1,6 +1,6 @@
 ﻿---
-title: Resumo de Certificado - Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP)
-TOCTitle: Resumo de Certificado - Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP)
+title: "Res. de Certificado - Mensagens Extensíveis e Federação de Prot. de Presença (XMPP)"
+TOCTitle: "Res. de Certificado - Mensagens Extensíveis e Federação de Prot. de Presença (XMPP)"
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ618374(v=OCS.15)
 ms:contentKeyID: 49307831

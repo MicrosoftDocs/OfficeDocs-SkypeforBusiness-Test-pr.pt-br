@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controle de acesso de usuário remoto'
+title: "Lync Server 2013: config. políticas p/ controle de acesso de usuário remoto"
 TOCTitle: Configurar políticas para controle de acesso de usuário remoto
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398725(v=OCS.15)

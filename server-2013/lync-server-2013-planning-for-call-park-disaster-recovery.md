@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planejamento para recuperação de desastre de Estacionamento de Chamada'
+title: "Lync Server 2013: Planej. p/ recup. de desastre de Estacionamento de Chamada"
 TOCTitle: Planejamento para recuperação de desastre de Estacionamento de Chamada
 ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205395(v=OCS.15)

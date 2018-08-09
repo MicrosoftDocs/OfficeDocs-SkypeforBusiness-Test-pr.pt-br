@@ -1,6 +1,6 @@
 ﻿---
-title: Cria um novo conjunto de definições de configuração de tronco no Lync Server 2013
-TOCTitle: Cria um novo conjunto de definições de configuração de tronco no Lync Server 2013
+title: "Cria um novo conjunto de definições de config. de tronco no Lync Server 2013"
+TOCTitle: "Cria um novo conjunto de definições de config. de tronco no Lync Server 2013"
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688054(v=OCS.15)
 ms:contentKeyID: 49886200

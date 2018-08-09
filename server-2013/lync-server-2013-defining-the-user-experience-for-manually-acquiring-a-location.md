@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo a experiência do usuário para aquisição manual de local'
+title: "Lync Server 2013: Definindo a exper. do usuário p/ aquisição manual de local"
 TOCTitle: Definindo a experiência do usuário para aquisição manual de local
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398912(v=OCS.15)

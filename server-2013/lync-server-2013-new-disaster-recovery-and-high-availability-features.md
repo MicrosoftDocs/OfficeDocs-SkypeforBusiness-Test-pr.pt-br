@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Novos recursos de recuperação de desastre e alta disponibilidade'
+title: "Lync Server 2013: Novos recursos de recuperação de desastre e alta dispon."
 TOCTitle: Novos recursos de recuperação de desastre e alta disponibilidade
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204892(v=OCS.15)

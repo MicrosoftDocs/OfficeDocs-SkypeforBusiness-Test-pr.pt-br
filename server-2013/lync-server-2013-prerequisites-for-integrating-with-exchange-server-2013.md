@@ -1,6 +1,6 @@
 ﻿---
-title: Pré-requisitos para integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
-TOCTitle: Pré-requisitos para integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
+title: "Pré-requisitos p/ integrar M. Lync Server 2013 e M. Exchange Server 2013"
+TOCTitle: "Pré-requisitos p/ integrar M. Lync Server 2013 e M. Exchange Server 2013"
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721919(v=OCS.15)
 ms:contentKeyID: 49886463

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando um Aplicativo de Parceiro no Local para Microsoft Lync Server 2013
-TOCTitle: Configurando um Aplicativo de Parceiro no Local para Microsoft Lync Server 2013
+title: "Configurando um Aplicativo de Parceiro no Local p/ Microsoft Lync Server 2013"
+TOCTitle: "Configurando um Aplicativo de Parceiro no Local p/ Microsoft Lync Server 2013"
 ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204975(v=OCS.15)
 ms:contentKeyID: 49306992

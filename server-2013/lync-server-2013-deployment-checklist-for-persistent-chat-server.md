@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de verificação de implantação para o Servidor de Chat Persistente'
+title: "Lync Server 2013: Lista de verif. de implant. p/ Servidor de Chat Persistente"
 TOCTitle: Lista de verificação de implantação para o Servidor de Chat Persistente
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412851(v=OCS.15)

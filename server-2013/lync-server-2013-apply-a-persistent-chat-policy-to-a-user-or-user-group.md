@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aplicar uma política de Chat Persistente a um usuário ou grupo de usuários'
+title: "Lync Server 2013: Aplicar uma polít. de Chat Persist. a um usuário ou gr. de usuários"
 TOCTitle: Aplicar uma política de Chat Persistente a um usuário ou grupo de usuários
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205038(v=OCS.15)

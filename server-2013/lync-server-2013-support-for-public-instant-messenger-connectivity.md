@@ -1,6 +1,6 @@
 ﻿---
-title: Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013
-TOCTitle: Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013
+title: "Suporte p/ conectiv. a redes públicas de m. instantâneas no Lync Server 2013"
+TOCTitle: "Suporte p/ conectiv. a redes públicas de m. instantâneas no Lync Server 2013"
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn458579(v=OCS.15)
 ms:contentKeyID: 59602783

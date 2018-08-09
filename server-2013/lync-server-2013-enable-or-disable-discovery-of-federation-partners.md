@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar ou desabilitar descoberta de parceiros de federação'
+title: "Lync Server 2013: Habilitar ou desabilitar descoberta de parceiros de federação"
 TOCTitle: Habilitar ou desabilitar descoberta de parceiros de federação
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182550(v=OCS.15)

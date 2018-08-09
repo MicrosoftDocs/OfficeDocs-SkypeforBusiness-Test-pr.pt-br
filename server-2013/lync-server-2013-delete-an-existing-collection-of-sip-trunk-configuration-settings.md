@@ -1,6 +1,6 @@
 ﻿---
-title: Excluir um conjunto existente das configurações do Tronco SIP no Lync Server 2013
-TOCTitle: Excluir um conjunto existente das configurações do Tronco SIP no Lync Server 2013
+title: "Excluir um conjunto existente das config. do Tronco SIP no Lync Server 2013"
+TOCTitle: "Excluir um conjunto existente das config. do Tronco SIP no Lync Server 2013"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49886179

@@ -1,6 +1,6 @@
 ﻿---
-title: Usando o analisador de práticas recomendadas para identificar possíveis problemas em sua implantação
-TOCTitle: Usando o analisador de práticas recomendadas para identificar possíveis problemas em sua implantação
+title: "Usando o analis. de práticas recom. p/ identificar possíveis prob. em sua implant."
+TOCTitle: "Usando o analis. de práticas recom. p/ identificar possíveis prob. em sua implant."
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591342(v=OCS.15)
 ms:contentKeyID: 49305810

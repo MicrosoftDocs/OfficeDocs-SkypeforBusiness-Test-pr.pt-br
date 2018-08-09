@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server'
+title: "Lync Server 2013: Instal. banco de dados usando Shell de Gerenc. do Lync Server"
 TOCTitle: Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398832(v=OCS.15)

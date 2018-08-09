@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Recursos e funcionalidades de servidores front-end, mensagens instantâneas e presença'
+title: "Recursos e funcionalidades de servidores front-end, mensagens instantâneas e presença"
 TOCTitle: Recursos e funcionalidades de servidores front-end, mensagens instantâneas e presença
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398109(v=OCS.15)

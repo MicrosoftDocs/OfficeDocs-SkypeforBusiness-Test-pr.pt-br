@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware'
+title: "Res. de cert. - Borda consol. em escala com balanc. de carga de hardware"
 TOCTitle: Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398692(v=OCS.15)

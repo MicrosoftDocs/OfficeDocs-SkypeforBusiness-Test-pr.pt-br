@@ -1,6 +1,6 @@
 ﻿---
-title: Configurar um serviço de informações de localização secundário no Lync Server 2013
-TOCTitle: Configurar um serviço de informações de localização secundário no Lync Server 2013
+title: "config. um serviço de informações de localização secundário no Lync Server 2013"
+TOCTitle: "config. um serviço de informações de localização secundário no Lync Server 2013"
 ms:assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398138(v=OCS.15)
 ms:contentKeyID: 49305798

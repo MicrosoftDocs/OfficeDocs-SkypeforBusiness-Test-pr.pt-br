@@ -1,6 +1,6 @@
 ﻿---
-title: Usar o “Ligue para mim no” com um telefone habilitado para Lync e Lync Server 2013
-TOCTitle: Usar o “Ligue para mim no” com um telefone habilitado para Lync e Lync Server 2013
+title: "Usar o “Ligue p/ mim no” com um telefone habilitado p/ Lync e Lync Server 2013"
+TOCTitle: "Usar o “Ligue p/ mim no” com um telefone habilitado p/ Lync e Lync Server 2013"
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56558974

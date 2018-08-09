@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Sumário de porta - única borda consolidada com endereços IP públicos'
+title: "Lync Server 2013: Sumário de porta - única borda consol. com end. IP públicos"
 TOCTitle: Sumário de porta - única borda consolidada com endereços IP públicos
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204756(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Criar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para Sites ou Usuários Específicos
-TOCTitle: Criar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para Sites ou Usuários Específicos
+title: "Criar Pol. Arq. p/ hab,/desab. Arq. de Comun. Int./Ext. p/ Sites ou Usuários Específ."
+TOCTitle: "Criar Pol. Arq. p/ hab,/desab. Arq. de Comun. Int./Ext. p/ Sites ou Usuários Específ."
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 49306780

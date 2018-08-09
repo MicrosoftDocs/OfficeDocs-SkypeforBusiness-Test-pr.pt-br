@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Fornecendo caixa postal a usuários do Lync Server no Exchange UM hospedado'
+title: "Lync Server 2013: Fornecendo cx postal a usuários do Lync Server no Exchange UM hosp."
 TOCTitle: Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425807(v=OCS.15)

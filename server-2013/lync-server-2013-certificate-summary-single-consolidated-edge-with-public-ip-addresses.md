@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - Única borda consolidada com endereços IP públicos'
+title: "Lync Server 2013: Res. de cert. - Única borda consol. com end. IP públicos"
 TOCTitle: Resumo de certificado - Única borda consolidada com endereços IP públicos
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204747(v=OCS.15)

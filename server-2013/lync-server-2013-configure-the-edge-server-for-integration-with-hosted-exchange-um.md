@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar Servidor de Borda para integração com o Exchange UM hospedado'
+title: "Config. Servidor de Borda p/ integração com o Exchange UM hospedado"
 TOCTitle: Configurar Servidor de Borda para integração com o Exchange UM hospedado
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399075(v=OCS.15)

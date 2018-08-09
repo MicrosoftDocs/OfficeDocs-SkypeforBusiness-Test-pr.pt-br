@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de DNS - única borda consolidada com endereços IP privados usando NAT'
+title: "Lync Server 2013: Res. de DNS - única borda consol. com end. IP privados usando NAT"
 TOCTitle: Resumo de DNS - única borda consolidada com endereços IP privados usando NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412787(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificar ou configurar autenticação e certificação nos diretórios virtuais de IIS'
+title: "Lync Server 2013: Verificar ou config. autent. e cert. nos diret. Virt. de IIS"
 TOCTitle: Verificar ou configurar autenticação e certificação nos diretórios virtuais de IIS
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429702(v=OCS.15)

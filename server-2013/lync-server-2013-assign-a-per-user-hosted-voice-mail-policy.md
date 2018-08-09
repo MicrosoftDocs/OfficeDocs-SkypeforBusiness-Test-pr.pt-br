@@ -1,6 +1,6 @@
 ﻿---
-title: Atribuir uma política de caixa postal hospedada por usuário no Lync Server 2013
-TOCTitle: Atribuir uma política de caixa postal hospedada por usuário no Lync Server 2013
+title: "Atr. uma política de caixa postal hospedada por usuário no Lync Server 2013"
+TOCTitle: "Atr. uma política de caixa postal hospedada por usuário no Lync Server 2013"
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398919(v=OCS.15)
 ms:contentKeyID: 49308227

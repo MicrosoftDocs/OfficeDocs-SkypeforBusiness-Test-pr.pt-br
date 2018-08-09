@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Posicionamento do servidor em uma implantação do servidor Standard Edition'
+title: "Lync Server 2013: Posic. do servidor em uma implantação do Standard Edition"
 TOCTitle: Posicionamento do servidor em uma implantação do servidor Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398131(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT'
+title: "Res. de certif. - borda consol. em esc., balanc .carga DNS c/ end. IP priv.usando NAT"
 TOCTitle: Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT
 ms:assetid: 41677dbd-3d07-498a-8591-df255b606647
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425921(v=OCS.15)

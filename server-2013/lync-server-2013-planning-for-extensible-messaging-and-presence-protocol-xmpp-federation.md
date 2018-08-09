@@ -1,6 +1,6 @@
 ﻿---
-title: Planejamento para Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP) no Lync Server 2013
-TOCTitle: Planejamento para Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP) no Lync Server 2013
+title: "Planj. p/ Mens. Extensíveis e Fed. de Protoc. de Presença (XMPP) no Lync Server 2013"
+TOCTitle: "Planj. p/ Mens. Extensíveis e Fed. de Protoc. de Presença (XMPP) no Lync Server 2013"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 49307499

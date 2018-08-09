@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pool de diretores em escala - balanceador de carga de hardware'
+title: "Lync Server 2013: Pool de diretores em escala - balanceador de carga de hardware"
 TOCTitle: Pool de diretores em escala - balanceador de carga de hardware
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205316(v=OCS.15)

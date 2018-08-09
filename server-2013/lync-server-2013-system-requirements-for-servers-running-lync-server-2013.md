@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de sistema para servidores executando Lync Server 2013'
+title: "Lync Server 2013: Requisitos de sistema p/ serv. executando Lync Server 2013"
 TOCTitle: Requisitos de sistema para servidores executando Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398588(v=OCS.15)

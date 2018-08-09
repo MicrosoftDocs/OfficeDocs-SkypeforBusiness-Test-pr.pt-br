@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pré-requisitos de Estacionamento de Chamadas e direitos de usuário'
+title: "Lync Server 2013: Pré-requisitos de Estac. de Chamadas e direitos de usuário"
 TOCTitle: Pré-requisitos de Estacionamento de Chamadas e direitos de usuário
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425730(v=OCS.15)

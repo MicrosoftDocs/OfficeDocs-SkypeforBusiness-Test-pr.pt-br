@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada'
+title: "Config. pol. de voz e regist. de uso de PSTN p/ autorizar recursos e priv. de ch."
 TOCTitle: Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398450(v=OCS.15)

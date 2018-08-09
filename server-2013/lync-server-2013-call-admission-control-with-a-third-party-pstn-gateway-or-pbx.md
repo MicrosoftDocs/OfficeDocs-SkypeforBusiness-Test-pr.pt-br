@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Controle de admissão de chamada com um gateway de PSTN de terceiros ou PBX'
+title: "Lync Server 2013: Cont. de admissão de ch. com um gateway de PSTN de terceiros ou PBX"
 TOCTitle: Controle de admissão de chamada com um gateway de PSTN de terceiros ou PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398762(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Criar ou modificar um conjunto de definições de configuração da versão do cliente
-TOCTitle: Criar ou modificar um conjunto de definições de configuração da versão do cliente
+title: "Criar ou modificar um conjunto de definições de config. da versão do cliente"
+TOCTitle: "Criar ou modificar um conjunto de definições de config. da versão do cliente"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 52057627

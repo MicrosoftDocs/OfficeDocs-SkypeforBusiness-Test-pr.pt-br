@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs'
+title: "Config. do Em. de Logs do Serv. SQL entre esp. prim. e b. dados sec. de Envio de Logs"
 TOCTitle: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204887(v=OCS.15)

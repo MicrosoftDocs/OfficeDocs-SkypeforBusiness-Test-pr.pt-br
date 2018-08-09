@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando Exchange UM no local para fornecer correio de voz do Lync Server 2013'
+title: "Implant. Exchange UM no local p/ fornecer c. de voz do Lync Server 2013"
 TOCTitle: Implantando Exchange UM no local para fornecer correio de voz do Lync Server 2013
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398768(v=OCS.15)

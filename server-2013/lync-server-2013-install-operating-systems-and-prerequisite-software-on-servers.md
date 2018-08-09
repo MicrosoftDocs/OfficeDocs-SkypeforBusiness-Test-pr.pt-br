@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalar sistemas operacionais e software de pré-requisito nos servidores'
+title: "Lync Server 2013: Inst. Sist. Op. e software de pré-requisito nos servidores"
 TOCTitle: Instalar sistemas operacionais e software de pré-requisito nos servidores
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398103(v=OCS.15)

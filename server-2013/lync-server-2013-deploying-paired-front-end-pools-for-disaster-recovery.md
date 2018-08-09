@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando pools Front-End emparelhados para recuperação de desastre'
+title: "Lync Server 2013: Implant. pools Front-End emparelh. p/ recup. de desastre"
 TOCTitle: Implantando pools Front-End emparelhados para recuperação de desastre
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204773(v=OCS.15)

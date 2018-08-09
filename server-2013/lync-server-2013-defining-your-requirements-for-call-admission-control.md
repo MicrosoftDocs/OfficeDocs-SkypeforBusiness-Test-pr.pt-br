@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo seus requisitos de controle de admissão de chamadas'
+title: "Lync Server 2013: Definindo seus requisitos de controle de admissão de chamadas"
 TOCTitle: Definindo os requisitos de controle de admissão de chamadas de sua organização
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398334(v=OCS.15)

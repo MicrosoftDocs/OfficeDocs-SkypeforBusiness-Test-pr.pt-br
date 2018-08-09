@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de verificação de implantação para controle de admissão de chamada'
+title: "Lync Server 2013: Lista de verif.de implant. p/ controle de admissão de chamada"
 TOCTitle: Lista de verificação de implantação para controle de admissão de chamada
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398631(v=OCS.15)

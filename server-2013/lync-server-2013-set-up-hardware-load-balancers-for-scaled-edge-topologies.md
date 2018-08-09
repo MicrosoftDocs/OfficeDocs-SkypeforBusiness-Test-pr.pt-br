@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar balanceadores de carga de hardware para topologias de borda em escala'
+title: "Config. balanc. de carga de hardware p/ topologias de borda em escala"
 TOCTitle: Configurar balanceadores de carga de hardware para topologias de borda em escala
 ms:assetid: 77b4dd64-5eff-4b67-a441-2adaa22a0fd9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398586(v=OCS.15)

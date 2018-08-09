@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exportar sua topologia e copiá-la na mídia externa para instalação de borda'
+title: "Lync Server 2013: Exp. topologia e copiá-la na mídia ext. p/ instal. de borda"
 TOCTitle: Exportar sua topologia e copiá-la na mídia externa para instalação de borda
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398983(v=OCS.15)

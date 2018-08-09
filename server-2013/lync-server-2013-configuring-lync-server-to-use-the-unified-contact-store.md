@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando Microsoft Lync Server 2013 para usar o repositório de contato unificado
-TOCTitle: Configurando Microsoft Lync Server 2013 para usar o repositório de contato unificado
+title: "Configurando Microsoft Lync Server 2013 p/ usar o repositório de contato unificado"
+TOCTitle: "Configurando Microsoft Lync Server 2013 p/ usar o repositório de contato unificado"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49886251

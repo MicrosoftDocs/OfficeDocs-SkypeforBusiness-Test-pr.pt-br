@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Herança de permissões está desabilitado em computadores, usuários ou contêiners InetOrgPerson'
+title: "Lync Server 2013: Her. de perm. está desab. em comp., usuários ou cont. InetOrgPerson"
 TOCTitle: Herança de permissões está desabilitado em computadores, usuários ou contêiners InetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412970(v=OCS.15)

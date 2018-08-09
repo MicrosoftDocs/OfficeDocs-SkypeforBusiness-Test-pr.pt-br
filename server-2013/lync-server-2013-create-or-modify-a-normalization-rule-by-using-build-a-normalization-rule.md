@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar uma regra de normalização usando a Regra Construir uma Normalização'
+title: "Criar/modif. regra de normalização usando a Regra Construir uma Normalização"
 TOCTitle: Criar ou modificar uma regra de normalização usando a Regra Construir uma Normalização
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399036(v=OCS.15)

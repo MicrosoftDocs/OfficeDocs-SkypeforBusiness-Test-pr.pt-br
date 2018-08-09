@@ -1,6 +1,6 @@
 ﻿---
-title: Atualizar um servidor Back End ou um servidor edição Standard no Lync Server 2013
-TOCTitle: Atualizar um servidor Back End ou um servidor edição Standard no Lync Server 2013
+title: "Atualizar um serv. Back End ou um serv. edição Standard no Lync Server 2013"
+TOCTitle: "Atualizar um serv. Back End ou um serv. edição Standard no Lync Server 2013"
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721942(v=OCS.15)
 ms:contentKeyID: 49886490

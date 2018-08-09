@@ -1,6 +1,6 @@
 ﻿---
-title: Marcar um aplicativo de idioma de processamento SIP da Microsoft (MSPL) como crítico ou não crítico
-TOCTitle: Marcar um aplicativo de idioma de processamento SIP da Microsoft (MSPL) como crítico ou não crítico
+title: "Marcar app de idioma de proc. SIP da Microsoft (MSPL) como crítico/não crítico"
+TOCTitle: "Marcar app de idioma de proc. SIP da Microsoft (MSPL) como crítico/não crítico"
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182598(v=OCS.15)
 ms:contentKeyID: 49308356

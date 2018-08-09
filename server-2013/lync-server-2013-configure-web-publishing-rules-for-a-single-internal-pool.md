@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar regras de publicação na Web para um único pool interno'
+title: "Lync Server 2013: config. regras de publicação na Web p/ um único pool interno"
 TOCTitle: Configurar regras de publicação na Web para um único pool interno
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429712(v=OCS.15)

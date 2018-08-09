@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definir e configurar uma topologia no Construtor de Topologia'
+title: "Lync Server 2013: Definir e config. uma topologia no Construtor de Topologia"
 TOCTitle: Definir e configurar uma topologia no Construtor de Topologia
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398788(v=OCS.15)

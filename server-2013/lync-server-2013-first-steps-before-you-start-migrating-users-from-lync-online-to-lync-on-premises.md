@@ -1,6 +1,6 @@
 ﻿---
-title: Primeiros passos antes de iniciar a migração de usuários do Lync Online para o Lync no local
-TOCTitle: Primeiros passos antes de iniciar a migração de usuários do Lync Online para o Lync no local
+title: "Primeiros passos antes de inic. a migr. de usuários do Lync Online p/ o Lync no local"
+TOCTitle: "Primeiros passos antes de inic. a migr. de usuários do Lync Online p/ o Lync no local"
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62247359

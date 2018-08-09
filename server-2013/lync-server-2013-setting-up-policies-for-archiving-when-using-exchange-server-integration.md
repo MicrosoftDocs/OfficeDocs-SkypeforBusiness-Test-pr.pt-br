@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server
-TOCTitle: Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server
+title: "Config. Políticas p/ Arquivamento quando Usando Integração do Exchange Server"
+TOCTitle: "Config. Políticas p/ Arquivamento quando Usando Integração do Exchange Server"
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205063(v=OCS.15)
 ms:contentKeyID: 49307382

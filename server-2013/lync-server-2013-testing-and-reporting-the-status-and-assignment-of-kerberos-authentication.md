@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Testando e relatando status e atribuição de autenticação Kerberos'
+title: "Lync Server 2013: Testando e relatando status e atrib. de autent. Kerberos"
 TOCTitle: Testando e relatando status e atribuição de autenticação Kerberos
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398683(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo seus requisitos para Servidores Front-End Servers, sistema de mensagens instantâneas e presença'
+title: "Def. req. p/ Serv.es Front-End Servers, sistema de mensagens instantâneas e presença"
 TOCTitle: Definindo seus requisitos para Servidores Front-End Servers, sistema de mensagens instantâneas e presença
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412956(v=OCS.15)

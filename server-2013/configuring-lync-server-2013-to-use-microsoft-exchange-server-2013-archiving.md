@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando o Microsoft Lync Server 2013 para usar arquivamento do Microsoft Exchange Server 2013
-TOCTitle: Configurando o Microsoft Lync Server 2013 para usar arquivamento do Microsoft Exchange Server 2013
+title: "Config. o Microsoft Lync Server 2013 p/ usar arq. do M. Exchange Server 2013"
+TOCTitle: "Config. o Microsoft Lync Server 2013 p/ usar arq. do M. Exchange Server 2013"
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ679896(v=OCS.15)
 ms:contentKeyID: 49886140

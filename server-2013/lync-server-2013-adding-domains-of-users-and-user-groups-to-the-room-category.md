@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Adicionando domínios de usuários e grupos de usuários à categoria da sala'
+title: "Lync Server 2013: Adic. domínios de usuários e grupos de usuários à categoria da sala"
 TOCTitle: Adicionando domínios de usuários e grupos de usuários à categoria da sala
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215884(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Publicando o servidor do Office Web Apps usando um servidor de proxy reverso'
+title: "Lync Server 2013: Publ. o serv. do Office Web Apps usando um serv. de proxy reverso"
 TOCTitle: Publicando o servidor do Office Web Apps usando um servidor de proxy reverso
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204665(v=OCS.15)

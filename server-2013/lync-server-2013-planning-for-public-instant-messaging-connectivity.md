@@ -1,6 +1,6 @@
 ﻿---
-title: Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013
-TOCTitle: Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013
+title: "Planj. p/ conect. p/ redes públicas de m. instantâneas no Lync Server 2013"
+TOCTitle: "Planj. p/ conect. p/ redes públicas de m. instantâneas no Lync Server 2013"
 ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205349(v=OCS.15)
 ms:contentKeyID: 49308438

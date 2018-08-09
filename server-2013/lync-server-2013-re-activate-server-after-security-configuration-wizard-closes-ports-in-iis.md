@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Re-ativar servidor após o Assistente de Configuração de Segurança fechar portas no IIS'
+title: "Lync Server 2013: Reativ. serv. após o Assist. de config. de Seg. fechar portas no IIS"
 TOCTitle: Re-ativar servidor após o Assistente de Configuração de Segurança fechar portas no IIS
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398851(v=OCS.15)

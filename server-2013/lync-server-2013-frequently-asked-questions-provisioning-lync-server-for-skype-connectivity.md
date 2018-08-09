@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
+title: "Lync Server 2013: Perguntas Frequentes: Config. Lync Server p/ conectiv. com Skype"
 TOCTitle: 'Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn440172(v=OCS.15)

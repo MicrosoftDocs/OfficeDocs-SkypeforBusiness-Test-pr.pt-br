@@ -1,6 +1,6 @@
 ﻿---
-title: Excluir configurações de PIN de conferência discada para um local ou grupo de usuários
-TOCTitle: Excluir configurações de PIN de conferência discada para um local ou grupo de usuários
+title: "Excluir configurações de PIN de confer. discada p/ um local ou grupo de usuários"
+TOCTitle: "Excluir configurações de PIN de confer. discada p/ um local ou grupo de usuários"
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 49305984

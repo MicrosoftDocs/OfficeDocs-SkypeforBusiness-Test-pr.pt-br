@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos técnicos para Servidores Front-End, sistema de mensagens instantâneas e presença'
+title: "Lync Server 2013: Req. técnicos p/ Serv. Front-End, sist. de m. instant. e presença"
 TOCTitle: Requisitos técnicos para Servidores Front-End, sistema de mensagens instantâneas e presença
 ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398269(v=OCS.15)

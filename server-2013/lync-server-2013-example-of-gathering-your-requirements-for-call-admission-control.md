@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exemplo de coleta de seus requisitos para controle de admissão de chamada'
+title: "Lync Server 2013: Ex.de coleta de seus req. p/ cont. de admissão de chamada"
 TOCTitle: 'Exemplo: Coletando seus requisitos para controle de admissão de chamada'
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425827(v=OCS.15)

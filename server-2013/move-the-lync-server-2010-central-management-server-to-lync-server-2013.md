@@ -1,6 +1,6 @@
 ﻿---
-title: Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013
-TOCTitle: Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013
+title: "Mover o Serv. de Gerenc. Central do Lync Server 2010 p/ o Lync Server 2013"
+TOCTitle: "Mover o Serv. de Gerenc. Central do Lync Server 2010 p/ o Lync Server 2013"
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688013(v=OCS.15)
 ms:contentKeyID: 49886161

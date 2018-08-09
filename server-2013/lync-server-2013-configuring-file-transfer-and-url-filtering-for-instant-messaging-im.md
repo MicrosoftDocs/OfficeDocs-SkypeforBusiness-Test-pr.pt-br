@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando a filtragem de transferência de arquivo e URL para mensagens instantâneas (IM) no Lync Server 2013
-TOCTitle: Configurando a filtragem de transferência de arquivo e URL para mensagens instantâneas (IM) no Lync Server 2013
+title: "Config. a filtr. de transf. de arq. e URL para m. instant. no Lync Server 2013"
+TOCTitle: "Config. a filtr. de transf. de arq. e URL para m. instant. no Lync Server 2013"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 49305925

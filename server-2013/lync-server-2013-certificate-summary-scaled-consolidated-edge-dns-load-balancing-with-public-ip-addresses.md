@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - Borda consolidade em escala, balanceamento de carga de DNS com endereços IP públicos'
+title: ".Res. de cert. - Borda cons. em esc., balanc. de carga de DNS com end. IP púb."
 TOCTitle: Resumo de certificado - Borda consolidade em escala, balanceamento de carga de DNS com endereços IP públicos
 ms:assetid: e87ac448-ee8f-477a-9f33-ce066c1bf093
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205399(v=OCS.15)

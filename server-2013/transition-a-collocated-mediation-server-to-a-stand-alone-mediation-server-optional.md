@@ -1,6 +1,6 @@
 ﻿---
-title: Transição de um Servidor de Mediação colocado em conjunto com um Servidor de Mediação autônomo (opcional)
-TOCTitle: Transição de um Servidor de Mediação colocado em conjunto com um Servidor de Mediação autônomo (opcional)
+title: "Transição de Serv. de Mediação colocado em conj. c/ Serv. de Mediação autônomo (opc.)"
+TOCTitle: "Transição de Serv. de Mediação colocado em conj. c/ Serv. de Mediação autônomo (opc.)"
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205026(v=OCS.15)
 ms:contentKeyID: 49307225

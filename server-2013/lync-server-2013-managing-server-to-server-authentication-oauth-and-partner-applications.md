@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013
-TOCTitle: Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013
+title: "Ger. autent. serv. p/ servidor (Oauth) e inscr. de parc. no Lync Server 2013"
+TOCTitle: "Ger. autent. serv. p/ servidor (Oauth) e inscr. de parc. no Lync Server 2013"
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 49306394

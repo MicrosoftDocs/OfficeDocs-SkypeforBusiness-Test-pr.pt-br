@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissções do usuário'
+title: "Hab. usuário p/ gerenc. categorias, salas de chat e direitos e perm. do usuário"
 TOCTitle: Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissções do usuário
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215876(v=OCS.15)

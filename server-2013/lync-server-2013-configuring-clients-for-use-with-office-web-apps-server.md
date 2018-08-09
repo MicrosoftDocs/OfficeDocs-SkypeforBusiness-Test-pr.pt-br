@@ -1,5 +1,5 @@
 ﻿---
-title: Configurando Clientes do Lync Server 2013 para Uso com o Servidor Office Web Apps
+title: "Config. Clientes do Lync Server 2013 p/ Uso com o Servidor Office Web Apps"
 TOCTitle: Configurando Clientes para Uso com o Servidor Office Web Apps
 ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205339(v=OCS.15)
