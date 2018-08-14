@@ -49,6 +49,7 @@ O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar 
     
     > [!NOTE]  
     > Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você deseja salvar os resultados da pesquisa em um arquivo, use –OutputFilePath <em>&lt;caminho do arquivo totalmente qualificado da sequência&gt;</em>. Para definir o parâmetro –OutputFilePath, ofereça um caminho e um nome de arquivo como parte do parâmetro em um formato de sequência entre aspas (por exemplo; C:\LogFiles\SearchOutput.txt). Neste exemplo, você deve garantir que o diretório C:\LogFiles exista e que você possui permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado e não é substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa.    
+    
     Por exemplo:
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
