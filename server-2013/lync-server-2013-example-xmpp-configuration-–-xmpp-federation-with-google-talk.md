@@ -100,7 +100,5 @@ Start-CsWindowsService
     
 ```
 New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAccess $true -EnablePublicCloudAccess $true
-```
-```
 Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
 ```
