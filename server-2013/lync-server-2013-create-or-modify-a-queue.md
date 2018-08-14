@@ -115,6 +115,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
     > [!NOTE]  
     > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
+
     Por exemplo:
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
@@ -136,6 +137,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
     > [!NOTE]  
     > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
+
     Por exemplo:
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
