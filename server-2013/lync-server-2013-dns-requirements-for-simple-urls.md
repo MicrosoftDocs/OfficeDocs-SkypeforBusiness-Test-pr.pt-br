@@ -162,9 +162,7 @@ Você pode definir a mesma configuração para a URL simples Dial-In. Para isso,
 Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir o monitoramento de HTTP para rastrear as falhas. Para acesso externo, monitore para ter certeza de que as solicitações de autodetecção HTTPS GET para o FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools sejam bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
 
 ```
-    HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
-```
-```    
+    HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root 
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
