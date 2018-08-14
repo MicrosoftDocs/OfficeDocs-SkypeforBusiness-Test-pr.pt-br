@@ -142,7 +142,7 @@ Se o valor padrão de UseNormalizationRules for definido como Falso, de forma qu
     
       - Se sua implantação incluir uma combinação de Lync Server 2013 e Lync Server 2010 ou Office Communications Server 2007 R2, execute o cmdlet a seguir e atribua-o a cada pool do Lync Server 2013 na topologia:
         
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Espere para que a replicação de CMS ocorra em todos os pools.
 
