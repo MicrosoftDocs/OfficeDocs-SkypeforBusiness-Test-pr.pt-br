@@ -58,6 +58,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
     
     > [!IMPORTANT]  
     > Para um Pool de borda, você deve ter todos os certificados AudioVideoAuthentication implantados e provisionados pela data e hora definida pelo parâmetro –EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções das comunicações A/V devido ao vencimento do certificado mais antigo antes que todos os tokens dos clientes e consumidores sejam renovados usando o novo certificado.    
+    
     O comando Set-CsCertificate com o parâmetro –Roll e –EffectiveTime:
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
