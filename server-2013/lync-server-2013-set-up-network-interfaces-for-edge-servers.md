@@ -17,8 +17,9 @@ _**Tópico modificado em:** 2012-09-08_
 
 Cada Servidor de Borda é um computador multihomed com interfaces externas e internas. As configurações de DNS do adaptador dependem da existência de servidores DNS na rede de perímetro. Se houver servidores DNS no perímetro, eles deverão ter uma zona contendo um ou mais registros A DNS para o servidor ou pool de próximo salto (ou seja, um Diretor ou um pool de Front-Ends designado) e, para consultas externas, eles farão referência a pesquisas de nome para outros servidores DNS públicos. Se não houver servidores DNS no perímetro, os Servidores de Borda usarão servidores DNS externos para resolver pesquisas de nome da Internet, e cada Servidor de Borda usará um HOST para resolver os nomes de servidor de próximo salto para endereços IP.
 
-> [!security]  
-> Por motivos de segurança, recomendamos que seus Servidores de Borda não acessem um servidor DNS localizado na rede interna.
+<table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+					Por motivos de segurança, recomendamos que seus Servidores de Borda não acessem um servidor DNS localizado na rede interna.
+				</td></tr></tbody></table>
 
 ## Para configurar interfaces com os servidores DNS na rede de perímetro
 
