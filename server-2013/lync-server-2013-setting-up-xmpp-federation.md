@@ -104,9 +104,9 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
     ```    
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
     ```
-    ```
+    
     Habilite o acesso XMPP para usuários externos digitando:
-    ```
+    
     ```    
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
     ```
