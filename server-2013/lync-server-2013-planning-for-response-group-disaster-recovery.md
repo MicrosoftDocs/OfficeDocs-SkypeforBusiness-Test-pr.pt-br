@@ -107,7 +107,7 @@ Para detalhes sobre executar estas etapas, consulte [Procedimento de recuperaç�
 
 > [!IMPORTANT]  
 > Caso não use nenhum dos parâmetros -ShowAll ou -Owner, os grupos de resposta que você importou ao pool de backup não serão listados nos resultados retornados pelos cmdlets.
-<
+
 <p>Execute os cmdlets a seguir:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
