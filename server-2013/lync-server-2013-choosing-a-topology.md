@@ -98,19 +98,33 @@ Cenários de failover de borda suportados com Balanceamento de Borda DNS são se
 
 **\*** Failover para conectividade de mensagem instantânea (IM) pública e federação com servidores executando o Office Communications Server não está disponível com balanceamento de carga DNS. Failover do UM do Exchange (usuário remoto) usando balanceamento de carga DNS exige o Exchange Server 2010 SP1 ou mais recente.
 
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><br />As topologias de Borda única e Borda escalonável (balanceamento de carga DNS) podem usar:<ul><li><p>Endereço IP público roteável</p></li><li><p>Endereço IP privado não roteável se a tradução de endereço de rede (NAT) simétrica for usada</p>
+
 > [!NOTE]  
 > As topologias de Borda única e Borda escalonável (balanceamento de carga DNS) podem usar:
-> 
+
 > <ul><li><p>Endereço IP público roteável</p></li>
 > <li><p>Endereço IP privado não roteável se a tradução de endereço de rede (NAT) simétrica for usada</p></li></ul>
->   
+
 > Se você usar endereço IP público ou privado com NAT, você ainda usará o mesmo número de endereços IP baseados na sua opção de configuração no Construtor de Topologias. Você pode configurar o Servidor de Borda para usar um único endereço IP com portas distintas por serviço ou usar endereços IP distintos por serviço, mas use a mesma porta (por padrão, TCP 443).
-> 
+
 > Se você decidir usar endereços IP privados não roteáveis com NAT:
-> 
+
 > <ul><li><p>Você deve usar endereços IP privados roteáveis em todas as três interfaces externas</p></li>
 > <li><p>Você deve configurar NAT simétrico para tráfego de entrada e saída</p></li></ul>
->
+
 > Topologia de borda escalonável (balanceamento de carga de hardware) deve usar endereços IP públicos.
 
 

@@ -124,8 +124,9 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     
       - Para remover uma regra de conversão do tronco, destaque o nome da regra e clique em **Remover**.
     
-    > [!security]  
-    > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+    <table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+								Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+							</td></tr></tbody></table>
 
 16. (Opcional) Associe e configure as **regras de conversão de números chamados** do tronco. As regras de conversão se aplicam ao número chamado em uma chamada de saída.
     
@@ -140,8 +141,9 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
       - Para remover uma regra de conversão do tronco, destaque o nome da regra e clique em **Remover**.
     
 
-    > [!WARNING]  
-    > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+<table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+								Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+							</td></tr></tbody></table>
 
 
 

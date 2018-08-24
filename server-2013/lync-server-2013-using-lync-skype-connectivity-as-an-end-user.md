@@ -69,7 +69,7 @@ Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype
     
     ![Cliente do Lync que mostra como adicionar um contato do Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Cliente do Lync que mostra como adicionar um contato do Skype")
 
-3.  No campo **Endereços IM** , insira a Conta da Microsoft (MSA) do usuário Skype no formato **usuário(nome do domínio)@msn.com**. Portanto, para o usuário bob@contoso.com, o valor inserido será **bob(contoso.com)@msn.com**, como mostrado abaixo.
+3.  No campo **Endereços IM** , insira a Conta da Microsoft (MSA) do usuário Skype no formato **usuário(nome do domínio)@msn.com** . Portanto, para o usuário bob@contoso.com, o valor inserido será **bob(contoso.com)@msn.com** , como mostrado abaixo.
     
     ![Configurações de Novo Contato de cliente do Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Configurações de Novo Contato de cliente do Lync")
 
@@ -77,7 +77,7 @@ Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype
 
 5.  Na lista suspensa **Configurar Relação de Privacidade**, selecione as configurações de contato apropriadas e clique em **OK**.
 
-6.  Um usuário Lync também pode usar o campo **Encontrar alguém ou uma sala ou discar um número** no Lync, e adicionar um endereço de email semelhante a **usuário(nome de domínio)@msn.com**. Portanto, para a conta da Microsoft bob@contoso.com, o valor de entrada será **bob(contoso.com)@msn.com**, como mostrado abaixo.
+6.  Um usuário Lync também pode usar o campo **Encontrar alguém ou uma sala ou discar um número** no Lync, e adicionar um endereço de email semelhante a **usuário(nome de domínio)@msn.com**. Portanto, para a conta da Microsoft bob@contoso.com, o valor de entrada será **bob(contoso.com)@msn.com** , como mostrado abaixo.
     
     ![Procurando um contato no cliente do Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Procurando um contato no cliente do Lync")
 

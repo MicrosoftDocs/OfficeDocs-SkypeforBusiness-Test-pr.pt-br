@@ -125,11 +125,8 @@ Use os procedimentos a seguir para criar regras de publicação da Web.
 
 11. Clique no nome do farm de servidores. Em **Farm de servidores** na Visualização de Recursos do Gerenciador de IIS, clique duas vezes em **Regras de roteamento**. Na caixa de diálogo Regras de roteamento abaixo de Roteamento, desmarque a caixa de seleção próxima a Habilitar descarregamento de SSL. Se o recurso para desmarcar a caixa de seleção não estiver disponível, selecione a caixa de seleção para **Use Reescrita de URL para inspecionar as solicitações de entrada**. Clique em **Aplicar** para salvar suas alterações.
     
-
-    > [!WARNING]    
+    > [!CAUTION]
     > Descarregamento de SSL por proxy reverso não tem suporte.
-
-
 
 12. Repita os passos de 5 a 11 de cada URL que deverá passar pelo proxy reverso, uma lista comum seria:
     
