@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando serviços e funções de servidor do Lync Server 2013'
+title: "Lync Server 2013: Gerenciando serviços e funções de serv. do Lync Server 2013"
 TOCTitle: Gerenciando serviços e funções de servidor do Lync Server 2013
 ms:assetid: 4c316b2b-9445-49bd-868d-9b537d29b327
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688053(v=OCS.15)

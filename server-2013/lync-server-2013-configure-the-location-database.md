@@ -25,7 +25,7 @@ Para configurar o banco de dados local, você executará as seguintes tarefas:
 
 3.  Publicar o banco de dados atualizado.
 
-> [!note]  
+> [!NOTE]  
 > Como alternativa, você pode definir um banco de dados de origem do local secundário, que pode ser usado em vez do banco de dados local. Para obter detalhes, consulte <a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configurar um serviço de informações de localização secundário no Lync Server 2013</a>.
 
 ## Nesta seção

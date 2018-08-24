@@ -1,6 +1,6 @@
 ﻿---
-title: Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas
-TOCTitle: Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas
+title: "Exibir e trabalhar com relat. gerados pelo Analisador de Práticas Recomendadas"
+TOCTitle: "Exibir e trabalhar com relat. gerados pelo Analisador de Práticas Recomendadas"
 ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg607689(v=OCS.15)
 ms:contentKeyID: 49306782

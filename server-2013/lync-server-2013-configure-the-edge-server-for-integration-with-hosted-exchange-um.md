@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar Servidor de Borda para integração com o Exchange UM hospedado'
+title: "Config. Servidor de Borda p/ integração com o Exchange UM hospedado"
 TOCTitle: Configurar Servidor de Borda para integração com o Exchange UM hospedado
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399075(v=OCS.15)
@@ -29,7 +29,7 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-> [!important]  
+> [!IMPORTANT]  
 > É necessário criar um registro DNS SRV para o serviço Exchange de hospedagem antes de você executar essas etapas. Para obter detalhes, consulte <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Criar um registro DNS SRV para integração com Exchange UM hospedado</a>.
 
 ## Para configurar o Servidor de Borda para federação
@@ -68,7 +68,7 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
     
       - **EnabledSharedAddressSpace** indica se o provedor de hospedagem está sendo usado em um cenário de espaço de endereço SIP compartilhado (domínio dividido).
         
-        > [!note]  
+        > [!NOTE]  
         > Antes de definir <code>EnableSharedAddressSpace</code> como True, tente resolver o registro SRV de Federação internamente. Se esse registro não puder ser resolvido internamente, você precisará criar os registros, _sipfederationtls._tcp.&lt;domain&gt; e _sip._tls.&lt;domain&gt; no DNS interno. Esses registros devem apontar para o endereço IP externo da Interface de Acesso do Servidor de Borda.    
       - **HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar contas do Lync Server 2013. Se estiver definido como **Falso** , o provedor hospedará outros tipos de conta, como contas do Microsoft Exchange.
     

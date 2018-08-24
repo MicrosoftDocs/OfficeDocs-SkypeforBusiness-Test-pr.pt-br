@@ -19,7 +19,7 @@ Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o te
 
 Você usa o Ferramenta de Configuração de Grupo de Resposta para criar fluxos de trabalho. Você pode acessar o Ferramenta de Configuração de Grupo de Resposta na página Grupo de Resposta do Painel de Controle do Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza.
 
 ## Nesta seção

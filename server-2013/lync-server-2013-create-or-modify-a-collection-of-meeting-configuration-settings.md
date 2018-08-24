@@ -49,7 +49,7 @@ _**Tópico modificado em:** 2013-02-23_
     
       - Para personalizar o logotipo exibido no convite da reunião, em **URL do logotipo**, insira o local do logotipo.
         
-        > [!note]  
+        > [!NOTE]  
         > O logotipo deve ser uma imagem GIF ou JPG com um tamanho de 188 por 30 pixels.    
       - Para personalizar o texto de ajuda exibido no convite da reunião, na **URL de ajuda**, insira o local do texto de ajuda.
     

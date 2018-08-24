@@ -33,5 +33,5 @@ Além disso, se sua implantação incluir dispositivos analógicos, é necessár
 
 Para aprender como configurar um gateway analógico, consulte "Planejando a implantação de dispositivos analógicos" em [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) na Biblioteca TechNet do Lync Server 2010. (Os dispositivos analógicos funcionam no Lync Server 2013 da mesma maneira que no Lync Server 2010.)
 
-> [!important]  
+> [!IMPORTANT]  
 > É possível configurar o comutador para o Enhanced 9-1-1 (E9-1-1), se o comutador suportar isso.

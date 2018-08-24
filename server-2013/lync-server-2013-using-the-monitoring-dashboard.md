@@ -142,7 +142,7 @@ Principais servidores ruins com porcentagem de chamada de baixa qualidade
 Conforme observado, os totais padrões são mostrados para a semana atual e os valores de tendência são mostrados para as últimas seis semanas. Se você prefere ver os totais para o mês atual (assim como os valores de tendência para os últimos seis meses), clique no link **Exibição mensal** no canto superior direito do painel. Se você decidir exibir os totais mensais, o texto do link irá mudar para **Exibição semanal**. É possível voltar para a exibição semanal clicando neste link.
 
 
-> [!TIP]
+> [!TIP]  
 > O Painel de Monitoramento restringe a exibição dos totais para a semana atual (ou mês) e os valores de tendência das últimas seis semanas (ou meses). Não é possível alterar estas datas e horas. Por exemplo, não é possível usar o Painel para exibir os totais do relatório par ao período de tempo começando nove meses atrás.
 
 
@@ -150,7 +150,7 @@ Conforme observado, os totais padrões são mostrados para a semana atual e os v
 Os valores mostrados nas colunas **Esta semana**, **Este mês** ou **Hoje** vinculam você à informações mais detalhadas sobre o item. Lembre-se de que o nome da coluna e os valores exibidos nesta coluna frequentemente são diferentes dependendo da métrica escolhida e dependendo se você selecionou exibição semanal ou mensal. Por exemplo, se você clicar nos totais exibidos para a métrica **Logins de usuário exclusivo**, você verá o **Relatório de registro do usuário** para o período de tempo especificado. É possível retornar para o Painel de Monitoramento a qualquer momento clicando em **Painel**.
 
 
-> [!TIP]
+> [!TIP]  
 > Também é possível acessar a página inicial dos Relatórios do Servidor de Monitoramento clicando no link <STRONG>Relatórios</STRONG> no canto superior da página do Painel.
 
 

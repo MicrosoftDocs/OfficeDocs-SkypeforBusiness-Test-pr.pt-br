@@ -44,7 +44,6 @@ Use as etapas no seguinte procedimento para preparar e executar a recuperação 
     > Se não substituir as configurações no pool de backup e não for possível recuperar o pool principal, então as configurações do pool principal serão perdidas. Para obter detalhes, consulte <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planejamento para recuperação de desastre de grupos de resposta no Lync Server 2013</A>.
 
 
-
 4.  Verifique se a importação ocorreu exibindo os grupos de resposta importados. Os grupos de resposta importados ainda são de propriedade do pool principal. Faça o seguinte:
     
       - Visualize todos os fluxos de trabalho no pool de backup que são de propriedade do pool principal e verifique se todos os fluxos de trabalho do pool principal estão incluídos. Na linha de comando, digite:
@@ -91,7 +90,7 @@ Use as etapas no seguinte procedimento para preparar e executar a recuperação 
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Você deve usar o parâmetro –ShowAll ou –Owner. Se não usar nenhum deles, os grupos de resposta importados para o pool de backup não serão listados nos resultados retornados pelos cmdlets.
 
 5.  Verifique se a importação teve êxito fazendo uma chamada para um grupo de resposta importado e verificando se a chamada foi manipulada corretamente.
@@ -100,7 +99,7 @@ Use as etapas no seguinte procedimento para preparar e executar a recuperação 
 
 7.  Gerencie e modifique os grupos de resposta importados normalmente.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Enquanto os grupos de respostas estão no pool de backup, é necessário usar o Shell de Gerenciamento do Lync Server para gerenciá-los Não é possível usar o Painel de Controle do Lync Server para gerenciar os grupos de resposta importados para o pool de backup.
 
 8.  Depois que o pool principal é restaurado e o failback for concluído, exporte os grupos de resposta de pool principal que foram importados para o pool de backup. Na linha de comando, digite:
@@ -115,7 +114,7 @@ Use as etapas no seguinte procedimento para preparar e executar a recuperação 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    > [!note]  
+    > [!NOTE]  
     > Se reconstruir um pool durante a recuperação, com o mesmo nome de domínio qualificado (FQDN) ou um diferente, será necessário usar o parâmetro –OverwriteOwner. Como regra, você sempre pode usar o parâmetro –OverwriteOwner ao importar grupos de resposta para o pool primário.    
     
 Se você implantou um novo pool (como um FQDN igual ou diferente) para substituir o pool principal e deseja usar as configurações de nível de aplicativo do pool de backup para o novo pool, inclua o parâmetro –ReplaceExistingSettings. Na linha de comando, digite:
@@ -126,7 +125,7 @@ Se você implantou um novo pool (como um FQDN igual ou diferente) para substitui
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se não deseja substituir as configurações de nível de aplicativo e o arquivo de música de espera padrão do novo pool pelas configurações do pool de backup, então o novo pool usará as configurações de aplicativo padrão.
 
 10. Verifique se a importação para o pool principal teve êxito exibindo a configuração do grupo de resposta importado. Faça o seguinte:
@@ -181,5 +180,5 @@ Se você implantou um novo pool (como um FQDN igual ou diferente) para substitui
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    > [!note]  
+    > [!NOTE]  
     > Esta etapa crie um novo arquivo com a configuração exportada e o remove do pool de backup.

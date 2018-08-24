@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando registro de detalhes de chamada e definições de qualidade de experiência
-TOCTitle: Configurando registro de detalhes de chamada e definições de qualidade de experiência
+title: "Configurando registro de detalhes de chamada e definições de qualidade de experiência"
+TOCTitle: "Configurando registro de detalhes de chamada e definições de qualidade de experiência"
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204621(v=OCS.15)
 ms:contentKeyID: 49305665

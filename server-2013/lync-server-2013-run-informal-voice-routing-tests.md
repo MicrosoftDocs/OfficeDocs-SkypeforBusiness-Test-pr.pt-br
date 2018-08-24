@@ -72,7 +72,7 @@ _**Tópico modificado em:** 2012-08-07_
 
 11. Clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que você criar um caso de teste de roteamento de voz, deverá executar o comando <strong>Confirmar tudo</strong> para publicar o caso de teste. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação Operações.
 
 ## Consulte Também

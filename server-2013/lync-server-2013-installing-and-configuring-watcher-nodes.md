@@ -138,12 +138,12 @@ As transações sintéticas disponíveis para os nós do inspetor incluem as seg
 
 Não é necessário instalar nós do inspetor para usar o System Center Operations Manager. Se você não instalar esses nós, ainda poderá obter alertas em tempo real de componentes do Lync Server 2013 quando ocorrer um problema (o Pacote de Gerenciamento de Componentes e Usuários não usa nós do inspetor). No entanto, os nós do inspetor serão necessários se você desejar monitorar cenários completos usando o pacote de Gerenciamento de Monitoramento Ativo.
 
-> [!note]  
+> [!NOTE]  
 > Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os diversos cmdlets Test-Cs, consulte o <a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Índice de cmdlets do Lync Server 2013</a>.
 
 Dependendo do porte de sua implantação, as transações sintéticas podem consumir uma grande quantidade de memória e tempo de processamento do computador. Por esse motivo, é recomendável usar um computador dedicado como nó do inspetor. Por exemplo, você não deve configurar um Servidor Front-End para atuar como um nó do inspetor. Os nós do inspetor devem atender aos mesmos requisitos de hardware básicos de qualquer outro computador que desempenha alguma função em seu Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Um nó do inspetor do Microsoft Lync Server 2010 herdado não pode ser colocado na mesma máquina em que há um nó do inspetor do Lync Server 2013. Isso ocorre porque os arquivos de sistema básicos do Lync Server 2010 e do Lync Server 2013 não podem estar instalados no mesmo computador.<br />No entanto, os nós do inspetor do Lync Server 2013 podem monitorar simultaneamente o Lync Server 2013 e o Lync Server 2010. As duas versões do produto oferecem suporte a transações sintéticas padrão.
 
 Os nós do inspetor do Lync Server 2013 podem ser implantados dentro ou fora de uma empresa para ajudar a verificar:

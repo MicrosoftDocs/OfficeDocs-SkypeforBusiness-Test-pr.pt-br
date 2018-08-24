@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools
-TOCTitle: Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools
+title: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
+TOCTitle: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 49306384
@@ -23,7 +23,7 @@ No Painel de Controle do Lync Server 2013, use as configuração de arquivamento
 
 As configurações de arquivamento são definidas inicialmente quando o arquivamento é implantado, mas é possível alterar, adicionar e excluir configurações depois da implantação. No Painel de Controle do Lync Server 2013, é possível usar a página **Configuração de Arquivamento** do grupo **Arquivamento e Monitoramento** para gerenciar as configuração no nível global, no nível do site e no nível do pool. Para obter detalhes sobre como as configurações de arquivamento são implantadas, inclusive as opções que podem ser especificadas, e sobre a hierarquia das configurações de arquivamento, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) nas documentações de planejamento, implantação e operações.
 
-> [!note]  
+> [!NOTE]  
 > Para usar o arquivamento, é preciso configurar as políticas de arquivamento que especificarão se o arquivamento será habilitado para comunicações internas, externas ou ambas para todos os usuários hospedados no Lync Server 2013. Por padrão, o arquivamento não é habilitado para comunicações internas ou externas. Se usar a integração com o Microsoft Exchange, habilite e configure o Exchange 2013 para que dê suporte a todos os usuários hospedados no Exchange 2013, cujas caixas de correio foram postas em Bloqueio In-loco.<br />Antes de habilitar o arquivamento, é preciso especificar as configurações de arquivamento apropriadas para sua implantação e, como opção, para sites e pool específicos, como descrito nesta seção. Para obter detalhes sobre a habilitação do arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a> na documentação de implantação.
 
 **Para exibir as informações de configuração de arquivamento usando os cmdlets do Shell de Gerenciamento do Lync Server**

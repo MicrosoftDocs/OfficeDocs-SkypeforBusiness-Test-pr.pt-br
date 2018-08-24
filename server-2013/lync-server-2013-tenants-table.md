@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 A tabela Tenants é uma tabela de suporte que armazena uma lista de vários locatários. Cada registro na tabela representa um locatário.
 
-> [!note]  
+> [!NOTE]  
 > Na implantação no local, o CDR usa o ID de Inquilino integrado para indicar um tipo de autenticação diferente, como conectividade de IM pública, Federada e Anônima.
 
 

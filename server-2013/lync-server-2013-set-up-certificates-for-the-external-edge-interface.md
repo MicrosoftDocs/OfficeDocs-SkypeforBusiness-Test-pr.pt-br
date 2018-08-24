@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2016-12-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Ao executar o Assistente de Certificado, certifique-se de que você está conectado usando uma conta que seja membro de um grupo ao qual tenham sido atribuídas as permissões apropriadas para o tipo de modelo de certificado que será utilizado. Por padrão, uma solicitação de certificado do Lync Server utilizará o modelo de certificado do Servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.
 
 Cada Servidor de Borda requer um certificado público na interface entre a rede de perímetro e a Internet, e o nome alternativo da entidade do certificado deve conter nomes externos do serviço de Borda de Acesso e FQDNs (nomes de domínio totalmente qualificado) do serviço de Borda de Webconferência.
@@ -48,7 +48,7 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
 
 1.  No Servidor de Borda, no Assistente de Implantação, próximo a **Etapa 3: Solicitar, instalar ou atribuir certificados**, clique em **Executar novamente**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se sua organização desejar oferecer suporte à conectividade pública de mensagens instantâneas com o AOL, você não pode usar o Assistente de Implantação do Lync Server para solicitar o certificado. Em vez disso, execute as etapas no procedimento &quot;Para criar uma solicitação de certificado para a interface externa do Servidor de Borda para oferecer suporte à conectividade pública de IM com o AOL&quot; posteriormente neste tópico.<br />    Se você tiver vários Servidores de Borda em um único local de um pool, poderá executar o Assistente de Certificados do Lync Server 2013 em qualquer um dos Servidores de Borda.
 
 2.  Na página **Tarefas de Certificado Disponíveis**, clique em **Criar uma nova solicitação de certificado**.
@@ -103,7 +103,7 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
     
     O nome do certificado padrão do modelo fornecido no Lync Server 2013 é Servidor Web. Somente especifique o *\<nome do modelo\>* quando precisar usar um modelo diferente do padrão.
     
-    > [!note]  
+    > [!NOTE]  
     > Se sua organização desejar oferecer suporte à conectividade a redes públicas de IM com o AOL, você deverá usar o Windows PowerShell em vez do Assistente de Certificados para solicitar o certificado a ser atribuído à borda externa do Serviço de Borda de Acesso. Isso ocorre porque o modelo de Servidor Web do Lync Server 2013 usado pelo Assistente de Certificados para solicitar um certificado não oferece suporte à configuração de EKU de cliente. Antes de usar o Windows PowerShell para criar o certificado, o administrador da CA deverá criar e implantar um novo modelo que oferece suporte a EKU de cliente.
 
 ## Para enviar uma solicitação a uma autoridade de certificação pública
@@ -156,14 +156,14 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
 
 6.  Clique duas vezes em **Certificados (Computador Local)** para expandir os repositórios de certificados, clique duas vezes em **Pessoais** e em **Certificados**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se não houver certificados no repositório Certificados Pessoais para o computador local, não existe chave privada associada ao certificado importado. Analise a solicitação e as etapas de importação. Se o problemas persistir, entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
 7.  No **Repositório de Certificados Pessoais do computador local**, clique com o botão direito do mouse no certificado que você está exportando, clique em **Todas as Tarefas** e em **Exportar**.
 
 8.  No Assistente para Exportação de Certificados, clique em **Avançar**, selecione **Sim, exportar a chave privada** e clique em **Avançar**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se a opção <strong>Sim, exportar a chave privada</strong> não estiver disponível, a chave privada associada a este certificado não foi marcada para exportação. Será necessário solicitar o certificado novamente, garantindo que esteja marcado para permitir a exportação da chave privada antes de dar continuidade à exportação. Entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
 9.  Na caixa de diálogo Exportar Formatos de Arquivo, selecione **Troca de Informações Pessoais - PKCS\#12 (.PFX)** e selecione:
@@ -173,7 +173,7 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
       - Exportar todas as propriedades avançadas
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > Ao exportar o certificado de um servidor de Borda, não selecione <STRONG>Excluir a chave privada se a exportação tiver êxito</STRONG>. Selecionar esta opção exigirá a importação do certificado e da chave privada para este Servidor de Borda.
 
 
@@ -202,7 +202,7 @@ Se você decidir usar o MMC (Console de Gerenciamento Microsoft) de Certificados
 
 5.  Na página **Repositório de Certificados**, selecione o certificado público que você solicitou e importou para a interface externa do Servidor de Borda.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o certificado solicitado e importado não estiver na lista, um dos métodos de solução de problemas é verificar se o nome da entidade e os nomes alternativos da entidade do certificado atendem a todos os requisitos do certificado. Se você importou manualmente o certificado e a cadeia de certificados em vez de usar os procedimentos anteriores, verifique se o certificado está no repositório de certificados correto (o repositório de certificados do computador, não o repositório de certificados do usuário ou serviço).
 
 6.  Na página **Resumo da Atribuição de Certificado**, analise suas configurações e clique em **Avançar** para atribuir os certificados.

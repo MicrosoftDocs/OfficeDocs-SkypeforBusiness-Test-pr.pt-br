@@ -27,7 +27,7 @@ Sites de rede são escritórios ou locais configurados dentro de cada região de
 
 4.  Na página **Local**, clique no local que deseja excluir.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <strong>Selecionar Tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.
@@ -35,7 +35,7 @@ Sites de rede são escritórios ou locais configurados dentro de cada região de
 6.  Clique em **OK**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.
 
 

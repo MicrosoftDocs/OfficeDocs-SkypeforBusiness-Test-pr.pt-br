@@ -47,5 +47,5 @@ Você pode usar o cmdlet **Get-CsKerberosAccountAssignment** para consultar info
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        > [!note]  
+        > [!NOTE]  
         > Especificar * SiteName para o parâmetro Filter retorna as informações sobre todos os sites que contêm o nome do site especificado em qualquer lugar no identificador de site (por exemplo, todos os sites que contêm a cadeia de caracteres Redmond no identificador de site).

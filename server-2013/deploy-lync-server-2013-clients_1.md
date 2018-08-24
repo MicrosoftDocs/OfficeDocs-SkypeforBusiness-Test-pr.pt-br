@@ -27,5 +27,5 @@ Após migrar os usuários para o Lync Server 2013, faça o seguinte:
 
 5.  (Opcional) Se a sua organização exigir o modo de privacidade de presença avançado do Lync Server 2013, após concluir a migração, defina uma Regra de política da versão do usuário para impedir que versões anteriores do cliente entrem. Em seguida, habilite o modo de privacidade de presença avançado.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Não habilite o modo de privacidade de presença avançado do Lync 2013 até que cada usuário em um determinado pool do servidor tenha as versões mais recentes do cliente instaladas.

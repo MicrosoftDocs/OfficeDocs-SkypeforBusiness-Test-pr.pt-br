@@ -23,12 +23,12 @@ A decisão sobre usar as listas de nomes alternativos de entidade em proxies rev
 
   - **Publicado na porta 443**   A lista de nomes alternativos de entidade em certificados usados pela regra de serviços de publicação da Web externa deve conter uma entrada *lyncdiscover.\<sipdomain\>* para cada domínio SIP dentro da organização.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Nos recomendamos fortemente usar HTTPS em vez de HTTP. O HTTPS usa certificados para criptografar dados. O HTTP não fornece criptografia e qualquer dado enviado será em texto simples.
 
 A reemissão de certificados usando uma autoridade de certificado interna geralmente é um processo simples, mas, para os certificados públicos usados na regra de publicação do serviço da Web, adicionar várias entradas de nomes alternativos de assunto pode se tornar caro. Para contornar esse problema, damos suporte à conexão inicial da descoberta automática na porta 80, que é redirecionada, então, à porta 8080 no Diretor ou Servidor Front-End.
 
-> [!note]  
+> [!NOTE]  
 > Se a infra-estrutura do Lync Server 2013 usa certificados internos que são emitidos por uma CA (autoridade de certificação interna) e você planeja oferecer suporte a dispositivos móveis com conexão sem fio, a cadeia do certificado raiz da autoridade de certificação interna deve ser instalada nos dispositivos móveis ou você deve alterar para um certificado público na infra-estrutura do Lync Server 2013.
 
 Este tópico descreve os nomes alernativos de assunto necessários para o Diretor, Servidor Front-End e pproxy reverso. Apenas os nomes alternativos de assunto (SAN) adicionados são referenciados. Consulte as seções de planejamento para orientação em outras entradas em certificados. Para detalhes, consulte [Cenários para o Diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) e [Cenários de proxy reverso no Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
@@ -61,7 +61,7 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Você designa o certificado recém atualizado com a nova entrada de SAN ao certificado padrão. Como alternativa, é possível usar SAN=*.<em>&lt;sipdomain&gt;</em>
 
 ### Requisitos de certificado do pool Front-End
@@ -90,7 +90,7 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Você deve designar o certificado atualizado com a nova entrada de SAN ao certificado padrão. Como alternativa, é possível usar SAN=*.<em>&lt;sipdomain&gt;</em>
 
 ### Requisitos de certificado de proxy reverso (CA pública)
@@ -115,5 +115,5 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Designe o certificado atualizado com a nova entrada de SAN para o Ouvinte SSL no proxy reverso.

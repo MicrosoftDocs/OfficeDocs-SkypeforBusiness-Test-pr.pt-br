@@ -1,6 +1,6 @@
 ﻿---
-title: Usando os pacotes de gerenciamento do Lync Server 2010 em um cenário de coexistência
-TOCTitle: Usando os pacotes de gerenciamento do Lync Server 2010 em um cenário de coexistência
+title: "Usando os pacotes de gerenc. do Lync Server 2010 em um cenário de coexistência"
+TOCTitle: "Usando os pacotes de gerenc. do Lync Server 2010 em um cenário de coexistência"
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205078(v=OCS.15)
 ms:contentKeyID: 49307406

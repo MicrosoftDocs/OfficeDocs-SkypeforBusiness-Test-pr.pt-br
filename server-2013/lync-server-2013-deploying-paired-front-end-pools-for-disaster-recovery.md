@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando pools Front-End emparelhados para recuperação de desastre'
+title: "Lync Server 2013: Implant. pools Front-End emparelh. p/ recup. de desastre"
 TOCTitle: Implantando pools Front-End emparelhados para recuperação de desastre
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204773(v=OCS.15)
@@ -51,21 +51,23 @@ _**Tópico modificado em:** 2013-02-21_
 
 10. Force o usuário e os dados de conferência de ambos os pools para sincronização um com o outro, com os seguintes cmdlets:
     
-```
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-```
-```    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+
+    ```    
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
     A sincronização dos dados pode levar algum tempo. É possível usar os seguintes cmdlets para verificar o status. Certifique-se de que o status em ambas as direções esteja em um estado estável.
     
-```
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-```
-```    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    
+    ```    
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
-> [!note]  
+> [!NOTE]  
 > A opção <strong>Failover automático e failback para voz</strong> e os intervalos de tempo associado no Construtor de Topologias se aplicam apenas aos recursos de resiliência de voz introduzidos no Lync Server 2010. Selecionar esta opção não implica que o failover de pool discutido neste documento seja automático. O failover de pool e failback sempre exige que um administrador invoque manualmente os cmdlets de failover e failback, respectivamente.

@@ -37,7 +37,7 @@ Este tópico guia o usuário pelo processo de remoção de Pool de Front-Ends ou
 
 4.  Expanda **Repositórios SQL** , clique com o botão direito do mouse no banco de dados do SQL Server que está associado à Servidor Front-End Standard Edition e clique em **Excluir** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Você deve remover a definição dos bancos de dados do SQL Server colocados da Servidor Front-End Standard Edition.
 
 5.  Publique a topologia, verifique o status de replicação e execute o Assistente de Implantação do Lync Server conforme necessário.

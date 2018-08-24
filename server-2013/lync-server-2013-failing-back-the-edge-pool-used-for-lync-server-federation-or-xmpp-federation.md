@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Failback do pool de Borda usado para federação do Lync Server ou federação XMPP'
+title: "Lync Server 2013: Failback do pool de Borda usado p/ fed. do Lync Server ou fed. XMPP"
 TOCTitle: Failback do pool de Borda usado para federação do Lync Server ou federação XMPP
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721897(v=OCS.15)

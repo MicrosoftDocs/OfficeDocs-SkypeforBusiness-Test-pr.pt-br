@@ -50,7 +50,7 @@ Para obter detalhes sobre a criação de políticas de conferência, consulte [C
     4.  Dependendo da propriedade do usuário selecionada, insira o critério que você deseja usar para filtrar os resultados da pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar as cláusulas de pesquisa adicionais na sua consulta, clique em <STRONG>Adicionar Filtro</STRONG>.
 
     
@@ -59,21 +59,21 @@ Para obter detalhes sobre a criação de políticas de conferência, consulte [C
 6.  Clique em um usuário nos resultados da pesquisa, em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se deseja que a mesma política de conferência por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
 7.  Em **Atribuir políticas**, na **Política de conferência**, faça o seguinte procedimento:
     
-    > [!note]  
+    > [!NOTE]  
     > Como há várias políticas que você pode configurar em <strong>Atribuir políticas</strong>, <strong>&lt;Manter&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue a usar a política atribuída anteriormente ao usuário sem realizar alterações nesta configuração.    
       - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
     
       - Clique no nome de uma política de conferência por usuário previamente definida na página **Política de conferência**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar você a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para exibir os direitos e permissões do usuário definidos na política.
 
 

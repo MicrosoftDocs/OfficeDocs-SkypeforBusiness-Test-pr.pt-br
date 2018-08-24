@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Processo de implantação para integrar o Exchange UM hospedado'
+title: "Lync Server 2013: Processo de implant. p/ integrar o Exchange UM hospedado"
 TOCTitle: Processo de implantação para integrar o Exchange UM hospedado
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398968(v=OCS.15)

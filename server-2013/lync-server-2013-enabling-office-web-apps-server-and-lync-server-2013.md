@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitando a integração com servidor de Office Web Apps e Lync Server 2013'
+title: "Lync Server 2013: Habil. a integ. c/ serv. de Office Web Apps e Lync Server 2013"
 TOCTitle: Habilitando a integração com servidor de Office Web Apps e Lync Server 2013
 ms:assetid: 3370ab55-9949-4f32-b88b-5cffed6aaad8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204792(v=OCS.15)

@@ -68,9 +68,9 @@ Quando você tiver terminado de usar o Lync, poderá fechar a tela, sair da sua 
 <tr class="even">
 <td><p>Sair</p></td>
 <td><p>Encerra a sessão do Lync associada à sua ID de usuário, mas o Lync continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.</p>
-<div class="alert">
 
-> [!TIP]
+
+> [!TIP]  
 > Selecione <STRONG>Excluir minhas informações de entrada</STRONG> ao sair para remover o registro de sua ID de logon e da senha do computador. Fazer isso torna mais fácil para o pessoal de suporte solucionar problemas de entrada. Também ajuda a garantir que suas informações de entrada fiquem mais seguras ao dificultar que usuários não autorizados façam logon com suas credenciais.
 
 
@@ -98,7 +98,7 @@ Algumas organizações usam um processo de entrada de várias etapas, chamado de
 
 Antes que seja possível entrar com um cartão inteligente, o cartão deverá ser "registrado" — ou seja, suas credenciais devem ser identificadas com o cartão. Esse será o caso seja o cartão físico ou virtual. Esse processo pode já ter sido realizado pelo administrador do Lync Server. Verifique com ele se não tiver certeza se isso foi feito.
 
-> [!note]  
+> [!NOTE]  
 > Uma vez que cada cartão inteligente está associado somente ao dispositivo em que está instalado, um cartão separado deverá ser registrado para cada computador com o Windows 8 usado.
 
 **Para registrar manualmente seu cartão inteligente**
@@ -109,7 +109,7 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
     
     Peça ao administrador do Lync Server o endereço da Web desse recurso se ainda não o tiver. A URL será parecida com esta: https://MinhaCA.\[nomedasuaempresa\].com/certsrv.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você estiver usando o Internet Explorer 10, talvez precise exibir o site em Modo de Compatibilidade.
 
 3.  Quando solicitado a fazer logon na página de certificação, faça logon usando sua conta de domínio (em vez do administrador do seu computador).
@@ -138,7 +138,7 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
 
 9.  Quando solicitado, insira seu número de identificação pessoal (PIN) e clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o encarregado do suporte técnico não tiver dado um PIN para você registrar seu cartão inteligente, use o valor padrão de PIN de cartão inteligente, 12345678.
 
 10. Selecione a opção para forçar o usuário (você) a alterar o PIN na primeira vez em que o cartão inteligente for usado.
@@ -147,7 +147,7 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
 
 12. Quando solicitado, insira seu número de identificação pessoal (PIN) e clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o encarregado do suporte técnico não tiver dado um PIN para você registrar seu cartão inteligente, use o valor padrão de PIN de cartão inteligente, 12345678.
 
 13. Selecione a opção para forçar o usuário (você) a alterar o PIN na primeira vez em que o cartão inteligente for usado.
@@ -172,5 +172,5 @@ Antes de usar seu cartão inteligente pela primeira vez, é recomendável que vo
 
 4.  Digite o número PIN do seu cartão inteligente e clique em **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você não tiver recebido um número PIN de cartão inteligente do pessoal de suporte, use o valor padrão, que é 12345678.

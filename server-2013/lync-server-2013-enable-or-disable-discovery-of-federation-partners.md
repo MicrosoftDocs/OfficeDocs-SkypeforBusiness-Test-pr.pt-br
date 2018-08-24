@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar ou desabilitar descoberta de parceiros de federação'
+title: "Lync Server 2013: Habilitar ou desabilitar descoberta de parceiros de federação"
 TOCTitle: Habilitar ou desabilitar descoberta de parceiros de federação
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182550(v=OCS.15)
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 Na ocasião em que você implantou seus Servidores de Borda e habilitou a federação para a sua organização, deve ter especificado se haveria suporte para a descoberta automática de domínios parceiros federados. Use o procedimento deste tópico para alterar essa configuração.
 
-> [!note]  
+> [!NOTE]  
 > O procedimento a seguir assume que você já habilitou a federação para sua organização. Para obter detalhes sobre como habilitar a federação, consulte <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013</a> na documentação Implantação ou na documentação Operações.
 
 ## Para habilitar ou desabilitar a descoberta automática de domínios federados para a sua organização

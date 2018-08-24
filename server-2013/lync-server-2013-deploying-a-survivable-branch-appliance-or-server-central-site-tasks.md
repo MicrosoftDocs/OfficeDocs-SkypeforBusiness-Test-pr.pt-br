@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando um servidor ou aparelho de filial persistente - Tarefas do site central'
+title: "Lync Server 2013: Implant. Serv. ou apar. de filial persist. - Tarefas do site central"
 TOCTitle: Implantando um servidor ou aparelho de filial persistente - Tarefas do site central
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398189(v=OCS.15)

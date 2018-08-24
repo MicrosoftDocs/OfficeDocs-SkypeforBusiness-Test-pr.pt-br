@@ -27,7 +27,7 @@ Os sites de rede são escritórios ou locais configurados dentro de cada região
 
 4.  Na página **Local**, clique no local que deseja exibir.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível exibir apenas informações de um local por vez.
 
 5.  No menu **Editar**, clique em **Exibir detalhes**.

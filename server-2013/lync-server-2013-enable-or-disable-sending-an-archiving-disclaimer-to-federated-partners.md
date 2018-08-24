@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados'
+title: "Hab./Desab. envio de um aviso de isenção de respons. de Arq. a parceiros federados"
 TOCTitle: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182584(v=OCS.15)
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 No momento em que você implantou seus Servidores de Borda e habilitou a federação para a sua organização, deve ter especificado se enviaria automaticamente a isenção de arquivamento para parceiros federados. Se você arquiva comunicações externas, deverá habilitar o envio de uma isenção de arquivamento. Use o procedimento deste tópico para alterar essa configuração.
 
-> [!note]  
+> [!NOTE]  
 > O procedimento a seguir assume que você já habilitou a federação para sua organização. Para obter detalhes sobre como habilitar a federação, consulte <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013</a> na documentação Implantação ou na documentação Operações.
 
 ## Para habilitar ou desabilitar o envio de uma isenção de responsabilidade de arquivamento para parceiros federados

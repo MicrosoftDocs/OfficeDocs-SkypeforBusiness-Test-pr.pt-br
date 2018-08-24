@@ -63,7 +63,7 @@ Ao planejar seus troncos que se associam com gateways:pares de porta com Servido
 
 Lync Server oferece uma forma de manipular o ID de chamador para chamadas de saída. Por exemplo, se uma organização deseja mascarar os ramais de discagem direta dos funcionários e substituí-los pelo número corporativo ou departamental genérico, um administrador agora pode fazer isso agora usando o Painel de Controle do Lync Server para suprimir o ID de chamador e substituí-lo com um ID de chamador alternativo especificado. Ao planejar a lógica do seu roteamento, considere para quais indivíduos, grupos e sites você deseja essa opção - talvez, mesmo, para todos os funcionários.
 
-> [!note]  
+> [!NOTE]  
 > Para chamadas que são roteadas novamente através do PSTN, o ID de chamador genérico será apresentado em vez do ID de chamador original. Isso pode fazer com que a chamada ignore configurações de Não Incomodar ou de privacidade que o receptor possa ter configurado.
 
 ## Lógica de roteamento adicional

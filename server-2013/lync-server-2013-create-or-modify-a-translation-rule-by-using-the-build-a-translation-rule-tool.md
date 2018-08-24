@@ -1,6 +1,6 @@
 ﻿---
-title: Criar ou modificar uma regra de conversão usando a compilação de uma ferramenta de regra de conversão
-TOCTitle: Criar ou modificar uma regra de conversão usando a compilação de uma ferramenta de regra de conversão
+title: "Criar/modif. regra de conversão usando compil. de uma ferr. de regra de conv."
+TOCTitle: "Criar/modif. regra de conversão usando compil. de uma ferr. de regra de conv."
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412909(v=OCS.15)
 ms:contentKeyID: 49307931
@@ -59,7 +59,7 @@ Siga as etapas para definir a regra de conversão digitando um conjunto de valor
 
 9.  Na página **Configuração do Tronco**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que criar ou modificar uma regra de tradução, será necessário executar o comando <strong>Confirmar tudo</strong> para publicar a alteração de configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação Operações.
 
 ## Consulte Também

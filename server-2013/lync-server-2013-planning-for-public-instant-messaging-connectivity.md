@@ -1,6 +1,6 @@
 ﻿---
-title: Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013
-TOCTitle: Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013
+title: "Planj. p/ conect. p/ redes públicas de m. instantâneas no Lync Server 2013"
+TOCTitle: "Planj. p/ conect. p/ redes públicas de m. instantâneas no Lync Server 2013"
 ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205349(v=OCS.15)
 ms:contentKeyID: 49308438
@@ -23,7 +23,7 @@ A Conectividade do Sistema de Mensagens Instantâneas Públicas é uma classe de
 
   - Contatos America Online (AOL)
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1° de setembro de 2012, a PIC USL (Licença de Assinatura de Usuário da Conectividade de Mensagens Instantâneas Públicas) do Microsoft Lync não está mais disponível para compra nos contratos novos ou renovados. Os clientes com licenças ativas poderão continuar a federar o Yahoo! Messenger até a data de encerramento do serviço. Foi anunciada a data final do términio em junho de 2014 para o AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 

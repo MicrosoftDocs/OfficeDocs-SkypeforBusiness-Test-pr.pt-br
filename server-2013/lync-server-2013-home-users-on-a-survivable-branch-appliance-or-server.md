@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor'
+title: "Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor"
 TOCTitle: Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413066(v=OCS.15)
@@ -29,7 +29,7 @@ O processo de hospedar usuários em uma função Aparelho de Filial Persistente 
 
 2.  No Shell de Gerenciamento do Lync Server, execute o cmdlet **Move-CsUser** para mover usuários domésticos.
 
-> [!note]  
+> [!NOTE]  
 > Você também pode usar o Painel de Controle do Lync Server para verificar os pré-requisitos e os usuários domésticos.
 
 ## Consulte Também

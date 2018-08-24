@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 A seção a seguir descreve como configurar o Serviços de Federação do Active Directory (AD FS 2.0) para dar suporte à autenticação multifator. Para obter mais informações sobre como instalar o AD FS 2.0, consulte os Guias passo a passo e os tutoriais do AD FS 2.0 em [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
 
-> [!note]  
+> [!NOTE]  
 > Ao instalar o AD FS 2.0, não use o Windows Server Manager para adicionar a função do Active Directory Federation. Em vez disso, baixe e instale o pacote do Serviços de Federação do Active Directory 2.0 RTW em <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a>.
 
 
@@ -54,12 +54,13 @@ A seção a seguir descreve como configurar o Serviços de Federação do Active
 
 9.  Crie e atribua uma Regra de Transformação de Emissão para seu objeto de confiança de terceira parte confiável usando o Windows PowerShell executando os seguintes comandos:
     
-```
+    ```
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-```
-```    
+    ```
+
+    ```    
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-```
+    ```
 
 10. No Console de Gerenciamento do AD FS 2.0, clique com o botão direito no seu objeto de confiança de terceira parte confiável e selecione **Editar Regras de Declaração**.
 

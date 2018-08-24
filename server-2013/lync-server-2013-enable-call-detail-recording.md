@@ -19,7 +19,7 @@ O CDR (registro de detalhes das chamadas) registra informações de utilização
 
 Use o procedimento a seguir para ativar o CDR para a organização inteira ou para cada local da organização.
 
-> [!note]  
+> [!NOTE]  
 > Para habilitar o CDR, é preciso configurar o monitoramento e o banco de dados de monitoramento. Para obter detalhes, consulte <a href="lync-server-2013-deploying-monitoring.md">Implantando o monitoramento no Lync Server 2013</a>.
 
 ## Para habilitar o CDR usando o Painel de Controle do Lync Server
@@ -32,7 +32,7 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
 
 4.  Na página **Registro de Detalhes das Chamadas** clique no local apropriado na tabela, em **Ação** e em **Ativar CDR**.
     
-    > [!note]  
+    > [!NOTE]  
     > O CDR é ativado por padrão.
 
 ## Para habilitar o CDR usando os cmdlets Shell de Gerenciamento do Lync Server

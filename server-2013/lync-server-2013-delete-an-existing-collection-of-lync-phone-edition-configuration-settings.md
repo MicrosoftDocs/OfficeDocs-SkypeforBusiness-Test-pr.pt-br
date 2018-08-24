@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 Se você não deseja mais usar um conjunto de configurações para dispositivos executando o Lync Phone Edition, exclua-o. Se você excluir um conjunto de um site, as configurações globais serão aplicadas aos telefones neste site. Não é possível excluir o conjunto global.
 
-> [!note]  
+> [!NOTE]  
 > Ao invés de excluir um conjunto, você pode alterar algumas configurações. Para obter detalhes sobre como fazer isso, consulte <a href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Criar ou Modificar um Conjunto de Configurações de Lync Phone Edition</a>.
 
 ## Para excluir um conjunto de definições de configurações do Lync Phone Edition
@@ -30,7 +30,7 @@ Se você não deseja mais usar um conjunto de configurações para dispositivos 
 
 4.  Na página **Configuração do Dispositivo**, clique no conjunto que você deseja excluir, clique no menu **Editar** e em **Excluir**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você excluir o conjunto global, as configurações são revertidas para as configurações padrões. O conjunto não some.
 
 5.  Na caixa de confirmação, clique em **OK**.

@@ -39,7 +39,7 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 
   - Limite de Sessão de Vídeo: 700 kbps
 
-> [!note]  
+> [!NOTE]  
 > O valor mínio para o Limite de Sessão de Áudio é 40 kbps. O valor mínimo para o Limite de Sessão de Vídeo é 100 kbps.
 
 ## Para criar perfis de política de largura de banda usando o Shell de Gerenciamento

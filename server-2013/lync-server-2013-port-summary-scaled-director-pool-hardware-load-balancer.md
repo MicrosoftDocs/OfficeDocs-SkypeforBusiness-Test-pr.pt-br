@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de porta - Pool de Diretor em escala, balanceador de carga de hardware'
+title: "Lync Server 2013: Res. de porta - Pool de Dir. em esc., balanc. de carga de hardware"
 TOCTitle: Resumo de porta - Pool de Diretor em escala, balanceador de carga de hardware
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204983(v=OCS.15)

@@ -19,13 +19,13 @@ A federação é um relacionamento de confiança entre dois ou mais domínios SI
 
 Use os procedimentos a seguir para fazer a transição da rota de federação e da rota do tráfego de mídia do seu Servidor de Borda e Diretor do Lync Server 2013 para seu Servidor de Borda do Lync Server 2010, para uma implantação de site único.
 
-> [!important]  
+> [!IMPORTANT]  
 > A alteração da rota de federação e de tráfego de mídia exige o agendamento de tempo e inatividade de manutenção dos Servidores de Borda Lync Server 2013 e Lync Server 2010. Todo este processo de transição também significa que o acesso federado estará indisponível durante a interrupção. Você deve agendar o tempo de inatividade para um período em que você espera mínima atividade do usuário. Você também deve fornecer notificações suficientes para os seus usuários finais. Planeje conforme o especificado para esta interrupção e defina as expectativas apropriadas na sua organização.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se seu Servidor de Borda herdado do Lync Server 2010 estiver configurado para usar o mesmo FQDN para o Serviço de Borda de Acesso, para o Serviço de Webconferência e para o Serviço de Borda A/V, os procedimentos nesta seção não são suportados. Se os serviços de Borda herdados estiverem configurados para usar o mesmo FQDN, migre primeiramente todos os seus usuários do Lync Server 2010 para Lync Server 2013, em seguida, encerre o Servidor de Borda do Lync Server 2010 antes de habilitar a federação no Servidor de Borda do Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se sua federação XMPP é roteada através de um Servidor de Borda Lync Server 2013, os usuários do Lync Server 2010 herdado não poderão se comunicar com o parceiro XMPP federado até que todos os usuários tenham sido movidos para o Lync Server 2013, até que as políticas XMPP e certificados tenham sido configurados, até que o parceiro XMPP federado tenha sido configurado no Lync Server 2013 e, finalmente, até que as entradas de DNS tenham sido atualizadas.
 
 ## Para remover a associação de federação herdada dos sites do Lync Server 2013
@@ -136,7 +136,7 @@ Use os procedimentos a seguir para fazer a transição da rota de federação e 
 
 2.  Expanda o nó, clique com o botão direito do mouse no Servidor de Borda listado e clique em **Editar Propriedades**.
     
-    > [!note]  
+    > [!NOTE]  
     > A federação só pode ser habilitada para um único Pool de borda. Se você tiver múltiplos servidores de Borda, selecione um para usar como o Pool de borda de federação.
 
 3.  Na página **Geral**, verifique se a configuração **Habilitar federação para este pool de Borda (Porta 5061)** está marcada.
@@ -167,7 +167,7 @@ Use os procedimentos a seguir para fazer a transição da rota de federação e 
 
 3.  Aguarde que a replicação do Active Directory ocorra em todos os pools na implantação.
     
-    > [!note]  
+    > [!NOTE]  
     > Poderá ser exibido a seguinte mensagem:<br />    <strong>Aviso: a topologia contém mais de um Servidor de Borda Federado. Isso pode ocorrer durante a migração para uma versão superior do produto. Nesse caso, somente um Servidor de Borda seria ativamente usado para federação. Verifique se o registro SRV DNS externo aponta para o Servidor de Borda correto. Se desejar que vários Servidores de Borda de federação permaneçam ativos simultaneamente (isto é, não em um cenário de migração), verifique se todos os parceiros federados estão usando o Lync Server. Verifique se o registro SRV DNS externo lista todos os Servidores de Borda habilitados para federação.</strong><br />    Esse aviso é esperado e pode ser ignorado com segurança.
 
 ## Para configurar um servidor de borda do Lync Server 2013
@@ -176,7 +176,7 @@ Use os procedimentos a seguir para fazer a transição da rota de federação e 
 
 2.  Atualize as funções de roteamento do firewall externo ou as configurações do balanceador de carga de hardware para enviar tráfego SIP para acesso externo (geralmente, a porta 443) e federação (geralmente, a porta 5061) para o Lync Server 2013  Servidor de Borda, em vez do Servidor de Borda herdado.
     
-    > [!note]  
+    > [!NOTE]  
     > Se não tiver um balanceador de carga de hardware, será necessário atualizar o registro A de DNS da federação para resolver no novo servidor de borda de acesso do Lync Server. Para obter isso com um mínimo de interrupção, reduza o valor TTL do FQDN de borda de acesso do Lync Server, para que, quando o DNS for atualizado para apontar para a borda de acesso do Lync Server, o acesso de federação e remoto seja atualizado rapidamente.
 
 3.  Em seguida, pare a **Borda de Acesso do Lync Server** de cada computador Servidor de Borda.

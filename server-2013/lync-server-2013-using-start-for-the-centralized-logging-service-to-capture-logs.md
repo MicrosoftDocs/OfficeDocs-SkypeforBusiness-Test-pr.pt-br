@@ -23,7 +23,7 @@ O cenário padrão é chamado de **AlwaysOn**. O objetivo do AlwaysOn é executa
 
 O Serviço de Log Centralizado dá duas formas de emitir comandos. Um número de tópicos são focados diretamente no uso de Windows PowerShell através de Shell de Gerenciamento do Lync Server. A habildade de usar um número de configurações e comandos complexos favorce o Windows PowerShell para o uso de Serviço de Log Centralizado . Porque Windows PowerShell através de Shell de Gerenciamento do Lync Server é quase úbico para todas as funções em Lync Server, somente os comandos Windows PowerShell são discutidos.
 
-> [!note]  
+> [!NOTE]  
 > Caso decida usar o conjunto de comandos disponível na linha de comando, é possível conseguir ajuda com o CLSController.exe ao digitar <code>ClsController.exe</code>. Por padrão, <strong>ClsController.exe</strong>é instalado no diretório C:\Arquivos de Programas\Microsoft Lync Server 2013\ClsAgent.
 
 ## Para executar Start-CsClsLogging com Windows PowerShell usando comandos básicos
@@ -38,12 +38,12 @@ O Serviço de Log Centralizado dá duas formas de emitir comandos. Um número de
     
         Start-CsClsLogging -Scenario AlwaysOn
     
-    > [!note]  
+    > [!NOTE]  
     > O cenário The AlwaysOn não possui uma duração padrão. Este cenário será executado até que o pare precisamente com o cmdlet <strong>Stop-CsClsLogging</strong>. Para detalhes, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Para todos os outros cenários, a duração padrão é 4 horas.
 
 3.  Pressione Enter para executar o comenando.
     
-    > [!note]  
+    > [!NOTE]  
     > Pode levar algum tempo (30 a 60 segundos) para que os os comandos sejam executados e que recebam o status de volta dos computadores em sua implantação.    
     ![Executando Start-CsClsLogging.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Executando Start-CsClsLogging.")
 
@@ -51,7 +51,7 @@ O Serviço de Log Centralizado dá duas formas de emitir comandos. Um número de
     
         Start-CsClsLogging -Scenario Authentication
     
-    > [!important]  
+    > [!IMPORTANT]  
     > É possível ter um total de dois cenários sendo executados em qualquer computador a qualquer momento. Se o comando é global no escopo, todos os computadores em sua implantação executarão o cenário ou cenários. Para iniciar um terceiro cenário, você deve parar o log no computador, pool, site ou escopo global em que você queira executar o novo cenario. Caso tenho iniciado um escopo global, é possível parar o log em um ou ambos cenários em um ou mais computadores e pools. Para detalhe sobre o gerenciamento de quais cenários estão sendo executados, consulte <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Usando Parar para o Serviço de Registro em Log</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
 
 ## Executar Start-CsClsLogging com Windows PowerShell usando comandos avançados

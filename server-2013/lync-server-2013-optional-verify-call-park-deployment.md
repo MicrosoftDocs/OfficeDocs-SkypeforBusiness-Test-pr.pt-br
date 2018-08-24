@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Opcional) Verificar implantação de Estacionamento de Chamadas'
+title: "Lync Server 2013: (Opcional) Verificar implant. de Estacionamento de Chamadas"
 TOCTitle: (Opcional) Verificar implantação de Estacionamento de Chamadas
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413076(v=OCS.15)
@@ -19,7 +19,7 @@ Após instalar e configurar o Estacionamento de Chamadavocê precisará verifica
 
   - Ligue para um usuário que tenha Estacionamento de Chamada ativado e faça com que o usuário estacione a chamada.
     
-    > [!note]  
+    > [!NOTE]  
     > Se você habilitou o Estacionamento de Chamada na política de voz antes de executar esse teste, o usuário estacionando a chamada precisa sair do Lync Server e entrar novamente para poder ver a opção Estacionamento de Chamada na lista de chamada em transferência.
 
   - Disque o número de órbita para recuperar a chamada.

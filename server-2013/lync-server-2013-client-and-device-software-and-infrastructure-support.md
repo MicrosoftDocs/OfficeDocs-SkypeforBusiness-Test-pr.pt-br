@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Suporte a infraestrutura e software para clientes e dispositivos'
+title: "Lync Server 2013: Suporte a infraestrutura e software p/ clientes e dispositivos"
 TOCTitle: Suporte a infraestrutura e software para clientes e dispositivos
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398412(v=OCS.15)
@@ -25,7 +25,7 @@ O suporte de software para clientes e dispositivos de uma implantação do Lync 
 
    [Como as fotos do usuário são exibidas no Lync](how-user-photos-are-displayed-in-lync.md)
 
-> [!note]  
+> [!NOTE]  
 > O Lync Phone Edition funciona com o Lync Server 2013 da mesma maneira que funciona com o Lync Server 2010. Para obter detalhes sobre o suporte de software para dispositivos, consulte os seguintes tópicos na Biblioteca do TechNet do Lync Server 2010:<ul>
 > 
 > <li><p>Componentes do Lync Server 2010 necessários para dispositivos em <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x416">http://go.microsoft.com/fwlink/?linkid=256488</a></p></li>

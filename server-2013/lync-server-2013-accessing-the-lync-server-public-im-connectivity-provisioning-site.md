@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Acessando o site de configuração de conectividade a redes públicas de mensagens instantâneas do Lync Server'
+title: "Acess. o site de config. de conect. a redes públicas de m. instantâneas do Lync Server"
 TOCTitle: Acessando o site de configuração de conectividade a redes públicas de mensagens instantâneas do Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn440174(v=OCS.15)
@@ -43,31 +43,31 @@ O processo de provisionamento para a conectividade Lync-Skype mudou, em compara�
 <tbody>
 <tr class="odd">
 <td><ol><li><p>Entre no site <strong>https://pic.lync.com</strong> com seu Microsoft Windows Live ID.</p></li><li><p>Selecione o tipo de contrato de licenciamento da Microsoft.</p></li>
-> <li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
-> <li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
-> 
-> <li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
-<div class="alert">
-> [!important]  
+<li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
+<li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
+
+<li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
+
+
+ <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
+
+> [!IMPORTANT]  
 > É necessário pelo menos um servidor de Borda de Acesso e um domínio SIP para concluir o processo de provisionamento. O domínio SIP e o servidor de Borda de Acesso devem estar ativos, em funcionamento e acessíveis na rede.
-</div></li><li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
+</div></li>
+<li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
 </tr>
 <tr class="even">
 <td><ol><li><p>Entre no site <strong>https://pic.lync.com</strong> com seu Microsoft Windows Live ID.</p></li><li><p>Selecione o tipo de contrato de licenciamento da Microsoft.</p></li>
-> <li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
-> <li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
-> 
-> <li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
-<div class="alert">
-> [!important]  
+<li><p>Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Lync Server.</p></li>
+
+<li><p>Na página <strong>Iniciar Solicitação de Configuração</strong>, clique no link adequado para iniciar uma solicitação de configuração:</p></li>
+<li><p>Na página <strong>Especificar Informações de Provisionamento</strong>, insira o <strong>FQDN do serviço de Borda de Acesso</strong>. Por exemplo, <strong>accessedge.contoso.com</strong>.</p></li>
+<li><p>Insira pelo menos um ou mais nomes de domínio SIP e clique em <strong>Adicionar</strong>.</p>
+
+> [!IMPORTANT]  
 > É necessário pelo menos um servidor de Borda de Acesso e um domínio SIP para concluir o processo de provisionamento. O domínio SIP e o servidor de Borda de Acesso devem estar ativos, em funcionamento e acessíveis na rede.
-</div></li><li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
+</div></li>
+<li><p>Na lista de <strong>provedores de Serviços públicos de mensagens instantâneas</strong>, selecione <strong>Skype,</strong> e clique em <strong>Avançar</strong> para adicionar informações de contato e enviar a solicitação de configuração.</p></li></ol></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ Para preparar o ambiente do Lync Server para conectividade Lync-Skype, o adminis
 
 A federação é necessária para permitir que os usuários do Skype se comuniquem com os usuários do Lync em sua organização. A Conectividade a Redes Públicas de Mensagens Instantâneas (PIC) é uma classe de federação e deve ser configurada para permitir que seus usuários do Lync se comuniquem com os usuários do Skype. A federação e o PIC são configurados usando o Painel de Controle do Lync Server, mostrado abaixo.
 
-> [!important]  
+> [!IMPORTANT]  
 > A federação de PIC não tem mais suporte no Live Communication Server 2005 SP1 ou no Office Communications Server 2007. As plataformas que dão suporte à federação de PIC incluem o Lync Server 2013, o Lync Server 2010 e o Office Communications Server 2007 R2.
 
 ## 2\. Configurar pelo menos uma política para dar suporte ao acesso de usuário federado
@@ -96,7 +96,7 @@ Usando o Painel de Controle do Lync Server, um administrador deve configurar uma
 
 Usando o Shell de Gerenciamento do Lync Server, um administrador deve configurar a política de cliente do Lync para exibir o Skype como um provedor de PIC adicional.
 
-> [!note]  
+> [!NOTE]  
 > Os usuários dos provedores de serviços de Conectividade a Redes Públicas de Mensagens Instantâneas (PIC) não podem participar em mensagens instantâneas ou conferências em sua organização até que você também configure pelo menos uma política (etapa 2, anteriormente neste procedimento) para dar suporte à conectividade a redes públicas de mensagens instantâneas.<br />Para configurar a federação e o PIC, consulte &quot;Habilitar ou desabilitar a federação e a Conectividade a Redes Públicas de Mensagens Instantâneas&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>.<br />Para configurar pelo menos uma política para dar suporte ao acesso de usuário federado, consulte &quot;Configurar políticas para controlar o acesso de usuário público&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>.
 
 1.  De um Servidor Front-End do Lync Server, abra o Shell de Gerenciamento do Lync Server.

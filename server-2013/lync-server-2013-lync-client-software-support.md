@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reunião Online para Lync 2013.
 
-> [!note]  
+> [!NOTE]  
 > O Suplemento de Reunião Online para Lync 2013, que dá suporte ao gerenciamento de reuniões no cliente de mensagem e colaboração do Outlook, é instalado automaticamente com o Lync 2013.
 
 ### Requisitos de software para Lync 2013 e o Suplemento de Reunião Online para Lync 2013
@@ -40,10 +40,10 @@ Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reuni
 <p>Windows 8</p>
 <p>Sistema operacional Windows 7</p>
 <p>Windows Server 2008 R2 com o service pack mais recente</p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > O Lync 2013 e o Suplemento de Reunião Online para Lync 2013 não têm suporte no Windows Vista ou no Windows XP (nenhuma versão).
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Instalação e atualizações</p></td>
@@ -56,10 +56,10 @@ Esta seção resume o suporte de software para Lync 2013 e o Suplemento de Reuni
 <p>Internet Explorer 8nm-ie-9</p>
 <p>Navegador de Internet Internet Explorer 7</p>
 <p>Navegador web Mozilla Firefox</p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Se você estiver usando o Lync com Microsoft Exchange Online e sua organização tiver implantado um proxy HTTP de autenticação, Internet Explorer 9 ou Internet Explorer 8 é obrigatório.
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Integração com o Microsoft Office</p></td>

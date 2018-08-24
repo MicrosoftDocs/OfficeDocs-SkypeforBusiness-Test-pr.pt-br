@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planejamento para alta disponibilidade e recuperação de desastre'
+title: "Lync Server 2013: planj. p/ alta dispon. e recup. de desastre"
 TOCTitle: Planejamento para alta disponibilidade e recuperação de desastre
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204703(v=OCS.15)

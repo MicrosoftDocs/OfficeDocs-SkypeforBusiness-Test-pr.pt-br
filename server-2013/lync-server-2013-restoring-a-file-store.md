@@ -21,12 +21,12 @@ Os Repositórios de Arquivo para o Standard Edition estão normalmente localizad
 
 1.  Se um Repositório de Arquivos falhar, copie o Repositório de Arquivos adequado de $Backup\\ ao local do Repositório de Arquivos no servidor de arquivos ou Servidor Standard Edition e compartilhe a pasta.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O caminho e o nome do arquivo para o Repositório de Arquivos restaurado devem ser exatamente o mesmo que os do Repositório de Arquivos armazenado para que os componentes que usam os arquivos possam acessá-los.
 
 2.  Se necessário, defina as listas do controle de acesso (ACLs) para o Repositório de Arquivos. Na linha de comando, digite:
     
         Enable-CsTopology
     
-    > [!note]  
+    > [!NOTE]  
     > É necessário executar esta etapa somente se você não executou a Construtor de Topologias durante o processo de restauração.

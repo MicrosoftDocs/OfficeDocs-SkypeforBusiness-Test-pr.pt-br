@@ -21,7 +21,7 @@ Para permitir que você delegue tarefas administrativas ao mesmo tempo em que ma
 
 Com o RBAC, acesso e autorização baseiam-se precisamente em uma função do Lync Server do usuário. Isso permite uso adequado da prática de segurança de "privilégio mínimo", concedendo a administradores e usuários somente os direitos necessários para seus trabalhos.
 
-> [!important]  
+> [!IMPORTANT]  
 > As restrições do RBAC funcionam apenas em administradores que trabalham remotamente, usando o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server. Um usuário sentado na frente de um servidor que está executando o Lync Server não é restringido pelo RBAC. Portanto, a segurança física do Lync Server é importante para preservar as restrições do RBAC.
 
 ## Funções e escopo

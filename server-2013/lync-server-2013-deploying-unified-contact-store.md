@@ -23,7 +23,7 @@ A habilitação do repositório unificado de contatos no Lync Server 2013 não e
 
 Depois que os contatos de um usuário tiverem sido migrados, o que acontece automaticamente quando um usuário faz logon com o Lync 2013, o usuário pode acessar e gerenciar seus contatos do Lync a partir do Lync 2013, do Outlook 2013 ou do Outlook Web Access. O usuário não precisa estar conectado ao Lync para gerenciar seus contatos do Outlook ou do Outlook Web Access.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se um usuário fizer logon a partir do Lync 2010 após a migração, os contatos e grupos estarão disponíveis e atualizados, mas ele não poderá gerenciar (ou seja, adicionar, excluir, transferir, marcar, desmarcar ou modificar) esses contatos.
 
 ## Nesta seção

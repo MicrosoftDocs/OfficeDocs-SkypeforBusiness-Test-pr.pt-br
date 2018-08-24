@@ -35,5 +35,5 @@ Sempre que usar o Construtor de Topologias para construir sua topologia, publiqu
     
       - Para fechar o assistente, clique em **Concluir** .
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Se esta for uma nova instalação de uma Servidor de Borda ou de um Pool de borda, você deve exportar a configuração da Servidor de Borda de uma Servidor Front-End, um Pool de Front-Ends ou uma Servidor Standard Edition existente. Para exportar a configuração, consulte <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda</a>. Você importará o arquivo de configuração de uma mídia externa ou de um compartilhamento de rede durante a configuração e a fase de implantação da Servidores de Borda pela Assistente de Implantação do Lync Server.<br />        Depois que a Servidores de Borda estiver operacional e o banco de dados de armazenamento de configuração local estiver replicando com a implantação interna, as atualização subsequentes das configuração do Lync Server 2013 serão publicadas e replicada no Servidores de Borda.

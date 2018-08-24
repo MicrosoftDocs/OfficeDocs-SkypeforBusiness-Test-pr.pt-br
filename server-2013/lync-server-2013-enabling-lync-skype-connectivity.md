@@ -25,7 +25,7 @@ A federação é necessária para permitir que os usuários do Skype se comuniqu
 
 ![Mostrando PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Mostrando PIC")
 
-> [!important]  
+> [!IMPORTANT]  
 > A federação de PIC não tem mais suporte no Live Communication Server 2005 SP1 ou no Office Communications Server 2007. As plataformas que dão suporte à federação de PIC incluem o Lync Server 2013, o Lync Server 2010 e o Office Communications Server 2007 R2.
 
 ## 2\. Configurar pelo menos uma política para dar suporte ao acesso de usuário federado
@@ -38,7 +38,7 @@ Usando o Painel de Controle do Lync Server, um administrador deve configurar uma
 
 Usando o Shell de Gerenciamento do Lync Server, um administrador deve configurar a política de cliente do Lync para exibir o Skype como um provedor de PIC adicional.
 
-> [!note]  
+> [!NOTE]  
 > Usuários de provedores de serviço do PIC (Conectividade a Redes Públicas de IM) não podem participar de conferências de áudio, de vídeo ou por mensagem instantânea em sua organização até que você também configure pelo menos uma política (etapa 2, previamente neste procedimento) para suportar conectividade a redes públicas de mensagens instantâneas.
 
 1.  Para configurar a federação e o PIC, consulte "Habilitar ou desabilitar a federação e a Conectividade a Redes Públicas de Mensagens Instantâneas" em [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063).

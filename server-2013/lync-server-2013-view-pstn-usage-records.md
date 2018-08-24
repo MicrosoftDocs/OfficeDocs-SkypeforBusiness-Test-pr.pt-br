@@ -27,7 +27,7 @@ Um registro de uso de PSTN (rede telefônica pública comutada) especifica uma c
 
 4.  Na página **Uso do PSTN** , destaque o registro de uso PSTN que você deseja exibir, clique em **Editar** e em **Mostrar detalhes** .
     
-    > [!note]  
+    > [!NOTE]  
     > Uma página somente leitura do registro de uso PSTN selecionado mostra as rotas associadas e as políticas de voz associadas.
 
 ## Exibindo as informações de uso do PSTN usando cmdlets do Windows PowerShell

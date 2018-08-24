@@ -1,6 +1,6 @@
 ﻿---
-title: Excluir manualmente o registro de detalhes de chama e bancos de dados de qualidade de experiência Databases
-TOCTitle: Excluir manualmente o registro de detalhes de chama e bancos de dados de qualidade de experiência Databases
+title: "Excluir manualm. o reg. de det. de chama e b. de dados de qual. de exper. Databases"
+TOCTitle: "Excluir manualm. o reg. de det. de chama e b. de dados de qual. de exper. Databases"
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204812(v=OCS.15)
 ms:contentKeyID: 49306439

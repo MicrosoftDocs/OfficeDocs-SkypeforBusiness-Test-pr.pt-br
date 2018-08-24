@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Testar e relatar prontidão funcional para autenticação Kerberos'
+title: "Lync Server 2013: Testar e relatar prontidão funcional p/ autentic. Kerberos"
 TOCTitle: Testar e relatar prontidão funcional para autenticação Kerberos
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398925(v=OCS.15)

@@ -65,5 +65,5 @@ Você pode mover um usuário do pool Office Communications Server 2007 R2 para o
     
     ![Saída do cmdlet Get-CsUser com filtro de identidade](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre o cmdlet <strong>Get-CsUser</strong>, execute: <strong>Get-Help Get-CsUser –Detailed</strong>

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando de federação e acesso externo ao Lync Server 2013'
+title: "Lync Server 2013: Gerenciando de federação e acesso externo ao Lync Server 2013"
 TOCTitle: Gerenciando de federação e acesso externo ao Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520966(v=OCS.15)
@@ -21,7 +21,7 @@ Após instalar e configurar sua implantação interna do Lync Server 2013, os us
 
 Se sua implantação incluiu a instalação de um Lync Server 2013  Servidor de Borda ou um Pool de borda, o escopo dos possíveis tipos de comunicação é muito aumentado com um número de opções para acesso do usuário externo, comunicação com membros de outros domínios federados SIP, provedores federados SIP e usuários federados XMPP. Após configurar o Servidor de Borda ou Pool de borda, é possível habilitar os tipos de acesso de usuário externo que você deseja oferecer e configurar as políticas para controlar o acesso externo. No Lync Server 2013, você habilita e configura o acesso do usuário externo e as políticas utilizando o Painel de Controle do Lync Server, o Shell de Gerenciamento do Lync Server ou ambos, com base nos requisitos da tarefa. Para obter detalhes sobre estas ferramentas de gerenciamento, consulte [Ferramentas administrativas do Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md) na documentação de Operações, [Shell de gerenciamento do Lync Server](lync-server-2013-lync-server-management-shell.md) na documentação de Operações e [Instalar ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) na documentação de Operações.
 
-> [!important]  
+> [!IMPORTANT]  
 > Ao projetar sua configuração e políticas para acesso do usuário externo, você deve compreender a precedência das políticas e como as políticas são aplicadas. As definições de política do Lync Server que são aplicadas em um nível de política podem substituir definições que são aplicadas em outro nível de política. A precedência de política do Lync Server é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quão mais perto a definição de política está do objeto que ela está afetando, maior a influência que ela terá no objeto.
 
 Por padrão, nenhuma política é configurada para suportar acesso do usuário externo, incluindo acesso do usuário remoto, acesso do usuário federado, mesmo se você já habilitou o suporte de acesso do usuário externo para sua organização. Para controlar o uso do acesso de usuário externo, você deve configurar uma ou mais políticas, especificando o tipo de acesso do usuário externo suportado para cada política. Isto inclui as seguintes políticas de acesso externo:
@@ -62,7 +62,7 @@ Definir as configurações, conforme detalhado no tópico [Habilitar ou desabili
 
 Definir as configurações, conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuário público no Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) e [Criar ou editar fornecedores SIP públicos federados no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 
@@ -151,10 +151,10 @@ Se você prefere uma tabela que lista os requisitos:
 <td><p>Acesso do usuário anônimo para reuniões e conferências</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Atribuir políticas de conferência para suporte de usuários anônimos no Lync Server 2013</a></p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Você também deve considerar as seguintes definições de configuração nas políticas de Configuração: <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Criar ou Modificar uma Política de Conferência no Lync Server 2013</a> e <a href="lync-server-2013-conferencing-policy-settings-reference.md">Referência das configurações da política de conferência para Lync Server 2013</a>
-</div></td>
+</td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>

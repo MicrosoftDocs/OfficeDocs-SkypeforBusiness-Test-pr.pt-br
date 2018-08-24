@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk'
+title: "Lync Server 2013: Ex. de config. XMPP no Lync Server 2013 – fed. XMPP com GTalk"
 TOCTitle: Exemplo de configuração de XMPP – federação XMPP com Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204807(v=OCS.15)
@@ -38,7 +38,7 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 7.  No Servidor de Borda, no Assistente de Implantação do Lync Server, ao lado de **Etapa 3: Solicitar, Instalar ou Atribuir Certificados**, clique em **Executar Novamente**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se estiver implantando o Servidor de Borda pela primeira vez, você verá Executar ao invés de Executar novamente.
 
 
@@ -72,7 +72,7 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 18. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique quaisquer nomes alternativos de entidade adicionais que sejam necessários.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se o proxy XMPP é instalado, por padrão o nome de domínio (como contoso.com) é preenchido nas entradas SAN. Se você precisa de mais entradas, adicione-as nesta etapa.
 
 
@@ -88,10 +88,10 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 23. Depois de receber, importar e atribuir o certificado público, é preciso interromper e reiniciar os serviços do servidor de borda. Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.. No Shell de Gerenciamento do Lync Server, digite:
     
 ```
-        Stop-CsWindowsService
+Stop-CsWindowsService
 ```
 ```    
-        Start-CsWindowsService
+Start-CsWindowsService
 ```
 
 24. Para configurar o DNS para federação XMPP, adicione o seguinte registro SRV ao DNS externo:\_xmpp-server.\_tcp. *\<nome do domínio\>* O registro SRV resolverá o FQDN de borda de acesso do servidor de borda com o valor da porta 5269
@@ -99,8 +99,6 @@ Um exemplo de configuração para implantar o proxy XMPP é a federação com o 
 25. Configure uma nova política de acesso externo para permitir que todos os usuários abram o Shell de Gerenciamento do Lync Server em um Servidor Front-End e digitem:
     
 ```
-        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAccess $true -EnablePublicCloudAccess $true
-```
-```
-        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAccess $true -EnablePublicCloudAccess $true
+Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
 ```

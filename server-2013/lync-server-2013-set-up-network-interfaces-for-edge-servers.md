@@ -17,19 +17,20 @@ _**Tópico modificado em:** 2012-09-08_
 
 Cada Servidor de Borda é um computador multihomed com interfaces externas e internas. As configurações de DNS do adaptador dependem da existência de servidores DNS na rede de perímetro. Se houver servidores DNS no perímetro, eles deverão ter uma zona contendo um ou mais registros A DNS para o servidor ou pool de próximo salto (ou seja, um Diretor ou um pool de Front-Ends designado) e, para consultas externas, eles farão referência a pesquisas de nome para outros servidores DNS públicos. Se não houver servidores DNS no perímetro, os Servidores de Borda usarão servidores DNS externos para resolver pesquisas de nome da Internet, e cada Servidor de Borda usará um HOST para resolver os nomes de servidor de próximo salto para endereços IP.
 
-> [!security]  
-> Por motivos de segurança, recomendamos que seus Servidores de Borda não acessem um servidor DNS localizado na rede interna.
+<table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+					Por motivos de segurança, recomendamos que seus Servidores de Borda não acessem um servidor DNS localizado na rede interna.
+				</td></tr></tbody></table>
 
 ## Para configurar interfaces com os servidores DNS na rede de perímetro
 
 1.  Instale dois adaptadores de rede para cada Servidor de Borda, um para a interface interna e outro para a interface externa.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > As sub-redes interna e externa não devem ser roteáveis ente si.
 
 2.  Na interface externa, configure três endereços IP estáticos na sub-rede da rede de perímetro externa (também conhecida como DMZ, zona desmilitarizada, e sub-rede filtrada), e aponte o gateway padrão à interface interna do firewall externo. Defina as configurações DNS do adaptador para apontar para um par de servidores DNS de perímetro.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível usar um endereço IP para essa interface, mas para fazer isso você precisa alterar as atribuições de porta para valores não padrão. Determine isso ao criar a topologia no Construtor de Topologias.
 
 3.  Na interface interna, configure um endereço IP estático na sub-rede da rede de perímetro e não defina o gateway padrão. Defina as configurações DNS do adaptador a fim de apontar para pelo menos um servidor DNS, preferencialmente um par de servidores DNS de perímetro.
@@ -40,12 +41,12 @@ Cada Servidor de Borda é um computador multihomed com interfaces externas e int
 
 1.  Instale dois adaptadores de rede para cada Servidor de Borda, um para a interface interna e outro para a interface externa.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > As sub-redes interna e externa não devem ser roteáveis ente si.
 
 2.  Na interface externa, configure três endereços IP estáticos na sub-rede da rede de perímetro externa. Também é possível configurar o gateway padrão na interface externa. Por exemplo, defina o roteador da Internet ou o firewall externo como o gateway padrão. Defina as configurações de DNS a fim de apontar para um servidor DNS, preferencialmente para um par de servidores DNS externos.
     
-    > [!note]  
+    > [!NOTE]  
     > É possível, mas não recomendado, usar um endereço IP para a interface externa. Para que isso funcione, você precisa alterar as atribuições de porta para valores não padrão e para longe da porta padrão 443 que normalmente é “amigável com firewall” para a comunicações do cliente. É possível determinar a configuração do endereço IP e as configurações de porta ao criar a topologia no Construtor de Topologias.
 
 3.  Na interface interna, configure um endereço IP estático na sub-rede da rede de perímetro e não defina o gateway padrão. Deixe as configurações DNS do adaptador vazias.

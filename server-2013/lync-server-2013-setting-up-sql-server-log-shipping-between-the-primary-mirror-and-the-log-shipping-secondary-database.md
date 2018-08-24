@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs'
+title: "Config. do Em. de Logs do Serv. SQL entre esp. prim. e b. dados sec. de Envio de Logs"
 TOCTitle: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204887(v=OCS.15)
@@ -35,14 +35,14 @@ Execute as seguintes etapas para que o envio de log continue se o banco de dados
 
 9.  Se a pasta de backup estiver no servidor primário, digite o caminho local na pasta de backup na caixa de diálogo **Se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta** . (Se a pasta de backup não estiver o servidor primário, você pode deixa essa caixa de diálogo vazia.)
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se a conta de serviço SQL Server no servidor primário for executada na conta do sistema local, você deverá criar sua pasta de backup no servidor primário e especificar o caminho local desta pasta.
 
 10. Configure os parâmetros **Excluir arquivos com mais de** e **Alertar se nenhum backup ocorrer em** .
 
 11. Observe a agenda de backup listada na caixa de diálogo **Agendar** em **Trabalho de backup** . Para personalizar a agenda para instalação, clique em **Agendar** e ajuste o Agente SQL Server agendado, conforme solicitado.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Use as mesmas configurações que você usou para o banco de dados primário.
 
 12. Em **Compactação** , selecione **Usar a configuração padrão do servidor** e clique em **OK** .
@@ -63,7 +63,7 @@ Execute as seguintes etapas para que o envio de log continue se o banco de dados
 
 20. Selecione e execute a primeira metade da consulta (veja etapa 18) até a linha: -- \*\*\*\*\*\* Fim: Script a ser executado no Primário: \*\*\*\*\*\*.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A execução manual desse script é necessária porque o SQL Server Management Studio não suporta banco de dados primário múltiplos em uma SQL Server configuração de Envio de Log.
 
 21. Selecione **Cancelar** para fechar o painel de configuração de envio do Arquivo de Log e para estabelecer uma configuração de trabalho que implemente corretamente o envio do arquivo de log para os bancos de dados primário e espelhado (no case de failover).

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando seu ambiente do Lync Server 2013 para Porta da Web Administrativo do Sistema de Sala do Lync'
+title: "Config. seu amb. do Lync Server 2013 p/ Porta da Web Adm. do Sit. de Sala do Lync"
 TOCTitle: Configurando seu ambiente do Lync Server 2013 para Porta da Web Administrativo do Sistema de Sala do Lync
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn436325(v=OCS.15)
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 Para usar o Portal da Web Administrativo do Lync Room System (LRS), será necessário instalar ou configurar pré-requisitos a seguir.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se o servidor estiver configurado com a autenticação Kerberos e NTLM, e o LRS estiver em execução em um computador que não esteja ingressado no domínio, haverá falha na autenticação Kerberos, e o usuário não verá o status do LRS no portal administrativo. Para resolver este problema, configure o servidor com a autenticação NTLM ou a autenticação NTLM e TLS-DSK (sem Kerberos), ou ingresse o computador LRS no domínio.
 
 1.  Instale as Atualizações Cumulativas do Lync Server 2013: julho de 2013 na topologia do Lync Server.

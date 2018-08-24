@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controlar o acesso de usuário público'
+title: "Lync Server 2013: config. políticas p/ controlar o acesso de usuário público"
 TOCTitle: Configurar políticas para controlar o acesso de usuário público
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520946(v=OCS.15)
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2016-12-08_
 
 A conectividade de IM (mensagem instantânea) pública permite que os usuários em sua organização usem IM para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de IM público, incluindo a rede Windows Live de serviços de Internet, Yahoo\! e AOL. Configure uma ou mais políticas de acesso de usuário externo para controlar se os usuários públicos podem colaborar com usuários internos do Lync Server. A conectividade por IM pública é um recurso adicionado que depende da configuração de sua implantação e dos usuários. Também depende do provisionamento do serviço no provedor de IM pública. Para obter mais informações sobre como provisionar sua implantação para usar os provedores públicos, consulte o guia “Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server, and Live Communications Server”: <http://go.microsoft.com/fwlink/?linkid=269821>
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
 > 
@@ -33,7 +33,7 @@ Para controlar o acesso do usuário público, é possível configurar políticas
 
 No caso de convites de IM, a resposta depende do software cliente. A solicitação é aceita a menos que remetentes externos sejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações nas listas de cliente **Permitir** e **Bloquear** do usuário). Além disso, os convites de IM podem ser bloqueados se um usuário optar por bloquear toda IM de usuários que não estão na lista **Permitir**.
 
-> [!note]  
+> [!NOTE]  
 > É possível configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a federação para sua organização. No entanto, as políticas configuradas entram em vigor somente quando a federação está habilitada para sua organização. Para obter detalhes sobre como habilitar a federação, consulte <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013</a> na documentação Implantação ou na documentação Operações. Além disso, se você especificar uma política de usuário para controlar acesso do usuário público, a política se aplicará somente aos usuários habilitados para Lync Server e configurados para usar a política. Para obter detalhes sobre como especificar usuários que pode fazer logon no Lync Server, consulte <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013</a> na documentação Implantação ou na documentação Operações.
 
 Use o procedimento a seguir para configurar uma política para suportar o acesso de usuários de um ou mais provedores de IM público.

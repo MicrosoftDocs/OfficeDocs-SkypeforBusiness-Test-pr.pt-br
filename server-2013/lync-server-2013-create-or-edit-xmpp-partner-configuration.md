@@ -64,7 +64,7 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
       - **Negociação SASL**. Define as regras de negociação SASL. Um serviço XMPP pode exigir SASL, pode tornar o SASL opcional ou estabelecer que não haja suporte para o SASL. A escolha da configuração Opcional deixa o requisito a cargo do serviço XMPP do parceiro para uma decisão de obrigatório para negociação.
         
 
-        > [!WARNING]
+        > [!WARNING]  
         > SASL exige o protocolo TLS. Para usar SASL, o protocolo TLS deve ser obrigatório ou opcional. Qualquer configuração que defina SASL como obrigatório ou opcional deve ter suporte ao protocolo TLS. Quando clicar em <STRONG>Confirmar</STRONG> para salvar suas alterações, se ainda não tiver definido o protocolo TLS como obrigatório ou opcional, você será avisado de que SASL deve ter suporte ao protocolo TLS e as alterações não serão salvas. Para solucionar o erro, defina o protocolo TLS como <STRONG>Obrigatório</STRONG> ou <STRONG>Opcional</STRONG>. Se o uso de SASL for opcional e o suporte à negociação do protocolo TLS não for possível, será preciso definir a negociação SASL como <STRONG>Não suportado</STRONG>. Confirme no serviço XMPP como devem ser os fluxos de negociação apropriados SASL ou do protocolo TLS ou ocorrerá uma interrupção do serviço.
 
         

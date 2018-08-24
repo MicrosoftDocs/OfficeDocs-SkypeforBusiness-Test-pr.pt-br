@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Protegendo dados em trânsito – bancos de dados do servidor de conformidade de arquivamento, monitoramento, chat em grupo'
+title: "Proteg. dados em tr. – b. de dados do serv.de conform. de arq., monit., chat em grupo"
 TOCTitle: Protegendo dados em trânsito – bancos de dados do servidor de conformidade de arquivamento, monitoramento, chat em grupo no Lync Server 2013
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn518336(v=OCS.15)

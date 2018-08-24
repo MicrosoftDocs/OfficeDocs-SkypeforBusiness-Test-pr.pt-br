@@ -23,7 +23,7 @@ No Microsoft Lync Server 2013, o monitoramento é usado para coletar informaçõ
 
   - Outro usuário em uma conversa ponto a ponto, como mensagens instantâneas ou uma chamada de áudio
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server 2013 registra informações sobre cada sessão: quem chamou quem, quais pontos de extremidade foram usados na sessão, quanto tempo a sessão durou, a qualidade geral da sessão etc. No entanto, o Lync Server não registra e armazena a chamada propriamente dita. Isso também inclui sessões de mensagens instantâneas: embora o Lync Server registre informações sobre as sessões de mensagens instantâneas, ele não mantém um registro de cada mensagem instantânea que foi enviada durante a sessão.
 
 Os detalhes sobre as chamadas coletados pelo Lync Server podem ser empregados para várias finalidades, incluindo:

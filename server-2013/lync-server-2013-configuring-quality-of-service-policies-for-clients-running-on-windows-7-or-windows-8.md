@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando as Políticas de Qualidade de Serviço (QoS) para Clientes Executando no Windows Server 7 ou Windows 8
-TOCTitle: Configurando as Políticas de Qualidade de Serviço (QoS) para Clientes Executando no Windows Server 7 ou Windows 8
+title: "Config. Polít. de Qual. de Serv. (QoS) p/ Clientes Exec. no W. Server 7 ou W. 8"
+TOCTitle: "Config. Polít. de Qual. de Serv. (QoS) p/ Clientes Exec. no W. Server 7 ou W. 8"
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205371(v=OCS.15)
 ms:contentKeyID: 49308557

@@ -94,9 +94,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Obrigatório</p></td>
 <td><p>Verdadeiro</p></td>
 <td><p>SASL por TLS</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > O dialback não funcionará se ambas SASL e TLS forem obrigatórias.
 
 
@@ -114,9 +114,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Obrigatório</p></td>
 <td><p>Verdadeiro</p></td>
 <td><p>SASL por TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -127,9 +127,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Obrigatório</p></td>
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -140,9 +140,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Obrigatório</p></td>
 <td><p>Verdadeiro</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -152,16 +152,16 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Sem suporte</p></td>
 <td><p>Obrigatório</p></td>
 <td><p>Falso</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > Configuração não válida
 
 
 </div></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > Como a SASL requer TLS, e a TLS não está disponível, a combinação SASL/TLS não é possível. O TCP Dialback é definido como falso e não pode ser usado.
 
 
@@ -186,9 +186,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Opcional</p></td>
 <td><p>Verdadeiro</p></td>
 <td><p>SASL por TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -199,9 +199,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Opcional</p></td>
 <td><p>Falso</p></td>
 <td><p>SASL por TLS</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -212,9 +212,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Opcional</p></td>
 <td><p>Verdadeiro</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -224,16 +224,16 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Sem suporte</p></td>
 <td><p>Opcional</p></td>
 <td><p>Falso</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > Configuração não válida
 
 
 </div></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL requer TLS. Permitir que o TLS seja opcional pode resultar em negociações de sessão com falhas.
 
 
@@ -251,9 +251,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Sem suporte</p></td>
 <td><p>Falso</p></td>
 <td><p>Configuração não válida</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL ou Dialback devem estar ativados.
 
 
@@ -271,9 +271,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Sem suporte</p></td>
 <td><p>Falso</p></td>
 <td><p>Configuração não válida</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL ou Dialback devem estar ativados.
 
 
@@ -291,9 +291,9 @@ As configurações dos tipos de negociação na configuração de um Parceiro XM
 <td><p>Sem suporte</p></td>
 <td><p>Falso</p></td>
 <td><p>Configuração não válida</p></td>
-<td><div class="alert">
+<td>
 
-> [!WARNING]
+> [!WARNING]  
 > SASL ou Dialback devem estar ativados.
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Herança de permissões está desabilitado em computadores, usuários ou contêiners InetOrgPerson'
+title: "Lync Server 2013: Her. de perm. está desab. em comp., usuários ou cont. InetOrgPerson"
 TOCTitle: Herança de permissões está desabilitado em computadores, usuários ou contêiners InetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412970(v=OCS.15)
@@ -95,5 +95,5 @@ Você precisa de direitos de usuário equivalentes à associação no grupo Admi
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
-    > [!note]  
+    > [!NOTE]  
     > Se você executar a preparação do domínio no domínio raiz da floresta, em um ambiente do Active Directory bloqueado, lembre-se de que o Lync Server exige acesso aos contêineres Esquema e Configuração do Active Directory.<br />    Se a permissão de usuário autenticado padrão for removida dos contêineres Esquema ou Configuração no AD DS, somente os membros do grupo Administradores de esquemas (para o contêiner Esquema) ou do grupo Administradores de empresa (para o contêiner Configuração) terão permissão para acessar o contêiner especificado. Como Setup.exe, os cmdlets do Shell de Gerenciamento do Lync Server e o Painel de Controle do Lync Server exigem acesso a esses contêineres, a configuração e instalação das ferramentas administrativas falhará, a menos que o usuário que está executando a instalação tenha direitos de usuário equivalentes à associação de grupo Administradores de esquemas e Administradores de empresa.<br />    Para corrigir essa situação, é necessário conceder ao grupo RTCUniversalGlobalWriteGroup acesso de Leitura e Gravação nos contêineres Esquema e Configuração.

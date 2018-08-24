@@ -31,7 +31,7 @@ A execução do Ferramenta de Planejamento não o prende a nenhuma implantação
 
 Após estar satisfeito, é possível usar o Ferramenta de Planejamento para criar um diagrama da sua implantação planejada. É possível usar este diagrama enquanto cria a implantação no Construtor de Topologias.
 
-> [!note]  
+> [!NOTE]  
 > A Ferramenta de Planejamento incluída com esta versão do Lync Server 2013 é uma versão de pré-lançamento. Observe que os números do planejamento de capacidade na Ferramenta de Planejamento são preliminares e não são suportados pela versão final.
 
 ## Construtor de Topologia do Lync Server

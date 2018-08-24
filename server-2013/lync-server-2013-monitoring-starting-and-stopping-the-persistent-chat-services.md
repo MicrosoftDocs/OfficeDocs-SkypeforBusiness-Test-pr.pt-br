@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Monitorando, iniciando e interrompendo serviços do chat persistente'
+title: "Lync Server 2013: Monit., inic. e interromp. o serviços do chat persistente"
 TOCTitle: Monitorando, iniciando e interrompendo serviços do chat persistente
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398105(v=OCS.15)

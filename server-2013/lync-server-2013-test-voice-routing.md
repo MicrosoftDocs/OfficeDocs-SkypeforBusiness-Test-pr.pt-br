@@ -20,10 +20,8 @@ Você pode usar a guia **Testar Roteamento de Voz** do Painel de Controle do Lyn
 Antes de realmente implantar sua configuração de roteamento de voz, recomendamos que você teste em vários números de telefone para garantir os resultados esperados.
 
 
-> [!TIP]
+> [!TIP]    
 > Também é possível usar os comandos <STRONG>Exportar casos de teste</STRONG> e <STRONG>Importar casos de teste</STRONG> para salvar os casos de teste de roteamento de voz e importá-los para uso em outro computador.
-
-
 
 
 > [!CAUTION]

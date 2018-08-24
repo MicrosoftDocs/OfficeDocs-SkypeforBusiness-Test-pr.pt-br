@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware'
+title: "Res. de cert. - Borda consol. em escala com balanc. de carga de hardware"
 TOCTitle: Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398692(v=OCS.15)
@@ -19,7 +19,7 @@ O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros 
 
 O certificado atribuído às interfaces externas do Servidor de Borda é solicitado por uma autoridade de certificação (CA) pública. As CAs públicas que são bem-sucedidas no fornecimento de certificados para os fins do Comunicações Unificadas são listadas neste artigo: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395). Ao solicitar o certificado, use a solicitação de certificado gerada pelo Assistente de Implantação do Lync Server ou crie a solicitação manualmente ou por meio do processo fornecido pela CA pública. Quando o certificado é atribuído, ele cobre a interface do Serviço de Borda de Acesso, a interface do Serviço de Borda de Webconferência e o serviço de autenticação de áudio/vídeo. O serviço Autenticação de áudio/vídeo não deve ser confundido com o Serviço de Borda A/V, que não usa certificado para criptografar os fluxos de áudio e vídeo. A interface interna do Servidor de Borda pode usar um certificado de uma CA interna (de sua organização) ou de CA pública. Os certificados de interface internos usam somente o SN e não requerem nem usam entradas de SAN.
 
-> [!note]  
+> [!NOTE]  
 > A tabela a seguir exibe uma segunda entrada SIP (sip.fabrikam.com) na lista de nomes alternativos de entidade como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo de entidade do certificado.
 
 ## Certificados necessários para a borda consolidada dimensionada com balanceadores de carga de hardware

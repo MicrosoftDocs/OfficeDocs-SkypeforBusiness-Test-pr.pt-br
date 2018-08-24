@@ -33,7 +33,7 @@ O Serviço Web de Atualização de Dispositivos mantém uma coleção de arquivo
 
 Você pode limpar os logs de atualização do dispositivo usando o Windows PowerShell e o cmdlet **Clear-CsDeviceUpdateLog**. Esse cmdlet pode ser executado no Shell de Gerenciamento do Lync Server 2013 ou a partir de uma sessão remota do Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
 
 ## Para limpar os logs de atualização do dispositivo em um servidor

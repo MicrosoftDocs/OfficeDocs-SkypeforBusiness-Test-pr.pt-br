@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-06-13_
 
 O Lync Server 2013, o Analisador de Práticas Recomendadas é uma ferramenta de diagnóstico que reúne informações de configuração de ambientes do Lync Server 2013 e determina se a configuração está de acordo com as práticas recomendadas da Microsoft.
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server 2013, o Analisador de Práticas Recomendadas examina e reporta problemas apenas com componentes do Lync Server 2013. Se sua implantação incluir o componente do Lync Server 2010 ou do Office Communications Server 2007 R2, use a versão anterior do Analisador de Práticas Recomendadas para analisar esses componentes. Para obter detalhes, consulte <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requisitos para Excutar o Analisador de Práticas Recomendadas</a>.
 
 ## Nesta seção

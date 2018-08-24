@@ -1,6 +1,6 @@
 ﻿---
-title: Pré-requisitos de configuração do recebimento de chamadas em grupo e direitos do usuário
-TOCTitle: Pré-requisitos de configuração do recebimento de chamadas em grupo e direitos do usuário
+title: "Pré-requisitos de config. do recebimento de chamadas em grupo e direitos do usuário"
+TOCTitle: "Pré-requisitos de config. do recebimento de chamadas em grupo e direitos do usuário"
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 52057645
@@ -49,7 +49,7 @@ Configurar o recebimento de chamadas de grupo requer qualquer uma das seguintes 
 
   - **CsAdministrator:** Esta função de administrador pode executar todas as tarefas do CsVoiceAdministrator, CsServerAdministrator e CsUserAdministrator.
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.
 
 ## Consulte Também

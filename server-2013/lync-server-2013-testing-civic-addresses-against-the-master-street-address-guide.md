@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Testing civic addresses against the master street address guide'
+title: "Lync Server 2013: Testando end. Civis em relação ao guia de end. master"
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn690132(v=OCS.15)

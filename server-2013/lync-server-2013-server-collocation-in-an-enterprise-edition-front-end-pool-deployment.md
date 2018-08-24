@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition'
+title: "Posic. servidor em uma implant. do pool de front-ends do Enterprise Edition"
 TOCTitle: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398102(v=OCS.15)
@@ -57,10 +57,10 @@ Você pode colocar cada um dos bancos de dados a seguir no mesmo servidor de ban
 
    É possível colocar um compartilhamento de arquivo com um banco de dados, conforme será descrito ainda nesta seção.
 
-> [!note]  
+> [!NOTE]  
 > No Lync Server 2013, você tem a opção de integrar o armazenamento de Arquivamento com o armazenamento do Exchange 2013 para alguns ou todos os usuários em sua implantação. Não é possível implantar servidores que estão executando Lync Server ou componentes nos mesmos servidores que o armazenamento de Exchange.
 
-> [!important]  
+> [!IMPORTANT]  
 > Embora a colocação de bancos de dados seja suportada, o tamanho dos bancos de dados pode aumentar muito rápido. Por exemplo, quando você considera colocar o banco de dados de Arquivamento com outros bancos de dados, se estiver arquivando as mensagens de mais de alguns usuários, o espaço em disco exigido pelo banco de dados de Arquivamento poderá aumentar bastante. Por esse motivo, não recomendamos colocar vários bancos de dados, especialmente o banco de dados de Arquivamento, o banco de dados do Chat Persistente ou o banco de dados de conformidade do Chat Persistente com o banco de dados back-end.
 
 ## Compartilhamento de arquivo
@@ -79,7 +79,7 @@ O compartilhamento de arquivo pode ser um servidor separado ou pode ser colocado
 
 Um compartilhamento de arquivo único pode ser usado para múltiplos pools de Front-Ends, servidores Standard Edition (todos no mesmo site).
 
-> [!note]  
+> [!NOTE]  
 > No Lync Server 2013, o Monitoramento e o Arquivamento usam o compartilhamento de arquivo do Lync Server como o Servidor Front-End.
 
 ## Outros componentes

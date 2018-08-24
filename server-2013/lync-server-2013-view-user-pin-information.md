@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 Para ingressar em uma conferência de discagem como usuário autenticado, um usuário do Lync Server 2013 com credenciais do AD DS (Serviços de Domínio Active Directory) precisa de um PIN (número de identificação pessoal). Você pode exibir as informações de PIN de um usuário no Painel de Controle do Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário perder seu PIN, você poderá redefini-lo seguindo os procedimentos em <a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Configurar PIN de conferência discada de um usuário no Lync Server 2013</a>
 
 ## Para exibir o PIN de um usuário no Painel de Controle do Lync Server
@@ -45,13 +45,13 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
     4.  Dependendo da propriedade de usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando-os ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para inserir cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
     5.  Clique em **Localizar**.
     
-    > [!note]  
+    > [!NOTE]  
     > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.
 
 6.  Clique em um usuário nos resultados da pesquisa, em **Ação** e depois em **Exibir status do PIN**.

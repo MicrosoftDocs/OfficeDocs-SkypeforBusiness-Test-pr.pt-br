@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pré-requisitos e permissões de configuração de conferência discada'
+title: "Lync Server 2013: Pré-requisitos e permissões de config. de confer. discada"
 TOCTitle: Pré-requisitos e permissões de configuração de conferência discada
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412865(v=OCS.15)
@@ -35,7 +35,7 @@ A conferência discada exige os seguintes componentes do Lync Server 2013:
 
 Você implanta esses componentes quando usa o Construtor de Topologias para definir e publicar sua topologia e implanta um pool Front-End ou um servidor Standard Edition. Se você estiver implantando o Enterprise Voice, deverá implantá-lo antes de configurar a conferência discada. Se você não estiver implantando o Enterprise Voice, poderá implantar um Servidor de mediação e um gateway PSTN (Rede Telefônica Comutada Pública) ao implantar seu pool Front-End ou servidor Standard Edition.
 
-> [!note]  
+> [!NOTE]  
 > Se você estiver atualizando a partir do Office Communications Server 2007 R2 para o Lync Server 2013, implante a conferência discada em cada pool que você planeja usar para hospedar conferências do Lync Server 2013. Para obter detalhes sobre como migrar conferências discadas, consulte <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migração do Office Communications Server 2007 R2 para Lync Server 2013</a>.
 
 Esta seção supõe que você fez o seguinte:
@@ -46,9 +46,9 @@ Esta seção supõe que você fez o seguinte:
 
   - Publicou sua topologia e configurou o pool Front-End ou servidor Standard Edition. Para obter detalhes sobre como publicar a topologia e instalar o Lync Server 2013, consulte [Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação Implantação.
     
-    > [!note]  
+    > [!NOTE]  
     > Ao instalar sua topologia publicada, a página da Web Configurações de Conferência Discada é instalada no servidor Front-End ou servidor Standard Edition como parte dos Serviços da Web.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Se você alterar o caminho para o Repositório de Arquivos em Construtor de Topologias após a implantação do Lync Server 2013, será necessário reiniciar os aplicativos Atendedor de Conferência e Anúncio de Conferência para usar o novo caminho.
 
   - Implantou o Enterprise Voice. Se não estiver implantando o Enterprise Voice, você terá implantado um Servidor de mediação no servidor Front-End Enterprise Edition ou servidor Standard Edition, ou terá implantado um Servidor de mediação autônomo e um gateway PSTN. Para obter detalhes sobre como implantar o Enterprise Voice, consulte [Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação Implantação. Para obter detalhes sobre como instalar um Servidor de mediação autônomo e um gateway PSTN, consulte [Implantando Servidores de Mediação e definindo pares no Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) na documentação Implantação.

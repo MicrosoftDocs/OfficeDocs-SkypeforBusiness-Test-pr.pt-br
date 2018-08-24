@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
+title: "Lync Server 2013: Perguntas Frequentes: Config. Lync Server p/ conectiv. com Skype"
 TOCTitle: 'Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn440172(v=OCS.15)
@@ -79,7 +79,7 @@ _**Tópico modificado em:** 2016-12-27_
 
   - Domínios SIP. É o sufixo de domínio do URL SIP que os usuários usam atualmente para mensagens instantâneas. Se a sua organização tiver mais de um domínio SIP, especifique o sufixo de cada domínio para mensagens instantâneas. Por exemplo, para usuario1@contoso.com, especifique contoso.com como o domínio SIP; para usuário1@example.fabrikam.com, especifique example.fabrikam.com como o domínio SIP.
     
-    > [!note]  
+    > [!NOTE]  
     > Especifique somente o sufixo de domínio para o domínio SIP. Não especifique qualquer FQDN, incluindo o FQDN do serviço de Borda de Acesso, para o domínio SIP.
 
   - Informações de contato. Especifique um endereço de email para o administrador de cada domínio SIP especificado por você.

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usando o portal administrativo da Web do Sistema de Salas do Lync'
+title: "Lync Server 2013: Usando o portal adm. da Web do Sistema de Salas do Lync"
 TOCTitle: Usando o portal administrativo da Web do Sistema de Salas do Lync
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743660(v=OCS.15)
@@ -73,7 +73,7 @@ A seção Integridade oferece uma indicação visual da integridade da conexão,
 
 ## Observações adicionais sobre o portal administrativo da Web
 
-> [!note]  
+> [!NOTE]  
 > <ul><li><p>Por motivos de segurança, o portal administrativo da Web desconecta você a cada 15 minutos.</p></li><li><p>As alterações da configuração são aplicadas somente após a reinicialização do sistema do LRS.</p></li><li><p>As notificações sobre o portal administrativo da Web do LRS são fixas; em outras palavras, elas não desaparecem.</p></li>
 > <li><p>As notificações aparecem somente depois que você atualiza a página.</p></li>
 > <li><p>O status das salas do LRS aparecem depois que você atualiza a página.</p></li>

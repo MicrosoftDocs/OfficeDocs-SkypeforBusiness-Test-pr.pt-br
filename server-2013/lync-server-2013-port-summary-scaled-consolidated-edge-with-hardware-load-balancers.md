@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware'
+title: "Lync Server 2013: Res. de porta - borda cons. em esc. c/ balanc. de carga de hardware"
 TOCTitle: Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398739(v=OCS.15)

@@ -25,7 +25,7 @@ Para criar um novo suplemento
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
-> [!important]  
+> [!IMPORTANT]  
 > PersistentChatPoolFqdn &lt;String&gt; é necessário somente se há mais de um Pool de Servidor de Chat Persistente.
 
 Para obter um suplemento

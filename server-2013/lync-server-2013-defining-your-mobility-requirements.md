@@ -47,9 +47,10 @@ A seguir estão as decisões que você precisa considerar:
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
-    > [!note]  
-    > Não há requisitos adicionais de configurações para UCWA. O UCWA não tem uma configuração exclusivamente interna que seja equivalente.    
-    > [!important]  
+    > [!NOTE]  
+    > Não há requisitos adicionais de configurações para UCWA. O UCWA não tem uma configuração exclusivamente interna que seja equivalente.
+        
+    > [!IMPORTANT]  
     > Se estiver usando um Lync Server 2013Servidor Front-End ou Pools de Front-Ends e <strong>você não tem</strong> qualquer Lync Server 2010Servidores Front-End ou Pools de Front-Ends, <strong>não há requisitos para persistência com base em cookies</strong>. Se precisar reter qualquer Lync Server 2010Servidores Front-End ou Pools de Front-Ends, as mesmas regras se aplicam assim como na persistência com base em cookie do Lync Server 2010.
 
   - **Você deseja oferecer suporte às notificações por push para dispositivos Apple iOS e Windows Phones?**
@@ -58,11 +59,11 @@ A seguir estão as decisões que você precisa considerar:
     
     Se você quiser oferecer suporte às notificações por push sobre sua rede Wi-Fi, além de suportar as notificações por push pelas redes 3G ou redes de dados dos provedores de serviço móveis, será necessário abrir a porta 5223 de saída em sua rede Wi-Fi empresarial. O suporte às notificações por push por rede Wi-Fi oferece suporte aos dispositivos móveis que usam apenas Wi-Fi e a dispositivos móveis que possuem uma recepção interna ruim.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Abrir a porta TCP 5223 é necessário somente ao suportar dispositivos Apple executando o cliente Lync 2010 Mobile.    
     Se você não quiser oferecer suporte às notificações por push, os usuários de dispositivos móveis da Apple e de Windows Phones não serão notificados sobre eventos, como convites de mensagem instantânea ou mensagens perdidas, que ocorrem quando o aplicativo móvel está inativo.
     
-    > [!note]  
+    > [!NOTE]  
     > Clientes móveis do Lync 2013 em dispositivos Apple não requerem notificações por push. Os clientes móveis do Lync 2013 em Windows Phone utilizam notificações por push. O planejamento para as notificações por push e o centro de roteamento dessas notificações permanece o mesmo para Lync Mobile em Windows Phone e dispositivos Apple que não podem executar o cliente móvel Lync 2013.
 
   - **Você quer que todos os usuários tenham acesso aos recursos de mobilidade ou quer ser capaz de especificar quais usuários terão acesso a esses recursos?**
@@ -133,7 +134,7 @@ A seguir estão as decisões que você precisa considerar:
     
     Para que os usuários tenham acesso aos recursos de mobilidade e Chamada via Trabalho, eles precisam ser habilitados para o Enterprise Voice. No entanto, os usuários que não estão habilitados para o Enterprise Voice podem ingressar em conferências clicando no link em seu dispositivo móvel, caso tenham uma política de voz apropriada atribuída a eles. É possível atribuir uma política de voz específica a esses usuários ou se certificar de que exista uma política de nível global ou de site que se aplique a eles. A política de voz atribuída precisa ter registros de uso de PSTN (Rede Telefônica Pública Comutada) e rotas que definam as áreas para as quais os usuários possam discar a fim de ingressar em uma conferência. Para obter detalhes sobre como configurar a política de voz, registros de uso de PSTN e rotas, consulte [Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
     
-    > [!note]  
+    > [!NOTE]  
     > Os usuários móveis que desejam usar Clique para ingressar precisam de uma política de voz, junto com os registros de uso de PSTN e rotas de voz, pois clicar no link no dispositivo móvel resulta em uma chamada de saída de Lync Server 2013.
 
 ## Consulte Também

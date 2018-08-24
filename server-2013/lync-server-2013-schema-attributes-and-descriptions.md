@@ -680,7 +680,7 @@ Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada
 <td><p>Este atributo é uma cadeia de caracteres Unicode de valor único. Esta cadeia de caracteres contém a definição da política no formato XML. A definição de esquema XML é comum entre diferentes tipos de política, apenas as configurações são diferentes para cada um deles.</p>
 <p>A definição de esquema XML (XSD) é definida da seguinte forma:</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;

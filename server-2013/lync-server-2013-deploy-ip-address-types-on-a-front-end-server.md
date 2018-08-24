@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantar tipos de endereço IP em um Servidor Front-End Server'
+title: "Lync Server 2013: Implantar tipos de end. IP em um Servidor Front-End Server"
 TOCTitle: Implantar tipos de endereço IP em um Servidor Front-End Server
 ms:assetid: b6c8e0f9-ec8e-4a4e-a525-756f9cd6b9d0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205191(v=OCS.15)
@@ -29,7 +29,7 @@ Usando a Construtor de Topologias, execute as etapas no seguinte procedimento pa
     
       - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado.
         
-        > [!note]  
+        > [!NOTE]  
         > Esta é a opção recomendada para as configurações da versão 6 do IP (IPv6).    
       - **Limitar uso de serviços para selecionar endereços IP**. Selecione esta opção para especificar um endereço específico para usar um novo servidor. Se você selecionar esta opção, é necessário inserir um valor para o **Endereço IP principal** .
     

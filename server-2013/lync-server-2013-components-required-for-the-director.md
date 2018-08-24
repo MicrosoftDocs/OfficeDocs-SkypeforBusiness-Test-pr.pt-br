@@ -21,7 +21,7 @@ O único componente necessário para criar e configurar um Diretor é implantar 
 
 Você pode implementar um servidor de Diretor único ou um pool de Pool de diretores. Os Diretor são sempre um servidor ou pool separados, não colocado com nenhuma outra função de servidor em Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Caso não implante o Diretores, o Servidor Front-End ou o Pool de Front-Endsassumirão a função do Diretor.
 
 Um pool de Diretores deve ter a carga balanceada. Você pode:

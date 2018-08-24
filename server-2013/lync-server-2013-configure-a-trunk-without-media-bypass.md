@@ -37,7 +37,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
         
           - **Tronco do pool :** escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Este pode ser o tronco raiz ou qualquer tronco adicional definido no Construtor de Topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
     
-    > [!note]  
+    > [!NOTE]  
     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado.<br />    O campo <strong>Nome</strong> é pré-preenchido com o nome do site ou serviço associado à configuração de tronco e não pode ser alterado.
 
 5.  Selecione uma das seguintes opções de **Nível de suporte de criptografia**:
@@ -66,7 +66,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
         
         2.  No campo **Nome**, especifique um nome descritivo que seja exclusivo para o registro.
             
-            > [!note]  
+            > [!NOTE]  
             > O nome do registro de uso de PSTN deve ser exclusivo dentro da implantação do Enterprise Voice. Após a gravação do registro, o campo <strong>Nome</strong> não poderá ser editado.        
         3.  Use um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
             
@@ -96,12 +96,12 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
         
         3.  Clique em **OK**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > É importante associar registros de uso do PSTN de acordo com o ponto do Servidor de Mediação associado ao tronco que está sendo configurado. Se o ponto do Servidor de Mediação for um gateway do PSTN ou um Controlador de Borda de Sessão (SBC), recomenda-se que a configuração de tronco não seja associada com um registro de uso do PSTN ou qualquer outro sistema downstream conectado através do Lync Server.
 
 10. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, selecione o registro de uso e clique na seta para cima ou para baixo.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A ordem na qual PSTN registros de uso são listados na configuração de tronco é significativa. O Lync Server percorre a lista de cima para baixo.
 
 11. **Habilitar engatador RTP** deve ser selecionado para habilitar bypass de mídia para clientes sob um NAT ou firewall e um SBC que dê suporte ao engatador.
@@ -141,21 +141,22 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
       - Para remover uma regra de conversão do tronco, destaque o nome da regra e clique em **Remover**.
     
 
-    > [!CAUTION]
-    > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+<table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+								Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito.
+							</td></tr></tbody></table>
 
 
 
 17. Verifique se as regras de conversão do tronco estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique na seta para cima ou para baixo.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O Lync Server percorre a lista de regras de conversão de cima para baixo e usa a primeira regra que corresponda ao número discado. Se você configurar um tronco de forma que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você incluiu uma regra de conversão que corresponda a qualquer número de 11 dígitos e uma regra de conversão que corresponda somente a números de 11 dígitos que comecem com +1425, certifique-se de que a regra que corresponda a qualquer número de 11 dígitos esteja classificada <em>abaixo</em> da regra mais restritiva.
 
 18. Ao terminar de configurar o tronco, clique em **OK**.
 
 19. Na página **Configuração do Tronco**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que criar ou modificar uma configuração de tronco, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também

@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-30_
 
 Os usuários de conferência discada podem pressionar teclas no teclado do telefone para executar comandos DTMF (multifrequência de tom dual). Comandos DTMF permitem que os usuários que discam para uma conferência controlem as configurações da conferência (como ativar ou desativar o próprio microfone, ou bloquear e desbloquear a conferência) pelo teclado do telefone. É possível usar cmdlets para modificar as teclas usadas para os comandos DTMF. Essa etapa é opcional.
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes sobre esses cmdlets e as possíveis opções de DTMF, consulte a documentação do Shell de Gerenciamento do Lync Server ou a Ajuda da linha de comando do Shell de Gerenciamento do Lync Server.
 
 ## Para modificar o mapeamento principal dos comandos DTMF

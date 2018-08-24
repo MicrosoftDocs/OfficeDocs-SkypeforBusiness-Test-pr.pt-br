@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Alterações no Lync Server que afetam o planejamento do Servidor de Borda'
+title: "Lync Server 2013: Alterações no Lync Server que afetam o planj. do Serv. de Borda"
 TOCTitle: Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204965(v=OCS.15)
@@ -27,10 +27,10 @@ Um novo requisito para oferecer suporte ao IPv6 no Lync Server 2013 é criar reg
 
 O Servidor de Borda introduz um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP (implantado em seus Servidores Front-End). Você pode implantar a federação XMPP como um componente opcional. Ao adicionar e configurar o proxy e o gateway XMPP, você pode permitir que seus usuários do Microsoft Lync 2013 adicionem contatos de parceiros XMPP para IM (mensagens instantâneas) e presença.
 
-> [!note]  
+> [!NOTE]  
 > No momento, os serviços XMPP do Servidor de Borda só fornecem IM e presença entre clientes do Lync Server e contatos XMPP. Além disso, o XMPP é hospedado somente em um site.
 
-> [!important]  
+> [!IMPORTANT]  
 > O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.
 
 ## Suporte a certificados de autenticação servidor a servidor e autenticação de áudio/vídeo
@@ -48,7 +48,7 @@ Uma novidade no Lync Server 2013 é a capacidade de preparar certificados substi
 Em versões anteriores do Lync Server e do Office Communications Server, a afinidade com base em cookies era usada pelos serviços Web para garantir que o estado da sessão do cliente e dos serviços Web fosse mantido. Os serviços Web do Lync Server 2013 usam um mecanismo de afinidade interno que elimina em grande parte a necessidade da afinidade com base em cookies.
 
 
-> [!WARNING]
+> [!WARNING]  
 > O cliente do Microsoft Lync 2010 Mobile ainda precisa usar a afinidade com base em cookies e ela precisará ser configurada até que todos os clientes sejam migrados para o futuro cliente do Microsoft Lync Mobile (a data do lançamento ainda não foi determinada).
 
 
@@ -63,7 +63,7 @@ O recurso Descoberta Automática do Lync Server 2013 permite que os clientes loc
 
 Introduzidos na atualização cumulativa do Lync Server 2010 de novembro de 2011, os serviços de mobilidade do Lync Server 2013 permitem que celulares que executam o Lync Mobile, dispositivos tablet que usam os sistemas Apple iOS, Android e Windows Phone com suporte ou dispositivos móveis Nokia realizem atividades como enviar e receber mensagens instantâneas ou exibir contatos e presença. Além disso, os dispositivos móveis oferecem suporte a alguns recursos do Enterprise Voice, como clicar para ingressar em uma conferência, Telefonar via Trabalho, acesso por único número, caixa postal e notificação de chamadas perdidas.
 
-> [!note]  
+> [!NOTE]  
 > Os serviços de mobilidade usam o proxy reverso e os serviços publicados implantados em seus Servidores Front-End. Nenhuma alteração é necessária nos Servidores de Borda. No mínimo, você precisa de SIP/TCP/5061 de saída do servidor que executa o Serviço de Borda de Acesso do Lync Server.
 
 ## A função Diretor é opcional

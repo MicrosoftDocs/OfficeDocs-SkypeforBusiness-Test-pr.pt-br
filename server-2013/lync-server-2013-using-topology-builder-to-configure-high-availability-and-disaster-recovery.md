@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre'
+title: "Lync Server 2013: Usando Constr.r de Topol. p/ config. alta dispon. e recup. desastre"
 TOCTitle: Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205172(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Exibir aplicativos de servidor do Idioma de Processamento SIP da Microsoft'
+title: "Lync Server 2013: Exibir app de servidor do Idioma de Proc. SIP da Microsoft"
 TOCTitle: Exibir aplicativos de servidor do Idioma de Processamento SIP da Microsoft
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182575(v=OCS.15)

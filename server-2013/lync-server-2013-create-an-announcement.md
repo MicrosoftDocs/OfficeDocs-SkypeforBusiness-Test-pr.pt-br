@@ -24,7 +24,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 3.  Execute o cmdlet **New-CsAnnouncement** para criar e nomear o comunicado. Execute esta etapa para criar comunicados com um prompt de áudio, um prompt TTS (text-to-speech), ou sem prompt.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Pode ser desejável criar um comunicado sem prompt (por exemplo, se você deseja transferir chamadas para um destino específico sem reproduzir uma mensagem).
 
 

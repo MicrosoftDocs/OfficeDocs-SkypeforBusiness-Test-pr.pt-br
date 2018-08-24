@@ -1,6 +1,6 @@
 ﻿---
-title: Personalizar a música de espera do estacionamento de chamada no Lync Server 2013
-TOCTitle: Personalizar a música de espera do estacionamento de chamada no Lync Server 2013
+title: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
+TOCTitle: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688031(v=OCS.15)
 ms:contentKeyID: 49886186
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-10_
 
 Você pode especificar seu próprio arquivo de música para utilizar para música em espera em vez do arquivo de música padrão que é enviado com Lync Server 2013. Para personalizar música em espera, utilize o cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
 
-> [!note]  
+> [!NOTE]  
 > Se você personalizar a música em espera e quiser a mesma música para diversos sites, você deve configurar o arquivo para cada site que executa o Aplicativo de Estacionamento de Chamada.
 
 ## Para personalizar o arquivo de música
@@ -31,7 +31,7 @@ Você pode especificar seu próprio arquivo de música para utilizar para músic
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
 
-    > [!TIP]
+    > [!TIP]  
     > Utilize o cmdlet <STRONG>Get-CsService</STRONG> para identificar o serviço. Para detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     

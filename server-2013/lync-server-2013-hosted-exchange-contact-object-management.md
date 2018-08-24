@@ -31,12 +31,12 @@ Veja a seguir as etapas gerais para trabalhar com seu administrador de inquilino
 
 4.  O administrador do Exchange atribui os números de telefone aos planos de discagem de UM do Exchange apropriados para acesso dos atendedores automáticos e do assinante.
 
-> [!note]  
+> [!NOTE]  
 > Não há necessidade de configurar um plano de discagem do Lync Server 2013 nos objetos de Contato da mesma forma que há com as implantações em instalações.
 
 ## Configurando os objetos de contato
 
-> [!note]  
+> [!NOTE]  
 > Antes de os objetos de Contato do Lync Server 2013 poderem ser habilitados para a UM do Exchange hospedada, é preciso implantar uma política de caixa postal hospedada que se aplica a eles. A política pode ser de nível global, de site ou com um escopo por usuário, contanto que se aplique ao objeto de contato que você deseja habilitar. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
 
 Para configurar os objetos de Contato de acesso hospedado do atendedor automático e do assinante em uma implantação entre instalações, é necessário usar os seguintes cmdlets:

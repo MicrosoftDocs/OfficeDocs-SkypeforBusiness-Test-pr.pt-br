@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2014-05-14_
 
 É possível procurar usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory. O procedimento a seguir descreve como usar o Painel de Controle do Lync Server para pesquisar usuários.
 
-> [!note]  
+> [!NOTE]  
 > Em um ambiente com uma topologia de floresta central, os resultados da pesquisa poderão não ser precisos quando você procurar um usuário pelo endereço de email. Em vez disso, você pode procurar usuários especificando um prefixo de endereço SIP, por exemplo, sip:name, adicionar um filtro de pesquisa e selecionar um endereço SIP que contenha um endereço de email parcial ou usar o cmdlet <strong>Get-CSUser</strong>.
 
 ## Para procurar um ou mais usuários

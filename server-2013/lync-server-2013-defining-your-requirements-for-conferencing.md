@@ -35,7 +35,7 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Se você desejar habilitar a conferência de áudio, mas não a conferência de vídeo, poderá habilitar a conferência A/V e usar políticas de reunião para impedir as conferências de vídeo. Como alternativa, você pode habilitar a conferência A/V e permitir que somente determinados usuários iniciem ou participem de conferências A/V.
     
-    > [!note]  
+    > [!NOTE]  
     > O Enterprise Voice não é necessário para você usar a conferência A/V. Se você habilitar a conferência A/V, seus usuários poderão adicionar áudio a suas conferências se tiverem dispositivos de áudio, mesmo que você use um sistema PBX como sua solução de telefone.
 
   - **Deseja permitir que os usuários ingressem na parte de áudio de conferências quando usam um telefone PSTN?**

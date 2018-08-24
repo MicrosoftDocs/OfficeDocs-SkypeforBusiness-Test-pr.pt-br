@@ -19,7 +19,7 @@ O tópico a seguir oferece diretrizes sobre a atualização de entradas DNS, mov
 
 Para uma cobertura mais abrangente sobre a remoção de servidores Lync Server 2010 e funções de servidores, e para ver um guia passo a passo sobre como encerrar uma implantação Lync Server 2010, consulte "Desinstalando o Microsoft Lync Server 2010 e removendo funções de servidor", disponível para download em [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
-> [!important]  
+> [!IMPORTANT]  
 > Para obter informações sobre como migrar e atualizar aplicativos Microsoft Unified Communications Managed API (UCMA), antes de encerrar o ambiente herdado, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Nesta seção

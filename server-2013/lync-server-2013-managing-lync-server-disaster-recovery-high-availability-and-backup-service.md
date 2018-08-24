@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server'
+title: "Gerenc. Recup. de desastre, alta dispon. e Serviço de Backup do Lync Server"
 TOCTitle: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721939(v=OCS.15)
@@ -25,28 +25,12 @@ Os procedimentos de recuperação de desastres no restante dessa seção pressup
 
   - Se o Repositório de Gerenciamento Central está hospedado em ambos os pools, ele é instalado e executado em ambos os pools emparelhados, sendo que um dos pools hospeda o mestre ativo e o outro pool, o em espera.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nos procedimentos a seguir, o parâmetro <em>PoolFQDN</em> se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<br />Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas:<ol>
-> <li><p>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, <em>PoolFQDN</em> é o FQDN de P1.</p></li>
-> 
+> [!IMPORTANT]  
+> Nos procedimentos a seguir, o parâmetro <em>PoolFQDN</em> se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<br />Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas:
+> <ol><li><p>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, <em>PoolFQDN</em> é o FQDN de P1.</p></li>
 > <li><p>Transfira todos os usuários originalmente hospedados em P2 para o P1 utilizando o cmdlet de failover. Nesse caso, a propriedade <em>PoolFQDN</em> é o FQDN de P2.</p></li>
-> 
-> 
 > <li><p>Se o administrador desejar retornar posteriormente os usuários para o P2, o <em>PoolFQDN</em> é o FQDN do P2.</p></li></ol>
-Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.</td>
-</tr>
-</tbody>
-</table>
+> Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.
 
 
 ## Nesta seção

@@ -23,13 +23,13 @@ A topologia de borda consolidada em escala do Lync Server 2013 é otimizada para
 
   - Conectividade para usuários públicos de mensagens instantâneas
 
-> [!important]  
+> [!IMPORTANT]  
 > O uso do balanceamento de carga de DNS em uma interface e do balanceamento de carga de hardware na outra não é suportado. É preciso usar o balanceamento de carga de hardware ou de DNS nas duas interfaces.
 
-> [!note]  
+> [!NOTE]  
 > Se estiver usando um balanceador de carga de hardware, o balanceador de carga implantado para conexões com a rede interna deverá ser configurado para balancear apenas cargas do tráfego de servidores que executam o serviço de Borda de Acesso e o serviço de Borda A/V. Ele não poderá balancear a carga do tráfego do serviço interno de Borda de Webconferência ou do serviço interno de Proxy XMPP.
 
-> [!note]  
+> [!NOTE]  
 > O NAT do DSR (devolução do servidor direto) não é suportado com o Lync Server 2013.
 
 Para determinar se o seu balanceador de carga de hardware oferece suporte aos recursos necessários exigidos pelo Lync Server 2013, consulte "Lync Server 2010 Parceiros do Balanceador de Carga" em [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).
@@ -52,7 +52,7 @@ A seguir, são apresentados os requisitos do balanceador de carga de hardware do
 
 Os requisitos de afinidade baseados em cookie foram drasticamente reduzidos no Lync Server 2013 para serviços Web. Se estiver implantando o Lync Server 2013 e não estiver retendo nenhum Lync Server 2010Servidores Front-End ou Pools de Front-Ends, a persistência baseada em cookie não será necessária. No entanto, se você for reter temporária ou permanentemente qualquer Lync Server 2010Servidores Front-End ou Pools de Front-Ends, continue a usar a persistência baseada em cookie, pois ela é implantada e configurada para o Lync Server 2010.
 
-> [!note]  
+> [!NOTE]  
 > <strong>Se decidir usar a afinidade baseada em cookie mesmo que sua implantação não exija</strong>, isso não causará um impacto negativo.
 
 Para implantações que **não usarão** afinidade baseada em cookie:
@@ -71,13 +71,13 @@ Para implantações que **usarão** afinidade baseada em cookie:
 
   - O cookie do balanceador de carga de hardware DEVE ser definido em todas as respostas HTTP para as quais a solicitação HTTP recebida não contém um cookie, independentemente de uma resposta HTTP anterior na mesma conexão TCP já ter obtido um cookie. Se o balanceador de carga otimiza a inserção de cookie para apenas uma ocorrência por conexão TCP, essa otimização NÃO DEVE ser usada
 
-> [!note]  
+> [!NOTE]  
 > As configurações típicas do balanceador de carga de hardware usam afinidade com endereço de origem e tempo de vida de 20 minutos da sessão de TCP, o que é suficiente para os clientes do Lync Server e do Lync 2013, pois o estado da sessão é mantido em todo o uso do cliente e/ou interação do aplicativo.
 
 Se estiver implantando dispositivos móveis, o balanceador de carga de hardware deverá ser capaz de balancear a carga da solicitação individual em uma sessão TCP (na verdade, você deve poder balancear a carga de uma solicitação individual com base no endereço IP de destino).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso.<BR>Para obter informações sobre balanceadores de carga de hardware de terceiros, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 

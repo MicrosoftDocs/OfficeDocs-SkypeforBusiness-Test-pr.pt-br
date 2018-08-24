@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificar ou configurar autenticação e certificação nos diretórios virtuais de IIS'
+title: "Lync Server 2013: Verificar ou config. autent. e cert. nos diret. Virt. de IIS"
 TOCTitle: Verificar ou configurar autenticação e certificação nos diretórios virtuais de IIS
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429702(v=OCS.15)
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-05-25_
 
 Use o procedimento a seguir para configurar a certificação dos diretórios virtuais do IIS (Serviços de Informações da Internet) ou verificar se a certificação está configurada corretamente. Execute o procedimento a seguir em cada servidor que estiver executando o ISS no pool Lync Server e os servidores opcionais Diretor ou Pool de diretores.
 
-> [!note]  
+> [!NOTE]  
 > O procedimento a seguir define um procedimento para solicitar um certificado combinado que é utilizado para todos os propósitos de Lync Server, Internal Web Site e External Web Site no IIS. Lync Server 2010 introduziu um conjunto de cmdlets Shell de Gerenciamento do Lync ServerWindows PowerShell para o propósito expresso de gerenciamento de solicitação de certificado, importação e atribuição. O procedimento assume que há uma autoridade de certificação (CA) implantada internamente que pode processar a solicitação. Se você usa certificados públicos para propósitos Lync Server ou o CA requer uma solicitação offline, consulte a sintaxe detalhada neste tópico para informações sobre o –Output parâmetro <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a>
 
 ## Para configurar autenticação e certificados em diretórios virtuais de ISS
@@ -29,7 +29,7 @@ Use o procedimento a seguir para configurar a certificação dos diretórios vir
 3.  Em **Gerenciador do Serviços de Informações da Internet (IIS)**, selecione **ServerName**. Em **Exibição de recursos**, selecione **Certificados do servidor**, clique com o botão direito e selecione **Abrir recurso**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Na Exibição de recursos dos Certificados do servidor, caso haja certificados atribuídos ao servidor, eles aparecerão aí. Caso exista um certificado que corresponda aos requisitos para o External Web Site no IIS, você pode reutilizar tal certificado. Para visualizar um certificado, clique com o botão direito no certificado e selecione <STRONG>Visualizar…</STRONG>
 
 
@@ -53,7 +53,7 @@ Use o procedimento a seguir para configurar a certificação dos diretórios vir
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
 
-    > [!TIP]
+    > [!TIP]  
     > Por padrão, o Request-CsCertificate preencherá o nome da entidade com o nome do pool ou servidor, além das entradas no nome de entidade alternativo com o FQDN do servidor, o FQDN do pool, FQDNs de URL simples e FQDNs de serviços web internos e externos. Isso é feito ao fazer referência ao documento de topologia na sua implantação. Caso exista um valor faltando e você tenha especificado o parâmetro -Verbose, você será notificado de que os valores atuais e computados para os nomes alternativos são diferentes, mas não será informado qual valor está faltando. É fornecido apenas o valor computado completo ao qual o cmdlet fez referência. Utilize a cadeia de nomes alternativos computados na saída para solicitar novamente um novo certificado que incluirá todos os valores.
 
     

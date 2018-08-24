@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > O modo de exibição VoIPDetails contém todas as colunas do <a href="lync-server-2013-sessiondetails-view.md">Exibir SessionDetails</a> além das colunas listadas abaixo.
 
 

@@ -53,7 +53,7 @@ Este tópico descreve as versões a seguir da ferramenta, disponíveis para down
 
   - Windows 8 Modern App ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
 
-> [!note]  
+> [!NOTE]  
 > Os usuários do Office 365 Lync podem usar ambas as versões do PCD.
 
 Se quiser usar uma versão anterior do PCD, consulte o seguinte:
@@ -64,7 +64,7 @@ Se quiser usar uma versão anterior do PCD, consulte o seguinte:
 
 ## Requisitos do sistema do PCD do Lync
 
-> [!note]  
+> [!NOTE]  
 > O PCD exige que a API da Web das Comunicações Unificadas (UCWA) esteja instalada e configurada para dar suporte a clientes móveis na implantação do Lync Server. O UCWA é instalado com o Lync Server.
 
 ## Requisitos do Aplicativo da Área de Trabalho do Windows

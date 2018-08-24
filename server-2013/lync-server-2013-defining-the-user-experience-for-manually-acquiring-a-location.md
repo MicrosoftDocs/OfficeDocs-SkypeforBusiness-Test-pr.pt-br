@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo a experiência do usuário para aquisição manual de local'
+title: "Lync Server 2013: Definindo a exper. do usuário p/ aquisição manual de local"
 TOCTitle: Definindo a experiência do usuário para aquisição manual de local
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398912(v=OCS.15)
@@ -24,5 +24,5 @@ Se um cliente estiver localizado fora da rede ou em uma subrede indefinida, o us
 
 Quando um usuário insere manualmente um local, o local é mapeado para o endereço MAC do gateway padrão da rede do cliente, e é armazenado em uma tabela por usuário localizada no cliente. Quando o usuário retorna a qualquer local armazenado anteriormente, o cliente Lync se define automaticamente para esse local.
 
-> [!note]  
+> [!NOTE]  
 > É possível modificar somente o local atual de seu cliente, mas você também pode excluir qualquer local armazenado na tabela dos usuários locais.

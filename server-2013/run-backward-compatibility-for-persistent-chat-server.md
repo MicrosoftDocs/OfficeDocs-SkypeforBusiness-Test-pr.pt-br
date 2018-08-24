@@ -1,6 +1,6 @@
 ﻿---
-title: Executar compatibilidade com versões anteriores para Servidor de Chat Persistente
-TOCTitle: Executar compatibilidade com versões anteriores para Servidor de Chat Persistente
+title: "Executar compatibilidade c/ versões anteriores p/ Servidor de Chat Persistente"
+TOCTitle: "Executar compatibilidade c/ versões anteriores p/ Servidor de Chat Persistente"
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204901(v=OCS.15)
 ms:contentKeyID: 49306724

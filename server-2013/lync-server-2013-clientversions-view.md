@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 A exibição ClientVersions armazena informações sobre os vários tipos de cliente e versões que participaram de sessões gravadas no banco de dados. Cada registro na exibição representa uma versão do cliente. Esta exibição foi introduzida no Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Pode haver vários registros para determinadas colunas.
 
 

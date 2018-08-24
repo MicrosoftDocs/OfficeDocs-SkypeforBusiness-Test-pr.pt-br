@@ -1,6 +1,6 @@
 ﻿---
-title: Atribuindo um Certificado de Autenticação Servidor para Servidor a Microsoft Lync Server 2013
-TOCTitle: Atribuindo um Certificado de Autenticação Servidor para Servidor a Microsoft Lync Server 2013
+title: "Atr. um Certif. de Autent. Servidor p/ Servidor a Microsoft Lync Server 2013"
+TOCTitle: "Atr. um Certif. de Autent. Servidor p/ Servidor a Microsoft Lync Server 2013"
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 49308060

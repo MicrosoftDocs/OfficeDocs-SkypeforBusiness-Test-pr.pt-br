@@ -27,7 +27,7 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
 
 3.  Acesse a página **Inscrição na Web de Autoridade de Certificação** (por exemplo, https://MinhaCA.contoso.com/certsrv).
     
-    > [!note]  
+    > [!NOTE]  
     > Caso esteja usando o Internet Explorer 10, pode ser necessário visualizar esta página em Modo de Compatibilidade.
 
 4.  Na **Página Inicial**, selecione **Solicitar um certificado**.
@@ -66,17 +66,14 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
 
 10. Quando solicitado, digite o PIN usado para criar o cartão inteligente virtual.
     
-    > [!note]  
+    > [!NOTE]  
     > O PIN padrão do cartão inteligente virtual é ‘12345678’.
 
 11. Depois que o certificado tiver sido emitido, clique em **Instalar este certificado** para concluir o processo de registro.
     
-    > [!note]  
-    > Caso sua solicitação de certificado falhe com o erro “Este navegador da Web não dá suporte à geração de solicitações de certificados”, há três maneiras possíveis para resolver o problema:    <ol>    
-> <li><p>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</p></li>    
-> 
-> <li><p>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</p></li>    
-> 
-> 
-> <li><p>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</p></li>    </ol>
+    > [!NOTE]  
+    > Caso sua solicitação de certificado falhe com o erro “Este navegador da Web não dá suporte à geração de solicitações de certificados”, há três maneiras possíveis para resolver o problema: 
+    > <ol><li><p>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</p></li>    
+    > <li><p>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</p></li>    
+    > <li><p>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</p></li>    </ol>
 

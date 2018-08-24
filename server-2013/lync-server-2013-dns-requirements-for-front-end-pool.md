@@ -20,12 +20,12 @@ Para concluir com êxito este procedimento, você deve estar conectado no servid
 Você deve configurar os registros DNS (Domain Name Systems) antes de publicar sua topologia em Construtor de Topologias. Além disso, alguns dos FQDNs (nomes de domínio totalmente qualificados) usados na configuração de uma implantação Lync Server 2013 são FQDNs de servidor lógicos e não físicos, portanto, são necessárias configurações DNS adicionais antes da publicação.
 
 
-> [!WARNING]
+> [!WARNING]  
 > O Lync Server 2013 não oferece suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <STRONG>contoso.local</STRONG> é compatível, mas um domínio raiz chamado <STRONG>local</STRONG> não é compatível. Para obter detalhes, consulte o artigo 300684 da Base de Dados de Conhecimento da Microsoft, “Informações sobre a configuração do Windows para domínios com nomes DNS com rótulo único” em <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=300684</A>.
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > O nome especificado deve ser idêntico ao nome de computador configurado no servidor. O nome de computador de um computador que não está ingressado em um domínio é, por padrão, um nome curto, não um FQDN. Construtor de Topologias utiliza FQDNs, não nomes curtos. <strong>Utilize apenas caracteres padrão</strong> (incluindo A-Z, a-z, 0-9 e hifens) quando estiver atribuindo FQDNs de seus servidores executando Lync Server, Servidores de Borda e pools. Não use caracteres Unicode nem sublinhados. Caracteres não padrão em um FQDN normalmente não são suportados por um DNS externo e por autoridades de certificação (ACs) públicas (quando o FQDN deve ser atribuído ao SN no certificado).
 
 Antes de operar a topologia após sua implantação, certifique-se de que os registros Active Directory e DNS a seguir estão criados (conforme suas necessidades por recursos específicos):
@@ -137,7 +137,7 @@ A tabela segue as arquiteturas de referência apresentadas na seção Planejamen
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > VIP = Endereço IP virtual para balanceador de carga de hardware
 
 ## Registros SRV DNS para o Pool de Front-Ends

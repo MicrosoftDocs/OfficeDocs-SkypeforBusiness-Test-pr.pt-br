@@ -36,7 +36,7 @@ Neste tópico, o banco de dados primário usado como exemplo terá um nome de do
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Caso tenha configurado o banco de dados back-end para usar espelhamento sincronizado com uma testemunha, o failover será automático.
 
 

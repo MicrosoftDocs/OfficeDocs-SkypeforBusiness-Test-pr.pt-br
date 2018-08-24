@@ -19,7 +19,7 @@ A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualid
 
 Use o procedimento a seguir para habilitar QoE para toda sua organização ou para cada site em sua organização.
 
-> [!note]  
+> [!NOTE]  
 > Para habilitar o QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte <a href="lync-server-2013-deploying-monitoring.md">Implantando o monitoramento no Lync Server 2013</a>.
 
 ## Para habilitar o QoE usando o Painel de Controle do Lync Server

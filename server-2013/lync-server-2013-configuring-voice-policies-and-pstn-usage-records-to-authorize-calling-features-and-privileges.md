@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada'
+title: "Config. pol. de voz e regist. de uso de PSTN p/ autorizar recursos e priv. de ch."
 TOCTitle: Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398450(v=OCS.15)
@@ -19,7 +19,7 @@ Uma *política de voz* habilita um conjunto de recursos de chamada e associa um 
 
 O escopo da política de voz pode ser o *Site* (que define os recursos e as permissões padrão de um site de rede) ou *Usuário* (que define os recursos e as permissões a serem atribuídas em uma base por usuário ou por grupo). Os usuários não atribuídos a uma politica de voz serão atribuídos automaticamente à política global, que é a política de voz padrão instalada com o produto.
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes, consulte <a href="lync-server-2013-voice-policies.md">Políticas de voz no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Nesta seção

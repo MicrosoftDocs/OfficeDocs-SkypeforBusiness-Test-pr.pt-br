@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de porta - única borda consolidada com endereços IP privados usando NAT'
+title: "Res. de porta - única borda consol. com end. IP privados usando NAT"
 TOCTitle: Resumo de porta - única borda consolidada com endereços IP privados usando NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425891(v=OCS.15)

@@ -45,7 +45,7 @@ Siga estas etapas para definir uma regra de conversão desenvolvendo uma express
 
 10. Na página **Configuração do Tronco**, clique em **Confirmar** e, depois, em **Confirmar tudo**.
     
-    > [!note]  
+    > [!NOTE]  
     > Sempre que você criar ou modificar uma regra de conversão, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a mudança na configuração. Para obter mais detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também

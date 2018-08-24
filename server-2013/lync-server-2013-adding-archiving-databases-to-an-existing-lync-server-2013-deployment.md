@@ -1,6 +1,6 @@
 ﻿---
-title: Adicionando o Arquivamento de Bancos de Dados à Implantação Existente do Lync Server 2013
-TOCTitle: Adicionando o Arquivamento de Bancos de Dados à Implantação Existente do Lync Server 2013
+title: "Adic. o Arquiv. de Banco de Dados à implant. Existente do Lync Server 2013"
+TOCTitle: "Adic. o Arquiv. de Banco de Dados à implant. Existente do Lync Server 2013"
 ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204997(v=OCS.15)
 ms:contentKeyID: 49307105

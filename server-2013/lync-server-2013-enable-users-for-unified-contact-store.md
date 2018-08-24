@@ -48,12 +48,13 @@ Ao implantar Lync Server 2013 e publicar a topologia, é habilitado o armazename
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
         
-        > [!note]  
+        > [!NOTE]  
         > Você também pode alterar o URI do SIP ou o usuário remoto em vez do nome do usuário.        
+        
         Por exemplo:
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
         
-        > [!note]  
+        > [!NOTE]  
         > No exemplo anterior, o primeiro comando criar uma nova política de acordo com o usuário chamada <em>Usuários do UCS Permitidos</em> , com o sinalizador AcsAllowed definido para True. O segundo comando define a política ao usuário com nome de Ken Myer, o que significa que Ken Myer está autorizado a ter armazenamento unificado de contatos.

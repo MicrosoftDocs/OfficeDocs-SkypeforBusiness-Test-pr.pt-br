@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos, suporte e topologia de Serviços de Domínio Active Directory'
+title: "Lync Server 2013: Req., suporte e topologia de Serviços de Domínio Active Directory"
 TOCTitle: Requisitos, suporte e topologia de Serviços de Domínio Active Directory
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398760(v=OCS.15)

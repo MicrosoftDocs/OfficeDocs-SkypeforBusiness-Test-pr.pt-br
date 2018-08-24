@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Posicionamento do servidor em uma implantação do servidor Standard Edition'
+title: "Lync Server 2013: Posic. do servidor em uma implantação do Standard Edition"
 TOCTitle: Posicionamento do servidor em uma implantação do servidor Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398131(v=OCS.15)
@@ -53,10 +53,10 @@ Você pode colocar cada um dos bancos de dados a seguir em um único servidor de
 
    É possível colocar um compartilhamento de arquivo com um banco de dados, conforme será descrito ainda nesta seção.
 
-> [!note]  
+> [!NOTE]  
 > No Lync Server 2013, você tem a opção de integrar o armazenamento de Monitoramento e de Arquivamento com o armazenamento do Exchange 2013 para alguns ou todos os usuários em sua implantação. Não é possível implantar servidores que estão executando o Lync Server ou componentes nos mesmos servidores que o armazenamento do Exchange.
 
-> [!important]  
+> [!IMPORTANT]  
 > Embora a colocação de bancos de dados seja suportada, o tamanho dos bancos de dados pode aumentar muito rápido. Por exemplo, quando você considera colocar o banco de dados de Arquivamento com outros bancos de dados, se estiver arquivando as mensagens de mais de alguns usuários, o espaço em disco exigido pelo banco de dados de Arquivamento poderá aumentar bastante. Por esse motivo, não recomendamos colocar vários bancos de dados, especialmente o banco de dados de Arquivamento, o banco de dados do Chat Persistente e o banco de dados de conformidade do Chat Persistente com o banco de dados back-end de um pool de Enterprise.
 
 ## Compartilhamentos de arquivo
@@ -75,7 +75,7 @@ O compartilhamento de arquivo pode ser um servidor separado ou pode ser colocado
 
 Um compartilhamento de arquivo único pode ser usado para múltiplos pools de Front-Ends, servidores Standard Edition (todos no mesmo site).
 
-> [!note]  
+> [!NOTE]  
 > No Lync Server 2013, o Monitoramento e o Arquivamento usam o compartilhamento de arquivo do Lync Server como o Servidor Standard Edition.
 
 ## Outros componentes

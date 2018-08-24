@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-02-23_
 
 Siga estas etapas para excluir uma política de conferência no nível do usuário ou no nível do local.
 
-> [!note]  
+> [!NOTE]  
 > Você não pode excluir a política global de conferência.
 
 ## Para excluir uma política de conferência de site ou usuário

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuração de federação do Lync'
 TOCTitle: Configuração de federação do Lync
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c

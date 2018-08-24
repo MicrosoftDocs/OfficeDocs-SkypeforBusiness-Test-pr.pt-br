@@ -1,6 +1,6 @@
 ﻿---
-title: Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013
-TOCTitle: Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013
+title: "Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013"
+TOCTitle: "Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013"
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182546(v=OCS.15)
 ms:contentKeyID: 49307345
@@ -45,7 +45,7 @@ Use um destes procedimentos para excluir um intervalo de órbitas do Estacioname
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Consulte Também

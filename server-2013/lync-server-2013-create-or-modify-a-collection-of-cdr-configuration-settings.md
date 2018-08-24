@@ -65,7 +65,7 @@ Ao instalar o Microsoft Lync Server 2013 um conjunto único global de definiçõ
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Os cmdlets New-CsCdrConfiguration e Set-CsCdrConfiguration incluem opções adicionais não disponíveis no Painel de Controle do Lync Server. Consulte os tópicos de ajuda <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a> para obter mais informações.
 
 ## Para criar definições de configuração CDR usando o Painel de Controle do Lync Server

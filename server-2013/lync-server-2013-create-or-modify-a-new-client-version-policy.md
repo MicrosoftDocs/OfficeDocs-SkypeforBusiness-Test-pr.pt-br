@@ -25,7 +25,7 @@ Você pode utilizar políticas de versão de cliente para especificar as versõe
 
 3.  Na barra de navegação esquerda, clique em **Clientes**.
     
-    > [!note]  
+    > [!NOTE]  
     > A guia <strong>Política de Versão de Cliente</strong> está selecionada por padrão.
 
 4.  Na página **Política de Versão de Cliente**, siga um dos seguintes procedimentos:
@@ -38,7 +38,7 @@ Você pode utilizar políticas de versão de cliente para especificar as versõe
 
 ## Para criar ou modificar políticas de versão de cliente utilizando Cmdlets Windows PowerShell
 
-Você pode criar políticas de versão de cliente utilizando o cmdlet **New-CsClientVersionPolicy** e modificá-las utilizando o cmdlet **set-csclientversionpolicy**. Esses cmdlets podem ser executados a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Você pode criar políticas de versão de cliente utilizando o cmdlet **New-CsClientVersionPolicy** e modificá-las utilizando o cmdlet **Set-CsClientVersionPolicy**. Esses cmdlets podem ser executados a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Para criar uma nova política de versão de cliente no escopo de site
 
@@ -52,5 +52,5 @@ Você pode criar políticas de versão de cliente utilizando o cmdlet **New-CsCl
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Para detalhes, veja os tópicos de Ajuda para os cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) e [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Para detalhes, veja os tópicos de Ajuda para os cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) e [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

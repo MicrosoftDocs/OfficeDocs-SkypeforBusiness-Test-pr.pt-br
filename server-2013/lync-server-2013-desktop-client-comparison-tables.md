@@ -33,10 +33,10 @@ As tabelas a seguir comparam os recursos e capacidades dos clientes do Lync 2013
 
 Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis aos usuários do Lync Online e do Office 365, exceto quando indicado o contrário.
 
-> [!important]  
+> [!IMPORTANT]  
 > Consulte <a href="lync-server-2013-mobile-client-comparison-tables.md">Tabela de comparação de clientes móveis para o Lync Server 2013</a> para obter detalhes sobre a disponibilidade do recurso em clientes móveis de Lync 2013.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Para obter detalhes sobre os planos de assinatura do Lync Online, consulte a Lync Online Descrição do serviço em <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
 > 
@@ -865,7 +865,7 @@ Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma impl
 
 ## Suporte a conferência
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Os recursos de reunião do Lync não estão disponíveis no Plano Independente do Lync Online 1.</p></li>
 > 
@@ -1364,7 +1364,7 @@ Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma impl
 
 ## Suporte a telefonia
 
-> [!note]  
+> [!NOTE]  
 > Os recursos de Voz do Lync são limitados a certos planos de assinatura do Lync Online. Para detalhes, consulte o tópico de “Recursos de Voz do Lync” na Descrição de Serviço do Lync Online em <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.
 
 

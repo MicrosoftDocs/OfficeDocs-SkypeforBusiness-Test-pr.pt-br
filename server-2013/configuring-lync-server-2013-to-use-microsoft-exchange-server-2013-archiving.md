@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando o Microsoft Lync Server 2013 para usar arquivamento do Microsoft Exchange Server 2013
-TOCTitle: Configurando o Microsoft Lync Server 2013 para usar arquivamento do Microsoft Exchange Server 2013
+title: "Config. o Microsoft Lync Server 2013 p/ usar arq. do M. Exchange Server 2013"
+TOCTitle: "Config. o Microsoft Lync Server 2013 p/ usar arq. do M. Exchange Server 2013"
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ679896(v=OCS.15)
 ms:contentKeyID: 49886140
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2014-06-24_
 
 O Microsoft Lync Server 2013 oferece aos administradores a opção de ter transcrições de mensagem instantânea e conferência da Web arquivadas na caixa de correio do Microsoft Exchange Server 2013 do usuário ao invés de um banco de dados do SQL Server. Se você habilitar esta opção, as transcrições são gravadas na pasta Lixeira da caixa de correio do usuário. A pasta Lixeira é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora esta página não esteja visível para os usuários finais, a pasta é indexada pelo mecanismo de pesquisa do Exchange e pode ser descoberta usando a pesquisa da caixa de correio do Exchange e/ou Microsoft SharePoint Server 2013. Como a informação é armazenada na mesma pasta usada pelo recurso Retenção Local do Exchange (responsável pelo arquivamento de email e outras comunicações do Exchange), os administradores podem usar uma única ferramenta para pesquisar todas as comunicações eletrônicas arquivadas para um usuário.
 
-> [!important]  
+> [!IMPORTANT]  
 > Para desabilitar completamente o arquivamento de conversas do Lync, você também deverá desabilitar o histórico de conversas do Lync. Para obter mais informações, consulte os seguintes tópicos: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a>, e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.
 
 Para poder arquivar transcrições no Exchange 2013, você deve começar a configurar a autenticação servidor para servidor entre dois servidores. Após a autenticação servidor para servidor ser definida, é possível executar as seguintes tarefas no Microsoft Lync Server 2013 (observe que, dependendo da sua configuração, você não poderá precisar concluir todas estas tarefas):
@@ -46,7 +46,7 @@ Para desabilitar o arquivamento do Exchange, use um comando semelhante ao seguin
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
-> [!note]  
+> [!NOTE]  
 > Se a propriedade EnableArchiving estar definida para Nenhum, então o Lync Server não irão arquivar transcrições de mensagem instantânea e de conferência da Web. Neste caso, o servidor simplesmente ignora o valor configurado para EnableExchangeArchiving.
 
 O arquivamento do Exchange também pode ser habilitado (ou desabilitado) usando o Painel de Controle do Lync Server. Para fazer isso, conclua o seguinte procedimento:
@@ -59,7 +59,7 @@ O arquivamento do Exchange também pode ser habilitado (ou desabilitado) usando 
 
 4.  Após escolher os itens a serem arquivados, marque a caixa de seleção **Integração do Exchange Server** para habilitar o arquivamento do Exchange. Para desabilitar o arquivamento do Exchange, desmarque esta caixa de seleção.
 
-> [!note]  
+> [!NOTE]  
 > A caixa de seleção <strong>Integração do Exchange Server</strong> não estará disponível se a <strong>Configuração de arquivamento</strong> está definido para <strong>Desabilitar arquivamento</strong> . Você deve habilitar o arquivamento primeiro e depois habilitar o arquivamento do Exchange.
 
 Se o Lync Server 2013 e o Exchange 2013 estão localizados na mesma floresta, o arquivamento para usuários individuais (ou pelo menos para usuários com contas de email no Exchange 2013) é gerenciado usando as políticas de Retenção Local do Exchange. Se você possui usuários hospedados em uma versão anterior do Exchange, o arquivamento destes usuários serão gerenciados utilizado as políticas de arquivamento do Lync Server. Observe que apenas usuários com contas no Exchange 2013 podem ter suas transcrições do Lync arquivadas no Exchange.

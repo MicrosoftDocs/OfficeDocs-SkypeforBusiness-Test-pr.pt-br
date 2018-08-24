@@ -31,5 +31,5 @@ Antes de publicar sua topologia, instale os bancos de dados do Servidor de Chat 
 
 5.  Na página **Assistente de publicação concluído** , verifique se a topologia foi publicada com êxito e clique em **Concluir** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Depois que publicar a topologia, você deverá configurar o suporte ao Servidor de Chat Persistente para que seja possível arquivar conteúdo.

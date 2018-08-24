@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificar conectividade entre servidores internos e Servidores de Borda'
+title: "Lync Server 2013: Verif. conectiv. entre servidores int. e Servidores de Borda"
 TOCTitle: 'Verificar conectividade entre servidores internos e Servidores de Borda '
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398292(v=OCS.15)

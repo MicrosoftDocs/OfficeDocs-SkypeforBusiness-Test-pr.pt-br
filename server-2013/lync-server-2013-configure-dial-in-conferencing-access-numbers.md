@@ -19,10 +19,10 @@ Ao implantar uma conferência discada, você precisa configurar números de tele
 
 Antes de criar números de acesso discado, primeiro você precisa planejar as regiões de conferência discada e, em seguida, configurar os planos de discagem nas regiões. Para obter detalhes sobre as regiões, consulte [Exigências da conferência discada no Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) na documentação Planejamento. Para obter detalhes sobre como configurar os planos de discagem para conferência discada, consulte [Configurar planos de discagem para conferência discada no Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
-> [!note]  
+> [!NOTE]  
 > Não é possível usar um novo número de acesso discado até que a replicação dos Serviços de Domínio do Active Directory (AD DS) desse número de acesso seja concluída. A replicação pode demorar algumas horas para ser concluída.
 
-> [!note]  
+> [!NOTE]  
 > Após a criação dos números de acesso discado, é possível modificar o nome de exibição dos objetos de contato do Active Directory de modo que os usuários possam identificar com mais facilidade o número de acesso correto. Use o cmdlet <strong>Set-CsDialInConferencingAccessNumber</strong> para modificar o nome de exibição. Não modifique os objetos do Active Directory manualmente. Para obter detalhes sobre como modificar um número de acesso, consulte a documentação do Shell de Gerenciamento do Lync Server para o cmdlet <strong>Set-CsDialInConferencingAccessNumber</strong>.
 
 ## Nesta seção

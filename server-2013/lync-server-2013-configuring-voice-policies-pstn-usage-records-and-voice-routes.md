@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando políticas de voz, registros de uso de PSTN e rotas de voz'
+title: "Lync Server 2013: Config. pol. de voz, registros de uso de PSTN e rotas de voz"
 TOCTitle: Configurando políticas de voz, registros de uso de PSTN e rotas de voz
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398272(v=OCS.15)
@@ -19,7 +19,7 @@ Políticas de voz, registros de uso PSTN e rotas de voz estão totalmente relaci
 
 O fluxo de trabalho recomendado para uma nova implantação Enterprise Voice é de começar configurando uma política de voz que inclua os registros de uso PSTN adequados e, então, associar as rotas apropriadas à cada registro de uso PSTN.
 
-> [!note]  
+> [!NOTE]  
 > Você também pode criar políticas de voz com escopo de <em>usuário</em> e atribuí-las a grupos ou usuários individuais.
 
 Para as etapas detalhas para realizar cada uma destas tarefas, consulte os procedimentos nesta seção.

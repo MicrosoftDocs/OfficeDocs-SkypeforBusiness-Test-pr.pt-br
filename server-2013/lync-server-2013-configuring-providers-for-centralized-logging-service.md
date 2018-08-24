@@ -27,7 +27,7 @@ Por exemplo:
 
 O restante deste tópico concentra-se em como definir provedores, modificar um provedor e no que uma definição de provedor contém para otimizar a solução de problemas. Há duas maneiras de emitir comandos do Serviço de Log Centralizado. Você pode usar o CLSController.exe, que está localizado por padrão no diretório C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\CLSAgent, ou pode usar o Shell de Gerenciamento do Lync Server para emitir comandos do Windows PowerShell. A distinção importante é que, quando você usa o CLSController.exe na linha de comando, há uma seleção finita de cenários disponíveis em que os provedores já são definidos e não podem ser alterados, mas é possível definir o nível de log. Usando o Windows PowerShell, você pode definir novos provedores para uso em suas sessões de registro em log e ter total controle sobre sua criação, o que coletam e em qual nível coletam os dados.
 
-> [!important]  
+> [!IMPORTANT]  
 > Como mencionado, os provedores são muito sofisticados. No entanto, os cenários são ainda mais sofisticados, pois incorporam todas as informações necessárias para definir e executar o rastreamento nos componentes que os provedores representam. Como os cenários são um conjunto de provedores, é possível fazer uma comparação livre com a execução de um arquivo de lote que contém centenas de comandos para coletar muitas informações e a emissão de centenas de comandos, um de cada vez, na linha de comando.<br />Em vez de exigir que você se aprofunde nos provedores, o Serviço de Log Centralizado fornece diversos cenários que já são definidos para você. Os cenários fornecidos cobrem a maioria dos possíveis problemas que você poderá encontrar. Raramente, você talvez precise criar e definir provedores e atribuí-los a cenários. Recomendamos que você se familiarize com cada um dos cenários fornecidos antes de investigar a necessidade de criar novos provedores e cenários. Embora este artigo traga informações sobre a criação de provedores para você se familiarizar com a maneira como os cenários usam os elementos de provedor para coletar informações de rastreamento, por enquanto, não serão fornecidos detalhes sobre os provedores em si.
 
 Introduzidos em [Visão Geral do Serviço de Registro em Log](lync-server-2013-overview-of-the-centralized-logging-service.md), os principais elementos da definição de um provedor para uso em um cenário são:
@@ -115,7 +115,7 @@ Em que $LyssProvider é a variável que contém o cenário definido criado com *
 O resultado final do comando é que cenário site:Redmond/RedmondLyssInfo terá atualizado os sinalizadores e o nível do provedor atribuído a ele. Você pode exibir o novo cenário usando Get-CsClsScenario. Para obter detalhes, consulte [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
 
-> [!WARNING]
+> [!WARNING]  
 > <STRONG>New-ClsCsProvider</STRONG> não faz uma verificação para determinar se os sinalizadores são válidos. Certifique-se de que os sinalizadores (por exemplo, TF_DIAG ou TF_CONNECTION) estejam grafados corretamente. Se os sinalizadores não estiverem grafados corretamente, o provedor não poderá retornar as informações de log esperadas.
 
 
@@ -148,7 +148,7 @@ Em que cada provedor definido com a diretiva Add já foi definido com o uso do p
         Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > O cmdlet <STRONG>Remove-CsClsScenario</STRONG> não solicita sua confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.
 
 

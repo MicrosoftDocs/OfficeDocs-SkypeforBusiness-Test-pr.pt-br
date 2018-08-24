@@ -1,6 +1,6 @@
 ﻿---
-title: Pré-requisitos para integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
-TOCTitle: Pré-requisitos para integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
+title: "Pré-requisitos p/ integrar M. Lync Server 2013 e M. Exchange Server 2013"
+TOCTitle: "Pré-requisitos p/ integrar M. Lync Server 2013 e M. Exchange Server 2013"
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721919(v=OCS.15)
 ms:contentKeyID: 49886463
@@ -57,7 +57,7 @@ Depois que o serviço de descoberta automática tenha sido configurado, você de
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc
 
-> [!note]  
+> [!NOTE]  
 > O parâmetro Identidade no comando anterior é opcional; isso pois o Lync Server permite apenas que você tenha um conjunto único, global de definições de configuração OAuth. Dentre outras coisas, isso significa que você pode configurar a URL de descoberta automática usando este comando um pouco mais simples:<br />Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl &quot;https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc&quot;<br />Caso não esteja familiarizado com a tecnologia, o OAuth é um protocolo de autorização padrão usado por vários websites importantes. Com o OAuth, as credenciais de usuário e senhas não são passadas de um computador a outro. Ao invés disso, a autenticação e autorização são baseadas na troca de tokens de segurança; estas tokens concedem acesso a um conjunto específico de recursos por um período determinado de tempo.
 
 Além de configurar o serviço de descoberta automática, você também deve criar um registro DNS para o serviço que aponta para o seu servidor do Exchange. Por exemplo, caso seu serviço de descoberta automática esteja localizado em autodiscover.litwareinc.com você deverá criar um registro DNS para autodiscover.litwareinc.com resolve para o nome de domínio totalmente qualificado de seu servidor do Exchange (por exemplo, atl-exchange-001.litwareinc.com).

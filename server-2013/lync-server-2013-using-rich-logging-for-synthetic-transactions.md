@@ -45,7 +45,7 @@ Os administradores têm a opção de incluir o parâmetro OutLoggerVariable segu
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-> [!note]  
+> [!NOTE]  
 > Não use o caractere $ como prefixo do nome da variável. Use um nome de variável como RegistrationTest e não $RegistrationTest.
 
 O comando precedente produz um conteúdo semelhante ao seguinte:
@@ -68,5 +68,5 @@ Esses arquivos podem ser exibidos usando o Internet Explorer, o Visual Studio ou
 
 As transações sintéticas que são executadas de dentro do System Center Operations Manager gerarão automaticamente esses arquivos de log de falhas. No entanto, esses logs não serão gerados se a execução falhar antes que o Windows PowerShell possa carregar e executar a transação assimétrica.
 
-> [!important]  
+> [!IMPORTANT]  
 > Por padrão, o Lync Server 2013 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esse logs prontamente acessíveis, é preciso compartilhar essa pasta (por exemplo, \\atl-watcher-001.litwareinc.com\WatcherNode).

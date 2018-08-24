@@ -25,7 +25,7 @@ A primeira etapa na verificação da conclusão da mesclagem é exibir as inform
 
 3.  Verifique se os FQDNs dos pools e servidores mesclados são exibidos.
     
-    > [!note]  
+    > [!NOTE]  
     > Você não vê nenhuma informação no <strong>BackCompatSite</strong> para servidores colocados em um servidor de Front End ou Standard Edition. Somente funções de servidor necessárias para interoperabilidade entre o Office Communications Server 2007 R2 e Lync Server 2013 são exibidas.
 
 ![Caixa de diálogo BackCompatSite do Construtor de Topologia](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Caixa de diálogo BackCompatSite do Construtor de Topologia")
@@ -44,7 +44,7 @@ Também é possível usar o Painel de Controle do Lync Server 2013 para exibir s
 
 Para ver mais detalhes sobre um pool mesclado, use o cmdlet **Get-CsPool** . Além das informações disponíveis no Construtor de Topologias e Painel de Controle do Lync Server 2013, esse cmdlet exibe os serviços que são executados no pool Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Quando você pública a topologia após a execução do Assistente de mesclagem no Construtor de Topologias, os diretórios de conferência são mesclados no Lync Server 2013. Os diretórios de conferência podem ser verificados executando o cmdlet <strong>Get-CsConferenceDirectory</strong>.
 
 ## Para ver serviços em um pool mesclado

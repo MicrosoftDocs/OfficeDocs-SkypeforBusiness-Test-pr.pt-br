@@ -57,7 +57,7 @@ Após a escolha do número principal, ele deverá ser:
 
   - Copiado para o atributo **msRTCSIP-line** do Active Directory.
     
-    > [!note]  
+    > [!NOTE]  
     > <strong>Coexistência com o RCC (controle de chamada remota).</strong><br />    RCC é a habilidade de usar o Lync Server para monitorar e controlar um telefone PBX de mesa. O controle é roteado pelo servidor, que atua como um gateway para o PBX. Embora você não possa configurar um usuário para ambos, RCC e Enterprise Voice, a configuração do URI de Linha designa o número de telefone principal do usuário em ambos os casos.<br />    Se você tem uma infraestrutura de PBX existente que deseja que usuários selecionados continuem usando, pode introduzir o Enterprise Voice de forma incremental na sua organização. Para detalhes sobre este cenário de implantação, consulte <a href="lync-server-2013-direct-sip-deployment-options.md">Opções de implantação de SIP Direto no Lync Server 2013</a> na documentação de Planejamento.<br />    Em versões anteriores, era possível habilitar ambos, RCC e o Enterprise Voice para um usuário, mas somente se você configurasse o usuário também para bifurcação dupla, um recurso em que uma chamada de entrada toca no telefone PBX de um usuário e no Communicator simultaneamente. No Lync Server 2010, a bifurcação dupla não é suportada.
 
 Há três métodos para popular o atributo **msRTCSIP-line**:
@@ -82,7 +82,7 @@ O formato esperado do número especificado nesse atributo é:
 
   - Tel:5550100 (para ramais exclusivos na empresa toda).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A normalização realizada pelo ABS (Serviço de Catálogo de Endereços) não substitui nem elimina a necessidade de normalizar o número de telefone principal de cada usuário nos Serviços de Domínio Active Directory, pois o ABS não tem acesso aos Serviços de Domínio Active Directory e, portanto, não pode copiar números de telefone principais para o atributo <strong>msRTCSIP-line</strong>.
 
 ## Etapa 2. Habilitar usuários para o Enterprise Voice

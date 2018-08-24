@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando Inscrição de Parceiro no Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
-TOCTitle: Configurando Inscrição de Parceiro no Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
+title: "Configurando Inscrição de Parceiro no M. Lync Server 2013 e M. Exchange Server 2013"
+TOCTitle: "Configurando Inscrição de Parceiro no M. Lync Server 2013 e M. Exchange Server 2013"
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49886331

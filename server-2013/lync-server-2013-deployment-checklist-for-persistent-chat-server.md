@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de verificação de implantação para o Servidor de Chat Persistente'
+title: "Lync Server 2013: Lista de verif. de implant. p/ Servidor de Chat Persistente"
 TOCTitle: Lista de verificação de implantação para o Servidor de Chat Persistente
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412851(v=OCS.15)
@@ -84,5 +84,5 @@ A tabela a seguir lista as etapas básicas para implantar o Servidor de Chat Per
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Você pode implantar um ou mais Pools de Servidor de Chat Persistente. Nós oferecemos suporte a vários Pools de Servidor de Chat Persistente por motivos regulatórios pelos quais os dados gerados em determinada região são parte dessa região. Por exemplo, se você implantar um Pool de Servidor de Chat Persistente em Chicago e outro em Zurique para que sejam compatíveis com os regulamentos de dados na Suíça, os usuários podem se conectar a salas em ambos os Pools de Servidor de Chat Persistente, considerando que tenham acesso.

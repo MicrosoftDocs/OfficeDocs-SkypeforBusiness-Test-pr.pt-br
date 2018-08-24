@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando Autodiscover para mobilidade com implantações híbridas'
+title: "Lync Server 2013: Config. Autodiscover p/ mobilidade c/ implantações híbridas"
 TOCTitle: Configurando Autodiscover para mobilidade com implantações híbridas
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215885(v=OCS.15)

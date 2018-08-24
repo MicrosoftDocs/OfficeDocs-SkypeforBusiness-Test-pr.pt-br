@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar federação para um provedor de conferência de áudio'
+title: "Lync Server 2013: Configurar federação p/ um provedor de conferência de áudio"
 TOCTitle: Configurar federação para um provedor de conferência de áudio
 ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn510996(v=OCS.15)

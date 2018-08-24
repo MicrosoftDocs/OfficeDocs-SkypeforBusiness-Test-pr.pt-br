@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Componentes e topologias para o Sistema de Mensagens Instantâneas local'
+title: "Lync Server 2013: Compon. e topolog. p/ o Sist. de Mensagens Instantâneas local"
 TOCTitle: Componentes e topologias para o Sistema de Mensagens Instantâneas local
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425711(v=OCS.15)
@@ -37,5 +37,5 @@ O Lync Server 2013 suporta as seguintes topologias da integração do UM do Exch
 
   - Várias floresta (ou seja, floresta de recursos). O Lync Server 2013 é implantado em uma única floresta e os usuários são distribuídos entre várias florestas. Os atributos UM do Exchange dos usuários devem ser replicados pela floresta do Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > O Exchange pode ser implantado em várias florestas. Cada organização do Exchange pode oferecer o UM do Exchange para seus usuários ou o UM do Exchange pode ser implantado na mesma floresta que o Lync Server 2013.

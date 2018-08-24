@@ -1,6 +1,6 @@
 ﻿---
-title: Atribuir uma política de caixa postal hospedada por usuário no Lync Server 2013
-TOCTitle: Atribuir uma política de caixa postal hospedada por usuário no Lync Server 2013
+title: "Atr. uma política de caixa postal hospedada por usuário no Lync Server 2013"
+TOCTitle: "Atr. uma política de caixa postal hospedada por usuário no Lync Server 2013"
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398919(v=OCS.15)
 ms:contentKeyID: 49308227
@@ -43,5 +43,5 @@ Para obter detalhes sobre como atribuir ou remover a atribuição de políticas 
     
       - O Nome de exibição de serviços de domínio do Active Directory do usuário (por exemplo, Ken Myer). se estiver usando o Nome de exibição como o valor de Identidade, será possível usar o caractere curinga asterisco (\*). Por exemplo, a Identidade "\* Smith" retorna todos os usuários que tem um Nome de exibição que termina com o valor de string "Smith".
     
-    > [!note]  
+    > [!NOTE]  
     > O Nome de conta SAM do Active Directory do usuário não pode ser usado como o valor de Identidade, pois o Nome de conta SAM não é necessariamente exclusivo na floresta.

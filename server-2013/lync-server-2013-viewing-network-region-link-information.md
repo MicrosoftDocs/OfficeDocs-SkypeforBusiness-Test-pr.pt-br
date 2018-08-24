@@ -27,7 +27,7 @@ Você pode visualizar os links entre duas regiões de redes como parte do contro
 
 4.  Na página **Link da região**, clique no link da região que você deseja ver.
     
-    > [!note]  
+    > [!NOTE]  
     > Você pode ver informações somente sobre um link da região por vez.
 
 5.  No menu**Editar**, selecione **Mostras detalhes**.

@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-01-02_
 
 Antes de poder definir e configurar sua topologia, você deve definir o local para instalar o Servidor de Gerenciamento Central.
 
-> [!note]  
+> [!NOTE]  
 > Isto não terá efeito até você publicar uma topologia no Construtor de Topologias. Para definir o Servidor de Gerenciamento Central antes da topologia ser criada e publicada, execute <strong>Set-CSConfigurationStoreLocation</strong>.
 
 ## Para selecionar o Servidor de Gerenciamento Central

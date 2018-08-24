@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Processo de implantação para integração de Unificação de Mensagens local'
+title: "Lync Server 2013: Processo de implant. p/ integração de Unificação de Mensagens local"
 TOCTitle: Processo de implantação para integração de Unificação de Mensagens local com Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425737(v=OCS.15)
@@ -19,7 +19,7 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 
 ## Processo de integração do Unified Messaging
 
-> [!important]  
+> [!IMPORTANT]  
 > É importante que você coordene com os administradores do Exchange da sua organização para confirmar as tarefas que cada um executará para garantir uma integração tranquila e bem-sucedida.
 
 
@@ -118,15 +118,15 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 <tr class="even">
 <td><p>Configure planos de discagem do Lync Server 2013.</p></td>
 <td><p>Se você estiver integrando com o Exchange 2007 SP1 ou service pack mais recente ou Exchange 2010, crie um novo plano de discagem Enterprise Voice com um nome que corresponde o FQDN do plano de discagem de UM do Exchange.</p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Você precisará fazer isso para cada plano de discagem UM.
-</div>
+
 <p>Se você estiver integrando com o Exchange 2010 SP1, certifique-se de que os planos de discagem de nível local/global ou nível do pool do Enterprise Voice foram configurados.</p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Se você estiver integrando com o Exchange 2010 SP1, o plano de discagem do Lync Server e os nomes do plano de discagem do UM do Exchange não precisam corresponder.
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-dial-plans.md">Configurando planos de discagem no Lync Server 2013</a></p></td>
 </tr>
@@ -135,14 +135,14 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 <td><p>No Lync Server 2013, execute <strong>ocsumutil.exe</strong>, que:</p><ul><li><p>Cria objetos de contato do Acesso do Assinante e Atendedor Automático.</p></li><li><p>Valida que há um plano de discagem do Enterprise Voice com um nome que corresponde ao FQDN do plano de discagem do UM Exchange. Se você estiver executando o Exchange 2010 SP1 ou posterior, os nomes do plano de discagem não precisam corresponder e é possível ignorar o aviso da ferramenta sobre isso.</p></li></ul>
 <p>Essa ferramenta funciona pela verificação do Active Directory para configurações do UM do Exchange e permite o administrador do Lync Server 2013 exibir, criar e editar objetos de contato.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> RTCUniversalUserAdmins</p>
-<div class="alert">
-> [!important]  
+
+> [!IMPORTANT]  
 > Para executar com êxito o ocsumutil.exe, o usuário deve pertencer aos dois grupos.
-</div>
-<div class="alert">
-> [!note]  
+
+
+> [!NOTE]  
 > Para criar objetos de Contato, o usuário que executa ocsumutil.exe deve ter a permissão correta para a unidade organizacional (OU) do Active Directory onde novos objetos de contato são armazenados. Esta permissão pode ser concedida executando o cmdlet <strong>Grant-CsOUPermission</strong>. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server</a></p></td>
 </tr>
 <tr class="even">

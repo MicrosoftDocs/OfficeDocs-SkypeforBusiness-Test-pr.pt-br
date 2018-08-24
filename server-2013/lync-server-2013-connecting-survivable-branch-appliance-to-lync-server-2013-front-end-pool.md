@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013'
+title: "Lync Server 2013: Conect. Ap. de Filial Persist. ao pool Front-End do Lync Server 2013"
 TOCTitle: Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688026(v=OCS.15)

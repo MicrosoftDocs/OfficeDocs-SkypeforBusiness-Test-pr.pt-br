@@ -29,13 +29,10 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
 
 1.  Limpe todos os servidores da lista de servidores ativos do Servidor de Chat Persistente usando o cmdlet `Set-CsPersistentChatActiveServer` do Shell de Gerenciamento do Lync Server. Isso impedirá que todos os Servidores de Chat Persistente se conectem ao banco de dados mgc e ao banco de dados mgccomp durante o failback.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > O agente do SQL Server no Servidor Back-End do Servidor de Chat Persistente secundário deve estar em execução em uma conta privilegiada. Em termos específicos, a conta deve incluir:    <ul>    
-> 
-> <li><p>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</p></li>    
-> 
-> 
-> <li><p>Acesso de gravação ao diretório local específico em que os backups serão copiados.</p></li>    </ul>
+        > <li><p>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</p></li>    
+    > <li><p>Acesso de gravação ao diretório local específico em que os backups serão copiados.</p></li>    </ul>
 
 
 2.  Desabilite o espelhamento no banco de dados mgc de backup:
@@ -94,7 +91,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
 
 6.  Defina os servidores ativos do Servidor de Chat Persistente. No Shell de Gerenciamento do Lync Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.
 
 Em seguira, restaure o pool ao seu estado normal executando o seguinte comando Windows PowerShell:

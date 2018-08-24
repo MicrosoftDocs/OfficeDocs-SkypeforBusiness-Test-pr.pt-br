@@ -1,6 +1,6 @@
 ﻿---
-title: Usiando Resultados de Varredura para Analisar e Resolver Problemas Informados pelo Analisador de Práticas Recomendadas
-TOCTitle: Usiando Resultados de Varredura para Analisar e Resolver Problemas Informados pelo Analisador de Práticas Recomendadas
+title: "Usando Result. de Varred. p/ Analisar e Resolver Probl. Inf. P. Analis. de Prát. Rec."
+TOCTitle: "Usando Result. de Varred. p/ Analisar e Resolver Probl. Inf. P. Analis. de Prát. Rec."
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591350(v=OCS.15)
 ms:contentKeyID: 49308171
@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-06-14_
 
 Ao executar o Analisador de Práticas Recomendadas do Lync Server 2013 em seu ambiente do Lync Server 2013, a ferramenta usa os resultados da pesquisa para gerar relatórios de problemas com sua implantação. É possível usar os relatórios gerados pelo Analisador de Práticas Recomendadas para identificar e resolver problemas específicos.
 
-> [!note]  
+> [!NOTE]  
 > O Analisador de Práticas Recomendadas do Lync Server 2013 pesquisa e relata problemas apenas com os componentes do Lync Server 2013. Se sua implantação inclui componentes do Microsoft Lync Server 2010 ou Office Communications Server 2007 R2, use a versão anterior do Analisador de Práticas Recomendadas para analisar estes componentes. Para obter detalhes, consulte <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requisitos para Excutar o Analisador de Práticas Recomendadas</a>.
 
 ## Nesta seção

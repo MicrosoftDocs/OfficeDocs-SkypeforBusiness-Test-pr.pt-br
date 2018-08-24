@@ -1,6 +1,6 @@
 ﻿---
-title: Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013
-TOCTitle: Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013
+title: "Mover o Serv. de Gerenc. Central do Lync Server 2010 p/ o Lync Server 2013"
+TOCTitle: "Mover o Serv. de Gerenc. Central do Lync Server 2010 p/ o Lync Server 2013"
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688013(v=OCS.15)
 ms:contentKeyID: 49886161
@@ -49,7 +49,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
 
 4.  Na página **Executando comandos** , o SQL Server Express é instalado como o Servidor de Gerenciamento Central. Regras de firewall necessárias são criadas. Quando a instalação do banco de dados e software de pré-requisito estiver concluída, clique em **Finalizar** .
     
-    > [!note]  
+    > [!NOTE]  
     > A instalação inicial pode levar algum tempo sem nenhuma atualização visível na tela de resumo de saída do comando. Isto ocorre devido à instalação do SQL Server Express. Se você precisa monitorar a instalação do banco de dados, use o Gerenciador de Tarefas para monitorar a configuração.
 
 5.  Para criar o novo Repositório de Gerenciamento Central no Lync Server 2013 Standard Edition Servidor Front-End, no Shell de Gerenciamento do Lync Server, digite:
@@ -69,7 +69,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
         Enable-CsTopology
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se <CODE>Enable-CsTopology</CODE> não tem êxito, resolva o problema evitando que o comando conclua antes de continuar. Se <STRONG>Enable-CsTopology</STRONG> não tem êxito, a movimentação falhará e poderá deixar sua topologia em um estado onde não há Repositório de Gerenciamento Central.
 
 
@@ -96,7 +96,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
     
         Get-CsManagementStoreReplicationStatus
     
-    > [!note]  
+    > [!NOTE]  
     > A replicação pode levar algum tempo para atualizar todas as réplicas atuais.
 
 ## Para remover os arquivos do Lync Server 2010Repositório de Gerenciamento Central após uma movimentação
@@ -106,7 +106,7 @@ Use os procedimentos nesta seção para preparar o Lync Server 2013Servidores Fr
 2.  Abra o Shell de Gerenciamento do Lync Server
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Não continue com a remoção dos arquivos do banco de dados anteriores até que a replicação esteja concluída e estável. Se você remover os arquivos antes de concluir a replicação, você irá interromper o processo de replicação e deixar o Servidor de Gerenciamento Central recentemente movido em um estado desconhecido. Use o cmdlet <STRONG>Get-CsManagementStoreReplicationStatus</STRONG> para confirmar o status da replicação.
 
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Verificar se todos os objetos de Contato do Exchange UM foram removidos do pool herdado
-TOCTitle: Verificar se todos os objetos de Contato do Exchange UM foram removidos do pool herdado
+title: "Verif. se todos os objetos de Contato do Exchange UM foram removidos do pool herdado"
+TOCTitle: "Verif. se todos os objetos de Contato do Exchange UM foram removidos do pool herdado"
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688068(v=OCS.15)
 ms:contentKeyID: 49886232

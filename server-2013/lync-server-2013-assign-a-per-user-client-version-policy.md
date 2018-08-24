@@ -48,7 +48,7 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
     4.  Dependendo da propriedade do usuário selecionada, insira o critério que deseja usar para filtrar os resultados de pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -57,21 +57,21 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja que a mesma política de versão do cliente por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
 7.  Em **Atribuir políticas**, em **Política de versão do cliente**, faça um dos seguintes:
     
-    > [!note]  
+    > [!NOTE]  
     > Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.    
       - Permita que o Lync Server escolha automaticamente a política a nível global ou, se definida, a política a nível local ou a nível do pool.
     
       - Clique no nome de uma política de versão do cliente por usuário definida anteriormente na página **Política de versão do cliente**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
 
 

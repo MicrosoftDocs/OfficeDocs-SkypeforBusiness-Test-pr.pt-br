@@ -19,7 +19,7 @@ O Lync Server permite configurar o tratamento de chamadas telefônicas recebidas
 
 Esta seção descreve como gerenciar intervalos de números não atribuídos para tratar as chamadas a números não atribuídos. A seção também descreve como gerenciar Comunicados durante recuperação de desastres, se você desejar essa funcionalidade durante uma interrupção de energia.
 
-> [!note]  
+> [!NOTE]  
 > O uso do tratamento de chamadas a números não atribuídos durante uma interrupção de energia é opcional.
 
 ## Nesta seção

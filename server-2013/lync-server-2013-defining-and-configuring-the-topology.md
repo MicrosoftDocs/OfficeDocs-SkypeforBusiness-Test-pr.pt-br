@@ -28,7 +28,7 @@ Se você já definiu uma topologia e estabeleceu o Repositório de Gerenciamento
 Se você não estabeleceu um Repositório de Gerenciamento Central e deseja editar uma configuração salva anteriormente, deve escolher abrir a topologia de um arquivo local. O arquivo que será aberto seria o arquivo de configuração salvo em uma sessão anterior. Você pode usar esta opção para editar a topologia salva anteriormente.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você já tem uma topologia publicada, não deve carregar um arquivo de configuração local. Você deve baixar topologia de uma implantação existente.
 
 

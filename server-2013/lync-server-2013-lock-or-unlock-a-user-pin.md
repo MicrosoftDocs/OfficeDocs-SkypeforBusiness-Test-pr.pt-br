@@ -42,7 +42,7 @@ Você pode bloquear ou desbloquear o PIN de um usuário a partir da seção **Us
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de busca à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -75,7 +75,7 @@ Você pode bloquear ou desbloquear o PIN de um usuário a partir da seção **Us
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     

@@ -41,9 +41,9 @@ A tabela a seguir especifica requisitos DNS para uma implantação de pool Front
 <p>Por exemplo, se você utilizar ambos o balanceamento de carga DNS e um balanceador de carga de hardware, você teria um registro A para cada Servidor Front-End em um pool para balanceamento de carga DNS, e um registro A para os serviços Web internos apontando para o IP virtual do balanceador de carga de hardware:</p>
 <ul>
 <li><p>Balanceamento de carga DNS:   Pool01.contoso.net   Endereço IP do pool   10.10.10.5</p>
-<div class="alert">
 
-> [!WARNING]
+
+> [!WARNING]  
 > Cada Servidor Front-End também terá um registro A distinto:
 
 

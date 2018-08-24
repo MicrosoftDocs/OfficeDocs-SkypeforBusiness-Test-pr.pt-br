@@ -31,7 +31,7 @@ Use o seguinte procedimento para excluir um intervalo de números de recebimento
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    > [!note]  
+    > [!NOTE]  
     > Para obter detalhes sobre mais opções, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Consulte Também

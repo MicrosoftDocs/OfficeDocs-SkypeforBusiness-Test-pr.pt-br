@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lista de tabelas de conformidade do Servidor de Chat Persistente'
+title: "Lync Server 2013: Lista de tabelas de conform. do Servidor de Chat Persist."
 TOCTitle: Lista de tabelas de conformidade do Servidor de Chat Persistente
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215878(v=OCS.15)

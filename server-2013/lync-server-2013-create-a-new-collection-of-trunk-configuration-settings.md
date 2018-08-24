@@ -1,6 +1,6 @@
 ﻿---
-title: Cria um novo conjunto de definições de configuração de tronco no Lync Server 2013
-TOCTitle: Cria um novo conjunto de definições de configuração de tronco no Lync Server 2013
+title: "Cria um novo conjunto de definições de config. de tronco no Lync Server 2013"
+TOCTitle: "Cria um novo conjunto de definições de config. de tronco no Lync Server 2013"
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688054(v=OCS.15)
 ms:contentKeyID: 49886200
@@ -140,7 +140,7 @@ Ao criar definições de configuração de tronco SIP usando Painel de Controle 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > O cmdlets Lync Server CsTrunkConfiguration suporta propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para obter mais informações, consulte o tópico da Ajuda do cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a> cmdlet.
 
 ## Criação de nova definição de configuração de tronco usando o Painel de Controle do Lync Server

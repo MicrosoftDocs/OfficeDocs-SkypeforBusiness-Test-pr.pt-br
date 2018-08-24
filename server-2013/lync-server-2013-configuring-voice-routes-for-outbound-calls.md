@@ -27,7 +27,7 @@ Uma rota de voz do Lync Server 2013 associa os números de telefone de destino c
 
 4.  Clique duas vezes em uma rota de voz para visualizar propriedades adicionais a partir da lista de rotas de voz ou selecione a rota e clique em **Editar**. Então, clique em **Exibir detalhes**.
     
-    > [!note]  
+    > [!NOTE]  
     > Você só pode visualizar informações detalhadas para uma única rota por vez.
 
 **Para exibir rotas de voz utilizando Windows PowerShell**
@@ -50,7 +50,7 @@ Uma rota de voz do Lync Server 2013 associa os números de telefone de destino c
         SuppressCallerId  :
         AlternateCallerId :
 
-> [!note]  
+> [!NOTE]  
 > Para obter detalhes, consulte <a href="lync-server-2013-voice-routes.md">Rotas de voz no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Nesta seção

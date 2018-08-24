@@ -25,7 +25,7 @@ Esse comando desabilitará a execução das transações sintéticas no nó do i
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-> [!note]  
+> [!NOTE]  
 > A propriedade Enabled pode ser usada para habilitar e desabilitar os nós do inspetor. Se você desejar excluir permanentemente um nó do inspetor, use o cmdlet <strong>Remove-CsWatcherNodeConfiguration</strong>:<br />Remove-CsWatcherNodeConfiguration –Identity &quot;atl-watcher-001.litwareinc.com&quot;<br />Esse comando remove todas as configurações de nó do inspetor do computador especificado, o que impede que o computador execute transações sintéticas automaticamente. No entanto, o comando não desinstala os arquivos de agente do System Center nem os arquivos de sistema do Lync Server 2013.
 
 Por padrão, os nós do inspetor usam as URLs externas de uma organização durante a realização de seus testes. No entanto, também é possível configurá-los para usar as URLs internas da organização. Isso permite que os administradores verifiquem o acesso a URLs pelos usuários localizados dentro da rede de perímetro. Para configurar um nó do inspetor para usar as URLs internas em vez das externas, defina a propriedade UseInternalWebUrls como True ($True):

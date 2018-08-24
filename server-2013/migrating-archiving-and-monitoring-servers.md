@@ -25,7 +25,7 @@ Se você deseja as funcionalidades de arquivamento e monitoração durante o pro
 
   - Durante o período em que o legado e a implementação do Lync Server 2013 coexistirem, a versão do Lync Server 2010 de Servidor de Arquivamento e Monitoring Server coleta dados para os usuários hospedados em pools do Lync Server 2010. Arquivamento e Monitoramento no Lync Server 2013 coletam dados para os usuários hospedados em pools do Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Durante a fase de migração, quando você ainda está usando servidor de borda legado com o novo pool piloto do Lync Server 2013, a versão do Lync Server 2010 de Servidor de Arquivamento continua coletando dados para os usuários hospedados em pools do Lync Server 2010 e o Arquivamento no Lync Server 2013 coleta dados para usuários hospedados em pools do Lync Server 2013.
 
   - Se você usar uma solução de arquivamento e monitoração de terceiros junto com Arquivamento e Monitoramento no Lync Server 2013, consulte seu fornecedor sobre quando e como precisa integrar a solução com o Lync Server 2013.

@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2013-03-05_
 
 O Lync Server 2013 impõe algumas exigências para comunicações a partir do cliente externo que são então passadas aos serviços Web externos hospedados no Diretor, Pool de diretores, Servidor Front-End ou Pool de Front-Ends. O proxy reverso também é responsável por publicar o Servidor Office Web Apps, caso você esteja oferecendo a opção de conferência a seus usuários.
 
-> [!note]  
+> [!NOTE]  
 > O Lync Server 2013 não especifica um proxy reverso em particular que você precise utilizar. O Lync Server 2013 somente define requisitos operacionais que o proxy reverso deve ser capaz de satisfazer. Tipicamente, o proxy reverso que você já tem implantado em sua infraestrutura deve ser capaz de satisfazer essas exigências.
 
 ## Requisitos de proxy reverso

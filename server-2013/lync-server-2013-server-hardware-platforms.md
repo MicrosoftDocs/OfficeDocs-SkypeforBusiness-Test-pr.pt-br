@@ -23,7 +23,7 @@ O hardware específico usado para a implantação do Lync Server 2013 pode varia
 
 Para melhor desempenho, recomendamos executar o Lync Server em servidores com hardware que atenda aos requisitos mostrados na tabela a seguir. Se você usar um hardware inferior, poderá enfrentar problemas de funcionalidade ou mau desempenho. Observe que esses requisitos de hardware são superiores àqueles de versões anteriores do Lync Server, principalmente porque no Lync Server 2013, todos os Servidores Front-End executam o SQL Server.
 
-> [!note]  
+> [!NOTE]  
 > O agrupamento NIC tem suporte e deve ser transparente para o Lync Server. Para obter detalhes, veja o artigo <a href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming (Communications Server ou Lync Server e agrupamento de adaptador de rede)</a>.
 
 ### Hardware recomendado para Servidores Front-End, Servidores Back-End, Servidores Standard Edition, Servidores de Chat Persistente, Repositório de Chat Persistente e Repositório de Conformidade de Chat Persistente (Funções de Servidores Back-End para Servidor de Chat Persistente)
@@ -58,8 +58,8 @@ Para melhor desempenho, recomendamos executar o Lync Server em servidores com ha
 <tr class="even">
 <td><p>Rede</p></td>
 <td><ul><li><p>1 adaptador de rede de porta dupla, 1 Gbps ou superior (recomendamos 2 Gbps, o que requer agrupamento com um único endereço MAC e um único endereço IP).</p>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Não há suporte para configurações duais nem multihomed em Servidores Front-End, Servidores Back-End, Servidores Standard Edition nem Servidores de Chat Persistente.<br />Conexões ILO/DRAC/etc. não expostas ao sistema operacional e usadas para monitorar e gerenciar o hardware de servidor não constituem um servidor multihomed e, por isso, não têm suporte.
 </div></li></ul></td>
 </tr>
@@ -100,8 +100,8 @@ Para melhor desempenho, recomendamos executar o Lync Server em servidores com ha
 <tr class="even">
 <td><p>Rede</p></td>
 <td><ul><li><p>1 adaptador de rede de porta dupla, 1 Gbps ou superior (recomenda-se usar 2 Gbps, o que requer agrupamento com um único endereço MAC e um único endereço IP). Duas interfaces de rede são necessárias em Servidores de Borda, com suporte em Servidor de Mediação autônomos.</p></li></ul>
-<div class="alert">
-> [!note]  
+
+> [!NOTE]  
 > Não há suporte para configurações duplas nem multihomed para Diretores.<br />Conexões ILO/DRAC/etc. não expostas ao sistema operacional e usadas para monitorar e gerenciar o hardware de servidor não constituem um servidor multihomed e, por isso, não têm suporte.
 </div>
 <p>Servidores de Borda requerem duas interfaces de rede que sejam adaptadores de rede de porta dupla, 1 Gbps ou superior (ou dois adaptadores de rede emparelhados, para um total de quatro, cada par sendo agrupado com um único endereço MAC e um único endereço IP, para um total de dois pares).</p>
