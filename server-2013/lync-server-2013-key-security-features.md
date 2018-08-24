@@ -55,19 +55,8 @@ O Microsoft Lync Server 2013 fornece controle de acesso baseado em função (RBA
 
 O Lync Server 2013 não dá suporte para uso do conversor de endereços de rede (NAT) na interface do Servidor de borda, mas dá suporte para a instalação da interface externa dos serviços de Borda de Acesso, Borda de Webconferência e Borda A/V oculto sob um roteador ou firewall que desempenhe a conversão de endereço de rede (NAT) para topologias do Servidor de Borda consolidada única ou escalonável. Múltiplos Servidores de Borda ocultos sob um balanceador de carga de hardware não podem usar o NAT. O balanceador de carga do DNS (Domain Name System) é obrigatório se múltiplos Servidores de Borda usarem o NAT em suas interfaces externas. Por seu turno, o uso do balanceador de carga do DNS permite que o número de endereços de IP públicos por Servidor de Borda sem um pool de Servidor de Borda seja reduzido. Para saber mais, veja [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você federa com empresas em uma implantação da Microsoft Office Communications Server 2007 e precisa usar áudio/vídeo entre a sua empresa e a empresa federada, os requisitos de porta serão os da versão antiga do Servidor de Borda implantado. Por exemplo, os intervalos de porta exigidos para versões antigas devem ser abertos por ambas as empresas até que o parceiro federado atualize o seu Servidor de Borda do Lync Server 2013. Quando os requisitos de porta poderão ser revistos e reduzidos de acordo com a nova configuração.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você federa com empresas em uma implantação da Microsoft Office Communications Server 2007 e precisa usar áudio/vídeo entre a sua empresa e a empresa federada, os requisitos de porta serão os da versão antiga do Servidor de Borda implantado. Por exemplo, os intervalos de porta exigidos para versões antigas devem ser abertos por ambas as empresas até que o parceiro federado atualize o seu Servidor de Borda do Lync Server 2013. Quando os requisitos de porta poderão ser revistos e reduzidos de acordo com a nova configuração.
 
 ## Simplificar Certificados para Servidores de Borda
 

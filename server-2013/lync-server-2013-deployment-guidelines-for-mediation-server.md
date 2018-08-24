@@ -41,19 +41,8 @@ Se você implantou os gateways PSTN, PBXs IP ou SBCs que não suportam os recurs
 
 Os Servidor de Mediação no site central podem ser usados para rotear chamadas para gateways IP PBXs ou PSTN em sites de filial. Se você implantar os troncos SIP, no entanto, é necessário implantar um Servidor de Mediação no site onde termina cada tronco. Com um Servidor de Mediação no site central para rotear chamadas a um gateway PBX IP ou PSTN de uma filial não requer o uso de bypass de mídia. No entanto, se você pode ativar o bypass de mídia, isso irá reduzir a latência do caminho de mídia e, conseqüentemente, resultar em uma melhor qualidade mídia, porque o caminho de mídia não é mais necessário para seguir o caminho de sinalização. O bypass de mídia também irá diminuir a carga de processamento no pool.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O desvio de mídia é compatível somente com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O desvio de mídia é compatível somente com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</a>.
 
 Se a flexibilidade do site de filial for necessária, um Aparelho de Filial Persistente ou uma combinação de um Servidor Front-End, um Servidor de Mediação e um gateway devem ser implantados na filial. (A suposição sobre a resiliência do site de filial é que a presença e conferência não são resilientes no site.) Para obter orientação sobre planejamento de voz de filial, consulte [Planejamento de resiliência de voz no site da filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
@@ -61,16 +50,5 @@ Para interações com um PBX IP, se o IP-PBX não suporta corretamente as intera
 
 Finalmente, se o site central tiver um PBX TDM ou se o IP-PBX não elimina a necessidade de um gateway PSTN, você deve implantar um gateway na rota de chamada que conecta o Servidor de Mediação e o PBX.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte &quot;Aprimoramentos do Receive-Side Scaling no Windows Server&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</a>. Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte &quot;Aprimoramentos do Receive-Side Scaling no Windows Server&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</a>. Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.

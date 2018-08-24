@@ -37,5 +37,5 @@ Você pode visualizar informações de interface de rede usando os cmdlet Shell 
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
 
-Para obter detalhes, consulte [Get-CsNetworkInterface](get-csnetworkinterface.md).
+Para obter detalhes, consulte [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface).
 

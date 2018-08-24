@@ -26,7 +26,7 @@ Digite o seguinte em uma linha de comando do promt:
     Get-CsClsConfiguration
 
 
-> [!TIP]
+> [!TIP]  
 > Você pode diminuir ou ampliar o escopo das definições das configurações que retornam ao definir <CODE>-Identity</CODE> e um escopo, como “Site:Redmond”, para retornar apenas o CsClsConfiguration para o Redmond local. Caso deseje detalhes sobre uma dada parte da configuração, você pode canalizar a saída em outro cmdlet Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração para o "Redmond" loca, digite: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
 
@@ -124,8 +124,8 @@ O resultado do cmdlet exibe a configuração atual do Serviço de Log Centraliza
 
 #### Outros Recursos
 
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)
 

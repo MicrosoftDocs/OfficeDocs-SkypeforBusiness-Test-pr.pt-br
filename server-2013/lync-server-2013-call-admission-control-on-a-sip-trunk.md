@@ -27,19 +27,8 @@ Para configurar o CAC em um tronco SIP, você terá que executar as seguintes ta
 
 1.  Crie um site de rede para representar o ITSP. Associe o site de rede a uma região de rede apropriada e aloque a largura de banda de zero para áudio e vídeo para este site de rede. Para obter detalhes, consulte [Configurar locais de rede para CAC no Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) na documentação de implantação.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para o ITSP, essa configuração de site de rede não funciona. Os valores da política de largura de banda são, na verdade, aplicados na etapa 2.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para o ITSP, essa configuração de site de rede não funciona. Os valores da política de largura de banda são, na verdade, aplicados na etapa 2.
 
 2.  Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, consulte [Criar políticas entre locais de rede no Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) na documentação de implantação. Consulte também a documentação do Shell de Gerenciamento do Lync Server para o cmdlet New-CsNetworkInterSitePolicy.
 

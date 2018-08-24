@@ -29,19 +29,8 @@ Todos os arquivos .ldf são instalados durante a preparação do esquema, sem le
 
 As extensões de esquema do Lync Server são replicadas em todos os domínios, o que impacta no tráfego da rede. Execute a preparação do esquema quando a utilização da rede estiver baixa.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você precisar adicionar suporte para Microsoft® Office Communicator Mobile 2007 R2 para Java e Microsoft® Office Communicator Mobile para os clientes de celulares Nokia 1.0 na implantação do Lync Server 2013, será necessário preparar o esquema do Active Directory para Microsoft Office Communications Server 2007 R2 durante a instalação do Lync Server 2013. Para obter as informações necessárias sobre software e documentação, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você precisar adicionar suporte para Microsoft® Office Communicator Mobile 2007 R2 para Java e Microsoft® Office Communicator Mobile para os clientes de celulares Nokia 1.0 na implantação do Lync Server 2013, será necessário preparar o esquema do Active Directory para Microsoft Office Communications Server 2007 R2 durante a instalação do Lync Server 2013. Para obter as informações necessárias sobre software e documentação, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.
 
 ## Editor ADSI
 

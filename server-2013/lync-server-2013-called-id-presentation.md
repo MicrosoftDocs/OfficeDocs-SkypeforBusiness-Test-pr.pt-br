@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Com o Lync Server 2010, o número de telefone da parte chamada (isto é, o número de telefone chamado) pode ser convertido do formato E.164 para o formato de discagem local exigido pelo *ponto de tronco* (isto é, o gateway associado, PBX ou tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para converter a URI de Solicitação antes de roteá-la para o ponto de tronco.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A capacidade de associar uma ou mais regras de conversão com uma configuração de tronco do Enterprise Voice é destinada a ser usada como uma <em>alternativa</em> para configurar regras de conversão no ponto de tronco. Não associe regras de conversão com uma configuração de tronco do Enterprise Voice se tiver regras de conversão configuradas no ponto do tronco porque as duas regras podem entrar em conflito.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> A capacidade de associar uma ou mais regras de conversão com uma configuração de tronco do Enterprise Voice é destinada a ser usada como uma <em>alternativa</em> para configurar regras de conversão no ponto de tronco. Não associe regras de conversão com uma configuração de tronco do Enterprise Voice se tiver regras de conversão configuradas no ponto do tronco porque as duas regras podem entrar em conflito.
 
 Você pode usar um dos seguintes métodos para compilar ou modificar uma regra de conversão:
 
@@ -37,19 +26,8 @@ Você pode usar um dos seguintes métodos para compilar ou modificar uma regra d
 
   - Escreva expressões regulares manualmente para definir o padrão de correspondência e a regra de conversão.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter informações sobre como escrever expressões regulares, consulte &quot;Expressões Regulares do .NET Framework&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x416</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter informações sobre como escrever expressões regulares, consulte &quot;Expressões Regulares do .NET Framework&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x416</a>.
 
 ## Nesta seção
 

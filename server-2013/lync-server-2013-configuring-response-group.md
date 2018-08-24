@@ -22,7 +22,7 @@ Os componentes que o Grupo de Resposta exige são instalados e habilitados autom
 Esta seção guia você através da configuração do Lync Server 2013Grupo de Resposta. Assume que você já leu as seções de planejamento relacionadas ao Grupo de Resposta e implantou um servidor do Enterprise Edition ou um servidor do Standard Edition com o Enterprise Voice.
 
 
-> [!TIP]
+> [!TIP]  
 > Para obter detalhes sobre a criação de um Grupo de Resposta usando o Shell de Gerenciamento do Lync Server, incluindo um script de amostra, consulte "Criando seu primeiro grupo de resposta usando o Shell de Gerenciamento do Lync Server" em <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.
 
 

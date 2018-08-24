@@ -19,19 +19,8 @@ Veja a seguir os requisitos necessários para a instalação e configuração do
 
   - A Atualização Cumulativa 2 do Lync Server 2013 deve ser implantada em todos os servidores ou pools da sua topologia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se um servidor ou pool do Lync não tiver a Atualização Cumulativa 2 ou superior do Lync Server 2013 instalada, não será possível garantir a imposição do Roteamento com Base no Local das reuniões do Lync.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se um servidor ou pool do Lync não tiver a Atualização Cumulativa 2 ou superior do Lync Server 2013 instalada, não será possível garantir a imposição do Roteamento com Base no Local das reuniões do Lync.
 
   - O Roteamento com Base no Local do Lync Server 2013 é um pré-requisito para o aplicativo de Conferência de Roteamento com Base no Local. Para obter mais informações sobre como configurar o Roteamento com Base no Local do Lync Server 2013, consulte [Configurando o Roteamento com Base no Local](lync-server-2013-configuring-location-based-routing.md).
 

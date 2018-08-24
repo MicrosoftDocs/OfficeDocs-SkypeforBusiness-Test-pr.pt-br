@@ -49,19 +49,8 @@ Após a reinicialização do computador no nó de inspetor, sua próxima etapa s
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Conforme indicado anteriormente, Watchernode.msi também pode ser executado a partir de uma janela de comando. Para abrir uma janela de comando, clique em <strong>Iniciar</strong>, clique com o botão direito do mouse em <strong>Prompt de Comando</strong> e clique em <strong>Executar como administrador</strong>. Quando a janela de comando for aberta, digite o mesmo comando exibido anteriormente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Conforme indicado anteriormente, Watchernode.msi também pode ser executado a partir de uma janela de comando. Para abrir uma janela de comando, clique em <strong>Iniciar</strong>, clique com o botão direito do mouse em <strong>Prompt de Comando</strong> e clique em <strong>Executar como administrador</strong>. Quando a janela de comando for aberta, digite o mesmo comando exibido anteriormente.
 
 O modo Negociar é usado sempre que o nó de inspetor não podem ser configurado como um pool de aplicativos confiável. Nesse modo, os administradores precisarão gerenciar as senhas do usuário de teste no nó de inspetor.
 

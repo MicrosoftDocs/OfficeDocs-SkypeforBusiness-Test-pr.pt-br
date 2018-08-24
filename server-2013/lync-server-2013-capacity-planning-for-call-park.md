@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 A tabela a seguir descreve o modelo de usuário do Estacionamento de Chamada que pode ser usado como base para requisitos de planejamento de capacidade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tenha em mente que para o planejamento de capacidade de recuperação de desastres, cada pool de um par deve ser capaz de manipular cargas de trabalho de serviços do Estacionamento de Chamada nos dois pools.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Tenha em mente que para o planejamento de capacidade de recuperação de desastres, cada pool de um par deve ser capaz de manipular cargas de trabalho de serviços do Estacionamento de Chamada nos dois pools.
 
 ### Modelo de usuário do estacionamento de chamada Park
 

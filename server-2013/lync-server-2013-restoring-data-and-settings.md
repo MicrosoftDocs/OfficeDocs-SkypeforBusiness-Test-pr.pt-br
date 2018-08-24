@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-17_
 
 Se você tiver implementado uma topologia de recuperação em caso de desastre com pools emparelhados, um desses pools de Front End tiver sido desativado e você precisar rapidamente reestabelecer o serviço para seus usuários, consulte [Fazendo failover de um pool no Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Caso contrário, use as informações nos tópicos a seguir, juntamente com as planilhas em [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md), para restaurar o Lync Server após uma falha ou interrupção.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para reduzir o tempo de inatividade e uma possível perda de dados, execute os procedimentos de restauração descritos neste documento somente se os procedimentos de resolução de problemas não forem efetivos na identificação e correção do problema. Durante a resolução de problemas, faça o possível para minimizar o impacto sobre outros servidores e componentes quando você desligar e reiniciar os servidores.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para reduzir o tempo de inatividade e uma possível perda de dados, execute os procedimentos de restauração descritos neste documento somente se os procedimentos de resolução de problemas não forem efetivos na identificação e correção do problema. Durante a resolução de problemas, faça o possível para minimizar o impacto sobre outros servidores e componentes quando você desligar e reiniciar os servidores.
 
 ## Nesta seção
 

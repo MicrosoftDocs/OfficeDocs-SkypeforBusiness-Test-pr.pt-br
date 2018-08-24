@@ -49,7 +49,7 @@ Para atribuir uma função RBAC a um usuário, é necessário adicionar esse usu
 
 7.  Na caixa de diálogo **Propriedades** , clique em **OK** .
 
-Para verificar se a função RBAC foi atribuída, use o cmdlet [Get-CsAdminRoleAssignment](get-csadminroleassignment.md), passando o cmdlet theSamAccountName (nome de logon do Active Directory) do usuário. Por exemplo, execute este comando a partir do Shell de Gerenciamento do Lync Server:
+Para verificar se a função RBAC foi atribuída, use o cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment), passando o cmdlet theSamAccountName (nome de logon do Active Directory) do usuário. Por exemplo, execute este comando a partir do Shell de Gerenciamento do Lync Server:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

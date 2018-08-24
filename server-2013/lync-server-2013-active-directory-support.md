@@ -27,33 +27,11 @@ As topologias locais do Serviços de Domínio Active Directory suportadas pelo L
 
   - Várias florestas em uma topologia de floresta de recursos
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 não oferece suporte a domínios de rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <strong>contoso.local</strong> é suportado, mas um domínio raiz de rótulo único chamado <strong>local</strong> não é suportado. Para obter detalhes, consulte o artigo 300684 da Base de Dados de Conhecimento da Microsoft, &quot;Informações sobre a configuração do Windows para domínios com nomes DNS de rótulo único&quot;, em <a href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> O Lync Server 2013 não oferece suporte a domínios de rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <strong>contoso.local</strong> é suportado, mas um domínio raiz de rótulo único chamado <strong>local</strong> não é suportado. Para obter detalhes, consulte o artigo 300684 da Base de Dados de Conhecimento da Microsoft, &quot;Informações sobre a configuração do Windows para domínios com nomes DNS de rótulo único&quot;, em <a href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</a>.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 não suporta renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server estiver implantado, você precisará primeiro desinstalar o Lync Server, em seguida renomear o domínio, e por fim reinstalar o Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server 2013 não suporta renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server estiver implantado, você precisará primeiro desinstalar o Lync Server, em seguida renomear o domínio, e por fim reinstalar o Lync Server.
 
 Para obter detalhes sobre as topologias suportadas e requisitos para implantações locais, consulte [Requisitos, suporte e topologia de Serviços de Domínio Active Directory no Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) na documentação de Planejamento.
 

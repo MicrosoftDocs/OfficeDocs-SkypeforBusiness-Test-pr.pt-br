@@ -29,19 +29,8 @@ Os modos a seguir são suportados:
 
   - **Implantação mista :** Sua implantação Lync Server 2013 tem algumas caixas de entradas de usuários hospedadas em servidores Exchange locais dentro de sua empresa e algumas hospedadas em um data center de serviço Exchange hospedado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A implantação mista pode ser usada como uma solução de transição durante a avaliação e migração em fases de usuários ao UM do Exchange hospedado, ou uma solução permanente caso você opte por manter alguns serviços de UM do Exchange dos usuários no local, após transferir outros.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A implantação mista pode ser usada como uma solução de transição durante a avaliação e migração em fases de usuários ao UM do Exchange hospedado, ou uma solução permanente caso você opte por manter alguns serviços de UM do Exchange dos usuários no local, após transferir outros.
 
 ## Espaço de Endereçamento SIP Compartilhado
 
@@ -49,19 +38,8 @@ Para integrar Lync Server 2013 à uma implantação UM do Exchange local, você 
 
 Para integrar Lync Server 2013 ao UM do Exchange hospedado, você deve configurar um *espaço de endereçamento SIP compartilhado* . Nesta configuração, o mesmo espaço de endereçamento SIP compartilhado está disponível para ambos Lync Server 2013 e o provedor de serviço UM do Exchange hospedado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O uso de espaço de endereço SIP compartilhado é similar à abordagem utilizada em um ambiente Lync Server 2013 entre instalações, no qual alguns usuários estão hospedados na implantação local e outros na implantação hospedada (como Lync Online). O domínio SIP está dividido entre eles. Quando você integrar Lync Server 2013 com UM do Exchange hospedado, assegure-se de incluir um provedor de serviço UM do Exchange no espaço de endereço SIP compartilhado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O uso de espaço de endereço SIP compartilhado é similar à abordagem utilizada em um ambiente Lync Server 2013 entre instalações, no qual alguns usuários estão hospedados na implantação local e outros na implantação hospedada (como Lync Online). O domínio SIP está dividido entre eles. Quando você integrar Lync Server 2013 com UM do Exchange hospedado, assegure-se de incluir um provedor de serviço UM do Exchange no espaço de endereço SIP compartilhado.
 
 Para configurar o espaço de endereço SIP compartilhado para integrar-se com um provedor de serviço UM do Exchange, você deve configurar seu Servidor de Borda como exemplificado a seguir:
 

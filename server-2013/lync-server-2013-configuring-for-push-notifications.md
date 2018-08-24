@@ -17,21 +17,8 @@ _**Tópico modificado em:** 2013-02-12_
 
 Notificações de push no formato de crachás, ícones ou alertas podem ser enviadas para um dispositivo móvel quando o aplicativo móvel estiver inativo. As notificações de push avisam um usuário de eventos como um convite de IM novo ou perdido e caixa postal. O Serviço de Mobilidade do Lync Server 2013 envia notificações para o Serviço de Notificação de Push Lync Server baseado em nuvem, que envia a notificação para o Serviço de Notificação Push da Apple (APNS), para um dispositivo Apple executando o cliente Lync 2010 Mobile; ou o Serviço de Notificação de Push da Microsoft (MPNS), para um dispositivo Windows Phone executando o cliente móvel Lync 2010 Mobile ou Lync 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você utiliza Windows Phone com cliente móvel Lync 2010 Mobile ou Lync 2013, notificação de push é uma consideração importante.<br />
-Se você utiliza Lync 2010 Mobile em dispositivos Apple, notificação de push é uma consideração importante.<br />
-Se você utiliza Lync 2013 móvel em dispositivos Apple, você não precisa mais de notificação de push.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se você utiliza Windows Phone com cliente móvel Lync 2010 Mobile ou Lync 2013, notificação de push é uma consideração importante.<br />Se você utiliza Lync 2010 Mobile em dispositivos Apple, notificação de push é uma consideração importante.<br />Se você utiliza Lync 2013 móvel em dispositivos Apple, você não precisa mais de notificação de push.
 
 Configure sua topologia para suportar as notificações por push fazendo o seguinte:
 
@@ -39,19 +26,8 @@ Configure sua topologia para suportar as notificações por push fazendo o segui
 
   - Se seu ambiente tiver um Office Communications Server 2007 R2Servidor de Borda, será necessário configurar a federação direta de SIP com push.lync.com.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Push.lync.com é um domínio do Microsoft Office 365 para o Serviço de Notificação de Push.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Push.lync.com é um domínio do Microsoft Office 365 para o Serviço de Notificação de Push.
 
   - Para habilitar as notificações por push, você precisa executar o cmdlet **Set-CsPushNotificationConfiguration**. Por padrão, as notificações por push estão desativadas.
 
@@ -71,19 +47,8 @@ Configure sua topologia para suportar as notificações por push fazendo o segui
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Não é possível ter mais de um relacionamento de federação com um único provedor de hospedagem. Ou seja, se você já tiver configurado um provedor de hospedagem que tenha um relacionamento de federação com sipfed.online.lync.com, não adicione outro provedor de hospedagem para ele, mesmo se a identidade do provedor de hospedagem for algo além de LyncOnline.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Não é possível ter mais de um relacionamento de federação com um único provedor de hospedagem. Ou seja, se você já tiver configurado um provedor de hospedagem que tenha um relacionamento de federação com sipfed.online.lync.com, não adicione outro provedor de hospedagem para ele, mesmo se a identidade do provedor de hospedagem for algo além de LyncOnline.
 
 4.  Configure a federação do provedor de hospedagem entre sua organização e o Serviço de Notificação por Push no Lync Online. Na linha de comando, digite:
     
@@ -147,6 +112,6 @@ Configure sua topologia para suportar as notificações por push fazendo o segui
 
 #### Outros Recursos
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 A tabela Tenants é uma tabela de suporte que armazena uma lista de vários locatários. Cada registro na tabela representa um locatário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Na implantação no local, o CDR usa o ID de Inquilino integrado para indicar um tipo de autenticação diferente, como conectividade de IM pública, Federada e Anônima.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Na implantação no local, o CDR usa o ID de Inquilino integrado para indicar um tipo de autenticação diferente, como conectividade de IM pública, Federada e Anônima.
 
 
 <table>
@@ -58,13 +47,7 @@ A tabela Tenants é uma tabela de suporte que armazena uma lista de vários loca
 <td><p><strong>TenantKey</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p></p></td>
-<td><p>Valores permitidos:</p>
-<ul>
-<li><p>00000000-0000-0000-0000-000000000000 - Empresarial</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 - Federado</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 - Anônimo</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 - Conectividade de IM público</p></li>
-</ul></td>
+<td><p>Valores permitidos:</p><ul><li><p>00000000-0000-0000-0000-000000000000 - Empresarial</p></li><li><p>00000000-0000-0000-0000-000000000001 - Federado</p></li><li><p>00000000-0000-0000-0000-000000000002 - Anônimo</p></li><li><p>00000000-0000-0000-0000-000000000003 - Conectividade de IM público</p></li></ul></td>
 </tr>
 </tbody>
 </table>

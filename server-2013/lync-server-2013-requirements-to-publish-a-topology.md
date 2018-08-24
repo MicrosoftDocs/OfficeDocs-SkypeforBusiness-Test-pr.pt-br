@@ -25,19 +25,8 @@ Este tópico descreve os requisitos de infraestrutura e software específicos pa
 
   - Para publicar um Pool de Front-Ends Enterprise Edition, o Servidor Back-End baseado no SQL Server deve ser ingressado ao domínio no qual você está implantando os servidores online e configurado com as regras de firewall adequadas para torná-lo disponível para usuários remotos. Para obter detalhes sobre como especificar exceções de firewall, consulte [Compreendendo os requisitos de firewall para Servidor SQL com Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md). Para outros detalhes sobre a configuração de SQL Server, consulte [Configurar o SQL Server para Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A Servidor Standard Edition tem um banco de dados colocado que aceitará a configuração publicada. Primeiro você deve executar a tarefa de instalação <strong>Prepare primeiro o servidor Standard Edition</strong> na Assistente de Implantação do Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A Servidor Standard Edition tem um banco de dados colocado que aceitará a configuração publicada. Primeiro você deve executar a tarefa de instalação <strong>Prepare primeiro o servidor Standard Edition</strong> na Assistente de Implantação do Lync Server.
 
 ## Consulte Também
 

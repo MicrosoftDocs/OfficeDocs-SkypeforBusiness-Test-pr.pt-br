@@ -21,19 +21,8 @@ Um operador que precisa entrar e sair do grupo, que é diferente de fazer logon 
 
 Um operador que não precisa entrar ou sair do grupo é denominado *operador informal* . Os operadores informais entram no grupo automaticamente quando entram no Lync Server, e não podem sair do grupo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Somente os usuários no local podem ser agentes. Se um agente muda para online, as chamadas do Grupo de Resposta não são roteadas para o agente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Somente os usuários no local podem ser agentes. Se um agente muda para online, as chamadas do Grupo de Resposta não são roteadas para o agente.
 
 ## Nesta seção
 

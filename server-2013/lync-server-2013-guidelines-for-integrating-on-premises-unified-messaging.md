@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Orientações para integração de Unificação de Mensagens local e Lync Server'
+title: "Lync Server 2013: Orient. p/ integr. de Unif. de Mensagens local e Lync Server"
 TOCTitle: Orientações para integração de Unificação de Mensagens local e Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398656(v=OCS.15)
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 As diretrizes e práticas recomendadas abaixo devem ser levadas em consideração ao implantar o Enterprise Voice:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Unificação de Mensagens (UM) do Exchange suporta IPv6 somente se você estiver usando UCMA 4.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Unificação de Mensagens (UM) do Exchange suporta IPv6 somente se você estiver usando UCMA 4.
 
   - Implantar um servidor Standard Edition do Lync Server 2013 ou um Pool de Front-Ends. Para obter detalhes sobre a instalação, consulte [Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
 
@@ -37,20 +26,8 @@ As diretrizes e práticas recomendadas abaixo devem ser levadas em consideraçã
 
   - Implantar as funções de servidor Caixa de Correio do Exchange em cada floresta do Unificação de Mensagens (UM) do Exchange onde você deseja habilitar usuários para o UM do Exchange. Para obter detalhes sobre como instalar as funções de servidor do Exchange, consulte a documentação de Microsoft Exchange Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Quando o Unificação de Mensagens (UM) do Exchange é instalado, é configurado para usar um certificado auto-assinado.<br />
-    O certificado auto-assinado, no entanto, não permite a confiança entre o Lync Server 2013 e o UM do Exchange, motivo pelo qual é necessário solicitar um certificado separado de uma autoridade de certificação no qual ambos os servidores confiem.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Quando o Unificação de Mensagens (UM) do Exchange é instalado, é configurado para usar um certificado auto-assinado.<br />    O certificado auto-assinado, no entanto, não permite a confiança entre o Lync Server 2013 e o UM do Exchange, motivo pelo qual é necessário solicitar um certificado separado de uma autoridade de certificação no qual ambos os servidores confiem.
 
   - Se o Lync Server 2013 e o UM do Exchange são instalados em diferentes florestas, configure cada floresta do Exchange para confiar na floresta do Lync Server 2013 e a floresta do Lync Server 2013 para confiar em cada floresta do Exchange. Além disso, defina as configurações dos usuários do UM do Exchange em objetos de usuário na floresta do Lync Server 2013, normalmente usando um script ou uma ferramenta entre florestas, como o Identity Lifecycle Manager (ILM).
 
@@ -62,19 +39,8 @@ As diretrizes e práticas recomendadas abaixo devem ser levadas em consideraçã
 
 ## Implantando Servidores Redundantes UM do Exchange
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que você implante um mínimo de dois servidores UM do Exchange para cada plano de discagem de URI do SIP do UM do Exchange que você configurar para sua organização. Além de oferecer capacidade expandida, a implantação de servidores redundantes fornece alta disponibilidade. No caso de uma falha de servidor UM do Exchange, o Lync Server 2013 pode ser configurado para fazer failover a outro servidor.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Recomendamos que você implante um mínimo de dois servidores UM do Exchange para cada plano de discagem de URI do SIP do UM do Exchange que você configurar para sua organização. Além de oferecer capacidade expandida, a implantação de servidores redundantes fornece alta disponibilidade. No caso de uma falha de servidor UM do Exchange, o Lync Server 2013 pode ser configurado para fazer failover a outro servidor.
 
 As seguintes configurações de exemplo fornecem resiliência de UM do Exchange.
 
@@ -84,25 +50,13 @@ As seguintes configurações de exemplo fornecem resiliência de UM do Exchange.
 
 No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. No caso de uma paralisação UM do Exchange em Tukwila, os registros DNS (Sistema de Nomes de Domínio) para os servidores de 1 e 2 devem ser configurados para apontar aos servidores 3 e 4, respectivamente. No caso de uma paralisação UM do Exchange em Dublin, os registros DNS para os servidores 3 e 4 devem ser configurados para apontar aos servidores 1 e 2 respectivamente.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para o exemplo 1, você deve também atribuir um dos seguintes certificados em cada servidor UM do Exchange:
-<ul>
-<li><p>Use um certificado com um caractere curinga no nome de alternativo da entidade (SAN).</p></li>
-<li><p>Coloque o FQDN (nome de domínio totalmente qualificado) de cada um dos quatro servidores UM do Exchange no SAN.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Para o exemplo 1, você deve também atribuir um dos seguintes certificados em cada servidor UM do Exchange:<ul>
+> 
+> <li><p>Use um certificado com um caractere curinga no nome de alternativo da entidade (SAN).</p></li>
+> 
+> 
+> <li><p>Coloque o FQDN (nome de domínio totalmente qualificado) de cada um dos quatro servidores UM do Exchange no SAN.</p></li></ul>
 
 
 **Exemplo 2: resiliência de UM do Exchange**

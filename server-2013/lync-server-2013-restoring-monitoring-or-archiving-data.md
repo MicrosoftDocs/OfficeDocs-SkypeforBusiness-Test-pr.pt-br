@@ -57,16 +57,5 @@ O procedimento a seguir descreve como usar o SQL Server Management Studio para r
     
     3.  Em **Associação à função de banco de dados**, selecione a permissão **ServerRole** e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Não é necessário reiniciar o serviço de arquivamento ou monitoramento.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Não é necessário reiniciar o serviço de arquivamento ou monitoramento.

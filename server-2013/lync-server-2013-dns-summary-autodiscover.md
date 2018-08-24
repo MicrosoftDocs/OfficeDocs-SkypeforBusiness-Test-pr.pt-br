@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 Descoberta Automática é um serviço flexível por aceitar comunicação via HTTP ou HTTPS. Para isso ser possível, o Sistema de Nome de Domínio (DNS) e os certificados utilizados pelos servidores que utilizam o serviço de Descoberta Automática precisam ser configurados automaticamente. Requisitos de certificado são abordados em [Resumo do certificado – descoberta automática](lync-server-2013-certificate-summary-autodiscover.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A lógica de pesquisa de DNS para os clientes do Lync Server utiliza uma ordem de resolução específica. Você deve sempre incluir ambos o lyncdiscoverinternal.&lt;domain&gt; e o lyncdiscover.&lt;domain&gt; no seu DNS. Excluir o registro lyncdiscoverinternal.&lt;domain&gt; causará falha nos clientes internos ao conectarem-se aos serviços desejados ou fará com que esses clientes recebam uma resposta incorreta de Descoberta Automática.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> A lógica de pesquisa de DNS para os clientes do Lync Server utiliza uma ordem de resolução específica. Você deve sempre incluir ambos o lyncdiscoverinternal.&lt;domain&gt; e o lyncdiscover.&lt;domain&gt; no seu DNS. Excluir o registro lyncdiscoverinternal.&lt;domain&gt; causará falha nos clientes internos ao conectarem-se aos serviços desejados ou fará com que esses clientes recebam uma resposta incorreta de Descoberta Automática.
 
 ### Registros de DNS interno
 
@@ -93,33 +82,11 @@ Você precisa criar um dos registros de DNS externo a seguir:
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tráfego externo passa pelo proxy reverso.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Tráfego externo passa pelo proxy reverso.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Clientes de dispositivos móveis não suportam múltiplos certificados de camada de soquetes de segurança (SSL) de diferentes domínios. Assim, o redirecionamento de CNAME para diferentes domínios não é suportado via HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que é redirecionado para um endereço em director.contoso.net não é suportado via HTTPS. Em tal tipologia, um cliente de dispositivo móvel precisaria utilizar HTTP para a primeira solicitação, de modo que o redirecionamento de CNAME fosse resolvido via HTTP. As solicitações subsequentes então utilizariam HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação Web para a porta 80 (HTTP). Para detalhes, consulte &quot;Para criar uma regra de publicação Web para a porta 80&quot; em <a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a>. Redirecionamento CNAME para o mesmo domínio é suportado via HTTPS. Nesse caso, o certificado do domínio de destino cobre o domínio originador.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Clientes de dispositivos móveis não suportam múltiplos certificados de camada de soquetes de segurança (SSL) de diferentes domínios. Assim, o redirecionamento de CNAME para diferentes domínios não é suportado via HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que é redirecionado para um endereço em director.contoso.net não é suportado via HTTPS. Em tal tipologia, um cliente de dispositivo móvel precisaria utilizar HTTP para a primeira solicitação, de modo que o redirecionamento de CNAME fosse resolvido via HTTP. As solicitações subsequentes então utilizariam HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação Web para a porta 80 (HTTP). Para detalhes, consulte &quot;Para criar uma regra de publicação Web para a porta 80&quot; em <a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a>. Redirecionamento CNAME para o mesmo domínio é suportado via HTTPS. Nesse caso, o certificado do domínio de destino cobre o domínio originador.
 
 ## Consulte Também
 

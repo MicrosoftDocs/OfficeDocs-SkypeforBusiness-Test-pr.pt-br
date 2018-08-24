@@ -42,7 +42,7 @@ Você pode bloquear ou desbloquear o PIN de um usuário a partir da seção **Us
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de busca à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -75,7 +75,7 @@ Você pode bloquear ou desbloquear o PIN de um usuário a partir da seção **Us
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -99,5 +99,5 @@ Você também pode bloquear e desbloquear PINs utilizando o Windows PowerShell e
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Para mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](lock-csclientpin.md) e [Unlock-CsClientPin](unlock-csclientpin.md).
+Para mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) e [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
 

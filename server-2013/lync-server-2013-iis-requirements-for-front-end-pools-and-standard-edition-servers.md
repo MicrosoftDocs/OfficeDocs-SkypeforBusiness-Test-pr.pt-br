@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de IIS para pools Front-End pools e servidores Standard Edition'
+title: "Lync Server 2013: Requisitos de IIS p/ pools Front-End pools e serv. Standard Edition"
 TOCTitle: Requisitos de IIS para pools Front-End pools e servidores Standard Edition
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399038(v=OCS.15)
@@ -37,35 +37,13 @@ Além disso, o instalador da atualização cumulativa para Lync Server 2010: nov
 
   - No Servidores Front-End ou servidores Standard Edition e em Diretores a fim de permitir que os dispositivos móveis descubram automaticamente os recursos de mobilidade
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver implantando a mobilidade, recomendamos o uso do IIS 7.5. O instalador do Serviço de Mobilidade do Lync Server define alguns sinalizadores ASP.NET a fim de aprimorar o desempenho. O IIS 7.5 é instalado por padrão no Windows Server 2008 R2 e o instalador do Serviço de Mobilidade altera automaticamente as configurações do ASP.NET. Se você usar o IIS 7.0 no Windows Server 2008, será necessário alterar manualmente essas configurações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você estiver implantando a mobilidade, recomendamos o uso do IIS 7.5. O instalador do Serviço de Mobilidade do Lync Server define alguns sinalizadores ASP.NET a fim de aprimorar o desempenho. O IIS 7.5 é instalado por padrão no Windows Server 2008 R2 e o instalador do Serviço de Mobilidade altera automaticamente as configurações do ASP.NET. Se você usar o IIS 7.0 no Windows Server 2008, será necessário alterar manualmente essas configurações.
 
 O Lync Server exige a instalação dos seguintes módulos de IIS:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sua organização exigir que você coloque o IIS e todos os Serviços da Web em uma unidade que não seja a unidade do sistema, será possível alterar o caminho do local de instalação para os arquivos do Lync Server na caixa de diálogo Configuração. Se você instalar os arquivos de Configuração nesse caminho, incluindo OCSCore.msi, o restante dos arquivos do Lync Server serão implantados nessa unidade também. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager durante a instalação do IIS, consulte <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se sua organização exigir que você coloque o IIS e todos os Serviços da Web em uma unidade que não seja a unidade do sistema, será possível alterar o caminho do local de instalação para os arquivos do Lync Server na caixa de diálogo Configuração. Se você instalar os arquivos de Configuração nesse caminho, incluindo OCSCore.msi, o restante dos arquivos do Lync Server serão implantados nessa unidade também. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager durante a instalação do IIS, consulte <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
   - Conteúdo estático
 
@@ -181,30 +159,8 @@ A tabela a seguir relaciona os URIs dos diretórios virtuais para acesso interno
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para o Pools de Front-Ends em uma configuração consolidada, é necessário implantar o IIS antes de poder adicionar servidores ao pool.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Para o Pools de Front-Ends em uma configuração consolidada, é necessário implantar o IIS antes de poder adicionar servidores ao pool.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Segurança Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve usar o snap-in administrativo do IIS para atribuir o certificado usado pelo servidor de componente da web do IIS.</td>
-</tr>
-</tbody>
-</table>
-
+> [!security]  
+> Você deve usar o snap-in administrativo do IIS para atribuir o certificado usado pelo servidor de componente da web do IIS.

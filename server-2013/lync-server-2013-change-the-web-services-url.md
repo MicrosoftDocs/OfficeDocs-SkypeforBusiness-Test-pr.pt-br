@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-11-16_
 
 Ao configurar os pools de Front-Ends e os servidores Standard Edition, você tem a opção de configurar um FQDN (nome de domínio totalmente qualificado) de Web farm externo e as portas associadas. Se não tiver configurado essa URL ao executar o Assistente de Implantação do Lync Server, você precisará definir manualmente as configurações. Um administrador normalmente não precisa alterar essas configurações, pois essas são as portas recomendadas e padrão.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A captura de tela a seguir foi obtida durante a configuração de um servidor Standard Edition, portanto, a opção Substituir FQDN está desabilitada. Essa opção é habilitada durante a configuração de um servidor Enterprise Edition em um pool de Front-Ends.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A captura de tela a seguir foi obtida durante a configuração de um servidor Standard Edition, portanto, a opção Substituir FQDN está desabilitada. Essa opção é habilitada durante a configuração de um servidor Enterprise Edition em um pool de Front-Ends.
 
 ![Editar configurações do pool de serviços da Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar configurações do pool de serviços da Web")
 
@@ -44,7 +33,7 @@ Ao configurar os pools de Front-Ends e os servidores Standard Edition, você tem
 4.  Adicione ou edite o **FQDN de Serviços Web Externos** e clique em **OK**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você possui mais de um Pool de Front-Ends ou Servidor Front-End, o FQDN dos serviços Web externo devem ser únicos. Por exemplo, se você define o FQDN dos serviços web externos de um Servidor Front-End como <STRONG>pool01.contoso.com</STRONG>, você não pode usar <STRONG>pool01.contoso.com</STRONG> para outro Pool de Front-Ends ou Servidor Front-End. Se você estiver implantando também Diretores, o FQDN dos serviços web externos definido para qualquer Diretor ou Pool de diretores deve ser único se comparado a outro Diretor ou Pool de diretores, assim como qualquer Pool de Front-Ends ou Servidor Front-End.
 
 
@@ -64,7 +53,7 @@ Existem alguns requisitos que você deve estar ciente ao configurar as portas de
   - Você pode substituir os serviços web internos em um Pool de Front-Ends, um Diretor ou um Pool de diretores e definir seu próprio FQDN.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você decidir substituir os serviços web internos com um FQDN definido automaticamente, cada FQDN deve ser único se comparado a outro Pool de Front-Ends, Diretor ou um Pool de diretores.
 
 

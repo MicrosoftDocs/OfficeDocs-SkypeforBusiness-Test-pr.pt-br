@@ -1,6 +1,6 @@
 ﻿---
-title: Aplicativos Confiáveis (Aplicativo/Computador/Ponto de extremidade/Pool) no Lync Server 2013
-TOCTitle: Aplicativos Confiáveis (Aplicativo/Computador/Ponto de extremidade/Pool) no Lync Server 2013
+title: "Apps Confiáveis (App/Computador/Ponto de extr./Pool) no Lync Server 2013"
+TOCTitle: "Apps Confiáveis (App/Computador/Ponto de extr./Pool) no Lync Server 2013"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688073(v=OCS.15)
 ms:contentKeyID: 49886239
@@ -23,7 +23,7 @@ Use os procedimentos descritos nesta seção para gerenciar aplicativos confiáv
 
 ## Seções relacionadas
 
-[Cmdlets de aplicativos confiáveis](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets de aplicativos confiáveis](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Consulte Também
 

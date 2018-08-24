@@ -17,27 +17,10 @@ _**Tópico modificado em:** 2016-12-08_
 
 O Lync Server usa troncos SIP para conectar uma chamada de emergência ao provedor de serviços E9-1-1. Você pode configurar os troncos SIP do serviço de emergência para E9-1-1 em um local central, em vários locais centrais ou em cada filial. No entanto, se o link da WAN entre o local do chamador e o local que hospeda o tronco SIP do serviço de emergência não estiver disponível, uma chamada colocada por um usuário no site desconectado precisará de um registro de uso de telefone especial na política de voz do usuário que roteará a chamada ao ECRC por meio do gateway da PSTN (Rede Telefônica Pública Comutada) local. O mesmo é verdadeiro se os limites de chamadas simultâneas do serviço de controle de admissão chamada estão em vigor.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Existem basicamente duas maneiras de implementar um tronco SIP em um ambiente do Lync Server:
-<ul>
-<li><p>Use Servidor de Mediação de hospedagem múltipla que use as interfaces roteadas publicamente direcionadas para o exterior para se comunicar com o provedor do tronco SIP.</p></li>
-<li><p>Use um SBC (Controlador de Borda de Sessão) no local para fornecer um ponto de demarcação seguro entre o Servidor de Mediação e os serviços do provedor de tronco SIP.</p></li>
-</ul>
-Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre SBCs certificados, consulte &quot;Infraestrutura qualificada para Microsoft Lync&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</a>.<br />
-Os provedores de serviços E9-1-1 fornecem acesso a um par de SBCs para redundância. É necessário tomar várias decisões sobre a configuração de topologia e roteamento de chamada do Servidor de Mediação. Você tratará os SBCs como pares iguais e utilizará o roteamento em rodízio para chamadas entre eles ou designará um SBC como primário e outro secundário?</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]  
+> Existem basicamente duas maneiras de implementar um tronco SIP em um ambiente do Lync Server:<ul><li><p>Use Servidor de Mediação de hospedagem múltipla que use as interfaces roteadas publicamente direcionadas para o exterior para se comunicar com o provedor do tronco SIP.</p></li><li><p>Use um SBC (Controlador de Borda de Sessão) no local para fornecer um ponto de demarcação seguro entre o Servidor de Mediação e os serviços do provedor de tronco SIP.</p></li></ul>
+> Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre SBCs certificados, consulte &quot;Infraestrutura qualificada para Microsoft Lync&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</a>.<br />Os provedores de serviços E9-1-1 fornecem acesso a um par de SBCs para redundância. É necessário tomar várias decisões sobre a configuração de topologia e roteamento de chamada do Servidor de Mediação. Você tratará os SBCs como pares iguais e utilizará o roteamento em rodízio para chamadas entre eles ou designará um SBC como primário e outro secundário?
 
 
 Para obter detalhes sobre como implantar um tronco SIP no Lync Server, consulte [Como implementar tronco SIP no Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md). As seguintes perguntas ajudaram você a implantar troncos SIP para E9-1-1.

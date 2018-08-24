@@ -65,35 +65,13 @@ Para configurar sua implantação do Lync Server 2013 como híbrida com o Skype 
 
   - Microsoft Office Communications Server 2007 R2 com Lync Server 2013 local. A federação da Lync Server 2013 do Servidor de Borda e o próximo servidor de salto da Servidor de Borda de federação devem executar o Lync Server 2013 e deve haver um Repositório de Gerenciamento Central. A Servidor de Borda e o pool devem ser implantados localmente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Apesar de esta topologia ser suportada, algumas funcionalidades podem ser limitadas. Por exemplo, informações de presença entre usuários do Microsoft Lync Online e usuários do local do Office Communications Server 2007 R2 podem não funcionar como o esperado.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Apesar de esta topologia ser suportada, algumas funcionalidades podem ser limitadas. Por exemplo, informações de presença entre usuários do Microsoft Lync Online e usuários do local do Office Communications Server 2007 R2 podem não funcionar como o esperado.
 
   - Microsoft Lync Server 2010 com Atualizações Cumulativas para o Lync Server 2010: aplicadas em março de 2013 (ou atualização posterior) e as ferramentas administrativas locais do Lync Server 2013 instaladas. O Servidor de Borda de federação e o servidor do próximo salto do Servidor de Borda de federação devem estar executando o Microsoft Lync Server 2010, com as atualizações cumulativas de março de 2013 (ou posterior) aplicadas, ou o Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>.As ferramentas administrativas do Lync Server 2013 devem ser instaladas em um servidor distinto que tenha acesso para se conectar à implementação do Lync Server 2010 existente. O cmdlet Move-CsUser para mover usuários de sua implementação local para o Lync Online deve ser executado a partir das ferramentas administrativas do Lync Server 2013 conectadas a sua implementação no local.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > .As ferramentas administrativas do Lync Server 2013 devem ser instaladas em um servidor distinto que tenha acesso para se conectar à implementação do Lync Server 2010 existente. O cmdlet Move-CsUser para mover usuários de sua implementação local para o Lync Online deve ser executado a partir das ferramentas administrativas do Lync Server 2013 conectadas a sua implementação no local.
 
   - Uma implantação do Lync Server 2013 com todos os servidores executando o Lync Server 2013.
 
@@ -146,23 +124,12 @@ Além dos requisitos de porta para a comunicação interna do Lync Server 2013, 
 <tbody>
 <tr class="odd">
 <td><p>TCP 443</p></td>
-<td><p>Entrada aberta</p>
-<ul>
-<li><p>Serviços de Federação do Active Directory (função de servidor de federação)</p>
-<p>Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Noções básicas dos serviços de função do AD FS</a>.</p></li>
-<li><p>Serviços de Federação do Active Directory (função de servidor proxy)</p></li>
-<li><p>Portal do Microsoft Online Services</p></li>
-<li><p>Portal da Minha Empresa</p></li>
-<li><p>Outlook Web App</p></li>
-<li><p>Cliente Lync (comunicação para o Lync Online a partir do Lync Server local)</p></li>
-</ul></td>
+<td><p>Entrada aberta</p><ul><li><p>Serviços de Federação do Active Directory (função de servidor de federação)</p>
+<p>Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Noções básicas dos serviços de função do AD FS</a>.</p></li><li><p>Serviços de Federação do Active Directory (função de servidor proxy)</p></li><li><p>Portal do Microsoft Online Services</p></li><li><p>Portal da Minha Empresa</p></li><li><p>Outlook Web App</p></li><li><p>Cliente Lync (comunicação para o Lync Online a partir do Lync Server local)</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>TCP 80 e 443</p></td>
-<td><p>Entrada aberta</p>
-<ul>
-<li><p>Ferramenta de Sincronização de Diretório do Microsoft Online Services</p></li>
-</ul></td>
+<td><p>Entrada aberta</p><ul><li><p>Ferramenta de Sincronização de Diretório do Microsoft Online Services</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>TCP 5061</p></td>
@@ -186,23 +153,12 @@ Além dos requisitos de porta para a comunicação interna do Lync Server 2013, 
 </tr>
 <tr class="even">
 <td><p>TCP 443</p></td>
-<td><p>Entrada aberta</p>
-<ul>
-<li><p>Serviços de Federação do Active Directory (função de servidor de federação)</p>
-<p>Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Noções básicas dos serviços de função do AD FS</a>.</p></li>
-<li><p>Serviços de Federação do Active Directory (função de servidor proxy)</p></li>
-<li><p>Portal do Microsoft Online Services</p></li>
-<li><p>Portal da Minha Empresa</p></li>
-<li><p>Outlook Web App</p></li>
-<li><p>Cliente Lync (comunicação para o Lync Online a partir do Lync Server local)</p></li>
-</ul></td>
+<td><p>Entrada aberta</p><ul><li><p>Serviços de Federação do Active Directory (função de servidor de federação)</p>
+<p>Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Noções básicas dos serviços de função do AD FS</a>.</p></li><li><p>Serviços de Federação do Active Directory (função de servidor proxy)</p></li><li><p>Portal do Microsoft Online Services</p></li><li><p>Portal da Minha Empresa</p></li><li><p>Outlook Web App</p></li><li><p>Cliente Lync (comunicação para o Lync Online a partir do Lync Server local)</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>TCP 80 e 443</p></td>
-<td><p>Entrada aberta</p>
-<ul>
-<li><p>Ferramenta de Sincronização de Diretório do Microsoft Online Services</p></li>
-</ul></td>
+<td><p>Entrada aberta</p><ul><li><p>Ferramenta de Sincronização de Diretório do Microsoft Online Services</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>TCP 5061</p></td>
@@ -228,19 +184,8 @@ Além dos requisitos de porta para a comunicação interna do Lync Server 2013, 
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se precisar fazer a federação com parceiros que executam o Office Communications Server 2007, você deverá abrir as portas RTP/UDP e RTP/TCP de entrada/saída 50000-59999. Para obter mais informações sobre os requisitos de áudio/vídeo do firewall, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar firewall A/V externo e requisitos de porta para Lync Server 2013</a>. Para obter mais informações sobre portas e protocolos, consulte <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se precisar fazer a federação com parceiros que executam o Office Communications Server 2007, você deverá abrir as portas RTP/UDP e RTP/TCP de entrada/saída 50000-59999. Para obter mais informações sobre os requisitos de áudio/vídeo do firewall, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar firewall A/V externo e requisitos de porta para Lync Server 2013</a>. Para obter mais informações sobre portas e protocolos, consulte <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a>.
 
 ## Dados e contas do usuário
 
@@ -248,19 +193,8 @@ Em uma implantação híbrida do Lync Server 2013, qualquer usuário que você q
 
 Se você sincronizar todas as contas de usuários entre as implantações do Lync on-premises e do Lync Online com AD FS e Dirsync, terá de sincronizar as contas do AD para todos os usuários do Lync em sua organização entre as implantações do Lync local e online, mesmo se os usuários não forem movidos para o Lync Online. Se você não sincronizar todos os usuários, a comunicação entre os usuários online e locais em sua organização pode não funcionar como o esperado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o usuário for criado com o portal online do Office 365, a conta de usuário não será sincronizada com o Active Directory local nem o usuário existirá nele. Se você já tiver criado usuários no Lync Online, e desejar configurar o híbridos com o Lync Server local, consulte <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuários do Lync Online para o Lync no local no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se o usuário for criado com o portal online do Office 365, a conta de usuário não será sincronizada com o Active Directory local nem o usuário existirá nele. Se você já tiver criado usuários no Lync Online, e desejar configurar o híbridos com o Lync Server local, consulte <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuários do Lync Online para o Lync no local no Lync Server 2013</a>.
 
 Você também deve considerar os seguintes problemas relacionados ao usuário ao se planejar para uma implantação híbrida.
 

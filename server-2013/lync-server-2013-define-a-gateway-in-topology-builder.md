@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-04_
 
 Siga estas etapas para usar o Construtor de Topologias para definir um *ponto* ao qual você possa associar um Servidor de Mediação para fornecer conectividade à Rede Telefônica Pública Comutada (PSTN) para usuários habilitados para o Enterprise Voice. Um ponto para o Servidor de Mediação pode ser um gateway PSTN, um PBX IP ou um SBC (Controlador de Limite de Sessões) para um ITSP (Provedor de Serviços de Telefonia pela Internet) ao qual você se conecta configurando um tronco SIP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico pressupõe que você tenha configurado pelo menos um Pool de Front-Ends ou Servidor Standard Edition interno em pelo menos um site central com um Servidor de Mediação independente ou posicionado, como descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> and <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a> na seção de Implantação. Este tópico também pressupõe que você tenha verificado se sua infraestrutura atende aos pré-requisitos descritos em <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Pré-requisitos de software para Enterprise Voice no Lync Server 2013</a> e <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Este tópico pressupõe que você tenha configurado pelo menos um Pool de Front-Ends ou Servidor Standard Edition interno em pelo menos um site central com um Servidor de Mediação independente ou posicionado, como descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> and <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a> na seção de Implantação. Este tópico também pressupõe que você tenha verificado se sua infraestrutura atende aos pré-requisitos descritos em <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Pré-requisitos de software para Enterprise Voice no Lync Server 2013</a> e <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013</a>.
 
 ## Definir um ponto para o Servidor de Mediação
 
@@ -43,19 +32,8 @@ Siga estas etapas para usar o Construtor de Topologias para definir um *ponto* a
     
     ![Gateway IP/PSTN](images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "Gateway IP/PSTN")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Caso especifique TLS (Transport Layer Security) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto da Servidor de Mediação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Caso especifique TLS (Transport Layer Security) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto da Servidor de Mediação.
 
 4.  Defina um modo de ouvinte (IPv4 ou IPv6) ou o endereço IP do seu novo gateway PSTN e clique em **Avançar** .
     
@@ -75,53 +53,20 @@ Siga estas etapas para usar o Construtor de Topologias para definir um *ponto* a
 
 7.  Em **Protocolo de Transporte SIP** , clique no tipo de transporte que o ponto usa e clique em **OK** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Por motivos de segurança, recomendamos que você implante um par para o Servidor de Mediação que possa usar o TLS.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Por motivos de segurança, recomendamos que você implante um par para o Servidor de Mediação que possa usar o TLS.
 
 8.  Em **Associado Servidor de Mediação**, selecione Pool do servidor de mediação para associar com a árvore de raiz deste Gateway PSTN.
 
 9.  Em **Porta Servidor de Mediação associada** , digite a porta de ouvinte que o Servidor de Mediação utilizará para mensagens SIP a partir do gateway.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Com o suporte a diversas árvores no Lync Server 2013, diversas portas de sinalização SIP podem ser definidas no Servidor de Mediação para serem usadas para comunicação com vários gateways PSTN. Ao definir uma árvore, a <strong>Porta Servidor de Mediação associada</strong> deve estar dentro da faixa das portas de ouvinte para o protocolo respectivo permitido pelo Servidor de Mediação. Essa faixa de porta é definida em Lync Server 2013 e em Pools de mediação. Clique com o botão direito do mouse no Pool do servidor de mediação do seu interesse e selecione <strong>Editar propriedades</strong> . Especifique a faixa de porta no campo <strong>Portas de ouvinte</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Com o suporte a diversas árvores no Lync Server 2013, diversas portas de sinalização SIP podem ser definidas no Servidor de Mediação para serem usadas para comunicação com vários gateways PSTN. Ao definir uma árvore, a <strong>Porta Servidor de Mediação associada</strong> deve estar dentro da faixa das portas de ouvinte para o protocolo respectivo permitido pelo Servidor de Mediação. Essa faixa de porta é definida em Lync Server 2013 e em Pools de mediação. Clique com o botão direito do mouse no Pool do servidor de mediação do seu interesse e selecione <strong>Editar propriedades</strong> . Especifique a faixa de porta no campo <strong>Portas de ouvinte</strong> .
 
 10. Clique em **Concluir** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de finalizar esta etapa, certifique-se se o ponto definido está funcionando e usando o FQDN ou o endereço IP que você especificou.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Antes de finalizar esta etapa, certifique-se se o ponto definido está funcionando e usando o FQDN ou o endereço IP que você especificou.
 
 Em seguida, para adicionar o ponto à topologia, siga os procedimentos na [Publicar a topologia no Lync Server 2013](lync-server-2013-publish-the-topology.md) na documentação de Implantação. Você deve publicar sua topologia toda vez que usar o Construtor de Topologias para criar ou modificar a topologia, para que os dados podem ser usados para instalar os arquivos de servidores que estão executando o Lync Server.
 

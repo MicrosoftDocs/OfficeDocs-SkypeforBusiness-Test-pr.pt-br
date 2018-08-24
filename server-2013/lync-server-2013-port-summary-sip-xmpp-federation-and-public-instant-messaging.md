@@ -21,20 +21,8 @@ Para configurar seu firewall para as portas e protocolos necessários para supor
 
 O Windows Live Messenger pode participar das comunicações de áudio/vídeo com os clientes do Lync. Essas contas para a configuração de porta de firewall e protocolo muito similares que você geralmente teria no firewall para suportar os clientes do Lync como usuários externos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mais do que nunca, o Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não exige licenças adicionais de usuário ou dispositivo além da CAL (licença de acesso para cliente) padrão do Lync. A federação com o Skype será adicionada a essa lista, permitindo que os usuários do Lync alcancem centenas de milhões de pessoas por meio de IM (mensagens instantâneas) e voz.<br />
-A federação com os contatos do cliente do Messenger terminará oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de federação dos usuários federados que usavam o Messenger anteriormente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Mais do que nunca, o Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não exige licenças adicionais de usuário ou dispositivo além da CAL (licença de acesso para cliente) padrão do Lync. A federação com o Skype será adicionada a essa lista, permitindo que os usuários do Lync alcancem centenas de milhões de pessoas por meio de IM (mensagens instantâneas) e voz.<br />A federação com os contatos do cliente do Messenger terminará oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de federação dos usuários federados que usavam o Messenger anteriormente.
 
 As portas e os protocolos definidos para o proxy XMPP implantado no Servidor de Borda permitem comunicações do parceiro XMPP federado com o Servidor de Borda e também permitem a comunicação do seu Servidor de Borda com o parceiro XMPP federado. Uma regra também é definida no firewall interno do Servidor Front-End ou Pool de Front-Ends para o Servidor de Borda ou o Pool de borda.
 

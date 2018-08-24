@@ -35,19 +35,8 @@ Ao atualizar servidores, é necessário fazer um Domínio de Atualização por v
     
     1.  Pare as novas conexões do Servidor de Front-End usando o cmdlet `Stop-CsWindowsService -Graceful -Verbose`.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se essas atualizações de servidor estiverem acontecendo durante uma parada programada do servidor, é possível executar este cmdlet sem o parâmetro ‘-<strong>Graceful</strong>‘, da seguinte forma: <strong>Stop-CsWindowsService</strong>. Assim, os serviços são imediatamente interrompidos, sem esperar que todas as solicitações de serviços existentes sejam atendidas.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Se essas atualizações de servidor estiverem acontecendo durante uma parada programada do servidor, é possível executar este cmdlet sem o parâmetro ‘-<strong>Graceful</strong>‘, da seguinte forma: <strong>Stop-CsWindowsService</strong>. Assim, os serviços são imediatamente interrompidos, sem esperar que todas as solicitações de serviços existentes sejam atendidas.    
     2.  Atualize os servidores associados a este Domínio de Atualização.
     
     3.  Reinicie os servidores e certifique-se de que estão aceitando novas conexões.

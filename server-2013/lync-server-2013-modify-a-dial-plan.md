@@ -27,70 +27,25 @@ Para modificar um plano de discagem existente, execute as etapas do procedimento
 
 4.  Na página **Plano de Discagem**, dê um duplo clique no nome de um plano de discagem.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O escopo e o nome do plano de discagem foram definidos quando o plano de discagem foi criado. Eles não podem ser alterados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O escopo e o nome do plano de discagem foram definidos quando o plano de discagem foi criado. Eles não podem ser alterados.
 
 5.  (Opcional) Em **Editar Plano de Discagem**, edite o campo **Nome simples**, que é pré-preenchido com o mesmo nome que aparece no campo **Nome** para especificar um nome mais descritivo que reflita o site, serviço ou usuário para o qual o plano de discagem se aplica.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O <strong>Nome simples</strong> precisa ser exclusivo entre os planos de discagem dentro da implantação do Lync Server 2013. Ele não pode exceder 256 caracteres Unicode, e cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.), um sinal de adição (+) ou um sublinhado (_).<br />
-    Espaços não são permitidos no campo <strong>Nome simples</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > O <strong>Nome simples</strong> precisa ser exclusivo entre os planos de discagem dentro da implantação do Lync Server 2013. Ele não pode exceder 256 caracteres Unicode, e cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.), um sinal de adição (+) ou um sublinhado (_).<br />    Espaços não são permitidos no campo <strong>Nome simples</strong>.
 
 6.  (Opcional) No campo **Descrição**, digite informações descritivas sobre o plano de discagem.
 
 7.  (Opcional) Se você quiser usar esse plano de discagem como uma região para números de acesso de discagem, especifique uma **Região de conferência de discagem**. Se você não quiser usar esse plano de discagem para números de acesso de discagem, deixe esse campo vazio.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As regiões de conferência d discagem são necessárias para associar números de acesso de conferência de discagem a um ou mais planos de discagem.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As regiões de conferência d discagem são necessárias para associar números de acesso de conferência de discagem a um ou mais planos de discagem.
 
 8.  (Opcional) No campo **Prefixo de acesso externo**, especifique um valor somente se usuários precisarem discar um ou mais dígitos primeiro para obter uma linha externa (por exemplo, 9). Você pode digitar um valor de prefixo de até quatro caracteres (isto é, \#, \* e 0-9).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você especificar um prefixo de acesso externo, não será necessário criar uma nova regra de normalização para acomodar o prefixo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você especificar um prefixo de acesso externo, não será necessário criar uma nova regra de normalização para acomodar o prefixo.
 
 9.  Associe e configure regras de normalização para o plano de discagem:
     
@@ -104,70 +59,25 @@ Para modificar um plano de discagem existente, execute as etapas do procedimento
     
       - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para detalhes sobre como determinar todas as regras de normalização necessárias para um plano de discagem, consulte <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para detalhes sobre como determinar todas as regras de normalização necessárias para um plano de discagem, consulte <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.
 
 10. Verifique se as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, realce o nome da regra e clique na seta para cima ou para baixo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Lync Server analisa a lista de regras de normalização do início ao fim e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<br />
-    A regra de normalização padrão <strong>Manter todos</strong> <strong>^(\d{11})$</strong> corresponde a qualquer número de 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <strong>Manter todos</strong> esteja classificado abaixo da regra <strong>^(1425\d{7})$</strong> mais restritiva.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > O Lync Server analisa a lista de regras de normalização do início ao fim e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<br />    A regra de normalização padrão <strong>Manter todos</strong> <strong>^(\d{11})$</strong> corresponde a qualquer número de 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <strong>Manter todos</strong> esteja classificado abaixo da regra <strong>^(1425\d{7})$</strong> mais restritiva.
 
 11. (Opcional) Insira um número para testar o plano de discagem e, em seguida, clique em **Ir** . Os resultados do teste são exibidos em **Insira um número de teste** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível salvar um plano de discagem que não passou ainda no teste e reconfigurá-lo mais tarde. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É possível salvar um plano de discagem que não passou ainda no teste e reconfigurá-lo mais tarde. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.
 
 12. Clique em **OK**.
 
 13. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sempre que criar ou modificar um plano de discagem, você deve executar o comando <strong>Confirmar tudo</strong> para publicar as alterações de configuração. Para detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Sempre que criar ou modificar um plano de discagem, você deve executar o comando <strong>Confirmar tudo</strong> para publicar as alterações de configuração. Para detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também
 

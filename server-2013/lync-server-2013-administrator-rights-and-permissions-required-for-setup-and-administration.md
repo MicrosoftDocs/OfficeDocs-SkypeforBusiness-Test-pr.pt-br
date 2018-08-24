@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Direitos e permissões de administrador necessários para configuração e administração'
+title: "Lync Server 2013: Direitos e permissões de adm. necessários para config. e adm."
 TOCTitle: Direitos e permissões de administrador necessários para configuração e administração
 ms:assetid: c386e8b9-c7ce-49b5-9911-c0cf2a4ce181
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412962(v=OCS.15)

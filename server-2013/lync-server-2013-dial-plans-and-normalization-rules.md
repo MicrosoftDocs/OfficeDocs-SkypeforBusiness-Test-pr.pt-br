@@ -25,19 +25,8 @@ Um *escopo* do plano de discagem determina o nível hierárquico no qual o plano
 
 Os clientes obtêm níveis de escopo do plano discagem através das configurações de provisionamento em banda que são fornecidas quando os usuários fazem o login no Lync Server. Como administrador, você pode gerenciar e atribuir os níveis de escopo do plano de discagem usando o Painel de Controle do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O plano de discagem de gateway PSTN (Rede Telefônica Pública Comutada) a nível de serviço é aplicado às chamadas recebidas por um gateway específico.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O plano de discagem de gateway PSTN (Rede Telefônica Pública Comutada) a nível de serviço é aplicado às chamadas recebidas por um gateway específico.
 
 Os níveis de escopo do plano de discagem são definidos como a seguir:
 
@@ -93,19 +82,8 @@ Se você estiver implantando a conferência discada, precisará especificar uma 
 
 É possível especificar um prefixo de acesso externo de até quatro caracteres (\#, \* e 0-9) se os usuários precisam discar um ou mais dígitos adicionais (por exemplo, 9) para obter uma linha externa.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você especificar um prefixo de acesso externo, não é necessário criar uma regra de normalização adicional para acomodar o prefixo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você especificar um prefixo de acesso externo, não é necessário criar uma regra de normalização adicional para acomodar o prefixo.
 
 ## Regras de normalização
 
@@ -282,16 +260,5 @@ A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washingt
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os nomes das regras de normalização mostrados na tabela anterior não incluem espaços, mas é uma questão de escolha. O primeiro nome da tabela, por exemplo, poderia ter sido escrito &quot;extensão de 5 dígitos&quot; ou &quot;extensão de 5-dígitos&quot; e ainda ser válido.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os nomes das regras de normalização mostrados na tabela anterior não incluem espaços, mas é uma questão de escolha. O primeiro nome da tabela, por exemplo, poderia ter sido escrito &quot;extensão de 5 dígitos&quot; ou &quot;extensão de 5-dígitos&quot; e ainda ser válido.

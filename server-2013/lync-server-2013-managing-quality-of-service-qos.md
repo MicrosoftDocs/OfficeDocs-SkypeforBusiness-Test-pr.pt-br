@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 A Qualidade de Serviço (QoS) é uma tecnologia de rede usada em algumas organizações para ajudar a fornecer a melhor experiência ao usuário final para comunicações de áudio e vídeo. a QoS é usada mais frequentemente em rede com largura de banda limitada: com uma grande número de pacotes de rede para uma quantidade relativamente pequena de largura de banda disponível, a Qualidade de Serviço fornece aos administradores uma maneira de atribuírem prioridades mais altas a pacotes que carregam dados de áudio e vídeo. Ao conceder uma prioridade mais alta a esses pacotes, as comunicações de áudio e vídeo têm uma probabilidade maior de serem concluídas mais rápido e com menos interrupções do que as sessões de rede envolvendo itens como transferências de arquivos, navegação da Web ou backups de bancos de dados. Isso ocorre porque os pacotes de rede usados para transferências de arquivos ou backups de bancos de dados recebem uma atribuição de prioridade de "melhor esforço".
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como regra geral, a Qualidade de Serviço se aplica somente a sessões de comunicação em sua rede interna. Ao implementar a QoS, você configure seus servidores e roteadores para suportar a marcação de pacotes; no entanto, você configura esses dispositivos para suportar a marcação de pacotes de forma específica. Não é possível considerar que a Qualidade de Serviço será suportada na Internet ou em outras redes. Mesmo se a Qualidade de Serviço for suportada em outras redes, não há garantia de que a QoS será configurada de forma igual a que você configurou o serviço em sua rede.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Como regra geral, a Qualidade de Serviço se aplica somente a sessões de comunicação em sua rede interna. Ao implementar a QoS, você configure seus servidores e roteadores para suportar a marcação de pacotes; no entanto, você configura esses dispositivos para suportar a marcação de pacotes de forma específica. Não é possível considerar que a Qualidade de Serviço será suportada na Internet ou em outras redes. Mesmo se a Qualidade de Serviço for suportada em outras redes, não há garantia de que a QoS será configurada de forma igual a que você configurou o serviço em sua rede.
 
 O Microsoft Lync Server 2013 não requer a Qualidade de Serviço; se você não usa a QoS, não é necessário instalar o serviço antes de instalar o Lync Server 2013. Se você notar uma quantidade considerável de perda de pacotes em sua rede, a maneira recomendada de aliviar esse problema é adicionar mais largura de banda. Se não for possível adicionar mais largura de banda, então pode ser necessário implementar a Qualidade de Serviço.
 
@@ -51,16 +40,5 @@ O Lync Server 2013 oferece suporte integral à Qualidade de Serviço: isso signi
 
   - [Configurando a Qualidade de Serviço (QoS) nos Dispositivos Lync Phone Edition da Microsoft](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md). Por padrão, a QoS está ativada para dispositivos Lync Phone Edition. No entanto, pode ser necessário alterar o valor padrão de DSCP para garantir que todos os pacotes de áudio em sua organização usem o mesmo código de DSCP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se estiver utilizando o Microsoft Windows Server 2012 ou o Windows Server 2012 R2, você pode se interessar no novo conjunto de cmdlets do Windows PowerShell disponível para gerenciamento de Qualidade de Serviço nessa plataforma. Para obter mais informações, consulte Qualidade da Rede de Cmdlets de Serviço no Windows PowerShell em <a href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se estiver utilizando o Microsoft Windows Server 2012 ou o Windows Server 2012 R2, você pode se interessar no novo conjunto de cmdlets do Windows PowerShell disponível para gerenciamento de Qualidade de Serviço nessa plataforma. Para obter mais informações, consulte Qualidade da Rede de Cmdlets de Serviço no Windows PowerShell em <a href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</a>.

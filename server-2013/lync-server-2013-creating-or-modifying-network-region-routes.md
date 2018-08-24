@@ -29,19 +29,8 @@ Cada região de uma configuração do serviço de controle de admissão de chama
 
 5.  Em **Nova Rota de Região**, digite um valor no campo **Nome**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Este valor deve ser exclusivo na sua implantação do Microsoft Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Este valor deve ser exclusivo na sua implantação do Microsoft Lync Server 2013.
 
 6.  Na lista suspensa **Região de rede 1**, selecione uma das duas regiões que deve ser conectada por esta rota.
 
@@ -49,19 +38,8 @@ Cada região de uma configuração do serviço de controle de admissão de chama
 
 8.  Use a caixa de listagem **Links de região de rede** para adicionar os links de região para a rota. Clique no botão **Adicionar** para exibir a página **Link de Região**. Clique em um link de região para adicionar a esta rota e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Continue a clicar no botão <strong>Adicionar</strong> para adicionar mais links, ou selecione um link e clique em <strong>Remover</strong> para remover um link.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Continue a clicar no botão <strong>Adicionar</strong> para adicionar mais links, ou selecione um link e clique em <strong>Remover</strong> para remover um link.
 
 9.  Clique em **Confirmar**.
 

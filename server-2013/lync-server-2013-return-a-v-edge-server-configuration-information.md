@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-11-01_
 
 O serviço de borda de A/V fornece uma maneira para que usuários internos (usuários que entraram na rede de sua organização) compartilhem áudio e vídeo com usuários externos (usuários que não estão conectados à rede de sua organização). O serviço de borda de A/V é gerenciado principalmente usando as definições de configuração de borda A/V, que podem ser configuradas no escopo do site ou de serviço (isto é, pode ser configurado para um servidor de borda de A/V individual).
 
-Para retornar informações sobre as definições de configuração de borda de A/V usadas em sua organização, você deve usar o Shell de Gerenciamento do Lync Server e o cmdlet Get-CsAVEdgeConfiguration. Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md).
+Para retornar informações sobre as definições de configuração de borda de A/V usadas em sua organização, você deve usar o Shell de Gerenciamento do Lync Server e o cmdlet Get-CsAVEdgeConfiguration. Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration).
 
 As informações retornadas do cmdlet Get-CsAVEdgeConfiguration serão semelhantes a isto:
 

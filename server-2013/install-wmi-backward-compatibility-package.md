@@ -29,29 +29,7 @@ Para instalar o pacote de Compatibilidade com Versões Anteriores da WMI
 
 2.  Instale o OCSWMIBC.MSI.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O OCSWMIBC.msi deve ser instalado no computador em que o assistente de Fusão do Construtor de Topologias será executado. No entanto, é recomendável instalar o OCSWMIBC.msi em todos os servidores front-end de sua topologia.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O OCSWMIBC.msi pode ser instalado em qualquer computador do domínio que tenha acesso aos componentes principais do Lync Server 2013 e o shell de gerenciamento do Lync Server 2013 e também acesso à topologia do Office Communications Server 2007 R2 (provedor da WMI para AD DS (Serviços de Domínio Active Directory ) e SQL Server).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > O OCSWMIBC.msi deve ser instalado no computador em que o assistente de Fusão do Construtor de Topologias será executado. No entanto, é recomendável instalar o OCSWMIBC.msi em todos os servidores front-end de sua topologia.    
+    > [!IMPORTANT]  
+    > O OCSWMIBC.msi pode ser instalado em qualquer computador do domínio que tenha acesso aos componentes principais do Lync Server 2013 e o shell de gerenciamento do Lync Server 2013 e também acesso à topologia do Office Communications Server 2007 R2 (provedor da WMI para AD DS (Serviços de Domínio Active Directory ) e SQL Server).

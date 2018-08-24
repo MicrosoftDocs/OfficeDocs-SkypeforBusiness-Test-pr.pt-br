@@ -29,7 +29,7 @@ Em uma configuração de controle de admissão de chamada, você pode criar pol�
     
     Este exemplo cria um novo link de site de rede chamado Reno\_Portland que define as limitações de largura de banda entre os sites de rede Reno e Portland. Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.
 
-Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) na documentação do Shell de Gerenciamento do Lync Server. Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) na documentação do Shell de Gerenciamento do Lync Server.
+Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server. Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) na documentação do Shell de Gerenciamento do Lync Server.
 
 ## Para modificar um link de site de rede
 
@@ -41,7 +41,7 @@ Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSi
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Para obter descrições detalhadas do parâmetro, consulte [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md) na documentação do Shell de Gerenciamento do Lync Server.
+Para obter descrições detalhadas do parâmetro, consulte [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server.
 
 ## Para excluir um link de site de rede
 
@@ -53,19 +53,19 @@ Para obter descrições detalhadas do parâmetro, consulte [Set-CsNetworkInterSi
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Para obter descrições detalhadas do parâmetro, consulte [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md) na documentação do Shell de Gerenciamento do Lync Server.
+Para obter descrições detalhadas do parâmetro, consulte [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server.
 
 ## Consulte Também
 
 #### Conceitos
 
-[Cmdlets de controle de admissão de chamadas](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlets de controle de admissão de chamadas](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Outros Recursos
 
-[New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)  
-[Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
-[Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
-[Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

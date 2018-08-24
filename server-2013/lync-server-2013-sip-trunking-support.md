@@ -45,19 +45,8 @@ O tronco SIP distribuído é exigido somente nos seguintes casos:
 
 A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise econômica. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação totalmente centralizada, todo tráfego do site da filial é roteado por links de WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, você pode usar o tronco SIP distribuído.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre por que e como você pode usar o tronco SIP distribuído, consulte <a href="lync-server-2013-branch-site-sip-trunking.md">Tronco SIP do site da filial no Lync Server 2013</a> na documentação Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre por que e como você pode usar o tronco SIP distribuído, consulte <a href="lync-server-2013-branch-site-sip-trunking.md">Tronco SIP do site da filial no Lync Server 2013</a> na documentação Planejamento.
 
 ## Tipos de conexão de tronco SIP suportadas
 

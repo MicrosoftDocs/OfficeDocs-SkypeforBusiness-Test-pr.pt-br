@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-11-02_
 
 Para certificar-se de que a varredura antivírus não interfere na operação do Lync Server 2013, você deve excluir os processos específicos e diretórios para cada servidor do Lync Server 2013 ou a função de servidor na qual você pode executar a varredura antivirus. Os seguintes processos e diretórios devem ser excluídos:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os locais fixos das pastas e dos arquivos listados abaixo são locais padrões para o Lync Server 2013. Para quaisquer locais, para os quais você não usa o padrão, exclua os locais que você especificou para a sua organização em vez dos locais padrão especificados neste tópico.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os locais fixos das pastas e dos arquivos listados abaixo são locais padrões para o Lync Server 2013. Para quaisquer locais, para os quais você não usa o padrão, exclua os locais que você especificou para a sua organização em vez dos locais padrão especificados neste tópico.
 
   - Processos do Lync Server 2013:
     

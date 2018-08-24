@@ -31,19 +31,8 @@ Você pode implantar um Servidor de Mediação em um site central ou em um site 
 
 Você pode implantar um gateway PSTN em um site central ou em um site de filial. Em um site de filial, o gateway PSTN pode ser autônomo ou um componente do Aparelho de Filial Persistente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A conferência discada não usa bypass de mídia porque os Servidor de Conferência A/V não suportam bypass de mídia.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A conferência discada não usa bypass de mídia porque os Servidor de Conferência A/V não suportam bypass de mídia.
 
 Para obter detalhes sobre como planejar sua configuração para Servidor de Mediação e gateways PSTN para conferência discada, consulte [Componentes e topologias para o Servidor de Mediação no Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) na documentação de Planejamento.
 

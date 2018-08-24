@@ -50,7 +50,7 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
     4.  Dependendo da propriedade do usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados pesquisa, digitando-os ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -59,32 +59,21 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja aplicar a mesma política de local para usuários múltiplos, selecione os usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
 7.  Em **Atribuir políticas**, em **Política de local**, siga um destes procedimentos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Uma vez que há várias políticas que podem ser configuradas na caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Uma vez que há várias políticas que podem ser configuradas na caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.    
       - Permita Lync Server 2013 para escolher a política de nível global automaticamente ou, se definido, a política de nível de sub-rede.
     
       - Clique no nome de uma política de local por usuário que você definiu previamente, executando o cmdlet **New-CsLocationPolicy**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar a decidir qual política você deseja atribuir, depois de clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos de usuário e as permissões definidas.
 
 
@@ -103,7 +92,7 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
 
 ## Para atribuir uma política de local por usuário a vários usuários
 
-  - Este comando atribui a política de local por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham no departamento contábil. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de local por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham no departamento contábil. Para obter mais informações sobre o parâmetro LdapFilter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -113,5 +102,5 @@ Para ver os detalhes sobre criar as políticas de local, consulte [Criar políti
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

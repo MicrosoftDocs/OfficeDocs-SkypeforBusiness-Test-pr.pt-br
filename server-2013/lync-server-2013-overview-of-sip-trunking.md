@@ -47,16 +47,5 @@ Os recursos de voz são frequentemente o principal motivo para implantar o tronc
 
   - As chamadas de emergência E9-1-1 permitem que as autoridades que atendem ao 911 determinem a localização do chamador a partir do número do telefone.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Consulte o ITSP para obter uma lista de serviços que eles suportam e podem habilitar para sua organização.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Consulte o ITSP para obter uma lista de serviços que eles suportam e podem habilitar para sua organização.

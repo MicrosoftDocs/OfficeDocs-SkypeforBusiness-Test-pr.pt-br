@@ -23,19 +23,8 @@ Autenticação é o fornecimento de credenciais de usuário a um servidor confi�
 
   - **Protocolo NTLM** para usuários com credenciais do Active Directory que estiverem se conectando de um ponto de extremidade fora do firewall corporativo. O Serviço de Borda de Acesso redireciona solicitações de Logon a um Diretor, se houver, ou um Servidor Front-End para autenticação. O Serviço de Borda de Acesso não realiza nenhuma autenticação.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O protocolo NTLM oferece uma proteção contra ataques mais fraca que o Kerberos, então, algumas empresas minimizam o uso do NTLM. Consequentemente, o acesso ao Lync Server 2013 poderá ser restrito a uso interno ou a clientes conectados por meio de uma conexão VPN ou DirectAccess.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O protocolo NTLM oferece uma proteção contra ataques mais fraca que o Kerberos, então, algumas empresas minimizam o uso do NTLM. Consequentemente, o acesso ao Lync Server 2013 poderá ser restrito a uso interno ou a clientes conectados por meio de uma conexão VPN ou DirectAccess.
 
   - **Protocolo Digest** para os chamados usuários anônimos. Usuários anônimos são usuários externos que não possuem credenciais reconhecidas do Active Directory, mas que foram convidados para uma conferência e possuem uma chave de conferência válida. A autenticação Digest não é usada para outras interações com clientes.
 

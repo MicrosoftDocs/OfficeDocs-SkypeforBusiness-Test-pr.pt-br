@@ -33,19 +33,8 @@ Se você instalou o serviço Roteador de Unificação de Mensagens Microsoft Exc
 
 O Lync Server 2013 pode descobrir automaticamente qualquer servidor Exchange que hospede um plano de discagem de unificação de mensagens SipName; esses servidores são automaticamente adicionados à lista de servidores conhecidos do Lync Server. Não é necessário criar um pool de aplicativos confiáveis e adicionar esses servidores à lista de servidores conhecidos. Na verdade fazer isso pode até fazer com que a integração do Outlook Web App pare de funcionar.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Isso ocorre devido ao fato de que a topologia do Lync Server terá agora duas entradas para o mesmo computador: a entrada obtida por Descoberta Automática e a entrada adicionada manualmente. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <a href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</a> e <a href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</a> para obter mais informações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Isso ocorre devido ao fato de que a topologia do Lync Server terá agora duas entradas para o mesmo computador: a entrada obtida por Descoberta Automática e a entrada adicionada manualmente. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a> para obter mais informações.
 
 Se esses dois serviços estiverem funcionando então em computadores separados, depois de ter verificado se o Unified Communications Managed API 4.0 Runtime foi instalado, você deve criar um pool de aplicativos confiáveis do Lync Server e um aplicativo confiável associado ao Outlook Web App; isso adicionará o servidor à lista de servidores conhecidos. Para fazer isso, primeiro execute um comando semelhante a este de dentro do Shell de Gerenciamento do Lync Server:
 
@@ -73,19 +62,8 @@ Com o Lync Server configurado corretamente, você pode começar a configurar o O
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, o envio de mensagens instantâneas é habilitado quando você instala o Outlook Web App; ou seja, a propriedade InstantMessagingEnabled é definida como True. Porém, você ainda precisa executar o comando anterior para definir o tipo de envio de mensagens instantâneas como OCS. Como padrão, InstantMessagingType é definido com o valor Nenhum.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Por padrão, o envio de mensagens instantâneas é habilitado quando você instala o Outlook Web App; ou seja, a propriedade InstantMessagingEnabled é definida como True. Porém, você ainda precisa executar o comando anterior para definir o tipo de envio de mensagens instantâneas como OCS. Como padrão, InstantMessagingType é definido com o valor Nenhum.
 
 Em seguida, você deve adicionar as linhas a seguir ao arquivo Web.config do Outlook Web App (esse arquivo está, normalmente, localizado na pasta C:\\Program Files\\Microsoft\\Exchange Server\\V15\\ClientAccess\\Owa). Essas duas linhas devem ser adicionadas sob o nó AppSettings, no arquivo Web.config, sendo que esse procedimento só deve ser realizado naqueles servidores de back-end em que o Outlook Web App tenha sido instalado:
 

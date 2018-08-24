@@ -23,19 +23,8 @@ _**Tópico modificado em:** 2013-03-17_
 
   - **Autenticação de certificado**   Esse é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, de telefones de área comum e do Lync 2013. Em clientes do Lync Phone Edition, após um usuário fazer login e autenticar com êxito fornecendo um PIN (número de identificação pessoal), o Lync Server 2013 fornece o URI de SIP para o telefone e fornece um certificado assinado do Lync Server ou um certificado de usuário que identifica Joe (Ex: SN=joe@contoso.com ) para o telefone. Esse certificado é usado para autenticação com o Registrador e Serviços Web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado.
 
 Execute estas etapas para criar um novo Registrador.
 

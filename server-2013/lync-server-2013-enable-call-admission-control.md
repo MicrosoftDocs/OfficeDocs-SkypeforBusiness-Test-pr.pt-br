@@ -19,11 +19,11 @@ Após definir as configurações de rede para a implantação do serviço de con
 
 Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server sobre os seguintes cmdlets:
 
-  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 ## Para habilitar o controle de admissão de chamada usando o Shell de gerenciamento
 
@@ -49,19 +49,8 @@ Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync
 
 5.  Na página **Editar Configurações Globais**, marque a caixa de seleção **Ativar controle de admissão de chamada**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você deseja desativar o controle de admissão de chamada durante a implantação, desmarque esta caixa de seleção.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você deseja desativar o controle de admissão de chamada durante a implantação, desmarque esta caixa de seleção.
 
 6.  Clique em **Confirmar**.
 

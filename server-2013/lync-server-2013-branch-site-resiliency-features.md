@@ -52,16 +52,5 @@ Os recursos a seguir estarão disponíveis somente se sua solução de resiliên
     
     Se o E9-1-1 estiver implantado e o tronco SIP no site central não estiver disponível porque o link WAN está offline, o Aparelho de Filial Persistente roteará chamadas E9-1-1 para o gateway da filial local. Para habilitar este recurso, as políticas de voz dos usuários do site de filial devem rotear chamadas para o gateway local, em caso da falha da WAN.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O SBA (aparelho de filial persistente) não tem suporte no XMPP. Os usuários hospedados em configurações de SBA não poderão enviar mensagens instantâneas, nem visualizar a presença com contatos de XMPP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O SBA (aparelho de filial persistente) não tem suporte no XMPP. Os usuários hospedados em configurações de SBA não poderão enviar mensagens instantâneas, nem visualizar a presença com contatos de XMPP.

@@ -27,9 +27,7 @@ Esta seção descreve as alterações nas configurações relacionadas ao client
 
 ## Nesta seção
 
-  -   
-    [Configurações Novas e Modificadas para Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+   [Configurações Novas e Modificadas para Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
-  -   
-    [Configurações da política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
+   [Configurações da política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
 

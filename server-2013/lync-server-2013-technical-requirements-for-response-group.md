@@ -47,33 +47,11 @@ O Aplicativo Grupo de Resposta utiliza as seguintes portas:
 
   - **Porta 8404**   Utilizado para comunicações entre servidores
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Esta porta é utilizada pra o serviço de Correspondência e é obrigatório quando o Aplicativo Grupo de Resposta é implantado em um pool que possua mais de um Servidor Front-End.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > Esta porta é utilizada pra o serviço de Correspondência e é obrigatório quando o Aplicativo Grupo de Resposta é implantado em um pool que possua mais de um Servidor Front-End.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Essas portas são configurações padrão que você pode alterar utilizando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre este cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Essas portas são configurações padrão que você pode alterar utilizando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre este cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 ## Requisitos do arquivo de áudio
 
@@ -105,19 +83,8 @@ Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo p
 
 O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de sistemas operacionais e navegadores da web descritos na tabela a seguir.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
 
 ### Sistemas operacionais e navegadores da web suportados
 
@@ -168,19 +135,8 @@ O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de 
 
 O console de agente suporta as combinações de sistemas operacionais e navegadores da web descritas na tabela a seguir.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
 
 ### Sistemas operacionais e navegadores da web suportados
 

@@ -41,19 +41,8 @@ Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se um
 
 11. Clique em **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Criar um novo perfil de política de largura de banda não reforça as restrições de largura de banda automaticamente. É preciso, primeiro, associar o perfil da política com um site. Para obter mais detalhes sobre como associar um perfil de política com um site, consulte <a href="lync-server-2013-creating-or-modifying-network-sites.md">Criar ou modificar sites de rede</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Criar um novo perfil de política de largura de banda não reforça as restrições de largura de banda automaticamente. É preciso, primeiro, associar o perfil da política com um site. Para obter mais detalhes sobre como associar um perfil de política com um site, consulte <a href="lync-server-2013-creating-or-modifying-network-sites.md">Criar ou modificar sites de rede</a>.
 
 ## Para modificar um perfil de política de largura de banda
 
@@ -71,19 +60,8 @@ Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se um
 
 7.  Clique em **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ao modificar o perfil de política de largura de banda, as limitações de largura de banda de todos os sites da rede associados a esse perfil serão atualizadas imediatamente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Ao modificar o perfil de política de largura de banda, as limitações de largura de banda de todos os sites da rede associados a esse perfil serão atualizadas imediatamente.
 
 ## Consulte Também
 
@@ -94,7 +72,7 @@ Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se um
 #### Outros Recursos
 
 [Configurar controle de admissão de chamada no Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[New-CsNetworkBandwidthPolicyProfile](new-csnetworkbandwidthpolicyprofile.md)  
-[Set-CsNetworkBandwidthPolicyProfile](set-csnetworkbandwidthpolicyprofile.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

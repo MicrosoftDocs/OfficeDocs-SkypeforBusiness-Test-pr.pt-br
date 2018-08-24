@@ -19,33 +19,11 @@ O controle de admissão de chamadas é uma solução que determina se uma sessã
 
 Esta seção fornece um conjunto de procedimentos de exemplo que ilustram como implantar e gerenciar o CAC em sua rede.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de começar a implantação do CAC, é necessário coletar todas as informações necessárias para a topologia de rede de sua empresa, conforme descrito em <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013</a> na documentação Planejamento. Certifique-se também de que os componentes de CAC tenham sido instalados e ativados, conforme descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> ou Definir e Configurar um servidor SE na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de começar a implantação do CAC, é necessário coletar todas as informações necessárias para a topologia de rede de sua empresa, conforme descrito em <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013</a> na documentação Planejamento. Certifique-se também de que os componentes de CAC tenham sido instalados e ativados, conforme descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> ou Definir e Configurar um servidor SE na documentação de Implantação.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todos os exemplos de implantação e gerenciamento de CAC nesta seção são executados usando o Shell de Gerenciamento do Lync Server. Como alternativa, também é possível usar a seção <strong>Configuração de Rede</strong> do Painel de Controle do Lync Server para gerenciar o CAC.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Todos os exemplos de implantação e gerenciamento de CAC nesta seção são executados usando o Shell de Gerenciamento do Lync Server. Como alternativa, também é possível usar a seção <strong>Configuração de Rede</strong> do Painel de Controle do Lync Server para gerenciar o CAC.
 
 ## Nesta seção
 

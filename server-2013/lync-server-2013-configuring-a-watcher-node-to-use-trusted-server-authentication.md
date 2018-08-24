@@ -19,38 +19,15 @@ Caso o seu computador de nó do inspetor estiver dentro da rede de perímetro, u
 
 A primeira etapa na configuração da autenticação de Servidor Confiável é criar um pool de aplicativo confiável para hospedar o computador de nó do inspetor. Depois que o pool de aplicativo confiável tiver sido criado, você deverá então configurar transações sintéticas nos nós do inspetor para executar como um aplicativo confiável.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um aplicativo confiável é um aplicativo que recebe o status de confiável para executar como parte do Lync Server 2013, mas que não é parte incorporada do produto. O status de confiável significa que o aplicativo não será desafiado para autenticação toda vez que executar.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um aplicativo confiável é um aplicativo que recebe o status de confiável para executar como parte do Lync Server 2013, mas que não é parte incorporada do produto. O status de confiável significa que o aplicativo não será desafiado para autenticação toda vez que executar.
 
 Para criar um pool de aplicativo confiável, abra o Shell de Gerenciamento do Lync Server 2013 e execute um comando similar a este:
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para detalhes sobre os parâmetros utilizados no comando anterior, digite o seguinte no prompt do Shell de Gerenciamento do Lync Server:<br />
-Get-Help New-CsTrustedApplicationPool -Full | more</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para detalhes sobre os parâmetros utilizados no comando anterior, digite o seguinte no prompt do Shell de Gerenciamento do Lync Server:<br />Get-Help New-CsTrustedApplicationPool -Full | more
 
 Após criar o pool de aplicativo confiável, configure o computador de nó do inspetor para executar transações sintéticas como aplicativo confiável. Isso é feito utilizando o cmdlet **New-CsTrustedApplication** e um comando similar a este:
 
@@ -76,19 +53,8 @@ Cada nó do inspetor deve ter um certificado padrão atribuído utilizando o Ass
 
 2.  Em Assistente de Implantação do Lync Server, clique em **Instalar ou Atualizar o Sistema do Servidor Lync** e clique em **Executar**, sob o cabeçalho **Solicitar, Instalar ou Atribuir Certificado**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Caso o botão <strong>Executar</strong> esteja inativo, talvez você precise clicar primeiro em <strong>Executar</strong>, sob <strong>Instalar Repositório de Configuração Local</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Caso o botão <strong>Executar</strong> esteja inativo, talvez você precise clicar primeiro em <strong>Executar</strong>, sob <strong>Instalar Repositório de Configuração Local</strong>.
 
 3.  Faça um dos seguintes:
     
@@ -108,19 +74,8 @@ Depois de ter reiniciado o computador de nó do inspetor e configurado o certifi
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você também pode executar o Watchernode.msi de uma janela de comando. Para abrir uma janela de comando, clique em <strong>Iniciar</strong>, clique com o botão direito do mouse em <strong>Prompt de comando</strong> e, então, em <strong>Executar como administrador</strong>. Quando a janela de comando abrir, digite o mesmo comando anterior.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você também pode executar o Watchernode.msi de uma janela de comando. Para abrir uma janela de comando, clique em <strong>Iniciar</strong>, clique com o botão direito do mouse em <strong>Prompt de comando</strong> e, então, em <strong>Executar como administrador</strong>. Quando a janela de comando abrir, digite o mesmo comando anterior.
 
 Observe que o par de valor/nome no comando anterior Authentication=TrustedServer diferencia maiúscula de minúscula. Você deve digitar exatamente como mostrado. O comando a seguir falha porque não utiliza a formatação correta:
 

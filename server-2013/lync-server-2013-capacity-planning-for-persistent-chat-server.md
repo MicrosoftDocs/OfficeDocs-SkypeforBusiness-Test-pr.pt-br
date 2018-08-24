@@ -31,37 +31,15 @@ Você pode implantar o Servidor de Chat Persistente em pools de servidor único 
 
 Também oferecemos suporte ao Servidor de Chat Persistente no Servidor Standard Edition para novas implantações do Lync Server 2013. Porém, o desempenho e dimensionamento serão afetados, e como não há uma opção de alta disponibilidade para essa nova implantação, esperamos que você a use principalmente para fins de prova de conceito, avaliação, etc.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes adicionais sobre as duas topologias, consulte <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planejando o Servidor de Chat Persistente no Lync Server 2013</a> nesta documentação definida e <a href="lync-server-2013-deploying-persistent-chat-server.md">Implantando Servidor de Chat Persistente no Lync Server 2013</a> na documentação de implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes adicionais sobre as duas topologias, consulte <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planejando o Servidor de Chat Persistente no Lync Server 2013</a> nesta documentação definida e <a href="lync-server-2013-deploying-persistent-chat-server.md">Implantando Servidor de Chat Persistente no Lync Server 2013</a> na documentação de implantação.
 
 ## Topologia de servidor único
 
 A configuração mínima e a implantação mais simples do Servidor de Chat Persistente é a topologia de Servidor Front-End do Servidor de Chat Persistente único. Essa implantação requer um único servidor que executa o Servidor de Chat Persistente (que opcionalmente executa o serviço de conformidade, se a conformidade estiver habilitada), um servidor que hospeda o banco de dados do SQL Server e, se a conformidade for necessária, o banco de dados do SQL Server para armazenar os dados de conformidade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não pode adicionar outros servidores a um Pool de Servidor de Chat Persistente iniciado como uma implantação de servidor único no Construtor de Topologias. Recomendamos usar a topologia de pool de vários servidores, mesmo que você utilize um único servidor, de modo que seja possível adicionar mais servidores posteriormente, se necessário.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Você não pode adicionar outros servidores a um Pool de Servidor de Chat Persistente iniciado como uma implantação de servidor único no Construtor de Topologias. Recomendamos usar a topologia de pool de vários servidores, mesmo que você utilize um único servidor, de modo que seja possível adicionar mais servidores posteriormente, se necessário.
 
 A figura a seguir mostra todos os componentes obrigatórios e opcionais de uma topologia de um Servidor Front-End do Servidor de Chat Persistente único com conformidade.
 
@@ -359,19 +337,8 @@ Este exemplo mostra como salas de chat são categorizadas como pequenas (30 usu�
 
 Para cada sala de chat, a tabela de planejamento de capacidade anterior especifica o número de entradas de controle de acesso que estão associados com a sala de chat, incluindo entradas que são atribuídos diretamente para a sala de chat. Você pode controlar o acesso a salas de chat individuais usando listas de controle de acesso (ACLs). Você também pode controlar o acesso no nível de categoria. Em uma ACL, uma entrada de controle de acesso individual pode ser um grupo de usuários (por exemplo, um grupo de segurança, uma lista de distribuição) ou um único usuário. Você pode definir as entradas de controle de acesso aos membros, aos apresentadores e aos gerentes de sala de chat.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No planejamento da estratégia de gerenciamento de salas de chat, tenha em mente que o número total de entradas de controle de acesso permitido é 2 milhões. Se as entradas de controle de acesso calculado excederem 2 milhões, o desempenho do servidor pode degradar significativamente. Para evitar esse problema, sempre que possível, verifique se as entradas de controle de acesso são grupos de usuários em vez de usuários individuais.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> No planejamento da estratégia de gerenciamento de salas de chat, tenha em mente que o número total de entradas de controle de acesso permitido é 2 milhões. Se as entradas de controle de acesso calculado excederem 2 milhões, o desempenho do servidor pode degradar significativamente. Para evitar esse problema, sempre que possível, verifique se as entradas de controle de acesso são grupos de usuários em vez de usuários individuais.
 
 ## Planejamento de capacidade para gerenciar o acesso de sala de chat por convite
 
@@ -379,19 +346,8 @@ Você pode usar a tabela a seguir de planejamento de capacidade para compreender
 
 Os dados de exemplo na tabela a seguir pressupõem que, na página de **configurações de sala de chat** para 50% de todas as salas de chat, a opção de **convites** está definida como **Sim** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o valor calculado para o número de convites gerado pelo servidor exceder 1 milhão, o desempenho do servidor pode degradar significativamente. Para evitar esse problema, verifique se você minimizou o número de salas de chat que estão configurados para enviar convites ou restrinja o número de usuários que podem ingressar em salas de chat que foram configuradas para enviar convites.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se o valor calculado para o número de convites gerado pelo servidor exceder 1 milhão, o desempenho do servidor pode degradar significativamente. Para evitar esse problema, verifique se você minimizou o número de salas de chat que estão configurados para enviar convites ou restrinja o número de usuários que podem ingressar em salas de chat que foram configuradas para enviar convites.
 
 ### Acesso à sala de chat por amostra de convite
 

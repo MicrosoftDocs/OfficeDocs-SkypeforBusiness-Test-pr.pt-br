@@ -23,19 +23,8 @@ Para definir uma política de locais para sub-redes, é preciso fazer o seguinte
 
 Para obter detalhes sobre os sites da rede, consulte [Sites do Lync Server no Lync Server 2013](lync-server-2013-sites.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você criar locais de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos locais, poderá modificar os locais a serem usados para o E9-1-1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você criar locais de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos locais, poderá modificar os locais a serem usados para o E9-1-1.
 
 ## Nesta seção
 

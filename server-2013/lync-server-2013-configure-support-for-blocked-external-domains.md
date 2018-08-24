@@ -33,21 +33,8 @@ Bloquear um ou mais domínios externos de se conectar à sua organização. Para
     
       - Em **Nome de domínio (ou FQDN)**, digite o nome do domínio de parceiro federado que deseja bloquear.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O nome não pode exceder 256 caracteres de comprimento.<br />
-        Para buscar um nome de domínio de parceiro federado, efetue uma correspondência de sufixo. Por exemplo, se você digitar <strong>contoso.com</strong> , a busca retornará também o domínio <strong>it.contoso.com</strong>.<br />
-        Um domínio de parceiro federado não pode ser permitido e bloqueado simultaneamente. O Lync Server 2013 evita que isso aconteça, para que você não precise sincronizar suas listas.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > O nome não pode exceder 256 caracteres de comprimento.<br />        Para buscar um nome de domínio de parceiro federado, efetue uma correspondência de sufixo. Por exemplo, se você digitar <strong>contoso.com</strong> , a busca retornará também o domínio <strong>it.contoso.com</strong>.<br />        Um domínio de parceiro federado não pode ser permitido e bloqueado simultaneamente. O Lync Server 2013 evita que isso aconteça, para que você não precise sincronizar suas listas.    
       - (Opcional) Em **Comentário**, digite a informação que deseja compartilhar com outros administradores de sistema sobre esta configuração.
 
 6.  Clique em **Confirmar**.

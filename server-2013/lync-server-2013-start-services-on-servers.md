@@ -27,16 +27,5 @@ Após instalar o repositório de Configuração Local nos seus servidores, insta
 
 3.  Na página **Executando comandos** , após todos os serviços serem iniciados com sucesso, clique em **Finalizar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O comando para iniciar os serviços no servidor é um método de esforço melhor para relatar que os serviços foram iniciados de fato. Ele pode não refletir o estado real do serviço. Recomendamos que você use a etapa <strong>Status do serviço (opcional)</strong> imediatamente após <strong>Iniciar serviços</strong> para abrir o Console de Gerenciamento da Microsoft (MMC) e confirmar que os serviços foram iniciados com êxito. Se qualquer serviço do Lync Server não iniciar, clique com o botão direito no serviço do MMC e clique em <strong>Iniciar</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > O comando para iniciar os serviços no servidor é um método de esforço melhor para relatar que os serviços foram iniciados de fato. Ele pode não refletir o estado real do serviço. Recomendamos que você use a etapa <strong>Status do serviço (opcional)</strong> imediatamente após <strong>Iniciar serviços</strong> para abrir o Console de Gerenciamento da Microsoft (MMC) e confirmar que os serviços foram iniciados com êxito. Se qualquer serviço do Lync Server não iniciar, clique com o botão direito no serviço do MMC e clique em <strong>Iniciar</strong> .

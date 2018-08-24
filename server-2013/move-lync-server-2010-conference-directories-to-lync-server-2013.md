@@ -1,5 +1,5 @@
 ﻿---
-title: Mover Mover Diretórios de Conferência do Lync Server 2010 para o Lync Server 2013
+title: "Mover Mover Diretórios de confer. do Lync Server 2010 p/ o Lync Server 2013"
 TOCTitle: Mover Diretórios de Conferência
 ms:assetid: 659867e0-ce91-4a95-9787-b1c1566460a8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn727126(v=OCS.15)

@@ -19,16 +19,5 @@ Como com outras políticas do Lync Server, as políticas de local podem ser atri
 
 Cada site de rede possui uma política de rede atribuída e cada política possuirá diferentes valores de Usos PSTN, URIs de notificação e URIs de conferência atribuídos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O motivo para esta política especial se comportar desta forma é porque quando um usuário hospedado em um pool em um site de escritório visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamada E9-1-1 adequadas para este site de rede serão aplicadas não importando qual pool ou site o usuário está atribuído.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O motivo para esta política especial se comportar desta forma é porque quando um usuário hospedado em um pool em um site de escritório visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamada E9-1-1 adequadas para este site de rede serão aplicadas não importando qual pool ou site o usuário está atribuído.

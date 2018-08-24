@@ -23,19 +23,8 @@ O Aplicativo Grupo de Resposta oferece capacidades de reconhecimento de fala e c
 
 Os fluxos de trabalho interativos suportam até dois níveis de perguntas, com cada pergunta tendo até quatro respostas possíveis. A IVR faz uma pergunta ao chamador e, dependendo da resposta, roteia o chamador para uma fila ou faz uma segunda pergunta. A segunda pergunta também pode ter quatro respostas possíveis. Dependendo da resposta à pergunta de segundo nível, o chamador é roteado para a fila adequada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando você projeta fluxos de chamada usando o Shell de Gerenciamento do Lync Server, é possível definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você projetar um fluxo de chamada com mais de dois níveis de perguntas e quatro respostas cada, não é possível editar o fluxo de chamada usando o Painel de Controle do Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Quando você projeta fluxos de chamada usando o Shell de Gerenciamento do Lync Server, é possível definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você projetar um fluxo de chamada com mais de dois níveis de perguntas e quatro respostas cada, não é possível editar o fluxo de chamada usando o Painel de Controle do Lync Server 2013.
 
 As perguntas IVR e as respostas do chamador são fornecidas para o agente de resposta quando ele ou ela aceita a chamada.
 

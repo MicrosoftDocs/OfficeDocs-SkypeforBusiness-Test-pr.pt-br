@@ -17,11 +17,9 @@ _**Tópico modificado em:** 2016-12-08_
 
 Se você optou por habilitar a webconferência, será necessário planejar:
 
-  -   
-    O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.
+   O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.
 
-  -   
-    A integração com o Servidor Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.
+   A integração com o Servidor Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.
 
 ## Repositório de Arquivos
 
@@ -46,16 +44,16 @@ O serviço de webconferências então armazena conteúdo como slides do PowerPoi
 O administrador deve definir permissões no compartilhamento de arquivos para que grupos do RTC tenham o acesso de leitura e gravação necessário.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você encontrar erros com as permissões, abra o Construtor de Topologias, faça download e publique novamente a topologia existente. Publicar a topologia verificará as permissões do compartilhamento de arquivos e as redefinirá, se necessário.
 
 
 
 Você pode usar as configurações a seguir para gerenciar como o conteúdo será armazenado para uma reunião:
 
-  - **ContentGracePeriod**, localizada em [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), define por quanto tempo o conteúdo da webconferência permanecerá no servidor depois do término da reunião.
+  - **ContentGracePeriod**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define por quanto tempo o conteúdo da webconferência permanecerá no servidor depois do término da reunião.
 
-  - **MaxContentStorageMb**, localizada em [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), define o volume máximo de espaço para arquivo permitido para o armazenamento de conteúdo durante uma única reunião.
+  - **MaxContentStorageMb**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define o volume máximo de espaço para arquivo permitido para o armazenamento de conteúdo durante uma única reunião.
 
 **MaxUploadFileSizeMb** não limita a configuração do carregamento de arquivos para o Lync Web App. O limite de tamanho para o carregamento de arquivos para o Lync Web App está definido como aproximadamente 30MB e é controlado pelo arquivo web.config do IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Para configurar o limite de tamanho para o carregamento de arquivos para o Lync Web App, atualize as opções `maxRequestLength` e `maxAllowedContentLength` no arquivo web.config, conforme exibido abaixo.
 

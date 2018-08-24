@@ -23,20 +23,8 @@ No Painel de Controle do Lync Server 2013, você usa configurações de arquivam
 
 Inicialmente, você define as configurações de Arquivamento ao implantar o Arquivamento, mas você pode alterar, adicionar ou excluir configurações após a implantação. Para obter detalhes sobre como as configurações de Arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia das configurações de Arquivamento, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, documentação de Implantação ou documentação de Operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para usar o arquivamento, é necessário configurar as políticas de arquivamento para especificar se o arquivamento será ativado para comunicações internas, para comunicações externas ou ambas, para os usuários hospedados no Lync Server 2013. Como padrão, o arquivamento não é ativado para comunicações internas ou externas. Antes de ativar o arquivamento em qualquer política, você deverá especificar as configurações de arquivamento da sua implantação e, opcionalmente, especificar sites e pools, conforme descritos nesta seção. Para detalhes sobre a ativação de arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a>na documentação de Implantação.<br />
-Se você decidir usar a integração do Microsoft Exchange, após implantar o Arquivamento, para armazenar dados e arquivos de arquivamento nos servidores do Exchange 2013 e todos seus usuários estiverem hospedados em seus servidores do Exchange 2013, você deverá remover a configuração de banco de dados do SQL Server da sua topologia. Será necessário usar a Construtor de Topologias para isso. Para obter detalhes, consulte <a href="lync-server-2013-changing-archiving-database-options.md">Modificando opções do banco de dados de arquivamento no Lync Server 2013</a> na documentação de Operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para usar o arquivamento, é necessário configurar as políticas de arquivamento para especificar se o arquivamento será ativado para comunicações internas, para comunicações externas ou ambas, para os usuários hospedados no Lync Server 2013. Como padrão, o arquivamento não é ativado para comunicações internas ou externas. Antes de ativar o arquivamento em qualquer política, você deverá especificar as configurações de arquivamento da sua implantação e, opcionalmente, especificar sites e pools, conforme descritos nesta seção. Para detalhes sobre a ativação de arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a>na documentação de Implantação.<br />Se você decidir usar a integração do Microsoft Exchange, após implantar o Arquivamento, para armazenar dados e arquivos de arquivamento nos servidores do Exchange 2013 e todos seus usuários estiverem hospedados em seus servidores do Exchange 2013, você deverá remover a configuração de banco de dados do SQL Server da sua topologia. Será necessário usar a Construtor de Topologias para isso. Para obter detalhes, consulte <a href="lync-server-2013-changing-archiving-database-options.md">Modificando opções do banco de dados de arquivamento no Lync Server 2013</a> na documentação de Operações.
 
 ## Para ativar ou desativar o arquivamento de IM ou sessões de conferência
 

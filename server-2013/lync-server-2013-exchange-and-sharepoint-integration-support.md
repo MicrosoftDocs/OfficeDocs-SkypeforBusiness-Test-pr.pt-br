@@ -23,20 +23,8 @@ O Lync Server 2013 e o Lync 2013 podem se comunicar de forma segura e ininterrup
 
   - Conteúdo arquivado do Lync, como IM e conteúdo da reunião, pode ser guardado em armazenamento do Exchange.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 oferece suporte à integração com versões anteriores do Microsoft Exchange Server e do SharePoint, mas nem todas as funcionalidades são compatíveis com essas versões anteriores, como a integração do armazenamento de Arquivamento com Microsoft Exchange.<br />
-Caso esteja migrando usuários para o Exchange 2013, você pode usar o armazenamento do Exchange e do Lync Server temporariamente, enquanto conclui a migração. Não há suporte ao uso permanente do armazenamento do Exchange e Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server 2013 oferece suporte à integração com versões anteriores do Microsoft Exchange Server e do SharePoint, mas nem todas as funcionalidades são compatíveis com essas versões anteriores, como a integração do armazenamento de Arquivamento com Microsoft Exchange.<br />Caso esteja migrando usuários para o Exchange 2013, você pode usar o armazenamento do Exchange e do Lync Server temporariamente, enquanto conclui a migração. Não há suporte ao uso permanente do armazenamento do Exchange e Lync Server.
 
 A integração do Lync Server 2013 com Exchange 2013 e SharePoint Server exige autenticação servidor a servidor entre clientes que executam o Lync Server 2013, Microsoft Exchange Server e SharePoint Server. O Lync Server 2013 oferece suporte ao protocolo OAuth para autenticação e autorização servidor a servidor.Para autenticação local servidor a servidor entre dois servidores da Microsoft, não há necessidade de usar um servidor de token de terceiros. O Lync Server 2013, Exchange 2013 e SharePoint possuem um servidor de token interno que pode ser usado para fins de autenticação uns com os outros. Por exemplo, o Lync Server 2013 pode emitir e assinar um token de segurança por conta própria, usando-o na comunicação com o Exchange 2013. Nesse caso, não há necessidade de usar um servidor de token de terceiros.
 
@@ -46,19 +34,8 @@ O Lync Server 2013 oferece suporte a dois cenários de autenticação servidor a
 
   - Um par de componentes do Office (por exemplo, entre Microsoft Exchange 365 e Microsoft Lync Server 365, ou entre Microsoft Lync Server 365 e Microsoft SharePoint 365).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não há suporte à autenticação servidor a servidor entre um servidor local e um componente do Office 365 nesta versão do Lync Server 2013. Entre outras coisas, isso significa que você não pode configurar a autenticação servidor a servidor entre uma instalação local do Lync Server 2013 e o Microsoft Exchange 365.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Não há suporte à autenticação servidor a servidor entre um servidor local e um componente do Office 365 nesta versão do Lync Server 2013. Entre outras coisas, isso significa que você não pode configurar a autenticação servidor a servidor entre uma instalação local do Lync Server 2013 e o Microsoft Exchange 365.
 
 Para obter detalhes sobre a autenticação servidor a servidor, consulte [Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) nas documentações de implantação e operações.
 

@@ -19,19 +19,8 @@ A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualid
 
 Use o procedimento a seguir para habilitar QoE para toda sua organização ou para cada site em sua organização.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para habilitar o QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte <a href="lync-server-2013-deploying-monitoring.md">Implantando o monitoramento no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para habilitar o QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte <a href="lync-server-2013-deploying-monitoring.md">Implantando o monitoramento no Lync Server 2013</a>.
 
 ## Para habilitar o QoE usando o Painel de Controle do Lync Server
 
@@ -65,7 +54,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-Para obter detalhes, consulte [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Para obter detalhes, consulte [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Consulte Também
 

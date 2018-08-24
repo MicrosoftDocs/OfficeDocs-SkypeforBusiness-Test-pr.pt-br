@@ -31,7 +31,7 @@ Depois de ter implantado o Enterprise Voice e de ter configurado sites de rede, 
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Para obter mais informações, consulte [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md).
+Para obter mais informações, consulte [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
 Para este exemplo, a tabela a tabela e os comandos do Windows PowerShell a seguir ilustram duas políticas de roteamento de voz e seus usos de PSTN associados definidos neste cenário. Somente as configurações específicas do Roteamento com Base no Local foram incluídas na tabela para fins de ilustração.
 
@@ -123,7 +123,7 @@ Antes que uma configuração de tronco possa ser habilitada para o Roteamento co
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Para obter mais informações, consulte [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Para obter mais informações, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Para este exemplo, os comandos do Windows PowerShell a seguir ilustram a criação de uma configuração de tronco para cada tronco na implantação definida neste cenário.
 
@@ -136,7 +136,7 @@ Assim que uma configuração de tronco for configurada por tronco, você poderá
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Para obter mais informações, consulte [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Para obter mais informações, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Neste exemplo, o Roteamento com Base no Local é habilitado para cada tronco associado a gateways de PSTN em Délhi e em Hyderabad:
 
@@ -201,7 +201,7 @@ Para impor o Roteamento com Base no Local para usuários específicos, configure
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Para obter mais informações, consulte [New-CsVoicePolicy](new-csvoicepolicy.md).
+Para obter mais informações, consulte [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
 
 Para este exemplo, a tabela e os comandos do Windows PowerShell a seguir ilustram a habilitação da prevenção do desvio de chamada tarifada de PSTN para as políticas de voz de Délhi e de Hyderabad definidas neste cenário. Somente as configurações específicas do Roteamento com Base no Local foram incluídas na tabela para fins de ilustração.
 
@@ -249,21 +249,10 @@ Por fim, habilite globalmente o Roteamento com Base no Local para sua configura�
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Para obter mais informações, consulte [Set-CsRoutingConfiguration](set-csroutingconfiguration.md).
+Para obter mais informações, consulte [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>embora o Roteamento com Base no Local deva ser habilitado via configuração global, o conjunto de regras a ser aplicado só será imposto aos sites, usuários e troncos para os quais ele foi configurado como especificado nesta documentação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> embora o Roteamento com Base no Local deva ser habilitado via configuração global, o conjunto de regras a ser aplicado só será imposto aos sites, usuários e troncos para os quais ele foi configurado como especificado nesta documentação.
 
 
 ## Consulte Também

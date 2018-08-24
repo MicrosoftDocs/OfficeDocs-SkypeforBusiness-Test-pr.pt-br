@@ -31,5 +31,5 @@ Para uma descrição detalhada do comando completo, consulte o seguinte na princ
 
 #### Outros Recursos
 
-[Test-CsAddressBookWebQuery](test-csaddressbookwebquery.md)
+[Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery)
 

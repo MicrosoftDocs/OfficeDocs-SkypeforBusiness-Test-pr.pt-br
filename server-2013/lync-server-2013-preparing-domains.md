@@ -23,14 +23,17 @@ Se a herança de permissões estiver desabilitada ou as permissões de usuário 
 
 Se sua organização utiliza unidades organizacionais (UO) em vez de três contêineres internos (ou seja, Usuários, Computadores e Controladores de Domínio), você deve conceder acesso de leitura às UOs para o grupo Usuários Autenticados. O acesso de leitura aos contêineres é exigido para a preparação do domínio. Se o grupo Usuários Autenticados não tiver acesso de leitura na UO, execute o cmdlet **Grant-CsOuPermission**, conforme ilustrado nos exemplos de código a seguir, para conceder permissões de leitura para cada UO.
 
+```
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+```
 
+```
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
-
+```
 Para obter detalhes sobre o cmdlet **Grant-CsOuPermission**, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 
-> [!TIP]
+> [!TIP]  
 > Para detalhes sobre as ACEs criadas na raiz do domínio e nos contêineres Usuários, Computadores e Controladores de Domínio, consulte <A href="lync-server-2013-changes-made-by-domain-preparation.md">Alterações feitas pela preparação de domínio no Lync Server 2013</A>.
 
 

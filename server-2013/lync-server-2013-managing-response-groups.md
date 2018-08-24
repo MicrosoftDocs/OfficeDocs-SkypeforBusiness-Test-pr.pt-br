@@ -19,19 +19,8 @@ Grupos de resposta são um recurso de gerenciamento de chamadas que permite enfi
 
 Para gerenciar grupos de resposta, configure os grupos de agentes, as filas e os fluxos de trabalho, que definem o que acontece com uma chamada do momento em que ela é efetuada até o agente atendê-la.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você possui mais de 300 fluxos de trabalho em um único pool na sua implantação do Grupo de Resposta, é melhor usar os cmdlets do Shell de Gerenciamento do Lync Server para criar os fluxos de trabalho. Se você usar a Ferramenta de Configuração do Grupo de Respostas para criar fluxos de trabalho para um pool que possui mais de 300 fluxos de trabalho, a página da Web levará mais tempo para ser carregada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você possui mais de 300 fluxos de trabalho em um único pool na sua implantação do Grupo de Resposta, é melhor usar os cmdlets do Shell de Gerenciamento do Lync Server para criar os fluxos de trabalho. Se você usar a Ferramenta de Configuração do Grupo de Respostas para criar fluxos de trabalho para um pool que possui mais de 300 fluxos de trabalho, a página da Web levará mais tempo para ser carregada.
 
 Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que podem ser executadas para personalizar e manter o Aplicativo Grupo de Resposta na sua implantação.
 

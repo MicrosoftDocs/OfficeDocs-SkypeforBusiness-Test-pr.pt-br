@@ -35,19 +35,8 @@ No servidor Front End em sua implantação de Lync Server 2013, abra o Painel de
 
 ![Caixa de diálogo Selecionar URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Caixa de diálogo Selecionar URL")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Em Lync Server 2013, você atualizar Silverlight para Silverlight versão 5 antes de usar o Painel de Controle do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Em Lync Server 2013, você atualizar Silverlight para Silverlight versão 5 antes de usar o Painel de Controle do Lync Server.
 
 Essa topologia agora inclui as funções de servidor Lync Server 2010 e Lync Server 2013.
 

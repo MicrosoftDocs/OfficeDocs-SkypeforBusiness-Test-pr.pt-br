@@ -1,6 +1,6 @@
 ﻿---
-title: Associações de Grupo e Requisitos de Direitos do Usuário para o Analisador de Práticas Recomendadas
-TOCTitle: Associações de Grupo e Requisitos de Direitos do Usuário para o Analisador de Práticas Recomendadas
+title: "Assoc. de Grupo e Requis. de Direitos do Usuário p/ o Analis. de Práticas Recom."
+TOCTitle: "Assoc. de Grupo e Requis. de Direitos do Usuário p/ o Analis. de Práticas Recom."
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591354(v=OCS.15)
 ms:contentKeyID: 49308652

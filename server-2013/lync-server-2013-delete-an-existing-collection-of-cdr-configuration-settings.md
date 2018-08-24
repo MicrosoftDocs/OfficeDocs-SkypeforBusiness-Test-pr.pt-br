@@ -21,7 +21,7 @@ Ao instalar o Microsoft Lync Server 2013, uma coleção única e global de defin
 
 Observe que também é possível "excluir" as definições globais. No entanto, as definições globais não serão realmente removidas. Em vez disso, todas as propriedades nessa coleção serão redefinidas para os valores padrão. Por exemplo, como padrão, a limpeza está ativada em uma coleção de definições de configuração de CDR. Suponha que você modifique a coleção global de forma que a limpeza seja desativada. Se você excluir as definições globais mais tarde, todas as propriedades serão redefinidas para seus valores padrão. Neste caso, isso significa que a limpeza será novamente ativada.
 
-Você pode remover as definições de configuração de CDR usando o Painel de Controle do Lync Server, ou o cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Você pode remover as definições de configuração de CDR usando o Painel de Controle do Lync Server, ou o cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Para remover as definições de configuração de CDR usando o Painel de Controle do Lync Server
 
@@ -55,5 +55,5 @@ Você pode excluir as definições de configuração de gravação de detalhes d
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

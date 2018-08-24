@@ -71,19 +71,8 @@ A seguinte tabela resume os requisitos de protocolo para cada tipo de tráfego.
 
 O tráfego de mídia é criptografado usando Secure RTP (SRTP), um perfil de protocolo de transporte em tempo real (RTP) que proporciona confidencialidade, autenticação e proteção contra ataques no tráfego do RTP. O SRTP usa uma chave de sessão criada pelo serviço de autenticação de media relay em resposta a uma autenticação bem-sucedida da solicitação do servidor (em nome dos participantes da mídia). A chave de sessão está protegida pelo nome de usuário e senha negociados apresentados ao serviço de autenticação de media relay pelo Servidores Front-End e enviados aos participantes pelo canal SIP protegido pelo TLS. A descriptografia da chave de sessão protegida com nome de usuário e senha que o serviço de media relay usou e fornecidos de maneira segura por meio de um certificado TLS do participante e do canal SIP protegido permite que os participantes façam a descriptografia do fluxo do SRTP. Além disso, o fluxo da mídia em ambas as direções entre o Servidor de Mediação e seu próximo salto interno também é criptografado usando SRTP. O fluxo de mídia em ambas as direções entre o Servidor de Mediação e o gateway de mídia não é criptografado. O Servidor de Mediação pode oferecer suporte à criptografia de um gateway de mídia, mas o gateway deve oferecer suporte ao MTLS e ao armazenamento de um certificado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Áudio/Vídeo (A/V) é suportado na nova versão do Windows Live Messenger. Se você estiver implantando uma federação A/V no Windows Live Messenger, você também deve modificar o nível de criptografia do Lync Server. Por padrão, o nível de criptografia é Exigido. Você deve alterar essa configuração para Suportado usando o Shell de Gerenciamento do Lync Server. Para obter mais informações, consulte <a href="lync-server-2013-deploying-external-user-access.md">Implantação de acesso do usuário externo no Lync Server 2013</a> na Documentação de implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Áudio/Vídeo (A/V) é suportado na nova versão do Windows Live Messenger. Se você estiver implantando uma federação A/V no Windows Live Messenger, você também deve modificar o nível de criptografia do Lync Server. Por padrão, o nível de criptografia é Exigido. Você deve alterar essa configuração para Suportado usando o Shell de Gerenciamento do Lync Server. Para obter mais informações, consulte <a href="lync-server-2013-deploying-external-user-access.md">Implantação de acesso do usuário externo no Lync Server 2013</a> na Documentação de implantação.
 
 O tráfego de mídia de áudio e vídeo não é criptografado entre os clientes Microsoft Lync 2013 e Windows Live.
 

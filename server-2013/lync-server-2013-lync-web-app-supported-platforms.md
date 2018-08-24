@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2017-02-07_
 
 Para usar o Lync Web App, você deve ter uma das seguintes combinações de sistema operacional e navegador com suporte.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um plug-in é necessário para determinados recursos do Lync Web App, incluindo voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela baseados no computador. Você pode instalar o plug-in de compartilhamento ao ingressar na reunião ou ao iniciar um desses recursos. 1</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um plug-in é necessário para determinados recursos do Lync Web App, incluindo voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela baseados no computador. Você pode instalar o plug-in de compartilhamento ao ingressar na reunião ou ao iniciar um desses recursos. 1
 
 ## Sistema operacional suportado e combinações de navegador do Lync Web App
 

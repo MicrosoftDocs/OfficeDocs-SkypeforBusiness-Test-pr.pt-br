@@ -19,19 +19,8 @@ Esta seção assume que você já publicou e configurou pelo menos um ou mais Se
 
 Esta seção também assume que você definiu pelo menos um par de gateway para oferecer conectividade de PSTN, conforme descrito no [Definir um gateway no Construtor de Topologia no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md). Se o par ao qual você está se conectando for o SBC de um provedor de tronco SIP, certifique-se de que o provedor qualificado e que suporta bypass de mídia. Por exemplo, vários provedores de tronco SIP permitirão que seu SBC receba tráfego do Servidor de Mediação. Caso sim, o bypass não deve ser habilitado para o tronco em questão. Além disso, não é possível habilitar o bypass de mídia a não ser que sua organização releve seus endereços IP de rede internos para o provedor de tronco SIP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O bypass de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no Programa de Interoperabilidade Aberta do Unified Communications – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O bypass de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no Programa de Interoperabilidade Aberta do Unified Communications – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
 
 Esta seção descreve como habilitar o bypass de mídia para reduzir o processamento necessário do Servidor de Mediação. Antes de habilitar o bypass de mídia, certifique-se de que seu ambiente cumpre as condições exigidas para suportar o bypass de mídia, conforme descrito em [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na documentação de Planejamento. Também certifique-se de usar a informação em [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) para decidir se deseja habilitar as configurações globais do bypass de mídia para sempre do bypass no Servidor de Mediação ou para usar as informações de site e região ao determinar o bypass do Servidor de Mediação.
 

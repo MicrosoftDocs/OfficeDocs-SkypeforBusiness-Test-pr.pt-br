@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-11-01_
 
 Se quiser salvar sua configuração de roteamento de voz sem publicá-la, siga as etapas deste tópico para usar os comandos de exportação e importação de configuração do Painel de Controle do Lync Server para salvar e recuperar um instantâneo da sua configuração de roteamento de voz. Quando você importa um arquivo de configuração de roteamento de voz (.vcfg), mas fez alterações na configuração de roteamento de voz no servidor nesse tempo, as páginas do grupo **Roteamento de Voz** do Painel de Controle do Lync Server indicarão que há alterações não confirmadas para o roteamento de voz. Essas alterações não confirmadas são as diferenças entre as duas configurações que exigem reconciliação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver feito qualquer alteração não confirmada na configurações de qualquer página dentro do grupo <strong>Roteamento de Voz</strong> , as alterações serão salvas no arquivo de configuração de voz exportado (.vcfg). Isso permite que fazer alterações na configuração de roteamento de voz durante múltiplas sessões do Painel de Controle do Lync Server antes de publicar as alterações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se você tiver feito qualquer alteração não confirmada na configurações de qualquer página dentro do grupo <strong>Roteamento de Voz</strong> , as alterações serão salvas no arquivo de configuração de voz exportado (.vcfg). Isso permite que fazer alterações na configuração de roteamento de voz durante múltiplas sessões do Painel de Controle do Lync Server antes de publicar as alterações.
 
 ## Nesta seção
 

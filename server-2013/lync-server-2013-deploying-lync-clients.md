@@ -23,24 +23,13 @@ Lync 2013 introduz uma abordagem diferente para a implantação de cliente.intro
 
 Os tópicos nessa seção focam em como implantar clientes utilizando o instalador com base MSI Office 2013. Sua referência primária deve ser a documentação do Kit de Recursos do Office 2013, que descreve em detalhes como preparar sua infraestrutura, personalizar a instalação e implantar o Office 2013. Entretanto, você deve utilziar a documentação do Office em conjunto com os tópicos nesta seção, que apontam considerações de implantação específicas para o Lync 2013.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>O Suplemento de Reunião Online para Lync 2013, que suporta o gerenciamento de reuniões de dentro do cliente de colaboração e mensagem do Outlook, é instalado automaticamente com Lync 2013.</p></li>
-<li><p>O programa de instalação Office 2013 não desinstala versões anteriores do Lync ou Office Communicator. O cliente Lync 2013 instala lado a lado com outros clientes Lync ou Office Communicator</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> 
+> <li><p>O Suplemento de Reunião Online para Lync 2013, que suporta o gerenciamento de reuniões de dentro do cliente de colaboração e mensagem do Outlook, é instalado automaticamente com Lync 2013.</p></li>
+> 
+> 
+> <li><p>O programa de instalação Office 2013 não desinstala versões anteriores do Lync ou Office Communicator. O cliente Lync 2013 instala lado a lado com outros clientes Lync ou Office Communicator</p></li></ul>
 
 
 ## Nesta seção

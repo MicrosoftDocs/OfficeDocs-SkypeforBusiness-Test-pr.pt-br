@@ -61,20 +61,8 @@ Tenha em mente que o nome do realm de um locatário é normalmente diferente do 
 
 Após a conclusão do script, você deverá configurar um relacionamento de confiança entre o Lync Server 2013 e o servidor de autorização. Deverá também configurar mais um relacionamento de confiança, entre o Exchange 2013 e esse mesmo servidor. Isso só pode ser feito usando os cmdlets do Microsoft Online Services.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Caso não tenha instalado os cmdlets do Microsoft Online Services, será necessário fazer duas coisas antes de continuar. Primeiro, baixe e instale a versão de 64 bits do Assistente de Conexão do Microsoft Online Services. Após a conclusão da instalação, baixe a instale a versão de 64 bits do Módulo do Microsoft Online Services para Windows PowerShell. As informações detalhadas de instalação e uso do Módulo do Microsoft Online Services podem ser encontradas no site do Office 365. Essas instruções também mostrarão como configurar o logon único, a federação e a sincronização entre o Office 365 e o Active Directory.<br />
-Se você não tiver instalado esses cmdlets, seu script falhará porque o cmdlet Get-CsTenant não estará disponível.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Caso não tenha instalado os cmdlets do Microsoft Online Services, será necessário fazer duas coisas antes de continuar. Primeiro, baixe e instale a versão de 64 bits do Assistente de Conexão do Microsoft Online Services. Após a conclusão da instalação, baixe a instale a versão de 64 bits do Módulo do Microsoft Online Services para Windows PowerShell. As informações detalhadas de instalação e uso do Módulo do Microsoft Online Services podem ser encontradas no site do Office 365. Essas instruções também mostrarão como configurar o logon único, a federação e a sincronização entre o Office 365 e o Active Directory.<br />Se você não tiver instalado esses cmdlets, seu script falhará porque o cmdlet Get-CsTenant não estará disponível.
 
 Após a configuração do Office 365 e a criação de entidades de serviço do Office 365 para Lync Server 2013 e Exchange 2013, você deverá registrar as credenciais com essas entidades de serviço. Para isso, primeiro você deve obter um certificado X.509 Base64 salvo como um arquivo .CER. Ele será aplicado às entidades de serviço do Office 365.
 

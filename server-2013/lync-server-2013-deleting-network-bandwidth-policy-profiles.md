@@ -27,24 +27,13 @@ Como parte do controle de admissão de chamadas (CAC), é usada uma política de
 
 4.  Na página **Política de largura de banda**, clique no perfil de política de largura de banda que você deseja excluir.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode excluir mais de um perfil por vez. Para isso, pressione CTRL e selecione vários perfis mantendo a tecla CTRL pressionada. Ou, para selecionar perfis, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você pode excluir mais de um perfil por vez. Para isso, pressione CTRL e selecione vários perfis mantendo a tecla CTRL pressionada. Ou, para selecionar perfis, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
 
 5.  No menu **Editar**, clique em **Excluir**.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Você não pode excluir um perfil de política de largura de banda que esteja associado a um site da rede. É preciso primeiro remover a associação com o site antes de poder excluir o perfil. Para obter informações mais detalhadas sobre como modificar um site da rede, consulte <A href="lync-server-2013-creating-or-modifying-network-sites.md">Criar ou modificar sites de rede</A>.
 
 
@@ -59,5 +48,5 @@ Como parte do controle de admissão de chamadas (CAC), é usada uma política de
 #### Outros Recursos
 
 [Configurar controle de admissão de chamada no Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Remove-CsNetworkBandwidthPolicyProfile](remove-csnetworkbandwidthpolicyprofile.md)
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 

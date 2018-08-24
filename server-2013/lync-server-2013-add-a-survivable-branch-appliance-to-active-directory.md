@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Adicionar um Aplicativo de Filial Persistente ao Active Directory'
+title: "Lync Server 2013: Adicionar um App de Filial Persistente ao Active Directory"
 TOCTitle: Adicionar um Aplicativo de Filial Persistente ao Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425906(v=OCS.15)
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-09-23_
 
 Se você planejar implantar um Aparelho de Filial Persistente, adicione o Aparelho de Filial Persistente aos Serviços de Domínio Active Directory. Execute este procedimento no local central.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Execute este procedimento somente se você estiver implantando um Aparelho de Filial Persistente. Não o execute se estiver implantando um Servidor de Filial Persistente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Execute este procedimento somente se você estiver implantando um Aparelho de Filial Persistente. Não o execute se estiver implantando um Servidor de Filial Persistente.
 
 ## Para adicionar um Aparelho de Filial Persistente aos Serviços de Domínio do Active Directory
 
@@ -43,19 +32,8 @@ Se você planejar implantar um Aparelho de Filial Persistente, adicione o Aparel
 
 5.  Na caixa de diálogo **Selecionar Usuário ou Grupo**, adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.
 
 6.  Clique em **OK** para salvar o objeto de computador Aparelho de Filial Persistente.
 

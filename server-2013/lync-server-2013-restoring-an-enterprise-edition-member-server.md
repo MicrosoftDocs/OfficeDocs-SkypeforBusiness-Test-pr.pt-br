@@ -28,7 +28,7 @@ Se um servidor que estiver executando uma das seguintes funções de servidor fa
   - Servidor de Borda
 
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você faça uma cópia da imagem do sistema antes de iniciar a restauração. Você pode utilizar essa imagem como ponto de reversão caso ocorra algo errado durante a restauração. Convém usar a cópia da imagem depois de instalar o sistema operacional e o SQL Server e restaurar ou registrar novamente os certificados.
 
 
@@ -37,19 +37,8 @@ Se um servidor que estiver executando uma das seguintes funções de servidor fa
 
 1.  Comece com um servidor novo ou limpo que tenha o mesmo FQDN (nome de domínio totalmente qualificado) que o servidor que falhou, instale o sistema operacional e restaure os certificados ou registre-os novamente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Siga os procedimentos de implantação de servidor de sua organização para executar essa etapa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Siga os procedimentos de implantação de servidor de sua organização para executar essa etapa.
 
 2.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins, faça logon no servidor que você está restaurando.
 

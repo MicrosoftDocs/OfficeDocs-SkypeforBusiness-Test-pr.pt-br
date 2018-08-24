@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Processo de implantação para integração de Unificação de Mensagens local'
+title: "Lync Server 2013: Processo de implant. p/ integração de Unificação de Mensagens local"
 TOCTitle: Processo de implantação para integração de Unificação de Mensagens local com Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425737(v=OCS.15)
@@ -19,19 +19,8 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 
 ## Processo de integração do Unified Messaging
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É importante que você coordene com os administradores do Exchange da sua organização para confirmar as tarefas que cada um executará para garantir uma integração tranquila e bem-sucedida.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> É importante que você coordene com os administradores do Exchange da sua organização para confirmar as tarefas que cada um executará para garantir uma integração tranquila e bem-sucedida.
 
 
 <table>
@@ -51,25 +40,10 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Implante um dos seguintes:</p>
-<ul>
-<li><p>Microsoft Exchange Server 2007 Service Pack 1 (SP2) ou service pack mais recente</p></li>
-<li><p>Microsoft Exchange Server 2010 ou o service pack mais recente</p></li>
-<li><p>Microsoft Exchange Server 2013</p></li>
-</ul></td>
-<td><p>Se você estiver usando o Microsoft Exchange Server 2013, instale as seguintes funções do Exchange Server na mesma floresta ou uma floresta diferente como o Lync Server 2013:</p>
-<ul>
-<li><p>Acesso do Cliente</p></li>
-<li><p>Caixa de Correio</p></li>
-</ul>
+<td><p>Implante um dos seguintes:</p><ul><li><p>Microsoft Exchange Server 2007 Service Pack 1 (SP2) ou service pack mais recente</p></li><li><p>Microsoft Exchange Server 2010 ou o service pack mais recente</p></li><li><p>Microsoft Exchange Server 2013</p></li></ul></td>
+<td><p>Se você estiver usando o Microsoft Exchange Server 2013, instale as seguintes funções do Exchange Server na mesma floresta ou uma floresta diferente como o Lync Server 2013:</p><ul><li><p>Acesso do Cliente</p></li><li><p>Caixa de Correio</p></li></ul>
 <p>Se o Microsoft Exchange Server 2013 e o Unificação de Mensagens (UM) do Exchange estão instalados em florestas diferentes, configure cada floresta do Exchange para confiar na floresta do Lync Server 2013.</p>
-<p>Se você estiver usando o Exchange 2010, instale as seguintes funções do Exchange Server na mesma floresta ou uma floresta diferente como o Lync Server 2013:</p>
-<ul>
-<li><p>Unified Messaging</p></li>
-<li><p>Transporte de hub</p></li>
-<li><p>Acesso do Cliente</p></li>
-<li><p>Caixa de Correio</p></li>
-</ul>
+<p>Se você estiver usando o Exchange 2010, instale as seguintes funções do Exchange Server na mesma floresta ou uma floresta diferente como o Lync Server 2013:</p><ul><li><p>Unified Messaging</p></li><li><p>Transporte de hub</p></li><li><p>Acesso do Cliente</p></li><li><p>Caixa de Correio</p></li></ul>
 <p>Se o Lync Server 2013 e o Unificação de Mensagens (UM) do Exchange estão instalados em florestas diferentes, configure cada floresta do Exchange para confiar na floresta do Lync Server 2013.</p></td>
 <td><p>Administradores de empresa (se esta for o primeiro Exchange Server na organização)</p>
 <p>- OU -</p>
@@ -136,12 +110,7 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 </tr>
 <tr class="odd">
 <td><p>Execute o script exchucutil.ps1.</p></td>
-<td><p>No servidor executando os serviços do UM do Exchange, abra o Shell de Gerenciamento do Exchange e execute o script exchucutil.ps1, que faz o seguinte:</p>
-<ul>
-<li><p>Concede permissões ao Lync Server 2013 para ler o objetos do UM do Exchange  Serviços de Domínio Active Directory, especificamente, os planos de discagem SIP criados na tarefa anterior.</p></li>
-<li><p>Cria um objeto de gateway IP do Unified Messaging no Active Directory para cada pool do Lync Server 2013 Enterprise Edition ou servidor do Standard Edition que hospeda os usuários habilitados para o Enterprise Voice.</p></li>
-<li><p>Cria um grupo de busca do UM do Exchange para cada gateway. O identificador piloto do grupo de busca será o nome do plano de discagem associado ao gateway correspondente. Eles precisam ser mapeados individualmente se houver mais de um plano de discagem.</p></li>
-</ul></td>
+<td><p>No servidor executando os serviços do UM do Exchange, abra o Shell de Gerenciamento do Exchange e execute o script exchucutil.ps1, que faz o seguinte:</p><ul><li><p>Concede permissões ao Lync Server 2013 para ler o objetos do UM do Exchange  Serviços de Domínio Active Directory, especificamente, os planos de discagem SIP criados na tarefa anterior.</p></li><li><p>Cria um objeto de gateway IP do Unified Messaging no Active Directory para cada pool do Lync Server 2013 Enterprise Edition ou servidor do Standard Edition que hospeda os usuários habilitados para o Enterprise Voice.</p></li><li><p>Cria um grupo de busca do UM do Exchange para cada gateway. O identificador piloto do grupo de busca será o nome do plano de discagem associado ao gateway correspondente. Eles precisam ser mapeados individualmente se houver mais de um plano de discagem.</p></li></ul></td>
 <td><p>Administrador da organização do Exchange</p>
 <p>Administrador de destinatários do Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Configurar o Unified Messaging no Microsoft Exchange para Lync Server 2013</a></p></td>
@@ -149,99 +118,41 @@ Se você deseja integrar o Unificação de Mensagens (UM) do Exchange com o Lync
 <tr class="even">
 <td><p>Configure planos de discagem do Lync Server 2013.</p></td>
 <td><p>Se você estiver integrando com o Exchange 2007 SP1 ou service pack mais recente ou Exchange 2010, crie um novo plano de discagem Enterprise Voice com um nome que corresponde o FQDN do plano de discagem de UM do Exchange.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você precisará fazer isso para cada plano de discagem UM.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Você precisará fazer isso para cada plano de discagem UM.
+
 <p>Se você estiver integrando com o Exchange 2010 SP1, certifique-se de que os planos de discagem de nível local/global ou nível do pool do Enterprise Voice foram configurados.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver integrando com o Exchange 2010 SP1, o plano de discagem do Lync Server e os nomes do plano de discagem do UM do Exchange não precisam corresponder.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se você estiver integrando com o Exchange 2010 SP1, o plano de discagem do Lync Server e os nomes do plano de discagem do UM do Exchange não precisam corresponder.
+</td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-dial-plans.md">Configurando planos de discagem no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Execute a ferramenta de Integração do UM do Exchange.</p></td>
-<td><p>No Lync Server 2013, execute <strong>ocsumutil.exe</strong>, que:</p>
-<ul>
-<li><p>Cria objetos de contato do Acesso do Assinante e Atendedor Automático.</p></li>
-<li><p>Valida que há um plano de discagem do Enterprise Voice com um nome que corresponde ao FQDN do plano de discagem do UM Exchange. Se você estiver executando o Exchange 2010 SP1 ou posterior, os nomes do plano de discagem não precisam corresponder e é possível ignorar o aviso da ferramenta sobre isso.</p></li>
-</ul>
+<td><p>No Lync Server 2013, execute <strong>ocsumutil.exe</strong>, que:</p><ul><li><p>Cria objetos de contato do Acesso do Assinante e Atendedor Automático.</p></li><li><p>Valida que há um plano de discagem do Enterprise Voice com um nome que corresponde ao FQDN do plano de discagem do UM Exchange. Se você estiver executando o Exchange 2010 SP1 ou posterior, os nomes do plano de discagem não precisam corresponder e é possível ignorar o aviso da ferramenta sobre isso.</p></li></ul>
 <p>Essa ferramenta funciona pela verificação do Active Directory para configurações do UM do Exchange e permite o administrador do Lync Server 2013 exibir, criar e editar objetos de contato.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> RTCUniversalUserAdmins</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para executar com êxito o ocsumutil.exe, o usuário deve pertencer aos dois grupos.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para criar objetos de Contato, o usuário que executa ocsumutil.exe deve ter a permissão correta para a unidade organizacional (OU) do Active Directory onde novos objetos de contato são armazenados. Esta permissão pode ser concedida executando o cmdlet <strong>Grant-CsOUPermission</strong>. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Para executar com êxito o ocsumutil.exe, o usuário deve pertencer aos dois grupos.
 
-</div></td>
+
+> [!NOTE]  
+> Para criar objetos de Contato, o usuário que executa ocsumutil.exe deve ter a permissão correta para a unidade organizacional (OU) do Active Directory onde novos objetos de contato são armazenados. Esta permissão pode ser concedida executando o cmdlet <strong>Grant-CsOUPermission</strong>. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
+</td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Se necessário, realize outras etapas de configuração do Enterprise Voice.</p></td>
-<td><p>Se você ainda não definiu as configurações do Enterprise Voice nos seus servidores ou usuários, faça um ou mais dos seguintes:</p>
-<ul>
-<li><p>Implantar e configurar</p>
-<p>Gateways PSTN e Servidores de Mediação</p></li>
-<li><p>Defina as políticas de voz, os registros de uso PSTN e os roteamentos de chamada de saída.</p></li>
-<li><p>Habilite usuários para o Enterprise Voice.</p></li>
-<li><p>Opcionalmente, configure usuários específicos com planos de discagem.</p></li>
-</ul>
+<td><p>Se você ainda não definiu as configurações do Enterprise Voice nos seus servidores ou usuários, faça um ou mais dos seguintes:</p><ul><li><p>Implantar e configurar</p>
+<p>Gateways PSTN e Servidores de Mediação</p></li><li><p>Defina as políticas de voz, os registros de uso PSTN e os roteamentos de chamada de saída.</p></li><li><p>Habilite usuários para o Enterprise Voice.</p></li><li><p>Opcionalmente, configure usuários específicos com planos de discagem.</p></li></ul>
 <p>Outras etapas de configuração podem ser necessárias dependendo dos recursos do Enterprise Voice que você habilitar.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>RTCUniversalUserAdmins</p></td>
-<td><p>Consulte os tópicos nas seções a seguir:</p>
-<ul>
-<li><p><a href="lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md">Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013</a></p></li>
-<li><p><a href="lync-server-2013-deploying-enterprise-voice.md">Implantando o Enterprise Voice no Lync Server 2013</a></p></li>
-</ul></td>
+<td><p>Consulte os tópicos nas seções a seguir:</p><ul><li><p><a href="lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md">Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013</a></p></li><li><p><a href="lync-server-2013-deploying-enterprise-voice.md">Implantando o Enterprise Voice no Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Habilitar usuários Enterprise Voice para UM do Exchange.</p></td>

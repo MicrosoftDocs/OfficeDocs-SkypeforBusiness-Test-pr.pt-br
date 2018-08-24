@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2012-09-05_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você já criou sites de rede para 9-1-1 avançado ou desvio de mídia, é possível modificar os sites de rede existentes para aplicar um perfil de política de largura de banda usando o cmdlet <strong>Set-CsNetworkSite</strong>. . Para um exemplo de como modificar um site de rede, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se você já criou sites de rede para 9-1-1 avançado ou desvio de mídia, é possível modificar os sites de rede existentes para aplicar um perfil de política de largura de banda usando o cmdlet <strong>Set-CsNetworkSite</strong>. . Para um exemplo de como modificar um site de rede, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.
 
 *Sites de rede* são os escritórios ou locais dentro de cada região de rede de implantações de controle de admissão de chamadas (CAC), E9-1-1 e desvio de mídia. Use os procedimentos a seguir para criar sites de rede que se alinham a sites de rede na topologia de rede de exemplo para CAC. Estes procedimentos mostram como criar e configurar sites de rede que são restringidos pela largura de banda da WAN e, portanto, requerem políticas de largura de banda que limitam o fluxo do tráfego de áudio e vídeo em tempo real.
 
@@ -35,19 +24,8 @@ Na implantação de CAC de exemplo, a região América do Norte possui seis site
 
 Para exibir a topologia de rede de exemplo, consulte [Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de Planejamento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No procedimento a seguir, o Shell de Gerenciamento do Lync Server é usado para criar um site de rede. Para obter detalhes sobre como usar o Painel de Controle do Lync Server para criar um site de rede, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> No procedimento a seguir, o Shell de Gerenciamento do Lync Server é usado para criar um site de rede. Para obter detalhes sobre como usar o Painel de Controle do Lync Server para criar um site de rede, consulte <a href="lync-server-2013-create-or-modify-a-network-site.md">Criar ou modificar um site da rede no Lync Server 2013</a>.
 
 ## Para criar sites de rede para controle de admissão de chamadas
 
@@ -55,11 +33,15 @@ Para exibir a topologia de rede de exemplo, consulte [Exemplo: Coletando seus re
 
 2.  Execute o cmdlet **New-CsNetworkSite** para criar sites de rede e aplicar um perfil de política de largura de banda para cada site. Por exemplo, execute:
     
+```
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    
+```
+```    
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    
+```
+```    
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+```
 
 3.  Para concluir a criação de sites de rede para a topologia de exemplo, repita a etapa 2 para os sites de rede com restrição de largura de banda nas regiões EMEA e APAC.
 

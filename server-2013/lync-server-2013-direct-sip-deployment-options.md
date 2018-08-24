@@ -37,33 +37,11 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 
 ![Diagrama de opção da migração por departamento](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagrama de opção da migração por departamento")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se estiver conectando a implantação do Lync Server a um parceiro certificado de SIP direto, não será necessário usar o gateway da PSTN (rede telefônica pública comutada) entre o Servidor de Mediação e o PBX. Para obter uma lista de parceiros certificados de SIP direto, consulte o site do programa de interoperabilidade aberta Microsoft Unified Communications em <a href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Se estiver conectando a implantação do Lync Server a um parceiro certificado de SIP direto, não será necessário usar o gateway da PSTN (rede telefônica pública comutada) entre o Servidor de Mediação e o PBX. Para obter uma lista de parceiros certificados de SIP direto, consulte o site do programa de interoperabilidade aberta Microsoft Unified Communications em <a href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</a>.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O caminho de mídia mostrado nesta figura possui um bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia é direcionado pelo Servidor de Mediação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O caminho de mídia mostrado nesta figura possui um bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia é direcionado pelo Servidor de Mediação.
 
 Nessa topologia, os departamentos ou grupos de trabalho selecionados são habilitados para o Enterprise Voice. Um gateway PSTN vincula o grupo de trabalho habilitado para VoIP ao PBX. Os usuários que estão habilitados para o Enterprise Voice, incluindo funcionários remotos, comunicam-se através da rede IP. As chamadas de usuários do Enterprise Voice ao PSTN e a colegas de trabalho que não estão habilitados para o Enterprise Voice são encaminhadas para o gateway PSTN adequado. As chamadas de colegas que ainda estão no sistema PBX ou de chamadores no PSTN, são encaminhadas para o gateway PSTN, que as encaminha ao Lync Server para roteamento.
 
@@ -113,19 +91,8 @@ O Enterprise Voice oferece novos negócios e até mesmo novos sites de escritór
 
 Nesta implantação, todas as chamadas são roteadas pela rede IP. As chamadas ao PSTN são roteadas para o gateway PSTN adequado. O Lync 2013 ou o Lync Phone Edition serve como um softphone. O controle de chamada remota não está disponível e é desnecessário, porque não há telefones PBX para os usuários do controle. Os serviços de atendedor automático e correio de voz estão disponíveis através da implantação opcional do Unificação de Mensagens (UM) do Exchange.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Além da infra-estrutura de rede necessária para oferecer suporte ao Lync Server 2013, uma implantação de somente VoIP pode usar um gateway pequeno, qualificado para dar suporte a dispositivos analógicos e máquinas de fax.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Além da infra-estrutura de rede necessária para oferecer suporte ao Lync Server 2013, uma implantação de somente VoIP pode usar um gateway pequeno, qualificado para dar suporte a dispositivos analógicos e máquinas de fax.
 
 A figura a seguir mostra uma topologia típica de uma implantação de somente VoIP.
 
@@ -133,16 +100,5 @@ A figura a seguir mostra uma topologia típica de uma implantação de somente V
 
 ![Opção de implantação Greenfidle](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Opção de implantação Greenfidle")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O caminho de mídia mostrado nesta figura possui um bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia é direcionado pelo Servidor de Mediação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O caminho de mídia mostrado nesta figura possui um bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia é direcionado pelo Servidor de Mediação.

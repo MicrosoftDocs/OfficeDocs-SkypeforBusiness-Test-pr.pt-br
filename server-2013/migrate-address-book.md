@@ -31,19 +31,8 @@ Se você definiu a propriedade de WMI **PartitionbyOU** como True para criar cat
 
 Se você personalizou as regras de normalização do Catálogo de Endereços em seu ambiente do Lync Server 2010, você deverá migrar as regras personalizadas para seu pool piloto. Se você não personalizou regras de normalização do Catálogo de Endereços, não há nada para migrar para o serviço do Catálogo de Endereços. As regras de normalização padrão do Lync Server 2013 são as mesmas regras padrão do Lync Server 2010. Siga o procedimento posteriormente nesta seção para migrar regras de normalização personalizadas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sua organização usa controle de chamadas remotas e você personalizou regras de normalização do Catálogo de Endereços, deve executar o procedimento deste tópico antes de usar o controle de chamadas remotas. O procedimento requer a associação no grupo RTCUniversalServerAdmins ou direitos equivalentes.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se sua organização usa controle de chamadas remotas e você personalizou regras de normalização do Catálogo de Endereços, deve executar o procedimento deste tópico antes de usar o controle de chamadas remotas. O procedimento requer a associação no grupo RTCUniversalServerAdmins ou direitos equivalentes.
 
 **UseNormalizationRules definido como Falso**
 
@@ -53,19 +42,8 @@ Se você definiu o valor de **UseNormalizationRules** como Falso, para que os us
 
 1.  Encontre o arquivo Company\_Phone\_Number\_Normalization\_Rules.txt na raiz da pasta compartilhada do Catálogo de Endereços e copie-o para a raiz da pasta compartilhada do Catálogo de Endereços em seu pool piloto do Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As regras de normalização do Catálogo de Endereços da amostra foram instaladas em seu diretório de arquivos do componente ABS Web. O caminho é <strong>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Este arquivo pode ser copiado e renomeado como  <strong>Company_Phone_Number_Normalization_Rules.txt</strong> para o diretório raiz da pasta compartilhada do catálogo de endereços. Por exemplo, o catálogo de endereços compartilhado no <strong>$serverX</strong>, o caminho será similar ao: <strong>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As regras de normalização do Catálogo de Endereços da amostra foram instaladas em seu diretório de arquivos do componente ABS Web. O caminho é <strong>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Este arquivo pode ser copiado e renomeado como  <strong>Company_Phone_Number_Normalization_Rules.txt</strong> para o diretório raiz da pasta compartilhada do catálogo de endereços. Por exemplo, o catálogo de endereços compartilhado no <strong>$serverX</strong>, o caminho será similar ao: <strong>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</strong>.
 
 2.  Use um editor de texto, como o Bloco de Notas para abrir o arquivo Company\_Phone\_Number\_Normalization\_Rules.txt.
 

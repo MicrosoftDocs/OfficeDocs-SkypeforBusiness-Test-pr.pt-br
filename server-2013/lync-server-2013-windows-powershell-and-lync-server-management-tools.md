@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ferramentas de gerenciamento do Windows PowerShell e do Lync Server'
+title: "Lync Server 2013: Ferram. de gerenc. do Windows PowerShell e do Lync Server"
 TOCTitle: Ferramentas de gerenciamento do Windows PowerShell e do Lync Server 2013
 ms:assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn481130(v=OCS.15)

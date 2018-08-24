@@ -25,19 +25,9 @@ Existem duas coisas a se ter em mente ao atribuir políticas a usuários ao atri
 
 Este comando falha porque não há necessidade de atribuir a política global. Se você quiser gerenciar um usuário usando a política global, não atribua uma política por usuário a esse usuário. Se nenhuma política por usuário tiver sido atribuída a um usuário, o usuário será automaticamente gerenciado por meio da política global.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>E se uma política por usuário tiver sido anteriormente atribuída ao usuário, e se você quiser cancelar a atribuição dessa política e ter o usuário gerenciado pela política global? Nesse caso, primeiro você usará a sintaxe a seguir, que cancela a atribuição de uma política por usuário ao conceder uma política nula ao usuário:<br />
-Grant-CsVoicePolicy –Identity &quot;Paulo Neves&quot; –PolicyName $Null</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> E se uma política por usuário tiver sido anteriormente atribuída ao usuário, e se você quiser cancelar a atribuição dessa política e ter o usuário gerenciado pela política global? Nesse caso, primeiro você usará a sintaxe a seguir, que cancela a atribuição de uma política por usuário ao conceder uma política nula ao usuário:<br />
+Grant-CsVoicePolicy –Identity &quot;Paulo Neves&quot; –PolicyName $Null
 
 
 Segundo, tenha em mente que as políticas por usuário são criadas no escopo da marca. Entretanto, você pode omitir o **prefixo** da marca ao especificar um nome de política. Esses dois comandos são idênticos:
@@ -51,22 +41,22 @@ Se você quiser retornar as identidades para todas as suas políticas por usuár
 
 Os cmdlets a seguir usam uma Identidade de usuário e o escopo de marca:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Consulte Também
 
 #### Conceitos
 
 [Identidades, escopos e locatários](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Os cmdlets do Lync Online](the-skype-for-business-online-cmdlets.md)
+[Os cmdlets do Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

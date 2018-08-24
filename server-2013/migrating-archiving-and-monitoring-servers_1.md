@@ -25,19 +25,8 @@ Se você deseja as funcionalidades de arquivamento e monitoração durante a mig
 
   - Durante o período em que suas implantações legada e do Lync Server 2013 coexistirem, a versão do Office Communications Server 2007 R2 de Servidor de Arquivamento e Servidor de Monitoração coletará dados para os usuários hospedados em pools do Office Communications Server 2007 R2. A versão do Lync Server 2013 de Servidor de Arquivamento e Servidor de Monitoração coleta dados para os usuários hospedados em pools do Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Durante a fase de migração, quando você ainda está usando seu servidor borda de legado com o novo pool piloto do Lync Server 2013, a versão do Office Communications Server 2007 R2 de Servidor de Arquivamento continua coletando dados para os usuários hospedados em pools do Office Communications Server 2007 R2 e a versão do Lync Server 2013 de Servidor de Arquivamento coleta dados para usuários hospedados em pools do Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Durante a fase de migração, quando você ainda está usando seu servidor borda de legado com o novo pool piloto do Lync Server 2013, a versão do Office Communications Server 2007 R2 de Servidor de Arquivamento continua coletando dados para os usuários hospedados em pools do Office Communications Server 2007 R2 e a versão do Lync Server 2013 de Servidor de Arquivamento coleta dados para usuários hospedados em pools do Lync Server 2013.
 
   - Se você usar uma solução de arquivamento e monitoração de terceiros junto com o Servidor de Arquivamento e o Servidor de Monitoração, converse com o fornecedor sobre quando e como precisa integrar a solução com o Lync Server 2013.
 

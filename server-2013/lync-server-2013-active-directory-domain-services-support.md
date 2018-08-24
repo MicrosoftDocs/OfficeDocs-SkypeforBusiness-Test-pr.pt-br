@@ -69,19 +69,8 @@ O Lync Server 2013 oferece suporte a implantações do Serviços de Domínio Act
 
 O Lync Server não oferece suporte a domínios de rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é compatível, mas um domínio raiz chamado **local** não é compatível. Para obter detalhes, consulte o artigo 300684 da Base de Dados de Conhecimento Microsoft, “Informações sobre como configurar os domínios do Active Directory por meio de nomes DNS de rótulo único”, em <http://go.microsoft.com/fwlink/?linkid=143752>.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server não suporta renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server estiver implantado, você precisará primeiro desinstalar o Lync Server, em seguida renomear o domínio, e por fim reinstalar o Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server não suporta renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server estiver implantado, você precisará primeiro desinstalar o Lync Server, em seguida renomear o domínio, e por fim reinstalar o Lync Server.
 
 ## Ambientes AD DS Bloqueados
 

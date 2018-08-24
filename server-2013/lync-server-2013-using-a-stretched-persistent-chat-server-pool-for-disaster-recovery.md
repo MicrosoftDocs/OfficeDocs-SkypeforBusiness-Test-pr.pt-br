@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Usando o pool estendido de Chat Persistente Chat para recuperação de desastre'
+title: "Lync Server 2013: Usando pool estend. de Chat Persist. p/ recup. de desastre"
 TOCTitle: Usando o pool estendido de Chat Persistente Chat para recuperação de desastre
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205007(v=OCS.15)

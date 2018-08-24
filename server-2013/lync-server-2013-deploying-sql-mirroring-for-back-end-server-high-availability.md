@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End'
+title: "Lync Server 2013: Implant. espelhamento SQL p/ alta dispon. de Serv. Back-End"
 TOCTitle: Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204992(v=OCS.15)
@@ -41,56 +41,21 @@ Com o espelhamento SQL, o modo de recuperação de banco de dados fica sempre de
 
 Com o espelhamento SQL, você pode configurar a topologia do espelhamento no momento da criação dos pools ou após isso.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O uso do Construtor de Topologias ou cmdlets para configurar e remover o espelhamento SQL é suportado somente quando os servidores principal, espelho e testemunha (se desejado) pertencem ao mesmo domínio. Caso deseje configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> O uso do Construtor de Topologias ou cmdlets para configurar e remover o espelhamento SQL é suportado somente quando os servidores principal, espelho e testemunha (se desejado) pertencem ao mesmo domínio. Caso deseje configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.
+
+> [!IMPORTANT]  
+> Sempre que fizer uma alteração em um relacionamento de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.<br />Para uma alteração de espelhamento (como alteração do local de um espelho), use Construtor de Topologias para executar estas três etapas:<ol>
+> <li><p>Remova o espelhamento do servidor espelho antigo.</p></li>
+> 
+> <li><p>Adicione espelhamento ao novo servidor espelho.</p></li>
+> 
+> 
+> <li><p>Publique a topologia.</p></li></ol>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sempre que fizer uma alteração em um relacionamento de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.<br />
-Para uma alteração de espelhamento (como alteração do local de um espelho), use Construtor de Topologias para executar estas três etapas:
-<ol>
-<li><p>Remova o espelhamento do servidor espelho antigo.</p></li>
-<li><p>Adicione espelhamento ao novo servidor espelho.</p></li>
-<li><p>Publique a topologia.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço que o SQL Server e o SQL Agent estão executando precisam de acesso de leitura/gravação. Se o serviço SQL Server estiver executando no Serviço de Rede, você pode adicionar &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ dos Servidores Principal and SQL Espelhos para compartilhar as permissões. O $ é importante para identificar uma conta de computador.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço que o SQL Server e o SQL Agent estão executando precisam de acesso de leitura/gravação. Se o serviço SQL Server estiver executando no Serviço de Rede, você pode adicionar &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ dos Servidores Principal and SQL Espelhos para compartilhar as permissões. O $ é importante para identificar uma conta de computador.
 
 ## Para configurar o espelhamento SQL no momento da criação de um pool no Construtor de Topologias
 

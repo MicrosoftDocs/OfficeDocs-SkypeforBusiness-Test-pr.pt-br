@@ -60,13 +60,8 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="even">
 <td><p>Nível de suporte de criptografia</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> and <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a> cmdlets.</p>
-<p>Os valores permitidos são:</p>
-<ul>
-<li><p>- Obrigatório: Deve se utilizar a criptografia SRTP.</p></li>
-<li><p>- Optional: O SRTP será utilizado se o gateway lhe fornecer apoio.</p></li>
-<li><p>Não suportado: A encriptação de SRTP não é suportada e, portanto, não será usada.</p></li>
-</ul>
+<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</p>
+<p>Os valores permitidos são:</p><ul><li><p>- Obrigatório: Deve se utilizar a criptografia SRTP.</p></li><li><p>- Optional: O SRTP será utilizado se o gateway lhe fornecer apoio.</p></li><li><p>Não suportado: A encriptação de SRTP não é suportada e, portanto, não será usada.</p></li></ul>
 <p>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.</p></td>
 </tr>
 <tr class="odd">
@@ -145,19 +140,8 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</a> cmdlet.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> cmdlet.
 
 ## Modificar as Configurações do Tronco SIP Usando Painel de Controle do Lync Server
 

@@ -29,19 +29,8 @@ Como mínimo, cada topologia exige um servidor com o Lync Server 2013 instalado 
 
 Também é possível implantar o Servidor de Chat Persistente com o Lync Server 2013Standard Edition. Neste caso, o **PersistentChatService**Servidor Front-End é posicionado no Servidor Standard Edition e você pode implantar o **PersistentChatStore**Servidor Back-End na instância do SQL Server Express local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nós não suportamos o Servidor de Chat PersistenteStandard Edition para alta disponibilidade. Desempenho e escala será limitado. Além disso, suportamos apenas novas implantações do Servidor de Chat Persistente  Servidor Standard Edition. Não suportamos uma atualização do Lync Server 2010, Servidor de Chat de Grupo para um Lync Server 2013Servidor de Chat PersistenteStandard Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Nós não suportamos o Servidor de Chat PersistenteStandard Edition para alta disponibilidade. Desempenho e escala será limitado. Além disso, suportamos apenas novas implantações do Servidor de Chat Persistente  Servidor Standard Edition. Não suportamos uma atualização do Lync Server 2010, Servidor de Chat de Grupo para um Lync Server 2013Servidor de Chat PersistenteStandard Edition.
 
 ## Consulte Também
 

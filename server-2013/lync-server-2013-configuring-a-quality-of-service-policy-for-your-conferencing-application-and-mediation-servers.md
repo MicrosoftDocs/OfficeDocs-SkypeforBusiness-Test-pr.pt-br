@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurando uma política de Qualidade de Serviço para seus servidores de Conferência, de Aplicativo e de Mediação'
+title: "Config. uma pol. de Qual. de Serv. p/ seus servid. de confer., de App e de Mediação"
 TOCTitle: Configurando uma política de Qualidade de Serviço para seus servidores de Conferência, de Aplicativo e de Mediação
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205076(v=OCS.15)
@@ -43,19 +43,8 @@ Para criar uma política de Qualidade de Serviço para gerenciar áudio, faça l
 
 10. No cabeçalho **Especifique o número da porta de origem**, selecione **Desta porta ou intervalo de origem**. Na caixa de texto acompanhante, digite o intervalo de porta reservado para transmissões de áudio. Por exemplo, se você reservou as portas de 49152 a 57500 para tráfego de aúdio, insira o intervalo de porta usando esse formato: **49152:57500**. Clique em **Concluir**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O valor DSCP de 46 é de certa forma arbitrário: embora DSCP 46 seja usado com frequência para marcar pacotes de áudio, você não precisa usar o DSCP 46 para comunicação de áudio. Se já tiver implementado QoS e estiver usando um código DSCP diferente para áudio (por exemplo, DSCP 40), então você deverá configurar sua política de Qualidade de Serviço para usar o mesmo código (ou seja, 40 para áudio). Se só agora você estiver implementado a Qualidade de Serviço, recomendamos que você use DSCP 46 para áudio, simplesmente porque este valor é o mais comumente usado para marcar pacotes de áudio.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O valor DSCP de 46 é de certa forma arbitrário: embora DSCP 46 seja usado com frequência para marcar pacotes de áudio, você não precisa usar o DSCP 46 para comunicação de áudio. Se já tiver implementado QoS e estiver usando um código DSCP diferente para áudio (por exemplo, DSCP 40), então você deverá configurar sua política de Qualidade de Serviço para usar o mesmo código (ou seja, 40 para áudio). Se só agora você estiver implementado a Qualidade de Serviço, recomendamos que você use DSCP 46 para áudio, simplesmente porque este valor é o mais comumente usado para marcar pacotes de áudio.
 
 Após criar a política QoS para tráfego de áudio, você deverá criar uma segunda política para tráfego de vídeo (e, opcionalmente, uma terceira para gerenciar tráfego de compartilhamento de aplicativos). Para criar uma política para vídeo, siga o mesmo procedimento básico para criar política de áudio, fazendo essas substituições:
 

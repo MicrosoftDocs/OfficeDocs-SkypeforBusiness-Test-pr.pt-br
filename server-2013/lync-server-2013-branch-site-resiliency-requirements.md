@@ -35,35 +35,13 @@ Se um site de filial não possuir um servidor DNS, existem duas formas alternati
 
 É recomendável criar uma política separada de VoIP (Voice over Internet Protocol) no nível do usuário para usuários em um site de filial. Esta política deve incluir uma rota principal que use o Aparelho de Filial Persistente ou o gateway do servidor de filial e uma ou mais rotas de backup que usem um tronco com um gateway de rede de telefonia comutada pública (PSTN) no site central. Se a rota principal estiver indisponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Desta forma, independentemente de onde o usuário estiver registrado—seja no Registrador Avançado do site de filial ou no pool de registradores de backup no site central—the user’s VoIP policy is always in effect. This is an important consideration for failover scenarios. a política de VoIP do usuário sempre estará em vigor. Esta é uma consideração importante para cenários de failover. Por exemplo, se for necessário renomear o Aparelho de Filial Persistente ou reconfigurar o Aparelho de Filial Persistente para se conectar a um pool de registradores de backup no site central, então você deverá mover os usuários do site de filial para o site central enquanto isso. (Para detalhes sobre como renomear ou reconfigurar um Aparelho de Filial Persistente, consulte [Anexo B: Gerenciando um Aplicativo de Filial Persistente no Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) na documentação de Implantação.) Se estes usuários não possuírem políticas de VoIP ou planos de discagem no nível de usuário, quando forem movidos para outro site, as políticas de VoIP e os planos de discagem de nível de site do site central serão aplicados aos usuários como padrão, em vez das políticas de VoIP e planos de discagem de nível de site do site de filial. Neste cenário, a menos que as políticas de VoIP e planos de discagem de nível de site usados pelo pool de registradores de backup também possam ser aplicadas aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmund, um plano de discagem com regras de normalização que precedam +1425 a todas as chamadas de 7 dígitos provavelmente não traduzirá chamadas de forma apropriada para estes usuários.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de utilização de telefone do PSTN à política do usuário do escritório da filial e atribuir rotas separadas para cada uma. A primeira rota, ou rota principal, direcionaria chamadas para o gateway associado ao Aparelho de Filial Persistente (SBA) ou servidor da filial; a segunda rota, ou rota de backup, direcionaria chamadas para o gateway no site central. Ao direcionar chamadas, o SBA ou servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso do PSTN antes de tentar o segundo registro de uso.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de utilização de telefone do PSTN à política do usuário do escritório da filial e atribuir rotas separadas para cada uma. A primeira rota, ou rota principal, direcionaria chamadas para o gateway associado ao Aparelho de Filial Persistente (SBA) ou servidor da filial; a segunda rota, ou rota de backup, direcionaria chamadas para o gateway no site central. Ao direcionar chamadas, o SBA ou servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso do PSTN antes de tentar o segundo registro de uso.
 
 Para ajudar a garantir que chamadas de entrada para usuários do site da filial cheguem a eles quando o gateway da filial ou o componente Windows do site do Aparelho de Filial Persistente estiver indisponível (que aconteceria, por exemplo, se o Aparelho de Filial Persistente ou o gateway da filial estivesse fora do ar para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de Número Fixo Virtual - DID) para redirecionar chamadas de entrada para o pool de registradores de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Garanta que a rota traduza os números para estar de acordo com o gateway PSTN ou outros formatos de número de telefone aceitos pelo ponto do tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configurando uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se houver dois Aparelho de Filial Persistente em um site de filial, você pode criar um plano de discagem de nível de site para ambos, a menos que um plano de nível de serviço separado para cada um seja necessário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para suportar o consumo dos recursos do site central pelos usuários de qualquer site de filial que se apoiem no site central para presença, conferência ou failover, é recomendável considerar cada usuário de site de filial como se estivesse registrado no site central. Atualmente não existem limites para o número de usuários de site de filial, incluindo usuários registrados em um Aparelho de Filial Persistente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para suportar o consumo dos recursos do site central pelos usuários de qualquer site de filial que se apoiem no site central para presença, conferência ou failover, é recomendável considerar cada usuário de site de filial como se estivesse registrado no site central. Atualmente não existem limites para o número de usuários de site de filial, incluindo usuários registrados em um Aparelho de Filial Persistente.
 
 Também é recomendável criar um plano de discagem de nível de usuário e uma política de voz e atribuí-los a usuários do site de filial. Para detalhes, consulte [Criar um plano de discagem no Lync Server 2013](lync-server-2013-create-a-dial-plan.md) e [Criar a política de roteamento VoIP para usuários de filiais no Lync Server 2013](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md) na documentação de Implantação.
 
@@ -203,19 +181,8 @@ O hardware e software necessários são incorporados ao Aparelho de Filial Persi
 
 Se os servidores DNS da empresa estiverem localizados apenas em sites centrais, usuários do site de filial não conseguirão se conectar a eles durante uma interrupção da WAN e, portanto, a descoberta do Lync Server que usa o servidor DNS SRV (registro de recurso de serviço) falhará. Para garantir o re-roteamento imediato durante uma interrupção da WAN, registros DNS devem ser armazenados em cache no site da filial. Se o roteador da filial for compatível, ative o cache do DNS. Ou você pode implantar um servidor DNS na filial. Pode ser um servidor autônomo ou uma versão do Aparelho de Filial Persistenteque seja compatível com as funcionalidades do DNS. Para detalhes, entre em contato com seu provedor do Aparelho de Filial Persistente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não é necessário ter um controlador de domínio no site da filial. O Aparelho de Filial Persistente autentica clientes usando um certificado especial que envia ao cliente em resposta à solicitação de certificado do cliente ao entrar.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Não é necessário ter um controlador de domínio no site da filial. O Aparelho de Filial Persistente autentica clientes usando um certificado especial que envia ao cliente em resposta à solicitação de certificado do cliente ao entrar.
 
 Clientes do Lync podem descobrir o Lync Server usando a Opção 120 do DHCP (Opção Registrador SIP). Ela pode ser configurada em uma de duas formas:
 

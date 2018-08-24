@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware'
+title: "Res. de cert. - pool Certificate sum. - pool de direts esc, balanc. de c de hardware"
 TOCTitle: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204846(v=OCS.15)
@@ -53,21 +53,11 @@ Os requisitos de certificado para um Diretor com balanceador de carga de hardwar
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Nenhuma entrada</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div>
+> [!IMPORTANT]  
+> Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.
+
 <p>O certificado OAuthTokenIssuer é um certificado para o fim único de autenticar servidores em um ambiente de grande escala e pode ser solicitado de um CA interno ou público. O certificado é exigido.</p></td>
 </tr>
 </tbody>

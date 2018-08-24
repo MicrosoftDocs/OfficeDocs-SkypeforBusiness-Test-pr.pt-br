@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Normalização de controle de chamada remota e de número de telefone'
+title: "Lync Server 2013: Normaliz. de cont. de ch. remota e de número de telefone"
 TOCTitle: Normalização de controle de chamada remota e de número de telefone
 ms:assetid: 291d9e87-4c65-4ea2-888f-517741391de5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558630(v=OCS.15)

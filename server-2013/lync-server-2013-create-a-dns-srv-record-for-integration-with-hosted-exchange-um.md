@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar um registro DNS SRV para integração com Exchange UM hospedado'
+title: "Lync Server 2013: Criar um registro DNS SRV p/ integr. com Exchange UM hospedado"
 TOCTitle: Criar um registro DNS SRV para integração com Exchange UM hospedado
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh500728(v=OCS.15)
@@ -25,19 +25,8 @@ Este tópico descreve como configurar o registro SRV do Sistema de Nome de Domí
 
 3.  Na árvore do console para o seu domínio SIP, expanda **Zonas de Pesquisa Direta** e selecione o domínio SIP em que o Lync Server 2013 será instalado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você deve criar o registro SRV de DNS no domínio SIP em que o Lync Server está ou será instalado. Ao criar o registro SRV, o FQDN usado para o Host que está oferecendo este campo de serviço deve ser o FQDN externo do pool de Borda. Por exemplo, se o FQDN externo do seu pool de Borda for edge01.contoso.net, insira este valor. Este também deve ser o mesmo domínio do registro (A) dos Hosts DNS.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Você deve criar o registro SRV de DNS no domínio SIP em que o Lync Server está ou será instalado. Ao criar o registro SRV, o FQDN usado para o Host que está oferecendo este campo de serviço deve ser o FQDN externo do pool de Borda. Por exemplo, se o FQDN externo do seu pool de Borda for edge01.contoso.net, insira este valor. Este também deve ser o mesmo domínio do registro (A) dos Hosts DNS.
 
 4.  Clique com o botão direito no domínio selecionado e clique em **Outros Registros Novos**.
 
@@ -51,19 +40,8 @@ Este tópico descreve como configurar o registro SRV do Sistema de Nome de Domí
 
 9.  Clique em **Host que oferece este serviço** e digite o nome de domínio totalmente qualificado (FQDN) do Lync Server 2013  Pool de borda que fornece acesso ao seu sistema do Lync Server 2013 para clientes externos confiáveis.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O domínio também deve ser configurado como domínio autoritativo, aceito em suas configurações do Exchange Online. Para obter detalhes, consulte Criar domínios aceitos em <a href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O domínio também deve ser configurado como domínio autoritativo, aceito em suas configurações do Exchange Online. Para obter detalhes, consulte Criar domínios aceitos em <a href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</a>.
 
 10. Clique em **OK** e em **Concluído**.
 

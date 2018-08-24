@@ -21,19 +21,8 @@ Obviamente não é possível garantir que você nunca encontrará problemas no L
 
 De maneira semelhante, os administradores pode usar o System Center Operations Manager para ações como alertas em tempo real quando eventos especificados ocorrerem e executar transações sintéticas que testam proativamente o sistema. As transações sintéticas são usadas no Lync Server para se certificar de que os usuários sejam capazes de concluir tarefas comuns com sucesso, como fazer logon no sistema, trocar mensagens instantâneas ou realizar chamadas para um telefone localizado na rede telefônica pública comutada (PSTN). Por exemplo, a execução periódica desses testes pode alertar você sobre problemas potenciais com usuários que se conectam ao Lync Server, além de proporcionar a oportunidade de corrigir o problema antes que a sua equipe de suporte receba muitas chamadas de usuários que não conseguem se conectar. Ao usar o System Center Operations Manager para executar essas transações sintéticas, os administradores podem monitorar rotineiramente a implantação do Lync Server continuamente por 24 horas todos os dias sem necessidade de mais ações além de responder alertas que podem ser alertas that podem ser emitidos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para o Lync Server 2013, o Pacote de gerenciamento do System Center Operations Manager também pode detectar problemas &quot;externos&quot; que pode afetar adversamente o Lync Server. Por exemplo, os administradores podem ser notificados se o IIS (Serviços de Informações da Internet) ficar offline, se os recursos do sistema em um computador do Lync Server ficarem abaixo da quantidade estimada ou se um computador do Lync Server sofrer uma falha de hardware.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para o Lync Server 2013, o Pacote de gerenciamento do System Center Operations Manager também pode detectar problemas &quot;externos&quot; que pode afetar adversamente o Lync Server. Por exemplo, os administradores podem ser notificados se o IIS (Serviços de Informações da Internet) ficar offline, se os recursos do sistema em um computador do Lync Server ficarem abaixo da quantidade estimada ou se um computador do Lync Server sofrer uma falha de hardware.
 
 A configuração de integridade no Lync Server 2013 foi criada ao redor do System Center Operations Manager e do uso dos Pacotes de gerenciamento do Lync Server. Esses Pacotes de gerenciamento incluem um número de novos recursos e aprimoramentos, incluindo:
 

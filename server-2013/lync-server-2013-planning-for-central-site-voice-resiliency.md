@@ -45,19 +45,8 @@ As seguintes etapas descrevem o processo de descoberta e o registro de cliente:
 
 1.  Um cliente descobre o Lync Server por meio de registros SRV do DNS. No Lync Server 2013, os registros SRV do DNS podem ser configurados para retornar mais de um FQDN para a consulta SRV do DNS. Por exemplo, se a empresa Contoso possui três sites centrais (América do Norte, Europa e Ásia-Pacífico) e um pool de Diretores em cada site central, os registros SRV do DNS podem apontar para os FQDNs do pool de Diretores em cada um dos três locais. Como o pool de Diretores em um dos locais está disponível, o cliente pode se conectar ao primeiro salto do Lync Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Usar um Pool de diretores é opcional. Um Pool de Front-Ends pode ser usado em vez disso.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Usar um Pool de diretores é opcional. Um Pool de Front-Ends pode ser usado em vez disso.
 
 2.  O Pool de diretores informa o cliente do Lync sobre o pool de registradores primário e o pool de registradores de backup.
 

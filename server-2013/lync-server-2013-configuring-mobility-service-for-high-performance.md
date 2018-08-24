@@ -31,19 +31,8 @@ Se você usar o IIS 7.0, recomendamos a instalação da atualização disponíve
 
 O procedimento a seguir descreve como alterar a solicitação simultânea do ASP.NET e limite máximo de segmento no IIS 7.0 se você não instalar a atualização disponível no artigo 2290617 da Base de Conhecimento. No entanto, mesmo se você instalar o artigo 2290617, deverá usar a documentação fornecida pelo artigo para aplicar as mesmas alterações somente para os pools de aplicativo ISS internos e externos de Mobilidade. Nesse caso, use um arquivo de configuração separado para as configurações ASP.NET.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você usar o procedimento a seguir para alterar os limites máximos, as alterações afetarão todos os pools de aplicativo IIS.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se você usar o procedimento a seguir para alterar os limites máximos, as alterações afetarão todos os pools de aplicativo IIS.
 
 Para obter detalhes sobre como definir essas configurações, consulte [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x416).
 

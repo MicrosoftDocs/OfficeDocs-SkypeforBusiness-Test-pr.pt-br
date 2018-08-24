@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença'
+title: "Topologias e componentes p/ Serv. Front-End, serviço de m. instantâneas e presença"
 TOCTitle: Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412996(v=OCS.15)
@@ -106,21 +106,10 @@ A primeira vez que você iniciar um novo Pool de Front-Ends, é essencial que 85
 </table>
 
 
-Cada vez subsequente que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme exibido na tabela anterior). Caso não seja possível iniciar esse número de servidores (mas servidores suficientes podem ser iniciados para que não haja perda de quórum no nível do pool), é possível usar o cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** para permitir que o pool se recupere dessa perda de quórum no nível do grupo de roteamento e faça progresso. Para obter mais informações sobre como usar este cmdlet, consulte [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md).
+Cada vez subsequente que o pool for iniciado, 85% dos servidores devem ser iniciados (conforme exibido na tabela anterior). Caso não seja possível iniciar esse número de servidores (mas servidores suficientes podem ser iniciados para que não haja perda de quórum no nível do pool), é possível usar o cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** para permitir que o pool se recupere dessa perda de quórum no nível do grupo de roteamento e faça progresso. Para obter mais informações sobre como usar este cmdlet, consulte [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como o Lync Server usa o banco de dados SQL primário como testemunha, se você desligar o banco de dados primário, alternar para a cópia Espelho e desligarServidores Front-End suficientes para que um número insuficiente esteja em operação de acordo com a tabela anterior, todo o pool será desligado. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?linkid=393672">Testemunha de espelhamento de banco de dados</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Como o Lync Server usa o banco de dados SQL primário como testemunha, se você desligar o banco de dados primário, alternar para a cópia Espelho e desligarServidores Front-End suficientes para que um número insuficiente esteja em operação de acordo com a tabela anterior, todo o pool será desligado. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?linkid=393672">Testemunha de espelhamento de banco de dados</a>.
 
 ## Perda de quórum no nível do pool
 
@@ -201,7 +190,7 @@ Quando há a necessidade de atualizar ou corrrigir os servidores em um Pool de F
 
   - Não prossiga para o próximo domínio de atualização se qualquer um dos servidores no último domínio de atualização corrigido estiver parado ou não foi reiniciado. Isso também se aplica a qualquer servidor na atualização que não possa ser iniciado. Execute **Get-CsPoolFabricState** para se certificar de que todos os grupos de roteamento tenham um primário e pelo menos um secundário. Isso confirmará se todos os usuários têm serviço.
 
-  - Se alguns usuários tiverem serviço e outros não, execute **Get-CsPoolFabricState** com a opção –Verbose para verificar grupos de roteamento que tenham réplicas ausentes. Não reinicie todo o pool como a primeira etapa de solução de problemas. Para obter mais informações sobre este cmdlet, consulte [Get-CsPoolFabricState](get-cspoolfabricstate.md).
+  - Se alguns usuários tiverem serviço e outros não, execute **Get-CsPoolFabricState** com a opção –Verbose para verificar grupos de roteamento que tenham réplicas ausentes. Não reinicie todo o pool como a primeira etapa de solução de problemas. Para obter mais informações sobre este cmdlet, consulte [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Certifique-se de que todas as instâncias de janelas do Visualizador de Eventos ou Monitor de Desempenho estejam fechadas para instalações/desinstalações do Windows Fabric.
 

@@ -35,16 +35,5 @@ O atendedor automático é um recurso do UM do Exchange que pode ser usado para 
 
 UM do Exchange inclui recursos de fax, que permitem aos usuários receber fax de entrada em suas Caixas de Correio do Exchange. Para obter detalhes, consulte "Unificação de Mensagens" na documentação do Microsoft Exchange Server em [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis em implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o pacote de serviços mais recente, ou Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis em implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o pacote de serviços mais recente, ou Exchange 2013.

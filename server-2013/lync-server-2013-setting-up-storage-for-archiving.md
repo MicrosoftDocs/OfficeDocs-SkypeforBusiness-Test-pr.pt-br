@@ -43,19 +43,8 @@ Cada servidor de banco de dados deve ser executado em uma versão suportada do S
 
 Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter mais informações sobre o SQL Server, consulte o SQL Server TechCenter em [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x416).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Certifique-se de que o Tipo de inicialização do Serviço SQL Server Agent é Automático e que o Serviço SQL Server Agent está executando a Instância SQL que mantém o Banco de dados de arquivamento, para que o Trabalho de Manutenção Padrão do SQL Server de Arquivamento seja executado de forma agendada sob controle do Serviço SQL Server Agent.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Certifique-se de que o Tipo de inicialização do Serviço SQL Server Agent é Automático e que o Serviço SQL Server Agent está executando a Instância SQL que mantém o Banco de dados de arquivamento, para que o Trabalho de Manutenção Padrão do SQL Server de Arquivamento seja executado de forma agendada sob controle do Serviço SQL Server Agent.
 
 ## Configurando o armazenamento de arquivos
 

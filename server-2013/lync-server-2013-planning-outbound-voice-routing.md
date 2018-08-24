@@ -59,17 +59,13 @@ O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gatewa
 
 Esta seção fornece diretrizes para definir as seguintes configurações do servidor de roteamento de chamadas de saída
 
-  -   
-    [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+   [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [Políticas de voz no Lync Server 2013](lync-server-2013-voice-policies.md)
+   [Políticas de voz no Lync Server 2013](lync-server-2013-voice-policies.md)
 
-  -   
-    [Registros de uso de PSTN no Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+   [Registros de uso de PSTN no Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [Rotas de voz no Lync Server 2013](lync-server-2013-voice-routes.md)
+   [Rotas de voz no Lync Server 2013](lync-server-2013-voice-routes.md)
 
 ## Consulte Também
 

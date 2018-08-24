@@ -45,19 +45,8 @@ Os cenários de integração de PBX com o Enterprise Voice aceitos são:
 
   - Conexão PBX TDM, com um gateway PSTN autônomo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O desvio de mídia é compatível somente com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. O desvio de mídia é compatível somente com produtos e versões listados no Programa de Interoperabilidade Aberta de Comunicações Unificadas – Lync Server em <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
 
 Para obter detalhes sobre parceiros que oferecem soluções do Enterprise Voice, consulte o site dos Parceiros de Comunicações Unificadas Microsoft em [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
 

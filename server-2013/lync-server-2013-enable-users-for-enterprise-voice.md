@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-11-01_
 
 Após instalar arquivos em um ou mais Servidores de Mediação, configurar o roteamento de chamadas de saída e, opcionalmente, implantar um ou mais recursos avançados do Enterprise Voice, use os seguintes procedimentos para permitir um usuário realizar chamadas usando o Enterprise Voice:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dos seguintes procedimentos, apenas o primeiro pode ser realizado usando o Painel de Controle do Lync Server. Para os procedimentos restantes, é possível usar apenas o Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dos seguintes procedimentos, apenas o primeiro pode ser realizado usando o Painel de Controle do Lync Server. Para os procedimentos restantes, é possível usar apenas o Shell de Gerenciamento do Lync Server.
 
   - Habilitar a conta do usuário para o Enterprise Voice.
 

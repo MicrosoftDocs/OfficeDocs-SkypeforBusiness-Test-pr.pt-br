@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Habilitar ou desabilitar federação e conectividade de IM pública'
+title: "Lync Server 2013: Habilitar ou desabilitar federação e conectiv. de IM públ."
 TOCTitle: Habilitar ou desabilitar federação e conectividade de IM pública
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182549(v=OCS.15)
@@ -25,19 +25,8 @@ Para suportar o acesso pelos usuários dos domínios federados, é necessário h
 
 Se posteriormente você quiser impedir o acesso dos domínios federados pelos usuários, de forma permantente ou temporária, você poderá desabilitar a federação para sua organização. Use o procedimento nesta seção para habilitar ou desabilitar o acesso do usuário federado para sua organização, incluindo a especificação das opções de federação apropriadas a serem suportadas para sua organização.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A habilitação da federação para sua organização especifica apenas que seus servidores que executam o serviço Borda de Acesso suportam o roteamento para domínios federados. Usuários em domínios federados não podem participar de IM ou conferências em sua organização, até que você também configure pelo menos uma política para suportar o acesso do usuário federado. Usuários de provedores de serviço de IM pública não podem participar de IM ou conferências em sua organização, até que você também configure pelo menos uma política para suportar a conectividade de IM pública. O Lync Server não pode usar um serviço do Exchange hospedado para fornecer atendimento de chamada, Outlook Voice Access (incluindo correio de voz) ou serviços de atendedor automático para usuários cujas caixas de correio estão localizadas em um serviço do Exchange hospedado até que você configure uma política de correio de voz hospedada que forneça informações de roteamento. Para obter detalhes sobre como configurar as políticas para comunicação com usuários de domínios federados em outras organizações, consulte <a href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Gerenciar domínios SIP federados para sua organização no Lync Server 2013</a> na documentação de Operações. Além disso, se você quiser suportar a comunicação com usuários de provedores de serviço de IM, é necessário configurar as políticas para suportá-la e também configurar o suporte para provedores de serviço individuais que você deseja suportar. Para obter detalhes, consulte <a href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013</a> na documentação Implantação ou na documentação Operações. Para obter detalhes sobre como criar uma política de correio de voz hospedada, consulte <a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Gerenciar políticas de caixa postal hospedada no Lync Server 2013</a> na documentação Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A habilitação da federação para sua organização especifica apenas que seus servidores que executam o serviço Borda de Acesso suportam o roteamento para domínios federados. Usuários em domínios federados não podem participar de IM ou conferências em sua organização, até que você também configure pelo menos uma política para suportar o acesso do usuário federado. Usuários de provedores de serviço de IM pública não podem participar de IM ou conferências em sua organização, até que você também configure pelo menos uma política para suportar a conectividade de IM pública. O Lync Server não pode usar um serviço do Exchange hospedado para fornecer atendimento de chamada, Outlook Voice Access (incluindo correio de voz) ou serviços de atendedor automático para usuários cujas caixas de correio estão localizadas em um serviço do Exchange hospedado até que você configure uma política de correio de voz hospedada que forneça informações de roteamento. Para obter detalhes sobre como configurar as políticas para comunicação com usuários de domínios federados em outras organizações, consulte <a href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Gerenciar domínios SIP federados para sua organização no Lync Server 2013</a> na documentação de Operações. Além disso, se você quiser suportar a comunicação com usuários de provedores de serviço de IM, é necessário configurar as políticas para suportá-la e também configurar o suporte para provedores de serviço individuais que você deseja suportar. Para obter detalhes, consulte <a href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013</a> na documentação Implantação ou na documentação Operações. Para obter detalhes sobre como criar uma política de correio de voz hospedada, consulte <a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Gerenciar políticas de caixa postal hospedada no Lync Server 2013</a> na documentação Implantação.
 
 ## Para habilitar ou desabilitar o acesso do usuário federado para sua organização
 

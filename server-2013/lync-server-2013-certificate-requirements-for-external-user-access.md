@@ -23,60 +23,27 @@ Veja a seguir os requisitos para o certificado público usado para interfaces ex
 
   - Se o certificado for usado em um pool de Borda, ele deverá ser criado como exportável, com o mesmo certificado usado em cada Servidor de Borda no pool de Borda. O requisito de chave privada exportável serve para o serviço de Autenticação A/V, que precisa usar a mesma chave privada em todos os Servidores de Borda no pool.
 
-  - Se você deseja maximizar o tempo para seus serviços de Áudio/Vídeo, revise os requisitos de certificado para implementar um certificado do Serviço de Borda A/V não acoplado (isto é, um certificado do Serviço de Borda A/V separado de outros fins de certificado da Borda Externa). Para obter detalhes, consulte [Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planejar certificados do Servidor de Borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) e [Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md).
+  - Se você deseja maximizar o tempo para seus serviços de Áudio/Vídeo, revise os requisitos de certificado para implementar um certificado do Serviço de Borda A/V não acoplado (isto é, um certificado do Serviço de Borda A/V separado de outros fins de certificado da Borda Externa). Para obter detalhes, consulte [Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planejar certificados do Servidor de Borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) e [Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
 
   - O nome do assunto do certificado é o FQDN da interface externa do Serviço de Borda de Acesso ou o VIP do balanceador de carga de hardware (por exemplo, access.contoso.com).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para o Lync Server 2013, isso não é mais um requisito, mas ainda é recomendado para compatibilidade com o Office Communications Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para o Lync Server 2013, isso não é mais um requisito, mas ainda é recomendado para compatibilidade com o Office Communications Server.
 
   - A lista de nomes de entidade alternativos contém os FQDNs do seguinte:
     
       - A interface externa do Serviço de Borda de Acesso ou o VIP do balanceador de carga de hardware (por exemplo, sip.contoso.com).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Embora o nome de entidade do certificado seja igual ao FQDN da Borda de acesso, o nome de entidade alternativo também precisa conter o FQDN da Borda de acesso, pois a TLS ignora o nome de entidade e usa as entradas de nome de entidade alternativo para validação.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Embora o nome de entidade do certificado seja igual ao FQDN da Borda de acesso, o nome de entidade alternativo também precisa conter o FQDN da Borda de acesso, pois a TLS ignora o nome de entidade e usa as entradas de nome de entidade alternativo para validação.    
       - Da interface externa da Borda de webconferência ou VIP do balanceador de carga de hardware (por exemplo, webcon.contoso.com).
     
       - Se você estiver usando a configuração ou federação automática de cliente, inclua também quaisquer FQDNs de domínio de SIP usados em sua empresa (por exemplo, sip.contoso.com, sip.fabrikam.com).
     
       - O Serviço de Borda A/V não usa o nome do assunto ou as entradas de nomes alternativos do assunto.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A ordem dos FQDNs na lista de nomes de entidade alternativos não importa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A ordem dos FQDNs na lista de nomes de entidade alternativos não importa.
 
 Se você estiver implantando múltiplos Servidores de Borda com carga balanceada em um site, o certificado do serviço de autenticação A/V instalado em cada Servidor de Borda deverá ser da mesma CA e deverá usar a mesma chave privada. Observe que a chave privada do certificado precisa ser exportável, independentemente se for usada em um Servidor de Borda ou em muitos Servidores de Borda. Também deve ser exportável se você solicitar o certificado de qualquer computador além do Servidor de Borda. Como o serviço de autenticação A/V não usa o nome de entidade ou o nome alternativo de entidade, é possível reutilizar o certificado de Borda de acesso contanto que os requisitos de nome de entidade e de nome de entidade alternativo sejam atendidos para a Borda de acesso e para a Borda de webconferência e a chave privada do certificado seja exportável.
 

@@ -19,20 +19,8 @@ Para configurar seu firewall para as portas e os protocolos necessários a fim d
 
 O Windows Live Messenger pode participar de comunicações por áudio/vídeo com clientes do Lync. Isso permite que cada configuração de protocolo e porta de firewall geralmente presentes no firewall ofereça suporte aos clientes do Lync como usuários externos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mais do que nunca, o Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não exige licenças adicionais de usuário ou dispositivo além da CAL (licença de acesso para cliente) padrão do Lync. A federação com o Skype será adicionada a essa lista, permitindo que os usuários do Lync alcancem centenas de milhões de pessoas por meio de IM (mensagens instantâneas) e voz.<br />
-A federação com os contatos do cliente do Messenger terminará oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de federação dos usuários federados que usavam o Messenger anteriormente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Mais do que nunca, o Lync é uma ferramenta poderosa de conexão entre organizações e pessoas de todo o mundo. A federação com o Windows Live Messenger não exige licenças adicionais de usuário ou dispositivo além da CAL (licença de acesso para cliente) padrão do Lync. A federação com o Skype será adicionada a essa lista, permitindo que os usuários do Lync alcancem centenas de milhões de pessoas por meio de IM (mensagens instantâneas) e voz.<br />A federação com os contatos do cliente do Messenger terminará oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de federação dos usuários federados que usavam o Messenger anteriormente.
 
 ## Resumo do firewall – Conectividade pública de mensagens instantâneas
 

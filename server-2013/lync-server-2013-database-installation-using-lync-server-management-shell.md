@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server'
+title: "Lync Server 2013: Instal. banco de dados usando Shell de Gerenc. do Lync Server"
 TOCTitle: Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398832(v=OCS.15)
@@ -17,24 +17,13 @@ _**Tópico modificado em:** 2016-12-08_
 
 A separação de funções e responsabilidades entre administradores de servidor e administradores do SQL Server pode resultar em atrasos na implementação. O Lync Server 2013 usa o RBAC (controle de acesso baseado em função) para reduzir essas dificuldades. Em algumas instâncias, o administrador do SQL Server deverá gerenciar a instalação de bancos de dados no servidor baseado em SQL Server fora do RBAC. O Shell de Gerenciamento do Lync Server 2013 oferece uma maneira para que o administrador do SQL Server execute cmdlets do Windows PowerShell projetados para configurar os bancos de dados com os dados e os arquivos de log corretos. Para obter detalhes, consulte [Permissões de implantação para Servidor SQL no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O procedimento a seguir assume que como mínimo, o Lync Server 2013 OCSCore.msi, Objetos de Gerenciamento do SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012, Tipos CLR para Microsoft SQL Server 2012 e Microsoft SQL Server 2012 ADOMD.NET estão instalados. O OCSCore.msi está localizado na mídia de instalação no diretório \Setup\AMD64\Setup. Os componentes restantes estão localizados em \Setup\amd64. Além disso, a preparação do Active Directory para o Lync Server 2013 foi concluída com sucesso.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O procedimento a seguir assume que como mínimo, o Lync Server 2013 OCSCore.msi, Objetos de Gerenciamento do SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012, Tipos CLR para Microsoft SQL Server 2012 e Microsoft SQL Server 2012 ADOMD.NET estão instalados. O OCSCore.msi está localizado na mídia de instalação no diretório \Setup\AMD64\Setup. Os componentes restantes estão localizados em \Setup\amd64. Além disso, a preparação do Active Directory para o Lync Server 2013 foi concluída com sucesso.
 
 **Install-CsDatabase** é o cmdlet do Windows PowerShell usado para instalar os bancos de dados. O cmdlet **Install-CsDatabase** tem muitos parâmetros, somente alguns deles são discutidos aqui. Para obter detalhes sobre os possíveis parâmetros, consulte a documentação do Shell de Gerenciamento do Lync Server 2013.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Para evitar possíveis problemas de tempo limite e de desempenho, sempre use os FQDNs (nomes de domínio totalmente qualificados) ao se referir aos servidores baseados no SQL Server. Evite usar referências somente ao nome do host. Por exemplo, use sqlbe01.contoso.net, mas evite usar SQLBE01.
 
 
@@ -57,15 +46,17 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 
 3.  Use o cmdlet **Install-CsDatabase** para instalar o Repositório de Gerenciamento Central.
     
+```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    
+```    
 
-    > [!TIP]
-    > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
+> [!TIP]  
+> O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 
 
@@ -83,33 +74,26 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 
 2.  Em qualquer computador, faça o login com credenciais administrativas para criar os bancos de dados no servidor baseado em SQL Server. Consulte o tópico, [Permissões de implantação para Servidor SQL no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também seja membro do grupo sysadmins (ou equivalente) no servidor que está executando o SQL Server e mantenha a função Servidor de Gerenciamento Central. Isso é especialmente importante para verificar a existência de quaisquer pools do Lync Server 2013 adicionais que exigem a instalação ou configuração do banco de dados do SQL Server. Por exemplo, se você está implantando um segundo pool (pool02), mas a função Servidor de Gerenciamento Central é mantida por pool01. O grupo sysadmin do SQL Server (ou equivalente) precisa ter permissões em ambos os bancos de dados baseados no SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também seja membro do grupo sysadmins (ou equivalente) no servidor que está executando o SQL Server e mantenha a função Servidor de Gerenciamento Central. Isso é especialmente importante para verificar a existência de quaisquer pools do Lync Server 2013 adicionais que exigem a instalação ou configuração do banco de dados do SQL Server. Por exemplo, se você está implantando um segundo pool (pool02), mas a função Servidor de Gerenciamento Central é mantida por pool01. O grupo sysadmin do SQL Server (ou equivalente) precisa ter permissões em ambos os bancos de dados baseados no SQL Server.
 
 3.  Abra o Shell de Gerenciamento do Lync Server 2013, caso ainda não esteja aberto.
 
 4.  Use o cmdlet **Install-CsDatabase** para instalar os bancos de dados configurados por Construtor de Topologias.
     
+```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
     
+```
 
-    > [!TIP]
-    > O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
+
+> [!TIP]  
+> O parâmetro Report é opcional, mas é útil se você estiver documentando o processo de instalação.
 
 
 
@@ -121,19 +105,8 @@ Para instalar bancos de dados, o **Install-CsDatabase** usa os três métodos pr
 
 2.  Em qualquer computador, faça o login com credenciais administrativas para criar os bancos de dados no servidor baseado em SQL Server. Consulte o tópico, [Permissões de implantação para Servidor SQL no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também seja membro do grupo sysadmins (ou equivalente) no servidor que está executando o SQL Server e mantenha a função Servidor de Gerenciamento Central. Isso é especialmente importante para verificar a existência de quaisquer pools do Lync Server adicionais que exigem a instalação ou configuração do banco de dados do SQL Server. Por exemplo, se você está implantando um segundo pool (pool02), mas a função Servidor de Gerenciamento Central é mantida por pool01. O grupo sysadmin do SQL Server (ou equivalente) precisa ter permissões em ambos os bancos de dados baseados no SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também seja membro do grupo sysadmins (ou equivalente) no servidor que está executando o SQL Server e mantenha a função Servidor de Gerenciamento Central. Isso é especialmente importante para verificar a existência de quaisquer pools do Lync Server adicionais que exigem a instalação ou configuração do banco de dados do SQL Server. Por exemplo, se você está implantando um segundo pool (pool02), mas a função Servidor de Gerenciamento Central é mantida por pool01. O grupo sysadmin do SQL Server (ou equivalente) precisa ter permissões em ambos os bancos de dados baseados no SQL Server.
 
 3.  Abra o Shell de Gerenciamento do Lync Server, caso ainda não esteja aberto.
 

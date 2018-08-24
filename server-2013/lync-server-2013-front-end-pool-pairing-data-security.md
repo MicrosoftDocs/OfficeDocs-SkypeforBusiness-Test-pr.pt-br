@@ -36,7 +36,7 @@ Outra solução possível é usar o IPSec apenas para ajudar a proteger os dados
   - O Serviço SMB (TCP/445) de cada Servidor Front-End no Pool B para o Repositório de Arquivos usado pelo Pool A.
 
 
-> [!WARNING]
+> [!WARNING]  
 > IPsec não deve ser usado para substituir a segurança a nível de aplicativos, como SSL/TLS. Uma vantagem de usar o IPsec é que ele pode fornecer segurança ao tráfego da rede dos aplicativos existentes sem ter que alterá-los. As empresas que desejam proteger o transporte entre os dois data centers devem consultar seus respectivos fornecedores de hardware de rede em relação à maneira de configurar conexões WAN seguras usando o equipamento do fornecedor.
 
 

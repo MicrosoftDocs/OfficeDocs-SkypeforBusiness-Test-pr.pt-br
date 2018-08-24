@@ -19,19 +19,8 @@ Você deve especificar as opções de Arquivamento que serão aplicadas a pools 
 
 Para obter detalhes sobre como as configurações de Arquivamento funcionam, incluindo a hierarquia de configurações globais, de site e de pool, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, Implantação ou Operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de habilitá-lo. Para obter detalhes, consulte <a href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento</a> na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de habilitá-lo. Para obter detalhes, consulte <a href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento</a> na documentação de Implantação.
 
 ## Configurar opções de arquivamento no nível do pool
 

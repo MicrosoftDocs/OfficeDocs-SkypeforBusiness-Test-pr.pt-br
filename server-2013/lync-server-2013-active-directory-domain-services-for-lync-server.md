@@ -39,19 +39,8 @@ Para obter mais detalhes, consulte [Requisitos de infraestrutura do Active Direc
 
 ## Preparação do Serviços de Domínio Active Directory
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que implemente suas configurações globais de implantação ao Contêiner de configuração em vez do contêiner do Sistema. Isso não aumenta a segurança, mas pode resultar em melhorias de escalabilidade para algumas topologias Serviços de Domínio Active Directory. Se estiver migrando do Microsoft Office Communications Server 2007 e utilizou o contêiner do Sistema, mas planeja utilizar o Contêiner de configuração, você DEVE mover as configurações no Contêiner do sistema ANTES de realizar qualquer preparativo de atualização. Para migrar suas configurações de contêiner de Sistema para o contêiner de configuração, consulte a Ferramenta de migração de configurações globais do Office Communications Server 2007 em <a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Recomendamos que implemente suas configurações globais de implantação ao Contêiner de configuração em vez do contêiner do Sistema. Isso não aumenta a segurança, mas pode resultar em melhorias de escalabilidade para algumas topologias Serviços de Domínio Active Directory. Se estiver migrando do Microsoft Office Communications Server 2007 e utilizou o contêiner do Sistema, mas planeja utilizar o Contêiner de configuração, você DEVE mover as configurações no Contêiner do sistema ANTES de realizar qualquer preparativo de atualização. Para migrar suas configurações de contêiner de Sistema para o contêiner de configuração, consulte a Ferramenta de migração de configurações globais do Office Communications Server 2007 em <a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>.
 
 Ao implantar Lync Server 2013, o primeiro passo é preparar o Serviços de Domínio Active Directory. A preparação do Serviços de Domínio Active Directory para Lync Server 2013 consiste nas seguintes etapas:
 
@@ -75,19 +64,8 @@ Durante a preparação da floresta, o Lync Server 2013 cria vários grupos unive
 
 Para obter detalhes sobre os grupos universais específicos criados ao preparar o AD para o Lync Server, bem como os grupos de serviços e administração adicionados aos grupos de infraestrutura, consulte [Alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) na Documentação de implantação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 oferece suporte aos grupos universais no Windows Server 2012 para servidores que executam o Lync Server 2013, bem como nos sistemas operacionais do Windows Server 2003 para controladores de domínio. Os membros dos grupos universais podem incluir outros grupos e contas de qualquer domínio na árvore ou floresta de domínio e podem receber permissões em qualquer domínio na árvore ou floresta de domínio. O suporte do grupo universal, combinado com a delegação de administrador, simplifica a implantação do Lync Server. Por exemplo, não é necessário adicionar um domínio a outro para permitir que um administrador os gerencie.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lync Server 2013 oferece suporte aos grupos universais no Windows Server 2012 para servidores que executam o Lync Server 2013, bem como nos sistemas operacionais do Windows Server 2003 para controladores de domínio. Os membros dos grupos universais podem incluir outros grupos e contas de qualquer domínio na árvore ou floresta de domínio e podem receber permissões em qualquer domínio na árvore ou floresta de domínio. O suporte do grupo universal, combinado com a delegação de administrador, simplifica a implantação do Lync Server. Por exemplo, não é necessário adicionar um domínio a outro para permitir que um administrador os gerencie.
 
 ## Controle de Acesso Baseado em Função
 

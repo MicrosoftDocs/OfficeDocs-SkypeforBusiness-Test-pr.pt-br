@@ -49,19 +49,8 @@ Configurar o Aplicativo Comunicado requer uma das seguintes funções administra
 
   - **CsViewOnlyAdministrator** Esta função de administrador pode exibir a implantação para monitorar a sua integridade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre os direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre os direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Consulte Também
 

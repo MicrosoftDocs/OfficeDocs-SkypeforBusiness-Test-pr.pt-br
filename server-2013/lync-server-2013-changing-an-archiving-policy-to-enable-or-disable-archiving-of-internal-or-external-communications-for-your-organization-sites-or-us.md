@@ -1,6 +1,6 @@
 ﻿---
-title: Mudar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para sua Empresa, Sites ou Usuários
-TOCTitle: Mudar uma Política de Arquivamento para Habilitar ou Desabilitar o Arquivamento de Comunicações Internos ou Externos para sua Empresa, Sites ou Usuários
+title: "Mudar Pol. de Arquiv. p/ Hab./Desab. Arq. de Comunic. Int./Ext. p/ Emp., Sites ou Us."
+TOCTitle: "Mudar Pol. de Arquiv. p/ Hab./Desab. Arq. de Comunic. Int./Ext. p/ Emp., Sites ou Us."
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182576(v=OCS.15)
 ms:contentKeyID: 49307905
@@ -25,20 +25,8 @@ Inicialmente você configura as políticas de Arquivamento ao implantar o Arquiv
 
 Para obter detalhes sobre como as políticas são implementadas, incluindo a hierarquias de políticas, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, Implementação ou Operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você ativou a integração do Microsoft Exchange para a sua implantação, as políticas do Exchange controlam se o arquivamento está habilitado para usuários hospedados no Exchange 2013 e com caixas de correio em Bloqueio in-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de Implantação.<br />
-Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de ativar o Arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de Operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você ativou a integração do Microsoft Exchange para a sua implantação, as políticas do Exchange controlam se o arquivamento está habilitado para usuários hospedados no Exchange 2013 e com caixas de correio em Bloqueio in-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de Implantação.<br />Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de ativar o Arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de Operações.
 
 ## Para alterar uma política de arquivamento
 
@@ -64,19 +52,8 @@ Você deve especificar todas as opções apropriadas nas configurações de Arqu
 
 6.  Clique em **Confirmar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações de uma política do usuário se aplicam somente a usuários específicos e grupos de usuários aos quais você aplica a política. Para obter detalhes, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicar uma política de arquivamento aos usuários</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > As configurações de uma política do usuário se aplicam somente a usuários específicos e grupos de usuários aos quais você aplica a política. Para obter detalhes, consulte <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Aplicar uma política de arquivamento aos usuários</a>
 
 ## Habilitando e desabilitando o arquivamento usando os cmdlets do Lync Server PowerShell
 
@@ -106,7 +83,7 @@ O arquivamento também pode ser habilitado e desabilitado (para sessões de comu
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsArchivingPolicy](set-csarchivingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy).
 
 ## Consulte Também
 

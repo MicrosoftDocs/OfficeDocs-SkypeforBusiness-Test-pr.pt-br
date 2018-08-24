@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-09-11_
 
 Os usuários não podem estacionar chamadas ou recuperar chamadas estacionadas até estarem habilitados para o Estacionamento de Chamada na política de voz.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, o Estacionamento de Chamada está desativado para todos os usuários.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Por padrão, o Estacionamento de Chamada está desativado para todos os usuários.
 
 Você pode habilitar o Estacionamento de Chamada no escopo global, ou escopo do site ou do usuário. O escopo do usuário tem precedência sobre o escopo do site e o escopo do site tem precedência sobre o escopo global. Se você tem várias políticas de voz, reveja todas as políticas para habilitar o Estacionamento de Chamada, não somente a política global.
 

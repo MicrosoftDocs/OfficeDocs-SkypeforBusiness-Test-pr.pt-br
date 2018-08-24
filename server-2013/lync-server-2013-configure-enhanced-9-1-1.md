@@ -21,19 +21,8 @@ Para oferecer suporte ao E9-1-1, o Lync Server 2013 deve ser capaz de associar c
 
 Para obter detalhes sobre como planejar uma implantação do E9-1-1, consulte [Planejamento para serviços de emergência (E9-1-1) no Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 só oferece suporte ao E9-1-1 nos Estados Unidos. Para implantar o E9-1-1, você precisará configurar uma conexão de SIP com um provedor de serviços de E9-1-1 qualificado ou implantar um gateway de ELIN (número de identificação de local de emergência) em um provedor de serviços de E9-1-1 com uma PSTN (Rede Telefônica Pública Comutada). Para obter detalhes, consulte <a href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">9-1-1 Avançado (E9-1-1) e Servidor de Mediação no Lync Server 2013</a>. Para obter detalhes sobre como configurar conexões de tronco, consulte <a href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configurar um tronco com bypass de mídia no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Lync Server 2013 só oferece suporte ao E9-1-1 nos Estados Unidos. Para implantar o E9-1-1, você precisará configurar uma conexão de SIP com um provedor de serviços de E9-1-1 qualificado ou implantar um gateway de ELIN (número de identificação de local de emergência) em um provedor de serviços de E9-1-1 com uma PSTN (Rede Telefônica Pública Comutada). Para obter detalhes, consulte <a href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">9-1-1 Avançado (E9-1-1) e Servidor de Mediação no Lync Server 2013</a>. Para obter detalhes sobre como configurar conexões de tronco, consulte <a href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configurar um tronco com bypass de mídia no Lync Server 2013</a>.
 
 ## Nesta seção
 

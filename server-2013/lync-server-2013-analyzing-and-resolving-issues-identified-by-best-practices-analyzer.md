@@ -1,6 +1,6 @@
 ﻿---
-title: Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas
-TOCTitle: Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas
+title: "Analisando e Resolvendo Probl. Identificados pelo Analisador de Práticas Recomendadas"
+TOCTitle: "Analisando e Resolvendo Probl. Identificados pelo Analisador de Práticas Recomendadas"
 ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591353(v=OCS.15)
 ms:contentKeyID: 49308520

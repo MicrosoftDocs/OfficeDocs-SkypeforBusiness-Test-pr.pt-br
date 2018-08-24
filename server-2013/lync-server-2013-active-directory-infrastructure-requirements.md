@@ -37,19 +37,8 @@ Antes de iniciar o processo de preparação do Serviços de Domínio Active Dire
 
   - A floresta na qual você implanta o Lync Server é elevada para um nível funcional de floresta do Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, ou pelo menos Windows Server 2003.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para alterar seu nível funcional de domínio de floresta ou domínio, consulte &quot;Aumentando os níveis funcionais do domínio e da floresta&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para alterar seu nível funcional de domínio de floresta ou domínio, consulte &quot;Aumentando os níveis funcionais do domínio e da floresta&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>.
 
   - Um catálogo global é implantado em cada domínio no qual você implanta computadores ou usuários do Lync Server.
 

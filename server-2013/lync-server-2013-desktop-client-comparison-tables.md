@@ -33,39 +33,17 @@ As tabelas a seguir comparam os recursos e capacidades dos clientes do Lync 2013
 
 Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis aos usuários do Lync Online e do Office 365, exceto quando indicado o contrário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Consulte <a href="lync-server-2013-mobile-client-comparison-tables.md">Tabela de comparação de clientes móveis para o Lync Server 2013</a> para obter detalhes sobre a disponibilidade do recurso em clientes móveis de Lync 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Consulte <a href="lync-server-2013-mobile-client-comparison-tables.md">Tabela de comparação de clientes móveis para o Lync Server 2013</a> para obter detalhes sobre a disponibilidade do recurso em clientes móveis de Lync 2013.
 
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Para obter detalhes sobre os planos de assinatura do Lync Online, consulte a Lync Online Descrição do serviço em <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
-<li><p>O Lync Server 2013 é compatível com os seguintes clientes já lançados: Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes, consulte a versão do Lync 2010 das Tabelas de Comparação de Clientes em <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
-<li><p>O cliente do Lync 2013 oferece suporte a áudio e vídeo em um ambiente VDI Virtual Desktop Infrastructure (VDI). Para obter detalhes sobre as capacidades do Lync 2013 em um ambiente VDI, consulte <a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Tecnologias de virtualização suportadas e limitações conhecidas no Lync Server 2013</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Para obter detalhes sobre os planos de assinatura do Lync Online, consulte a Lync Online Descrição do serviço em <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
+> 
+> <li><p>O Lync Server 2013 é compatível com os seguintes clientes já lançados: Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes, consulte a versão do Lync 2010 das Tabelas de Comparação de Clientes em <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
+> 
+> 
+> <li><p>O cliente do Lync 2013 oferece suporte a áudio e vídeo em um ambiente VDI Virtual Desktop Infrastructure (VDI). Para obter detalhes sobre as capacidades do Lync 2013 em um ambiente VDI, consulte <a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Tecnologias de virtualização suportadas e limitações conhecidas no Lync Server 2013</a>.</p></li></ul>
 
 
 ## Suporte a presença avançado
@@ -887,25 +865,14 @@ Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma impl
 
 ## Suporte a conferência
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Os recursos de reunião do Lync não estão disponíveis no Plano Independente do Lync Online 1.</p></li>
-<li><p>Em sessões Lync para Lync, um usuário do Plano de Lync Online 1 pode participar de compartilhamento de área de trabalho e compartilhamento de aplicativos se forem convidados por um usuário com acesso a recursos de compartilhamento.</p></li>
-<li><p>Para mais detalhes, consulte a Descrição de Serviço do Lync Online em <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Os recursos de reunião do Lync não estão disponíveis no Plano Independente do Lync Online 1.</p></li>
+> 
+> <li><p>Em sessões Lync para Lync, um usuário do Plano de Lync Online 1 pode participar de compartilhamento de área de trabalho e compartilhamento de aplicativos se forem convidados por um usuário com acesso a recursos de compartilhamento.</p></li>
+> 
+> 
+> <li><p>Para mais detalhes, consulte a Descrição de Serviço do Lync Online em <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a></p></li></ul>
 
 
 
@@ -1397,19 +1364,8 @@ Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma impl
 
 ## Suporte a telefonia
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os recursos de Voz do Lync são limitados a certos planos de assinatura do Lync Online. Para detalhes, consulte o tópico de “Recursos de Voz do Lync” na Descrição de Serviço do Lync Online em <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os recursos de Voz do Lync são limitados a certos planos de assinatura do Lync Online. Para detalhes, consulte o tópico de “Recursos de Voz do Lync” na Descrição de Serviço do Lync Online em <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.
 
 
 <table style="width:100%;">

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 A exibição ConferenceMessageCount armazena informações sobre quantas mensagens foram enviadas por um usuário para uma conferência. Esta exibição foi introduzida no Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A exibição ConferenceMessageCount contém todas as colunas na <a href="lync-server-2013-conferencesessiondetails-view.md">Exibir ConferenceSessionDetails</a>, além das colunas listadas abaixo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A exibição ConferenceMessageCount contém todas as colunas na <a href="lync-server-2013-conferencesessiondetails-view.md">Exibir ConferenceSessionDetails</a>, além das colunas listadas abaixo.
 
 
 <table>

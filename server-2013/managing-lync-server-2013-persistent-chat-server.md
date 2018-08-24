@@ -19,19 +19,8 @@ Você pode usar Lync Server 2013, Servidor de Chat Persistente para permitir que
 
 O conteúdo das salas Chat Persistente consiste primariamente de mensagens de texto curtas, embora possa incluir mensagens mais longas, referidas como *stories* , além de hyperlinks, emoticons e documentos compartilhados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O upload e download de arquivos não é suportado pelo cliente Lync 2013, mas ainda é suportado por Lync Server 2013, Servidor de Chat Persistente. O cliente legacy Chat de Grupo pode publicar e visualizar arquivos, mas se a mesma sala de chat for acessada pelo cliente Lync 2013, ele não poderá acessar os arquivos.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O upload e download de arquivos não é suportado pelo cliente Lync 2013, mas ainda é suportado por Lync Server 2013, Servidor de Chat Persistente. O cliente legacy Chat de Grupo pode publicar e visualizar arquivos, mas se a mesma sala de chat for acessada pelo cliente Lync 2013, ele não poderá acessar os arquivos.
 
 O acesso à sala de chat é controlado por uma lista de associações. Todo o histórico da sala de chat está disponível a qualquer membro para revisão cronológica ou busca de todo o texto. Para detalhes sobre como usar o cliente Chat Persistente, consulte [Planejamento para clientes no Lync Server 2013](lync-server-2013-planning-for-clients.md) na documentação de Planejamento e [Implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) na documentação de Implantação.
 

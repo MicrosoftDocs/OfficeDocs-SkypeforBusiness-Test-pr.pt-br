@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-09-11_
 
 Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho interativo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você pode usar o Shell de Gerenciamento do Lync Server ou o Ferramenta de Configuração de Grupo de Resposta para criar e modificar fluxos de trabalho interativos. É possível acessar o Ferramenta de Configuração de Grupo de Resposta do Painel de Controle do Lync Server ou abrindo a página da Web diretamente de um navegador digitando o seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você pode usar o Shell de Gerenciamento do Lync Server ou o Ferramenta de Configuração de Grupo de Resposta para criar e modificar fluxos de trabalho interativos. É possível acessar o Ferramenta de Configuração de Grupo de Resposta do Painel de Controle do Lync Server ou abrindo a página da Web diretamente de um navegador digitando o seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>.
 
 ## Usar Ferramenta de Configuração de Grupo de Resposta para criar ou modificar um fluxo de trabalho interativo
 
@@ -43,19 +32,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 5.  No campo de pesquisa **Selecionar um serviço**, digite parte ou o nome inteiro do serviço **ApplicationServer** que hospeda o fluxo de trabalho que deseja criar ou modificar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Ferramenta de Configuração de Grupo de Resposta abre. Você também pode abrir o Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador digitando a seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O Ferramenta de Configuração de Grupo de Resposta abre. Você também pode abrir o Ferramenta de Configuração de Grupo de Resposta diretamente de um navegador digitando a seguinte URL: <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>.
 
 6.  Siga um destes procedimentos:
     
@@ -65,82 +43,27 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 7.  Se ainda não estiver tudo pronto para os usuários começarem a chamar o fluxo de trabalho, desmarque a caixa de seleção **Ativar o fluxo de trabalho**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você estiver criando um fluxo de trabalho gerenciado, é necessário selecionar <strong>Ativar o fluxo de trabalho</strong>. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você estiver criando um fluxo de trabalho gerenciado, é necessário selecionar <strong>Ativar o fluxo de trabalho</strong>. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
 
 8.  Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo aplicável ao Aplicativo Grupo de Resposta configurado para federação.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A política de acesso externo global se aplica ao Aplicativo Grupo de Resposta. Você pode configurar a política global para a federação do grupo de resposta usando o Painel de Controle do Lync Server ou usando o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre a configuração da federação, consulte <strong>Set-CsExternalAccessPolicy</strong> na documentação do Shell de Gerenciamento do Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Usuários hospedados em Lync Online não podem encaminhar chamadas para responder a grupos de resposta hospedados em outro ambiente local. Isso se aplica tanto para ambientes híbridos quanto para casos em que o ambiente local é federado com um ambiente Lync Online .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A política de acesso externo global se aplica ao Aplicativo Grupo de Resposta. Você pode configurar a política global para a federação do grupo de resposta usando o Painel de Controle do Lync Server ou usando o cmdlet <strong>Set-CsExternalAccessPolicy</strong> para definir o parâmetro EnableOutsideAccess como True. Lembre-se de que as configurações de política global se aplicam a todos os usuários a não ser que sejam atribuídos a um site ou uma política de usuário. Portanto, antes de alterar essa configuração para grupos de resposta, verifique se a configuração de federação atende aos requisitos da sua organização. Para obter detalhes sobre como as políticas se aplicam aos usuários, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>. Para obter detalhes sobre a configuração da federação, consulte <strong>Set-CsExternalAccessPolicy</strong> na documentação do Shell de Gerenciamento do Lync Server.    
+    > [!NOTE]  
+    > Usuários hospedados em Lync Online não podem encaminhar chamadas para responder a grupos de resposta hospedados em outro ambiente local. Isso se aplica tanto para ambientes híbridos quanto para casos em que o ambiente local é federado com um ambiente Lync Online .
 
 9.  Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chamadas anônimas não podem ter início com sistemas de mensagens instantâneas (IM) ou vídeo, embora o operador ou chamadas possam adicionar IM e vídeo depois que a chamada estiver estabelecida. Um operador anônimo também pode colocar chamadas em espera, transferir (transferências ocultas e de consulta), estacionar e recuperar chamadas. Chamadas anônimas não oferecem suporte a conferência, compartilhamento de aplicativos, transferência de arquivos, whiteboarding e colaboração de dados e gravação de chamadas. Agentes utilizando o Plugin Lync VDI podem atender chamadas em entrada anonimamente, mas não podem realizar chamadas em saída anonimamente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Chamadas anônimas não podem ter início com sistemas de mensagens instantâneas (IM) ou vídeo, embora o operador ou chamadas possam adicionar IM e vídeo depois que a chamada estiver estabelecida. Um operador anônimo também pode colocar chamadas em espera, transferir (transferências ocultas e de consulta), estacionar e recuperar chamadas. Chamadas anônimas não oferecem suporte a conferência, compartilhamento de aplicativos, transferência de arquivos, whiteboarding e colaboração de dados e gravação de chamadas. Agentes utilizando o Plugin Lync VDI podem atender chamadas em entrada anonimamente, mas não podem realizar chamadas em saída anonimamente.
 
 10. Sob **Insira o endereço do grupo que receberá as chamadas**, digite o endereço URI SIP primário do grupo que irá receber chamadas para o fluxo de trabalho.
 
 11. Em **Nome de exibição**, digite o nome que deseja exibir no fluxo de trabalho (por exemplo, Serviço de resposta IVR de vendas).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Não inclua os caracteres &quot;&lt;&quot; ou &quot;&gt;&quot; no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: RGS Presence Watcher ou Announcement Service.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Não inclua os caracteres &quot;&lt;&quot; ou &quot;&gt;&quot; no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: RGS Presence Watcher ou Announcement Service.
 
 12. Em **Número de telefone**, digite o URI de linha para o grupo de resposta (por exemplo, +14255550165).
 
@@ -154,19 +77,8 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
     2.  Digite o URI SIP de gerentes adicionais para adicionar ao fluxo de trabalho e clique em **Adicionar**..
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cada usuário que é designado como um gerente de um grupo de resposta deve ser atribuído à função CsResponseGroupManager. Se os usuários não sã atribuídos com esta função, eles não podem gerenciar grupos de resposta.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Cada usuário que é designado como um gerente de um grupo de resposta deve ser atribuído à função CsResponseGroupManager. Se os usuários não sã atribuídos com esta função, eles não podem gerenciar grupos de resposta.
 
 16. Sob **Etapa 2 Selecione um Idioma**, clique no idioma a ser usado para o reconhecimento de fala e conversão de texto em fala.
 
@@ -174,120 +86,43 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para inserir uma mensagem de boas vindas como texto convertido para fala para os chamadores, clique em **Usar conversão de texto em fala** e digite a mensagem de boas vindas na caixa de texto.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo Wave ou Windows Media Audio para a mensagem de boas vindas, clique em **Selecione uma gravação**. Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação**. Na janela do navegador, clique em **Procurar**, selecione o arquivo de áudio que deseja usar e clique em **Abrir**. Clique em **Carregar** para carregar o arquivo de áudio.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 18. Sob **Etapa 4 Especifique seus Horários Comerciais**, na caixa **Seu fuso horário**, clique no fuso horário do fluxo de trabalho.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O fuso horário é onde os chamadores e operadores do fluxo de trabalho residem. Ele é usado para calcular os horários de abertura e encerramento. Por exemplo, se o fluxo de trabalho está configurado para usar o fuso horário da costa leste norte-americana e o fluxo de trabalho estiver agendado para abrir às 7:00 A.M e fechar às 11:00 P.M., os horários de abertura e fechamento são assumidos como sendo 7:00 horário da costa leste e 11:00:00 horário da costa leste, respectivamente (você deve inserir os horários na notação de 24 horas).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O fuso horário é onde os chamadores e operadores do fluxo de trabalho residem. Ele é usado para calcular os horários de abertura e encerramento. Por exemplo, se o fluxo de trabalho está configurado para usar o fuso horário da costa leste norte-americana e o fluxo de trabalho estiver agendado para abrir às 7:00 A.M e fechar às 11:00 P.M., os horários de abertura e fechamento são assumidos como sendo 7:00 horário da costa leste e 11:00:00 horário da costa leste, respectivamente (você deve inserir os horários na notação de 24 horas).
 
 19. Selecione o tipo de agenda de horário comercial que deseja usar executando um dos seguintes procedimentos:
     
       - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet <strong>New-CSRgsHoursOfBusiness</strong> . Para obter mais detalhes, consulte <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013</a>. Ao selecionar uma agenda predefinida, <strong>Dia</strong>, <strong>Abertura</strong> e <strong>Fechamento</strong> são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet <strong>New-CSRgsHoursOfBusiness</strong> . Para obter mais detalhes, consulte <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Opcional) Definir horário comercial do Grupo de Resposta no Lync Server 2013</a>. Ao selecionar uma agenda predefinida, <strong>Dia</strong>, <strong>Abertura</strong> e <strong>Fechamento</strong> são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.    
       - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada**.
 
 20. Se estiver criando uma agenda personalizada para este fluxo de trabalho, clique nas opções para os dias da semana em que o grupo de resposta estará disponível.
 
 21. Se estiver criando uma agenda personalizada, digite as horas de **Abertura** e **Fechamento** em que o grupo de resposta estará disponível.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As horas de <strong>Abertura</strong> e <strong>Fechamento</strong> devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como <strong>Abertura</strong> 9:00, <strong>Fechamento</strong> 12:00, <strong>Abertura</strong> 13:00 e <strong>Fechamento</strong> 17:00.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As horas de <strong>Abertura</strong> e <strong>Fechamento</strong> devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como <strong>Abertura</strong> 9:00, <strong>Fechamento</strong> 12:00, <strong>Abertura</strong> 13:00 e <strong>Fechamento</strong> 17:00.
 
 22. Se você desejar reproduzir uma mensagem quando o escritório não estiver aberto, selecione a opção **Reproduzir uma mensagem quando o grupo de resposta estiver fora do horário comercial** e especifique a mensagem a ser reproduzida executando um dos seguintes procedimentos:
     
       - Para inserir as mensagem como um texto a ser convertido para fala para o chamador, clique em **Usar conversão de texto para fala** e digite a mensagem na caixa de texto.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo de áudio para a mensagem, clique em **Selecionar uma gravação**. Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação**. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo que deseja usar e clique em **Abrir**. Clique em **Carregar** para carregar o arquivo de áudio.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 23. Especifique como tratar chamadas após a reprodução da mensagem (se uma mensagem estiver configurada):
     
@@ -301,52 +136,19 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets <strong>New-CsRgsHoliday</strong> e <strong>New-CsRgsHolidaySet</strong> para definir feriados e conjuntos de feriados. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets <strong>New-CsRgsHoliday</strong> e <strong>New-CsRgsHolidaySet</strong> para definir feriados e conjuntos de feriados. Para detalhes, consulte <a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013</a>.
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
     
       - Para inserir as mensagem como um texto a ser convertido para fala para o chamador, clique em **Usar conversão de texto para fala** e digite a mensagem na caixa de texto.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.    
       - Para usar uma gravação de arquivo de áudio para a mensagem, clique em **Selecionar uma gravação**. Se você deseja carregar um novo arquivo de áudio, clique no link **uma gravação**. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo que deseja usar e clique em **Abrir**. Clique em **Carregar** para carregar o arquivo de áudio.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivos de áudio com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivos de áudio com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 26. Especifique como tratar chamadas após a reprodução da mensagem (se uma mensagem estiver configurada):
     
@@ -364,94 +166,28 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para usar uma gravação de arquivo de áudio como música de espera, clique em **Selecionar um arquivo de música**. Se você deseja carregar um novo arquivo de áudio, clique no link **um arquivo de música**. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo que deseja usar e clique em **Abrir**. Clique em **Carregar** para carregar o arquivo de áudio.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 28. Sob **Etapa 7 Configure a Resposta Interativa de Voz**, sob o cabeçalho **O usuário ouvirá o seguinte texto ou mensagem gravada**, especifique a pergunta a ser feita aos chamadores da seguinte forma:
     
       - Para digitar uma pergunta em formato de texto, clique em **Usar conversão de texto em fala** e digite a pergunta na caixa de texto.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.</td>
-        </tr>
-        </tbody>
-        </table>
-        
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O símbolo &quot;#&quot; é traduzido pelo mecanismo de conversão de texto em fala como a palavra &quot;número&quot;. Se for necessário fazer referência à tecla #, use o nome da tecla no prompt, em vez do símbolo. Por exemplo, &quot;Para falar com vendas, pressione a tecla de cerquilha&quot;.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Não inclua tags HTML no texto digitado. Se você incluir tags HTML, receberá uma mensagem de erro.        
+        > [!NOTE]  
+        > O símbolo &quot;#&quot; é traduzido pelo mecanismo de conversão de texto em fala como a palavra &quot;número&quot;. Se for necessário fazer referência à tecla #, use o nome da tecla no prompt, em vez do símbolo. Por exemplo, &quot;Para falar com vendas, pressione a tecla de cerquilha&quot;.    
       - Para usar um arquivo de áudio pré-gravado que contenha a pergunta, clique em **Selecionar uma gravação** e clique no link **uma gravação** para carregar o arquivo. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo de áudio e clique em **Abrir**. Clique em **Carregar** para carregar o arquivo e, opcionalmente, você pode digitar a pergunta na caixa de texto (o que habilita a pergunta e a resposta do chamador a serem encaminhadas ao operador que atenderá).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte <a href="lync-server-2013-technical-requirements-for-response-group.md">Requisitos técnicos do Grupo de Resposta no Lync Server 2013</a>.
 
 29. Em **Resposta 1**, especifique a primeira resposta possível para a pergunta executando um dos seguintes procedimentos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Não use aspas (&quot;) em qualquer resposta de voz. Aspas podem provocar falhas no IVR.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode optar por permitir que os chamadores respondam usando a fala, entradas do teclado alfanumérico ou ambos.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!IMPORTANT]  
+    > Não use aspas (&quot;) em qualquer resposta de voz. Aspas podem provocar falhas no IVR.    
+    > [!NOTE]  
+    > Você pode optar por permitir que os chamadores respondam usando a fala, entradas do teclado alfanumérico ou ambos.    
       - Se desejar permitir que o chamador responda usando a fala, insira a resposta em **Insira uma resposta de voz**.
     
       - Se você desejar permitir que o chamador responda pressionando uma tecla no teclado, em **Dígito**, clique no dígito do teclado.
@@ -523,16 +259,5 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
         $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
         $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Todos os usuários que foram designados como gerentes de um grupo de resposta devem ter uma função CsResponseGroupManager. Se os usuário não têm essa função, não será possível gerenciar grupos de resposta.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Todos os usuários que foram designados como gerentes de um grupo de resposta devem ter uma função CsResponseGroupManager. Se os usuário não têm essa função, não será possível gerenciar grupos de resposta.

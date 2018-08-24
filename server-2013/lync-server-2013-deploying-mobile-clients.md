@@ -17,25 +17,13 @@ _**Tópico modificado em:** 2016-12-08_
 
 Os aplicativos do Lync 2013 para clientes móveis oferecem IM (mensagens instantâneas), presença aprimorada e telefonia aos usuário de sua organização que estão se conectando com um smartphone ou um telefone que executa uma edição Professional do Windows Mobile. Você pode orientar seus usuários para que instalem o Lync 2013 direcionando-os ao marketplace de aplicativos dos telefones celulares.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 também oferece suporte ao Lync 2010 para clientes móveis. Para obter detalhes, consulte os seguintes artigos na biblioteca da TechNet do Lync Server 2010:
-<ul>
-<li><p>&quot;Planejamento para clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.</p></li>
-<li><p>&quot;Implantando clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=236068" class="uri">http://go.microsoft.com/fwlink/?linkid=236068</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> O Lync Server 2013 também oferece suporte ao Lync 2010 para clientes móveis. Para obter detalhes, consulte os seguintes artigos na biblioteca da TechNet do Lync Server 2010:<ul>
+> 
+> <li><p>&quot;Planejamento para clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.</p></li>
+> 
+> 
+> <li><p>&quot;Implantando clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=236068" class="uri">http://go.microsoft.com/fwlink/?linkid=236068</a>.</p></li></ul>
 
 
 ## Nesta seção

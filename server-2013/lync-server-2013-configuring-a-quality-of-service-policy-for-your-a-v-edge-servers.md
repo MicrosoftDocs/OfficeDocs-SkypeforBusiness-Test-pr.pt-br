@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando uma política de Qualidade de Serviço (QoS) para seus servidores de borda A/V
-TOCTitle: Configurando uma política de Qualidade de Serviço (QoS) para seus servidores de borda A/V
+title: "Configurando uma política de Qual. de Serviço (QoS) p/ seus serv. de borda A/V"
+TOCTitle: "Configurando uma política de Qual. de Serviço (QoS) p/ seus serv. de borda A/V"
 ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204681(v=OCS.15)
 ms:contentKeyID: 49305924

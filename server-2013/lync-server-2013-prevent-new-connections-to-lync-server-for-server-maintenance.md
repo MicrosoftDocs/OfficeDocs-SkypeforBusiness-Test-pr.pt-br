@@ -35,19 +35,8 @@ Para obter detalhes sobre o balanceamento de carga DNS, consulte [Balanceamento 
 
 Além para impedir novas conexões com todos os serviços em um servidor que executa o Lync Server, você também pode impedir novas conexões com serviços individuais do Lync Server. Por exemplo, esse método é útil em uma situação onde você precisa aplicar uma atualização do Lync Server que não exige o desligamento de todo o servidor. Observe que, quando você impede conexões com um serviço, deve selecionar um serviço que é agrupado e exibido na lista de serviços do Windows. Por exemplo, o serviço Front-End do Lync Server e o agente de coleta de dados do Monitoring Server são serviços separados do Lync Server, mas na lista de serviços do Windows eles serão consolidados e mostrados como o serviço de Front-End do Lync Server. Você pode impedir novas conexões com o serviço de Front-End do Lync Server, mas não pode impedir novas conexões com esses dois serviços individuais subjacentes do Lync Server separadamente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando você configura um servidor para evitar novas conexões e o reinicia, por padrão ele imediatamente aceitará novas conexões de novo. Para que isso não ocorra, configure o servidor manualmente para que pause e retome antes de reiniciá-lo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Quando você configura um servidor para evitar novas conexões e o reinicia, por padrão ele imediatamente aceitará novas conexões de novo. Para que isso não ocorra, configure o servidor manualmente para que pause e retome antes de reiniciá-lo.
 
 ## Para evitar novas conexões ao Lync Server:
 
@@ -61,19 +50,8 @@ Além para impedir novas conexões com todos os serviços em um servidor que exe
 
 5.  Opcionalmente, mas recomendado, clique em **Manual** ao lado de **Tipo de inicialização**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Quando você define um servidor para impedir novas conexões e reiniciar o servidor, por padrão, o servidor começa imediatamente a aceitar novas conexões depois de ser inicializado. Para evitar isso, defina o servidor para apenas pausar e reiniciar manualmente antes de reiniciá-lo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Quando você define um servidor para impedir novas conexões e reiniciar o servidor, por padrão, o servidor começa imediatamente a aceitar novas conexões depois de ser inicializado. Para evitar isso, defina o servidor para apenas pausar e reiniciar manualmente antes de reiniciá-lo.
 
 6.  Quando terminar, clique em **OK**.
 

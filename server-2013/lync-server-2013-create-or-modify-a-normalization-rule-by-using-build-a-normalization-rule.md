@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar uma regra de normalização usando a Regra Construir uma Normalização'
+title: "Criar/modif. regra de normalização usando a Regra Construir uma Normalização"
 TOCTitle: Criar ou modificar uma regra de normalização usando a Regra Construir uma Normalização
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399036(v=OCS.15)
@@ -55,19 +55,8 @@ Execute as etapas a seguir se quiser criar ou modificar uma regra de normalizaç
 
 9.  (Opcional) Insira um número para testar a regra de normalização e clique em **Ir** . Os resultados do teste são exibidos em **Inserir um número para testar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.
 
 10. Clique em **OK** para salvar a regra de normalização.
 
@@ -75,19 +64,8 @@ Execute as etapas a seguir se quiser criar ou modificar uma regra de normalizaç
 
 12. Na página **Plano de Discagem** , clique em **Confirmar** e clique em **Confirmar tudo** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sempre que criar ou alterar uma regra de normalização, você deve executar o comando <strong>Confirmar todos</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando <strong>Confirmar todos</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também
 

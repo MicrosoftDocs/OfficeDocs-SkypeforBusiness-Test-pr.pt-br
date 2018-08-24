@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Tecnologias de virtualização suportadas e limitações conhecidas'
+title: "Lync Server 2013: Tecn. de virtualização suportadas e limitações conhecidas"
 TOCTitle: Tecnologias de virtualização suportadas e limitações conhecidas
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204982(v=OCS.15)

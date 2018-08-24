@@ -17,33 +17,11 @@ _**Tópico modificado em:** 2013-01-30_
 
 Utilize o procedimento a seguir para criar ou modificar o intervalo de números de um grupo de atendimento de chamadas na tabela de órbita de estacionamento de chamadas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você precisa utilizar Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar intervalos de números de atendimento de chamadas em grupo na tabela de órbita de estacionamento de chamadas. Intervalos de números de atendimento de chamadas em grupo não estão disponíveis em Painel de Controle do Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Você precisa utilizar Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar intervalos de números de atendimento de chamadas em grupo na tabela de órbita de estacionamento de chamadas. Intervalos de números de atendimento de chamadas em grupo não estão disponíveis em Painel de Controle do Lync Server.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É preciso atribuir ao intervalo de números de grupo de atendimento de chamadas o tipo GroupPickup. Usuários são habilitados para o atendimento de chamadas em grupo somente se o número de grupo a que foram atribuídos for do tipo GroupPickup.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> É preciso atribuir ao intervalo de números de grupo de atendimento de chamadas o tipo GroupPickup. Usuários são habilitados para o atendimento de chamadas em grupo somente se o número de grupo a que foram atribuídos for do tipo GroupPickup.
 
 Os intervalos de números de grupo de atendimento de chamadas precisam estar de acordo com as regras a seguir:
 
@@ -77,19 +55,8 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o Aplicativo de Estacionamento de Chamada não poderá mais utilizar aquele intervalo de órbitas para estacionar chamadas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o Aplicativo de Estacionamento de Chamada não poderá mais utilizar aquele intervalo de órbitas para estacionar chamadas.
 
 ## Consulte Também
 
@@ -99,6 +66,6 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
 
 #### Outros Recursos
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
 

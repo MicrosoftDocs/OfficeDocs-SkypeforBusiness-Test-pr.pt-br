@@ -33,19 +33,8 @@ Quando você implanta o Estacionamento de Chamada, precisa reservar intervalos d
 
 Você também define outras configurações de Estacionamento de Chamada, como para onde as chamadas são redirecionadas quando atingem o tempo limite e se a pessoa ao telefone ouve música enquanto aguarda. Você também pode especificar o arquivo de música a ser reproduzido enquanto a chamada está em espera.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Arquivos de música de espera personalizados do Estacionamento de Chamada não são gravados com o backup como parte do processo de recuperação de desastres do Lync Server 2013 e serão perdidos, caso os arquivos que foram enviados ao pool forem danificados, corrompidos ou apagados. Sempre mantenha uma cópia de backup separada dos arquivos de música de espera personalizados que você tenha enviado ao Estacionamento de Chamada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Arquivos de música de espera personalizados do Estacionamento de Chamada não são gravados com o backup como parte do processo de recuperação de desastres do Lync Server 2013 e serão perdidos, caso os arquivos que foram enviados ao pool forem danificados, corrompidos ou apagados. Sempre mantenha uma cópia de backup separada dos arquivos de música de espera personalizados que você tenha enviado ao Estacionamento de Chamada.
 
 O aplicativo Estacionamento de Chamada é um componente do Enterprise Voice. Ao implantar o Enterprise Voice, o aplicativo Estacionamento de Chamada é instalado e ativado automaticamente. Antes de usar o Estacionamento de Chamada, o administrador do Enterprise Voice deve configurá-lo e ativá-lo para os usuários por meio da política de voz.
 

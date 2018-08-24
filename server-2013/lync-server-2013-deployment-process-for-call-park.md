@@ -38,21 +38,11 @@ Esta seção oferece uma visão geral das etapas envolvidas na implantação do 
 <tr class="odd">
 <td><p>Configure os intervalos de órbita de estacionamento de chamada na tabela de órbita</p></td>
 <td><p>Use o cmdlet Painel de Controle do Lync Server ou <strong>New-CSCallParkOrbit</strong> para criar os intervalos de órbita na tabela de órbita de estacionamento de chamada e associe-a com o Serviço de aplicativos que hospeda o Aplicativo de Estacionamento de Chamada.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para uma integração perfeita aos planos de discagem existentes, os intervalos de órbitas são normalmente considerados como um bloco de ramais virtuais. A atribuição dos números DID (Discagem Direta de Entrada) como números de órbita na tabela de órbita de estacionamento de chamada não é suportada.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Para uma integração perfeita aos planos de discagem existentes, os intervalos de órbitas são normalmente considerados como um bloco de ramais virtuais. A atribuição dos números DID (Discagem Direta de Entrada) como números de órbita na tabela de órbita de estacionamento de chamada não é suportada.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -85,36 +75,15 @@ Esta seção oferece uma visão geral das etapas envolvidas na implantação do 
 <tr class="even">
 <td><p>Configure a política de voz para habilitar o Estacionamento de Chamada para os usuários</p></td>
 <td><p>Use o cmdlet Painel de Controle do Lync Server ou <strong>Set-CSVoicePolicy</strong> com a opção <strong>EnableCallPark</strong> para habilitar o Estacionamento de Chamada para usuários na política de voz.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, o Estacionamento de Chamada está desativado para todos os usuários.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver diversas políticas de voz, veja se a propriedade EnableCallPark está configurada para cada política, não somente para a padrão.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Por padrão, o Estacionamento de Chamada está desativado para todos os usuários.
 
-</div></td>
+
+> [!NOTE]  
+> Se você tiver diversas políticas de voz, veja se a propriedade EnableCallPark está configurada para cada política, não somente para a padrão.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>

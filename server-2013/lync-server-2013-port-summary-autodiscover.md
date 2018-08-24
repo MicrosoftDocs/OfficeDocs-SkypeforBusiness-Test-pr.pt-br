@@ -23,19 +23,8 @@ A decisão sobre usar as listas de nomes alternativos de entidade em proxies rev
 
   - **Publicado na porta 443**   A lista de nomes alternativos de entidade nos certificados usados por meio da regra de publicação de serviços Web externos deve conter uma entrada do `lyncdiscover.<sipdomain>` para cada domínio SIP na sua organização.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para novas instalações ou atualizações do Lync Server 2010 nas quais você tiver implantado Mobilidade, é possível usar a Porta 80 para a Descoberta Automática do serviço de Mobilidade ou reemitir certificados com o nome de entidade correto e nomes alternativos de entidade no lugar. Analise os certificados no seu Diretor e Servidor Front-End para confirmar qual caminho você quer escolher.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Para novas instalações ou atualizações do Lync Server 2010 nas quais você tiver implantado Mobilidade, é possível usar a Porta 80 para a Descoberta Automática do serviço de Mobilidade ou reemitir certificados com o nome de entidade correto e nomes alternativos de entidade no lugar. Analise os certificados no seu Diretor e Servidor Front-End para confirmar qual caminho você quer escolher.
 
 ### Detalhes de firewall do servidor de proxy reverso: Interface externa
 

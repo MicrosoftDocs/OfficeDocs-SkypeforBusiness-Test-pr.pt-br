@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2014-05-08_
 
 Sua organização implantou o Lync Online antes de implantar o Lync Server no local? E agora você pretende mover as contas de usuários que foram, originalmente, habilitadas para o Lync no Lync Online para sua implantação do Lync Server no local? Esta seção pode ajudá-lo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta seção aborda a migração de usuários que foram originalmente habilitados para o Lync no Lync Online. Talvez você tenha contas de usuários que foram primeiro habilitadas para Lync no local, e depois migradas para o Lync Online? Em caso afirmativo, e caso você queira movê-las novamente para o local, o processo é fácil: <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrando usuários em uma implantação híbrida do Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Esta seção aborda a migração de usuários que foram originalmente habilitados para o Lync no Lync Online. Talvez você tenha contas de usuários que foram primeiro habilitadas para Lync no local, e depois migradas para o Lync Online? Em caso afirmativo, e caso você queira movê-las novamente para o local, o processo é fácil: <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrando usuários em uma implantação híbrida do Lync Server 2013</a>.
 
   - [Primeiros passos antes de iniciar a migração de usuários do Lync Online para o Lync no local](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 

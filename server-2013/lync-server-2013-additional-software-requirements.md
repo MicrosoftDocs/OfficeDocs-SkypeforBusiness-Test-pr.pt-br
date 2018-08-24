@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Além dos requisitos de hardware e sistema operacional para plataformas de servidor, o Lync Server 2013 requer a instalação de software adicional nos servidores implantados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre os requisitos de plataforma para os servidores executando Lync Server, consulte <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a> e <a href="lync-server-2013-server-and-tools-operating-system-support.md">Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013</a>. Para obter detalhes sobre os requisitos de sistema para dispositivos e computadores de cliente, consulte <a href="lync-server-2013-planning-for-clients-and-devices.md">Planejando clientes e dispositivos no Lync Server 2013</a> na documentação de Planejamento. Para obter detalhes sobre os requisitos de software para ferramentas administrativas, consulte <a href="lync-server-2013-administrative-tools-software-requirements.md">Requisitos de software de ferramentas administrativas no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre os requisitos de plataforma para os servidores executando Lync Server, consulte <a href="lync-server-2013-server-hardware-platforms.md">Plataformas de hardware de servidor para Lync Server 2013</a> e <a href="lync-server-2013-server-and-tools-operating-system-support.md">Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013</a>. Para obter detalhes sobre os requisitos de sistema para dispositivos e computadores de cliente, consulte <a href="lync-server-2013-planning-for-clients-and-devices.md">Planejando clientes e dispositivos no Lync Server 2013</a> na documentação de Planejamento. Para obter detalhes sobre os requisitos de software para ferramentas administrativas, consulte <a href="lync-server-2013-administrative-tools-software-requirements.md">Requisitos de software de ferramentas administrativas no Lync Server 2013</a>.
 
 ## Software adicional necessário para todas as funções de servidor interno
 

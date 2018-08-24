@@ -34,7 +34,7 @@ As configurações consistem de nome do conjunto, escopo (global ou site), confi
       - Para editar qualquer configuração de um conjunto existente, clique no menu **Editar**, clique em **Mostrar detalhes** e faça as alterações.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para voltar a usar as configurações padrão do conjunto global, clique no conjunto global, clique no menu <STRONG>Editar</STRONG>, clique em <STRONG>Excluir</STRONG> e clique em <STRONG>OK</STRONG>. Essa ação não excluirá o conjunto global, apenas irá restaurar os padrões das configurações.
 
 
@@ -65,7 +65,7 @@ Você também pode criar configurações do Lync Phone Edition (somente no escop
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Para obter detalhes, consulte [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
+Para obter detalhes, consulte [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
 
 ## Consulte Também
 

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 A tabela a seguir descreve o modelo de usuário de Recebimento de chamada de grupo que pode ser usado como base para requisitos de planejamento de capacidade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Recebimento de chamada de grupo baseia-se no Aplicativo de Estacionamento de Chamada. Tenha em mente que, para planejamento de capacidade de recuperação de desastres, cada pool do pool pareado deve poder lidar com cargas de trabalho para serviçso do Estacionamento de Chamada, incluindo o Recebimento de chamada de grupo, em ambos pools.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Recebimento de chamada de grupo baseia-se no Aplicativo de Estacionamento de Chamada. Tenha em mente que, para planejamento de capacidade de recuperação de desastres, cada pool do pool pareado deve poder lidar com cargas de trabalho para serviçso do Estacionamento de Chamada, incluindo o Recebimento de chamada de grupo, em ambos pools.
 
 ### Modelo de usuário de Recebimento de chamada de grupo
 
@@ -76,22 +65,11 @@ A tabela a seguir descreve o modelo de usuário de Recebimento de chamada de gru
 </table>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Para os Pools de Front-Ends que possuem menos que oito Servidores Front-End, calcule as métricas linearmente. Por exemplo, se o Pool de Front-Ends possuir um Servidor Front-End, calcule a carga máxima para 1/8 dos valores exibidos na tabela.</p></li>
-<li><p>Você pode aumentar ou diminuir o número recomendado de usuários por grupo e número de grupos desde que você não exceda o número máximo de usuários por pool. por exemplo, seu Servidor Standard Edition pode ter 120 grupos com 25 usuários por grupo porque o número de usuários para Recebimento de chamada de grupo ainda está no máximo do modelo (isto é, 120 grupos vezes 25 usuários, 3.000 usuários habilitados para Recebimento de chamada por grupo.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> 
+> <li><p>Para os Pools de Front-Ends que possuem menos que oito Servidores Front-End, calcule as métricas linearmente. Por exemplo, se o Pool de Front-Ends possuir um Servidor Front-End, calcule a carga máxima para 1/8 dos valores exibidos na tabela.</p></li>
+> 
+> 
+> <li><p>Você pode aumentar ou diminuir o número recomendado de usuários por grupo e número de grupos desde que você não exceda o número máximo de usuários por pool. por exemplo, seu Servidor Standard Edition pode ter 120 grupos com 25 usuários por grupo porque o número de usuários para Recebimento de chamada de grupo ainda está no máximo do modelo (isto é, 120 grupos vezes 25 usuários, 3.000 usuários habilitados para Recebimento de chamada por grupo.</p></li></ul>
 

@@ -47,19 +47,8 @@ _**Tópico modificado em:** 2014-02-07_
 
 14. Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sempre que criar um caso de teste de roteamento de voz, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Sempre que criar um caso de teste de roteamento de voz, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.    
     Se o plano de discagem empregado no teste normaliza números de telefone que começam com um sinal de adição (por exemplo, +12065551219), esse plano pode causar a falha do teste de roteamento de voz. (O plano de discagem e a rota de voz funcionarão; de fato, Test-CsDialPlan será bem-sucedido. No entanto, o teste de roteamento de voz poderá falhar.) Isso deve ser considerado durante o teste de rotas de voz.
 
 ## Consulte Também

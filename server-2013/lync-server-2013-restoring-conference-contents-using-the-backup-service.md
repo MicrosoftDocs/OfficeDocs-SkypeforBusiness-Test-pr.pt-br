@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Restaurando conteúdos de conferência usando o Serviço de Backup'
+title: "Lync Server 2013: Restaurando conteúdos de confer. usando o Serviço de Backup"
 TOCTitle: Restaurando conteúdos de conferência usando o Serviço de Backup
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688030(v=OCS.15)

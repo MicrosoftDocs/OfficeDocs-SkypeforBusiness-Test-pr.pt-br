@@ -39,19 +39,8 @@ O Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 
   - Resumo do site - O resumo do site apresenta uma visão geral das seleções que foram feitas ao responder às perguntas da entrevista inicial ou ao incluir valores em **Criar Sites**. A informação de capacidade também é apresentada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As informações na página do Resumo do site são personalizadas para cada design e podem não conter todas as seções ou informações detalhadas aqui.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As informações na página do Resumo do site são personalizadas para cada design e podem não conter todas as seções ou informações detalhadas aqui.
 
 ## Consulte Também
 

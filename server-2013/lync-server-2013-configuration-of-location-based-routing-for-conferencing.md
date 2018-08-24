@@ -47,19 +47,8 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 Depois de usar esse cmdlet, reinicie todos os servidores Front-End no pool de Servidores Standard Edition onde o aplicativo de Configuração de Roteamento com Base no Local da Conferência foi habilitado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As condições do Roteamento com Base no Local da Conferência e transferências consultivas não serão impostas até que todos os Servidores Front-End nos pools aplicáveis ou do Standard Edition tenham sido reiniciados. Se você definir <strong>–Crítico</strong> para <strong>$true</strong> nos cmdlets anteriores, os serviços do Lync serão imediatamente reiniciados. Se você não desejar que os serviços sejam reiniciados imediatamente, defina <strong>–Crítico</strong> para <strong>$false</strong> neste momento, e depois use o <strong>Set-CsServerApplication</strong> para alterar <strong>-Crítico</strong> para <strong>$true</strong> posteriormente, depois de os serviços terem sido reiniciados.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> As condições do Roteamento com Base no Local da Conferência e transferências consultivas não serão impostas até que todos os Servidores Front-End nos pools aplicáveis ou do Standard Edition tenham sido reiniciados. Se você definir <strong>–Crítico</strong> para <strong>$true</strong> nos cmdlets anteriores, os serviços do Lync serão imediatamente reiniciados. Se você não desejar que os serviços sejam reiniciados imediatamente, defina <strong>–Crítico</strong> para <strong>$false</strong> neste momento, e depois use o <strong>Set-CsServerApplication</strong> para alterar <strong>-Crítico</strong> para <strong>$true</strong> posteriormente, depois de os serviços terem sido reiniciados.
 
 Quando o aplicativo de Configuração de Roteamento com Base no Local da Conferência tiver sido habilitado com êxito, e todos os servidores Lync aplicáveis tiverem sido reiniciados, todas as conferências organizadas pelos usuários do Lync habilitados para Roteamento com Base no Local serão monitoradas para impedir desvios de tarifas de PSTN
 

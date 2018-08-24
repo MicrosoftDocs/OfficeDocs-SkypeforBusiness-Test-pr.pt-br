@@ -27,19 +27,8 @@ O Aplicativo Grupo de Resposta oferece suporte aos seguintes clientes:
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não há suporte para o Aplicativo Grupo de Resposta em clientes móveis do Lync.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Não há suporte para o Aplicativo Grupo de Resposta em clientes móveis do Lync.
 
 Para obter detalhes sobre os novos recursos, consulte [Novos recursos do aplicativo de Grupo de Resposta no Lync Server 2013](lync-server-2013-new-response-group-application-features.md) na documentação do guia de Introdução.
 

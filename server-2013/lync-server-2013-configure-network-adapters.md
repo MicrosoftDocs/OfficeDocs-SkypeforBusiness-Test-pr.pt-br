@@ -23,21 +23,8 @@ Nos seguintes procedimentos, o servidor que executa o Forefront Threat Managemen
 
   - Uma interface de rede privada ou interna para servidores internos que executam o Lync Server e hospedam os serviços Web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>De maneira semelhante aos Servidores de Borda, você define o gateway padrão somente no adaptador de rede externo. O gateway padrão será o endereço IP do roteador ou firewall externo que direciona o tráfego para a Internet. Para tráfego encaminhado do proxy reverso para o adaptador de rede interno, é necessário usar rotas estáticas persistentes (como o comando rotear no Windows Server) para todas as sub-redes que contêm servidores referenciados pelas regras de publicação na Web. A definição de uma rota persistente não faz com que o computador se torne um roteador. Se o encaminhamento de IP não estiver habilitado, o computador atuará apenas para direcionar tráfegos específicos destinados a outra rede para a interface apropriada. Em essência, isso significa configurar dois gateways - um como o padrão apontando para as redes externas e outro para o tráfego, destinado à interface interna e a um roteador ou outra rede.<br />
-No entanto, a criação de rotas persistentes para todas as sub-redes pode não ser necessária se os roteadores de sua rede estiverem configurados para abreviar as rotas. Crie uma rota persistente para a rede na qual o roteador está definido e use-o como gateway padrão. Se você não tiver certeza sobre como sua rede está configurada e precisar de orientação sobre quais rotas persistentes precisam ser criadas, consulte os engenheiros de rede da sua empresa.<br />
-O proxy reverso deve ser capaz de resolver os registros de host DNS (A) do Diretor ou Servidor Front-End interno e os FQDNs do pool de próximo salto usados nas regras de publicação na Web. Assim como nos Servidores de Borda, por motivos de segurança, recomendamos que você não configure um proxy reverso para usar um servidor DNS localizado na rede interna. Isso significa que você precisa de servidores DNS no perímetro ou precisa de entradas do arquivo HOSTS no proxy reverso que resolve cada um desses FQDNs como o endereço IP interno dos servidores.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> De maneira semelhante aos Servidores de Borda, você define o gateway padrão somente no adaptador de rede externo. O gateway padrão será o endereço IP do roteador ou firewall externo que direciona o tráfego para a Internet. Para tráfego encaminhado do proxy reverso para o adaptador de rede interno, é necessário usar rotas estáticas persistentes (como o comando rotear no Windows Server) para todas as sub-redes que contêm servidores referenciados pelas regras de publicação na Web. A definição de uma rota persistente não faz com que o computador se torne um roteador. Se o encaminhamento de IP não estiver habilitado, o computador atuará apenas para direcionar tráfegos específicos destinados a outra rede para a interface apropriada. Em essência, isso significa configurar dois gateways - um como o padrão apontando para as redes externas e outro para o tráfego, destinado à interface interna e a um roteador ou outra rede.<br />No entanto, a criação de rotas persistentes para todas as sub-redes pode não ser necessária se os roteadores de sua rede estiverem configurados para abreviar as rotas. Crie uma rota persistente para a rede na qual o roteador está definido e use-o como gateway padrão. Se você não tiver certeza sobre como sua rede está configurada e precisar de orientação sobre quais rotas persistentes precisam ser criadas, consulte os engenheiros de rede da sua empresa.<br />O proxy reverso deve ser capaz de resolver os registros de host DNS (A) do Diretor ou Servidor Front-End interno e os FQDNs do pool de próximo salto usados nas regras de publicação na Web. Assim como nos Servidores de Borda, por motivos de segurança, recomendamos que você não configure um proxy reverso para usar um servidor DNS localizado na rede interna. Isso significa que você precisa de servidores DNS no perímetro ou precisa de entradas do arquivo HOSTS no proxy reverso que resolve cada um desses FQDNs como o endereço IP interno dos servidores.
 
 ## Para configurar as placas adaptadoras de rede no computador do proxy reverso
 
@@ -49,19 +36,8 @@ O proxy reverso deve ser capaz de resolver os registros de host DNS (A) do Diret
 
 4.  Na página **Propriedades de Protocolo TCP/IP** , configure os endereços IP apropriados da sub-rede à qual o adaptador de rede está conectado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se o proxy reverso já estiver sendo usado por outros aplicativos que usam HTTPS/TCP/443, como para a publicação do Outlook Web Access, você precisará adicionar outro endereço IP para que possa publicar os Serviços Web do Lync Server 2013 em HTTPS/TCP/443 sem interferir nas regras e nos ouvintes da Web existentes ou precisará substituir o certificado existente por um que adicione os novos nomes FQDN externos ao nome alternativo da entidade.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se o proxy reverso já estiver sendo usado por outros aplicativos que usam HTTPS/TCP/443, como para a publicação do Outlook Web Access, você precisará adicionar outro endereço IP para que possa publicar os Serviços Web do Lync Server 2013 em HTTPS/TCP/443 sem interferir nas regras e nos ouvintes da Web existentes ou precisará substituir o certificado existente por um que adicione os novos nomes FQDN externos ao nome alternativo da entidade.
 
 5.  Clique em **OK** e em **OK** novamente.
 

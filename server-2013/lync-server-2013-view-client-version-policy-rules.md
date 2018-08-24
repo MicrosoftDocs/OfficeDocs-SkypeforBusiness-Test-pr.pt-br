@@ -56,5 +56,5 @@ Você pode exibir as regras da política de versão do cliente usando o Shell de
         Enabled           : True
         CompareOp         : LEQ
 
-Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md).
+Para obter detalhes, consulte o tópico da Ajuda para o cmdlet [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule).
 

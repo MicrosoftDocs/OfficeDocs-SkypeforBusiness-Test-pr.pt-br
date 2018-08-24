@@ -21,16 +21,5 @@ A instalação do Lync Server 2013 inclui o Assistente de Certificados, que faci
 
 Esta documentação de Implantação fornece procedimentos para usar o Assistente de Certificado para solicitar certificados como parte do processo de instalação, conforme descrito nas seções [Configurar certificados para servidores no Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md), [Configurar certificados do Diretor no Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md) e [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) desta documentação de Implantação. Se você solicitar certificados com antecedência, deve modificar os procedimentos de implantação de certificados nestas seções conforme o apropriado, para importar e atribuir os certificados em vez de solicitá-los no momento da implantação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 inclui suporte para certificados SHA-256 para conexões de clientes executando os sistemas operacionais Windows Vista, Windows Server 2008, Windows Server 2008 R2 e Windows 7 e o Lync Phone Edition. Para oferecer suporte a acesso externo usando SHA-256,o certificado externo é emitido por uma AC pública usando SHA-256.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server 2013 inclui suporte para certificados SHA-256 para conexões de clientes executando os sistemas operacionais Windows Vista, Windows Server 2008, Windows Server 2008 R2 e Windows 7 e o Lync Phone Edition. Para oferecer suporte a acesso externo usando SHA-256,o certificado externo é emitido por uma AC pública usando SHA-256.

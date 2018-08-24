@@ -25,19 +25,8 @@ As categorias de sala de bate-papo podem conter salas de bate-papo, mas nenhuma 
 
 2.  Do menu **Iniciar**, selecione o Painel de Controle do Lync Server ou abra uma janela de navegador e, então, insira o Admin URL. Para detalhes sobre diferentes métodos que podem ser usados para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você também pode usar o cmdlets Windows PowerShell. Para obter detalhes, consulte <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando Servidor de Chat Persistente usando cmdlets do Windows PowerShell</a> na documentação de Implantação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Você também pode usar o cmdlets Windows PowerShell. Para obter detalhes, consulte <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando Servidor de Chat Persistente usando cmdlets do Windows PowerShell</a> na documentação de Implantação.
 
 3.  Na barra de navegação à esquerda, clique em **Chat Persistente** e, então, em **Categoria**.
     
@@ -57,19 +46,8 @@ As categorias de sala de bate-papo podem conter salas de bate-papo, mas nenhuma 
     
     4.  Para controlar o envio de arquivo nas salas de bate-papo pertencentes a esta categoria, selecione ou limpe a caixa de marcação **Ativar envio de arquivo**. Se selecionado, as salas desta categoria podem ativar ou desativar o envio de arquivos; se não marcado, as salas nesta categoria não podem ter arquivos enviados.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Esta configuração é reforçada no servidor porque aplicativos personalizados ou clientes Chat de Grupo anteriores que utilizam Office Communications Server 2007 R2Servidor de Chat de Grupo ou Lync Server 2010, Chat de Grupo podem postar arquivos para uma sala. O cliente Lync 2013 não tem a capacidade de envio/download de arquivo, então, caso você tenha uma implantação Lync 2013 pura ou cliente Lync 2013, não é possível postar arquivos em uma sala de bate-papo Servidor de Chat Persistente.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!IMPORTANT]  
+        > Esta configuração é reforçada no servidor porque aplicativos personalizados ou clientes Chat de Grupo anteriores que utilizam Office Communications Server 2007 R2Servidor de Chat de Grupo ou Lync Server 2010, Chat de Grupo podem postar arquivos para uma sala. O cliente Lync 2013 não tem a capacidade de envio/download de arquivo, então, caso você tenha uma implantação Lync 2013 pura ou cliente Lync 2013, não é possível postar arquivos em uma sala de bate-papo Servidor de Chat Persistente.    
     5.  Para controlar o histórico do bate-papo, selecione ou limpe a caixa de marcação **Ativar histórico de bate-papo**. Se selecionado, as salas de bate-papo se tornam persistentes; caso contrário, as mensagens de bate-papo não são persistentes. Se a conformidade estiver ativada, as salas de bate-papo serão salvas em conformidade, mas os usuários não poderão acessar mensagens antigas. Essa opção pode ser utilizada para salas designadas para colaborações em tempo real e ad hoc que não precisam do histórico de bate-papo persistente.
 
 7.  Em **Editar categoria**, faça o seguinte:

@@ -33,37 +33,15 @@ Verifique as configurações a seguir na sua política de conferência:
     
     Exemplo: se você especificar 2000 kbps, então Lync Server poderá enviar 2000 kbps para o fluxo de vídeo principal e 2000 kbps par ao fluxo de vídeo panorâmico.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A largura de banda de rede de vídeo máxima para um ponto de extremidade Lync 2013 é de 8000 kbps para o vídeo principal e 2500 kbps para o vídeo panorâmico. Esses valores máximos são alcançados apenas se vários vídeos são recebidos ou enviados. Para detalhes, consulte a seção &quot;Utilização de rede de tráfego de mídia&quot; em <a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013</a>. Essa seção lista a largura de banda máxima e típica para fluxo de vídeo para todas as resoluções suportadas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A largura de banda de rede de vídeo máxima para um ponto de extremidade Lync 2013 é de 8000 kbps para o vídeo principal e 2500 kbps para o vídeo panorâmico. Esses valores máximos são alcançados apenas se vários vídeos são recebidos ou enviados. Para detalhes, consulte a seção &quot;Utilização de rede de tráfego de mídia&quot; em <a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013</a>. Essa seção lista a largura de banda máxima e típica para fluxo de vídeo para todas as resoluções suportadas.
 
   - **TotalReceiveVideoBitRateKb**   Esta configuração, que é nova no Lync Server 2013, especifica o bitrate máximo permitido (em kilobits por segundo) para todos os fluxos de vídeo recebidos pelo cliente. Isto é, especifica o total combinado para todos os fluxos de vídeo, exceto fluxos de vídeo panorâmico, que o cliente pode receber. Por exemplo, se você especificar 1500 kbps, então um cliente poderá receber até 1500 kbps de vídeo, o que pode consistir de vários fluxos de vídeo ou um único fluxo. Essa configuração aplica-se apenas a clientes Lync Server 2013.
     
     O valor padrão para **TotalReceiveVideoBitRateKb** é 50000 kbps. Se a configuração **EnableMultiviewJoin** para o Modo de exibiçãod e Galeria estiver definido como Verdadeiro, **TotalReceiveVideoBitRateKb** não deverá ser definido em menos de 420 kbps. Se a configuração **EnableMultiviewJoin** para o Modo de exibição de Galeria for definido como Falso, **TotalReceiveVideoBitRateKb** não deverá ser definido para menos de 100 kbps. Se **EnableMultiviewJoin** estiver definido como Verdadeiro e você define o valor para abaixo de 420 kbps, os valores se tornarão padrão para o valor limite. Esse limiar ajuda a evitar uma desconfiguração acidental que pode resultar de uma experiência de usuário pobre.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>For details about the <strong>EnableMultiviewJoin</strong> setting, see <a href="lync-server-2013-configuring-gallery-view.md">Configurando o modo de exibição de galeria</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > For details about the <strong>EnableMultiviewJoin</strong> setting, see <a href="lync-server-2013-configuring-gallery-view.md">Configurando o modo de exibição de galeria</a>.
 
   - **MaxVideoConferencingResolution**   This parameter is no longer used for Lync Server 2013 clients in Lync Server 2013 conferences. Lync Server 2013 conferences use the bit rate controls described earlier in this section. This setting is still used for legacy clients joining a Lync Server 2013 conference. This parameter determines the maximum resolution allowed for legacy clients in conferences organized by users who are homed on Lync Server 2013. That is, legacy clients are treated the same as they were in previous versions of Lync Server or Office Communications Server.
 
@@ -79,19 +57,8 @@ Verify the following setting:
 
   - **MaxVideoRateAllowed**   This per-pool setting specifies the maximum rate at which video signals will be transferred at the client endpoints. It applies only to previous versions of Lync Server clients.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 clients ignore this setting and use the TotalReceiveVideoBitRateKb setting in conferencing policy instead.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Lync Server 2013 clients ignore this setting and use the TotalReceiveVideoBitRateKb setting in conferencing policy instead.    
     The default value is HD720P. Valid values are HD720p15M, VGA600K, and CIF250K.
     
     Example: If you specify 1500 kbps, then all the legacy clients in the pool can receive up to 1500 kbps of video in two-party or multiparty conferences.

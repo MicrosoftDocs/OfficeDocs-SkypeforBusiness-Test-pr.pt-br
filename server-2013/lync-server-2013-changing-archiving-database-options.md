@@ -27,19 +27,8 @@ Para fazer uma dessas alterações, é preciso executar o Construtor de Topologi
 
 1.  Em um computador que está executando o Lync Server 2013 ou no qual as ferramentas administrativas do Lync Server estejam instaladas, faça logon usando uma conta que seja membro do grupo de usuários local (ou uma conta com direitos de usuário equivalentes).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível definir uma topologia usando uma conta que seja membro do grupo de usuários local, mas para publicar uma topologia, o que é obrigatório para adicionar um componente à topologia, é preciso usar uma conta que seja membro do grupo de <strong>Admins. do domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong> e que tenha permissões totais de controle (isto é, ler, gravar e modificar) no compartilhamento de arquivos usado no armazenamento de arquivos do Lync Server 2013 (isto é, para que o Construtor de Topologias possa configurar as DCALs (listas de controle de acesso condicional)) ou uma conta com direitos equivalentes.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É possível definir uma topologia usando uma conta que seja membro do grupo de usuários local, mas para publicar uma topologia, o que é obrigatório para adicionar um componente à topologia, é preciso usar uma conta que seja membro do grupo de <strong>Admins. do domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong> e que tenha permissões totais de controle (isto é, ler, gravar e modificar) no compartilhamento de arquivos usado no armazenamento de arquivos do Lync Server 2013 (isto é, para que o Construtor de Topologias possa configurar as DCALs (listas de controle de acesso condicional)) ou uma conta com direitos equivalentes.
 
 2.  Inicie o Construtor de Topologias.
 
@@ -91,32 +80,10 @@ Para fazer uma dessas alterações, é preciso executar o Construtor de Topologi
     
       - Para alternar para a integração do Microsoft Exchange a fim de armazenar arquivos e dados de arquivamento nos servidores do Exchange 2013 (se todos os usuários de sua implantação estiverem hospedados nos servidores do Exchange 2013), exclua todas as informações dos bancos de dados de arquivamento.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se tiver qualquer usuário do Lync que não esteja hospedado nos servidores do Exchange 2013, não exclua as informações do armazenamento do SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Se tiver qualquer usuário do Lync que não esteja hospedado nos servidores do Exchange 2013, não exclua as informações do armazenamento do SQL Server.
 
 8.  Para salvar a configuração, clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As alterações feitas no Construtor de Topologias só terão efeito depois que a nova topologia for publicada. Para obter detalhes, consulte <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publicando a topologia atualizada para adicionar ao arquivamento de bancos de dados</a> na documentação de planejamento.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > As alterações feitas no Construtor de Topologias só terão efeito depois que a nova topologia for publicada. Para obter detalhes, consulte <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publicando a topologia atualizada para adicionar ao arquivamento de bancos de dados</a> na documentação de planejamento.

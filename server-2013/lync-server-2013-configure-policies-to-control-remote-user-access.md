@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controle de acesso de usuário remoto'
+title: "Lync Server 2013: config. políticas p/ controle de acesso de usuário remoto"
 TOCTitle: Configurar políticas para controle de acesso de usuário remoto
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398725(v=OCS.15)
@@ -17,35 +17,13 @@ _**Tópico modificado em:** 2012-10-18_
 
 Configure uma ou mais políticas de acesso de usuários externos para controlar se usuários remotos podem colaborar com usuários internos do Lync Server. Para controlar o acesso de usuários remotos, você pode configurar políticas no nível global, de site e de usuários. As políticas de site substituem a política global, enquanto as políticas de usuário substituem as políticas de site e as políticas globais. Para detalhes sobre os tipos de políticas que você pode configurar, consulte [Gerenciando de federação e acesso externo ao Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md). As definições de política do Lync Server que são aplicadas em um nível de política podem substituir definições que são aplicadas em outro nível de política. A precedência de política do Lync Server é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quão mais perto a definição de política está do objeto que ela está afetando, maior a influência que ela terá no objeto.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você pode configurar políticas para controlar o acesso de usuários remotos, mesmo se o acesso de usuários remotos não estiver habilitado para a sua organização. No entanto, as políticas configuradas entram em vigor somente quando o acesso de usuários remotos for habilitado para a sua organização. Para obter detalhes sobre como habilitar o acesso de usuários remotos, consulte <a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a>. Além disso, se você especificar uma política de usuário para controlar o acesso de usuários remotos, a política será aplicada somente a usuários que estiverem habilitados para o Lync Server e configurados para usar a política. Para detalhes sobre como especificar usuários que podem entrar no Lync Server a partir de locais remotos, consulte <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você pode configurar políticas para controlar o acesso de usuários remotos, mesmo se o acesso de usuários remotos não estiver habilitado para a sua organização. No entanto, as políticas configuradas entram em vigor somente quando o acesso de usuários remotos for habilitado para a sua organização. Para obter detalhes sobre como habilitar o acesso de usuários remotos, consulte <a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a>. Além disso, se você especificar uma política de usuário para controlar o acesso de usuários remotos, a política será aplicada somente a usuários que estiverem habilitados para o Lync Server e configurados para usar a política. Para detalhes sobre como especificar usuários que podem entrar no Lync Server a partir de locais remotos, consulte <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013</a>.
 
 Use o procedimento a seguir para configurar cada política de acesso externo que desejar usar para controlar o acesso de usuários remotos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este procedimento descreve como configurar uma política somente para permitir comunicações com usuários remotos, mas cada política configurada para suportar o acesso de usuários remotos pode configurar também o acesso de usuários federados e de usuários públicos. Para detalhes sobre como configurar políticas para oferecer suporte a usuários federados, consulte <a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configurar políticas para controlar acesso de usuário federado no Lync Server 2013</a>. Para detalhes sobre como configurar políticas para oferecer suporte a usuários públicos, consulte <a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar fornecedores SIP públicos federados no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Este procedimento descreve como configurar uma política somente para permitir comunicações com usuários remotos, mas cada política configurada para suportar o acesso de usuários remotos pode configurar também o acesso de usuários federados e de usuários públicos. Para detalhes sobre como configurar políticas para oferecer suporte a usuários federados, consulte <a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configurar políticas para controlar acesso de usuário federado no Lync Server 2013</a>. Para detalhes sobre como configurar políticas para oferecer suporte a usuários públicos, consulte <a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar fornecedores SIP públicos federados no Lync Server 2013</a>.
 
 ## Para configurar uma política de acesso externo para oferecer suporte ao acesso de usuários remotos
 

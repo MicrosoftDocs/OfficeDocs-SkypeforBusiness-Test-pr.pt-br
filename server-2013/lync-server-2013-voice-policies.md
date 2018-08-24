@@ -41,19 +41,8 @@ As seguintes etapas ajudam você a planejar as políticas de voz necessárias à
 
   - A **Política de voz de usuário** pode ser atribuída a usuários individuais, grupos ou objetos de contato. Essa á política de nível mais baixo. As políticas de voz de usuário podem ser implantadas a fim de habilitar recursos para determinados usuários ou grupos em um site, mas não para outros no mesmo site. Por exemplo, talvez você queira desabilitar a discagem de longa distância para alguns funcionários. Para o objetivo de atribuir uma política de voz, um objeto de contato é tratado como um usuário individual.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Recomendamos que você implante uma política de voz do usuário para os usuários do Enterprise Voice do site de filial, registrados com a implantação do site central ou para usuários registrados em um Aparelho de Filial Persistente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Recomendamos que você implante uma política de voz do usuário para os usuários do Enterprise Voice do site de filial, registrados com a implantação do site central ou para usuários registrados em um Aparelho de Filial Persistente.
 
   - **Política de voz de site** se aplica a todo um site, exceto para quaisquer usuários, grupos ou objetos de contato que recebam uma política de voz de usuário. Para definir uma política de voz de site, você precisa especificar o site ao qual a política será aplicada. Se uma política de voz de usuário não tiver sido atribuída, a política de voz de site será usada.
 
@@ -89,16 +78,5 @@ As seguintes etapas ajudam você a planejar as políticas de voz necessárias à
 
 Cada política de voz deve ter um ou mais registros de uso de PSTN associados. Os usos de PSTN podem ser associados a uma política de voz somente para toque simultâneo e encaminhamento de chamadas. Para obter detalhes sobre como planejar os registros de uso de PSTN, consulte [Registros de uso de PSTN no Lync Server 2013](lync-server-2013-pstn-usage-records.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A ordem de uso de PSTN é fundamental, pois ao se comparar usuários a rotas, a funcionalidade de roteamento de saída compara as utilizações de PSTN do início ao fim. Se o primeiro uso corresponder à rota da chamada, essa rota será usada. Caso contrário, a funcionalidade de roteamento de saída analisa o próximo uso de PSTN na lista e continua até que uma correspondência seja encontrada. De fato, os usos de PSTN subsequentes fornecem um backup se o primeiro da lista não estiver disponível.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A ordem de uso de PSTN é fundamental, pois ao se comparar usuários a rotas, a funcionalidade de roteamento de saída compara as utilizações de PSTN do início ao fim. Se o primeiro uso corresponder à rota da chamada, essa rota será usada. Caso contrário, a funcionalidade de roteamento de saída analisa o próximo uso de PSTN na lista e continua até que uma correspondência seja encontrada. De fato, os usos de PSTN subsequentes fornecem um backup se o primeiro da lista não estiver disponível.

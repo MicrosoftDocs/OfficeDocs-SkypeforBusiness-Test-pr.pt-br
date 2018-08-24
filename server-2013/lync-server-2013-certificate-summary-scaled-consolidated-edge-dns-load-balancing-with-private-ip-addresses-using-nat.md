@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT'
+title: "Res. de certif. - borda consol. em esc., balanc .carga DNS c/ end. IP priv.usando NAT"
 TOCTitle: Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT
 ms:assetid: 41677dbd-3d07-498a-8591-df255b606647
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425921(v=OCS.15)
@@ -19,19 +19,8 @@ O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros 
 
 O certificado atribuído às interfaces externas do Servidor de Borda foi solicitado pela autoridade de certificação pública (CA). As CAs públicas obtiveram êxito no fornecimento de certificados para os fins de Comunicações Unificadas que estão listados no artigo a seguir: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) Ao solicitar o certificado, é possível usar a solicitação do certificado gerada pelo Assistente de Implantação do Lync Server ou criar a solicitação manualmente ou através do processo fornecido pela CA pública. Ao atribuir o certificado, ele foi atribuído à interface do Serviço de Borda de Acesso, Serviço de Borda de Webconferência, e ao serviço de Autenticação de Áudio/Vídeo. O serviço de Autenticação de Áudio/Vídeo não deve ser confundido com o Serviço de Borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface interna do Servidor de Borda pode usar um certificado de uma CA interna (à sua organização) ou um certificado de uma CA pública. O certificado de interface interna usa apenas o SN e não precisa de entradas SAN nem as usa.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A tabela a seguir exibe uma segunda entrada SIP (sip.fabrikam.com) na lista de nomes alternativos de entidade como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo de entidade do certificado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A tabela a seguir exibe uma segunda entrada SIP (sip.fabrikam.com) na lista de nomes alternativos de entidade como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo de entidade do certificado.
 
 ## Borda consolidada dimensionada, DNS com carga balanceada com endereços IP privados usando NAT
 
@@ -58,12 +47,7 @@ O certificado atribuído às interfaces externas do Servidor de Borda foi solici
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. Além disso, para Servidores de Borda dimensionadas, a chave privada do certificado deve ser exportável e a chave privada e o certificado copiados para cada Servidor de Borda. O certificado é atribuído às interfaces de Borda externa para:</p>
-<ul>
-<li><p>Borda de Acesso</p></li>
-<li><p>Borda de Conferência</p></li>
-<li><p>Borda A/V</p></li>
-</ul>
+<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. Além disso, para Servidores de Borda dimensionadas, a chave privada do certificado deve ser exportável e a chave privada e o certificado copiados para cada Servidor de Borda. O certificado é atribuído às interfaces de Borda externa para:</p><ul><li><p>Borda de Acesso</p></li><li><p>Borda de Conferência</p></li><li><p>Borda A/V</p></li></ul>
 <p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
 </tr>
 <tr class="even">
@@ -101,12 +85,7 @@ O certificado atribuído às interfaces externas do Servidor de Borda foi solici
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. O certificado é atribuído às interfaces de Borda externa para:</p>
-<ul>
-<li><p>Borda de Acesso</p></li>
-<li><p>Borda de Conferência</p></li>
-<li><p>Borda A/V</p></li>
-</ul>
+<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. O certificado é atribuído às interfaces de Borda externa para:</p><ul><li><p>Borda de Acesso</p></li><li><p>Borda de Conferência</p></li><li><p>Borda A/V</p></li></ul>
 <p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
 </tr>
 </tbody>

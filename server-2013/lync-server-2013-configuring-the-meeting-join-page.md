@@ -53,7 +53,7 @@ Você pode modificar o comportamento da página de participação de reunião se
     
         Get-CsWebServiceConfiguration
 
-3.  Execute o comando a seguir, com os parâmetros definidos para Verdadeiro ou Falso, dependendo da sua preferência (para obter informações sobre os parâmetros do cmdlet, consulte [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) in the Shell de Gerenciamento do Lync Server 2013 documentation):
+3.  Execute o comando a seguir, com os parâmetros definidos para Verdadeiro ou Falso, dependendo da sua preferência (para obter informações sobre os parâmetros do cmdlet, consulte [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration) in the Shell de Gerenciamento do Lync Server 2013 documentation):
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ Você pode modificar o comportamento da página de participação de reunião se
 
 #### Outros Recursos
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

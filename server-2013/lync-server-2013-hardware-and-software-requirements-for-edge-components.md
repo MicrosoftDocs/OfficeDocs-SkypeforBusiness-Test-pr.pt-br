@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisitos de hardware e de software para componentes de borda'
+title: "Lync Server 2013: Requisitos de hardware e de software p/ componentes de borda"
 TOCTitle: Requisitos de hardware e de software para componentes de borda
 ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412931(v=OCS.15)

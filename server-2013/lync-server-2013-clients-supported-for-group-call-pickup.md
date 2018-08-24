@@ -23,19 +23,8 @@ Qualquer um dos seguintes clientes pode ser usado para atender chamadas aos memb
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os usuários podem usar qualquer um desses clientes para atender chamadas aos membros do recebimento de chamadas em grupo, mas eles deverão estar hospedados no pool do Lync Server 2013 com Atualizações cumulativas do Lync Server 2013: fevereiro de 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os usuários podem usar qualquer um desses clientes para atender chamadas aos membros do recebimento de chamadas em grupo, mas eles deverão estar hospedados no pool do Lync Server 2013 com Atualizações cumulativas do Lync Server 2013: fevereiro de 2013.
 
 Em Atualizações cumulativas do Lync Server 2013: fevereiro de 2013, os seguintes clientes e dispositivos não têm suporte para atender chamadas aos membros do recebimento de chamadas em grupo:
 

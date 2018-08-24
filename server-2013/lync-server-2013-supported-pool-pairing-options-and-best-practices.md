@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Opções e práticas recomendadas de emparelhamento de pool com suporte'
+title: "Lync Server 2013: Opções e práticas recomend. de empar. de pool com suporte"
 TOCTitle: Opções e práticas recomendadas de emparelhamento de pool com suporte
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204697(v=OCS.15)

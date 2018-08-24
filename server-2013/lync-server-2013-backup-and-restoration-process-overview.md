@@ -29,19 +29,8 @@ Em geral, o processo de restauração funciona da seguinte maneira:
 
   - Quando uma falha ou interrupção ocorre, você restaura os dados no local referenciado pelo **$Backup** para computadores novos ou limpos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Este processo de restauração não restaura os dados para um estado de servidor existente. Ou seja, esse processo exige que o servidor seja limpo ou novo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Este processo de restauração não restaura os dados para um estado de servidor existente. Ou seja, esse processo exige que o servidor seja limpo ou novo.
 
   - Para permitir que as informações de conferência e de usuário sejam recuperáveis após uma falha, você pode implementar uma topologia de recuperação pós-desastre com pools de Front-End emparelhados, como descrito em [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Além dessa opção, o Lync Server suporta somente o modelo de recuperação simples para seus bancos de dados. Com o modelo de recuperação simples, bancos de dados são recuperados até o ponto do último backup completo, o que significa que você não poderá restaurar um banco de dados até o ponto onde ocorreu a falha ou até um ponto específico no tempo. Para muitas organizações, o modelo de recuperação simples é ideal, porque o banco de dados back-end do Lync Server (RTCXDS.mdf) é na verdade menor que os arquivos de log de transação, e é significativamente menor que os arquivos de aplicativos de bancos de dados típicos de certas linhas de atuação comercial.
 
@@ -59,19 +48,8 @@ Se um servidor que estiver executando o Lync Server falhar, a recuperação incl
 
   - Em geral, se o servidor hospedar uma função de servidor, execute a Etapa 1 a 4 do Assistente de Implantação do Lync Server para instalar os arquivos de configuração local, instalar os componentes da função do servidor, atribuir certificados e iniciar os serviços.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se o servidor hospedar um banco de dados alinhado com a função de servidor, a execução da etapa 2 do Assistente de Implantação do Lync Server recriará o banco de dados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se o servidor hospedar um banco de dados alinhado com a função de servidor, a execução da etapa 2 do Assistente de Implantação do Lync Server recriará o banco de dados.
 
   - Se o servidor hospedou um banco de dados, restaure os dados do backup.
 

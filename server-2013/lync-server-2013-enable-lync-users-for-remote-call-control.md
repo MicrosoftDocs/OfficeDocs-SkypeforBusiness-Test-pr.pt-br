@@ -21,21 +21,8 @@ Se você prefere permitir que os usuários definam suas próprias configuraçõe
 
 Se você possui uma implantação do Communications Server 2007 R2 ou Communications Server 2007 existente, e os clientes do Communicator 2007 R2 e Communicator 2007continuarão a usar a Política de Grupo durante a migração lado a lado. No entanto, se você deseja que as configurações de política sejam transportadas para os clientes do Lync, é necessário definir a configuração de provisionamento em banda do Lync Server equivalente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para habilitar um usuário para o controle de chamada remota, um usuário deve ter um URI de linha e um URI do servidor de linha. Conforme descrito em <a href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Tarefas de implantação de controle de chamada remota no Lync Server 2013</a>, certifique-se de usar a sintaxe exigida pelo gateway para estas configurações.<br />
-Certifique-se de que o domínio no URI do servidor de linha é igual ao domínio de destino especificado no parâmetro MatchUri ao configurar um roteamento estático para o gateway.<br />
-O URI da linha especifica o número de telefone atribuído ao usuário no formato E.164, com o prefixo “TEL:” (por exemplo, tel:+14255550150). Se você deseja configurar um número de ramal, o formato é tel:+14255550150;ramal=111. Se você configurou anteriormente o URI da Linha do usuário e o valor não foi alterado, não é necessário especificar o URI da Linha ao habilitar o usuário para controle de chamada remota.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para habilitar um usuário para o controle de chamada remota, um usuário deve ter um URI de linha e um URI do servidor de linha. Conforme descrito em <a href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Tarefas de implantação de controle de chamada remota no Lync Server 2013</a>, certifique-se de usar a sintaxe exigida pelo gateway para estas configurações.<br />Certifique-se de que o domínio no URI do servidor de linha é igual ao domínio de destino especificado no parâmetro MatchUri ao configurar um roteamento estático para o gateway.<br />O URI da linha especifica o número de telefone atribuído ao usuário no formato E.164, com o prefixo “TEL:” (por exemplo, tel:+14255550150). Se você deseja configurar um número de ramal, o formato é tel:+14255550150;ramal=111. Se você configurou anteriormente o URI da Linha do usuário e o valor não foi alterado, não é necessário especificar o URI da Linha ao habilitar o usuário para controle de chamada remota.
 
 ## Para habilitar o controle de chamada remota para usuários habilitados em Lync utilizando o Shell de Gerenciamento
 

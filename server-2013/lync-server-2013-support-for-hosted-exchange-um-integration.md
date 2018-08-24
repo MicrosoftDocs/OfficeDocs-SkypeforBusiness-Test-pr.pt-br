@@ -27,19 +27,8 @@ Os modos a seguir são suportados:
 
   - **Modo misto**   Sua implantação do Lync Server 2013 tem algumas caixas postais hospedadas em servidores locais executando o Microsoft Exchange Server dentro de sua empresa e algumas caixas postais hospedadas em um data center do serviço Exchange hospedado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O modo misto pode ser usado como uma solução de transição durante a avaliação e migração em etapas de usuários para o UM do Exchange hospedado ou com uma solução permanente se você optar por manter os serviços do UM do Exchange de alguns usuários no local após a migração de outros.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O modo misto pode ser usado como uma solução de transição durante a avaliação e migração em etapas de usuários para o UM do Exchange hospedado ou com uma solução permanente se você optar por manter os serviços do UM do Exchange de alguns usuários no local após a migração de outros.
 
 Para integrar o Lync Server 2013 com o UM do Exchange, hospedado, é necessário configurar um *espaço de endereço SIP compartilhado* (também chamado de um *domínio dividido* ). Nessa configuração, o Lync Server 2013 e o provedor de serviço do UM do Exchange hospedado por terceiros podem acessar o mesmo espaço de endereço de domínio SIP. Para obter detalhes, consulte [Arquitetura de integração do UM do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) na documentação Planejamento.
 

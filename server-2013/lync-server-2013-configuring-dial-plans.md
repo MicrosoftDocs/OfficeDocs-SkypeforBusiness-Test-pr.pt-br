@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-22_
 
 Um plano de discagem do Lync Server 2013 é um conjunto nomeado de regras de normalização que convertem números de telefone de um local nomeado, usuário individual ou objeto de contato para fins de autorização telefônica e roteamento de chamada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes, consulte <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes, consulte <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Nesta seção
 

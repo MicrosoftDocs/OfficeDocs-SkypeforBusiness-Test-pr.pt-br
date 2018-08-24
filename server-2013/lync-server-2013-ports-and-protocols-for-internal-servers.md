@@ -17,35 +17,13 @@ _**Tópico modificado em:** 2016-04-06_
 
 Esta seção resume as portas e os protocolos usados por servidores, balanceadores de carga e clientes em uma implantação do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os clientes do Lync e do Communicator quando envolvidos em uma comunicação exclusiva, é geralmente referida como de ponto a ponto. Tecnicamente, os dois clientes estão se comunicando em uma conversa exclusiva, com a unidade de controle de multipontos de Mensagens Instantâneas (IMMCU) no meio. O IMMCU é um componente do Servidor Front-End. Colocar o IMMCU no fluxo de trabalho de comunicação necessário permite a gravação de detalhes da chamada e outros recursos que o Servidor Front-End habilita. A comunicação parte de uma porta de fonte dinâmica no cliente para a porta do Servidor Front-End TLS/TCP/5061 (pressupondo o uso da camada de segurança de transporte recomendada). Conforme projetada, a comunicação de ponto a ponto (assim como as IMs de várias partes) só é possível quando o Lync Server e o IMMCU estão ativos e disponíveis.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Os clientes do Lync e do Communicator quando envolvidos em uma comunicação exclusiva, é geralmente referida como de ponto a ponto. Tecnicamente, os dois clientes estão se comunicando em uma conversa exclusiva, com a unidade de controle de multipontos de Mensagens Instantâneas (IMMCU) no meio. O IMMCU é um componente do Servidor Front-End. Colocar o IMMCU no fluxo de trabalho de comunicação necessário permite a gravação de detalhes da chamada e outros recursos que o Servidor Front-End habilita. A comunicação parte de uma porta de fonte dinâmica no cliente para a porta do Servidor Front-End TLS/TCP/5061 (pressupondo o uso da camada de segurança de transporte recomendada). Conforme projetada, a comunicação de ponto a ponto (assim como as IMs de várias partes) só é possível quando o Lync Server e o IMMCU estão ativos e disponíveis.
 
 ## Detalhes de protocolo e porta
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Firewall do Windows precisa estar em execução antes de você iniciar os serviços do Lync Server em um servidor, pois é nesse momento que o Lync Server abre as portas necessárias no firewall.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Firewall do Windows precisa estar em execução antes de você iniciar os serviços do Lync Server em um servidor, pois é nesse momento que o Lync Server abre as portas necessárias no firewall.
 
 Para obter detalhes sobre a configuração do firewall para componentes de borda, consulte [Determinar firewall A/V externo e requisitos de porta para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
 
@@ -446,19 +424,8 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Alguns cenários de controle de chamada remota exigem uma conexão TCP entre o Servidor Front-End ou o Diretor e o PBX. Embora o Lync Server não use mais a porta TCP 5060, durante a implantação do controle de chamada remota você cria uma configuração de servidor confiável, que associa o FQDN do Servidor de linha RCC com a porta TCP que o Servidor Front-End ou o Diretor usará para se conectar ao sistema PBX. Para obter detalhes, consulte o cmdlet <strong>CsTrustedApplicationComputer</strong> na documentação do Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Alguns cenários de controle de chamada remota exigem uma conexão TCP entre o Servidor Front-End ou o Diretor e o PBX. Embora o Lync Server não use mais a porta TCP 5060, durante a implantação do controle de chamada remota você cria uma configuração de servidor confiável, que associa o FQDN do Servidor de linha RCC com a porta TCP que o Servidor Front-End ou o Diretor usará para se conectar ao sistema PBX. Para obter detalhes, consulte o cmdlet <strong>CsTrustedApplicationComputer</strong> na documentação do Shell de Gerenciamento do Lync Server.
 
 Para os seus pools que usam somente o balanceamento de carga de hardware (não o balanceamento de carga DNS), a tabela a seguir mostra as portas que precisam abrir os balanceadores de carga de hardware.
 
@@ -753,30 +720,8 @@ Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS tamb�
 
 **\*** Para configurar portas específicas para esses tipos de mídia, use o cmdlet CsConferencingConfiguration (parâmetros ClientMediaPortRangeEnabled, ClientMediaPort e ClientMediaPortRange).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os programas de configuração para clientes do Lync criam automaticamente as exceções de firewall necessárias para o sistema operacional no computador cliente.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Os programas de configuração para clientes do Lync criam automaticamente as exceções de firewall necessárias para o sistema operacional no computador cliente.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As portas usadas para acesso de usuário externo são necessárias para qualquer cenário no qual o cliente precisa atravessar o firewall da organização (por exemplo, quaisquer comunicações externas ou reuniões hospedadas por outras organizações).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> As portas usadas para acesso de usuário externo são necessárias para qualquer cenário no qual o cliente precisa atravessar o firewall da organização (por exemplo, quaisquer comunicações externas ou reuniões hospedadas por outras organizações).

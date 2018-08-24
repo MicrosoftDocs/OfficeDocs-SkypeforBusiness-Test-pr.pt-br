@@ -27,19 +27,8 @@ Para remover um Servidor de Arquivamento, você precisará alterar ou limpar a d
 
 4.  Se você tiver o Servidor de Filial Persistente associado, expanda **Sites de filiais**, expanda o nome do site da filial e expanda **Aparelhos de Filial Persistente**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Aparelhos de Filial Persistente</strong> na interface do usuário aplica-se ao Servidor de Filial Persistente e ao Aparelho de Filial Persistente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > <strong>Aparelhos de Filial Persistente</strong> na interface do usuário aplica-se ao Servidor de Filial Persistente e ao Aparelho de Filial Persistente.
 
 5.  Clique com o botão direito do mouse no pool, servidor ou dispositivo que está associado ao Servidor de Arquivamento, e clique em **Editar Propriedades**.
 

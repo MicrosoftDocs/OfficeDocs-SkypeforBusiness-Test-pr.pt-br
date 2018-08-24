@@ -23,19 +23,8 @@ Se você planeja configurar o Lync Server 2013 para IPv6, mantenha os seguintes 
 
   - Cada endereço IPv6 possui um escopo. Os três escopos que você pode usar para endereço IPv6 são endereços IPv6 globais (semelhante aos endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhante aos intervalos de endereço IPv4 provado) e endereços de link local IPv6 (semelhantes aos endereços IP privados automáticos no Windows Server para IPv4). Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O IPv6 é um tópico complexo e exige planejamento cuidadoso com sua equipe de rede e seu provedor Internet para ajudar a garantir que os endereços atribuídos ao nível Windows Server e ao nível Lync Server 2013 funcionem conforme esperado. Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O IPv6 é um tópico complexo e exige planejamento cuidadoso com sua equipe de rede e seu provedor Internet para ajudar a garantir que os endereços atribuídos ao nível Windows Server e ao nível Lync Server 2013 funcionem conforme esperado. Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento.
 
 ## Consulte Também
 

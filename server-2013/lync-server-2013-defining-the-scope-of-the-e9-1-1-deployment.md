@@ -35,19 +35,8 @@ Antes de configurar o Microsoft Lync Server 2013 para E9-1-1, é necessário pla
   - **Você habilitará o E9-1-1 para usuários trabalhando fora da rede?**  
     A aquisição automática de local fica disponível somente para clientes localizados dentro da rede da organização, portanto, sua organização precisa decidir se suportará chamadas de E9-1-1 feitas de clientes Lync no local. Por exemplo, você habilitará usuários para fazer chamadas de emergência se eles estiverem trabalhando de cada ou no local de um cliente? Se um cliente estiver localizado fora da rede empresarial, ele poderá ser configurado para solicitar ao usuário um local. No entanto, como esses locais fornecidos pelo usuário não podem ser pré-validados com base no MSAG (Catálogo de Endereços Principal), o despachante do provedor de serviços de emergência necessitarão confirmar a validade do local verbalmente com o chamador antes de rotear a chamada para o PSAP (ponto de atendimento público seguro).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Clientes Lync de usuários que se conectam à sua rede da organização utilizando o VPN podem escolher informações de endereço IP interno, mas como estes endereços não podem ser usados para identificar o local atual do usuário, é fundamental que as subredes VPN sejam excluídas do Serviço de Informações de Local.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Clientes Lync de usuários que se conectam à sua rede da organização utilizando o VPN podem escolher informações de endereço IP interno, mas como estes endereços não podem ser usados para identificar o local atual do usuário, é fundamental que as subredes VPN sejam excluídas do Serviço de Informações de Local.
 
 <!-- end list -->
 

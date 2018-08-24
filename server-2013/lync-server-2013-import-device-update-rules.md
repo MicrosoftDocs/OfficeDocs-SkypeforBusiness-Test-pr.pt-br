@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 As regras de atualização do dispositivo pode ser importadas somente usando o Windows PowerShell e o cmdlet **Import-CsDeviceUpdate**. Esse cmdlet pode ser executado no Shell de Gerenciamento do Lync Server 2013 ou a partir de uma sessão remota do Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
 
 
 ## Para importar as regras de atualização do dispositivo para um único servidor Web
@@ -44,7 +33,7 @@ As regras de atualização do dispositivo pode ser importadas somente usando o W
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-Para obter detalhes, consulte o tópico de Ajuda para o cmdlet [Import-CsDeviceUpdate](import-csdeviceupdate.md).
+Para obter detalhes, consulte o tópico de Ajuda para o cmdlet [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate).
 
 ## Consulte Também
 

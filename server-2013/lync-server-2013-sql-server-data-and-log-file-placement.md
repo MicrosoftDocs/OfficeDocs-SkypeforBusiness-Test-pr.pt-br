@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 Durante o planejamento e a implantação do Microsoft SQL Server 2012 ou do Microsoft SQL Server 2008 R2 SP1 para o seu Lync Server 2013  Pool de Front-Ends, uma importante consideração é a colocação de dados e de arquivos de log em discos rígidos físicos para obter desempenho. A configuração de disco recomendada é implementar o conjunto RAID 1+0 usando 6 eixos. Colocar todos os arquivos de banco de dados e de log que são usados pelo Pool de Front-Ends e as funções e serviços de servidor associados (isto é, Servidor de Arquivamento e Monitoramento, Serviço Grupo de Resposta do Lync Server, Serviço de Estacionamento de Chamada do Lync Server) no conjunto de unidade RAID utilizando o Assistente de Implantação do Lync Server resultará em uma configuração que foi testada para bom desempenho. Os arquivos de banco de dados e suas responsabilidades são detalhados na tabela seguinte.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se suas políticas e configurações do SQL Server precisarem de uma instalação especializada, os arquivos de banco de dados e de log podem ser instalados em qualquer local pré-definido usando o Shell de Gerenciamento do Lync Server. Consulte <a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server no Lync Server 2013</a> para obter mais detalhes.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se suas políticas e configurações do SQL Server precisarem de uma instalação especializada, os arquivos de banco de dados e de log podem ser instalados em qualquer local pré-definido usando o Shell de Gerenciamento do Lync Server. Consulte <a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server no Lync Server 2013</a> para obter mais detalhes.
 
 ### Arquivos de dados e de log para o Repositório de Gerenciamento Central
 

@@ -61,6 +61,6 @@ Você usa o **Test-CsMcxP2PIM** para testar o envio de mensagens instantâneas e
 
 #### Outros Recursos
 
-[Test-CsMcxP2PIM](test-csmcxp2pim.md)  
-[Test-CsUcwaConference](test-csucwaconference.md)
+[Test-CsMcxP2PIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM)  
+[Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference)
 

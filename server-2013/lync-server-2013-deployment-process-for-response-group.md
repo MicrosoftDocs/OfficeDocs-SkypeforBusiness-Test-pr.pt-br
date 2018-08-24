@@ -66,21 +66,11 @@ Esta seção fornece uma visão geral das etapas e fases envolvidas na implanta�
 </ol></li>
 <li><p>Opcionalmente, use o Shell de Gerenciamento do Lync Server para criar horas comerciais e feriados dos grupos de resposta predefinidos.</p></li>
 <li><p>Use o Ferramenta de Configuração de Grupo de Resposta ou Shell de Gerenciamento do Lync Server para criar fluxos de trabalho (fluxos de chamada coletivos ou de resposta de voz interativa (IVR)), incluindo o horário comercial e feriados do grupo de resposta personalizada.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É possível acessar o Ferramenta de Configuração de Grupo de Resposta através do Painel de Controle do Lync Server.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> É possível acessar o Ferramenta de Configuração de Grupo de Resposta através do Painel de Controle do Lync Server.
+
+</li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>

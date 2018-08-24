@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 Os tópicos desta seção apresentam procedimentos passo a passo para as tarefas que você pode realizar usando Painel de Controle do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não é possível usar o Painel de Controle do Lync Server para gerenciar os usuários que são membros do grupo Administradores de domínio do Active Directory. Para os usuários do grupo Administradores de domínio, você pode usar o Painel de Controle do Lync Server somente para executar operações de somente leitura e pesquisa. Para executar operações de gravação em usuários de Admins. do domínio (por exemplo, habilitar ou desabilitar para o Painel de Controle do Lync Server, alterar as atribuições de pool ou política, as configurações de telefonia, o endereço SIP), você deve usar cmdlets do Windows PowerShell enquanto estiver conectado como um usuário do grupo Administradores de domínio. Para obter detalhes sobre como usar os cmdlets do Windows PowerShell para gerenciar os usuários, consulte <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Não é possível usar o Painel de Controle do Lync Server para gerenciar os usuários que são membros do grupo Administradores de domínio do Active Directory. Para os usuários do grupo Administradores de domínio, você pode usar o Painel de Controle do Lync Server somente para executar operações de somente leitura e pesquisa. Para executar operações de gravação em usuários de Admins. do domínio (por exemplo, habilitar ou desabilitar para o Painel de Controle do Lync Server, alterar as atribuições de pool ou política, as configurações de telefonia, o endereço SIP), você deve usar cmdlets do Windows PowerShell enquanto estiver conectado como um usuário do grupo Administradores de domínio. Para obter detalhes sobre como usar os cmdlets do Windows PowerShell para gerenciar os usuários, consulte <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server</a>.
 
 Quando você executa qualquer tarefa administrativa do Lync Server 2013 que envolve pesquisar por um usuário ou a filtragem de resultados de pesquisa do usuário, há algumas propriedades de usuário que existem como atributos em Serviços de Domínio Active Directory, mas não são replicados no catálogo global até que o Microsoft Exchange Server é implantado. O Microsoft Exchange, não o Lync Server, marca os seguintes atributos para a duplicação do catálogo global quando ele é instalado:
 

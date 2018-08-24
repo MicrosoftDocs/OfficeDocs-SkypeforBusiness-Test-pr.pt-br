@@ -21,35 +21,13 @@ Os certificados necessários para dar suporte ao acesso de usuário externo incl
 
   - Os certificados necessários para a interface interna podem ser emitidos por uma AC pública ou uma AC corporativa interna. Recomendamos usar uma AC interna do Windows Server 2008, uma AC do Windows Server 2008 R2 ou AC do Windows Server 2012 ou do Windows Server 2012 R2 para criar esses certificados para economizar em despesas de certificados públicos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pode levar tempo para processar solicitações de certificados, especialmente as solicitações para ACs públicas; portanto, você deve solicitar os certificados para seus Servidores de Borda com antecedência suficiente para garantir que estejam disponíveis ao iniciar a implantação dos componentes do Servidor de Borda. Para obter um resumo dos requisitos de certificado para Servidores de Borda, consulte <a href="lync-server-2013-certificate-requirements-for-external-user-access.md">Requisitos de certificado para acesso do usuário externo no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Pode levar tempo para processar solicitações de certificados, especialmente as solicitações para ACs públicas; portanto, você deve solicitar os certificados para seus Servidores de Borda com antecedência suficiente para garantir que estejam disponíveis ao iniciar a implantação dos componentes do Servidor de Borda. Para obter um resumo dos requisitos de certificado para Servidores de Borda, consulte <a href="lync-server-2013-certificate-requirements-for-external-user-access.md">Requisitos de certificado para acesso do usuário externo no Lync Server 2013</a>.
 
 Embora você possa optar pelo uso de uma AC pública para o certificado da borda interna, é recomendável o uso de uma AC corporativa interna para os outros certificados, para minimizar o custo de certificados. Para um resumo das exigências de certificado do Servidores de Borda, consulte [Requisitos de certificado para acesso do usuário externo no Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao instalar um Servidor de Borda, a instalação inclui um assistente de certificado que facilita as tarefas de solicitação, atribuição e instalação de certificados, conforme descrito na seção <a href="lync-server-2013-set-up-edge-certificates.md">Configurar certificados de Borda para Lync Server 2013</a>. Se você deseja solicitar certificados antes de instalar um Servidor de Borda (por exemplo, para economizar tempo durante a implantação real dos componentes do Servidor de Borda), você pode fazê-lo usando servidores internos, desde que garanta que os certificados sejam exportáveis e contenham todos os nomes alternativos de entidade necessários. Esta documentação não fornece procedimentos para usar servidores internos para solicitar certificados.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Ao instalar um Servidor de Borda, a instalação inclui um assistente de certificado que facilita as tarefas de solicitação, atribuição e instalação de certificados, conforme descrito na seção <a href="lync-server-2013-set-up-edge-certificates.md">Configurar certificados de Borda para Lync Server 2013</a>. Se você deseja solicitar certificados antes de instalar um Servidor de Borda (por exemplo, para economizar tempo durante a implantação real dos componentes do Servidor de Borda), você pode fazê-lo usando servidores internos, desde que garanta que os certificados sejam exportáveis e contenham todos os nomes alternativos de entidade necessários. Esta documentação não fornece procedimentos para usar servidores internos para solicitar certificados.
 
 ## Solicitar certificados de uma AC pública
 

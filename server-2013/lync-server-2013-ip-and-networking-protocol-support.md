@@ -19,32 +19,10 @@ O Lync Server 2013 oferece suporte aos seguintes protocolos IP e de rede:
 
   - **Protocolos IP.**   O Lync Server 2013 oferece suporte para a versão IP 4 (IPv4) ou 6 (IPv6) da rede do servidor.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Lync Server 2013 pode funcionar em uma rede com pilha IP dupla habilitada.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O Lync Server 2013 pode funcionar em uma rede com pilha IP dupla habilitada.
 
   - **Protocolos de transporte SIP.**   Normalmente, o SIP pode usar pelo menos três tipos de transporte: o protocolo UDP (User Datagram Protocol), o protocolo TCP (Transmission Control Protocol) e o protocolo TLS (Transport Layer Security). Na configuração de transporte SIP padrão, o TLS ignora o TCP. O TLS é usado na rede do Lync Server 2013. Na borda da rede, o Lync Server 2013 pode interoperar sobre o TCP. O Lync Server 2013 não oferece suporte a UDP para transporte SIP porque não atende aos padrões mínimos de segurança, confiabilidade e escalabilidade de comunicações empresarial. Para obter mais detalhes, consulte o artigo do blog NextHop, "To UDP, or not to UDP, that is the question," em [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.

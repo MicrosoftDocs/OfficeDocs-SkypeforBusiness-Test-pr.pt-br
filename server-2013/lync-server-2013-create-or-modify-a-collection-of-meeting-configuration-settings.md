@@ -49,19 +49,8 @@ _**Tópico modificado em:** 2013-02-23_
     
       - Para personalizar o logotipo exibido no convite da reunião, em **URL do logotipo**, insira o local do logotipo.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O logotipo deve ser uma imagem GIF ou JPG com um tamanho de 188 por 30 pixels.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > O logotipo deve ser uma imagem GIF ou JPG com um tamanho de 188 por 30 pixels.    
       - Para personalizar o texto de ajuda exibido no convite da reunião, na **URL de ajuda**, insira o local do texto de ajuda.
     
       - Para personalizar o texto legal exibido no convite da reunião, na **URL do texto legal**, insira o local do logotipo.
@@ -108,5 +97,5 @@ As definições de configuração da reunião podem ser criadas (apenas no escop
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [New-CsMeetingConfiguration](new-csmeetingconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration).
 

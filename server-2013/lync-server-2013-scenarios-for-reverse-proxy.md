@@ -37,19 +37,8 @@ Ao planejar a implantação do Lync Server 2013, você mapeia os requisitos reai
 
 2.  Os serviços Web externos Lync Server 2013 (implantado no Servidor Front-End e/ou Diretor) esperam uma conexão de um proxy reverso na porta TCP 4443, e espera que tal conexão seja SSL/TLS.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As portas de escuta padrão sugeridas para os serviços Web externos são TCP 8080 par tráfego HTTP e TCP 4443 para tráfego HTTPS. O Construtor de Topologias oferece uma oportunidade de substituir os padrões e definir suas próprias portas para os serviços Web externos. É importante observar que o proxy reverso se comunica com os serviços Web externos, e os clientes externos se comunicam com o proxy reverso. O cliente externo se comunica com o proxy reverso na porta TCP 443, mas você pode redefinir qual porta o proxy reverso se comunica com os serviços Web externos ativos. As opções no Construtor de Topologias para substituir as portas de escuta padrão para os serviços Web permitem que você resolva conflitos de porta de escuta que podem surgir na sua infraestrutura.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > As portas de escuta padrão sugeridas para os serviços Web externos são TCP 8080 par tráfego HTTP e TCP 4443 para tráfego HTTPS. O Construtor de Topologias oferece uma oportunidade de substituir os padrões e definir suas próprias portas para os serviços Web externos. É importante observar que o proxy reverso se comunica com os serviços Web externos, e os clientes externos se comunicam com o proxy reverso. O cliente externo se comunica com o proxy reverso na porta TCP 443, mas você pode redefinir qual porta o proxy reverso se comunica com os serviços Web externos ativos. As opções no Construtor de Topologias para substituir as portas de escuta padrão para os serviços Web permitem que você resolva conflitos de porta de escuta que podem surgir na sua infraestrutura.
 
 3.  Os serviços Web externos Lync Server 2013 esperam um Host Header não modificado do cliente para identificar qual serviço e diretório de servidor da Web o cliente está tentando usar. Solicitações devem aparecer como se viessem do proxy reverso.
 
@@ -65,19 +54,8 @@ Ao planejar a implantação do Lync Server 2013, você mapeia os requisitos reai
     
       - O Servidor Office Web Apps, quando em conferência, é definido e configurado como parte da topologia Lync Server
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O Servidor Office Web Apps é um servidor de função separado e não está configurado como parte dos serviços Web externos. Esse servidor é publicado separadamente para acesso de cliente.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > O Servidor Office Web Apps é um servidor de função separado e não está configurado como parte dos serviços Web externos. Esse servidor é publicado separadamente para acesso de cliente.
 
 5.  Defina a ponte SSL para cada serviço. A porta externa TCP 443 é mapeada para a porta de serviços Web externos TCP 4443. Para HTTP não criptografado, a porta TCP 80 é mapeada para a porta TCP 8080 dos serviços Web externos
 

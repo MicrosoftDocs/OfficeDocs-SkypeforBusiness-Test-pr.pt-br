@@ -21,7 +21,7 @@ Todos esses cmdlets são emitidos por meio do Shell de Gerenciamento do Lync Ser
 
 ## Nesta seção
 
-  - [New-CsAddressBookConfiguration para Gerenciamento do catálogo de endereços](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [New-CsAddressBookConfiguration para Gerenciamento do catálogo de endereços](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
   - [Set-CsAddressBookConfiguration para Gerenciamento de catálogo de endereços](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Todos esses cmdlets são emitidos por meio do Shell de Gerenciamento do Lync Ser
 
   - [Get-CsService para gerenciamento de catálogo de endereços](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-CsWebServiceConfiguration para Gerenciamento de catálogo de endereços](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [New-CsWebServiceConfiguration para Gerenciamento de catálogo de endereços](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
   - [Get-CsWebServiceConfiguration para Gerenciamento de catálogo de endereços](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

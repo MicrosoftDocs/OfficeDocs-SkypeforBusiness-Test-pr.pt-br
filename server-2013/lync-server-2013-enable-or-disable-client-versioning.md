@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 As definições de configuração da versão do cliente são usadas para ativar ou desativar o controle da versão do cliente, seja globalmente ou para locais específicos.A configuração de versão de cliente global é instalada com Lync Server 2013 e é usada para ativar ou desativar o controle de versão de cliente para toda a implantação do servidor. Quando a configuração global é ativada, qualquer política de versão de cliente que você tenha terá efeito quando os usuários tentarem fazer logon. Você pode desativar a configuração de versão de cliente global se não quiser que nenhum controle de versão de cliente ocorra. Você pode ativar ou desativar a versão de cliente a partir do Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.
 
 ## Para ativar ou desativar a versão de cliente usando o Painel de Controle do Lync Server
 
@@ -61,5 +50,5 @@ Você pode ativar ou desativar a versão de cliente ao usar o cmdlet **Set-CsCli
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md). en-us
+Para obter detalhes, consulte o tópico de Ajuda do cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration). en-us
 

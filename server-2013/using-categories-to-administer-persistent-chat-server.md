@@ -17,37 +17,15 @@ _**Tópico modificado em:** 2013-10-01_
 
 Sua implantação do Servidor de Chat Persistente pode hospedar muitas salas de Chat Persistente. As salas de chat podem ser organizadas hierarquicamente em um conjunto de categorias no servidor. Cada sala de chat tem somente uma categoria pai, apesar de as categorias poderem ser aninhadas em outras categorias para formarem uma hierarquia de vários níveis. Essa organização cria uma estrutura útil para identificar conversas baseadas no objetivo comercial e facilita a administração delegada e o gerenciamento simplificado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Apesar de muitos dos recursos de gerenciamento das salas de chat estarem disponíveis em computadores executando o Chat Persistente (cliente do Lync) para o usuário, os Administradores do Chat Persistente (na função <strong>cspersistentchatadministrator</strong>) devem usar o Painel de Controle do Lync Server ou os cmdlets do Windows PowerShell para criar ou gerenciar categorias.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Apesar de muitos dos recursos de gerenciamento das salas de chat estarem disponíveis em computadores executando o Chat Persistente (cliente do Lync) para o usuário, os Administradores do Chat Persistente (na função <strong>cspersistentchatadministrator</strong>) devem usar o Painel de Controle do Lync Server ou os cmdlets do Windows PowerShell para criar ou gerenciar categorias.
 
 Os administradores do Chat Persistente usam o Painel de Controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar categorias e para projetar acesso para salas de chat de usuários em sua organização.
 
 Gerentes de sala do Chat Persistente, que possuem a capacidade de gerenciar uma ou mais salas de chat, podem usar o cliente do Lync para lançar um aplicativo da Web de gerenciamento de sala para criar e gerenciar salas (ou clientes podem criar soluções personalizadas e fluxos de trabalho a serem invocadas). Os administradores do Chat Persistente também podem usar o Painel de Controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar salas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Uma Chat Persistente sala não pode ter o mesmo nome de uma Chat Persistente categoria.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Uma Chat Persistente sala não pode ter o mesmo nome de uma Chat Persistente categoria.
 
 Os gerentes de sala de chat podem realizar alterações em todas as propriedades de sala de chat, exceto alterar a categoria da sala. Não podem ser restritos a realizar as seguintes ações:
 

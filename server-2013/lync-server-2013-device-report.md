@@ -159,19 +159,8 @@ Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamen
 
   - Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tenha em mente que os nomes dos dispositivos de captura podem não ser os mesmos caso esteja executando versões traduzidas do Lync Server 2013. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Tenha em mente que os nomes dos dispositivos de captura podem não ser os mesmos caso esteja executando versões traduzidas do Lync Server 2013. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.
 
 Muitas vezes você desejará este nível de detalhe; mas em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\\Data\\Devices\_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
 

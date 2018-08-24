@@ -75,19 +75,8 @@ Recomendamos criar uma nova política de conferência específica para grandes r
 
   - Defina a opção **EnableMultiviewJoin** para **Falso**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O suporte para grandes reuniões de 1.000 usuários no Lync Server 2013 exige a configuração <strong>AllowLargeMeetings</strong> na política de conferência para que o programador de encontro seja definido como verdadeiro. Quando essa configuração é definida como verdadeira, a experiência do Lync será otimizada para reuniões muito grandes quando os usuários ingressarem em tal reunião. Especificamente, em uma grande reunião, o Lync não mostrará a lista de participantes inicial ou atualizará a lista total de participantes da reunião, que é um gargalo de desempenho para o cliente e o Lync Server 2013. Em vez disso, o Lync exibirá apenas as informações sobre o usuário e a lista de apresentadores da reunião. O Lync ainda exibirá corretamente o número total de participantes disponíveis nas grandes reuniões.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O suporte para grandes reuniões de 1.000 usuários no Lync Server 2013 exige a configuração <strong>AllowLargeMeetings</strong> na política de conferência para que o programador de encontro seja definido como verdadeiro. Quando essa configuração é definida como verdadeira, a experiência do Lync será otimizada para reuniões muito grandes quando os usuários ingressarem em tal reunião. Especificamente, em uma grande reunião, o Lync não mostrará a lista de participantes inicial ou atualizará a lista total de participantes da reunião, que é um gargalo de desempenho para o cliente e o Lync Server 2013. Em vez disso, o Lync exibirá apenas as informações sobre o usuário e a lista de apresentadores da reunião. O Lync ainda exibirá corretamente o número total de participantes disponíveis nas grandes reuniões.
 
 Exceto pela configuração **Tamanho máximo das reuniões**, todas as outras configurações de política de conferência especificadas aqui são obrigatórias para desativar as capacidades de conferência que não são necessárias em grandes reuniões.
 

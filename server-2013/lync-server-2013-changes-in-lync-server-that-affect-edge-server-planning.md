@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Alterações no Lync Server que afetam o planejamento do Servidor de Borda'
+title: "Lync Server 2013: Alterações no Lync Server que afetam o planj. do Serv. de Borda"
 TOCTitle: Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204965(v=OCS.15)
@@ -27,33 +27,11 @@ Um novo requisito para oferecer suporte ao IPv6 no Lync Server 2013 é criar reg
 
 O Servidor de Borda introduz um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP (implantado em seus Servidores Front-End). Você pode implantar a federação XMPP como um componente opcional. Ao adicionar e configurar o proxy e o gateway XMPP, você pode permitir que seus usuários do Microsoft Lync 2013 adicionem contatos de parceiros XMPP para IM (mensagens instantâneas) e presença.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No momento, os serviços XMPP do Servidor de Borda só fornecem IM e presença entre clientes do Lync Server e contatos XMPP. Além disso, o XMPP é hospedado somente em um site.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> No momento, os serviços XMPP do Servidor de Borda só fornecem IM e presença entre clientes do Lync Server e contatos XMPP. Além disso, o XMPP é hospedado somente em um site.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.
 
 ## Suporte a certificados de autenticação servidor a servidor e autenticação de áudio/vídeo
 
@@ -63,14 +41,14 @@ Para a autenticação de áudio/vídeo, tokens são usados para autenticar solic
 
 A autenticação servidor a servidor é gerenciada por um certificado global que é solicitado e aplicado a todos os servidores da implantação. O certificado é responsável por autenticar servidores no Lync Server 2013, bem como realizar a autenticação no Exchange 2013 e no Microsoft SharePoint Server 2013. Para obter mais informações sobre como a autenticação servidor a servidor funciona, consulte [Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Uma diferença muito importante entre o processo de autenticação de áudio/vídeo e do processo de autenticação servidor a servidor é a vida útil da autenticação ou dos tokens. Para a autenticação de áudio/vídeo, a autenticação expira após oito horas. A autenticação servidor a servidor tem uma vida útil de 24 horas. Leve isso em consideração ao planejar o uso de cada tipo de certificado.
 
-Uma novidade no Lync Server 2013 é a capacidade de preparar certificados substitutos de autenticação de áudio/vídeo e autenticação servidor a servidor previamente à expiração do certificado atual. O novo certificado é então usado para gerar novos tokens ou novas solicitações de autenticação, mas mantém o certificado antigo para confirmar as sessões e autenticações atuais. Isso permite efetivamente impedir praticamente todas as falhas decorrentes da expiração de tokens ou certificados. Para obter detalhes sobre esse recurso e como configurá-lo, consulte [Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md).
+Uma novidade no Lync Server 2013 é a capacidade de preparar certificados substitutos de autenticação de áudio/vídeo e autenticação servidor a servidor previamente à expiração do certificado atual. O novo certificado é então usado para gerar novos tokens ou novas solicitações de autenticação, mas mantém o certificado antigo para confirmar as sessões e autenticações atuais. Isso permite efetivamente impedir praticamente todas as falhas decorrentes da expiração de tokens ou certificados. Para obter detalhes sobre esse recurso e como configurá-lo, consulte [Adaptando Certificados AV e OAuth Usando no Lync Server 2013 -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
 
 ## Menor dependência da afinidade com base em cookies
 
 Em versões anteriores do Lync Server e do Office Communications Server, a afinidade com base em cookies era usada pelos serviços Web para garantir que o estado da sessão do cliente e dos serviços Web fosse mantido. Os serviços Web do Lync Server 2013 usam um mecanismo de afinidade interno que elimina em grande parte a necessidade da afinidade com base em cookies.
 
 
-> [!WARNING]
+> [!WARNING]  
 > O cliente do Microsoft Lync 2010 Mobile ainda precisa usar a afinidade com base em cookies e ela precisará ser configurada até que todos os clientes sejam migrados para o futuro cliente do Microsoft Lync Mobile (a data do lançamento ainda não foi determinada).
 
 
@@ -85,19 +63,8 @@ O recurso Descoberta Automática do Lync Server 2013 permite que os clientes loc
 
 Introduzidos na atualização cumulativa do Lync Server 2010 de novembro de 2011, os serviços de mobilidade do Lync Server 2013 permitem que celulares que executam o Lync Mobile, dispositivos tablet que usam os sistemas Apple iOS, Android e Windows Phone com suporte ou dispositivos móveis Nokia realizem atividades como enviar e receber mensagens instantâneas ou exibir contatos e presença. Além disso, os dispositivos móveis oferecem suporte a alguns recursos do Enterprise Voice, como clicar para ingressar em uma conferência, Telefonar via Trabalho, acesso por único número, caixa postal e notificação de chamadas perdidas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os serviços de mobilidade usam o proxy reverso e os serviços publicados implantados em seus Servidores Front-End. Nenhuma alteração é necessária nos Servidores de Borda. No mínimo, você precisa de SIP/TCP/5061 de saída do servidor que executa o Serviço de Borda de Acesso do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os serviços de mobilidade usam o proxy reverso e os serviços publicados implantados em seus Servidores Front-End. Nenhuma alteração é necessária nos Servidores de Borda. No mínimo, você precisa de SIP/TCP/5061 de saída do servidor que executa o Serviço de Borda de Acesso do Lync Server.
 
 ## A função Diretor é opcional
 

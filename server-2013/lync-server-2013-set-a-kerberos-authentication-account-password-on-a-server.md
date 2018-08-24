@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar uma senha da conta de autenticação Kerberos authentication em um servidor'
+title: "Lync Server 2013: Config. uma senha da conta de autent. Kerberos em um servidor"
 TOCTitle: Configurar uma senha da conta de autenticação Kerberos authentication em um servidor
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398734(v=OCS.15)
@@ -35,29 +35,7 @@ Ao usar o cmdlet **Set-CsKerberosAccountPassword** para definir uma senha, o Ker
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você deve especificar o parâmetro UserAccount usando o formato Domínio\Usuário. O formato Usuário@Domínio.extensão não é compatível para referenciar os objetos computador criados para fins de autenticação Kerberos.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Depois de aplicar quaisquer alterações para a autenticação Kerberos, como adicionar ou remover uma conta, você deve executar o <strong>Enable-CsTopology</strong> a partir do prompt de comando do Shell de Gerenciamento do Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você deve especificar o parâmetro UserAccount usando o formato Domínio\Usuário. O formato Usuário@Domínio.extensão não é compatível para referenciar os objetos computador criados para fins de autenticação Kerberos.    
+    > [!IMPORTANT]  
+    > Depois de aplicar quaisquer alterações para a autenticação Kerberos, como adicionar ou remover uma conta, você deve executar o <strong>Enable-CsTopology</strong> a partir do prompt de comando do Shell de Gerenciamento do Lync Server.

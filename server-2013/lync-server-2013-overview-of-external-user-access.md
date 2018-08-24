@@ -21,19 +21,8 @@ Nesta documentação, usamos o termo *usuário externo* para definir uma grande 
 
   - **Usuário federados**   Usuários que têm uma conta com um cliente ou organização parceira de confiança, como Lync Server 2010, Lync Server 2013 ou Office Communications Server 2007 R2. Usuário federados podem também ser membros de organizações parceiras definidas, usando protocolo XMPP (extensible messaging and presence protocol) por meio de proxy XMPP no Servidor de Borda e gateway XMPP no Servidor Front-End ou pool. Uma relação de confiança definida, chamada federação, não está relacionada ou é dependente de uma relação de confiança do Serviços de Domínio Active Directory.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A data de fim de vida de junho de 2014 para o AOL e o Yahoo! foi anunciada. Para detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A data de fim de vida de junho de 2014 para o AOL e o Yahoo! foi anunciada. Para detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.
 
   - **Usuários de Conectividade pública de mensagens instantâneas**   Contatos que seus usuários estabelecem através de serviços de conectividade a redes públicas de IM (Windows Live, Yahoo\! e AOL).
 
@@ -61,16 +50,5 @@ Funções do Lync Server 2013 usadas para fornecer acesso externo:
 
 **Proxy Reverso**   Um proxy reverso é um termo geral para servidores especializados que publicam recursos disponíveis na rede interna e recuperam informações de clientes do recurso publicado. O Lync Server 2013 usa o proxy reverso para publicar uma série de recursos, como reuniões de conferência, locais de participação de conferência, o catálogo de endereços, expansão da lista de distribuição, download de conteúdo de encontro, atualização de dispositivo, serviços de mobilidade, etc. Um proxy reverso que pode atender aos requisitos de publicação dos locais de recursos necessários pode ser usado. O Microsoft Forefront Threat Management Gateway (TMG) 2010 é usado como exemplo para ilustrar as regras de publicação necessárias, mas o Forefront TMG 2010 não é obrigatório.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 suporta IPv4 e IPv6. O Windows Server 2008 R2, Windows Server 2012 e Windows Server 2012 R2 usam uma pilha dupla que pode usar tanto IPv4 quanto IPv6 ao mesmo tempo. Isso é importante, devido à natureza transitória de uma implantação mudando de IPv4 para IPv6. O IPv4 pode ser suportado em algumas áreas, onde em outras áreas da implantação, o IPv6 pode ser usado. Isso é importante especialmente onde implantações de Internet e internas estão em questão. Os clientes externos devem se comunicar através de um proxy reverso para usar serviços como mobilidade, reuniões, download de catálogo de endereços, etc. No momento, o Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 não suportam endereço IPv6, independentemente da versão do sistema operacional em que são implantados. Você deve planejar de acordo, em relação ao uso de IPv6 e IPv4, pois eles se relacionam a clientes externos.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Lync Server 2013 suporta IPv4 e IPv6. O Windows Server 2008 R2, Windows Server 2012 e Windows Server 2012 R2 usam uma pilha dupla que pode usar tanto IPv4 quanto IPv6 ao mesmo tempo. Isso é importante, devido à natureza transitória de uma implantação mudando de IPv4 para IPv6. O IPv4 pode ser suportado em algumas áreas, onde em outras áreas da implantação, o IPv6 pode ser usado. Isso é importante especialmente onde implantações de Internet e internas estão em questão. Os clientes externos devem se comunicar através de um proxy reverso para usar serviços como mobilidade, reuniões, download de catálogo de endereços, etc. No momento, o Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 não suportam endereço IPv6, independentemente da versão do sistema operacional em que são implantados. Você deve planejar de acordo, em relação ao uso de IPv6 e IPv4, pois eles se relacionam a clientes externos.

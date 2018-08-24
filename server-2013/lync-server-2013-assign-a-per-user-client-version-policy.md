@@ -48,7 +48,7 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
     4.  Dependendo da propriedade do usuário selecionada, insira o critério que deseja usar para filtrar os resultados de pesquisa digitando ou clicando na seta da lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
@@ -57,32 +57,21 @@ Para obter detalhes sobre a criação de políticas de versão do cliente por us
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja que a mesma política de versão do cliente por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
 7.  Em **Atribuir políticas**, em **Política de versão do cliente**, faça um dos seguintes:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.    
       - Permita que o Lync Server escolha automaticamente a política a nível global ou, se definida, a política a nível local ou a nível do pool.
     
       - Clique no nome de uma política de versão do cliente por usuário definida anteriormente na página **Política de versão do cliente**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
 
 
@@ -101,7 +90,7 @@ Também é possível atribuir políticas de versão do cliente específicas do u
 
 ## Para atribuir uma política de versão do cliente específica do usuário a vários usuários
 
-  - Este comando atribui a política de versão do cliente RedmondClientVersionPolicy a todos os usuários aos quais a política de voz RedmondVoicePolicy tiver sido anteriormente atribuída. Para obter mais informações sobre os parâmetros de filtro usados neste comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de versão do cliente RedmondClientVersionPolicy a todos os usuários aos quais a política de voz RedmondVoicePolicy tiver sido anteriormente atribuída. Para obter mais informações sobre os parâmetros de filtro usados neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -111,7 +100,7 @@ Também é possível atribuir políticas de versão do cliente específicas do u
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Para obter mais informações, consulte o tópico do cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Consulte Também
 

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-09-10_
 
 Aplicativo de Estacionamento de Chamada usa números de extensão na tabela de órbita de Estacionamento de Chamada para estacionamento de chamada. É necessário configurar a tabela de órbita Estacionamento de Chamada com intervalos de números de extensão reservados pela organização para chamadas estacionadas. Essas extensões precisam ser extensões virtuais (ou seja, extensões com nenhum usuário ou telefone atribuído a eles). Cada pool do Lync Server onde um aplicativo de Aplicativo de Estacionamento de Chamada é implantado e configurado pode ter um ou mais intervalos de órbita. Os intervalos de órbita devem ser exclusivos globalmente entre as implantações do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Marque a caixa de seleção <strong>Habilitar estacionamento de chamada</strong> na sua política de voz antes de usar o Estacionamento de Chamada. Por padrão, essa opção não está selecionada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Marque a caixa de seleção <strong>Habilitar estacionamento de chamada</strong> na sua política de voz antes de usar o Estacionamento de Chamada. Por padrão, essa opção não está selecionada.
 
 ## Nesta seção
 

@@ -119,16 +119,5 @@ Outro ponto importante a ser lembrado é que você pode ter um único certificad
         
         Onde “Thumbprint” é o thumbprint exibido para os certificados individuais emitidos recentemente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Observe que as Etapas 12 e 13 devem ser executadas somente se a conta que as executa tiver acesso à Autoridade de Certificação com permissões adequadas. Se você não conseguir fazer logon com uma conta com essas permissões ou se estiver usando uma Autoridade de Certificação pública ou remota para seus certificados, é necessário solicitá-las por meio do Assistente de Implantação do Lync Server, que foi mencionado no início deste artigo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Observe que as Etapas 12 e 13 devem ser executadas somente se a conta que as executa tiver acesso à Autoridade de Certificação com permissões adequadas. Se você não conseguir fazer logon com uma conta com essas permissões ou se estiver usando uma Autoridade de Certificação pública ou remota para seus certificados, é necessário solicitá-las por meio do Assistente de Implantação do Lync Server, que foi mencionado no início deste artigo.

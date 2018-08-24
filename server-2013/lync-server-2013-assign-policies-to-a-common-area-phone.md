@@ -30,11 +30,11 @@ Depois de criar sua política de telefones de área comum (para obter detalhes, 
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
-Para obter detalhes, consulte os tópicos da Ajuda para [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Para obter detalhes, consulte os tópicos da Ajuda para [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Consulte Também
 
 #### Outros Recursos
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

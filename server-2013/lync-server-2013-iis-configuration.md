@@ -19,19 +19,8 @@ Para concluir este procedimento com êxito, você deve estar conectado ao servid
 
 Antes de configurar e instalar o Servidor Front-End para Lync Server 2013, Standard Edition ou o primeiro Servidor Front-End em um pool, instale e configure a função de servidor e Serviços Web para IIS (Serviços de Informações da Internet).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sua organização exigir que o IIS e todos os serviços Web sejam colocados em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação para os arquivos do Lync Server 2013 na caixa de diálogo Configuração ao instalar inicialmente as ferramentas Administrativas do Lync Server 2013. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de Configuração nesse caminho, incluindo o OCSCore.msi, o restante dos arquivos do Lync Server 2013 serão implantados nessa unidade também. Para obter informações detalhadas, consulte <a href="lync-server-2013-install-lync-server-administrative-tools.md">Instalar ferramentas administrativas do Lync Server 2013</a>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager durante a instalação do IIS, consulte <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se sua organização exigir que o IIS e todos os serviços Web sejam colocados em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação para os arquivos do Lync Server 2013 na caixa de diálogo Configuração ao instalar inicialmente as ferramentas Administrativas do Lync Server 2013. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de Configuração nesse caminho, incluindo o OCSCore.msi, o restante dos arquivos do Lync Server 2013 serão implantados nessa unidade também. Para obter informações detalhadas, consulte <a href="lync-server-2013-install-lync-server-administrative-tools.md">Instalar ferramentas administrativas do Lync Server 2013</a>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager durante a instalação do IIS, consulte <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
 A tabela a seguir indica os serviços de função do IIS 7.5 necessário.
 
@@ -125,39 +114,20 @@ A tabela a seguir indica os serviços de função do IIS 7.5 necessário.
 
 No sistema operacional x64 do Windows Server 2008 R2 SP1, é possível usar o Windows PowerShell 2.0. Primeiro é necessário importar o módulo ServerManager e, em seguida, instalar a função e os serviços de função IIS 7.5.
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A autenticação anônima é instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte “Habilitar autenticação Anônima (IIS 7)“ em <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A autenticação anônima é instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte “Habilitar autenticação Anônima (IIS 7)“ em <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.
 
 A tabela a seguir indica os serviços de função IIS 8.0 e e IIS 8.5 para o Windows Server 2012 e Windows Server 2012 R2.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para o Windows Server 2012 e o Windows Server 2012 R2, o cmdlet Add-WindowsFeature foi substituído pelo cmdlet Install-WindowsFeature. Para obter detalhes, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para o Windows Server 2012 e o Windows Server 2012 R2, o cmdlet Add-WindowsFeature foi substituído pelo cmdlet Install-WindowsFeature. Para obter detalhes, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>.
 
 ### Serviços de função IIS 8.0 e IIS 8.5
 
@@ -331,23 +301,15 @@ A tabela a seguir indica os serviços de função IIS 8.0 e e IIS 8.5 para o Win
 
 No Windows Server 2012 e Windows Server 2012 R2, você pode usar o Windows PowerShell 3.0 para instalar os requisitos do IIS. Usando o módulo ServerManager no Windows PowerShell 3.0, digite:
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Novidade no Windows Server 2012 é o parâmetro -Origem que define onde a mídia de origem Windows Server 2012 pode ser encontrada. A mídia pode ser definida como unidade de DVD (por exemplo, D:\Sources\Sxs), ou como compartilhamento em rede para a qual os arquivos de mídia foram copiados (por exemplo, \\fileserver\windows2012\sources\Sxs).</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Novidade no Windows Server 2012 é o parâmetro -Origem que define onde a mídia de origem Windows Server 2012 pode ser encontrada. A mídia pode ser definida como unidade de DVD (por exemplo, D:\Sources\Sxs), ou como compartilhamento em rede para a qual os arquivos de mídia foram copiados (por exemplo, \\fileserver\windows2012\sources\Sxs).
 
 ## Consulte Também
 

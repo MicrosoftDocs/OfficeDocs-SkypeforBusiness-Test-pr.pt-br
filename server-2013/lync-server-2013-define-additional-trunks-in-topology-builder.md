@@ -21,33 +21,11 @@ Um tronco é uma conexão lógica entre uma Servidor de Mediação e um gateway 
 
 {FQDN da Servidor de Mediação, porta de escuta (TLS ou TCP) da Servidor de Mediação: FQDN e IP do gateway, porta de escuta do gateway}
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico presume que você configurou um gateway PSTN e tronco raiz com ao menos uma Servidor de Mediação colocada ou autônoma, ou pool, como descrito em <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir um gateway no Construtor de Topologia no Lync Server 2013</a>, na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Este tópico presume que você configurou um gateway PSTN e tronco raiz com ao menos uma Servidor de Mediação colocada ou autônoma, ou pool, como descrito em <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir um gateway no Construtor de Topologia no Lync Server 2013</a>, na documentação de Implantação.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico presume que você configurou ao menos um Pool de Front-Ends ou uma Servidor Standard Edition em ao menos um site central, como descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> e <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a>, na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Este tópico presume que você configurou ao menos um Pool de Front-Ends ou uma Servidor Standard Edition em ao menos um site central, como descrito em <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir e configurar um pool Front-End ou um servidor Standard Edition no Lync Server 2013</a> e <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a>, na documentação de Implantação.
 
 ## Para definir um tronco adicional entre uma Servidor de Mediação e um ponto de gateway
 
@@ -59,19 +37,8 @@ Um tronco é uma conexão lógica entre uma Servidor de Mediação e um gateway 
 
 3.  Em **Definir Novo Tronco** , especifique um nome amigável para identificar exclusivamente o tronco. Você não pode ter dois troncos com o mesmo nome.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Caso especifique TLS (Transport Layer Security) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto da Servidor de Mediação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Caso especifique TLS (Transport Layer Security) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto da Servidor de Mediação.
 
 4.  Sob **Gateway PSTN associado** , selecione o ponto de gateway PSTN para associar a este tronco.
     
@@ -81,50 +48,17 @@ Um tronco é uma conexão lógica entre uma Servidor de Mediação e um gateway 
 
 6.  Sob **Protocolo de Transporte SIP** , clique no tipo de transporte usado pelo ponto.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Por motivos de segurança, recomendamos que você implante um par para o Servidor de Mediação que possa usar o TLS.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Por motivos de segurança, recomendamos que você implante um par para o Servidor de Mediação que possa usar o TLS.
 
 7.  Sob **Servidor de Mediação Associado** , selecione o pool de Servidor de Mediação a ser associado ao tronco raiz deste ponto
 
 8.  Sob **Porta do Servidor de Mediação Associado** , digite a porta de escuta pela qual a Servidor de Mediação receberá mensagens SIP do ponto.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Com suporte a troncos múltiplos no Lync Server 2013, dois troncos com nomes de tronco diferentes podem ser configurados com o a mesma <strong>Porta de Servidor de Mediação Associado</strong> e <strong>Porta de escuta para gateway IP/PSTN</strong></td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Com suporte a troncos múltiplos no Lync Server 2013, mútiplas portas de sinalização SIP podem ser definidas na Servidor de Mediação para comunicação com múltiplos pontos. Ao definir um tronco, o número da <strong>Porta de Servidor de Mediação Associado</strong> deve estar dentro do intervalo de portas de escuta para o respectivo protocolo permitido pela Servidor de Mediação. Esse intervalo de portas é definida sob Lync Server 2013 e Pools do servidor de mediação. Clique com o botão direito no Pool do servidor de mediação, e selecione <strong>Editar Propriedades</strong> . Especifique o intervalo de portas no campo <strong>Portas de escuta</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Com suporte a troncos múltiplos no Lync Server 2013, dois troncos com nomes de tronco diferentes podem ser configurados com o a mesma <strong>Porta de Servidor de Mediação Associado</strong> e <strong>Porta de escuta para gateway IP/PSTN</strong>    
+    > [!NOTE]  
+    > Com suporte a troncos múltiplos no Lync Server 2013, mútiplas portas de sinalização SIP podem ser definidas na Servidor de Mediação para comunicação com múltiplos pontos. Ao definir um tronco, o número da <strong>Porta de Servidor de Mediação Associado</strong> deve estar dentro do intervalo de portas de escuta para o respectivo protocolo permitido pela Servidor de Mediação. Esse intervalo de portas é definida sob Lync Server 2013 e Pools do servidor de mediação. Clique com o botão direito no Pool do servidor de mediação, e selecione <strong>Editar Propriedades</strong> . Especifique o intervalo de portas no campo <strong>Portas de escuta</strong> .
 
 9.  Clique em **OK** .
 

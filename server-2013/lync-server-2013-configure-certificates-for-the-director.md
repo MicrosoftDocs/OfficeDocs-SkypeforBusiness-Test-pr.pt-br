@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2012-09-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao executar o Assistente de Certificado, certifique-se de que você está conectado usando uma conta que seja membro de um grupo ao qual tenham sido atribuídas as permissões apropriadas para o tipo de modelo de certificado que será utilizado. Por padrão, uma solicitação de certificado do Lync Server 2013 utilizará o modelo de certificado do Servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Ao executar o Assistente de Certificado, certifique-se de que você está conectado usando uma conta que seja membro de um grupo ao qual tenham sido atribuídas as permissões apropriadas para o tipo de modelo de certificado que será utilizado. Por padrão, uma solicitação de certificado do Lync Server 2013 utilizará o modelo de certificado do Servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.
 
 Cada Diretor exige um certificado padrão, um certificado da Web interno e um externo. Para obter detalhes sobre os requisitos de certificado para Diretores, consulte [Requisitos de certificado para servidores internos no Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md), na documentação de Planejamento.
 
@@ -57,19 +46,8 @@ Use o procedimento a seguir para configurar certificados de Diretor. Repita o pr
 
 11. Na página **Nome do assunto/Nomes alternativos do assunto**, clique em **Avançar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A lista de nomes alternativo de assunto deve conter o nome do computador no qual você está instalando o Diretor (se um único Diretor) ou o nome do pool de Diretores e os nomes de URL simples configurados para a organização.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A lista de nomes alternativo de assunto deve conter o nome do computador no qual você está instalando o Diretor (se um único Diretor) ou o nome do pool de Diretores e os nomes de URL simples configurados para a organização.
 
 12. Na página **Configuração de domínio SIP no SAN**, selecione **Domínios SIP configurados** para todos os domínios que você deseja que o Diretor trate e clique em **Avançar**.
 
@@ -83,19 +61,8 @@ Use o procedimento a seguir para configurar certificados de Diretor. Repita o pr
 
 17. Na página **Atribuição de certificado**, clique em **Avançar**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para exibir o certificado, clique duas vezes no certificado da lista.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para exibir o certificado, clique duas vezes no certificado da lista.
 
 18. Na página **Resumo da atribuição de certificado**, clique em **Avançar**.
 

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-01-30_
 
 Após você adicionar números de grupos de atendimento de chamadas à tabela de órbitas do estacionamento de chamadas, você pode atribuir os grupos a usuários. Utilize a ferramenta do kit de recursos de ativação de recurso de extensão secundário (SEFAUtil) para atribuir grupos de atendimento de chamadas a usuários.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Em uma implantação híbrida, não atribua um grupo de atendimento de chamadas a usuários hospedados online. Usuários hospedados online não podem participar de atendimento de chamadas em grupo. Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Em uma implantação híbrida, não atribua um grupo de atendimento de chamadas a usuários hospedados online. Usuários hospedados online não podem participar de atendimento de chamadas em grupo. Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.
 
 ## Para atribuir um grupo de atendimento de chamadas a um usuário
 

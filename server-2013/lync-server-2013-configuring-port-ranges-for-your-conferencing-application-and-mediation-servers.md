@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando intervalos de portas para seus servidores de medicação, aplicativos e sua conferência
-TOCTitle: Configurando intervalos de portas para seus servidores de medicação, aplicativos e sua conferência
+title: "Config. interv. de portas p/ seus servidores de medicação, apps e sua confer."
+TOCTitle: "Config. interv. de portas p/ seus servidores de medicação, apps e sua confer."
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 49306662
@@ -28,7 +28,7 @@ Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem em Mic
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
 
-> [!WARNING]
+> [!WARNING]  
 > Como você pode observar nos comandos precedentes, é atribuído a cada tipo de porta – áudio, vídeo e compartilhamento de aplicativo – dois valores separados de propriedade: a porta inicial e a contagem de porta. A porta inicial indica a primeira porta usada por essa modalidade; por exemplo, se a porta inicial de áudio é igual a 50000, significa que a primeira porta usada para o tráfego de áudio é a porta 50000. Se a porta de contagem de áudio é 2 (valor inválido, mas é usado aqui pelo seu valor ilustrativo), significa que apenas duas portas estão alocadas para o áudio. Se a primeira porta é a porta 50000 e há um total de duas portas, significa que a segunda porta será a porta 50001 (os intervalos de porta devem ser contíguos). Dessa forma, o intervalo de porta para áudio seria da porta 50000 até a 50001, ambas incluídas.<BR>Observe que o servidor de Aplicativo e o servidor de Mediação suportam QoS somente para áudio; você não precisa modificar as portas de vídeo ou as de compartilhamento de aplicativo nos seus servidores de Aplicativo ou de Mediação.
 
 

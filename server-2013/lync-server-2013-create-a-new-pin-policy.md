@@ -49,19 +49,8 @@ Siga estas etapas para criar uma política de PIN de nível de usuário ou de n�
 
 12. Para permitir padrões comuns de dígitos em PINs, como números sequenciais e conjuntos repetitivos de números, selecione a opção **Permitir padrões comuns**. Se esta opção não for selecionada, somente padrões complexos de dígitos são permitidos. Por padrão, somente padrões complexos de PINs são permitidos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É recomendável não permitir padrões comuns.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > É recomendável não permitir padrões comuns.
 
 13. Clique em **Confirmar**.
 

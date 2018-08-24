@@ -23,34 +23,11 @@ A figura a seguir representa a topologia de troncos SIP no Lync Server.
 
 Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a conectividade entre a rede corporativa e o provedor de serviços da rede de telefonia pública comutada (PSTN). O objetivo desta rede privada é fornecer conectividade IP, aprimorar a segurança e (opcionalmente) obter garantias de qualidade de serviços (QoS). Devido à natureza de uma VPN, não é necessário usar protocolo TLS para o tráfego de sinalização SIP ou SRTP para tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP básicas para SIP e RTP básico (via protocolo UDP) em mídia encapsulada através de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN possuem portas abertas para permitir a comunicação e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Entre em contato com seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, será necessário determinar os procedimentos para configurá-lo. Por exemplo, é necessário configurar somente um endereço IP e um tronco SIP em cada Servidor de Mediação ou vários troncos SIP em cada Servidor de Mediação?<br />
-Se houver vários site central, pergunte também se o provedor de serviço é capaz de habilitar conexões de e para outro site central.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Entre em contato com seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, será necessário determinar os procedimentos para configurá-lo. Por exemplo, é necessário configurar somente um endereço IP e um tronco SIP em cada Servidor de Mediação ou vários troncos SIP em cada Servidor de Mediação?<br />Se houver vários site central, pergunte também se o provedor de serviço é capaz de habilitar conexões de e para outro site central.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para troncos SIP, é altamente recomendável implantar o Servidor de Mediação autônomo. Para detalhes, consulte <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Implantando Servidores de Mediação e definindo pares no Lync Server 2013</a> na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para troncos SIP, é altamente recomendável implantar o Servidor de Mediação autônomo. Para detalhes, consulte <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Implantando Servidores de Mediação e definindo pares no Lync Server 2013</a> na documentação de Implantação.
 
 ## Como proteger o Servidor de Mediação para troncos SIP
 

@@ -25,33 +25,11 @@ Como parte da implantação do Enterprise Voice onfigure um tronco entre um Serv
 
 Para obter detalhes, consulte [Planejamento de conectividade de PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) na documentação de Planejamento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de iniciar a configuração de tronco, verifique se a topologia foi criada e se o Servidor de Mediação e seu par foram configurados e associados um ao outro, conforme descrito em <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir um gateway no Construtor de Topologia no Lync Server 2013</a> na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Antes de iniciar a configuração de tronco, verifique se a topologia foi criada e se o Servidor de Mediação e seu par foram configurados e associados um ao outro, conforme descrito em <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir um gateway no Construtor de Topologia no Lync Server 2013</a> na documentação de Implantação.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Como parte da configuração por tronco, você pode habilitar o recurso de desvio de mídia do Lync Server 2013, que permite que a mídia desvie para o Servidor de Mediação. Os troncos podem ser configurados com ou sem o desvio de mídia habilitado, mas recomendamos fortemente que você o habilite. Para obter detalhes, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planejamento de bypass de mídia no Lync Server 2013</a>, na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Como parte da configuração por tronco, você pode habilitar o recurso de desvio de mídia do Lync Server 2013, que permite que a mídia desvie para o Servidor de Mediação. Os troncos podem ser configurados com ou sem o desvio de mídia habilitado, mas recomendamos fortemente que você o habilite. Para obter detalhes, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planejamento de bypass de mídia no Lync Server 2013</a>, na documentação de Planejamento.
 
 ## Nesta seção
 

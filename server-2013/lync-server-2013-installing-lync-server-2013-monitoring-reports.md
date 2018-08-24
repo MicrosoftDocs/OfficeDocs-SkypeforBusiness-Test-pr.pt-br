@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 Os relatórios de monitoramento do Microsoft Lync Server 2013 fornecem diversas informações sobre a qualidade e quantidade de sessões de comunicação que ocorrem na organização. Porém, os relatórios de monitoramento não são instalados automaticamente quando você instala o Lync Server 2013; em vez disso, você deve instalar os relatórios de monitoramento separadamente, somente após a instalação do Lync Server no computador.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomenda-se a instalação dos relatórios de monitoramento no mesmo computador em que o banco de dados de monitoramento está instalado. Isso simplifica o processo de atribuição de permissões para acessar os relatórios: a com a instalação dos relatórios de monitoramento no computador que hospeda o repositório de monitoramento, você não precisará configurar permissões que permitam que um banco de dados em um computador interaja com os Reporting Services em execução em outro computador.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Recomenda-se a instalação dos relatórios de monitoramento no mesmo computador em que o banco de dados de monitoramento está instalado. Isso simplifica o processo de atribuição de permissões para acessar os relatórios: a com a instalação dos relatórios de monitoramento no computador que hospeda o repositório de monitoramento, você não precisará configurar permissões que permitam que um banco de dados em um computador interaja com os Reporting Services em execução em outro computador.
 
 Os relatórios de monitoramento do Lync Server incluem mais de 30 relatórios desenvolvidos para fornecer informações detalhadas sobre conferências, sessões de mensagens instantâneas ponto a ponto, registro de usuários, o aplicativo Grupo de Resposta e muito mais. Para a versão 2013, os relatórios de monitoramento do Lync Server incluem diversos aprimoramentos:
 
@@ -41,19 +30,8 @@ Os relatórios de monitoramento do Lync Server incluem mais de 30 relatórios de
 
 Encontre mais informações sobre os relatórios individuais na documentação dos relatórios de monitoramento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Há mais um novo relatório (sub-relatório de detalhes de chamada de QoE) que foi incluído no Lync Server 2013. Porém, seu uso é principalmente interno e o acesso a ele não pode ser feito diretamente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Há mais um novo relatório (sub-relatório de detalhes de chamada de QoE) que foi incluído no Lync Server 2013. Porém, seu uso é principalmente interno e o acesso a ele não pode ser feito diretamente.
 
 Há dois modos de instalar os relatórios de monitoramento do Lync Server, você pode usar o Assistente de Implantação do Lync Server ou um script do Windows PowerShell incluído nos arquivos de instalação do Lync Server 2013. Independente do método usado para instalar os relatórios, primeiro você deve certificar-se de:
 

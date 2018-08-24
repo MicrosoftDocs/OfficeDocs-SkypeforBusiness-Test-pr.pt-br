@@ -41,19 +41,8 @@ Além dos requisitos de webconferência e conferência A/V, a conferência disca
     
       - Controlador de Borda de Sessão (SBC) (para um provedor de serviços de telefonia pela Internet ao qual você se conecta configurando um tronco SIP)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você também está implantando o Enterprise Voice, o Servidor de Mediação e os gateways PSTN fazem parte da implantação do Enterprise Voice. Se você não está implantando o Enterprise Voice, é necessário implantar pelo menos um Servidor de Mediação e um gateway PSTN, IP-PBX ou SBC para conferências discadas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você também está implantando o Enterprise Voice, o Servidor de Mediação e os gateways PSTN fazem parte da implantação do Enterprise Voice. Se você não está implantando o Enterprise Voice, é necessário implantar pelo menos um Servidor de Mediação e um gateway PSTN, IP-PBX ou SBC para conferências discadas.
 
   - **Armazenamento de arquivos**   O armazenamento de arquivos é usado para arquivos de áudio de nomes gravados. O Armazenamento de arquivos de áudio de nomes é um componente padrão de todas as implantações de Enterprise Edition ou Standard Edition.
 
@@ -79,19 +68,8 @@ No Lync Server 2013, o servidor que executa os serviços de conferência é semp
 
 É possível implantar o Serviço de aplicativos, o Aplicativo Atendedor de Conferência e o Aplicativo Comunicado de Conferência em um local central, mas não no local da filial.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você implantar a conferência discada, deverá implantá-la em cada pool que você implantar a Conferência do Lync Server 2013. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Essa solicitação suporta o recurso de nome registrado quando um usuário faz uma chamada para um número de acesso de um pool para ingressar em uma conferência do Lync Server 2013 em um pool diferente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você implantar a conferência discada, deverá implantá-la em cada pool que você implantar a Conferência do Lync Server 2013. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Essa solicitação suporta o recurso de nome registrado quando um usuário faz uma chamada para um número de acesso de um pool para ingressar em uma conferência do Lync Server 2013 em um pool diferente.
 
 ## Topologias suportadas para Lync Server 2013 e Office Web Apps
 
@@ -111,16 +89,5 @@ Lync Server 2013 fornece as formas a seguir de configurar o Servidor Office Web 
 
 Independente da topologia selecionada, é fundamental que as portas de firewall certas estejam abertas. É necessário garantir que os nomes de DNS, endereços IP e portas não estejam bloqueados por firewalls no Servidor Office Web Apps, no balanceador de carga ou no Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Outra opção para fornecer acesso externo ao Servidor Office Web Apps é implantar o servidor em uma rede de perímetro. Se você optar por fazer isso, tenha em mente que a instalação do Servidor Office Web Apps requer que o computador servidor seja membro do seu domínio Active Directory. A menos que sua política de rede permita computadores na rede de perímetro como membros do domínio Active Directory, é recomendado não instalar Servidor Office Web Apps na rede de perímetro. Em vez disso, você deve instalar o Servidor Office Web Apps na rede interna e fornecer acesso ao usuário externo através do servidor de proxy reverso.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Outra opção para fornecer acesso externo ao Servidor Office Web Apps é implantar o servidor em uma rede de perímetro. Se você optar por fazer isso, tenha em mente que a instalação do Servidor Office Web Apps requer que o computador servidor seja membro do seu domínio Active Directory. A menos que sua política de rede permita computadores na rede de perímetro como membros do domínio Active Directory, é recomendado não instalar Servidor Office Web Apps na rede de perímetro. Em vez disso, você deve instalar o Servidor Office Web Apps na rede interna e fornecer acesso ao usuário externo através do servidor de proxy reverso.

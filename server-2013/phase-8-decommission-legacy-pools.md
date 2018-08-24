@@ -19,40 +19,22 @@ O tópico a seguir oferece diretrizes sobre a atualização de entradas DNS, mov
 
 Para uma cobertura mais abrangente sobre a remoção de servidores Lync Server 2010 e funções de servidores, e para ver um guia passo a passo sobre como encerrar uma implantação Lync Server 2010, consulte "Desinstalando o Microsoft Lync Server 2010 e removendo funções de servidor", disponível para download em [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter informações sobre como migrar e atualizar aplicativos Microsoft Unified Communications Managed API (UCMA), antes de encerrar o ambiente herdado, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Para obter informações sobre como migrar e atualizar aplicativos Microsoft Unified Communications Managed API (UCMA), antes de encerrar o ambiente herdado, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Nesta seção
 
-  -   
-    [Atualizar registros de DNS SRV](update-dns-srv-records.md)
+   [Atualizar registros de DNS SRV](update-dns-srv-records.md)
 
-  -   
-    [Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+   [Mover o Servidor de Gerenciamento Central do Lync Server 2010 para o Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [Mover Diretórios de Conferência](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+   [Mover Diretórios de Conferência](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [Remover a associação do servidor de Arquivamento](remove-the-archiving-server-association.md)
+   [Remover a associação do servidor de Arquivamento](remove-the-archiving-server-association.md)
 
-  -   
-    [Remover a associação do servidor de Monitoramento](remove-the-monitoring-server-association.md)
+   [Remover a associação do servidor de Monitoramento](remove-the-monitoring-server-association.md)
 
-  -   
-    [Remover o servidor de front-end do Enterprise Edition ou do Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+   [Remover o servidor de front-end do Enterprise Edition ou do Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [Remover instâncias SQL Server de bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+   [Remover instâncias SQL Server de bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

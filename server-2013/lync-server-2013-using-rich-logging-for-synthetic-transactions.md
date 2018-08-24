@@ -45,19 +45,8 @@ Os administradores têm a opção de incluir o parâmetro OutLoggerVariable segu
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não use o caractere $ como prefixo do nome da variável. Use um nome de variável como RegistrationTest e não $RegistrationTest.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Não use o caractere $ como prefixo do nome da variável. Use um nome de variável como RegistrationTest e não $RegistrationTest.
 
 O comando precedente produz um conteúdo semelhante ao seguinte:
 
@@ -79,16 +68,5 @@ Esses arquivos podem ser exibidos usando o Internet Explorer, o Visual Studio ou
 
 As transações sintéticas que são executadas de dentro do System Center Operations Manager gerarão automaticamente esses arquivos de log de falhas. No entanto, esses logs não serão gerados se a execução falhar antes que o Windows PowerShell possa carregar e executar a transação assimétrica.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, o Lync Server 2013 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esse logs prontamente acessíveis, é preciso compartilhar essa pasta (por exemplo, \\atl-watcher-001.litwareinc.com\WatcherNode).</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Por padrão, o Lync Server 2013 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esse logs prontamente acessíveis, é preciso compartilhar essa pasta (por exemplo, \\atl-watcher-001.litwareinc.com\WatcherNode).

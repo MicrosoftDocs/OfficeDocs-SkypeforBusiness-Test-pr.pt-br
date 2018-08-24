@@ -37,19 +37,8 @@ Ao definir a configuração do servidor Standard Edition, Pool de Front-Ends, Di
 
 6.  Clique com o botão direito em **Lync Server 2013** e clique em **Publicar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Após a publicação concluir com sucesso, um link pode ser apresentado informando que existem etapas adicionais que precisam ser realizadas. O link, se clicado, abre uma lista de servidores afetados pelas alterações realizadas no Construtor de Topologias que exigem a nova execução do Assistente de Implantação do Lync Server em cada servidor listado para atualizar a configuração de componentes adicionados, removidos ou alterados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Após a publicação concluir com sucesso, um link pode ser apresentado informando que existem etapas adicionais que precisam ser realizadas. O link, se clicado, abre uma lista de servidores afetados pelas alterações realizadas no Construtor de Topologias que exigem a nova execução do Assistente de Implantação do Lync Server em cada servidor listado para atualizar a configuração de componentes adicionados, removidos ou alterados.
 
 7.  Repita essas etapas para cada servidor Standard Edition, Pool de Front-Ends, Diretor ou Pool de diretores na organização.
 

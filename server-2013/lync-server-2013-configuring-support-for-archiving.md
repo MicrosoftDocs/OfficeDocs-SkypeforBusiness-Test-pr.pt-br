@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-01_
 
 Após adicionar o arquivamento à sua topologia e publicar a nova topologia, você precisa configurar opções de como o arquivamento é implementado inicialmente na sua implantação e, então configurar uma ou mais políticas de arquivamento para habilitar o arquivamento para a sua implantação e, opcionalmente, para sites e usuários específicos. Você pode utilizar o Painel de Controle do Lync Server 2013 para fazer isso.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Após a implementação, você pode alterar as configurações de arquivamento para desabilitar e habilitar o arquivamento. Para obter detalhes sobre como implementar o suporte ao arquivamento para gerenciamento diário ou para atender aos novos requisitos na sua organização após a implantação, consulte <a href="lync-server-2013-managing-archiving.md">Gerenciando Arquivamento do Lync Server 2013</a> na Documentação de operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Após a implementação, você pode alterar as configurações de arquivamento para desabilitar e habilitar o arquivamento. Para obter detalhes sobre como implementar o suporte ao arquivamento para gerenciamento diário ou para atender aos novos requisitos na sua organização após a implantação, consulte <a href="lync-server-2013-managing-archiving.md">Gerenciando Arquivamento do Lync Server 2013</a> na Documentação de operações.
 
 ## Nesta seção
 

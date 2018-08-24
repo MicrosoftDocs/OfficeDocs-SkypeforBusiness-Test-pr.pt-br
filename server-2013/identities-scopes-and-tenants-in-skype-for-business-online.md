@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2015-06-22_
 
-Muitos dos cmdlets do Windows PowerShell usados para gerenciar o Skype for Business Online exigem que você seja muito específico sobre o item que você está tentando gerenciar. Por exemplo, quando você executa o cmdlet [Set-CsUserAcp](set-csuseracp.md), deve indicar qual usuário você está tentando gerenciar. Isso faz sentido. A menos que você diga especificamente ao cmdlet qual conta de usuário gerenciar, o cmdlet **Set-CsUserAcp** não tem ideia de qual informação de audioconferência do usuário deve ser modificada. Por esse motivo, cada vez que você executar o cmdlet **Set-CsUserAcp**, precisará incluir o parâmetro Identity, seguido da Identidade da conta do usuário a ser modificada:
+Muitos dos cmdlets do Windows PowerShell usados para gerenciar o Skype for Business Online exigem que você seja muito específico sobre o item que você está tentando gerenciar. Por exemplo, quando você executa o cmdlet [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), deve indicar qual usuário você está tentando gerenciar. Isso faz sentido. A menos que você diga especificamente ao cmdlet qual conta de usuário gerenciar, o cmdlet **Set-CsUserAcp** não tem ideia de qual informação de audioconferência do usuário deve ser modificada. Por esse motivo, cada vez que você executar o cmdlet **Set-CsUserAcp**, precisará incluir o parâmetro Identity, seguido da Identidade da conta do usuário a ser modificada:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,23 +67,12 @@ Você pode também ter dois usuários: João Casqueiro e Paula Bento. João Casq
 
 Como você pode ver, João Casqueiro tem permissão para se comunicar com provedores públicos de mensagens instantâneas porque as configurações da política por usuário atribuída a ele substituem as configurações da política global. Paula Bento não pode se comunicar com provedores públicos de mensagens instantâneas porque é gerenciada pela política global, que proíbe tais comunicações.
 
-As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
+As políticas por usuário devem ser criadas para você pelo Suporte do Office 365. Depois que as políticas são criadas, é possível atribuí-las aos usuários usando o cmdlet **Grant-Cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). As políticas por usuário são fáceis de identificar porque a Identidade da política sempre começa com a marca **prefix**. Por exemplo:
 
     Identity : tag:AllowPublicIMCommunication
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A marca <strong>prefix</strong> já existia nos primórdios do desenvolvimento do Lync Server 2010. Nessa época, as políticas por usuário eram chamadas de <em>políticas de marca</em> e eram identificadas pela marca <strong>prefix</strong>. Essas políticas agora são chamadas mais precisamente de <em>políticas por usuário</em>, e o escopo de marca é chamado mais precisamente de <em>escopo por usuário</em>. Entretanto, por motivos técnicos, a marca <strong>prefix</strong> nunca foi mudada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A marca <strong>prefix</strong> já existia nos primórdios do desenvolvimento do Lync Server 2010. Nessa época, as políticas por usuário eram chamadas de <em>políticas de marca</em> e eram identificadas pela marca <strong>prefix</strong>. Essas políticas agora são chamadas mais precisamente de <em>políticas por usuário</em>, e o escopo de marca é chamado mais precisamente de <em>escopo por usuário</em>. Entretanto, por motivos técnicos, a marca <strong>prefix</strong> nunca foi mudada.
 
 Outro termo importante usado ao trabalhar com o Skype for Business Online e o Windows PowerShell é *locatário*. Quando você configura uma conta do Skype for Business Online, sua nova implantação recebe um número de ID de locatário, que é um identificador global exclusivo (GUID) como este:
 

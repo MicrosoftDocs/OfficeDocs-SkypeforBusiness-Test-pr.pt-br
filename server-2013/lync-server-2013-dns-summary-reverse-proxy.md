@@ -62,21 +62,11 @@ Você configura dois adaptadores de rede em seu proxy reverso como a seguir:
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
 <td><p>Serviços da Web externos para o Diretores ou pools do Diretor em sua implantação. É possível definir o máximo de Diretores possível que sejam Diretoresdistintos, nos quais podem ser associados com outros domínios SIP.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Definindo os registros DNS e publicando o Diretores não é o pool de Front-End ou a decisão do Diretor. Você deve definir e publicar o Diretor e os serviços da Web externos do Pool de Front-Ends se estiver usando o Diretores. Tipos de tráfego específicos (para autenticação e outras utilizações) serão enviados para o Diretor primeiro, se estiver definido na topologia.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!IMPORTANT]  
+> Definindo os registros DNS e publicando o Diretores não é o pool de Front-End ou a decisão do Diretor. Você deve definir e publicar o Diretor e os serviços da Web externos do Pool de Front-Ends se estiver usando o Diretores. Tipos de tráfego específicos (para autenticação e outras utilizações) serão enviados para o Diretor primeiro, se estiver definido na topologia.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>DNS/A externo</p></td>

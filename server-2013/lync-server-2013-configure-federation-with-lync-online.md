@@ -21,9 +21,12 @@ Siga as etapas nesta seção para configurar a interoperabilidade entre sua impl
 
 A federação permite que os usuários em sua implantação no local se comuniquem com usuários do Office 365 em sua organização. Para configurar a federação, execute o cmdlets a seguir:
 
+```
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
-
+```
+```
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
 
 ## Configurar seu locatário do Skype for Business Online para um espaço de endereço SIP compartilhado
 
@@ -39,21 +42,26 @@ Para estabelecer uma sessão remota do PowerShell com o Skype for Business Onlin
 
 Depois de instalar o módulo, você pode estabelecer uma sessão remota com os seguintes cmdlets:
 
+```
     Import-Module LyncOnlineConnector
-
+```
+```
     $cred = Get-Credential
-
+```
+```
     $CSSession = New-CsOnlineSession -Credential $cred
-
+```
+```
     Import-PSSession $CSSession -AllowClobber
+```
 
-Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [Conectando ao Lync Online Usando o Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
+Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [Conectando ao Lync Online Usando o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Para obter mais informações sobre como usar o módulo Skype for Business Online PowerShell, consulte [Usar o Windows PowerShell para gerenciar o Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+Para obter mais informações sobre como usar o módulo Skype for Business Online PowerShell, consulte [Usar o Windows PowerShell para gerenciar o Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 ## Consulte Também
 
 #### Outros Recursos
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

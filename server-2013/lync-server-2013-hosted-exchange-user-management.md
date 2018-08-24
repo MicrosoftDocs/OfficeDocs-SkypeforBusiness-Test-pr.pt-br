@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-03-09_
 
 Para fornecer serviços de caixa postal para os usuários do Lync Server 2013 cujas caixas postais estejam localizadas em um serviço do Exchange hospedado, você deve habilitar as contas de usuário para a caixa postal hospedada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de um usuário do Lync Server 2013 poder ser habilitado para caixa postal hospedada, é preciso implantar uma política de caixa postal hospedada que se aplica à conta de usuário correspondente. A política pode ser global, de site por usuário no escopo, contanto que se aplique ao usuário que você deseja habilitar. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Antes de um usuário do Lync Server 2013 poder ser habilitado para caixa postal hospedada, é preciso implantar uma política de caixa postal hospedada que se aplica à conta de usuário correspondente. A política pode ser global, de site por usuário no escopo, contanto que se aplique ao usuário que você deseja habilitar. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
 
 ## O atributo msExchUCVoiceMailSettings
 
@@ -79,20 +68,8 @@ Os pares de chave/valor do atributo e seus autores são exibidos na tabela a seg
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o atributo já tiver valores diferentes de um dos pares de chave/valor do Lync Server 2013 (CSHostedVoiceMail=0 ou CSHostedVoiceMail=1), um aviso indicará que o atributo pode ser gerenciado por um aplicativo diferente. Por exemplo, um aviso é exibido se o par de chave/valor ExchangeHostedVoiceMail=0 ou ExchangeHostedVoiceMail=1 já estiver presente. Nesse caso, é possível alterar o valor editando-o no Active Directory ou executar o seguinte cmdlet para definir o valor como nulo:<br />
-Set-CsUser -identity user -HostedVoicemail $null</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se o atributo já tiver valores diferentes de um dos pares de chave/valor do Lync Server 2013 (CSHostedVoiceMail=0 ou CSHostedVoiceMail=1), um aviso indicará que o atributo pode ser gerenciado por um aplicativo diferente. Por exemplo, um aviso é exibido se o par de chave/valor ExchangeHostedVoiceMail=0 ou ExchangeHostedVoiceMail=1 já estiver presente. Nesse caso, é possível alterar o valor editando-o no Active Directory ou executar o seguinte cmdlet para definir o valor como nulo:<br />Set-CsUser -identity user -HostedVoicemail $null
 
 ## Habilitando os usuários para caixa postal hospedada
 

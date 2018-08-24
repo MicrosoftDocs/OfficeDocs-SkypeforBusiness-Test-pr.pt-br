@@ -19,19 +19,8 @@ O Lync Server 2013Enterprise Voice exige que todas as cadeias de caracteres de d
 
 Executando a conversão da rota de saída no servidor, você pode reduzir os requisitos de configuração em cada par de tronco individual para converter os números de telefone em um formato de discagem. Ao planejar quais e quantos gateways serão associados a um determinado cluster do Servidor de Mediação, poderá ser útil para os pares de tronco de grupo com requisitos semelhantes de discagem. Isso pode reduzir o número de regras de conversão necessárias e o tempo necessário para gravá-las.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A associação de uma ou mais regras de conversão com a uma configuração de tronco do Enterprise Voice deve ser usada como uma alternativa para configurar regras de conversão no ponto de tronco. Não associe as regras de conversão a uma configuração de tronco do Enterprise Voice se você tiver configurado regras de conversão no par de tronco, porque as duas regras podem entrar em conflito.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> A associação de uma ou mais regras de conversão com a uma configuração de tronco do Enterprise Voice deve ser usada como uma alternativa para configurar regras de conversão no ponto de tronco. Não associe as regras de conversão a uma configuração de tronco do Enterprise Voice se você tiver configurado regras de conversão no par de tronco, porque as duas regras podem entrar em conflito.
 
 ## Exemplo de regras de conversão
 

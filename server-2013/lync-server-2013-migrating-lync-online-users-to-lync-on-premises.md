@@ -15,20 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Essas etapas são necessárias somente para migração de contas de usuários que foram originalmente habilitadas para Lync no Lync Online, antes de implantar o Lync local. Para mover os usuários que foram originalmente habilitados para Lync local e posteriormente movidos para o Lync Online, consulte <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrando usuários em uma implantação híbrida do Lync Server 2013</a>.<br />
-Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativo local.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Essas etapas são necessárias somente para migração de contas de usuários que foram originalmente habilitadas para Lync no Lync Online, antes de implantar o Lync local. Para mover os usuários que foram originalmente habilitados para Lync local e posteriormente movidos para o Lync Online, consulte <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administrando usuários em uma implantação híbrida do Lync Server 2013</a>.<br />Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativo local.
 
 ## Como migrar para o Lync local contas de usuários habilitadas originalmente no Lync Online
 
@@ -40,9 +28,12 @@ Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativ
     
       - Em suas implantações locais, no Shell de Gerenciamento do Lync Server, digite os cmdlets a seguir para criar o provedor de host para o Lync Online:
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
-            New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+    ```
+        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+    ```
+    ```        
+        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+    ```
 
 2.  Confirme se, nos Servidores de Borda locais, você possui a cadeia de certificados que possibilita a conexão ao Lync Online, conforme mostra a tabela a seguir. A tabela está disponível para download aqui: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -107,13 +98,18 @@ Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativ
     
     Para mover um único usuário, digite:
     
+    ```
         $cred = Get-Credential
-    
+    ```
+    ```    
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
     
     Você pode mover usuários únicos por meio do cmdlet **Get-CsUSer** com o parâmetro –Filtro para selecionar os usuários com determinada propriedade. Por exemplo, você pode selecionar todos os usuários do Lync Online filtrando por {Provedor de Hospedagem – eq “sipfed.online.lync.om”}. Em seguida, poderá canalizar os usuários retornados para o cmdlet **Move-CsUSer**, como mostra abaixo.
     
+    ```
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
+    ```
     
     O formato da URL específica para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL para o pool no qual o serviço de migração hospedada está sendo executado, no seguinte formato: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     
@@ -139,19 +135,8 @@ Além disso, todos os usuários que migrarem devem ter contas no Diretório Ativ
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O tamanho máximo padrão para arquivos de registro de transação do banco de dados rtcxds é 16 GB. Este tamanho pode não ser suficiente caso você esteja movendo uma grande quantidade de usuários de uma só vez, especialmente se o espelhamento estiver ativado. Para contornar a situação, aumente o tamanho de arquivo ou faça backup dos arquivos de registro regularmente. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O tamanho máximo padrão para arquivos de registro de transação do banco de dados rtcxds é 16 GB. Este tamanho pode não ser suficiente caso você esteja movendo uma grande quantidade de usuários de uma só vez, especialmente se o espelhamento estiver ativado. Para contornar a situação, aumente o tamanho de arquivo ou faça backup dos arquivos de registro regularmente. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
 
 8.  Esta etapa é opcional. Caso precise fazer a integração com o Exchange 2013 Online, será necessário utilizar um provedor de hospedagem adicional. Para obter mais detalhes, consulte [Configurando integração local do Lync Server 2013 com o Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 

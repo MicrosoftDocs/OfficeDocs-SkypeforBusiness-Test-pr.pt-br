@@ -29,19 +29,8 @@ Os requisitos de rede para o áudio/vídeo (A/V) em uma implementação do Lync 
 
   - Se estiver implantando um Servidor de Borda ou um Pool de borda único usando balanceamento de carga DNS, será possível configurar o firewall externo como NAT. Para obter detalhes sobre esses requisitos, consulte [Determinar firewall A/V externo e requisitos de porta para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) na documentação de planejamento.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se tiver um Pool de borda e estiver usando um balanceador de carga de hardware, será preciso usar endereços IP públicos em cada um dos Servidores de Borda e não será possível usar NAT para os servidores ou o pool em seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo da infraestrutura que faria o tráfego NAT de entrada ou saída). Para obter detalhes, consulte <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a> na documentação de planejamento de acesso de usuários externos.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Se tiver um Pool de borda e estiver usando um balanceador de carga de hardware, será preciso usar endereços IP públicos em cada um dos Servidores de Borda e não será possível usar NAT para os servidores ou o pool em seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo da infraestrutura que faria o tráfego NAT de entrada ou saída). Para obter detalhes, consulte <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a> na documentação de planejamento de acesso de usuários externos.
 
   - Caso sua organização use uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia estará projetado para operar dentro dessa infraestrutura existente.
 

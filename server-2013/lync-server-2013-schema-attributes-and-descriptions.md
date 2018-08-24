@@ -315,21 +315,11 @@ Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada
 <td><p>msRTCSIP-EnableBestEffortNotify (obsoleto)</p></td>
 <td><p>Este atributo controla se um servidor gera uma solicitação Best Effort NOTIFY (BENOTIFY), em vez de uma solicitação NOTIFY, em resposta a uma solicitação SUBSCRIBE de um cliente. BENOTIFY é uma extensão de aprimoramento de desempenho para o handshake da notificação de assinatura onde o servidor gera solicitações BENOTIFY, em vez de solicitações NOTIFY regulares. O benefício no desempenho é que uma solicitação BENOTIFY não requer uma resposta 200 OK do cliente, como a solicitação NOTIFY.</p>
 <p>Os valores válidos são <strong>TRUE</strong> ou <strong>FALSE</strong>.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Live Communications Server 2003 não é compatível com solicitações BENOTIFY. Para interoperar com aplicativos de servidor escritas com a API de servidor do Live Communications Server 2003 que está em execução no Live Communications Server 2005 e servidores de terceiros, solicitações BENOTIFY podem ser desabilitadas configurando seu valor como <strong>FALSE</strong>. BENOTIFY atualmente não é parte do processo de padronização SIP IETF (Internet Engineering Task Force).</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> O Live Communications Server 2003 não é compatível com solicitações BENOTIFY. Para interoperar com aplicativos de servidor escritas com a API de servidor do Live Communications Server 2003 que está em execução no Live Communications Server 2005 e servidores de terceiros, solicitações BENOTIFY podem ser desabilitadas configurando seu valor como <strong>FALSE</strong>. BENOTIFY atualmente não é parte do processo de padronização SIP IETF (Internet Engineering Task Force).
+
+</td>
 <td><p>Novo no Live Communications Server 2005.</p>
 <p>Obsoleto no Lync Server 2010.</p></td>
 </tr>
@@ -690,7 +680,7 @@ Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada
 <td><p>Este atributo é uma cadeia de caracteres Unicode de valor único. Esta cadeia de caracteres contém a definição da política no formato XML. A definição de esquema XML é comum entre diferentes tipos de política, apenas as configurações são diferentes para cada um deles.</p>
 <p>A definição de esquema XML (XSD) é definida da seguinte forma:</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-01_
 
 Esta seção guia você pela instalação do Lync Server 2013 e configuração das funções do servidor para o Servidor Standard Edition e o Pool de Front-Ends, incluindo o Servidores Front-End e qualquer função do servidor posicionados com o Servidores Front-End. Para instalar e configurar as funções do servidor, execute o Assistente de Implantação do Lync Server em cada computador no qual você está instalando uma função do servidor. Você usa o Assistente de Implantação para concluir todas as quatro etapas de implantação, incluindo a instalação do repositório de Configuração Local, instalando o Servidores Front-End, configurando certificados e iniciando serviços.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de poder configurar as funções de servidor, é necessário ter publicado com êxito uma topologia. Para obter detalhes sobre como publicar uma topologia, consulte <a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Concluindo e implementando o design da topologia no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Antes de poder configurar as funções de servidor, é necessário ter publicado com êxito uma topologia. Para obter detalhes sobre como publicar uma topologia, consulte <a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Concluindo e implementando o design da topologia no Lync Server 2013</a>.
 
 ## Nesta seção
 

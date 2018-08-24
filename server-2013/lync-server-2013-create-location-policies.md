@@ -100,19 +100,8 @@ Para obter detalhes sobre como trabalhar com políticas de localização, consul
 
 1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O CsLocationPolicy irá falhar se a configuração do <strong>PstnUsage</strong> ainda não estiver na lista Global de PstnUsages.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O CsLocationPolicy irá falhar se a configuração do <strong>PstnUsage</strong> ainda não estiver na lista Global de PstnUsages.
 
 2.  Opcionalmente, execute o seguinte cmdlet para editar a política de localização global:
     

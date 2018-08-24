@@ -19,19 +19,8 @@ O plano de backup e restauração para sua organização deve conter detalhes so
 
 Use as seguintes planilhas para registrar as informações necessárias para fazer backup e restaurar o banco de dados, Repositório de Arquivos e informações de configurações para um pool do Lync Server ou Servidor Standard Edition. Mantenha uma ou mais cópias dessas planilhas em um local seguro para que estejam prontamente acessíveis se você precisar restaurar o Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As planilhas desta seção abordam apenas as informações necessárias para restaurar os dados e as configurações de bancos de dados e servidores do Lync Server. Se você precisa documentar outras informações de restauração, como as informações para a reinstalação de sistemas operacionais e outros softwares, use planos de implantação e planos de backup e restauração da sua organização para abordar esses requisitos.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> As planilhas desta seção abordam apenas as informações necessárias para restaurar os dados e as configurações de bancos de dados e servidores do Lync Server. Se você precisa documentar outras informações de restauração, como as informações para a reinstalação de sistemas operacionais e outros softwares, use planos de implantação e planos de backup e restauração da sua organização para abordar esses requisitos.
 
 ## Planilha de restauração e backup do banco de dados
 

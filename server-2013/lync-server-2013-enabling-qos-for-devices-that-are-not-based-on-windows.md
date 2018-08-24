@@ -40,19 +40,8 @@ O comando anterior habilita o QoS no escopo global; no entanto, é importante ob
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não precisa habilitar o QoS no escopo local? Isto depende. As configurações atribuídas ao escopo local têm precedência sobre as configurações atribuídas para o escopo global. Suponha que você habilitou o QoS no escopo global, mas desabilitou no escopo local (para o local Redmond). Neste caso, a Qualidade do Serviço será desabilitada para o local Redmond. isto ocorre porque as configurações locais têm precedência. Para habilitar o QoS para o local Redmond, você precisará fazer isso usando as definições de configuração de mídia aplicada a este site.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você não precisa habilitar o QoS no escopo local? Isto depende. As configurações atribuídas ao escopo local têm precedência sobre as configurações atribuídas para o escopo global. Suponha que você habilitou o QoS no escopo global, mas desabilitou no escopo local (para o local Redmond). Neste caso, a Qualidade do Serviço será desabilitada para o local Redmond. isto ocorre porque as configurações locais têm precedência. Para habilitar o QoS para o local Redmond, você precisará fazer isso usando as definições de configuração de mídia aplicada a este site.
 
 Se você deseja habilitar simultaneamente o QoS para todas as suas definições de configuração de mídia (independente do escopo), execute este comando no Shell de Gerenciamento do Lync Server:
 

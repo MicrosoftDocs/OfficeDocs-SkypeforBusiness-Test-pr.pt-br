@@ -30,7 +30,7 @@ O Serviço de Log Centralizado é uma nova função em Lync Server 2013. É uma 
       - Use um .*provedor*local ou crie um novo provedor. Um *provedor* define o que será coletado pela sessão de registro em log, qual o detalhamento, quais componentes rastrear e quais o que sinalizadores são aplicados.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Se estiver familiarizado com OCSLogger, o termo <EM>provedores</EM> se refere à coleta de <STRONG>componentes</STRONG> (por exemplo, S4, SIPStack), um <STRONG>tipo de registro de log</STRONG> (por exemplo, WPP, EventLog ou IIS logfile), um <STRONG>nível de rastreamento</STRONG> (por exemplo, All, verbose, debug) e <STRONG>sinalizadores</STRONG> (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma Windows PowerShell variável) e repassados ao Serviço de Log Centralizado comando.
 
     

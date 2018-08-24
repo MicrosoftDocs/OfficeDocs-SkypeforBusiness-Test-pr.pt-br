@@ -19,19 +19,8 @@ Para implementar o tronco SIP, você deve rotear a conexão através de um Servi
 
 Cada Servidor de Mediação tem uma interface de rede interna e externa. A interface interna se conecta ao Servidores Front-End. A interface externa é normalmente chamada de interface gateway, pois tem sido usada tradicionalmente para conectar o Servidor de Mediação a um gateway PSTN ou a um IP-PBX. Para implementar um tronco SIP, conecte a interface externa do Servidor de Mediação ao componente de borda externa do ITSP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.
 
 Para obter detalhes sobre o Servidor de Mediação, consulte [Componente do Servidor de Mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md).
 
@@ -57,19 +46,8 @@ Dependendo do local geográficos dos sites e da quantidade de tráfego antecipad
 
 A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego site de filial é roteado sobre links WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, convém implantar um Servidor Standard Edition em um site de filial com federação para o site central o convém implantar um Aparelho de Filial Persistente ou Servidor de Filial Persistente com um pequeno gateway.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre o tronco SIP distribuído, consulte <a href="lync-server-2013-branch-site-sip-trunking.md">Tronco SIP do site da filial no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre o tronco SIP distribuído, consulte <a href="lync-server-2013-branch-site-sip-trunking.md">Tronco SIP do site da filial no Lync Server 2013</a>.
 
 ## Tipos de conexão de tronco SIP suportadas
 
@@ -97,19 +75,8 @@ A quantidade de largura de banda exigida pela sua implementação depende da cap
 
 Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 kbps + tamanho do cabeçalho)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O tamanho do cabeçalho é de 20 bytes no máximo.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O tamanho do cabeçalho é de 20 bytes no máximo.
 
 ## Suporte ao codec
 
@@ -125,16 +92,5 @@ Como você implementa o lado do provedor de serviço de uma conexão de tronco S
 
 Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve usar um provedor de serviço certificado pela Microsoft para garantir que seu ITSP suporte todas as funcionalidades que atravessam o tronco SIP (por exemplo, configurar e gerenciar sessões e suportar todos os serviços de VoIP estendido). O suporte técnico da Microsoft não estender as configurações que usam provedores não certificados. Se você atualmente usa um provedor de serviço Internet não certificado para tronco SIP, é possível optar por continuar usando este provedor como seu ISP e usar um provedor certificado pela Microsoft para tronco SIP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Você deve usar um provedor de serviço certificado pela Microsoft para garantir que seu ITSP suporte todas as funcionalidades que atravessam o tronco SIP (por exemplo, configurar e gerenciar sessões e suportar todos os serviços de VoIP estendido). O suporte técnico da Microsoft não estender as configurações que usam provedores não certificados. Se você atualmente usa um provedor de serviço Internet não certificado para tronco SIP, é possível optar por continuar usando este provedor como seu ISP e usar um provedor certificado pela Microsoft para tronco SIP.

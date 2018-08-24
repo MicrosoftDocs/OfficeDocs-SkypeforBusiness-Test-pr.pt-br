@@ -27,36 +27,13 @@ A instalação da versão mais recente do Servidor de Chat Persistente requer os
     
       - Serviço de conformidade, que é ativado quando a conformidade é habilitada
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No Lync Server 2013, os Serviços Web do Chat Persistente para Carregamento/Download de Arquivos foram colocados no Servidor Front-End do Lync Server 2013.<br />
-    Os Serviços Web do Chat Persistente para Gerenciamento de Salas de Chat também foram colocados no Servidor Front-End do Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > No Lync Server 2013, os Serviços Web do Chat Persistente para Carregamento/Download de Arquivos foram colocados no Servidor Front-End do Lync Server 2013.<br />    Os Serviços Web do Chat Persistente para Gerenciamento de Salas de Chat também foram colocados no Servidor Front-End do Lync Server 2013.
 
   - O(s) servidor(es) (mais de um servidor se o espelhamento for usado) que hospeda(m) o banco de dados Back-End do SQL Server para hospedagem do banco de dados de conteúdo do Chat Persistente em que o conteúdo das salas de chat, as salas e as categorias são armazenados.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O banco de dados Back-End armazena os dados de histórico do chat, incluindo informações sobre as categorias e as salas do Chat Persistente criadas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O banco de dados Back-End armazena os dados de histórico do chat, incluindo informações sobre as categorias e as salas do Chat Persistente criadas.
 
   - Se a conformidade estiver habilitada, o(s) servidor(es) (mais de um servidor se o espelhamento for usado) que hospeda(m) o banco de dados Back-End do SQL Server para hospedagem do banco de dados de conformidade do Chat Persistente em que os eventos de conformidade e conteúdo de chat para fins de conformidade são armazenados.
 
@@ -74,19 +51,8 @@ O Servidor de Chat Persistente pode ser implantado no Servidor Standard Edition.
 
 Para o Enterprise Edition do Lync Server 2013, os Servidores de Chat Persistente não podem ser colocados no Servidor Enterprise Edition. O banco de dados do SQL Server do Servidor de Chat Persistente pode ser colocado no banco de dados do Servidor Back-End de um Pool de Front-Ends do Enterprise Edition. O banco de dados do SQL Server da conformidade do Chat Persistente também pode ser colocado no banco de dados do Servidor Back-End de um pool de Enterprise Edition.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O servidor que hospeda o banco de dados do Chat Persistente pode hospedar outros bancos de dados. No entanto, ao considerar a colocação do banco de dados do Chat Persistente em outros bancos de dados, lembre-se de que, se você for armazenar mensagens de muitos usuários, o espaço em disco exigido pelo banco de dados do Chat Persistente poderá aumentar muito. Por esse motivo, recomendamos colocar o banco de dados do Chat Persistente no banco de dados Back-End.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O servidor que hospeda o banco de dados do Chat Persistente pode hospedar outros bancos de dados. No entanto, ao considerar a colocação do banco de dados do Chat Persistente em outros bancos de dados, lembre-se de que, se você for armazenar mensagens de muitos usuários, o espaço em disco exigido pelo banco de dados do Chat Persistente poderá aumentar muito. Por esse motivo, recomendamos colocar o banco de dados do Chat Persistente no banco de dados Back-End.
 
 Se você colocar o banco de dados do Chat Persistente no banco de dados Back-End, poderá usar uma única instância do SQL Server para todos os bancos de dados ou poderá usar uma instância separada do SQL Server para cada banco de dados, com a seguinte limitação:
 
@@ -108,37 +74,15 @@ O Servidor de Chat Persistente oferece suporte às seguintes topologias:
 
 Você pode adicionar o Servidor de Chat Persistente à sua implantação do Lync Server 2013 usando o Construtor de Topologias. Você pode adicionar um Pool de Servidor de Chat Persistente de um único servidor ou de vários servidores à sua topologia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Depois que você criar um Pool de Servidor de Chat Persistente com um único servidor usando o Construtor de Topologias, não poderá adicionar mais servidores ao pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Depois que você criar um Pool de Servidor de Chat Persistente com um único servidor usando o Construtor de Topologias, não poderá adicionar mais servidores ao pool.
 
 ## Topologia de servidor único
 
 A configuração mínima e a implantação mais simples do Servidor de Chat Persistente é a topologia de Servidor Front-End do Servidor de Chat Persistente único. Essa implantação requer um único servidor que executa o Servidor de Chat Persistente (que opcionalmente executa o serviço de conformidade, se a conformidade estiver habilitada), um servidor que hospeda o banco de dados do SQL Server e, se a conformidade for necessária, o banco de dados do SQL Server para armazenar os dados de conformidade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não pode adicionar mais servidores a um Pool de Servidor de Chat Persistente que começou como uma implantação de um único servidor no Construtor de Topologias. Recomendamos usar a topologia de pool de vários servidores, mesmo se você for usar um único servidor, para que possa adicionar mais servidores no futuro se for necessário.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Você não pode adicionar mais servidores a um Pool de Servidor de Chat Persistente que começou como uma implantação de um único servidor no Construtor de Topologias. Recomendamos usar a topologia de pool de vários servidores, mesmo se você for usar um único servidor, para que possa adicionar mais servidores no futuro se for necessário.
 
 A figura a seguir mostra todos os componentes obrigatórios e opcionais de uma topologia de um Servidor Front-End do Servidor de Chat Persistente único com conformidade.
 

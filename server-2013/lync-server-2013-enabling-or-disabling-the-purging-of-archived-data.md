@@ -23,20 +23,8 @@ No Painel de Controle do Lync Server 2013, você usa as configurações de Arqui
 
 Você define inicialmente as configurações de Arquivamento ao implantar o Arquivamento, mas pode alterar, adicionar e excluir configurações após a implantação. Para obter detalhes sobre como as configurações de Arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia das configurações de Arquivamento, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, Implantação e Operação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para usar o arquivamento de usuários hospedados no Lync Server 2013, você deve configurar as políticas de Arquivamento para especificar se deve habilitar o arquivamento de comunicações internas, comunicações externas ou ambas. Por padrão, o arquivamento não é habilitado para comunicações internas ou externas. Antes de habilitar o Arquivamento em qualquer política, você deve especificar as configurações de Arquivamento adequadas para sua implantação e, opcionalmente, para locais e pools específicos, conforme descrito nesta seção. Para obter detalhes sobre a habilitação do Arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a> na documentação de Implantação.<br />
-Se você decidir após implantar o Arquivamento que deseja usar a integração do Microsoft Exchange para armazenar dados de arquivamento e arquivos nos servidores do Exchange 2013 e todos seus usuários são hospedados em seus servidores do Exchange 2013, você deve remover a configuração do banco de dados do SQL Server da sua topologia. Você deve usar o Construtor de Topologias para fazer isso. Para obter detalhes, consulte <a href="lync-server-2013-changing-archiving-database-options.md">Modificando opções do banco de dados de arquivamento no Lync Server 2013</a> na documentação de Operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para usar o arquivamento de usuários hospedados no Lync Server 2013, você deve configurar as políticas de Arquivamento para especificar se deve habilitar o arquivamento de comunicações internas, comunicações externas ou ambas. Por padrão, o arquivamento não é habilitado para comunicações internas ou externas. Antes de habilitar o Arquivamento em qualquer política, você deve especificar as configurações de Arquivamento adequadas para sua implantação e, opcionalmente, para locais e pools específicos, conforme descrito nesta seção. Para obter detalhes sobre a habilitação do Arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a> na documentação de Implantação.<br />Se você decidir após implantar o Arquivamento que deseja usar a integração do Microsoft Exchange para armazenar dados de arquivamento e arquivos nos servidores do Exchange 2013 e todos seus usuários são hospedados em seus servidores do Exchange 2013, você deve remover a configuração do banco de dados do SQL Server da sua topologia. Você deve usar o Construtor de Topologias para fazer isso. Para obter detalhes, consulte <a href="lync-server-2013-changing-archiving-database-options.md">Modificando opções do banco de dados de arquivamento no Lync Server 2013</a> na documentação de Operações.
 
 ## Para habilitar ou desabilitar a limpeza do arquivamento
 
@@ -72,7 +60,7 @@ Habilitar ou desabilitar a exclusão automática de dados de arquivamento també
 
 ## Habilitar apenas a exclusão de dados de arquivamento exportados
 
-  - Para limitar a exclusão para registros de arquivamento que foram exportados para um arquivo de dados (usando o cmdlet [Export-CsArchivingData](export-csarchivingdata.md)), você também deve definir a propriedade PurgeExportedArchivesOnly para Verdadeiro ($True). Por exemplo:
+  - Para limitar a exclusão para registros de arquivamento que foram exportados para um arquivo de dados (usando o cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)), você também deve definir a propriedade PurgeExportedArchivesOnly para Verdadeiro ($True). Por exemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +72,7 @@ Habilitar ou desabilitar a exclusão automática de dados de arquivamento també
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Para obter mais informações, incluindo opções adicionais para excluir dados de arquivamento, consulte o tópico de ajuda para o cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Para obter mais informações, incluindo opções adicionais para excluir dados de arquivamento, consulte o tópico de ajuda para o cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Consulte Também
 

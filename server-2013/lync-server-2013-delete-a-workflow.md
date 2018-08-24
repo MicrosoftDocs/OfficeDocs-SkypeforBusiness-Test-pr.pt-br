@@ -31,19 +31,8 @@ Use um dos procedimentos a seguir para excluir um fluxo de trabalho.
 
 6.  Na lista de serviços, clique no serviço desejado e clique em **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A página da Web do Ferramenta de Configuração de Grupo de Resposta é aberta. Você também pode abrir a página da Web do Ferramenta de Configuração de Grupo de Resposta a partir de um navegador, conectando ao <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A página da Web do Ferramenta de Configuração de Grupo de Resposta é aberta. Você também pode abrir a página da Web do Ferramenta de Configuração de Grupo de Resposta a partir de um navegador, conectando ao <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong>.
 
 7.  Sob **Gerenciar um Fluxo de Trabalho Existente**, localize o fluxo de trabalho que você quer excluir e, sob **Ação**, clique em **Excluir**.
 

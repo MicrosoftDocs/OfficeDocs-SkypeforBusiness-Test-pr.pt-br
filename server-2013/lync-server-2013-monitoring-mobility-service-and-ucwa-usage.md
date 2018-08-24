@@ -31,19 +31,8 @@ Além de contadores de uso de CPU e memória, você pode usar os contadores de d
 
   - **ASP.NET\\Requests Queued** (deve ser sempre zero),
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você atender ou exceder esses valores, você deve rever e recomputar seu planejamento de capacidade para o tamanho correto da CPU, número de núcleos e memória para os computadores hospedando os serviços Web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você atender ou exceder esses valores, você deve rever e recomputar seu planejamento de capacidade para o tamanho correto da CPU, número de núcleos e memória para os computadores hospedando os serviços Web.
 
 **Para o Mobility Service (Mcx):**
 
@@ -59,19 +48,8 @@ Além de contadores de uso de CPU e memória, você pode usar os contadores de d
 
   - **ASP.NET\\Requests Queued** (deve ser sempre zero),
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você atender ou exceder esses valores, você deve rever e recomputar seu planejamento de capacidade para o tamanho correto da CPU, número de núcleos e memória para os computadores hospedando os serviços Web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você atender ou exceder esses valores, você deve rever e recomputar seu planejamento de capacidade para o tamanho correto da CPU, número de núcleos e memória para os computadores hospedando os serviços Web.
 
 ## Consulte Também
 

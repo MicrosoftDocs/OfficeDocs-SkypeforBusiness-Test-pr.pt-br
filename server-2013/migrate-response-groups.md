@@ -17,75 +17,31 @@ _**Tópico modificado em:** 2013-09-23_
 
 Depois que seus usuários são movidos para pools Lync Server 2013, você pode migrar os grupos de resposta. Migrar grupos de resposta inclui copiar grupos de agente, fila, fluxos de trabalho, arquivos de áudio e objetos de contato Grupo de Resposta de implantações de legado para o pool Lync Server 2013. Após migrar seus grupos de resposta de legado, as chamadas par aos grupos de resposta são manipulados pelo Aplicativo Grupo de Resposta no pool Lync Server 2013. Chamadas para grupos de resposta não são mais manipulados por pools de legado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Apesar de ser possível migrar grupos de resposta antes de mover todos os usuários para o pool Lync Server 2013, recomendamos que você mova os usuários primeiro. Particularmente, os usuários que são agentes do grupo de resposta não irão ter total funcionalidade dos novos recursos até serem movidos para o pool Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Apesar de ser possível migrar grupos de resposta antes de mover todos os usuários para o pool Lync Server 2013, recomendamos que você mova os usuários primeiro. Particularmente, os usuários que são agentes do grupo de resposta não irão ter total funcionalidade dos novos recursos até serem movidos para o pool Lync Server 2013.
 
 Antes de migrar os grupos de resposta, você deve possuir um pool Lync Server 2013 implantado que inclua o Aplicativo Grupo de Resposta. O Aplicativo Grupo de Resposta está instalado e ativado por padrão ao implantar o Enterprise Voice. Você pode certificar-se de que o Aplicativo Grupo de Resposta está instalado executando o cmdlet **Get-CsService –ApplicationServer**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você pode criar novos grupos de resposta Lync Server 2013 no pool Lync Server 2013 antes de migrar os grupos de resposta de legado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você pode criar novos grupos de resposta Lync Server 2013 no pool Lync Server 2013 antes de migrar os grupos de resposta de legado.
 
 Para migrar grupos de resposta de um pool de legado para o Lync Server 2013, excute o cmdlet **Move-CsRgsConfiguration**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O cmdlet de migração Grupo de Resposta move a configuração Grupo de Resposta para todo o pool. Você não pode selecionar grupos específicos, filas ou grupos de trabalho para migrar.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O cmdlet de migração Grupo de Resposta move a configuração Grupo de Resposta para todo o pool. Você não pode selecionar grupos específicos, filas ou grupos de trabalho para migrar.
 
 Após migrar os grupos de resposta, você precisará utilizar cmdlets Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server para verificar se todos os grupos de agente, filas e fluxos de trabalho foram movidos com sucesso.
 
 Ao migrar grupos de resposta, os grupos de resposta Lync Server 2010 não são removidos. Quando você gerencia grupos de resposta após a migração utilizando o Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server, você pode ver tanto os grupos de resposta Lync Server 2010 quanto os grupos de resposta Lync Server 2013. Você deve aplicar atualizações apenas aos grupos de resposta Lync Server 2013. Os grupos de resposta Lync Server 2010 são retidos apenas para propósitos de reversão.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Após a conclusão da migração e a criação de novos grupos de resposta, o Painel de Controle do Lync Server e o Shell de Gerenciamento do Lync Server exibirão as versões do Lync Server 2010 e do Lync Server 2013 de cada grupo de respostas. Não use Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server para remover os grupos de respostas do Lync Server 2010. Se você não remover um, o grupo de resposta correspondente criado durante a migração parará de funcionar. Os grupos de respostas do Lync Server 2010 serão removidos quando você desprogramar o pool do Lync Server 2010.
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que você não remova qualquer dado da implantação anterior até que você descomissione o pool. Além disso, recomendamos fortemente que você exporte os grupos de resposta imediatamente após migrá-lo. Se um grupo de resposta Lync Server 2010 precisar ser removido, você pode então restaurar os grupos de resposta do backup para obter grupos de resposta Lync Server 2013 em execução novamente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Recomendamos que você não remova qualquer dado da implantação anterior até que você descomissione o pool. Além disso, recomendamos fortemente que você exporte os grupos de resposta imediatamente após migrá-lo. Se um grupo de resposta Lync Server 2010 precisar ser removido, você pode então restaurar os grupos de resposta do backup para obter grupos de resposta Lync Server 2013 em execução novamente.
 
 Lync Server 2013apresenta um novo recurso Grupo de Resposta chamado **Tipo de fluxo de trabalho** . O **Tipo de fluxo de trabalho** pode ser **Gerenciado** ou **Não gerenciado** . Todos os grupos de resposta são migrados com o **Tipo de fluxo de trabalho** definido para **Não gerenciado** e com uma lista Gerenciador vazia.
 

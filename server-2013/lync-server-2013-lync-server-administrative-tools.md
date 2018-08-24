@@ -53,24 +53,13 @@ Você pode usar o Painel de Controle do Lync Server 2013 para executar a maioria
 
 O Painel de Controle do Lync Server é instalado automaticamente em cada Servidor Front-end ou Servidor Standard Edition do Lync Server. Nesta versão, os Servidores de Borda são administrados remotamente. Também é possível instalar o Painel de Controle do Lync Server em outro computador, como um console de gerenciamento a partir do qual se quer gerenciar o Lync Server de maneira central. Para obter detalhes, consulte [Instalar ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Para configurar as definições usando o Painel de Controle do Lync Server, é preciso estar conectado usando uma conta designada com a função de CsAdministrator. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a>.</p></li>
-<li><p>Para configurar as definições usando o Painel de Controle do Lync Server, é preciso também usar um computador com uma resolução de tela mínima de 1024 x 768.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> 
+> <li><p>Para configurar as definições usando o Painel de Controle do Lync Server, é preciso estar conectado usando uma conta designada com a função de CsAdministrator. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a>.</p></li>
+> 
+> 
+> <li><p>Para configurar as definições usando o Painel de Controle do Lync Server, é preciso também usar um computador com uma resolução de tela mínima de 1024 x 768.</p></li></ul>
 
 
 ## Shell de Gerenciamento do Lync Server
@@ -81,19 +70,8 @@ No Lync Server, o Shell de Gerenciamento do Lync Server fornece um novo método 
 
 A Ferramenta de Log do Lync Server facilita a solução de problemas ao capturar informações de log e rastreamento do produto enquanto o produto está em execução. Você pode usar a ferramenta para executar sessões de depuração em qualquer função do servidor do Lync Server. Para obter detalhes sobre a Ferramenta de Log, consulte a documentação da Ferramenta de Log do Lync Server 2010 na Biblioteca do TechNet em [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Serviço de Log Centralizado é recomendado para todo o conjunto de registros de log por meio da Ferramenta de Registro em Log do Lync Server em toda as circunstâncias. A Ferramenta de Registro de Log do Lync Server ainda funcionará, mas ela irá interferir ou ser renderizada de forma muito ineficaz se o Serviço de Log Centralizado já estiver sendo executado. Você somente deve usar o Serviço de Log Centralizado ou a Ferramenta de Registro de Log do Lync Server, mas nunca ambos ao mesmo tempo. Para obter mais informações sobre o Serviço de Log Centralizado e o motivo pelo qual você deve usá-lo exclusivamente, consulte <a href="lync-server-2013-using-the-centralized-logging-service.md">Usando o Serviço de Registro em Log no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Serviço de Log Centralizado é recomendado para todo o conjunto de registros de log por meio da Ferramenta de Registro em Log do Lync Server em toda as circunstâncias. A Ferramenta de Registro de Log do Lync Server ainda funcionará, mas ela irá interferir ou ser renderizada de forma muito ineficaz se o Serviço de Log Centralizado já estiver sendo executado. Você somente deve usar o Serviço de Log Centralizado ou a Ferramenta de Registro de Log do Lync Server, mas nunca ambos ao mesmo tempo. Para obter mais informações sobre o Serviço de Log Centralizado e o motivo pelo qual você deve usá-lo exclusivamente, consulte <a href="lync-server-2013-using-the-centralized-logging-service.md">Usando o Serviço de Registro em Log no Lync Server 2013</a>.
 
 ## Nesta seção
 

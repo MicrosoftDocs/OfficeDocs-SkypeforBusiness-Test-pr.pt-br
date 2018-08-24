@@ -19,19 +19,8 @@ _**Tópico modificado em:** 2016-12-08_
 
   - O Pacote de gerenciamento de componentes e usuários (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) monitora os problemas de Lync Server registrados em logs de evento pelos contadores de desempenho ou em registros dos bancos de dados de detalhes das chamadas (CDR) ou qualidade da experiência (QoE). Para problemas críticos, o System Center Operations Manager pode ser configurado para notificar os administradores imediatamente poe email, mensagens instantâneas ou SMSs. O SMS é a tecnlogia usada para enviar mensagens entre celulares.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para obter detalhes sobre como configurar as notificações do Operations Manager, consulte &quot;Configurando notificações&quot; na TechNet Library, em <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x416</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para obter detalhes sobre como configurar as notificações do Operations Manager, consulte &quot;Configurando notificações&quot; na TechNet Library, em <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x416</a>.
 
   - O Pacote de gerenciamento de monitoramento ativo (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) testa com proatividade os principais componentes Lync Server, como a conexão ao sistema, a troca de mensagem instantâneas ou as chamadas para telefones em redes telefônicas públicas comutadas (PSTN). Esses testes são realizados com o uso de cmdlets de transações sintéticos do Lync Server. Por exemplo, você pode usar o cmdlet **Test-CsIM**para simular conversas por mensagens instantâneas entre usuários de teste. Se a simulação de conversa falhar, um alerta é gerado.
 
@@ -39,19 +28,8 @@ Você deve importar os pacotes de gerenciamento. Se não importá-los, não ser�
 
 O Pacote de gerenciamento de componentes e usuários só é usado para monitorar o Lync Server 2013. Se você estiver em um cenário coexitente em que o Lync Server 2013 e o Lync Server 2010 estão instalados, será necessário continuar usando os pacotes de gerenciamento do Lync Server 2010 em seus computadores Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os pacotes de gerenciamento para Lync Server 2010 incluem o Pacote de gerenciamento de monitoramento do Lync Server 2010 e o Pacote de gerenciamento de monitoramento de chat em grupo do Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os pacotes de gerenciamento para Lync Server 2010 incluem o Pacote de gerenciamento de monitoramento do Lync Server 2010 e o Pacote de gerenciamento de monitoramento de chat em grupo do Lync Server 2010.
 
 Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 

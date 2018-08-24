@@ -39,5 +39,5 @@ A política global de acesso externo pode ser redefinida utilizando os cmdlets W
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

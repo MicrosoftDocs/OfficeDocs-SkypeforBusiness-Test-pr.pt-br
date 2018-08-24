@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aplicar uma política de Chat Persistente a um usuário ou grupo de usuários'
+title: "Lync Server 2013: Aplicar uma polít. de Chat Persist. a um usuário ou gr. de usuários"
 TOCTitle: Aplicar uma política de Chat Persistente a um usuário ou grupo de usuários
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205038(v=OCS.15)
@@ -17,20 +17,8 @@ _**Tópico modificado em:** 2012-10-06_
 
 Se um usuário tiver sido habilitado para Lync Server 2013, você poderá aplicar as políticas adequadas a usuários específicos para habilitá-los ou desabilitá-los a Servidor de Chat Persistente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para configurar e usar o Servidor de Chat Persistente, é necessário primeiro usar o Construtor de Topologias para adicionar suporte de Servidor de Chat Persistenteà topologia, e depois publicar a topologia. Para obter detalhes, consulte <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adicionando Servidor de Chat Persistente em sua implantação no Lync Server 2013</a> na documentação Implantação.<br />
-Para definir a configuração do Servidor de Chat Persistente, consulte <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configurar opções do Servidor de Chat Persistente globalmente ou para pool do Servidor de Chat Persistente no Lync Server 2013</a> na documentação Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para configurar e usar o Servidor de Chat Persistente, é necessário primeiro usar o Construtor de Topologias para adicionar suporte de Servidor de Chat Persistenteà topologia, e depois publicar a topologia. Para obter detalhes, consulte <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adicionando Servidor de Chat Persistente em sua implantação no Lync Server 2013</a> na documentação Implantação.<br />Para definir a configuração do Servidor de Chat Persistente, consulte <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configurar opções do Servidor de Chat Persistente globalmente ou para pool do Servidor de Chat Persistente no Lync Server 2013</a> na documentação Implantação.
 
 Use o procedimento neste tópico para aplicar uma política de usuário Chat Persistente criada anteriormente para uma ou mais contas de usuário ou grupos de usuários.
 
@@ -46,19 +34,8 @@ Use o procedimento neste tópico para aplicar uma política de usuário Chat Per
 
 5.  Em **Editar usuário do Lync Server** em **Chat Persistente política**, selecione a política de usuário do Chat Persistente que você deseja aplicar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas na política de eficácia padrão. Essas configurações são aplicadas automaticamente pelo servidor.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas na política de eficácia padrão. Essas configurações são aplicadas automaticamente pelo servidor.
 
 6.  Clique em **Confirmar**.
 

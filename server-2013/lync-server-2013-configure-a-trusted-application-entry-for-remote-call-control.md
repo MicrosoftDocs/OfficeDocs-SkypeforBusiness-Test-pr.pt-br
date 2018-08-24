@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar uma entrada de aplicativo confiável para controle de chamada remota'
+title: "Lync Server 2013: Config. uma entrada de app confiável p/ contr. de ch. remota"
 TOCTitle: Configurar uma entrada de aplicativo confiável para controle de chamada remota
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558636(v=OCS.15)
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2015-11-02_
 
 O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o Lync Server aplique a rota estática para encaminhar chamadas ao gateway.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estivar migrando os usuários de uma versão anterior da implantação do Lync Server, verifique se removeu todas as entradas confiáveis de aplicativo existentes (previamente conhecidas como entradas de host autorizado) criadas para o gateway SIP/CSTA antes de seguir os procedimentos deste tópico. Para obter detalhes, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remover um host autorizado herdado no Lync Server 2013 (opcional)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Se você estivar migrando os usuários de uma versão anterior da implantação do Lync Server, verifique se removeu todas as entradas confiáveis de aplicativo existentes (previamente conhecidas como entradas de host autorizado) criadas para o gateway SIP/CSTA antes de seguir os procedimentos deste tópico. Para obter detalhes, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remover um host autorizado herdado no Lync Server 2013 (opcional)</a>.
 
 ## Para configurar uma entrada de aplicativo confiável para o gateway SIP/CSTA
 

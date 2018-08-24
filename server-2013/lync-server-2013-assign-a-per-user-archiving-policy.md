@@ -48,7 +48,7 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
     4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja usar para filtrar os resultados da pesquisa digitando-o ou clicando na seta na lista suspensa.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para incluir cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar Filtro</STRONG>.
 
     
@@ -57,32 +57,21 @@ Para detalhes sobre como criar políticas de arquivamento por usuário, consulte
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Se você deseja que a mesma política de arquivamento por usuário se aplique a vários usuários, selecione-os nos resultados da pesquisa, clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
 7.  Na caixa de diálogo **Atribuir Políticas**, sob **Política de arquivamento**, execute um dos seguintes procedimentos:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como existem várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, a opção <strong>&lt;Manter como está&gt;</strong> está selecionada por padrão para todas as políticas na caixa de diálogo. Continue usando a política anteriormente atribuída ao usuário simplesmente não alterando esta configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Como existem várias políticas que podem ser configuradas usando a caixa de diálogo <strong>Atribuir Políticas</strong>, a opção <strong>&lt;Manter como está&gt;</strong> está selecionada por padrão para todas as políticas na caixa de diálogo. Continue usando a política anteriormente atribuída ao usuário simplesmente não alterando esta configuração.    
       - Permita que o Lync Server 2013 automaticamente escolha entre a política de nível global ou, se estiver definida, a política de nível de site.
     
       - Clique no nome de uma política de arquivamento por usuário definida anteriormente na página **Política de Arquivamento**.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Para ajudá-lo a decidir a política que deseja atribuir, depois de clicar no nome da política, clique em <STRONG>Exibir</STRONG> para visualizar os direitos e permissões de usuário definidos.
 
 
@@ -101,7 +90,7 @@ As políticas de arquivamento por usuário podem ser também atribuídas usando 
 
 ## Atribuição de política de arquivamento por usuário a vários usuários
 
-  - Esse comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que tenham contas hospedadas no pool do Registrador atl-cs-001.litwareinc.com. Para obter mais informações sobre o parâmetro Filtro usado neste comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Esse comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que tenham contas hospedadas no pool do Registrador atl-cs-001.litwareinc.com. Para obter mais informações sobre o parâmetro Filtro usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -111,7 +100,7 @@ As políticas de arquivamento por usuário podem ser também atribuídas usando 
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Consulte Também
 

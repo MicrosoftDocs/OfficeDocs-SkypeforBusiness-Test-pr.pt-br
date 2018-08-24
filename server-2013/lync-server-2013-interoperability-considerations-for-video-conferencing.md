@@ -37,17 +37,5 @@ Os usuários observarão o seguinte comportamento quando um cliente do Lync Serv
 
   - Para conferências com vários participantes, os recursos de resolução de vídeo e videoconferência são os mesmos observados por um cliente herdado no pool herdado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando um servidor herdado hospeda um cliente do Lync Server 2013, é possível configurar a largura de banda da videoconferência para que todos os usuários no pool recebam apenas baixa resolução de vídeo, mas enviem alta resolução de vídeo. Um exemplo disso é quando MaxVideoRateAllowed é definido como CIF-250K na configuração de mídia e VideoBitRateKb é definido como 2.000 kbps na política de conferências. O efeito líquido dessa situação é que uma alta resolução não é possível para os usuários no pool.<br />
-Visto que MaxVideoRateAllowed não é mais usado para clientes do Lync Server 2013, ele não pode impedir que clientes do Lync Server 2013 solicitem vídeo de alta resolução. Em vez disso, defina VideoBitRateKb na política de conferências para todos os usuários do pool como o mesmo valor de MaxVideoRateAllowed (isto é, CIF é definido como 250 kbps, VGA é definido como 600 kbps ou HD é definido como 1.500 kbps).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Quando um servidor herdado hospeda um cliente do Lync Server 2013, é possível configurar a largura de banda da videoconferência para que todos os usuários no pool recebam apenas baixa resolução de vídeo, mas enviem alta resolução de vídeo. Um exemplo disso é quando MaxVideoRateAllowed é definido como CIF-250K na configuração de mídia e VideoBitRateKb é definido como 2.000 kbps na política de conferências. O efeito líquido dessa situação é que uma alta resolução não é possível para os usuários no pool.<br />Visto que MaxVideoRateAllowed não é mais usado para clientes do Lync Server 2013, ele não pode impedir que clientes do Lync Server 2013 solicitem vídeo de alta resolução. Em vez disso, defina VideoBitRateKb na política de conferências para todos os usuários do pool como o mesmo valor de MaxVideoRateAllowed (isto é, CIF é definido como 250 kbps, VGA é definido como 600 kbps ou HD é definido como 1.500 kbps).

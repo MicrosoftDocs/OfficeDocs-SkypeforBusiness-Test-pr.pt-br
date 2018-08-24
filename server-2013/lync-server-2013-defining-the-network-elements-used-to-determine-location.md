@@ -31,19 +31,8 @@ Os elementos de rede estão listados em ordem de precedência. Se um cliente pod
 
 As seções a seguir fornecem mais detalhes de uso de cada elemento da rede.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando você usa elementos de rede para mapear chamadores a locais, é extremamente importante manter o banco de dados do Serviço de Informações de Local atualizado. Por exemplo, se você adicionar ou alterar um elemento de rede (como adicionar um WAP), será necessário excluir a entrada antiga e adicionar a nova no banco de dados de local.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Quando você usa elementos de rede para mapear chamadores a locais, é extremamente importante manter o banco de dados do Serviço de Informações de Local atualizado. Por exemplo, se você adicionar ou alterar um elemento de rede (como adicionar um WAP), será necessário excluir a entrada antiga e adicionar a nova no banco de dados de local.
 
 ## Ponto de acesso sem fio
 
@@ -55,19 +44,8 @@ Este método local supõe que o BSSID de cada WAP é estático. Entretanto, se o
 
 Os comutadores Ethernet gerenciados que oferecem suporte ao protocolo LLDP-MED podem anunciar suas informações de identidade e a porta a clientes compatíveis com LLDP-MED, que podem ser consultados em relação ao banco de dados de local para fornecer o local do dispositivo. Você pode associar ERLs exclusivamente na identificação de chassi de comutador ou pode mapeá-los ao nível de porta.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server 2013 oferece suporte ao uso de LLDP-MED para determinar somente locais de dispositivos do Lync Phone Edition e Lync 2013 em execução no Windows 8. Se você precisa usar dados em nível de comutador de Camada 2 para determinar o local de outros clientes do Lync com base em computadores com fio, será necessário usar o método de endereço MAC do cliente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server 2013 oferece suporte ao uso de LLDP-MED para determinar somente locais de dispositivos do Lync Phone Edition e Lync 2013 em execução no Windows 8. Se você precisa usar dados em nível de comutador de Camada 2 para determinar o local de outros clientes do Lync com base em computadores com fio, será necessário usar o método de endereço MAC do cliente.
 
 ## Sub-rede
 
@@ -85,16 +63,5 @@ Se a sub-rede abrange uma área muito ampla, talvez seja necessário usar outro 
 
 Para usar o endereço MAC do computador cliente para localizar um chamador, você precisa de comutadores Ethernet gerenciados e deve implantar uma solução SNMP de terceiros que possa descobrir os endereços MAC de clientes Lync conectados a (ou através de) esses comutadores. A solução SNMP continuamente controla os comutadores gerenciados para obter mapeamentos atuais dos endereços MAC de extremidade conectados a cada porta e obtém os IDs de porta correspondentes. Durante a solicitação do cliente Lync para o Serviço de Informações de Local, o Serviço de Informações de Local consulta o aplicativo de terceiros usando o endereço MAC do cliente e retorna qualquer correspondência de endereços IP do comutador e IDs de porta. O Serviço de Informações de Local usa essas informações para consultar sua wiremap da Camada 2 publicada um registro coincidente e retorna o local para o cliente. Se você usar esta opção, verifique se os identificadores de porta do comutador são consistentes entre o aplicativo SNMP e os registros publicados do banco de dados de local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Algumas soluções SNMP de terceiros podem oferecer suporte a comutadores de acesso não gerenciados; se a opção de atendimento ao cliente Lync não for gerenciada, mas tem um uplink a um comutador de distribuição gerenciado, o comutador gerenciado pode relatar os endereços MAC dos clientes conectados ao comutador de acesso ao aplicativo SNMP. Essas informações permitem que o Serviço de Informações de Local identifique o local do usuário. No entanto, só é possível atribuir um único ERL a todas as portas no comutador não gerenciado, para que a especificidade do local só esteja disponível a nível do chassi do comutador de acesso, não a nível de porta.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Algumas soluções SNMP de terceiros podem oferecer suporte a comutadores de acesso não gerenciados; se a opção de atendimento ao cliente Lync não for gerenciada, mas tem um uplink a um comutador de distribuição gerenciado, o comutador gerenciado pode relatar os endereços MAC dos clientes conectados ao comutador de acesso ao aplicativo SNMP. Essas informações permitem que o Serviço de Informações de Local identifique o local do usuário. No entanto, só é possível atribuir um único ERL a todas as portas no comutador não gerenciado, para que a especificidade do local só esteja disponível a nível do chassi do comutador de acesso, não a nível de porta.

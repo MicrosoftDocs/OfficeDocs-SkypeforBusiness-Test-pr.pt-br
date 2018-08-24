@@ -1,6 +1,6 @@
 ﻿---
-title: Usando o analisador de práticas recomendadas para buscar possíveis problemas em sua implantação
-TOCTitle: Usando o analisador de práticas recomendadas para buscar possíveis problemas em sua implantação
+title: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
+TOCTitle: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591343(v=OCS.15)
 ms:contentKeyID: 49305824
@@ -39,19 +39,8 @@ Para executar um exame do Analisador de Práticas Recomendadas, é necessário e
     
       - Para especificar credenciais diferentes que você deseja usar para os Serviços de Domínio do Active Directory, Servidor de Borda ou Exchange Server, clique em **Mostrar opções avançadas de logon**, marca cada caixa de seleção para a qual as credenciais separadas são necessárias, especifique as credenciais para cada caixa de seleção marcada e clique em **Conectar ao servidor do Active Directory**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Antes de começar o exame, o Analisador de Práticas Recomendadas executa uma verificação de rede e de permissões a fim de assegurar que as credenciais de conta especificadas sejam válidas e que o Analisador de Práticas Recomendadas possa se conectar aos Serviços de Domínio do Active Directory. Se a ferramenta estiver em execução em um servidor de grupo de trabalho, a ferramenta também verificará se pode se conectar aos Servidores de Borda na rede de perímetro (ou seja, se estiverem incluídos no exame).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Antes de começar o exame, o Analisador de Práticas Recomendadas executa uma verificação de rede e de permissões a fim de assegurar que as credenciais de conta especificadas sejam válidas e que o Analisador de Práticas Recomendadas possa se conectar aos Serviços de Domínio do Active Directory. Se a ferramenta estiver em execução em um servidor de grupo de trabalho, a ferramenta também verificará se pode se conectar aos Servidores de Borda na rede de perímetro (ou seja, se estiverem incluídos no exame).
 
 5.  Na página **Iniciar uma nova verificação das Práticas Recomendadas**, selecione as opções que você deseja incluir no exame, especifique a velocidade da rede e clique em **Iniciar exame**.
 
@@ -65,16 +54,5 @@ Para executar um exame do Analisador de Práticas Recomendadas, é necessário e
     
       - Para exibir outros relatórios, clique em **Outros Relatórios**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para obter detalhes sobre os relatórios do Analisador de Práticas Recomendadas e os problemas identificados por eles, consulte <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas</a> e <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para obter detalhes sobre os relatórios do Analisador de Práticas Recomendadas e os problemas identificados por eles, consulte <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas</a> e <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas</a>.

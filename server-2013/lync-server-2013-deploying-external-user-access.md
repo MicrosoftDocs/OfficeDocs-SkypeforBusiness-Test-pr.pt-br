@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-09-23_
 
 Implantar componentes de borda do Microsoft Lync Server 2013 torna possível os usuários externos que não estão conectados na rede interna da sua organização, incluindo usuários remotos anônimos e autenticados, parceiros federados (incluindo parceiros XMPP), clientes móveis e usuários de serviços de mensagem instantânea, se comunicarem com outros usuários na sua organização utilizando o Lync Server. Os processos de implantação e configuração do Lync Server 2013 não são muito diferentes do Lync Server 2010. As ferramentas para instalação e administração são praticamente as mesmas do Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A instalação e configuração do Microsoft Lync Server 2013Servidor de Borda pode ser um processo complexo exigindo uma quantidade potencialmente significante de planejamento e coordenação com suas equipes internas, incluindo, mas não limitado a, segurança, rede, firewall, DNS, balanceador de carga, considerações de PKI. É muito recomendado que você revise e use o processo de planejamento e a documentação oferecida antes de implantar seus componentes de acesso externo. Isto ajudará a limitar o número e a frequência de mudanças não desejadas e problemas, conforme você avança no processo de implantação. Para obter informações sobre seu acesso de usuário externo, consulte <a href="lync-server-2013-planning-for-external-user-access.md">Planejamento para acesso de usuário externo no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> A instalação e configuração do Microsoft Lync Server 2013Servidor de Borda pode ser um processo complexo exigindo uma quantidade potencialmente significante de planejamento e coordenação com suas equipes internas, incluindo, mas não limitado a, segurança, rede, firewall, DNS, balanceador de carga, considerações de PKI. É muito recomendado que você revise e use o processo de planejamento e a documentação oferecida antes de implantar seus componentes de acesso externo. Isto ajudará a limitar o número e a frequência de mudanças não desejadas e problemas, conforme você avança no processo de implantação. Para obter informações sobre seu acesso de usuário externo, consulte <a href="lync-server-2013-planning-for-external-user-access.md">Planejamento para acesso de usuário externo no Lync Server 2013</a>.
 
 ## Nesta seção
 

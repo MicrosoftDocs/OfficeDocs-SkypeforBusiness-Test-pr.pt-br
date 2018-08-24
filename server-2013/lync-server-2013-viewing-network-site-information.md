@@ -27,19 +27,8 @@ Os sites de rede são escritórios ou locais configurados dentro de cada região
 
 4.  Na página **Local**, clique no local que deseja exibir.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível exibir apenas informações de um local por vez.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É possível exibir apenas informações de um local por vez.
 
 5.  No menu **Editar**, clique em **Exibir detalhes**.
 
@@ -63,7 +52,7 @@ Os sites de rede são escritórios ou locais configurados dentro de cada região
         BWPolicyProfileID :
         LocationPolicy    :
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSite](get-csnetworksite.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Consulte Também
 

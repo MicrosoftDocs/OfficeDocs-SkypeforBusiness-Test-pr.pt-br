@@ -73,77 +73,22 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 
 3.  Para verificar as políticas de conferência importadas, no painel à esquerda, clique em **Conferência** , clique em **Política de conferência** e, então, verifique se todas as políticas de conferência do seu ambiente Office Communications Server 2007 R2 foram incluídas na lista.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A política de <strong>Reunião</strong> de versões anteriores do Office Communications Server agora é conhecido como a política de conferência no Lync Server 2013. Além disso, a configuração <strong>Participantes anônimos</strong> de versões anteriores do Office Communications Server agora é uma configuração na política de conferência do Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Em Office Communications Server 2007 R2, se a política de conferência não for definida para <strong>uso por usuário</strong> , apenas configurações de política global são importadas. Nenhuma outra política de conferência é importada neste caso.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O <strong>Participantes anônimos</strong> está definido para <strong>Impor por usuário</strong> na sua Office Communications Server 2007 R2 política de conferência, duas políticas de conferência são criadas durante a migração: uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Verdadeira</strong> e uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Falso</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A política de <strong>Reunião</strong> de versões anteriores do Office Communications Server agora é conhecido como a política de conferência no Lync Server 2013. Além disso, a configuração <strong>Participantes anônimos</strong> de versões anteriores do Office Communications Server agora é uma configuração na política de conferência do Lync Server 2013.    
+    > [!NOTE]  
+    > Em Office Communications Server 2007 R2, se a política de conferência não for definida para <strong>uso por usuário</strong> , apenas configurações de política global são importadas. Nenhuma outra política de conferência é importada neste caso.    
+    > [!NOTE]  
+    > O <strong>Participantes anônimos</strong> está definido para <strong>Impor por usuário</strong> na sua Office Communications Server 2007 R2 política de conferência, duas políticas de conferência são criadas durante a migração: uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Verdadeira</strong> e uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Falso</strong> .
 
 4.  Para verificar planos importados, clique em **Roteamento de voz** , clique em **Plano de discagem** e, então, verifique se todos os planos de discagem no seu ambiente Office Communicator 2007 R2 estão incluídos na lista.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Em Lync Server 2013, <strong>perfis de localização</strong> agora estão referenciados como <strong>dial-plans</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Em Lync Server 2013, <strong>perfis de localização</strong> agora estão referenciados como <strong>dial-plans</strong> .
 
 5.  Para verificar políticas de voz importadas, clique em **Roteamento de voz** , clique em **Política de voz** e, então, verifique se todas as suas políticas de voz do ambiente Office Communicator 2007 R2 estão incluídas na lista.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se a política não estiver definida como <strong>uso por usuário</strong> no seu ambiente Office Communications Server 2007 R2, apenas configurações de políticas globais são importadas. Nenhuma outra política de voz é importada nesta situação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se a política não estiver definida como <strong>uso por usuário</strong> no seu ambiente Office Communications Server 2007 R2, apenas configurações de políticas globais são importadas. Nenhuma outra política de voz é importada nesta situação.
 
 6.  Para verificar rotas de voz importadas, clique em **Rota de voz** , clique em **Rota** e, então, verifique se todas as rotas de voz no seu ambiente Office Communicator 2007 R2 estão incluídas na lista.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implantando o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente'
+title: "Impl. o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente"
 TOCTitle: Implantando o Lync Server 2013 Standard Edition em um Lync Server 2013 Enterprise existente
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398112(v=OCS.15)
@@ -32,7 +32,7 @@ A implantação de um Servidor Standard Edition em uma implantação do Enterpri
 6.  Configure e instale um Servidor Standard Edition. Para obter informações detalhadas, consulte Setting Up Standard Edition Server.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Se você implantou um ambiente com apenas um Servidor Standard Edition, você terá iniciado o processo de instalação a partir do Assistente de Implantação do Lync Server usando o link <STRONG>Preparar primeiro servidor Standard Edition</STRONG> para instalar os arquivos de banco de dados iniciais ao novo Servidor Standard Edition. <STRONG>Não</STRONG> siga esse processo ao instalar um Servidor Standard Edition em uma implantação existente do Lync Server 2013.
 
 

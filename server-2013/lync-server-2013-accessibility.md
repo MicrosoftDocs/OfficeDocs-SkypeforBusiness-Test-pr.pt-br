@@ -110,19 +110,8 @@ Cada número na Ajuda do Lync Server 2013, incluindo screenshots, diagramas, flu
 
 As seguintes seções oferecem informações sobre os recursos, produtos e serviços que tornam o Windows mais acessível para pessoas com deficiência.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As informações nesta seção aplicam-se apenas aos usuários que licenciam produtos da Microsoft nos Estados Unidos. Se você obteve este produto fora dos Estados Unidos, use o cartão de informações da subsidiária que acompanha o pacote de software ou visite o site de Acessibilidade da Microsoft em <a href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</a> para uma lista de números de telefone e endereços para serviços de suporte da Microsoft. É possível entrar em contato com sua subsidiária para descobrir se o tipo de produto e serviço descrito nesta seção está disponível em sua área. Saiba mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de Acessibilidade dos Produtos da Microsoft.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> As informações nesta seção aplicam-se apenas aos usuários que licenciam produtos da Microsoft nos Estados Unidos. Se você obteve este produto fora dos Estados Unidos, use o cartão de informações da subsidiária que acompanha o pacote de software ou visite o site de Acessibilidade da Microsoft em <a href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</a> para uma lista de números de telefone e endereços para serviços de suporte da Microsoft. É possível entrar em contato com sua subsidiária para descobrir se o tipo de produto e serviço descrito nesta seção está disponível em sua área. Saiba mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de Acessibilidade dos Produtos da Microsoft.
 
 ## Recursos de acessibilidade do Windows
 

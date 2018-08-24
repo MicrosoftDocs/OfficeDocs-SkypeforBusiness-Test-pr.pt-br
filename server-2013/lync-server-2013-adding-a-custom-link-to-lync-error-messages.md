@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Adicionando um link personalizado às mensagens de erro do Lync'
+title: "Lync Server 2013: Adicionando um link personalizado às mens. de erro do Lync"
 TOCTitle: Adicionando um link personalizado às mensagens de erro do Lync
 ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398979(v=OCS.15)

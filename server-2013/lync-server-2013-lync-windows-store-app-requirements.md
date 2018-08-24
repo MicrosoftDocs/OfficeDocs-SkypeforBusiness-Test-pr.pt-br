@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Organizações com implantações locais do Lync Server devem atender aos seguintes requisitos para dar suporte ao Aplicativo Lync Windows Store.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para Lync Server 2010, execute as atualizações cumulativas para o Lync Server 2010 de fevereiro de 2012 (disponíveis em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) ou posteriores em todos os servidores. Para permitir que os usuários participem de reuniões, execute as atualizações cumulativas para o Lync Server 2010 de outubro de 2012 (disponíveis em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) nos servidores.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para Lync Server 2010, execute as atualizações cumulativas para o Lync Server 2010 de fevereiro de 2012 (disponíveis em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) ou posteriores em todos os servidores. Para permitir que os usuários participem de reuniões, execute as atualizações cumulativas para o Lync Server 2010 de outubro de 2012 (disponíveis em <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) nos servidores.
 
   - Habilite os serviços Descoberta Automática, Lync Web App e Web Ticket no servidor.
 

@@ -19,19 +19,8 @@ Por si mesmo, o System Center Operations Manager tem a capacidade de monitorar s
 
   - O Pacote de gerenciamento de componente e usuário (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) rastreia os problemas do Lync Server registrados em logs de eventos, registrados por contadores de desempenho ou registrado nos registros de detalhes de chamada (CDR) ou os bancos de dados de QoE (Qualidade da Experiência). Para problemas críticos, é possível configurar o System Center Operations Manager para notificar os administradores imediatamente por e-mail, mensagem instantânea ou mensagens de SMS. SMS é a tecnologia usada para enviar mensagens de texto de um dispositivo móvel para outro.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para obter mais informações sobre como configurar a notificação do Operations Manager, consulte Configurando notificações na biblioteca do TechNet em <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x416</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para obter mais informações sobre como configurar a notificação do Operations Manager, consulte Configurando notificações na biblioteca do TechNet em <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x416</a>.
 
   - O Pacote de monitoramento ativo (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) testa proativamente componentes-chave do Lync Server, como entrar no sistema, trocar mensagens instantâneas ou fazer chamadas para um telefone localizado na rede telefônica pública comutada (PSTN). Esses testes são realizados usando os cmdlets de transação sintéticos do Lync Server. Por exemplo, o cmdlet **Test-CsIM** é usado para simular uma conversa de mensagem instantânea entre um par de usuários de teste. Um alerta será gerado em caso de falha nessa conversa de mensagens simulada.
 

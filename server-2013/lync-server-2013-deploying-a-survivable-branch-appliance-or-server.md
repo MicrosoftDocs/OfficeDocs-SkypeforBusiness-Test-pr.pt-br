@@ -21,20 +21,8 @@ Para sites de filial de pequeno e médio porte (sites de filial com 25 a 1.000 u
 
 Para sites de filial com 1.000 a 5.000 usuários e nenhum WAN resiliente, recomendamos um Servidor de Filial Persistente conectado a um gateway PSTN ou um tronco SIP a um provedor de serviço telefônico. Um Servidor de Filial Persistente é um computador baseado em Windows Server com um Registrador e software do Servidor de Mediação instalado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para sites de filial com mais de 5.000 usuários e administradores de Lync Server dedicados, recomendamos uma implantação total do Lync Server 2013, separada do site central.<br />
-Para obter detalhes sobre como escolher a melhor solução de resiliência para sites de filial em sua organização, incluindo considerações sobre pré-requisitos e planejamento, consulte <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para sites de filial com mais de 5.000 usuários e administradores de Lync Server dedicados, recomendamos uma implantação total do Lync Server 2013, separada do site central.<br />Para obter detalhes sobre como escolher a melhor solução de resiliência para sites de filial em sua organização, incluindo considerações sobre pré-requisitos e planejamento, consulte <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação Planejamento.
 
 ## Nesta seção
 

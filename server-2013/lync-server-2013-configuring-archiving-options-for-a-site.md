@@ -19,33 +19,11 @@ Você pode especificar opções de arquivamento para serem aplicadas a sites esp
 
 Para obter detalhes sobre como as configurações de arquivamento funcionam, incluindo a hierarquia das configurações globais, de site e de pool, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) nas documentações de planejamento, implantação e operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para habilitar o arquivamento, você deve especificar políticas de arquivamento para controlar o arquivamento de comunicações externas e internas ao nível global e, caso seja apropriado, nos níveis de site e usuário. Caso configure políticas de nível de usuário, você também deve atribuir as políticas de usuários para usuários específicos. Para maiores detalhes sobre criar e configurar políticas de arquivamento, consulte <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</a> na documentação de Operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Para habilitar o arquivamento, você deve especificar políticas de arquivamento para controlar o arquivamento de comunicações externas e internas ao nível global e, caso seja apropriado, nos níveis de site e usuário. Caso configure políticas de nível de usuário, você também deve atribuir as políticas de usuários para usuários específicos. Para maiores detalhes sobre criar e configurar políticas de arquivamento, consulte <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</a> na documentação de Operações.
 
 ## Para configurar as opções de arquivamento no nível do site
 

@@ -21,19 +21,8 @@ Use as etapas neste tópico para executar o Assistente de Implantação do Lync 
 
 Neste site, se você já implantou os Servidor de Mediação nos Pools de Front-Ends ou nos Servidor Standard Edition, é possível pular este tópico e continuar em [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico assume que você já definiu e publicou um Pool do servidor de mediação autônomo, conforme descrito no <a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definir um Servidor de Mediação no Construtor de Topologia no Lync Server 2013</a> e <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a> na documentação de Implantação, e que você verificou se os computadores no Pool do servidor de mediação cumprem os pré-requisitos descritos em <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Pré-requisitos de software para Enterprise Voice no Lync Server 2013</a> e <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Este tópico assume que você já definiu e publicou um Pool do servidor de mediação autônomo, conforme descrito no <a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definir um Servidor de Mediação no Construtor de Topologia no Lync Server 2013</a> e <a href="lync-server-2013-publish-the-topology.md">Publicar a topologia no Lync Server 2013</a> na documentação de Implantação, e que você verificou se os computadores no Pool do servidor de mediação cumprem os pré-requisitos descritos em <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Pré-requisitos de software para Enterprise Voice no Lync Server 2013</a> e <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013</a>.
 
 ## Para instalar os arquivos em um pool do Servidor de Mediação autônomo
 

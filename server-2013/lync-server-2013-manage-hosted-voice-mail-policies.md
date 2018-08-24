@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-09-20_
 
 Uma *política de caixa postal hospedada* fornece informações ao aplicativo ExUM Routing do Lync Server 2013 sobre o local para onde rotear chamadas dos usuários cujas caixas postais estão localizadas em um serviço do Exchange hospedado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Normalmente, somente uma política de caixa postal hospedada é necessária. Em muitos casos, você pode modificar a política global para atender todas as suas necessidades. Se você criar uma política com escopo no site, ela será atribuída automaticamente a todos os usuários hospedados no site especificado. Se você criar uma política com escopo por usuário, deverá atribuí-la explicitamente aos usuários, grupos e objetos de contato. É possível implantar várias políticas de caixa postal hospedada mas, nesse caso, as políticas devem ser atribuídas por usuário.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Normalmente, somente uma política de caixa postal hospedada é necessária. Em muitos casos, você pode modificar a política global para atender todas as suas necessidades. Se você criar uma política com escopo no site, ela será atribuída automaticamente a todos os usuários hospedados no site especificado. Se você criar uma política com escopo por usuário, deverá atribuí-la explicitamente aos usuários, grupos e objetos de contato. É possível implantar várias políticas de caixa postal hospedada mas, nesse caso, as políticas devem ser atribuídas por usuário.
 
 Para obter detalhes sobre como planejar as políticas de caixa postal hospedada, consulte [Políticas de correio de voz hospedado no Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) na documentação sobre o Planejamento.
 

@@ -17,51 +17,18 @@ _**Tópico modificado em:** 2014-02-07_
 
 Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um Administrador—por exemplo, CsVoiceAdministrator—deve habilitar os usuários para Enterprise Voice e Lync Server antes de poderem ser designados a grupos de agentes. Se você é um dos Gerentes de Grupo de Resposta designados para um fluxo de trabalho gerenciado, você pode criar grupos de agentes e usá-los nos fluxos de trabalho que gerencia.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Um Administrador—por exemplo, CsVoiceAdministrator—deve habilitar os usuários para Enterprise Voice e Lync Server antes de poderem ser designados a grupos de agentes. Se você é um dos Gerentes de Grupo de Resposta designados para um fluxo de trabalho gerenciado, você pode criar grupos de agentes e usá-los nos fluxos de trabalho que gerencia.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando você atribui usuários como agentes de grupo de resposta, informe-os de que, se eles tiverem o modo Privacidade habilitado, precisarão pesquisar por contatos &quot;RGS Presence Watcher&quot; e adicioná-los à sua lista Contatos. Agentes que tem o modo Privacidade habilitado, mas não tem &quot;RGS Presence Watcher&quot; em sua lista de Contatos, não podem receber chamadas no grupo de resposta. Agentes que não têm o modo Privacidade habilitado não são afetados.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Quando você atribui usuários como agentes de grupo de resposta, informe-os de que, se eles tiverem o modo Privacidade habilitado, precisarão pesquisar por contatos &quot;RGS Presence Watcher&quot; e adicioná-los à sua lista Contatos. Agentes que tem o modo Privacidade habilitado, mas não tem &quot;RGS Presence Watcher&quot; em sua lista de Contatos, não podem receber chamadas no grupo de resposta. Agentes que não têm o modo Privacidade habilitado não são afetados.
 
 ## Usar Painel de Controle do Lync Server para criar ou modificar um grupo de agentes
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você é um dos Gerentes de Grupo de Resposta delegados para um fluxo de trabalho gerenciado, você pode criar grupos e os usar nos fluxos de trabalho que você gerencia.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você é um dos Gerentes de Grupo de Resposta delegados para um fluxo de trabalho gerenciado, você pode criar grupos e os usar nos fluxos de trabalho que você gerencia.
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
@@ -85,19 +52,8 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 
 8.  Em **Tempo de alerta (segundos)**, especifique a duração em segundos do toque para um agente antes de oferecer a chamada para o próximo agente disponível (o padrão é de 20 segundos).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.
 
 9.  No **Método de roteamento**, selecione o método para roteamento de chamadas a agentes no grupo da seguinte maneira:
     
@@ -133,19 +89,8 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
         
           - Se a lista de distribuição contiver usuários, para os quais o Lync Server 2010 estiver habilitado, porém o Enterprise Voice não estiver habilitado, eles serão adicionados ao grupo de agentes como agentes não funcionais. Garanta que todos os membros da lista de distribuição tenham o Enterprise Voice habilitado em suas contas de usuário.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se você usar uma lista de distribuição de email, associações ou listas ocultas poderão ficar visíveis ao administrador ou usuários do Grupo de Resposta.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!IMPORTANT]  
+        > Se você usar uma lista de distribuição de email, associações ou listas ocultas poderão ficar visíveis ao administrador ou usuários do Grupo de Resposta.        
         Associações ou listas ocultas podem se tornar visíveis da seguinte maneira:
         
           - Se uma lista de distribuição tiver sido configurada de modo que a associação fique oculta e o administrador do Grupo de Resposta atribua a lista de distribuição à lista de agentes, os usuários podem chamar o grupo para descobrir quem são os membros.
@@ -168,19 +113,8 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > A configuração Tempo de alerta do agente não pode ultrapassar 180 segundos. Caso contrário, o aplicativo do cliente rejeitará a chamada devido ao fato de o timer de transação SIP atingir seu tempo máximo de espera.
 
 4.  Confirme a criação do novo grupo. Execute:
     
@@ -195,8 +129,8 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
 #### Outros Recursos
 
 [Gerenciar grupos de agentes dos grupos de resposta](lync-server-2013-managing-response-group-agent-groups.md)  
-[Get-CsService](get-csservice.md)  
-[New-CsRgsAgentGroup](new-csrgsagentgroup.md)  
-[Set-CsRgsAgentGroup](set-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup)  
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

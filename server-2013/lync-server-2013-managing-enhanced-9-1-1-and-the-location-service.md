@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-11-01_
 
 O Lync Server 2013 suporta a chamada de 9-1-1 Avançada (E9-1-1) dos clientes do Lync e dispositivos do Lync Phone Edition. Ao configurar o Lync Server 2013 para E9-1-1, chamadas de emergência colocadas do Lync 2013 ou Lync Phone Edition incluem informações do Local da Resposta de Emergência (ERL) do banco de dados do Serviço de Informações de Local. Use os procedimentos nesta seção para gerenciar a política local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre a implantação dos recursos avançados do Enterprise Voice, como o E9-1-1 e o Serviço de Informações de Local, consulte <a href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Implantando recursos avançados de Enterprise Voice no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre a implantação dos recursos avançados do Enterprise Voice, como o E9-1-1 e o Serviço de Informações de Local, consulte <a href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Implantando recursos avançados de Enterprise Voice no Lync Server 2013</a>.
 
 ## Nesta seção
 

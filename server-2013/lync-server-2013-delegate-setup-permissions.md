@@ -21,19 +21,8 @@ A preparação de domínio que ocorre quando você instala o Lync Server não ad
 
 Tenha em mente que esse cmdlet somente concede permissões ao grupo RTCUniversalServerAdmins; o cmdlet não pode ser usado para conceder permissões para outros grupos de segurança ou usuários individuais.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Enable-CsTopology</strong> é o principal cmdlet para permitir que membros do grupo RTCUniversalServerAdmins configurem e implantem o Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> <strong>Enable-CsTopology</strong> é o principal cmdlet para permitir que membros do grupo RTCUniversalServerAdmins configurem e implantem o Lync Server 2013.
 
 ## Para adicionar a habilidade de executar o cmdlet Enable-CsTopology ao grupo RTCUniversalServerAdmins
 
@@ -45,19 +34,9 @@ Tenha em mente que esse cmdlet somente concede permissões ao grupo RTCUniversal
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se OU não for o nível superior, você deve fornecer o nome de domínio completo.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Se OU não for o nível superior, você deve fornecer o nome de domínio completo.  
+      
     No exemplo a seguir, a UO é o "Lync Server", que está no domínio contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com

@@ -23,19 +23,8 @@ Obtenha as informações a seguir para cada gateway ITSP com o qual você se con
 
   - FQDN (nome de domínio totalmente qualificado)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O provedor de serviços pode pedir a você que se conecte a mais de um gateway ITSP. Neste caso, você deve configurar uma conexão entre cada gateway ITSP e cada Servidor de Mediação em seu pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O provedor de serviços pode pedir a você que se conecte a mais de um gateway ITSP. Neste caso, você deve configurar uma conexão entre cada gateway ITSP e cada Servidor de Mediação em seu pool.
 
 As informações que você fornece aos seu provedor de serviços dependem do tipo de conexão do seu tronco SIP:
 
@@ -51,19 +40,8 @@ Para determinar se você precisa de um certificado para tronco SIP, verifique co
 
 2.  Se seu ITSP oferecer suporte ao protocolo TLS, o ITSP deverá fornecer um certificado a você.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O SIP funciona em conjunto com protocolo RTP ou SRTP, os protocolos que gerenciam os dados de voz reais em chamadas VoIP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O SIP funciona em conjunto com protocolo RTP ou SRTP, os protocolos que gerenciam os dados de voz reais em chamadas VoIP.
 
 ## Processo de implantação
 

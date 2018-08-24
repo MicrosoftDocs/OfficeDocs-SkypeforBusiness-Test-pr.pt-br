@@ -21,19 +21,8 @@ Este tópico fornece informações e procedimentos que podem ajudá-lo a solucio
 
 O Painel de Controle do Lync Server requer que a versão 4.0.50524.0 ou mais recente do Plug-in do navegador do Microsoft Silverlight esteja instalada. Se o Silverlight não estiver instalado ou se uma versão anterior estiver instalada, siga as instruções na mensagem para instalar a versão necessária.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os outros requisitos de software para o Painel de Controle do Lync Server pertencem ao sistema operacional no qual o Painel de Controle do Lync Server e todas as outras ferramentas administrativas do Lync Server 2013 podem ser instaladas. Para obter detalhes, consulte <a href="lync-server-2013-server-and-tools-operating-system-support.md">Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013</a> na documentação sobre Ajuste de Suporte.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os outros requisitos de software para o Painel de Controle do Lync Server pertencem ao sistema operacional no qual o Painel de Controle do Lync Server e todas as outras ferramentas administrativas do Lync Server 2013 podem ser instaladas. Para obter detalhes, consulte <a href="lync-server-2013-server-and-tools-operating-system-support.md">Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013</a> na documentação sobre Ajuste de Suporte.
 
 Se o navegador da Internet bloquear a instalação do Silverlight devido a considerações de segurança, adicione a URL que abre o Painel de Controle do Lync Server à lista de sites confiáveis. Nas configurações de segurança do Internet Explorer, verifique se a opção **Executar controles ActiveX e plug-ins** está definida como **Habilitado**. Para obter detalhes, consulte [http://go.microsoft.com/fwlink/?linkid=214060\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=214060%26clcid=0x416). Além disso, verifique se o navegador está configurado para usar SSL 3.0.
 
@@ -51,19 +40,8 @@ Se você tiver configurado uma URL simples para acessar o Painel de Controle do 
 
 Para obter os procedimentos passo a passo para configurar a URL de acesso administrativo, consulte [Editar ou configurar URLs simples no Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) na documentação de Implantação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver mais de um adaptador de rede no servidor Web, configure manualmente o DNS para cada adaptador de rede adicional para que a resolução de DNS funcione corretamente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você tiver mais de um adaptador de rede no servidor Web, configure manualmente o DNS para cada adaptador de rede adicional para que a resolução de DNS funcione corretamente.
 
 ## Requisitos de IIS (Serviços de Informações da Internet)
 

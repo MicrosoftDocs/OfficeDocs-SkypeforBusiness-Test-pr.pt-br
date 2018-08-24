@@ -28,24 +28,13 @@ Esta seção define os cenários para implantações do Servidor de Borda e mape
 Usando este processo, é possível planejar e documentar a configuração de todos os recursos em potencial que você pretende implantar para seus usuários. No entanto, é possível adicionar serviços de federação e mobilidade após ter implantado o Servidor de Borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação do Servidor de Borda existente é abordada na seção Implantação. Para obter detalhes sobre a implantação, consulte [Implantação de acesso do usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) Ao incluir planejamento para estes recursos durante o processo de planejamento inicial, é possível preparar para os requisitos de DNS, firewall e certificado para recursos adicionados, que permite adquirir certificados e configurar os requisitos DNS e porta/protocolo antecipadamente.
 
 
-> [!TIP]
+> [!TIP]  
 > Se você estiver planejando instalar o Servidores de Borda e o proxy inverso e adicionar recursos posteriormente (por exemplo, federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. Planejamento e aquisição de certificados para todos os recursos antecipadamente, implantado inicialmente ou não, evita que você precise solicitar novos certificados para satisfazer os requisitos de federação (isto é, no Servidores de Borda) ou o proxy inverso (isto é, serviços de mobilidade).
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todos os serviços de borda são executados em cada Servidor de Borda. Os serviços não podem ser divididos entre dois Servidores de Borda diferentes. Se você implantar um Pool de borda para escalabilidade, todos os serviços de borda são implantados em cada Servidor de Borda no pool. Federação XMPP, Office Communications Server e federação Lync Server, conectividade de IM público e mobilidade do cliente são serviços adicionais que podem ser implantados após implantar seu primeiro Servidor de Borda ou Pool de borda. Serviços de mobilidade é o recurso que usa proxy inverso. A instalação de serviços de mobilidade não adicionará recursos para seu Servidores de Borda, mas exigirá a reconfiguração do seu proxy inverso. A coluna <strong>objetivo de instalação</strong> que lista estes recursos oferece diretrizes de planejamento na coluna associada em <strong>Seção ou seções de planejamento do Servidor de Borda</strong> para o planejamento simultâneo destes recursos para ser implantado quando o Servidores de Borda é instalado e configurado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Todos os serviços de borda são executados em cada Servidor de Borda. Os serviços não podem ser divididos entre dois Servidores de Borda diferentes. Se você implantar um Pool de borda para escalabilidade, todos os serviços de borda são implantados em cada Servidor de Borda no pool. Federação XMPP, Office Communications Server e federação Lync Server, conectividade de IM público e mobilidade do cliente são serviços adicionais que podem ser implantados após implantar seu primeiro Servidor de Borda ou Pool de borda. Serviços de mobilidade é o recurso que usa proxy inverso. A instalação de serviços de mobilidade não adicionará recursos para seu Servidores de Borda, mas exigirá a reconfiguração do seu proxy inverso. A coluna <strong>objetivo de instalação</strong> que lista estes recursos oferece diretrizes de planejamento na coluna associada em <strong>Seção ou seções de planejamento do Servidor de Borda</strong> para o planejamento simultâneo destes recursos para ser implantado quando o Servidores de Borda é instalado e configurado.
 
 ## Identificando e mapeando suas metas de implantação
 
@@ -88,19 +77,8 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Os cenários de federação permite planejar o recurso que irá estender os tipos de parceiros que os usuários podem se comunicar.</p>
-<ul>
-<li><p>Federação Lync Server</p></li>
-<li><p>Federação Office Communications Server</p></li>
-<li><p>Conectividade a redes públicas de mensagens instantâneas</p></li>
-<li><p>Federação XMPP</p></li>
-</ul></td>
-<td><p>Planejamento para cenários de federação</p>
-<ul>
-<li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planejamento para Federação do Servidor Lync Server e Office Communications</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planejamento para Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP) no Lync Server 2013</a></p></li>
-</ul></td>
+<td><p>Os cenários de federação permite planejar o recurso que irá estender os tipos de parceiros que os usuários podem se comunicar.</p><ul><li><p>Federação Lync Server</p></li><li><p>Federação Office Communications Server</p></li><li><p>Conectividade a redes públicas de mensagens instantâneas</p></li><li><p>Federação XMPP</p></li></ul></td>
+<td><p>Planejamento para cenários de federação</p><ul><li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planejamento para Federação do Servidor Lync Server e Office Communications</a></p></li><li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013</a></p></li><li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planejamento para Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP) no Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Serviços de mobilidade são oferecidos através do proxy inverso. Os serviços que permitem a mobilidade para usuários externos são implantados no Servidor Front-End ou Pool de Front-Ends. Você cria ou modifica regras de publicação existentes no proxy inverso para habilitar os serviços de mobilidade para seus usuários externos.</p></td>
@@ -111,7 +89,7 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 
 
 
-> [!TIP]
+> [!TIP]  
 > Nas seguintes seções Cenários existem arquiteturas de referência, DNS de exemplo, definições de porta/protocolo e requisitos de certificado. Também inclui diagramas para seu DNS, definições de porta/protocolo e necessidades de certificado. Os diagramas oferecerão um modelo para você preencher e distribuir para outras equipes (por exemplo, a Equipe de Rede da sua organização, Equipe de Infraestrutura de Chave Pública e Equipe de Implantação do Servidor). O objetivo do diagrama é melhorar a comunicação e garantir o sucesso ao comunicar os elementos de configuração obrigatórios do Servidor de Borda para pessoas que irão realizar o trabalho de configuração. Recomendamos que você use os diagramas e as arquiteturas de referência associados para planejar sua implantação.
 
 

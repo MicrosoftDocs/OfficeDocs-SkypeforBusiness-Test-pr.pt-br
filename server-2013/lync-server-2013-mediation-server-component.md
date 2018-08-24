@@ -53,19 +53,8 @@ A figura a seguir mostra os protocolos de sinalização e de mídia usados pelo 
 
 ![Diagrama dos protocolos do servidor de mediação](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagrama dos protocolos do servidor de mediação")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver usando TCP ou RTP/RTCP (em vez de SRTP ou SRTCP) na rede entre o gateway PSTN e o Servidor de Mediação, recomendamos que tome medidas para ajudar a garantir a segurança e a privacidade da rede.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você estiver usando TCP ou RTP/RTCP (em vez de SRTP ou SRTCP) na rede entre o gateway PSTN e o Servidor de Mediação, recomendamos que tome medidas para ajudar a garantir a segurança e a privacidade da rede.
 
 ## Nesta seção
 

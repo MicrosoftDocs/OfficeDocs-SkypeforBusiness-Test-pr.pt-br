@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-20_
 
 Habilite e desabilite um dispositivo de conferência pelo uso dos cmdlets **Enable-CsMeetingRoom** e **Disable-CsMeetingRoom**. Esses cmdlets podem ser executados a partir do Shell de Gerenciamento do Lync Server 2013 ou então de uma sessão remota do Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
 
 
 ## Para habilitar um dispositivo de conferência
@@ -44,5 +33,5 @@ Habilite e desabilite um dispositivo de conferência pelo uso dos cmdlets **Enab
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-Para mais detalhes, veja os tópicos de Ajuda para os cmdlets [Enable-CsMeetingRoom](enable-csmeetingroom.md) e [Disable-CsMeetingRoom](disable-csmeetingroom.md).
+Para mais detalhes, veja os tópicos de Ajuda para os cmdlets [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) e [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom).
 

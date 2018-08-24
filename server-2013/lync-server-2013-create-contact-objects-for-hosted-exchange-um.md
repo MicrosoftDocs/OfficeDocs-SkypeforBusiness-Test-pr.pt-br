@@ -21,23 +21,12 @@ Para obter detalhes, consulte [Gerenciamento de objeto de Contato no Exchange ho
 
 Para detalhes sobre como configurar objetos de contato, consulte a documentação do Shell de Gerenciamento do Lync Server para os seguintes cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes que objetos de contato do Lync Server 2013 possam ser habilitados para a UM do Exchange hospedado, uma política de caixa postal hospedada que se aplique a eles deve ser implantada. Para detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Antes que objetos de contato do Lync Server 2013 possam ser habilitados para a UM do Exchange hospedado, uma política de caixa postal hospedada que se aplique a eles deve ser implantada. Para detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
 
 ## Para criar objetos de contato no AA ou SA para a UM do Exchange hospedado
 
@@ -45,29 +34,21 @@ Para detalhes sobre como configurar objetos de contato, consulte a documentaçã
 
 2.  Execute o cmdlet New-CsExUmContact para criar objetos de contato obrigatórios para a sua implantação. Por exemplo, para criar um objeto de contato no AA e um no SA, execute:
     
+    ```
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
+    ```
+    ```    
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
-    
+    ```
+
     Estes exemplos definem os seguintes parâmetros:
     
       - **SipAddress** especifica o endereço SIP do objeto de contato. Este deve ser um endereço que ainda não tenha sido usado para configurar um objeto de contato ou de usuário nos Serviços de Domínio do Active Directory. Este valor deve estar no formato “sip:\< *endereço SIP* \>“, conforme mostrado em exemplos anteriores.
     
       - **RegistrarPool** especifica o nome de domínio totalmente qualificado (FQDN) do pool em que o serviço do Registrador Avançado está sendo executado.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Objetos de contato da UM do Exchange não podem ser movidos para pools que sejam parte de implantações do Lync Server 2013 antes do Lync Server 2013.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Objetos de contato da UM do Exchange não podem ser movidos para pools que sejam parte de implantações do Lync Server 2013 antes do Lync Server 2013.    
       - **OU** especifica a unidade organizacional do Active Directory em que este objeto de contato estará localizado.
     
       - **DisplayNumber** especifica o número de telefone do objeto de contato. O número de telefone para cada objeto de contato deve ser único.

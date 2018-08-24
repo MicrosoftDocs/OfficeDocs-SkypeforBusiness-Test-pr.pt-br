@@ -25,35 +25,13 @@ Para obter detalhes, consulte a seção Preparando para a Sustentabilidade da Ca
 
 2.  No Shell de Gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone do AA como o UM do Exchange número de telefone do Atendedor Automático na configuração de redirecionamento da caixa postal Aparelho de Filial Persistente ou Servidor de Filial Persistente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você precisar modificar a configuração do roteamento da caixa postal posteriormente, use o cmdlet <strong>Set-CsVoiceMailReRoutingConfiguration</strong>. Para obter detalhes, sobre <strong>New-</strong> e <strong>Set-CSVoiceMailReroutingConfiguration</strong>, nos tópicos da Ajuda do Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você precisar modificar a configuração do roteamento da caixa postal posteriormente, use o cmdlet <strong>Set-CsVoiceMailReRoutingConfiguration</strong>. Para obter detalhes, sobre <strong>New-</strong> e <strong>Set-CSVoiceMailReroutingConfiguration</strong>, nos tópicos da Ajuda do Shell.
 
 3.  Defina o número de acesso do assinante UM do Exchange que corresponde ao plano de discagem da filial do usuário UM do Exchange como o número de acesso do assinante UM do Exchange na configuração de roteamento da caixa postal do Aparelho de Filial Persistente ou Servidor de Filial Persistente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Configure o plano de discagem UM do Exchange de usuários para que haja apenas um plano de discagem associado a todos os usuários de filiais que precisam acessar a funcionalidade Obter caixa postal durante uma interrupção da WAN.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Configure o plano de discagem UM do Exchange de usuários para que haja apenas um plano de discagem associado a todos os usuários de filiais que precisam acessar a funcionalidade Obter caixa postal durante uma interrupção da WAN.
 
 **Próxima etapa** para Aparelho de Filial Persistente ou Servidor de Filial Persistente: [Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 

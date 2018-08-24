@@ -1,6 +1,6 @@
 ﻿---
-title: Criar uma política de caixa postal hospedada no nível local no Lync Server 2013
-TOCTitle: Criar uma política de caixa postal hospedada no nível local no Lync Server 2013
+title: "Criar uma política de caixa postal hospedada no nível local no Lync Server 2013"
+TOCTitle: "Criar uma política de caixa postal hospedada no nível local no Lync Server 2013"
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 49305979
@@ -19,11 +19,11 @@ Uma política de *local* pode afetar todos os usuários hospedados no local em q
 
 Para obter detalhes sobre como configurar políticas de site, consulte a documentação do Shell de Gerenciamento do Lync Server nos seguintes cmdlets:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Para criar uma política de caixa postal hospedada em um site
 

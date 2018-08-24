@@ -25,19 +25,8 @@ Você tem três opções ao configurar endereços IP no Lync Server 2013. Você 
 
 As seções a seguir destacam a compatibilidade entre essas três configurações e os vários recursos do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Configuração de cliente ou servidor com somente IPv6 é suportada apenas para fins de validação ou utilização em laboratório. A configuração somente IPv6 não é suportada na implantação de produção.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Configuração de cliente ou servidor com somente IPv6 é suportada apenas para fins de validação ou utilização em laboratório. A configuração somente IPv6 não é suportada na implantação de produção.
 
 ## Registro de cliente
 
@@ -347,19 +336,8 @@ A tabela a seguir descreve a matriz de combinações suportadas das interfaces d
 
 Implantações que incluem controle de admissão de chamadas (CAC), Enhanced 9-1-1 (E9-1-1) ou passagem livre de mídia devem ser configurados como implementações somente IPv4 ou de pilha dupla.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Em uma implantação de pilha dupla, mesmo que um cliente Lync se conecte a um Lync Server usando IPv6, o Lync fará o possível para mapear um endereço IPv4 apropriado para oferecer suporte ao E9-1-1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Em uma implantação de pilha dupla, mesmo que um cliente Lync se conecte a um Lync Server usando IPv6, o Lync fará o possível para mapear um endereço IPv4 apropriado para oferecer suporte ao E9-1-1.
 
 O Serviço de Informações de Local com endereços IPv6 não é suportado.
 

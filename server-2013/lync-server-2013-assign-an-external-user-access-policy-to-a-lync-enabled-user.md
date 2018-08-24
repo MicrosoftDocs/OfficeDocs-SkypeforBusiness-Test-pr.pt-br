@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Atribuir uma política de usuário externo a um usuário habilitado do Lync'
+title: "Lync Server 2013: Atribuir pol. de usuário ext, a um usuário habil. do Lync"
 TOCTitle: Atribuir uma política de usuário externo a um usuário habilitado do Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398551(v=OCS.15)
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-22_
 
 Se o usuário tiver sido habilitado para o Lync Server, você poderá configurar a federação SIP, a federação XMPP, o acesso de usuário remoto e a conectividade a redes públicas de mensagens instantâneas (IM) no Painel de Controle do Lync Server aplicando as políticas adequadas a usuários específicos. Por exemplo, se você criou uma política para oferecer suporte ao acesso de usuário remoto, deverá aplicá-la ao usuário antes que ele possa se conectar ao Lync Server de um local remoto e colaborar com usuários internos do local remoto.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, consulte <a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando suporte para acesso de usuário externo no Lync Server 2013</a> na documentação de implantação ou <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciando de federação e acesso externo ao Lync Server 2013</a> na documentação de Operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, consulte <a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando suporte para acesso de usuário externo no Lync Server 2013</a> na documentação de implantação ou <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciando de federação e acesso externo ao Lync Server 2013</a> na documentação de Operações.
 
 Use o procedimento neste tópico para aplicar uma política de acesso de usuário externo criada anteriormente para uma ou mais contas de usuário.
 
@@ -45,19 +34,8 @@ Use o procedimento neste tópico para aplicar uma política de acesso de usuári
 
 5.  Em **Editar Usuário do Lync Server**, em **Política de acesso externo**, selecione a política de usuário que você deseja aplicar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações do servidor padrão ou de política global.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações do servidor padrão ou de política global.
 
 ## Atribuindo políticas de acesso externo por usuário usando os cmdlets Windows PowerShell
 
@@ -71,7 +49,7 @@ As políticas de acesso externo por usuário podem ser atribuídas utilizando os
 
 ## Para atribuir uma política de acesso externo por usuário a vários usuários
 
-  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -81,5 +59,5 @@ As políticas de acesso externo por usuário podem ser atribuídas utilizando os
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

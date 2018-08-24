@@ -19,16 +19,5 @@ Você pode utilizar Lync Server 2013, Analisador de Melhores Práticas para varr
 
 Antes de iniciar a varredura, certifique-se de que todos os componentes no seu ambiente Lync Server 2013 estão em execução e online.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dependendo da configuração dos seus Servidores de Borda e quaisquer configurações de rede de perímetro relacionadas, incluindo configurações de firewall e permições, o Analisador de Melhores Práticas pode não estar apto a acessar e varrer seus Servidores de Borda. Se você incluir Servidores de Borda na sua varredura e o relatório indicar que há um problema ao acessá-los, você deverá remover os Servidores de Borda das opções de varredura e varrer novamente para que tais problemas não sejam exibidos no relatório.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dependendo da configuração dos seus Servidores de Borda e quaisquer configurações de rede de perímetro relacionadas, incluindo configurações de firewall e permições, o Analisador de Melhores Práticas pode não estar apto a acessar e varrer seus Servidores de Borda. Se você incluir Servidores de Borda na sua varredura e o relatório indicar que há um problema ao acessá-los, você deverá remover os Servidores de Borda das opções de varredura e varrer novamente para que tais problemas não sejam exibidos no relatório.

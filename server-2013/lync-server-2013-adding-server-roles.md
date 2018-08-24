@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-06-19_
 
 Depois que a sua implantação inicial estiver ativa e em execução, você poderá adicionar outras funções de servidor para o Lync Server 2013, como um Diretor ou um Servidor de Mediação autônomo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de aceitar a tarefa de instalar funções de servidor adicionais, consulte os tópicos de Planejamento relacionados a cada função.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Antes de aceitar a tarefa de instalar funções de servidor adicionais, consulte os tópicos de Planejamento relacionados a cada função.
 
 ## Nesta seção
 

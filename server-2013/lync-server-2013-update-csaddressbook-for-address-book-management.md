@@ -9,9 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Update-CsAddressBook para Gerenciamento de catálogo de endereços
-
- 
+# Update-CsAddressBook para Gerenciamento de catálogo de endereços 
 
 _**Tópico modificado em:** 2012-11-01_
 
@@ -21,25 +19,17 @@ Quem pode executar este cmdlet: por padrão, os membros dos seguintes grupos est
 
 O cmdlet Update-CsAddressBook substitui o comando **abserver.exe –syncNow** do Office Communications Server. O objetivo do cmdlet é iniciar uma sincronização imediatamente em vez de esperar pela hora agendada. O primeiro exemplo de comando atualiza todos os Catálogos de Endereços da organização, enquanto o segundo atualiza somente os Catálogos de Endereços associados com o servidor definido.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No Lync Server 2013, o Lync Server User Replicator escolherá as alterações do Active Directory e atualizará o banco de dados de usuário do Lync Server baseado em um intervalo configurado. O Lync Server User Replicator também propagará as alterações para o banco de dados RTCab rapidamente sem a necessidade de o administrador executar o cmdlet Update-CSAddressBook. Administradores precisarão executar o cmdlet Update -CSAddressBook somente se o download do arquivo do Catálogo de Endereços estiver habilitado.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> No Lync Server 2013, o Lync Server User Replicator escolherá as alterações do Active Directory e atualizará o banco de dados de usuário do Lync Server baseado em um intervalo configurado. O Lync Server User Replicator também propagará as alterações para o banco de dados RTCab rapidamente sem a necessidade de o administrador executar o cmdlet Update-CSAddressBook. Administradores precisarão executar o cmdlet Update -CSAddressBook somente se o download do arquivo do Catálogo de Endereços estiver habilitado.
 
 Por exemplo:
 
+```
     Update-CsAddressBook
-
+```
+```
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
 
 Para uma descrição detalhada do comando completo, consulte o seguinte na referência principal do Lync Server Windows PowerShell RTCCmdlets.
 
@@ -47,5 +37,5 @@ Para uma descrição detalhada do comando completo, consulte o seguinte na refer
 
 #### Outros Recursos
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

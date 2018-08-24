@@ -61,19 +61,8 @@ Simple Network Management Protocol (SNMP)   O SNMP é um padrão de gerenciam
 
   - Um protocolo de gerenciamento, SNMP, é usado para comunicar as informações de gerenciamento entre as estações e os agentes de gerenciamento. As informações de gerenciamento referem-se a um conjunto de objetos gerenciados que residem em um repositório virtual de informações, denominado MIB (base de informações de gerenciamento).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os exemplos de soluções de monitoramento de rede de terceiros são fornecidos acima. Essa lista não é definitiva, e a Microsoft não favorece nenhuma solução de fornecedor específica. Consulte um provedor de serviços de rede e/ou seu respectivo provedor de tecnologia para determinar a melhor solução de monitoramento de rede para a sua organização.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os exemplos de soluções de monitoramento de rede de terceiros são fornecidos acima. Essa lista não é definitiva, e a Microsoft não favorece nenhuma solução de fornecedor específica. Consulte um provedor de serviços de rede e/ou seu respectivo provedor de tecnologia para determinar a melhor solução de monitoramento de rede para a sua organização.
 
 ## Ferramentas para monitorar o desempenho individual da rede dos servidores
 

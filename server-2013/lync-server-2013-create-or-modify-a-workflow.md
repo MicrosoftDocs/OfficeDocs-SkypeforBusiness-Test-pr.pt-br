@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-02_
 
 O Lync Server 2013 oferece suporte a dois tipos de fluxo de trabalho: grupo de busca e IVR (resposta interativa de voz). Ao criar um fluxo de trabalho, você usa a Ferramenta de Configuração de Grupo de Resposta para especificar a fila a ser usada e outras configurações, como mensagem de boas-vindas, música de espera, horário comercial e perguntas que o Aplicativo Grupo de Resposta faz ao chamador.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se desejar criar horários comerciais e feriados predefinidos que pode usar para vários fluxos de trabalho, você também deverá definir esses horários e feriados antes de criar um fluxo de trabalho que os utiliza.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se desejar criar horários comerciais e feriados predefinidos que pode usar para vários fluxos de trabalho, você também deverá definir esses horários e feriados antes de criar um fluxo de trabalho que os utiliza.
 
 ## Nesta seção
 

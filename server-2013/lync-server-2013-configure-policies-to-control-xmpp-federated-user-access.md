@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurar políticas para controlar o acesso de usuário federado'
+title: "Lync Server 2013: config. políticas p/ controlar o acesso de usuário federado"
 TOCTitle: Configurar políticas para controlar o acesso de usuário federado
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ552446(v=OCS.15)
@@ -19,19 +19,8 @@ Esta documentação é preliminar e está sujeita a alterações. Os tópicos em
 
 Ao configurar políticas para oferecer suporte a parceiros federados do protocolo XMPP, as políticas aplicam-se a usuários dos domínios XMPP federados, mas não a usuários de provedores de serviços de mensagens instantâneas (IM) do protocolo SIP (por exemplo, Windows Live), ou domínios SIP federados. Configure um **Parceiro Federado XMPP** para cada domínio XMPP federado para os quais deseja permitir que seus usuários adicionem contatos e se comuniquem. Políticas de parceiros federados XMPP estão disponíveis somente em um único escopo, e embora não sejam definidas como políticas globais, agem como uma. Para definir uma política global, de site ou de usuário para Parceiros Federados XMPP, configure o escopo da política primeiro criando e configurando a Política de Acesso Externo para o escopo necessário. Para detalhes sobre os tipos de políticas que podem ser configuradas para acesso externo e federação, consulte [Gerenciando de federação e acesso externo ao Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) na documentação de Operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todas as políticas de <strong>Federação de Acesso Externo</strong> são aplicadas através de provisionamento em banda. As políticas que se aplicam ao usuário, pertencem a um site ou são globais no escopo são comunicadas ao cliente durante o login. Você pode configurar políticas para controlar o acesso de parceiros federados XMPP, mesmo se não tiver habilitado a federação XMPP para a sua organização. No entanto, as políticas configuradas produzem efeito somente quando você tem a federação de parceiros XMPP implantada, habilitada e configurada para a sua organização. Para detalhes sobre a implantação e configuração da federação de parceiros XMPP, consulte <a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público no Lync Server 2013</a> na documentação de Implantação. Além disso, se você especificar uma política de usuário na Política de Acesso Externo para controlar parceiros federados XMPP, a política será aplicada somente aos usuários habilitados para o Lync Server 2013 e configurados para usar a política.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Todas as políticas de <strong>Federação de Acesso Externo</strong> são aplicadas através de provisionamento em banda. As políticas que se aplicam ao usuário, pertencem a um site ou são globais no escopo são comunicadas ao cliente durante o login. Você pode configurar políticas para controlar o acesso de parceiros federados XMPP, mesmo se não tiver habilitado a federação XMPP para a sua organização. No entanto, as políticas configuradas produzem efeito somente quando você tem a federação de parceiros XMPP implantada, habilitada e configurada para a sua organização. Para detalhes sobre a implantação e configuração da federação de parceiros XMPP, consulte <a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público no Lync Server 2013</a> na documentação de Implantação. Além disso, se você especificar uma política de usuário na Política de Acesso Externo para controlar parceiros federados XMPP, a política será aplicada somente aos usuários habilitados para o Lync Server 2013 e configurados para usar a política.
 
 ## Para editar uma política global para parceiros federados XMPP
 
@@ -133,9 +122,9 @@ Ao configurar políticas para oferecer suporte a parceiros federados do protocol
 #### Outros Recursos
 
 [Gerenciar parceiros XMPP federados no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

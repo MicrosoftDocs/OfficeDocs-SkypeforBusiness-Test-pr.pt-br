@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Suporte a cliente e servidor para Roteamento Baseado em Local'
+title: "Lync Server 2013: Suporte a cliente e serv. p/ Roteamento Baseado em Local"
 TOCTitle: Suporte a cliente e servidor para Roteamento Baseado em Local
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ994024(v=OCS.15)
@@ -141,19 +141,8 @@ A tabela a seguir identifica os clientes com suporte do Roteamento com Base no L
 
   
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para desativar o VoIP para os clientes do Lync Mobile 2013, atribua uma política de mobilidade com a configuração Áudio/Vídeo IP desabilitada para todos os usuários habilitados para o Roteamento com Base no Local. Para maiores detalhes sobre a política de mobilidade, consulte <a href="new-csmobilitypolicy.md">New-CsMobilityPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para desativar o VoIP para os clientes do Lync Mobile 2013, atribua uma política de mobilidade com a configuração Áudio/Vídeo IP desabilitada para todos os usuários habilitados para o Roteamento com Base no Local. Para maiores detalhes sobre a política de mobilidade, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.
 
 ## Consulte Também
 

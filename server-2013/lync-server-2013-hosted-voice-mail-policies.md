@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-01_
 
 Uma *política de caixa postal hospedada* fornece informações ao aplicativo ExUM Routing do Lync Server 2013 sobre o local para onde rotear chamadas dos usuários cujas caixas postais estão localizadas em um serviço do Exchange hospedado.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>As políticas de caixa postal hospedadas são necessárias somente para a integração do Lync Server 2013 com o UM do Exchange hospedada. Elas não são necessárias para integração com UM do Exchange local.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> As políticas de caixa postal hospedadas são necessárias somente para a integração do Lync Server 2013 com o UM do Exchange hospedada. Elas não são necessárias para integração com UM do Exchange local.
 
 ## Escopo da política de caixa postal hospedada
 
@@ -41,19 +30,8 @@ O escopo da política de caixa postal hospedada determina o nível hierárquico 
 
   - Uma política *por usuário* pode afetar somente usuários ou grupos individuais. Para aplicar uma política por usuário, você precisa atribuir explicitamente a política a usuários individuais, grupos e objetos de contato.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Na maioria dos casos, somente a política de caixa postal hospedada é necessário. É possível modificar com frequência a política global a fim de atender a todas as suas necessidades. Se você implantar múltiplas políticas de caixa postal hospedadas, todas essas políticas terão um escopo por usuário.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Na maioria dos casos, somente a política de caixa postal hospedada é necessário. É possível modificar com frequência a política global a fim de atender a todas as suas necessidades. Se você implantar múltiplas políticas de caixa postal hospedadas, todas essas políticas terão um escopo por usuário.
 
 ## Atributos de política de caixa postal hospedada
 
@@ -61,35 +39,13 @@ Uma política de caixa postal define dois atributos que o aplicativo ExUM Routin
 
   - **Destino :** o FQDN (Nome de domínio totalmente qualificado) do serviço UM do Exchange hospedado. Esse valor é usado pelo Servidor de Borda local do Lync Server para roteamento.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O FQDN para Exchange Online é exap.um.outlook.com.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O FQDN para Exchange Online é exap.um.outlook.com.
 
   - **Organização :** o FQDN do inquilino no serviço de UM do Exchange hospedada que hospeda as caixas postais de seu usuário do Lync Server 2013. Uma política de caixa postal pode conter várias organizações. Se mais de uma organização for incluída na política, esse atributo deverá ser uma lista separada por vírgula dos inquilinos do Exchange Server que hospedam as caixas postais de seu usuário do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O administrador de inquilino de seu serviço de UM do Exchange hospedada fornecerá os valores necessários para suas configurações de Destino e Organização. Para configurar sua política, você precisa executar o cmdlet New-CsHostedVoicemailPolicy ou usar o cmdlet Set-CsHostedVoicemailPolicy para modificar um que exista (por exemplo, a política global).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O administrador de inquilino de seu serviço de UM do Exchange hospedada fornecerá os valores necessários para suas configurações de Destino e Organização. Para configurar sua política, você precisa executar o cmdlet New-CsHostedVoicemailPolicy ou usar o cmdlet Set-CsHostedVoicemailPolicy para modificar um que exista (por exemplo, a política global).
 
 Para obter detalhes sobre como gerenciar políticas de caixa postal hospedadas, consulte a documentação do Shell de Gerenciamento do Lync Server para os seguintes cmdlets:
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Certifique-se de que os planos de discagem têm opções atribuídas'
+title: "Lync Server 2013: Certifique-se de que os planos de discagem têm opções atribuídas"
 TOCTitle: Certifique-se de que os planos de discagem têm opções atribuídas
 ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425903(v=OCS.15)

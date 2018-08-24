@@ -21,35 +21,13 @@ The following procedure describes how to test the deployment of the Pool de Fron
 
 1.  Use Computadores e Usuários do Active Directory para adicionar o objeto do usuário do Active Directory da função de administrador para a implantação do Lync Server 2013 (na qual o Painel de Controle do Lync Server 2013 está instalado) para o grupo **CSAdministrator** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o Painel de Controle do Lync Server, afirmando que &quot;Não autorizado: acesso negado devido a uma falha de autorização do controle de acesso baseado em função (RBAC).&quot;</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o Painel de Controle do Lync Server, afirmando que &quot;Não autorizado: acesso negado devido a uma falha de autorização do controle de acesso baseado em função (RBAC).&quot;
 
 2.  Se o objeto do usuário está conectado atualmente, desconecte e conecte-se novamente para registrar a nova atribuição de grupo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A conta de usuário não pode ser o administrador local de qualquer servidor executando o Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A conta de usuário não pode ser o administrador local de qualquer servidor executando o Lync Server 2013.
 
 3.  Use a conta administrativa para fazer o login no computador onde o Painel de Controle do Lync Server está instalado.
 

@@ -85,18 +85,8 @@ A ferramenta ABSConfig pode ser iniciada usando o arquivo absConfig.exe. A ferra
 
 Na ferramenta Configuração ABS do Lync Server 2013, os atributos (linhas) podem ser removidos desmarcando a caixa de seleção "habilitar" do atributo. O mesmo acontece ao excluir a linha no Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A caixa de seleção de habilitação fica na coluna à direita; é necessário rolar para a direita para visualizar a coluna</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> A caixa de seleção de habilitação fica na coluna à direita; é necessário rolar para a direita para visualizar a coluna
 
 
 ## Resultado
@@ -165,18 +155,8 @@ A guia **Informações do computador** mostra os detalhes do Serviço de Políti
 
 A guia **Informações da topologia** mostra uma lista de todos os links configurados nas configurações de Rede. É exibida a capacidade de largura de banda de vídeo e áudio de cada link. Além disso, a largura de banda utilizada atualmente também é exibida, tanto em Kbps como em porcentagem da capacidade. A ferramenta usa uma codificação por cores para realçar os links cuja utilização está próxima do limite de capacidade, permitindo aos administradores isolarem rapidamente estes links.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se houver uma falha no Monitor de serviço da política de largura de banda ao se conectar com qualquer um dos serviços de Política de largura de banda configurados, as informações nas guias <strong>Informações do computador</strong> e <strong>Informações da topologia</strong> não serão exibidas. No entanto, é possível que haja uma conexão inicial ao serviço e depois falhe. Nesses casos, os administradores verão as informações desatualizadas. Há um carimbo de data/hora <strong>Última atualização</strong> em cada uma das guias que permitem aos administradores visualizar quais foram os últimos dados atualizados de um determinado Serviço de Política de Largura de Banda.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Se houver uma falha no Monitor de serviço da política de largura de banda ao se conectar com qualquer um dos serviços de Política de largura de banda configurados, as informações nas guias <strong>Informações do computador</strong> e <strong>Informações da topologia</strong> não serão exibidas. No entanto, é possível que haja uma conexão inicial ao serviço e depois falhe. Nesses casos, os administradores verão as informações desatualizadas. Há um carimbo de data/hora <strong>Última atualização</strong> em cada uma das guias que permitem aos administradores visualizar quais foram os últimos dados atualizados de um determinado Serviço de Política de Largura de Banda.
 
 
 ## Resultado
@@ -237,7 +217,7 @@ O Analisador de Utilização da Largura de Banda possui os dois aplicativos (fer
 
   - **WanLinkLogCollector.exe**   Esta ferramenta permite ao usuário inserir as informações necessárias.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  Uma planilha de relatório de software é iniciada automaticamente pelo WanLinkLogCollector.exe. Este aplicativo permite ao usuário aplicar filtros no relatório, como será mostrado posteriormente neste artigo.
+  - **BandwidthUtilizationAnalyzer.xlsm**  Uma planilha de relatório de software é iniciada automaticamente pelo WanLinkLogCollector.exe. Este aplicativo permite ao usuário aplicar filtros no relatório, como será mostrado posteriormente neste artigo.
 
 ## Fases de uso do Analisador de Utilização da Largura de Banda
 
@@ -247,18 +227,8 @@ Há duas fases ao usar o Analisador de Utilização da Largura de Banda:
 
   - Personalizar relatórios, o que é realizado ao usar o BandwidthUtilizationAnalyzer.xlsm
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Recomendamos que o BandwidthUtilizationAnalyzer.xlsm não seja iniciado manualmente pelos usuários finais.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Recomendamos que o BandwidthUtilizationAnalyzer.xlsm não seja iniciado manualmente pelos usuários finais.
 
 
 ## Iniciando o Analisador de Utilização da Largura de Banda
@@ -273,7 +243,7 @@ Há três etapas para usar o WanLinkLogCollector.exe:
 
 2.  **Especificar os diretórios do arquivo**   Forneça as informações de localização do arquivo
 
-3.  **Coletar os logs e iniciar o visualizador de relatórios **  Execute o comando para gerar o relatório
+3.  **Coletar os logs e iniciar o visualizador de relatórios**  Execute o comando para gerar o relatório
 
 ## Etapa 1 - Log da linha do tempo
 
@@ -291,22 +261,12 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, confo
 
   - **Localização dos arquivos de log no servidor** Localização da pasta onde os logs do servidor da Política de largura de banda são armazenados. Geralmente na opção \<servidordearquivos\>\\\< do FE\>\\AppServerFiles\\PDP.
 
-  - **Localização do armazenamento do arquivo temporário ** Localização do arquivo temporário onde os arquivos intermediários serão armazenados enquanto o relatório estiver sendo gerado.
+  - **Localização do armazenamento do arquivo temporário** Localização do arquivo temporário onde os arquivos intermediários serão armazenados enquanto o relatório estiver sendo gerado.
 
 ![Arquivos de diretórios na Análise da Utilização da Largura de Banda](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Arquivos de diretórios na Análise da Utilização da Largura de Banda")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Certifique-se de fornecer ao usuário da ferramenta acesso de arquivo suficiente aos logs do servidor e à pasta de armazenamento de arquivo temporário.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Certifique-se de fornecer ao usuário da ferramenta acesso de arquivo suficiente aos logs do servidor e à pasta de armazenamento de arquivo temporário.
 
 
 ## Etapa 3 - Coletar os logs e iniciar o visualizador de relatórios
@@ -460,6 +420,7 @@ O objetivo da ferramenta CPS é fornecer o acesso da linha de comando ao banco d
 
 Não haverá nenhuma exigência se esta ferramenta for executada no mesmo computador que estiver executando o CPS. Se esta ferramenta estiver sendo executada em um computador remoto, o banco de dados do SQL Server usado pelo Lync Server 2013 deverá ser configurado para permitir o acesso remoto. O Estacionador de chamadas deve ser configurado com uma cadeia de conexão de banco de dados doSQL Server para se conectar ao SQL Server do pool. Esta Cadeia de conexão do banco de dados do SQL Server é definida no arquivo de configuração **parkometer.exe.config**. Deverá será colocado no mesmo diretório onde o parkometer.exe está localizado. O seguinte arquivo XML trata-se de um exemplo do parkometer.exe.config. Os parâmetros que devem ser configurados são o nome de usuário (por exemplo: meudomínio\\Administrador), a senha (por exemplo, minhasenha) e o nome do host (por exemplo, meuservidor).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -470,6 +431,7 @@ Não haverá nenhuma exigência se esta ferramenta for executada no mesmo comput
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Exemplos
 
@@ -577,18 +539,8 @@ O DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a
 
   - **Modo de diagnóstico**   Cria um relatório com informações sobre tabelas (número de registros, fragmentação, tamanho dos dados e tamanho do índice), dados e tamanhos do arquivo de log, a hora do último backup e distribuição de contatos entre os servidores que estiverem executando o Microsoft Office Communications Server, o número médio de permissões, contatos, contêineres, assinaturas, publicações, pontos de extremidade por usuário, usuários hospedados inadequadamente, usuários que não podem ser roteados, o número médio de conferências organizadas por usuários, conferências agendadas, conferências habilitadas e a versão do banco de dados.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A execução do modo de diagnóstico poderá afetar o desempenho do servidor.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > A execução do modo de diagnóstico poderá afetar o desempenho do servidor.
 
 
   - **Modo de dados do usuário**  Informa os dados de contato, contêineres, assinatura, publicação, permissão e grupos de contato de um usuário específico e dos usuários que tenham o este usuário nas listas de permissões e contatos. Este modo também informa os dados resumidos das conferências organizadas por este usuários ou para as quais foi convidado.
@@ -597,7 +549,7 @@ O DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a
 
   - **Decodificar ID de reunião**  Decodifica a ID de reunião de uma rede telefônica pública comutada (PSTN) especificada pelo switch **/pstnid** mas não se conecta ao ponto de extremidade para informações detalhadas.
 
-  - **Resolução de conferência**   Decodifica uma ID de PSTN especificada pelo switch**/pstnid** e exibe as informações sobre a conferência indicada pela ID.
+  - **Resolução de conferência**   Decodifica uma ID de PSTN especificada pelo switch<strong>/pstnid</strong> e exibe as informações sobre a conferência indicada pela ID.
 
   - **Modo das MCUs**  Informa a ID, tipo de mídia, URL,status da pulsação, carga de conferência e carga de participante de cada MCU no pool.
 
@@ -627,18 +579,8 @@ Para instalar o Dbanalyze.exe, copie-o para uma pasta local e execute a ferramen
 
 ![Tabela de permissões para Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tabela de permissões para Dbanalyze.exe.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Uma conta de administrador local é necessária para o modo <strong>/report:disk</strong>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Uma conta de administrador local é necessária para o modo <strong>/report:disk</strong>.
 
 
 ## Exemplos
@@ -678,18 +620,8 @@ Esta ferramenta aumentará a carga de CPU e de E/S no front end que estiver send
 
 Instale o Lync Server 2013, Ferramentas do Resource Kit. A ferramenta será executada no computador que esteja associado a um domínio e no qual os Lync Server e Shell de Gerenciamento do Lync Server estejam instalados. A ferramenta usa um cmdlet do shell de gerenciamento para identificar todos os servidores Front End no pool. Em segundo lugar, a ferramenta deverá ser executada em um computador no pool que tenha o banco de dados **RtcLocal** instalado. Este banco de dados é usado pela ferramenta para recuperar a localização do compartilhamento do arquivo WEBSERVICE no pool. Além disso, antes de usar a ferramenta, cada servidor Front End deverá primeiramente habilitar o Windows PowerShell remotamente usando o **Enable-PSRemoting** em cada servidor Front End, assim como no computador onde a ferramenta está sendo executada. Caso contrário, os comandos remotos do Windows PowerShell desta ferramenta falharão. A comunicação remota do Windows PowerShell poderá ser desativada de todos os servidores Front End no pool após a conclusão. Por fim, a conta ou credencial que invocam a ferramenta devem ter permissão para ler/gravar no arquivo de serviço da web compartilhado com o pool que está executando a ferramenta. Do contrário, a ferramenta falhará com as Permissões de E/S.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No Windows Server 2012, Windows PowerShell, a comunicação remota é habilitada por padrão, mas não no Sistema operacional Windows Server 2008.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> No Windows Server 2012, Windows PowerShell, a comunicação remota é habilitada por padrão, mas não no Sistema operacional Windows Server 2008.
 
 
 ## Exemplos
@@ -1127,40 +1059,20 @@ A versão atual do SEFAUtil é apenas uma ferramenta de linha de comando; não h
 
   - Habilitar/desabilitar/modificar configurações do grupo de chamadas de equipe
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Novidade na ferramenta Lync Server 2013 SEFAUtil</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Novidade na ferramenta Lync Server 2013 SEFAUtil
 
 
   - Habilitar/desabilitar/modificações configurações de toques simultâneos (inclui destino)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Novidade na ferramenta Lync Server 2013 SEFAUtil</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Novidade na ferramenta Lync Server 2013 SEFAUtil
 
 
   - Habilitar/desabilitar/modificar configurações do recebimento de chamada de grupo
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Novidade na ferramenta Lync Server 2013 SEFAUtil
 
 
@@ -1199,36 +1111,16 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O UCMA 3.0 deve ser instalado em qualquer computador seja usado para executar a ferramenta SEFAUtil.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > O UCMA 3.0 deve ser instalado em qualquer computador seja usado para executar a ferramenta SEFAUtil.
 
 
 2.  Um aplicativo confiável precisa ser definido na topologia da ferramenta SEFAUtil. Para definir SEFAUtil como um novo aplicativo confiável, use o Shell de Gerenciamento do Lync Server e execute o seguinte cmdlet:
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Uma porta diferente pode ser usada se necessário.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Uma porta diferente pode ser usada se necessário.
 
 
 3.  As alterações de topologia precisam ser habilitadas. A habilitação das alterações de topologia pode ser feita via Shell de gerenciamento do Lync Server ao executar o seguinte cmdlet:
@@ -1253,18 +1145,8 @@ O Recebimento de Chamadas em Grupo requer que a configuração adicional no Lync
 
 O comando a seguir exibe a administração de chamadas do usuário. `SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este exemplo usa a opção <strong>/server</strong> para especificar o Lync Server a se conectar.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Este exemplo usa a opção <strong>/server</strong> para especificar o Lync Server a se conectar.
 
 
 **Resultado**
@@ -1351,18 +1233,8 @@ Este exemplo altera a regra de toque simultâneo que foi definida no exemplo ant
 
 Este exemplo remove o representante
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando o ultimo representante delegado é removido, o toque do representante é desabilitado automaticamente.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Quando o ultimo representante delegado é removido, o toque do representante é desabilitado automaticamente.
 
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
@@ -1395,18 +1267,8 @@ Este exemplo habilita o toque simultâneo e define o número de destino do toque
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para alterar o número de destino do toque simultâneo de um usuário cujo toque simultâneo já está habilitado, mantenha o comando com a opção /enablesimulring, do contrário o número de destino não será alterado.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Para alterar o número de destino do toque simultâneo de um usuário cujo toque simultâneo já está habilitado, mantenha o comando com a opção /enablesimulring, do contrário o número de destino não será alterado.
 
 
 **Resultado**
@@ -1438,18 +1300,8 @@ Este exemplo adiciona um membro de equipe ao grupo de chamada de equipe de um us
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Adicionar um membro ao grupo de chamada de um usuário alternará automaticamente as configurações de toque simultâneo dos usuários para equipe.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Adicionar um membro ao grupo de chamada de um usuário alternará automaticamente as configurações de toque simultâneo dos usuários para equipe.
 
 
 **Resultado**
@@ -1465,18 +1317,8 @@ Este exemplo remove um membro de equipe do grupo de chamada de equipe de um usu�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o membro a ser removido for o único membro do grupo de chamada de equipe, o toque simultâneo para o grupo de chamada de equipe será automaticamente desabilitado.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Se o membro a ser removido for o único membro do grupo de chamada de equipe, o toque simultâneo para o grupo de chamada de equipe será automaticamente desabilitado.
 
 
 **Resultado**
@@ -1506,18 +1348,8 @@ Isso habilita a chamada de equipe de um determinado usuário.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se o grupo da chamada de equipe do usuário não tiver membros, a chamada de equipe não será ativada.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Se o grupo da chamada de equipe do usuário não tiver membros, a chamada de equipe não será ativada.
 
 
 **Resultado**
@@ -1555,18 +1387,8 @@ Este exemplo desabilita o Recebimento de Chamadas em Grupo de um determinado usu
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao desabilitar o Recebimento de Chamadas em Grupo de um determinado usuário, o número do grupo que foi designado ao usuário não é retido. Se desejar reabilitar posteriormente o Recebimento de Chamadas em Grupo para esse usuário, será necessário atribuir o numero de grupo novamente com a chave /enablegrouppickup.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Ao desabilitar o Recebimento de Chamadas em Grupo de um determinado usuário, o número do grupo que foi designado ao usuário não é retido. Se desejar reabilitar posteriormente o Recebimento de Chamadas em Grupo para esse usuário, será necessário atribuir o numero de grupo novamente com a chave /enablegrouppickup.
 
 
     User Aor: sip:katarina@contoso.com
@@ -1666,18 +1488,8 @@ Quando executado, o script da Migração de Comunicados de Número não Atribuí
 
 1.  Mova todos os arquivos de áudio usados pelos comunicados de número não atribuído do aplicativo de anúncios hospedado no servidor ou pool de origem para o armazenamento de arquivos do servidor ou pool de destino.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>os arquivos de áudio são removidos do pool de origem após serem copiados para o pool de destino.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > os arquivos de áudio são removidos do pool de origem após serem copiados para o pool de destino.
 
 
 2.  Mova todos os comunicados de número não atribuído configurados do aplicativo de comunicados hospedado no servidor ou pool de origem para o servidor ou pool de destino.
@@ -1746,18 +1558,8 @@ Esta ferramenta permite ao administrador executar as seguintes operações:
 
 4.  Transfira todos os dados de conferência Web associados a um único usuário quando o usuário é movido de um pool para outro.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Ferramentas do Resource Kit para Lync Server 2010 oferecia suporte para os dados de conferência Web associados a um único usuário quando esse usuário era transferido de um pool para outro. Essa funcionalidade agora está depreciada nesta ferramenta em favor do parâmetro <strong>MoveConferenceData</strong>. Para obter detalhes sobre este parâmetro, veja o cmdlet <a href="https://technet.microsoft.com/pt-br/library/gg398528(v=ocs.15)">Move-CSUser</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> O Ferramentas do Resource Kit para Lync Server 2010 oferecia suporte para os dados de conferência Web associados a um único usuário quando esse usuário era transferido de um pool para outro. Essa funcionalidade agora está depreciada nesta ferramenta em favor do parâmetro <strong>MoveConferenceData</strong>. Para obter detalhes sobre este parâmetro, veja o cmdlet <a href="https://technet.microsoft.com/pt-br/library/gg398528(v=ocs.15)">Move-CSUser</a>.
 
 
 A ferramenta elimina atender apenas os dados para as reuniões que estão inativas. As reuniões ativas (ou reuniões em sessões) não podem ser excluídas.

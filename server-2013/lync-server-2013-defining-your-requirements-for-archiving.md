@@ -23,19 +23,8 @@ Para implementar o Arquivamento, você precisa primeiro decidir como atender os 
 
   - **Arquivar comunicações internas ou externas ou não**. É possível habilitar o arquivamento para comunicações internas (comunicações entre usuários internos), comunicações externas (comunicações que incluem pelo menos um usuário fora da sua rede interna) ou ambos. É possível especificar estas opções para toda sua organização ou é possível especificá-lo para locais ou pools específicos. Por padrão, nenhuma opção é habilitada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você usar a integração do Microsoft Exchange para armazenar os dados arquivados, suas configurações do Exchange controlam se as comunicações do Lync são arquivadas. Se sua implantação inclui várias florestas, você deve sincronizar as configurações entre Lync Server e Exchange. Controlar o arquivamento para comunicações internas ou externas está disponível apenas para a política do Lync. Para o arquivamento integrado do Exchange, ambos serão arquivados ou não arquivados.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você usar a integração do Microsoft Exchange para armazenar os dados arquivados, suas configurações do Exchange controlam se as comunicações do Lync são arquivadas. Se sua implantação inclui várias florestas, você deve sincronizar as configurações entre Lync Server e Exchange. Controlar o arquivamento para comunicações internas ou externas está disponível apenas para a política do Lync. Para o arquivamento integrado do Exchange, ambos serão arquivados ou não arquivados.
 
   - **Por que habilitar o Arquivamento**. É possível habilitar e desabilitar o Arquivamento para toda sua implantação a nível global e pode habilitar e desabilitar o Arquivamento para sites e usuários específicos. Em cada um destes níveis, você especifica se deve habilitar o arquivamento de sessões de IM (ponto a ponto), conferências (reuniões, que são sessões de várias partes) ou ambos. Por padrão, o Arquivamento está desabilitado.
 
@@ -61,19 +50,8 @@ Você controla o Arquivamento usando um dos seguintes métodos:
 
   - **Políticas de arquivamento**. Você usa um ou mais políticas de Arquivamento para habilitar e desabilitar o arquivamento de comunicações externas e internas. Por padrão, nenhum arquivamento está habilitado. Você habilita ou desabilita o Arquivamento para comunicações internas, comunicações externas ou ambos em sua implantação usando a política global padrão. Não é possível excluir a política global. É possível especificar uma ou mais políticas locais opcionais para habilitar ou desabilitar o Arquivamento para comunicações internas e externas de locais específicos. Também é possível especificar uma ou mais políticas de usuário para habilitar ou desabilitar o Arquivamento para usuários e grupos de usuários específicos. As políticas a nível de usuário substituem as políticas locais. As políticas a nível local substituem as políticas a nível global. As políticas a nível de usuário são implementadas apenas para usuários específicos configurados para usar a política. Mensagens instantâneas de grupo e conferências são arquivadas apenas se uma política para pelo menos um dos participantes é configurada para habilitar o arquivamento.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você usar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituem as políticas de Arquivamento do Lync Server para todos os usuários hospedados nos servidores do Exchange 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você usar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituem as políticas de Arquivamento do Lync Server para todos os usuários hospedados nos servidores do Exchange 2013.
 
   - **Configurações de Arquivamento**. Você usa uma ou mais configurações de Arquivamento para especificar a maioria das opções de Arquivamento descritas anteriormente neste tópico, exceto para habilitar o arquivamento de comunicações internas e externas (configuradas usando políticas de Arquivamento, conforme descrito no indicador anterior). As configurações de arquivamento inclui a configuração global padrão e as configurações de pool e local opcionais. Não é possível excluir a configuração global. As configurações a nível de pool substituem as configurações a nível local. As configurações a nível local substituem as configurações a nível global.
 
@@ -81,17 +59,5 @@ Como parte da sua análise de requisitos, você precisa determinar como configur
 
 Se você implantar o Arquivamento para um pool de Front-end ou servidor do Standard Edition, você deve também habilitá-lo para todos os outros pools de Front-end e servidores do Standard Edition na sua implantação. Você precisa fazer isso porque os usuários cujas comunicações precisam ser arquivadas podem ser convidados para uma conversa de IM de grupo ou reuniões hospedadas em um pool diferente. Se o arquivamento não está habilitado no pool onde a conversa ou reunião é hospedada, todos os dados de conferência podem não ser arquivados. O arquivamento ainda funciona para os usuários habilitados para arquivamento e todas as mensagens de IM, mas o conteúdo de conferência e eventos podem não ser arquivados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização, o Lync Server 2013 usa RBAC. Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar políticas de Arquivamento do Lync e configurações de Arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a não ser que a configuração seja realizada diretamente no servidor onde o Arquivamento é implantado, ao invés de remotamente de outro computador). Para obter detalhes sobre o RBAC, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento. Para obter uma lista de direitos, permissões e funções do usuário necessárias para implantação de arquivamento, consulte <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lista de verificação da implantação para Arquivamento no Lync Server 2013</a>, que está disponível na documentação de Planejamento e de Implantação.<br />
-Se você usar a integração do Microsoft Exchange, a configuração das políticas do Exchange exigem direitos e permissões de administrador adequadas. Para obter detalhes, consulte a documentação do Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização, o Lync Server 2013 usa RBAC. Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar políticas de Arquivamento do Lync e configurações de Arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a não ser que a configuração seja realizada diretamente no servidor onde o Arquivamento é implantado, ao invés de remotamente de outro computador). Para obter detalhes sobre o RBAC, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento. Para obter uma lista de direitos, permissões e funções do usuário necessárias para implantação de arquivamento, consulte <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lista de verificação da implantação para Arquivamento no Lync Server 2013</a>, que está disponível na documentação de Planejamento e de Implantação.<br />Se você usar a integração do Microsoft Exchange, a configuração das políticas do Exchange exigem direitos e permissões de administrador adequadas. Para obter detalhes, consulte a documentação do Exchange 2013.

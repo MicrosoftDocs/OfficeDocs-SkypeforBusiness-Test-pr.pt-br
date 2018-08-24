@@ -34,18 +34,11 @@ Para Lync 2013, existem várias políticas de bootstrap do cliente que você dev
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Especificar servidor<br />
-(ConfigurationMode)</p></td>
-<td><p>Especifica como o Lync 2013 identifica o transporte e servidor a utilizar durante a assinatura. Com essa configuração, você especifica o seguinte:</p>
-<ul>
-<li><p>ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo.</p></li>
-<li><p>ServerAddressInternal: Especifica o nome de servidor ou endereço IP utilizado quando os clientes se conectam de dentro do firewall da organização.</p></li>
-<li><p>Transport: Especifica o protocolo TCP ou protocolo TLS.</p></li>
-</ul></td>
+<td><p>Especificar servidor<br />(ConfigurationMode)</p></td>
+<td><p>Especifica como o Lync 2013 identifica o transporte e servidor a utilizar durante a assinatura. Com essa configuração, você especifica o seguinte:</p><ul><li><p>ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo.</p></li><li><p>ServerAddressInternal: Especifica o nome de servidor ou endereço IP utilizado quando os clientes se conectam de dentro do firewall da organização.</p></li><li><p>Transport: Especifica o protocolo TCP ou protocolo TLS.</p></li></ul></td>
 </tr>
 <tr class="even">
-<td><p>Versões de servidor adicionais suportadas<br />
-(ConfiguredServerCheckValues)</p></td>
+<td><p>Versões de servidor adicionais suportadas<br />(ConfiguredServerCheckValues)</p></td>
 <td><p>Especifica uma lista de nomes de versão de servidor separadas por ponto e vírgula que o Lync Server 2013 irá efetuar login, além das versões de servidor que são suportadas por padrão.</p></td>
 </tr>
 <tr class="odd">
@@ -62,54 +55,44 @@ Para Lync 2013, existem várias políticas de bootstrap do cliente que você dev
 <p>Quando a configuração estiver desativada, os logs de assinatura são enviados automaticamente para o Lync Server para Lync locais e usuários Lync Online. Quando essa configuração estiver ativada, os logs de assinatura nunca são enviados automaticamente.</p></td>
 </tr>
 <tr class="even">
-<td><p>Desativar o fallback de HTTP para conexão SIP<br />
-(DisableHttpConnect)</p></td>
+<td><p>Desativar o fallback de HTTP para conexão SIP<br />(DisableHttpConnect)</p></td>
 <td><p>Previne que o Lync Server tente se conectar com o servidor utilizando HTTP, caso TLS ou TCP estejam indisponíveis. Por padrão, o Lync tenta primeiro se conectar ao servidor utilizando o TLS ou TCP e, se nenhum destes métodos de transporte estejam funcionando, o Lync tenta se conectar utilizando HTTP. Utilize essa política para desativar a tentativa de conexão por HTTP de fallback.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Requer credenciais de login<br />
-(DisableNTCredentials)</p></td>
+<td><p>Requer credenciais de login<br />(DisableNTCredentials)</p></td>
 <td><p>Requer que o usuário forneça credenciais de login para Lync em vez de utilizar automaticamente credenciais do Windows durante a assinatura a um servidor SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p>Desativar a verificação de versão de servidor<br />
-(DisableServerCheck)</p></td>
+<td><p>Desativar a verificação de versão de servidor<br />(DisableServerCheck)</p></td>
 <td><p>Se esta política estiver definida para 1, evita que Lync verifique o nome do servidor e versão antes de assinar. Por padrão, o Lync efetua tais verificações antes de assinar.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ativar o uso de BITS para baixar arquivos do Serviço de Catálogo de Endereços<br />
-(EnableBitsForGalDownload)</p></td>
+<td><p>Ativar o uso de BITS para baixar arquivos do Serviço de Catálogo de Endereços<br />(EnableBitsForGalDownload)</p></td>
 <td><p>Ativa o Lync para utilizar o Serviço de transferência inteligente de plano de fundo (BITS) para baixar os arquivos do Serviço de Catálogo de Endereços.</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o modo de segurança do SIP<br />
-(EnableSIPHighSecurityMode)</p></td>
+<td><p>Configurar o modo de segurança do SIP<br />(EnableSIPHighSecurityMode)</p></td>
 <td><p>Ativa o Lync a enviar e receber mensagens instantâneas de forma mais segura. Esta política não possui efeito no Windows .NET ou serviços do Servidor do Microsoft Exchange.</p>
 <p>Se você não definir esta configuração de política, o Lync poderá usar qualquer transporte. Mas, caso não utilize o TLS e o servidor autenticar usuários, o Lync deve utilizar a autenticação do NTLM ou Kerberos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Atraso inicial de download do Catálogo de Endereços global<br />
-(GalDownloadInitialDelay)</p></td>
+<td><p>Atraso inicial de download do Catálogo de Endereços global<br />(GalDownloadInitialDelay)</p></td>
 <td><p>Especifica o período de tempo antes de um download da lista de endereço global (GAL) ocorrer. O valor padrão é 60 minutos, o que significa que o download do arquivo GAL é atrasado para um período aleatório entre 0 e 60 minutos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Evita que usuários executem o Microsoft Lync<br />
-(PreventRun)</p></td>
+<td><p>Evita que usuários executem o Microsoft Lync<br />(PreventRun)</p></td>
 <td><p>Evita que os usuários executem o Lync. Você pode definir esta configuração de política tanto sob a Configuração do Computador quanto da Configuração de usuário, mas a configuração de política em Configuração de Computador tem precedência.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permitir armazenamento de senhas de usuário<br />
-(SavePassword)</p></td>
+<td><p>Permitir armazenamento de senhas de usuário<br />(SavePassword)</p></td>
 <td><p>Ativa o Lync a armazenar senhas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o modo de compressão do SIP<br />
-(SipCompression)</p></td>
+<td><p>Configurar o modo de compressão do SIP<br />(SipCompression)</p></td>
 <td><p>Especifica quando ativar a compressão do SIP. Por padrão, a compressão do SIP está ativada com base na velocidade do adaptador. Observe que configurar tal política pode causar um aumento no tempo de assinatura.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lista de domínio confiável<br />
-(TrustModelData)</p></td>
+<td><p>Lista de domínio confiável<br />(TrustModelData)</p></td>
 <td><p>Lista os domínios confiáveis que não correspondem ao prefixo do domínio SIP cliente.</p></td>
 </tr>
 </tbody>
@@ -161,19 +144,8 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos.
 
 2.  Crie uma subpasta para cada idioma que for utilizar. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:
     

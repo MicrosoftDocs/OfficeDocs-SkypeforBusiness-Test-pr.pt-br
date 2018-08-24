@@ -25,19 +25,8 @@ Para que o Lync Server ofereça automaticamente locais para clientes dentro de u
 
 Para obter detalhes sobre como realizar estas tarefas, consulte [Configurar o banco de dados de localização no Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de Implantação;
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os locais adicionados ao banco de dados central Local não ficam disponíveis para o cliente até que tenham sido publicados usando um comando Shell de Gerenciamento do Lync Server e tenham replicado para os repositórios de local do pool. Para obter detalhes, consulte <a href="lync-server-2013-publish-the-location-database.md">Publicar o banco de dados de localização</a> na documentação Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os locais adicionados ao banco de dados central Local não ficam disponíveis para o cliente até que tenham sido publicados usando um comando Shell de Gerenciamento do Lync Server e tenham replicado para os repositórios de local do pool. Para obter detalhes, consulte <a href="lync-server-2013-publish-the-location-database.md">Publicar o banco de dados de localização</a> na documentação Implantação.
 
 Esta seção descreve coisas a considerar conforme você planeja atualizar e manter o banco de dados de localização.
 

@@ -138,50 +138,23 @@ As transações sintéticas disponíveis para os nós do inspetor incluem as seg
 
 Não é necessário instalar nós do inspetor para usar o System Center Operations Manager. Se você não instalar esses nós, ainda poderá obter alertas em tempo real de componentes do Lync Server 2013 quando ocorrer um problema (o Pacote de Gerenciamento de Componentes e Usuários não usa nós do inspetor). No entanto, os nós do inspetor serão necessários se você desejar monitorar cenários completos usando o pacote de Gerenciamento de Monitoramento Ativo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os diversos cmdlets Test-Cs, consulte o <a href="lync-server-2013-cmdlets-index.md">Índice de cmdlets do Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os diversos cmdlets Test-Cs, consulte o <a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Índice de cmdlets do Lync Server 2013</a>.
 
 Dependendo do porte de sua implantação, as transações sintéticas podem consumir uma grande quantidade de memória e tempo de processamento do computador. Por esse motivo, é recomendável usar um computador dedicado como nó do inspetor. Por exemplo, você não deve configurar um Servidor Front-End para atuar como um nó do inspetor. Os nós do inspetor devem atender aos mesmos requisitos de hardware básicos de qualquer outro computador que desempenha alguma função em seu Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um nó do inspetor do Microsoft Lync Server 2010 herdado não pode ser colocado na mesma máquina em que há um nó do inspetor do Lync Server 2013. Isso ocorre porque os arquivos de sistema básicos do Lync Server 2010 e do Lync Server 2013 não podem estar instalados no mesmo computador.<br />
-No entanto, os nós do inspetor do Lync Server 2013 podem monitorar simultaneamente o Lync Server 2013 e o Lync Server 2010. As duas versões do produto oferecem suporte a transações sintéticas padrão.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um nó do inspetor do Microsoft Lync Server 2010 herdado não pode ser colocado na mesma máquina em que há um nó do inspetor do Lync Server 2013. Isso ocorre porque os arquivos de sistema básicos do Lync Server 2010 e do Lync Server 2013 não podem estar instalados no mesmo computador.<br />No entanto, os nós do inspetor do Lync Server 2013 podem monitorar simultaneamente o Lync Server 2013 e o Lync Server 2010. As duas versões do produto oferecem suporte a transações sintéticas padrão.
 
 Os nós do inspetor do Lync Server 2013 podem ser implantados dentro ou fora de uma empresa para ajudar a verificar:
 
-  -   
-    A conectividade com pools para usuários internos da empresa.
+   A conectividade com pools para usuários internos da empresa.
 
-  -   
-    A conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
+   A conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
 
-  -   
-    A conectividade com dispositivos de filiais.
+   A conectividade com dispositivos de filiais.
 
-  -   
-    A conectividade com o Lync Server 2010 dentro da empresa e através de redes de perímetro.
+   A conectividade com o Lync Server 2010 dentro da empresa e através de redes de perímetro.
 
 Diferentes opções de autenticação estão disponíveis para dentro e fora da empresa a fim de simplificar a administração. Para obter detalhes, consulte [Configurando um nó inspetor para executar transações sintéticas](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 
@@ -204,11 +177,7 @@ Antes de instalar os arquivos básicos do Lync Server 2013 e os arquivos de agen
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>Um dos seguintes:</p>
-<ul>
-<li><p>Processador de 64 bits, quad-core, 2,33 GHz ou superior</p></li>
-<li><p>Processador de 2 vias e 64 bits, dual-core, 2,33 GHz ou superior</p></li>
-</ul></td>
+<td><p>Um dos seguintes:</p><ul><li><p>Processador de 64 bits, quad-core, 2,33 GHz ou superior</p></li><li><p>Processador de 2 vias e 64 bits, dual-core, 2,33 GHz ou superior</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>Memória</p></td>
@@ -216,11 +185,8 @@ Antes de instalar os arquivos básicos do Lync Server 2013 e os arquivos de agen
 </tr>
 <tr class="odd">
 <td><p>Rede operando sistema</p></td>
-<td><ul>
-<li><p>1 adaptador de rede 1 Gbps</p></li>
-<li><p>Windows Server 2008 R2, Windows Server 2012 ou</p>
-<p>Windows Server 2012 R2</p></li>
-</ul></td>
+<td><ul><li><p>1 adaptador de rede 1 Gbps</p></li><li><p>Windows Server 2008 R2, Windows Server 2012 ou</p>
+<p>Windows Server 2012 R2</p></li></ul></td>
 </tr>
 </tbody>
 </table>

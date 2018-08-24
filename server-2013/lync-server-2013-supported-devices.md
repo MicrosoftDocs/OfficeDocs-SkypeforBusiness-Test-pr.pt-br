@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 O Lync Server suporta todos os telefones listados na tabela a seguir. Observe que nem todos os telefones suportados podem executar o Lync Phone Edition (alguns podem executar versões antigas). Use a tabela para saber quais telefones podem executar o Lync Phone Edition e onde obter informações detalhadas sobre todos os telefones suportados.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Três tipos de telefone são suportados: telefones de mesa (IP de mão ou dispositivos USB que são projetados para serem usados por funcionários em sua mesa), dispositivos de conferência (IP de mãos livres ou telefones USB que são projetados para uso em salas de reunião) e telefones de área comum (telefones IP projetados para uso em áreas compartilhadas) - como lobbies, cozinhas, pisos de fábrica e áreas de trabalho compartilhadas - e podem ser personalizados para fornecer diferentes conjuntos de recursos do Lync Phone Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Três tipos de telefone são suportados: telefones de mesa (IP de mão ou dispositivos USB que são projetados para serem usados por funcionários em sua mesa), dispositivos de conferência (IP de mãos livres ou telefones USB que são projetados para uso em salas de reunião) e telefones de área comum (telefones IP projetados para uso em áreas compartilhadas) - como lobbies, cozinhas, pisos de fábrica e áreas de trabalho compartilhadas - e podem ser personalizados para fornecer diferentes conjuntos de recursos do Lync Phone Edition.
 
 Para ver tabelas de comparação detalhadas sobre todos os dispositivos que são otimizados para funcionar com o Lync, consulte "Telefones e dispositivos qualificados para Microsoft Lync" em [http://go.microsoft.com/fwlink/?linkid=208938\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x416). As tabelas de comparação de telefones nesse website incluem informações de preço e especificações técnicas.
 
@@ -102,16 +91,5 @@ Para ver tabelas de comparação detalhadas sobre todos os dispositivos que são
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O suporte para dispositivos analógicos também é fornecido. Para obter detalhes, consulte <a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x416">Planejando a implantação de dispositivos análogos</a> na Lync Server 2010 TechNet Library. (O Lync Phone Edition funciona da mesma forma no Lync Server 2013 e Lync Server 2010).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O suporte para dispositivos analógicos também é fornecido. Para obter detalhes, consulte <a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x416">Planejando a implantação de dispositivos análogos</a> na Lync Server 2010 TechNet Library. (O Lync Phone Edition funciona da mesma forma no Lync Server 2013 e Lync Server 2010).

@@ -50,36 +50,15 @@ Esta seção oferece uma visão geral das etapas envolvidas na implantação do 
 <tr class="even">
 <td><p>Configure os intervalos de número para recebimento de chamada na tabela de órbita de estacionamento de chamada</p></td>
 <td><p>Use o cmdlet <strong>New-CSCallParkOrbit</strong> para criar faixas de número de recebimento de chamada na tabela de órbita de estacionamento de chamada e atribua as intervalos de recebimento de chamada ao tipo GroupPickup.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você deve usar o Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar os intervalos de números de recebimento de chamadas de grupo na tabela da órbita de estacionamento de chamadas. Os intervalos de números do recebimento de chamadas de grupo não estão disponíveis no Painel de Controle do Lync Server.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para uma integração perfeita aos planos de discagem existentes, os intervalos de número são normalmente configurados como um bloco de ramais virtuais. A atribuição dos números de Discagem Direta de Entrada (DID) como números de intervalos na tabela de órbita de estacionamento de chamada não é suportada.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Você deve usar o Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar os intervalos de números de recebimento de chamadas de grupo na tabela da órbita de estacionamento de chamadas. Os intervalos de números do recebimento de chamadas de grupo não estão disponíveis no Painel de Controle do Lync Server.
 
-</div></td>
+
+> [!NOTE]  
+> Para uma integração perfeita aos planos de discagem existentes, os intervalos de número são normalmente configurados como um bloco de ramais virtuais. A atribuição dos números de Discagem Direta de Entrada (DID) como números de intervalos na tabela de órbita de estacionamento de chamada não é suportada.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>

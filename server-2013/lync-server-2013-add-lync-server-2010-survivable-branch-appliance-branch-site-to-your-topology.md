@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Adicionar site de Aparelho de Filial Persistente do Lync Server 2010 a sua topologia'
+title: "Adic. site de Ap. de Filial Persist. do Lync Server 2010 a sua topologia"
 TOCTitle: Adicionar site de Aparelho de Filial Persistente do Lync Server 2010 a sua topologia
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688004(v=OCS.15)

@@ -17,7 +17,7 @@ _**Tópico modificado em:** 2012-09-24_
 
 A política de caixa postal hospedada *global* é instalada com o Lync Server 2013. É possível modificá-la para corresponder às suas necessidades, mas não é possível renomear ou exclui-la. Para modificar a política global, deve usar o cmdlet Set-CsHostedVoicemailPolicy para definir os parâmetros para os valores adequados da sua implantação específica.
 
-Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md), consulte a documentação do Shell de Gerenciamento do Lync Server.
+Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 ## Para modificar a política de caixa postal hospedada global
 
@@ -33,20 +33,12 @@ Para obter detalhes sobre o cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoi
     
       - **Organização** especifica a lista separada por vírgulas dos inquilinos do Exchange que hospedam os usuários do Lync Server. Cada inquilino deve ser especificado como o FQDN daquele inquilino no serviço UM do Exchange hospedado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>No cmdlet de exemplo anterior, o valor “corp1.litwareinc.com” substitui qualquer valor que pode já estar presente no parâmetro Organização. Por exemplo, se a política já contém uma lista separada por vírgulas da organização, a lista completa seria substituída. Se deseja adicionar uma organização à lista ao invés de substituir toda a lista, execute um comando similar ao seguinte.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > No cmdlet de exemplo anterior, o valor “corp1.litwareinc.com” substitui qualquer valor que pode já estar presente no parâmetro Organização. Por exemplo, se a política já contém uma lista separada por vírgulas da organização, a lista completa seria substituída. Se deseja adicionar uma organização à lista ao invés de substituir toda a lista, execute um comando similar ao seguinte. 
+
+      ```
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
         Set-CsHostedVoicemailPolicy -Organization $a.Organization
+      ```
 

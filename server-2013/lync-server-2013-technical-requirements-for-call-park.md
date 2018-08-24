@@ -41,34 +41,12 @@ O Aplicativo de Estacionamento de Chamada usa as seguintes portas:
 
   - **Porta 5075**   Usada para solicitações de escuta de SIP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esta porta é uma configuração padrão, que pode ser alterado usando o cmdlet <strong>Set-CsApplicationServer</strong>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Esta porta é uma configuração padrão, que pode ser alterado usando o cmdlet <strong>Set-CsApplicationServer</strong>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 ## Requisitos do arquivo de áudio
 
 O Aplicativo de Estacionamento de Chamada dá suporte a arquivos .wma (Windows Media Audio) de músicas em espera. É possível usar o Microsoft Expression Encoder 4 para personalizar arquivos de música em espera. Para baixar o Expression Encoder 4, consulte "Expression Encoder 4" em [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Use a ferramenta parra converter o arquivo para o formato .wma. O formato recomendado para arquivos de música em espera do Estacionamento de Chamada é o Media Audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O arquivo convertido é reproduzido no telefone apenas em 16 kHz, mesmo que tenha sido gravado em 44 kHz.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O arquivo convertido é reproduzido no telefone apenas em 16 kHz, mesmo que tenha sido gravado em 44 kHz.

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-17_
 
 Lync Server 2013 á suporte aos serviços do Enhanced 9-1-1 (E9-1-1) dentro dos Estados Unidos como parte de uma implantação do Enterprise Voice O E9-1-1 é um recurso de remessa de emergência que associa uma chamada 9-1-1 a um Emergency Response Location (ERL) que consiste em endereços cívicos (ou seja, ruas) e outras informações de local mais específicas, como os números dos andares, para ligações de prédios comerciais e outras instalações multilocatárias. Ao usar o ERL fornecido, um ponto de atendimento público seguro (PSAP) pode remeter serviços de emergência imediatamente ao chamador em apuros com risco reduzido de direcionar o respondente de forma não intencional a um local incorreto ou vago.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Lync Server possui três recursos avançados de Enterprise Voice: ontrole de admissão de chamadas, serviços de emergência (E9-1-1) e desvio de mídia. Para obter uma visão geral das informações de planejamento que é comum aos três recursos, consulte <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configurações de rede para recursos avançados do Enterprise Voice no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O Lync Server possui três recursos avançados de Enterprise Voice: ontrole de admissão de chamadas, serviços de emergência (E9-1-1) e desvio de mídia. Para obter uma visão geral das informações de planejamento que é comum aos três recursos, consulte <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configurações de rede para recursos avançados do Enterprise Voice no Lync Server 2013</a>.
 
 ## Nesta seção
 

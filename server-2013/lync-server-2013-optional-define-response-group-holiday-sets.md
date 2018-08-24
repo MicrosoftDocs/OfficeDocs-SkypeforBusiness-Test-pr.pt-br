@@ -1,6 +1,6 @@
 ﻿---
-title: (Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
-TOCTitle: (Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
+title: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
+TOCTitle: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49886226
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2014-02-07_
 
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se um fluxo de trabalho for definido como um fluxo de trabalho gerenciado, então qualquer usuário que estiver atribuído à função CsResponseGroupManager poderá definir e modificar feriados para fluxos de trabalho que eles gerenciam.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se um fluxo de trabalho for definido como um fluxo de trabalho gerenciado, então qualquer usuário que estiver atribuído à função CsResponseGroupManager poderá definir e modificar feriados para fluxos de trabalho que eles gerenciam.
 
 ## Para criar um conjunto de feriados
 
@@ -60,6 +49,6 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 #### Outros Recursos
 
-[New-CsRgsHoliday](new-csrgsholiday.md)  
-[New-CsRgsHolidaySet](new-csrgsholidayset.md)
+[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
 

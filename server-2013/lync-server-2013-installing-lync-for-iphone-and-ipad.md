@@ -25,25 +25,13 @@ Você pode instruir os usuários a instalar o Lync 2013 para iPhone e o Lync 201
 
   - O Lync para iPad está disponível na App Store em \< http://www.apple.com/ipad/from-the-app-store/\>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os usuários de iPhone que não instalaram o aplicativo Lync 2013 e que tentarem ingressar em uma reunião do Lync com base em um convite de reunião serão redirecionados para uma página Iniciador de Ingresso. Essa página contém um link para a instalação do aplicativo Lync 2013. No entanto, em vez de direcionar o usuário para a App Store, esse link abre uma página do navegador Safari em branco. O usuário pode executar uma destas duas ações para contornar esse problema:
-<ul>
-<li><p>Usar o botão <strong>Início</strong> para colocar a página do Safari em segundo plano e reabra o Safari. Quando a notificação “Abrir esta página na App Store” aparecer, toque em <strong>Abrir</strong> para ser direcionado para o download do Lync 2013 na App Store.</p></li>
-<li><p>Abra manualmente a App Store, procure &quot;Lync 2013&quot; e baixe o aplicativo.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Os usuários de iPhone que não instalaram o aplicativo Lync 2013 e que tentarem ingressar em uma reunião do Lync com base em um convite de reunião serão redirecionados para uma página Iniciador de Ingresso. Essa página contém um link para a instalação do aplicativo Lync 2013. No entanto, em vez de direcionar o usuário para a App Store, esse link abre uma página do navegador Safari em branco. O usuário pode executar uma destas duas ações para contornar esse problema:<ul>
+> 
+> <li><p>Usar o botão <strong>Início</strong> para colocar a página do Safari em segundo plano e reabra o Safari. Quando a notificação “Abrir esta página na App Store” aparecer, toque em <strong>Abrir</strong> para ser direcionado para o download do Lync 2013 na App Store.</p></li>
+> 
+> 
+> <li><p>Abra manualmente a App Store, procure &quot;Lync 2013&quot; e baixe o aplicativo.</p></li></ul>
 
 
 ## Verificando a instalação do cliente móvel

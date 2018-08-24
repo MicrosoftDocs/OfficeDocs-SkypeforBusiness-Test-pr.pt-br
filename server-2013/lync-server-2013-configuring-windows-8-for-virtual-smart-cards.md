@@ -35,19 +35,8 @@ Para computadores que contam com um chip Trusted Platform Module (TPM) compatív
 
 6.  No Console de Gerenciamento do TPM, confira se a versão do seu TPM é 1.2 ou superior.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Caso surja uma caixa de diálogo com a mensagem de que não foi possível encontrar o Trust Platform Module (TPM) compatível, verifique se o computador tem um módulo TPM compatível e se ele está habilitado na BIOS do sistema.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Caso surja uma caixa de diálogo com a mensagem de que não foi possível encontrar o Trust Platform Module (TPM) compatível, verifique se o computador tem um módulo TPM compatível e se ele está habilitado na BIOS do sistema.
 
 7.  Feche o Console de Gerenciamento do TPM
 
@@ -55,19 +44,8 @@ Para computadores que contam com um chip Trusted Platform Module (TPM) compatív
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para personalizar o valor do PIN ao criar o cartão inteligente virtual, use o prompt /pin.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para personalizar o valor do PIN ao criar o cartão inteligente virtual, use o prompt /pin.
 
 9.  No prompt de comando, abre o Console de Gerenciamento do computador executando o seguinte comando:
     

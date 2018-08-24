@@ -21,27 +21,15 @@ Antes de disponibilizar o Aplicativo Lync Windows Store aos usuários, verifique
 
 Atualizações acumulativas para Lync Server 2013: junho de 2013 adiciona a autenticação multifator para clientes do Aplicativo Lync Windows Store. Além do nome de usuário e senha, você pode precisar de métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários externos quando eles entrarem em reuniões do Lync. Para ativar a autenticação multifator, implante o servidor de federação do Serviço de Federação do Active Directory (AD FS) e habilite a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, usuários externos que tentarem ingressar em reuniões do Lync visualizam uma página da Web de autenticação multifator do AD FS que contém o desafio de nome de usuário e senha junto com todos os métodos de autenticação adicionais que você configurou.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Veja a seguir considerações importantes se você pretende configurar o AD FS para autenticação multifator para o Aplicativo Lync Windows Store:
-<ul>
-<li><p>Lync Server 2013 com Atualizações acumulativas para Lync Server 2013: junho de 2013 é necessário, no mínimo. Clientes de desktop Lync 2013 não requerem Atualizações acumulativas para Lync Server 2013: junho de 2013, por isso pode parecer que a autenticação passiva está funcionando porque os clientes do Lync 2013 conseguem se autenticar. No entanto, o processo de autenticação para clientes do Aplicativo Lync Windows Store não será concluído e nenhuma mensagem de notificação ou de erro será exibida.</p></li>
-<li><p>O servidor deve ser configurado para que a autenticação passiva seja o único tipo de autenticação oferecido.</p></li>
-<li><p>Se você usa balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as solicitações do cliente do Aplicativo Lync Windows Store sejam manipuladas pelo mesmo cookie de Servidor front-end.</p></li>
-<li><p>Ao estabelecer uma parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para considerar a duração máxima de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Veja a seguir considerações importantes se você pretende configurar o AD FS para autenticação multifator para o Aplicativo Lync Windows Store:<ul>
+> <li><p>Lync Server 2013 com Atualizações acumulativas para Lync Server 2013: junho de 2013 é necessário, no mínimo. Clientes de desktop Lync 2013 não requerem Atualizações acumulativas para Lync Server 2013: junho de 2013, por isso pode parecer que a autenticação passiva está funcionando porque os clientes do Lync 2013 conseguem se autenticar. No entanto, o processo de autenticação para clientes do Aplicativo Lync Windows Store não será concluído e nenhuma mensagem de notificação ou de erro será exibida.</p></li>
+> <li><p>O servidor deve ser configurado para que a autenticação passiva seja o único tipo de autenticação oferecido.</p></li>
+> 
+> <li><p>Se você usa balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as solicitações do cliente do Aplicativo Lync Windows Store sejam manipuladas pelo mesmo cookie de Servidor front-end.</p></li>
+> 
+> 
+> <li><p>Ao estabelecer uma parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para considerar a duração máxima de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</p></li></ul>
 
 
 **Configurar a autenticação multifator**
@@ -60,11 +48,15 @@ Atualizações acumulativas para Lync Server 2013: junho de 2013 adiciona a aute
 
 5.  Defina as seguintes regras de confiabilidade de parte:
     
+```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
+```
+```    
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-    
+```
+```    
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+```
 
 ## Problemas conhecidos que podem evitar o logon
 

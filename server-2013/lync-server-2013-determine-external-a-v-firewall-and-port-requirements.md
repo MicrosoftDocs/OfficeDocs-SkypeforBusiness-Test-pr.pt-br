@@ -143,19 +143,8 @@ Se as suas políticas necessitarem de definições de regra de firewall de entra
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Microsoft Office Communications Server 2007 requer uma configuração um pouco diferente. A faixa de porta TCP e UDP de 50.000-59.999 deve ser aberta como de entrada e saída. Este requisito é apenas para Office Communicator 2007. Office Communications Server 2007 R2e Lync Server 2010, e Lync Server 2013 requer apenas a faixa TCP de 50.000-59.999 de saída aberta.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Microsoft Office Communications Server 2007 requer uma configuração um pouco diferente. A faixa de porta TCP e UDP de 50.000-59.999 deve ser aberta como de entrada e saída. Este requisito é apenas para Office Communicator 2007. Office Communications Server 2007 R2e Lync Server 2010, e Lync Server 2013 requer apenas a faixa TCP de 50.000-59.999 de saída aberta.
 
 ## Requisitos de NAT para acesso de usuário externo
 
@@ -163,19 +152,8 @@ NAT geralmente é uma função de roteamento, mas dispositivos mais recentes, co
 
 O Lync Server 2013  software de comunicação não dá suporte a NAT para tráfego para ou da interface interna de borda, mas para a interface externa de borda, o comportamento do NAT a seguir é necessário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É preciso configurar NAT para o tráfego de entrada e saída. NAT simétrico é a tecnologia de NAT descrita neste tópico.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> É preciso configurar NAT para o tráfego de entrada e saída. NAT simétrico é a tecnologia de NAT descrita neste tópico.
 
 Esta documentação usa os acrônimos ChangeDST e ChangeSRC das tabelas e desenhos para definir o seguinte comportamento necessário:
 

@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Os logs de atualização de dispositivo contêm informações importantes que você pode usar para gerenciar e solucionar problemas do Serviço Web de Atualização de Dispositivos. Você pode alterar o que é registrado em log e remover os logs e as atualizações do dispositivo que não são mais desejados ou necessários. Esta seção descreve como você pode usar o Painel de Controle do Lync Server ou o Shell de Gerenciamento do Lync Server para modificar as configurações do registro em log, limpar o log de atualizações do dispositivo ou remover os arquivos de log do servidor.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre os arquivos de log de atualização de dispositivo, consulte <a href="http://technet.microsoft.com/pt-br/library/gg398250(v=ocs.14).aspx">Tipos e locais de arquivos de log</a> na biblioteca da TechNet do Lync Server 2010. (Observe que a Serviço Web de Atualização de Dispositivos, como todos os componentes da Lync Phone Edition, funcionam da mesma forma com o Lync Server 2013 em comparação ao Lync Server 2010.)</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre os arquivos de log de atualização de dispositivo, consulte <a href="http://technet.microsoft.com/pt-br/library/gg398250(v=ocs.14).aspx">Tipos e locais de arquivos de log</a> na biblioteca da TechNet do Lync Server 2010. (Observe que a Serviço Web de Atualização de Dispositivos, como todos os componentes da Lync Phone Edition, funcionam da mesma forma com o Lync Server 2013 em comparação ao Lync Server 2010.)
 
 ## Nesta seção
 

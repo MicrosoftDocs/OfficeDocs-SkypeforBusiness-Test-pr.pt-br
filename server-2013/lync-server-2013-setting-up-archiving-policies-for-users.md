@@ -19,20 +19,8 @@ _**Tópico modificado em:** 2012-10-09_
 
 Para obter detalhes sobre como as políticas de Arquivamento funcionam, incluindo a hierarquia para políticas de usuário, global e local, consulte a documentação de Planejamento, de Implantação ou Operações do [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você habilitar a integração do Microsoft Exchange para sua implantação, as políticas de Retenção Local do Exchange controlam se o arquivamento está habilitado para usuários hospedados no Exchange 2013 e possuem caixas de correio em Retenção Local. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de Implantação.<br />
-Você deve especificar todas as opções adequadas nas configurações de Arquivamento antes de habilitar o Arquivamento de comunicações internas e externas nas políticas de Arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento</a> na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você habilitar a integração do Microsoft Exchange para sua implantação, as políticas de Retenção Local do Exchange controlam se o arquivamento está habilitado para usuários hospedados no Exchange 2013 e possuem caixas de correio em Retenção Local. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de Implantação.<br />Você deve especificar todas as opções adequadas nas configurações de Arquivamento antes de habilitar o Arquivamento de comunicações internas e externas nas políticas de Arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento</a> na documentação de Implantação.
 
 ## Nesta seção
 

@@ -33,19 +33,8 @@ Instrua os usuários a definirem as configurações do Lync em seus Windows Phon
 
 3.  Toque no campo vazio e insira o FQDN (nome de domínio totalmente qualificado) ou URL dos Serviços Web do Exchange.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode especificar o FQDN ou a URL completa do seu servidor de Serviços Web do Exchange. Se você especificar o FQDN, o protocolo (https://) e o caminho de Serviços Web do Exchange (/ews/exchange.asmx) são adicionados automaticamente. Se o seu caminho de Serviços Web do Exchange for diferente, você poderá especificar a URL completa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você pode especificar o FQDN ou a URL completa do seu servidor de Serviços Web do Exchange. Se você especificar o FQDN, o protocolo (https://) e o caminho de Serviços Web do Exchange (/ews/exchange.asmx) são adicionados automaticamente. Se o seu caminho de Serviços Web do Exchange for diferente, você poderá especificar a URL completa.
 
 4.  Feche a tela.
 

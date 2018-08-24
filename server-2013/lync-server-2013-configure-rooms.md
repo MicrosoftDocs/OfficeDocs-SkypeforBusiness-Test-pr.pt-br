@@ -31,16 +31,5 @@ O Servidor de Chat Persistente permite que os usuários colaborem pr meio da pos
 
 Quando a mensagem é excluída, não é possível desfazer a ação. No entanto, as mensagens excluídas podem ser restauradas caso exista um backup. Se houver um servidor de conformidade do Chat Persistente ativo, as mensgem antiga persistirão no banco de dados de conformidade.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esses dados das salas de chat aplicam-se ao Lync Server 2013 e ao aplicativo de API do Servidor de Chat Persistente, exceto quando a função de administrador estiver envolvida. A API do Servidor de Chat Persistente não pode ser usada em operações do administrador. Execute essas operações no Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Esses dados das salas de chat aplicam-se ao Lync Server 2013 e ao aplicativo de API do Servidor de Chat Persistente, exceto quando a função de administrador estiver envolvida. A API do Servidor de Chat Persistente não pode ser usada em operações do administrador. Execute essas operações no Shell de Gerenciamento do Lync Server.

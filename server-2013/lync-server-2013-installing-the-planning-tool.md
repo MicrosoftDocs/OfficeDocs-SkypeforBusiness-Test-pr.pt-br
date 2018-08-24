@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-11-07_
 
 Antes de começar a criação e o planejamento da infraestrutura do Lync Server 2013 usando a Microsoft Lync Server 2013, Ferramenta de Planejamento, primeiro instale a Ferramenta de Planejamento. Não é necessário implantar a Ferramenta de Planejamento em uma estação de trabalho ou servidor que faça parte do domínio ou da infraestrutura na qual pretende instalar o Lync Server 2013. O arquivo Leiame que acompanha a Ferramenta de Planejamento apresenta informações detalhadas importantes sobre a instalação e o uso da ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Ferramenta de Planejamento exige a instalação por um usuário com direitos e permissões de administrador no computador no qual a ferramenta será instalada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Ferramenta de Planejamento exige a instalação por um usuário com direitos e permissões de administrador no computador no qual a ferramenta será instalada.
 
 Os sistemas operacionais suportados para instalação e operação do Ferramenta de Planejamento são:
 

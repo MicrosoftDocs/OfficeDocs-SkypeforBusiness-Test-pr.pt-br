@@ -37,16 +37,5 @@ Se sua organização desejar oferecer suporte à conectividade pública de mensa
     
     O nome do certificado padrão do modelo usado em Lync Server é Servidor Web. Somente especifique o \<nome do modelo\> quando precisar usar um modelo diferente do padrão.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se sua organização desejar oferecer suporte à conectividade a redes públicas de IM com o AOL, você deverá usar o Windows PowerShell em vez do Assistente de Certificados para solicitar o certificado a ser atribuído à borda externa do serviço de Borda de Acesso. Isso ocorre porque o modelo de Servidor Web da Autoridade (CA) usado pelo Assistente de Certificados para solicitar um certificado não oferece suporte à configuração de cliente EKU. Antes de usar o Windows PowerShell para criar o certificado, o administrador deverá criar e implantar um novo modelo que oferece suporte ao cliente EKU.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Se sua organização desejar oferecer suporte à conectividade a redes públicas de IM com o AOL, você deverá usar o Windows PowerShell em vez do Assistente de Certificados para solicitar o certificado a ser atribuído à borda externa do serviço de Borda de Acesso. Isso ocorre porque o modelo de Servidor Web da Autoridade (CA) usado pelo Assistente de Certificados para solicitar um certificado não oferece suporte à configuração de cliente EKU. Antes de usar o Windows PowerShell para criar o certificado, o administrador deverá criar e implantar um novo modelo que oferece suporte ao cliente EKU.

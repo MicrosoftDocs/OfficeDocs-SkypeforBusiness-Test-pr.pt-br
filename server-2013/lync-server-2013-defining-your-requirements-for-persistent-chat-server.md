@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definindo seus requisitos para o Servidor de Chat Persistente'
+title: "Lync Server 2013: Definindo seus requisitos p/ o Servidor de Chat Persistente"
 TOCTitle: Definindo os requisitos de sua organização para o Servidor de Chat Persistente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398372(v=OCS.15)
@@ -37,16 +37,5 @@ Antes de implantar o Servidor de Chat Persistente na sua organização, é essen
 
   - Há requisitos da regulamentação? Se a sua empresa estiver em um país/região onde os dados precisem ser mantidos, poderá ser necessário implantar vários Pools de Servidor de Chat Persistente, cada local a uma geografia específica. Uma sala, categoria, ou suplemento não inclui pools—pertence a um Pool de Servidor de Chat Persistente. É possível gerenciar o conjunto de categorias, suplementos e salas para cada Pool de Servidor de Chat Persistente. Os usuários podem ser configurados para terem acesso às salas em um ou mais pools usando o escopo da categoria AllowedMembers ou da adesão da sala, dependendo de como você cria suas categorias.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ter vários Pools de Servidor de Chat Persistente não oferece a você mais escala (ainda assim, é possível ter apenas 80 mil usuários conectados simultaneamente em todos os seus Pools de Servidor de Chat Persistente). A principal razão para suportar vários Pools de Servidor de Chat Persistente é o suporte de preocupações regulatórias.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Ter vários Pools de Servidor de Chat Persistente não oferece a você mais escala (ainda assim, é possível ter apenas 80 mil usuários conectados simultaneamente em todos os seus Pools de Servidor de Chat Persistente). A principal razão para suportar vários Pools de Servidor de Chat Persistente é o suporte de preocupações regulatórias.

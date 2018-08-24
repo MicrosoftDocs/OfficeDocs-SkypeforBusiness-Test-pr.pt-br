@@ -75,19 +75,8 @@ Ter estes dois serviços executando em cada Servidor de Chat Persistente oferece
 
 Além disso, para suportar o upload e download de arquivos nas salas do Chat Persistente, o Servidor de Chat Persistente inclui um serviço da Web. Anteriormente, este serviço foi posicionado no Servidor de Chat Persistente, Servidor Front-End e exigi que o IIS (Serviços de Informações da Internet) seja instalado como um pré-requisito. No Lync Server 2013Servidor de Chat Persistente, o serviço da Web de Upload/Download é posicionado com o Lync Server 2013Servidor Front-End. Como efeito colateral, o IIS (Serviços de Informações da Internet) não é mais um pré-requisito para o Servidor de Chat Persistente. O serviço da Web de Upload/Download de arquivos é identificado como **PersistentChat** no Gerenciador do IIS (Serviços de Informações da Internet).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A função <strong>PersistentChatService</strong> pode ser executada no mesmo servidor que o Lync Server 2013Servidor Front-End apenas se este Servidor Front-End é um Standard EditionServidor Front-End. A função <strong>PersistentChatService</strong> não pode ser executada independente de um Lync Server 2013Servidor Front-End. Pode ser instalado apenas no contexto de uma implantação do Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> A função <strong>PersistentChatService</strong> pode ser executada no mesmo servidor que o Lync Server 2013Servidor Front-End apenas se este Servidor Front-End é um Standard EditionServidor Front-End. A função <strong>PersistentChatService</strong> não pode ser executada independente de um Lync Server 2013Servidor Front-End. Pode ser instalado apenas no contexto de uma implantação do Lync Server 2013.
 
 No Servidor de Chat Persistente, o serviço de Pesquisa foi eliminado. No Lync Server 2010, Chat de Grupo, o serviço de Pesquisa é executado em cada Servidor de Chat de GrupoServidor Front-End e realizado um roteamento em um dos Servidores do Canal. O Lync Server 2013 confia no roteamento usando objetos de contato, onde cada Pool de Servidor de Chat Persistente é representado por um objeto de contato usado pelo Lync ServerServidores Front-End para identificar e direcionar solicitações para um Pool de Servidor de Chat Persistente adequado e para um dos computadores executando o Servidor de Chat Persistente no pool.
 
@@ -97,32 +86,10 @@ No Lync Server 2013, há modificações do serviço de Conformidade:
 
   - A fila do Enfileiramento de Mensagem (também conhecida como MSMQ) compartilhada pelo serviço do Chat Persistente e o serviço de Conformidade em cada Servidor de Chat PersistenteServidor Front-End é agora uma fila privada compartilhada apenas pelos dois serviços. Todos os serviços de conformidade gravam no mesmo banco de dados de Back-End de Conformidade. Eles também leem do banco de dados, para fins de envio de dados para sua instância do adaptador. O Servidor de Back-End de Conformidade é representado como a nova função do Servidor de Back-End.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Como em versões anteriores, todos os dados de conformidade são processados no mesmo momento. Os dados podem ser processados por qualquer instância do adaptador invocada pelo serviço de conformidade executando em vários computadores do Lync Server 2013, Servidor de Chat Persistente. No Servidor de Chat Persistente, qualquer uma das instâncias do adaptador pode processar os dados.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para obter informações sobre a instalação de Enfileiramento de Mensagem, consulte <a href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Instalar sistemas operacionais e software de pré-requisito nos servidores para Lync Server 2013</a> na documentação de Implementação.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Como em versões anteriores, todos os dados de conformidade são processados no mesmo momento. Os dados podem ser processados por qualquer instância do adaptador invocada pelo serviço de conformidade executando em vários computadores do Lync Server 2013, Servidor de Chat Persistente. No Servidor de Chat Persistente, qualquer uma das instâncias do adaptador pode processar os dados.    
+    > [!NOTE]  
+    > Para obter informações sobre a instalação de Enfileiramento de Mensagem, consulte <a href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Instalar sistemas operacionais e software de pré-requisito nos servidores para Lync Server 2013</a> na documentação de Implementação.
 
 No Lync Server 2013, há melhorias na alta disponibilidade e recuperação de desastres:
 

@@ -17,20 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Este tópico descreve as tarefas de implantação que devem ser realizadas para habilitar o controle de chamada remota para os usuários no seu ambiente do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você estiver migrando usuários habilitados anteriormente para controle de chamada remota no Microsoft Office Communicator 2007 R2, você deve realizar uma tarefa de implantação adicional antes de começar a realizar as tarefas de implantação de chamada remota descritas neste tópico. Durante o processo de migração para o Lync Server, as entradas do aplicativo confiável (anteriormente conhecidas como <em>entradas de host autorizadas</em> ) devem ser removidas usando as ferramentas administrativas do Office Communications Server 2007 R2, como adequado.<br />
-Para obter os detalhes de como remover hosts autorizados, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remover um host autorizado herdado no Lync Server 2013 (opcional)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você estiver migrando usuários habilitados anteriormente para controle de chamada remota no Microsoft Office Communicator 2007 R2, você deve realizar uma tarefa de implantação adicional antes de começar a realizar as tarefas de implantação de chamada remota descritas neste tópico. Durante o processo de migração para o Lync Server, as entradas do aplicativo confiável (anteriormente conhecidas como <em>entradas de host autorizadas</em> ) devem ser removidas usando as ferramentas administrativas do Office Communications Server 2007 R2, como adequado.<br />Para obter os detalhes de como remover hosts autorizados, consulte <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remover um host autorizado herdado no Lync Server 2013 (opcional)</a>.
 
 ## Etapa 1: Instale e configure o Gateway SIP/CSTA para se comunicar com seu PBX
 

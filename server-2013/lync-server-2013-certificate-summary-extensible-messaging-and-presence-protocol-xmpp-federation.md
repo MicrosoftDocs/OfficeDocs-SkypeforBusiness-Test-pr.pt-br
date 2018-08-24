@@ -1,6 +1,6 @@
 ﻿---
-title: Resumo de Certificado - Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP)
-TOCTitle: Resumo de Certificado - Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP)
+title: "Res. de Certificado - Mensagens Extensíveis e Federação de Prot. de Presença (XMPP)"
+TOCTitle: "Res. de Certificado - Mensagens Extensíveis e Federação de Prot. de Presença (XMPP)"
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ618374(v=OCS.15)
 ms:contentKeyID: 49307831
@@ -62,6 +62,6 @@ Os requisitos de certificado para ativar e estabelecer comunicações com mensag
 #### Outros Recursos
 
 [Configurar certificados de Borda para Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](request-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

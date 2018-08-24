@@ -59,19 +59,8 @@ Cada Aparelho de Filial Persistente (SBA) está associado a um pool Front End qu
 
 9.  Siga as instruções no assistente que abrir. Para obter informações sobre os itens do assistente, consulte [Definir um Servidor ou Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Um Lync Server 2010 Aparelho de Filial Persistente pode ser associado somente a um Repositório de Monitoramento Lync Server 2010.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Um Lync Server 2010 Aparelho de Filial Persistente pode ser associado somente a um Repositório de Monitoramento Lync Server 2010.
 
 10. Se você não estiver usando um Aparelho de Filial Persistente ou Servidor nesse site, desmarque a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** e clique em **Concluir**.
 

@@ -19,7 +19,7 @@ As tabelas deste tópico listam todas as configurações de política de confer�
 
 ## Configurações da política de organizador
 
-A tabela a seguir lista todas as configurações de política de conferência que você pode aplicar aos organizadores de conferências. Para obter a lista mais atualizada de configurações de política de conferência, consulte o tópico de ajuda do cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+A tabela a seguir lista todas as configurações de política de conferência que você pode aplicar aos organizadores de conferências. Para obter a lista mais atualizada de configurações de política de conferência, consulte o tópico de ajuda do cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Configurações da política de organizador
 
@@ -102,21 +102,11 @@ A tabela a seguir lista todas as configurações de política de conferência qu
 <tr class="odd">
 <td><p>Permitir que os participantes federados e anônimos assumam o controle</p></td>
 <td><p>Permite que os participantes externos e anônimos assumam o controle do aplicativo compartilhado de outro usuário.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se essa configuração estiver definida como Verdadeiro e <strong>Permitir que os participantes assumam o controle</strong> estiver definida como Falso, essa configuração será substituída.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se essa configuração estiver definida como Verdadeiro e <strong>Permitir que os participantes assumam o controle</strong> estiver definida como Falso, essa configuração será substituída.
+
+</td>
 </tr>
 </tbody>
 </table>

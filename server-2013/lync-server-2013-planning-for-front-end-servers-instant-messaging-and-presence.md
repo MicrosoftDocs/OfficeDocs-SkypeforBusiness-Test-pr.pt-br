@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Planejamento de Servidores Front-End, sistema de mensagens instantâneas e presença'
+title: "Lync Server 2013: Planj. de Serv. Front-End, sist. de m. instant. e presença"
 TOCTitle: Planejamento de Servidores Front-End, sistema de mensagens instantâneas e presença
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398714(v=OCS.15)

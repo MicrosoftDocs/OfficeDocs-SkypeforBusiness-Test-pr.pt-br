@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Siga estas etapas para excluir uma política de conferência no nível do usuário ou no nível do local.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você não pode excluir a política global de conferência.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você não pode excluir a política global de conferência.
 
 ## Para excluir uma política de conferência de site ou usuário
 
@@ -63,5 +52,5 @@ Você também pode excluir configurações de tronco usando o Shell de Gerenciam
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Para obter detalhes, consulte [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+Para obter detalhes, consulte [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 

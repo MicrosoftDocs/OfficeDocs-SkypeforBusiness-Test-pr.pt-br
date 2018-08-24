@@ -1,6 +1,6 @@
 ﻿---
-title: Criar ou modificar um conjunto de definições de configuração da versão do cliente
-TOCTitle: Criar ou modificar um conjunto de definições de configuração da versão do cliente
+title: "Criar ou modificar um conjunto de definições de config. da versão do cliente"
+TOCTitle: "Criar ou modificar um conjunto de definições de config. da versão do cliente"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 52057627
@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Definições de configuração de versão de cliente são utilizadas para ligar ou desligar o controle de versão de cliente. A configuração global de versão de cliente é instalada com o Lync Server e é utilizada para habilitar ou desabilitar controle de versão de cliente para toda a implantação do servidor. Você também pode configurar definições de configuração de versão de cliente para sites individuais. Você pode criar ou modificar definições de configuração de versão de cliente a partir de Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Já que usuários anônimos não são associados com um usuário, site ou serviço, usuários anônimos são afetados somente por políticas de nível global.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Já que usuários anônimos não são associados com um usuário, site ou serviço, usuários anônimos são afetados somente por políticas de nível global.
 
 ## Para criar ou modificar definições de configuração de versão de cliente utilizando Painel de Controle do Lync Server
 
@@ -67,5 +56,5 @@ Você pode criar definições de configuração de versão de cliente utilizando
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Para detalhes, consulte o tópico Ajuda para os cmdlets [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) e [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Para detalhes, consulte o tópico Ajuda para os cmdlets [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) e [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

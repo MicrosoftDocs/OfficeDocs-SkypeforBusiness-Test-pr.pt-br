@@ -29,19 +29,8 @@ Configurar um Servidor Standard Edition como o único servidor da sua infraestru
 
 5.  Na página **Executando comandos** , o Software de banco de dados Microsoft SQL Server 2008 Express é instalado como Repositório de Gerenciamento Central. Regras de firewall necessárias são criadas. Quando a instalação do banco de dados e do software de pré-requisito estiver completa, clique em **Finalizar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A instalação inicial pode levar algum tempo sem nenhuma atualização visível na tela de resumo de saída do comando. Isto ocorre devido à instalação do SQL Server Express. Se você precisa monitorar a instalação do banco de dados, use o Gerenciador de Tarefas para monitorar a configuração.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A instalação inicial pode levar algum tempo sem nenhuma atualização visível na tela de resumo de saída do comando. Isto ocorre devido à instalação do SQL Server Express. Se você precisa monitorar a instalação do banco de dados, use o Gerenciador de Tarefas para monitorar a configuração.
 
 6.  Na página do Assistente de Implantação do Lync Server, clique em **Instalar Construtor de Topologias** se você ainda não instalou as ferramentas administrativas. Para obter detalhes, consulte [Instalar ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 

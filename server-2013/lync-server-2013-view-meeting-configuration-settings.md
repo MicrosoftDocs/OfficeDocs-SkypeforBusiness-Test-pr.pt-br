@@ -60,5 +60,5 @@ As configurações da reunião também podem ser exibidas utilizando o Lync Serv
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet do [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md).
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet do [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration).
 

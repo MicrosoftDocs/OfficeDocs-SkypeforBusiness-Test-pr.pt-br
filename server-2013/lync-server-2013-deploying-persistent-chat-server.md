@@ -31,19 +31,8 @@ O Servidor de Chat Persistente também pode ser implantado com o Lync Server 201
 
 Para obter detalhes sobre configurações de colocação suportadas, consulte [Colocação em conjunto de servidor suportado no Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não suportamos alta disponibilidade para Servidor de Chat PersistenteStandard Edition. O desempenho e a escala serão limitados. Além disso, suportamos apenas o novo Servidor de Chat PersistenteServidor Standard Edition. Não suportamos a atualização do Lync Server 2010, Servidor de Chat de Grupo para um Lync Server 2013Servidor de Chat PersistenteStandard Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Não suportamos alta disponibilidade para Servidor de Chat PersistenteStandard Edition. O desempenho e a escala serão limitados. Além disso, suportamos apenas o novo Servidor de Chat PersistenteServidor Standard Edition. Não suportamos a atualização do Lync Server 2010, Servidor de Chat de Grupo para um Lync Server 2013Servidor de Chat PersistenteStandard Edition.
 
 Se sua organização exige suporte de conformidade, é possível instalar o serviço de Conformidade do Servidor de Chat Persistente no Servidor de Chat PersistenteServidor Front-End. Um banco de dados separado é necessário para conformidade.
 
@@ -59,19 +48,8 @@ Um único Servidor de Chat PersistenteServidor Front-End pode suportar 20.000 us
 
 Servidor de Chat Persistente também é suportado em um servidor virtual. O servidor virtual pode suportar até 20.000 usuários simultâneos se corresponder as especificações do servidor físico.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O Servidor de Chat Persistente deve estar instalado em um sistema de arquivo NTFS para ajudar a forçar a segurança do sistema de arquivos. O FAT32 não é um sistema de arquivos suportado para o Servidor de Chat Persistente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> O Servidor de Chat Persistente deve estar instalado em um sistema de arquivo NTFS para ajudar a forçar a segurança do sistema de arquivos. O FAT32 não é um sistema de arquivos suportado para o Servidor de Chat Persistente.
 
 ## Nesta seção
 

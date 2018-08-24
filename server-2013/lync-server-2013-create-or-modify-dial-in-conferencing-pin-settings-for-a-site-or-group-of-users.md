@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários'
+title: "Lync Server 2013: Criar/modif, config, PIN de conf, disc. p/ site ou g. usuários"
 TOCTitle: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412959(v=OCS.15)
@@ -47,19 +47,8 @@ Siga estas etapas para criar ou modificar uma política de PIN (número de ident
 
 12. Para permitir padrões comuns de dígitos nos PINs, como números sequenciais e conjuntos repetitivos de números, marque a caixa de seleção **Permitir padrões comuns** . Se você não selecionar essa opção, somente os padrões complexos de dígitos serão permitidos. Por padrão, somente os padrões complexos de dígitos são permitidos.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Recomendamos que você não permita os padrões comuns.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Recomendamos que você não permita os padrões comuns.
 
 13. Clique em **Confirmar** .
 

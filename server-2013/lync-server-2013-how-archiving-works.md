@@ -85,19 +85,8 @@ As políticas de arquivamento do Lync Server 2013 incluem o seguinte:
 
 Para obter detalhes sobre como configurar inicialmente as políticas de arquivamento ao implantar o arquivamento, consulte [Configurando e atribuindo políticas de arquivamento](lync-server-2013-configuring-and-assigning-archiving-policies.md) na Documentação de implantação. Para obter detalhes sobre o uso das políticas de arquivamento para habilitar e desabilitar as comunicações após a implantação, consulte [Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) na Documentação de operações.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você implementar os bancos de dados do Lync Server 2013 e habilitar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas somente para os usuários que estiverem hospedados no Exchange 2013 e tiverem suas caixas de correio colocadas em bloqueio In-loco. O arquivamento do Lync Archiving depende somente da política de Bloqueio In-loco do Microsoft Exchange.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você implementar os bancos de dados do Lync Server 2013 e habilitar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas somente para os usuários que estiverem hospedados no Exchange 2013 e tiverem suas caixas de correio colocadas em bloqueio In-loco. O arquivamento do Lync Archiving depende somente da política de Bloqueio In-loco do Microsoft Exchange.
 
 ## Quais opções eu tenho para configurar um arquivamento?
 
@@ -127,19 +116,8 @@ A configuração em nível global é criada automaticamente quando você implant
     
       - Após os dados de arquivamento terem sido exportados (o que inclui os dados que foram carregados para o Exchange, se você habilitar a integração do Microsoft Exchange).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se você habilitar a integração do Microsoft Exchange, a limpeza para os usuários hospedados no Exchange 2013 e que tiverem suas caixas de correio colocadas em bloqueio In-loco será controlada pelo Exchange. A única qualificação é para os arquivos de conferência, que estão armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são limpos a partir do compartilhamento de arquivos somente após os arquivos terem sido exportados (carregador para o Exchange), se você selecionar a opção para limpar os dados após os dados de arquivamento terem sido exportados ou após um número máximo de dias especificado, caso tenha especificado um número máximo de dias para retenção.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se você habilitar a integração do Microsoft Exchange, a limpeza para os usuários hospedados no Exchange 2013 e que tiverem suas caixas de correio colocadas em bloqueio In-loco será controlada pelo Exchange. A única qualificação é para os arquivos de conferência, que estão armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são limpos a partir do compartilhamento de arquivos somente após os arquivos terem sido exportados (carregador para o Exchange), se você selecionar a opção para limpar os dados após os dados de arquivamento terem sido exportados ou após um número máximo de dias especificado, caso tenha especificado um número máximo de dias para retenção.
 
 Por padrão, nenhuma opção de arquivamento está habilitada. Você pode gerenciar as configurações de arquivamento utilizando o Painel de Controle do Lync Server 2013.
 
@@ -157,9 +135,9 @@ Para obter detalhes sobre como definir as configurações iniciais de arquivamen
 
 Utilizando o Shell de Gerenciamento do Lync Server 2013, você pode usar cmdlets para implementar as opções que não estão disponíveis no Painel de Controle do Lync Server 2013. Essas opções incluem o seguinte:
 
-  - **Arquivar mensagens duplicadas**. Para obter detalhes, consulte [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) e [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) na Documentação de operações.
+  - **Arquivar mensagens duplicadas**. Para obter detalhes, consulte [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) e [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) na Documentação de operações.
 
-  - **Exportar dados arquivados**. Para obter detalhes, consulte [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exportar dados arquivados**. Para obter detalhes, consulte [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Como eu acesso os dados arquivados?
 

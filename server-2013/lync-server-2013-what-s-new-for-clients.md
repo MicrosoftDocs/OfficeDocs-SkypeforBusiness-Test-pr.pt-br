@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 O Microsoft Lync 2013 traz uma interface do usuário reformulada e importantes novos recursos. Para administradores, o cliente agora vem incluído no programa de instalação do Office, fornecendo uma abordagem simplificada para a implantação do Office e a personalização dos clientes na sua organização.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter uma visualização ilustrada das atualizações da interface do usuário do Lync 2013, consulte “Novidades do Lync 2013” em <a href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter uma visualização ilustrada das atualizações da interface do usuário do Lync 2013, consulte “Novidades do Lync 2013” em <a href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</a>.
 
 ## Integração com a instalação do Office
 
@@ -43,19 +32,8 @@ Em versões anteriores do Lync e do Office Communicator, era possível usar prop
 
   - Usar as opções de linha de comando de instalação
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O programa de instalação do Lync 2013 não desinstala versões anteriores do Lync ou do Office Communicator. O cliente do Lync 2013 é instalado paralelamente a outros clientes do Lync ou do Office Communicator</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O programa de instalação do Lync 2013 não desinstala versões anteriores do Lync ou do Office Communicator. O cliente do Lync 2013 é instalado paralelamente a outros clientes do Lync ou do Office Communicator
 
 Para obter detalhes, consulte [Implantando clientes Lync no Lync Server 2013](lync-server-2013-deploying-lync-clients.md).
 

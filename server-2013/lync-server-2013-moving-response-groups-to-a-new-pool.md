@@ -19,19 +19,8 @@ O Lync Server 2013 introduzir novo suporte de cmdlet para mover grupos de respos
 
 Use as etapas no procedimento anterior para mover grupos de resposta de um Pool de Front-Ends para outro Pool de Front-Ends com um FQDN diferente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Em um ambiente de coexistência, é possível mover os grupos de resposta apenas entre Lync Server 2013Pools de Front-Ends.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Em um ambiente de coexistência, é possível mover os grupos de resposta apenas entre Lync Server 2013Pools de Front-Ends.
 
 ## Para mover grupos de resposta para um pool com um FQDN diferente
 
@@ -59,19 +48,8 @@ Use as etapas no procedimento anterior para mover grupos de resposta de um Pool 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações a nível de aplicativo incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de espera do agente e a configuração de contexto da chamada. Para exibir estas definições de configuração, execute o cmdlet <strong>Get-CsRgsConfiguration</strong>. Para obter detalhes sobre este cmdlet, consulte <a href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As configurações a nível de aplicativo incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de espera do agente e a configuração de contexto da chamada. Para exibir estas definições de configuração, execute o cmdlet <strong>Get-CsRgsConfiguration</strong>. Para obter detalhes sobre este cmdlet, consulte <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.
 
 4.  Verifique se a importação teve êxito ao exibir a configuração do grupo de resposta importado fazendo o seguinte:
     

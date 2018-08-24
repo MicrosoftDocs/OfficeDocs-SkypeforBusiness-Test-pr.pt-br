@@ -41,19 +41,8 @@ Exportar seu design para Microsoft Excel cria um relatório que exibe sete guias
 
 Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com seus objetivos de documentação de sua topologia e infraestrutura configuradas. O diagrama importado pode ser editado e reorganizado a fim de atender às suas necessidades de documentação. O diagrama típico do Visio incluirá:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se seu design for grande o suficiente para exigir mais de três Servidores Front-End, uma página adicional será criada para o Pool de Front-Ends, Servidores Front-End, o computador executando o SQL Server, endereços IP e FQDNs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se seu design for grande o suficiente para exigir mais de três Servidores Front-End, uma página adicional será criada para o Pool de Front-Ends, Servidores Front-End, o computador executando o SQL Server, endereços IP e FQDNs.
 
   - Topologia global - Diagrama de sites configurados do Lync Server 2013.
 

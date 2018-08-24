@@ -19,19 +19,8 @@ No Lync Server 2013, você configura a conferência de vídeo no Modo de exibiç
 
 Quando o vídeo de um participante da conferência não está disponível, a experiência do Modo de exibição de Galeria pode ser aprimorada se você implantar fotos de alta resolução, um novo recurso no Lync Server 2013. Fotos em alta resolução fornecem uma alternativa às fotos de contato em resolução limitada e menor, armazenadas em Serviços de Domínio Active Directory. As fotos em alta resolução são armazenadas na caixa de correio Exchange 2013 do usuário, e, portanto, requer que você integre o Lync Server 2013 ao Exchange 2013. Para detalhes, consulte o artigo do blog NextHop, "Integrando Exchange 2013 e Lync Server 2013," em [http://go.microsoft.com/fwlink/?linkid=260987\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=260987%26clcid=0x416).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.
 
 Você pode visualizar ou modificar os parâmetros do Modo de exibição de Galeria utilizando o Painel de Controle do Lync Server 2013 ou um dos cmdlets a seguir:
 

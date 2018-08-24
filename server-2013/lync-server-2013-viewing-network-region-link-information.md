@@ -27,19 +27,8 @@ Você pode visualizar os links entre duas regiões de redes como parte do contro
 
 4.  Na página **Link da região**, clique no link da região que você deseja ver.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode ver informações somente sobre um link da região por vez.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você pode ver informações somente sobre um link da região por vez.
 
 5.  No menu**Editar**, selecione **Mostras detalhes**.
 
@@ -61,7 +50,7 @@ Você também pode visualizar links de região de rede usando Shell de Gerenciam
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Para detalhes, consulte [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Para detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Consulte Também
 

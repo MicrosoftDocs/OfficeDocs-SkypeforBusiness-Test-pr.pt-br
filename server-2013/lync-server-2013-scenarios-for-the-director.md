@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2012-10-22_
 
 Um Diretor é um servidor executando o Microsoft Lync Server 2013  software de comunicação que autentica solicitações do usuário, mas não hospeda qualquer conta do usuário. O Diretor também hospeda serviços da Web semelhantes ao Servidor Front-End e autenticará solicitações de ticket da Web e oferece outros serviços.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ao implantar o Diretores, você deve publicar os serviços da Web do Diretor externamente através do proxy inverso, assim como os serviços da Web do Servidor Front-End. Os tópicos a seguir descrevem o processo de planejamento para as possíveis topologias do Diretor.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Ao implantar o Diretores, você deve publicar os serviços da Web do Diretor externamente através do proxy inverso, assim como os serviços da Web do Servidor Front-End. Os tópicos a seguir descrevem o processo de planejamento para as possíveis topologias do Diretor.
 
 ## Nesta seção
 

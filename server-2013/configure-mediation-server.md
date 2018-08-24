@@ -19,19 +19,8 @@ Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 p
 
 Para publicar com sucesso, habilite ou desabilite uma topologia ao adicionar ou remover uma função do servidor, você deve estar conectado como um usuário que é um membro do RTCUniversalServerAdmins e dos grupos Administradores do Domínio. Também é possível delegar os direitos e as permissões de administrador corretos para adicionar funções do do servidor. Para obter detalhes, consulte Permissões de configuração delegadas na Documentação de implantação do servidor Standard Edition ou servidor Enterprise Edition. Para obter as alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é exigida.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter as informações mais recentes sobre localizar gateways PSTN qualificados, IP-PBXs, e serviços de tronco SIP que funcionem com Lync Server 2013, consulte &quot;Abrir Programa de Interoperabilidade do Microsoft Unified Communications&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter as informações mais recentes sobre localizar gateways PSTN qualificados, IP-PBXs, e serviços de tronco SIP que funcionem com Lync Server 2013, consulte &quot;Abrir Programa de Interoperabilidade do Microsoft Unified Communications&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</a>.
 
 ## Para configurar o Servidor de Mediação usando o Construtor de Topologias
 
@@ -63,16 +52,5 @@ Para publicar com sucesso, habilite ou desabilite uma topologia ao adicionar ou 
 
 11. Quando o **Assistente de publicação** é concluído, clique em **Finalizar** para fechar o assistente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>É importante que você conclua o próximo tópico, <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Alterar rotas de voz para usar o novo Servidor de Mediação do Lync Server 2013</a> para garantir que as rotas de voz estejam apontando para o Servidor de Mediação correto.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> É importante que você conclua o próximo tópico, <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Alterar rotas de voz para usar o novo Servidor de Mediação do Lync Server 2013</a> para garantir que as rotas de voz estejam apontando para o Servidor de Mediação correto.

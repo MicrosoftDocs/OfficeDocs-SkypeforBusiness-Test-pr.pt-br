@@ -27,19 +27,8 @@ Verifique os seguintes campos em sua política de conferência:
 
   - **Permitir que os participantes não habilitados para Enterprise Voice façam chamadas**    Esta configuração permite que os participantes e organizadores da reunião, que não estão não habilitados para Enterprise Voice façam chamadas para um número de telefone externo para participar da parte de áudio da conferência. A chamada externa é autorizada baseando-se nas políticas de voz atribuída do organizador. Esta configuração não é selecionada por padrão na política de conferência global padrão. O valor padrão da configuração é desativado.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para habilitar esse recurso, um organizador da reunião que não está habilitado para Enterprise Voice deve ter uma política de voz adequada atribuída a ele para autorizar a discagem externa a partir de uma conferência organizada por esse usuário. Uma política de voz pode ser atribuída a um usuário que não está habilitado para Enterprise Voice do Shell de Gerenciamento do Lync Server. Se o usuário não tiver uma política de voz atribuída explicitamente a ele, a política de voz do site será utilizada para autorizar a solicitação de discagem externa. Se não houver política de voz do site, a política de voz global será utilizada. </td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para habilitar esse recurso, um organizador da reunião que não está habilitado para Enterprise Voice deve ter uma política de voz adequada atribuída a ele para autorizar a discagem externa a partir de uma conferência organizada por esse usuário. Uma política de voz pode ser atribuída a um usuário que não está habilitado para Enterprise Voice do Shell de Gerenciamento do Lync Server. Se o usuário não tiver uma política de voz atribuída explicitamente a ele, a política de voz do site será utilizada para autorizar a solicitação de discagem externa. Se não houver política de voz do site, a política de voz global será utilizada. 
 
 O procedimento nesta seção descreve como modificar uma política de conferência. Para obter detalhes sobre como configurar todas as configurações que definem a experiência do participante na política de conferência padrão, consulte [Criar ou Modificar um Conjunto de Configurações de Reunião no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md). Para obter detalhes sobre como criar uma política de conferência para um usuário ou grupo de usuários específicos, consulte [Criar ou Modificar uma Política de Conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md). Para obter uma lista de todas as configurações de política de conferência disponíveis, consulte [Referência das configurações da política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 

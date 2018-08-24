@@ -19,21 +19,10 @@ Siga o procedimento para habilitar os usuários do Lync Server 2013 para caixa p
 
 Para obter detalhes, consulte [Gerenciamento de usuário no Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) na documentação de Planejamento.
 
-Para obter detalhes sobre o cmdlet [Set-CsUser](set-csuser.md), consulte a documentação do Shell de Gerenciamento do Lync Server.
+Para obter detalhes sobre o cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte a documentação do Shell de Gerenciamento do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Antes de um usuário do Lync Server 2013 poder ser habilitado para caixa postal hospedada, uma política de caixa postal hospedada que se aplica à conta de usuário deve ser implantada. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Antes de um usuário do Lync Server 2013 poder ser habilitado para caixa postal hospedada, uma política de caixa postal hospedada que se aplica à conta de usuário deve ser implantada. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
 
 ## Para habilitar usuários para caixa postal hospedada
 
@@ -57,16 +46,5 @@ Para obter detalhes sobre o cmdlet [Set-CsUser](set-csuser.md), consulte a docum
         
           - O Display-Name dos Serviços de Domínio do Active Directory do usuário (por exemplo, Ken Myer). Se usar o Display-Name como o valor Identity, é possível usar o caractere curinga asterisco (\*). Por exemplo, a Identity "\* Smith" retorna todos os usuários que podem ter um Display-Name terminando com o valor da cadeia de caracteres "Smith".
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O SAM-Account-Name do Active Directory do usuário não pode ser usado como um valor Identity porque o SAM-Account-Name não é necessariamente exclusivo na floresta.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > O SAM-Account-Name do Active Directory do usuário não pode ser usado como um valor Identity porque o SAM-Account-Name não é necessariamente exclusivo na floresta.

@@ -24,7 +24,7 @@ Deve-se observar que esse relatório tem algumas limitações quando se trata de
 Além disso, o Relatório de inventário de telefones IP não relata totais resumidos de diferentes tipos de telefones. Por exemplo, suponha que você tenha 105 telefones Polycom CX600. O relatório não dirá que você tem 105 desses telefones; em vez disso, ele simplesmente vê 105 entidades separadas do Polycom CX600. A única maneira de saber que há 105 entradas do Polycom Cx600 seria contar cada uma dessas entradas manualmente.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Ou exportar os dados e usar o Microsoft Excel ou Windows PowerShell para fazer essa contagem.
 
 

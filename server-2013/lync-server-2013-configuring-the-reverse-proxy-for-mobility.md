@@ -19,37 +19,15 @@ Se você quiser usar a descoberta automática para clientes do dispositivo móve
 
 Se decidir usar HTTPS para solicitações iniciais do Serviço Descoberta Automática do Lync Server 2013 e atualizar listas de nomes alternativos de assunto nos certificados de proxy reverso, você precisará atribuir o certificado público atualizado ao Ouvinte do SSL em seu proxy reverso. Para obter detalhes sobre as entradas de nome alternativo do assunto necessários, consulte [Requisitos técnicos para mobilidade no Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Em seguida, você precisa modificar o ouvinte existente para serviços da Web externos ou criar uma nova regra de publicação para o URL do Serviço Descoberta Automática externo. Se você ainda não tiver uma regra de publicação na Web para o URL externo de Serviços Web para Lync Server 2013 para Pool de Front-Ends, você também precisará publicar uma regra para tal.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A regra de publicação de proxy reversa e o ouvinte podem fornecer serviços tanto para Web externa quanto para o Serviço de Descoberta Automática, desde que o certificado atribuído ao ouvinte possua o nome de assunto necessário e os nomes alternativos de assunto para ambos. Para mais detalhes sobre a configuração padrão do ouvinte da Web e regra de publicação, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> A regra de publicação de proxy reversa e o ouvinte podem fornecer serviços tanto para Web externa quanto para o Serviço de Descoberta Automática, desde que o certificado atribuído ao ouvinte possua o nome de assunto necessário e os nomes alternativos de assunto para ambos. Para mais detalhes sobre a configuração padrão do ouvinte da Web e regra de publicação, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a>.
 
 Se você decidir usar HTTP para solicitações iniciais de Serviço Descoberta Automática para que não precise atualizar nomes alternativos de assunto para o proxy reverso, você precisará criar ou modificar uma regra de publicação na Web para a porta 80.
 
 Os procedimentos nesta seção descrevem como criar ou modificar as regras de publicação na Web no Microsoft Forefront Threat Management Gateway 2010 para descoberta automática.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esses procedimentos assumem que você possui a Standard Edition do Forefront Threat Management Gateway (TMG) 2010 instalado. Se você estiver utilizando outro proxy reverso, os procedimentos são similares, mas precisarão ser mapeados para a documentação do produto de terceiro.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Esses procedimentos assumem que você possui a Standard Edition do Forefront Threat Management Gateway (TMG) 2010 instalado. Se você estiver utilizando outro proxy reverso, os procedimentos são similares, mas precisarão ser mapeados para a documentação do produto de terceiro.
 
 ## Para criar uma regra de publicação na Web para a URL externa de Descoberta Automática
 
@@ -111,19 +89,8 @@ Os procedimentos nesta seção descrevem como criar ou modificar as regras de pu
 
 1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você irá repetir a modificação para cada regra de publicação e ouvinte que possuir. Normalmente, isso será a única regra e ouvinte para Pools de Front-Ends e um para os conjuntos Diretores ou Diretor opcionais, se você tiver implantado-os.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Você irá repetir a modificação para cada regra de publicação e ouvinte que possuir. Normalmente, isso será a única regra e ouvinte para Pools de Front-Ends e um para os conjuntos Diretores ou Diretor opcionais, se você tiver implantado-os.
 
 2.  No painel à esquerda, expanda **ServerName**, clique com o botão direito em **Política de firewall** e clique na regra aplicável. Na aba **Tarefas**, clique na **regra Editar selecionado**.
 

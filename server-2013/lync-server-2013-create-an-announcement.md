@@ -24,7 +24,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 3.  Execute o cmdlet **New-CsAnnouncement** para criar e nomear o comunicado. Execute esta etapa para criar comunicados com um prompt de áudio, um prompt TTS (text-to-speech), ou sem prompt.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Pode ser desejável criar um comunicado sem prompt (por exemplo, se você deseja transferir chamadas para um destino específico sem reproduzir uma mensagem).
 
 
@@ -61,13 +61,13 @@ Este tópico descreve como importar e criar comunicados. Para obter detalhes sob
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Para mais detalhes sobre estes cmdlets e para ver uma lista dos códigos de linguagem a serem usados no parâmetro **TextToSpeechPrompt**, consulte [New-CsAnnouncement](new-csannouncement.md).
+    Para mais detalhes sobre estes cmdlets e para ver uma lista dos códigos de linguagem a serem usados no parâmetro **TextToSpeechPrompt**, consulte [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
 
 ## Consulte Também
 
 #### Outros Recursos
 
-[Import-CsAnnouncementFile](import-csannouncementfile.md)  
-[New-CsAnnouncement](new-csannouncement.md)  
+[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
+[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
 [Configurar a tabela de número não atribuído no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 

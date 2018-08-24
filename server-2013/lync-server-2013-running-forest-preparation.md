@@ -31,19 +31,8 @@ Depois de preparar a floresta, você deverá verificar se as configurações glo
 
 5.  Na página **Preparar Floresta** , clique em **Avançar** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A Preparação da Floresta permite que você escolha onde colocar os Grupos Universais para o Lync Server 2013. Escolha uma localização que seja consistente com os requisitos da sua organização.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > A Preparação da Floresta permite que você escolha onde colocar os Grupos Universais para o Lync Server 2013. Escolha uma localização que seja consistente com os requisitos da sua organização.
 
 6.  Na página **Executando Comandos** , procure **Status da tarefa: Concluída** e clique em **Exibir Log** .
 

@@ -33,9 +33,9 @@ A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para in
 <tr class="odd">
 <td><p><strong>Setup.exe</strong> - Executável que inicia a instalação das ferramentas administrativas do Lync Server 2013.</p></td>
 <td><p>Membro do grupo de Administradores Locais no computador o qual o executável está em execução. Membro do grupo Usuários do Domínio para ler informações no Serviços de Domínio Active Directory. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitam ler e gravar dos recursos do computador local protegido, como diretórios de Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local.</p>
-<div class="alert">
 
-> [!TIP]
+
+> [!TIP]  
 > Você também pode delegar permissões de instalação para usuários e grupos os quais não deseja fornecer participação no grupo de Administradores de Domínio. Para detalhes, consulte <A href="lync-server-2013-granting-setup-permissions.md">Concedendo permissões de configuração no Lync Server 2013</A> na documentação de Implantação
 
 
@@ -44,21 +44,11 @@ A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para in
 <tr class="even">
 <td><p><strong>Deploy.exe</strong> - Chamado pelo setup.exe, o deploy.exe é responsável pela implantação dos componentes de software para funções do servidor.</p></td>
 <td><p>Membros do grupo de Administradores Locais no computador o qual o executável está executando. Membros do grupo de Usuários de Domínio para ler informações no AD DS. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local precisam de privilégios que permitam a leitura e gravação nos recursos do computador local protegido, como Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local. A participação no grupo RtcUniversalReadOnlyAdmins é necessária para ler o Repositório de Gerenciamento Central.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você está executando o Sistema operacional Windows Vista ou Sistema operacional Windows 7, será solicitado pelo Controle de Conta de Usuário (UAC) para prosseguir com a instalação. Se você estiver logado em uma conta de usuário padrão, precisará de alguém que seja membro do grupo de Administradores Locais para fornecer as credenciais quando solicitado para uma conta com permissões de instalar software.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Se você está executando o Sistema operacional Windows Vista ou Sistema operacional Windows 7, será solicitado pelo Controle de Conta de Usuário (UAC) para prosseguir com a instalação. Se você estiver logado em uma conta de usuário padrão, precisará de alguém que seja membro do grupo de Administradores Locais para fornecer as credenciais quando solicitado para uma conta com permissões de instalar software.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bootstrapper.exe</strong> - Chamado pelo setup.exe, o bootstrapper.exe é responsável pela implantação e configuração das funções do servidor.</p></td>

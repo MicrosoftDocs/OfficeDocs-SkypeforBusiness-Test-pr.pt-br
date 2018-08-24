@@ -37,23 +37,15 @@ Instruções para executar cada uma dessas tarefas são fornecidas abaixo.
 
 2.  Na linha de comando, digite o seguinte:
     
+    ```
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
+    ```
+    ```    
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sempre que você editar o registro, você poderá receber um erro em que o comando falha caso a chave de registro já exista. Caso isso aconteça, você pode ignorar com segurança o erro.</td>
-    </tr>
-    </tbody>
-    </table>
+    ```
 
+    > [!NOTE]  
+    > Sempre que você editar o registro, você poderá receber um erro em que o comando falha caso a chave de registro já exista. Caso isso aconteça, você pode ignorar com segurança o erro.
 
 **Configurar o servidor de gerenciamento System Center Operations Manager primário para substituir o nó do candidato a inspetor de descoberta central.**
 

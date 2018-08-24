@@ -31,5 +31,5 @@ Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atr
 
 #### Outros Recursos
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

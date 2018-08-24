@@ -31,19 +31,8 @@ Siga estas etapas para criar uma política de conferência no nível do usuário
     
       - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecione um Site**, digite todo ou parte do nome do site para o qual deseja criar uma política. Na lista de sites, clique no site que deseja e em **OK**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>O nome do site se tornará o nome da política de conferências e não poderá ser alterado.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > O nome do site se tornará o nome da política de conferências e não poderá ser alterado.
 
 5.  Em **Descrição**, digite uma descrição para a política.
 

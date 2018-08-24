@@ -41,19 +41,8 @@ O Aplicativo Comunicado usa as seguintes portas:
 
   - **Porta 5071**   Usada para solicitações de escuta de SIP
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Essa porta é a definição padrão, que você pode modificar usando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre esse cmdlet, consulte a documentação de Shell de Gerenciamento do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Essa porta é a definição padrão, que você pode modificar usando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre esse cmdlet, consulte a documentação de Shell de Gerenciamento do Lync Server.
 
 ## Requisitos do arquivo de áudio
 

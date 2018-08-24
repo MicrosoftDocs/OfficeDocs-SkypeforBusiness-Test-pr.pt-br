@@ -27,57 +27,24 @@ Cada política de local contém as seguintes informações:
     
     É possível definir a configuração **Local Necessário** para definir o comportamento do cliente. A definição do valor como **Não** significa que o usuário não receberá uma solicitação de local. A definição do valor como **Sim** significa que o usuário receberá uma solicitação por um local, mas poderá ignorar a solicitação. A definição do valor como **Aviso de isenção de responsabilidade** significa que o usuário receberá uma solicitação por um local e mostrará um aviso de isenção de responsabilidade caso ele tente ignorar a solicitação. Em todos os casos, o usuário pode continuar a usar o cliente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O texto do aviso de isenção de responsabilidade não aparecerá se um usuário inserir manualmente um local antes de ser habilitado para E9-1-1. As atualizações para o texto do aviso de isenção de responsabilidade não será visualizado pelos usuários que já visualizaram o aviso de isenção de responsabilidade.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O texto do aviso de isenção de responsabilidade não aparecerá se um usuário inserir manualmente um local antes de ser habilitado para E9-1-1. As atualizações para o texto do aviso de isenção de responsabilidade não será visualizado pelos usuários que já visualizaram o aviso de isenção de responsabilidade.
 
 <!-- end list -->
 
   - **Isenção de Responsabilidade do Serviço de Emergência Avançado**  
     Esta configuração especifica o aviso de isenção que o usuário ver se ignorar o aviso em um local. No Lync Server 2013, é possível usar a política de local para definir aviso de isenção para diferentes locais ou diferentes conjuntos de usuários.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Esta configuração de política de local difere do Lync Server 2010, onde você usou o cmdlet <strong>Set-CsEnhancedEmergencyServiceDisclaimer</strong> para definir um aviso de isenção global para toda a organização. Se um aviso de isenção global já existir, você precisa especificar o aviso de isenção na política de local. Isto é, Lync Server 2013 usa apenas o aviso de isenção especificado na política de local.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Esta configuração de política de local difere do Lync Server 2010, onde você usou o cmdlet <strong>Set-CsEnhancedEmergencyServiceDisclaimer</strong> para definir um aviso de isenção global para toda a organização. Se um aviso de isenção global já existir, você precisa especificar o aviso de isenção na política de local. Isto é, Lync Server 2013 usa apenas o aviso de isenção especificado na política de local.
 
 <!-- end list -->
 
   - **Sequência de discagem de emergência**  
     Esta sequência de discagem (menos o “+” inicial, mas incluindo qualquer normalização realizada pelo Plano de discagem do usuário do Lync) que significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se sua organização não usa um prefixo de acesso de linha externa, não será necessário criar uma regra de normalização do Plano de discagem correspondente que acrescenta um “+” à sequência 911 antes de enviar a chamada ao Roteamento de saída em um servidor de pool do Lync; o “+” será automaticamente pré-demarcado pelo cliente do Lync como resultado da política de local. No entanto, se seu site usar um prefixo de acesso externo, é necessário adicionar uma regra de normalização à política de Plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o “+”. Por exemplo, se seu local usa um prefixo de acesso externo de 9 e um usuário discar 9 911 para fazer uma chamada de emergência, o cliente usará sua política de Plano de discagem para normalizar isso para +911 antes de ser avaliado pelas rotas no perfil de local do chamador.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se sua organização não usa um prefixo de acesso de linha externa, não será necessário criar uma regra de normalização do Plano de discagem correspondente que acrescenta um “+” à sequência 911 antes de enviar a chamada ao Roteamento de saída em um servidor de pool do Lync; o “+” será automaticamente pré-demarcado pelo cliente do Lync como resultado da política de local. No entanto, se seu site usar um prefixo de acesso externo, é necessário adicionar uma regra de normalização à política de Plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o “+”. Por exemplo, se seu local usa um prefixo de acesso externo de 9 e um usuário discar 9 911 para fazer uma chamada de emergência, o cliente usará sua política de Plano de discagem para normalizar isso para +911 antes de ser avaliado pelas rotas no perfil de local do chamador.
 
 <!-- end list -->
 
@@ -89,19 +56,8 @@ Cada política de local contém as seguintes informações:
   - **Uso de PSTN**  
     O nome do Uso de PSTN que contém os caminhos de roteamento que determinam para qual tronco SIP, gateway PSTN ou gateway ELIN as chamadas serão encaminhadas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>É possível atribuir apenas um Uso a uma política de local. Esse Uso de PSTN substitui os Usos de PSTN atribuídos à política de voz do usuário, mas se aplica somente às chamadas feitas para a Sequência de discagem de emergência ou uma das Máscaras de sequência de chamada de emergência.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > É possível atribuir apenas um Uso a uma política de local. Esse Uso de PSTN substitui os Usos de PSTN atribuídos à política de voz do usuário, mas se aplica somente às chamadas feitas para a Sequência de discagem de emergência ou uma das Máscaras de sequência de chamada de emergência.
 
 <!-- end list -->
 

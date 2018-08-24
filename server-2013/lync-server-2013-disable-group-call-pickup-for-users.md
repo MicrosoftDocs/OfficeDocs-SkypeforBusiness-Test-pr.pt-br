@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-01-30_
 
 Use o seguinte procedimento para desativar o recebimento de chamadas de grupo para um usuário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando você desativa o recebimento de chamadas de grupo para um usuário, o número de recebimento de chamadas de grupo que foi atribuído ao usuário não será retido. Se subsequentemente você quiser ativar novamente o recebimento de chamadas de grupo para esse usuário, será necessário atribuir o número de recebimento de chamadas de grupo novamente com o parâmetro /enablegrouppickup.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Quando você desativa o recebimento de chamadas de grupo para um usuário, o número de recebimento de chamadas de grupo que foi atribuído ao usuário não será retido. Se subsequentemente você quiser ativar novamente o recebimento de chamadas de grupo para esse usuário, será necessário atribuir o número de recebimento de chamadas de grupo novamente com o parâmetro /enablegrouppickup.
 
 ## Para desativar o recebimento de chamadas de grupo para um usuário.
 

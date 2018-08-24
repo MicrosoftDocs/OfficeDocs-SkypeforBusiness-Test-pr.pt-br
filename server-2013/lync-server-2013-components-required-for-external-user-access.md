@@ -27,19 +27,8 @@ A maioria dos componentes de Borda é implantada em uma rede de perímetro, Os s
 
   - Balanceamento de carga para Topologias de Borda Dimensionadas (balanceamento de carga DNS ou um balanceador de carga de hardware)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O uso do balanceamento de carga de DNS em uma interface e do balanceamento de carga de hardware na outra não é suportado. É preciso usar o balanceamento de carga de hardware ou de DNS nas duas interfaces.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > O uso do balanceamento de carga de DNS em uma interface e do balanceamento de carga de hardware na outra não é suportado. É preciso usar o balanceamento de carga de hardware ou de DNS nas duas interfaces.
 
 ## Servidores de Borda
 
@@ -55,19 +44,8 @@ O Servidores de Borda envia e recebe o tráfego de rede para os serviços oferec
 
 Os usuários externos autorizados podem acessar o Servidores de Borda para poder conectar sua implantação do Lync Server 2013 interno, mas o Servidores de Borda não oferece um meio de qualquer outro acesso para rede interna.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os servidores de borda são implantados para fornecer conexões para clientes Lync habilitados e outros servidores de Borda da Microsoft (como em cenários de federação). Eles não são criados para permitir conexões de outros tipos de servidor ou cliente de ponto de extremidade. O servidor de Gateway XMPP pode ser implantado para permitir conexões com parceiros XMPP configurados. O servidor de Borda e o Gateway XMPP podem oferecer suporte a apenas conexões de ponto de extremidade desses tipos de federação e cliente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os servidores de borda são implantados para fornecer conexões para clientes Lync habilitados e outros servidores de Borda da Microsoft (como em cenários de federação). Eles não são criados para permitir conexões de outros tipos de servidor ou cliente de ponto de extremidade. O servidor de Gateway XMPP pode ser implantado para permitir conexões com parceiros XMPP configurados. O servidor de Borda e o Gateway XMPP podem oferecer suporte a apenas conexões de ponto de extremidade desses tipos de federação e cliente.
 
 ## Proxy reverso
 
@@ -91,19 +69,8 @@ O proxy reverso é necessário para o seguinte:
 
 For additional information related to reverse proxies and the requirements that reverse proxies must meet, see the details in [Requisitos de configuração do proxy reverso no Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Usuários externos não precisam de uma conexão de rede virtual privada (VPN) com sua organização para participar de comunicações utilizando o Lync Server 2013. Se você implementou a tecnologia VPN em sua organização e os usuários utilizam a VPN para Lync, o tráfego de mídia (como conferência de vídeo) pode ser afetado de forma adversa. Considere oferecer um meio para que o tráfego de mídia conecte-se ao serviço de Borda AV diretamente e ignore a VPN. Para obter detalhes, consulte o artigo do Blog NextHop, “Enabling Lync Media to Bypass a VPN Tunnel,” em <a href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Usuários externos não precisam de uma conexão de rede virtual privada (VPN) com sua organização para participar de comunicações utilizando o Lync Server 2013. Se você implementou a tecnologia VPN em sua organização e os usuários utilizam a VPN para Lync, o tráfego de mídia (como conferência de vídeo) pode ser afetado de forma adversa. Considere oferecer um meio para que o tráfego de mídia conecte-se ao serviço de Borda AV diretamente e ignore a VPN. Para obter detalhes, consulte o artigo do Blog NextHop, “Enabling Lync Media to Bypass a VPN Tunnel,” em <a href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</a>.
 
 ## Firewall
 

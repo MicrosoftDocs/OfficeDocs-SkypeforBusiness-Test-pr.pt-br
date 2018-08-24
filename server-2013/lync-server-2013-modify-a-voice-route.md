@@ -49,86 +49,30 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
 
 9.  Para associar um ou mais troncos PSTN À rota de voz, clique em **Adicionar** e selecione um tronca da lista.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se sua implantação incluir Servidores de Mediação do Microsoft Office Communications Server 2007 R2, eles também estarão disponíveis na lista.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Se sua implantação incluir Servidores de Mediação do Microsoft Office Communications Server 2007 R2, eles também estarão disponíveis na lista.
 
 10. Para associar um ou mais usos do PSTN à rota de voz, clique em **Selecionar** e escolha um registro da lista de registros de uso do PSTN que foram definidos para a sua implantação Enterprise Voice.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte <a href="lync-server-2013-view-pstn-usage-records.md">Exibir registros de uso PSTN no Lync Server 2013</a>.<br />
-    Para criar ou editar registros de uso do PSTN, consulte <a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a> ou <a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte <a href="lync-server-2013-view-pstn-usage-records.md">Exibir registros de uso PSTN no Lync Server 2013</a>.<br />    Para criar ou editar registros de uso do PSTN, consulte <a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a> ou <a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013</a>.
 
 11. Organize os registros de uso do PSTN para proporcionar um desempenho ideal. Para mudar a posição de um registro, destaque o nome do registro e clique na seta para cima ou para baixo
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Contrastando com a política de voz, em que a ordem em que os registros de uso do PSTN são listados é importante, a ordem dos registros de uso do PSTN em uma rota de voz é insignificante.No entanto, é recomendável organizar a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server atravessa a lista do início ao fim).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Contrastando com a política de voz, em que a ordem em que os registros de uso do PSTN são listados é importante, a ordem dos registros de uso do PSTN em uma rota de voz é insignificante.No entanto, é recomendável organizar a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server atravessa a lista do início ao fim).
 
 12. (Opcional) Digite um valor no campo **Insira um número convertido para testar** e clique em **Ir**. Os resultados do teste são exibidos abaixo do campo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode salvar uma rota de voz que ainda não passou no teste e reconfigurá-la depois. Para detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você pode salvar uma rota de voz que ainda não passou no teste e reconfigurá-la depois. Para detalhes, consulte <a href="lync-server-2013-test-voice-routing.md">Testar roteamento de voz no Lync Server 2013</a>.
 
 13. Clique em **OK**.
 
 14. Na página **Rota**, clique em **Confirmar** e em **Confirmar tudo**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Toda vez que criar ou modificar uma rota de voz, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para detalhes, consulte, <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Toda vez que criar ou modificar uma rota de voz, você deve executar o comando <strong>Confirmar tudo</strong> para publicar a alteração na configuração. Para detalhes, consulte, <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de Operações.
 
 ## Consulte Também
 

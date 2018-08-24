@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Siga estas etapas para excluir uma política de PIN (número de identificação pessoal).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Não é possível excluir a política PIN global.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Não é possível excluir a política PIN global.
 
 ## Para excluir uma política de PIN em Painel de Controle do Lync Server 2013
 
@@ -67,5 +56,5 @@ Você pode excluir políticas de PIN usando Windows PowerShell e o cmdlet Remove
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Para mais informações, veja o tópico de ajuda para [Remove-CsPinPolicy](remove-cspinpolicy.md) cmdlet.
+Para mais informações, veja o tópico de ajuda para [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy) cmdlet.
 

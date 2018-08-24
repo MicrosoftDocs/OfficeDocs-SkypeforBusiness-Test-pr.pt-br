@@ -25,19 +25,8 @@ Quando um cliente do Lync obtém seu local do Serviço de Informações de Local
 
 Os gateways ELIN oferecem suporte a chamadas de emergência somente de dentro da rede da sua organização. Eles não oferecem suporte a chamadas de emergência realizadas fora da sua rede.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre o uso de uma conexão de tronco SIP para chamadas de emergência, consulte <a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Roteamento de chamadas E9-1-1 usando tronco SIP no Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre o uso de uma conexão de tronco SIP para chamadas de emergência, consulte <a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Roteamento de chamadas E9-1-1 usando tronco SIP no Lync Server 2013</a>.
 
 O diagrama a seguir mostra como uma chamada de emergência é encaminhada do Lync Server para o PSAP quando um gateway ELIN é usado.
 

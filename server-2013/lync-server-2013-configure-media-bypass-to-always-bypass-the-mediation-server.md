@@ -15,20 +15,8 @@ ms.translationtype: HT
 
 _**Tópico modificado em:** 2013-02-25_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Este tópico assume que você já configurou o desvio de mídia em qualquer conexão de tronco para um par (um gateway PSTN (Rede Telefônica Pública Comutada), um IP-PBX ou SBC (Controlador de Borda da Sessão) no ITSP (Provedor de Serviços de Telefonia da Internet)) de um local ou serviço específico no qual deseja que a mídia ignore o servidor de mediação.<br />
-Você não pode configurar a mídia para sempre desviar do Servidor de Mediação, enquanto também ativa o controle de admissão de chamada. Essas configurações são incompatíveis, e portanto mutuamente exclusivas, na interface de usuário do Painel de Controle do Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Este tópico assume que você já configurou o desvio de mídia em qualquer conexão de tronco para um par (um gateway PSTN (Rede Telefônica Pública Comutada), um IP-PBX ou SBC (Controlador de Borda da Sessão) no ITSP (Provedor de Serviços de Telefonia da Internet)) de um local ou serviço específico no qual deseja que a mídia ignore o servidor de mediação.<br />Você não pode configurar a mídia para sempre desviar do Servidor de Mediação, enquanto também ativa o controle de admissão de chamada. Essas configurações são incompatíveis, e portanto mutuamente exclusivas, na interface de usuário do Painel de Controle do Lync Server.
 
 Além de ativar o desvio de mídia para as conexões de tronco individuais associadas a um ponto para o Servidor de Mediação, você também deve definir as configurações globais para o desvio de mídia. Se você usar as etapas deste tópico para fazer essas configurações, supõe-se que tenha uma boa conectividade entre os pontos de extremidade do Lync e qualquer ponto para o qual tenha configurado desvios de mídia na conexão de tronco.
 

@@ -31,19 +31,8 @@ Para que a experiência de implantação do Enterprise Voice seja ideal, verifiq
 
   - Um número de telefone principal exclusivo foi designado, normalizado e copiado ao atributo **msRTCSIP-line** de cada usuário que deve ser habilitado para o Enterprise Voice.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>O Lync Server oferece suporte a números E.164 e Discagem Interna não Direta (DID). Os números não DID podem ser representados no formato <strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> ou como uma seqüência de dígitos, com o requisito de que a extensão particular é exclusiva na empresa. Por exemplo, um número particular de 1001 pode ser representado como <strong>+1425550100;ext=1001</strong>, ou como <strong>1001</strong>. Quando representado como <strong>1001</strong>, a expectativa é de que esse número particular seja exclusivo na empresa.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > O Lync Server oferece suporte a números E.164 e Discagem Interna não Direta (DID). Os números não DID podem ser representados no formato <strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> ou como uma seqüência de dígitos, com o requisito de que a extensão particular é exclusiva na empresa. Por exemplo, um número particular de 1001 pode ser representado como <strong>+1425550100;ext=1001</strong>, ou como <strong>1001</strong>. Quando representado como <strong>1001</strong>, a expectativa é de que esse número particular seja exclusivo na empresa.
 
   - Os administradores responsáveis pela implantação do Enterprise Voice devem ser membros do grupo RTCUniversalServerAdmins.
 
@@ -57,11 +46,9 @@ Para que a experiência de implantação do Enterprise Voice seja ideal, verifiq
     
       - Executando um dos seguintes sistemas operacionais:
         
-          -   
-            A edição de 64 bits do sistema operacional Windows Server 2008 Standard
+           A edição de 64 bits do sistema operacional Windows Server 2008 Standard
         
-          -   
-            A edição de 64 bits do sistema operacional Windows Server 2008 Enterprise
+           A edição de 64 bits do sistema operacional Windows Server 2008 Enterprise
 
   - Se a conexão ao PBX ou PSTN ocorrer por meio de uma conexão de TDM (multiplexação de divisão de tempo), um ou mais gateways PSTN estarão disponíveis para implantação. Se a conexão ocorrer por meio de um tronco SIP, não é necessário ter um gateway PSTN.
 

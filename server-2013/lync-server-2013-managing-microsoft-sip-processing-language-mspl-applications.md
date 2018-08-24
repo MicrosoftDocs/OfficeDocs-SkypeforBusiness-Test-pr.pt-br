@@ -1,6 +1,6 @@
 ﻿---
-title: Gerenciamento de aplicativos de idiomas de processamento SIP da Microsoft (MSPL) no Lync Server 2013
-TOCTitle: Gerenciamento de aplicativos de idiomas de processamento SIP da Microsoft (MSPL) no Lync Server 2013
+title: "Ger. de app de idiomas de proc. SIP da Microsoft (MSPL) no Lync Server 2013"
+TOCTitle: "Ger. de app de idiomas de proc. SIP da Microsoft (MSPL) no Lync Server 2013"
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688032(v=OCS.15)
 ms:contentKeyID: 49886188

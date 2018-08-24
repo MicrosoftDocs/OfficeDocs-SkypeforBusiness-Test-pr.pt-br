@@ -19,19 +19,8 @@ _**Tópico modificado em:** 2012-10-05_
 
 Se você não estiver usando o Ferramenta de Planejamento, use os procedimentos nos tópicos nesta seção—primeiro para adicionar os sites de filiais e, em seguida, para configurar sua infraestrutura de voz definindo o gateway IP/PSTN e/ou configurando o tronco SIP (com ou sem bypass de mídia). Conectar um PBX ao site de filial é outra opção.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você deseja oferecer resiliência do site de filial, deve implantar um Aparelho de Filial Persistente, um Servidor de Filial Persistente ou Servidor Standard Edition no site de filial. Para obter detalhes, consulte <a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Implantando Aplicativo ou Servidor de Filial Persistente com Lync Server 2013</a> ou <a href="lync-server-2013-deploying-lync-server.md">Implantando o Lync Server 2013</a>, conforme adequado, na documentação de Implantação.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você deseja oferecer resiliência do site de filial, deve implantar um Aparelho de Filial Persistente, um Servidor de Filial Persistente ou Servidor Standard Edition no site de filial. Para obter detalhes, consulte <a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Implantando Aplicativo ou Servidor de Filial Persistente com Lync Server 2013</a> ou <a href="lync-server-2013-deploying-lync-server.md">Implantando o Lync Server 2013</a>, conforme adequado, na documentação de Implantação.
 
 ## Nesta seção
 

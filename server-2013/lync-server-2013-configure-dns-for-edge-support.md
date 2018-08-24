@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2013-02-15_
 
 Você deve configurar os registros de DNS (Sistema de Nomes de Domínio) para interfaces de borda internas e externas, incluindo ambas as interfaces do Servidor de Borda e do proxy reverso. Como padrão, os Servidores de Borda não são reunidos em um domínio e não têm um nome de domínio totalmente qualificado. O Servidor de Borda é referenciado apenas pelo nome (de máquina) curto, não um nome de domínio totalmente qualificado. No entanto, a Construtor de Topologias usa FQDNs, não nomes curtos. O nome do Servidor de Borda deve corresponder ao FQDN usado pelo Construtor de Topologias. Para isso, você define um sufixo DNS que, ao ser combinado como nome de máquina, resulta no FQDN esperado. Use o seguinte procedimento em "Para adicionar o sufixo DNS do nome do computador em um Servidor de Borda que não está associado a um domínio" para adicionar o sufixo DNS ao nome do computador.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, o DNS usa um algoritmo round-robin para alternar a ordem dos dados de registro de recursos retornados nas perguntas de consulta, quando vários registros de recurso do mesmo tipo existem para um nome de domínio DNS consultado. O balanceamento de carga de DNS do Lync Server 2013 depende do round-robin de DNS como parte do mecanismo do balanceamento de carga de DNS. Verifique se essa configuração de round-robin não foi desativada. Se estiver usando um servidor DNS que não executa um sistema operacional Windows, verifique se a solicitação do registro de recurso round-robin está ativada.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Por padrão, o DNS usa um algoritmo round-robin para alternar a ordem dos dados de registro de recursos retornados nas perguntas de consulta, quando vários registros de recurso do mesmo tipo existem para um nome de domínio DNS consultado. O balanceamento de carga de DNS do Lync Server 2013 depende do round-robin de DNS como parte do mecanismo do balanceamento de carga de DNS. Verifique se essa configuração de round-robin não foi desativada. Se estiver usando um servidor DNS que não executa um sistema operacional Windows, verifique se a solicitação do registro de recurso round-robin está ativada.
 
 Use os procedimentos a seguir em “ **Para criar um registro DNS SRV** ” para criar e verificar cada registro DNS SRV. Use o procedimento em “ **Para criar um registro A de DNS** ” para definir os registros A de DNS necessários para acesso do usuário externo. Para confirmar que os registros estão configurados e funcionando corretamente, consulte “ **Para verificar um registro DNS** ” neste tópico. Para obter detalhes sobre cada registro necessário para suportar acesso do usuário externo, consulte [Determinar requisitios de DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
@@ -51,19 +40,8 @@ Use os procedimentos a seguir em “ **Para criar um registro DNS SRV** ” para
 
 1.  No servidor DNS apropriado, clique em **Iniciar** , clique em **Painel de Controle** , clique em **Ferramentas Administrativas** e, em seguida, clique em **DNS** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você precisa configurar o DNS de forma que existam: 1) entradas de DNS externas para pesquisas de DNS externo pelos usuários remotos e parceiros federados; 2) entradas para pesquisas de DNS para uso pelos Servidores de Borda dentro da rede de perímetro (também conhecida como sub-rede com triagem), incluindo registros A para os servidores internos que executam o Lync Server 2013; e 3) entradas de DNS internas para pesquisas pelos clientes internos e servidores que executam o Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Você precisa configurar o DNS de forma que existam: 1) entradas de DNS externas para pesquisas de DNS externo pelos usuários remotos e parceiros federados; 2) entradas para pesquisas de DNS para uso pelos Servidores de Borda dentro da rede de perímetro (também conhecida como sub-rede com triagem), incluindo registros A para os servidores internos que executam o Lync Server 2013; e 3) entradas de DNS internas para pesquisas pelos clientes internos e servidores que executam o Lync Server 2013.
 
 2.  Na árvore de console para seu domínio SIP, expanda **Zonas de Pesquisa Direta** e clique com o botão direito no domínio onde o Lync Server 2013 está instalado.
 

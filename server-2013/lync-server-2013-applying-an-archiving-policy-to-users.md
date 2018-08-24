@@ -17,20 +17,8 @@ _**Tópico modificado em:** 2013-02-23_
 
 Se um usuário tiver sido habilitado para o Lync Server 2013 e você tiver criado uma ou mais políticas de usuário para o arquivamento de usuários hospedados no Lync Server 2013, poderá implementar o suporte ao arquivamento para usuários específicos aplicando as políticas correspondentes a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para oferecer suporte ao arquivamento de comunicações internas, poderá aplicá-la a pelo menos um usuário ou grupo de usuários para oferecer suporte ao arquivamento das comunicações do Lync Server 2013 do usuário.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver habilitado a integração do Microsoft Exchange para sua implantação, as políticas de Bloqueio In-loco do Exchange controlarão se o arquivamento será habilitado para os usuários que estão hospedados no Exchange 2013 e cujas caixas de correio estão em Bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de implantação.<br />
-Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de operações.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você tiver habilitado a integração do Microsoft Exchange para sua implantação, as políticas de Bloqueio In-loco do Exchange controlarão se o arquivamento será habilitado para os usuários que estão hospedados no Exchange 2013 e cujas caixas de correio estão em Bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de implantação.<br />Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools</a> na documentação de operações.
 
 Use o procedimento descrito neste tópico para aplicar uma política de usuário de arquivamento criada anteriormente a uma ou mais contas de usuário ou a grupos de usuários.
 
@@ -46,19 +34,8 @@ Use o procedimento descrito neste tópico para aplicar uma política de usuário
 
 5.  Em **Editar usuário do Lync Server** em **Política de arquivamento**, selecione a política de usuário de arquivamento que você deseja aplicar.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações da instalação do servidor padrão. Estas configurações são aplicadas automaticamente pelo servidor.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > As configurações <strong>&lt;Automáticas&gt;</strong> são aplicadas nas configurações da instalação do servidor padrão. Estas configurações são aplicadas automaticamente pelo servidor.
 
 6.  Clique em **Confirmar**.
 
@@ -74,7 +51,7 @@ As políticas de arquivamento por usuário também podem ser atribuídas com o u
 
 ## Atribuindo uma política de arquivamento por usuário a vários usuários
 
-  - Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter detalhes sobre o parâmetro Filter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](get-csuser.md).
+  - Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter detalhes sobre o parâmetro Filter usado nesse comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -84,7 +61,7 @@ As políticas de arquivamento por usuário também podem ser atribuídas com o u
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte a documentação do [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Para obter detalhes, consulte a documentação do [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Consulte Também
 

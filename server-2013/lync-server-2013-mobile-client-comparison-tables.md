@@ -37,25 +37,14 @@ A tabela a seguir compara os recursos e capacidades entre os clientes móveis do
 
 Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis aos usuários do Skype for Business Online e do Microsoft Office 365, exceto quando indicado o contrário na notas de rodapé da tabela.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Para obter ajuda e recursos online para os usuários finais, consulte &quot;Microsoft Lync 2013 para clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
-<li><p>Para comparar os recursos disponíveis em outros clientes do Lync 2013, consulte <a href="lync-server-2013-desktop-client-comparison-tables.md">Tabelas de comparação dos clientes para o Lync Server 2013</a>.</p></li>
-<li><p>O Lync Server 2013 também oferece suporte aos aplicativos móveis do Lync 2010. Para obter detalhes, consulte &quot;Tabelas de comparação do cliente móvel&quot; na documentação do Lync Server 2010, em <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Para obter ajuda e recursos online para os usuários finais, consulte &quot;Microsoft Lync 2013 para clientes móveis&quot; em <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
+> 
+> <li><p>Para comparar os recursos disponíveis em outros clientes do Lync 2013, consulte <a href="lync-server-2013-desktop-client-comparison-tables.md">Tabelas de comparação dos clientes para o Lync Server 2013</a>.</p></li>
+> 
+> 
+> <li><p>O Lync Server 2013 também oferece suporte aos aplicativos móveis do Lync 2010. Para obter detalhes, consulte &quot;Tabelas de comparação do cliente móvel&quot; na documentação do Lync Server 2010, em <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li></ul>
 
 
 ## Conexão, notificações por push e recursos gerais
@@ -116,12 +105,10 @@ Estas tabelas indicam os recursos disponíveis aos usuários do Lync em uma impl
 <tr class="odd">
 <td><p>Leitor de tela/voice over</p></td>
 <td><p>●</p></td>
-<td><p>●2<br />
-Somente em inglês</p></td>
+<td><p>●2<br />Somente em inglês</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●<br />
-Somente em inglês</p></td>
+<td><p>●<br />Somente em inglês</p></td>
 </tr>
 <tr class="even">
 <td><p>Use um teclado externo com o Lync</p></td>
@@ -182,12 +169,10 @@ Somente em inglês</p></td>
 <tr class="odd">
 <td><p>Leitor de tela/voice over</p></td>
 <td><p>●</p></td>
-<td><p>●2<br />
-Somente em inglês</p></td>
+<td><p>●2<br />Somente em inglês</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●<br />
-Somente em inglês</p></td>
+<td><p>●<br />Somente em inglês</p></td>
 </tr>
 <tr class="even">
 <td><p>Use um teclado externo com o Lync</p></td>

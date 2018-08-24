@@ -1,6 +1,6 @@
 ﻿---
-title: Configurando a Qualidade de Serviço (QoS) nos Dispositivos Lync Phone Edition da Microsoft
-TOCTitle: Configurando a Qualidade de Serviço (QoS) nos Dispositivos Lync Phone Edition da Microsoft
+title: "Config. a Qual. de Serviço (QoS) nos Disp. Lync Phone Edition da Microsoft"
+TOCTitle: "Config. a Qual. de Serviço (QoS) nos Disp. Lync Phone Edition da Microsoft"
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205137(v=OCS.15)
 ms:contentKeyID: 49307710
@@ -33,19 +33,8 @@ Se você não fizer nenhuma alteração em suas configurações de telefone UC, 
 
 Para fins de Qualidade de Serviço, apenas uma dessas propriedades é de interesse: VoiceDiffServTag. O VoiceDiffServTag representa o valor DSCP atribuído ao tráfego de voz que provém de um dispositivo Lync Phone Edition.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O parâmetro Voice8021p não é mais suportado no Lync Server 2013. O parâmetro é ainda válido para compatibilidade reversa com o Microsoft Lync Server 2010; no entanto, não tem efeito em dispositivos usados com o Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O parâmetro Voice8021p não é mais suportado no Lync Server 2013. O parâmetro é ainda válido para compatibilidade reversa com o Microsoft Lync Server 2010; no entanto, não tem efeito em dispositivos usados com o Lync Server 2013.
 
 Na maioria das redes, marcar pacotes do Lync Phone Edition com um VoiceDiffServTag de 40 não deve causar problemas. No entanto, 40 não é o valor geralmente usado para tráfego de áudio; em vez disso, o tráfego de áudio é quase sempre marcado com o código DSCP 46. Para manter a consistência em toda a rede, você pode alterar a propriedade VoiceDiffServTag dos seus telefones UC para 46.
 

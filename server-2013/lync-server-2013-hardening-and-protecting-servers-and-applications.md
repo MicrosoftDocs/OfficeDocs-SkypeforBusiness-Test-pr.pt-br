@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2016-12-08_
 
 Você deve proteger o sistema operacional e os aplicativos com base nas práticas recomendadas desse componente específico. Esta seção descreve como aumentar a segurança dos servidores de aplicativo e usar a Política de Grupo para implementar bloqueios de segurança.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Você também pode proteger os bancos de dados usados na implementação do Microsoft Lync Server 2013. Para obter informações detalhadas, consulte <a href="lync-server-2013-hardening-and-protecting-databases.md">Protegendo os bancos de dados do Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Você também pode proteger os bancos de dados usados na implementação do Microsoft Lync Server 2013. Para obter informações detalhadas, consulte <a href="lync-server-2013-hardening-and-protecting-databases.md">Protegendo os bancos de dados do Lync Server 2013</a>.
 
 ## Protegendo servidores de aplicativo
 

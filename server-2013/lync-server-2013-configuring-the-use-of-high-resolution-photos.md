@@ -25,19 +25,8 @@ No Microsoft Lync Server 2013, entretanto, as fotos podem ser armazenadas na cai
 
   - 648 pixels por 648 pixels para usar noLync 2013 e Microsoft Lync Web App.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se você tiver recursos, recomendamos fazer upload de fotos de 648x648; isso fornece a resolução máxima e qualidade de imagem ideal em qualquer aplicativo do Office 2013. Cada foto JPEG com tamanho de 648x648 e profundidade de 24 bits resulta em um arquivo de aproximadamente 240 kilobytes. Isso significa que você precisará de aproximadamente 1 megabyte de espaço em disco para cada 4 fotos de usuário.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Se você tiver recursos, recomendamos fazer upload de fotos de 648x648; isso fornece a resolução máxima e qualidade de imagem ideal em qualquer aplicativo do Office 2013. Cada foto JPEG com tamanho de 648x648 e profundidade de 24 bits resulta em um arquivo de aproximadamente 240 kilobytes. Isso significa que você precisará de aproximadamente 1 megabyte de espaço em disco para cada 4 fotos de usuário.
 
 Fotos de alta resolução, que serão acessadas usando os serviços web do Exchange, podem ser enviadas por usuários que executam o Outlook 2013 Web App; os usuários só têm permissão para atualizar sua própria foto. Administradores, no entanto, podem atualizar a foto de qualquer usuário usando o Shell de Gerenciamento do Exchange e uma série de comandos Windows PowerShell parecidos com os seguintes:
 
@@ -47,19 +36,8 @@ Fotos de alta resolução, que serão acessadas usando os serviços web do Excha
 
 O primeiro comando no exemplo anterior usa o cmdlet Get-Content para ler o conteúdo do arquivo C:\\Photos\\Kenmyer.jpg e armazenar esses dados em uma variável chamada $photo. No segundo comando, o cmdlet Set-UserPhoto do Exchange é usado para enviar a foto e anexá-la à conta de usuário de Ken Myer.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Neste exemplo, o nome de exibição do Active Directory de Ken Myer é usado como a identidade da conta de usuário. Você também pode referenciar uma conta de usuário usando outros identificadores como endereço SMTP do usuário ou seu nome principal de usuário. Consulte a documentação do cmdlet Set-UserPhoto em <a href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x416</a> para obter mais informações</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Neste exemplo, o nome de exibição do Active Directory de Ken Myer é usado como a identidade da conta de usuário. Você também pode referenciar uma conta de usuário usando outros identificadores como endereço SMTP do usuário ou seu nome principal de usuário. Consulte a documentação do cmdlet Set-UserPhoto em <a href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x416</a> para obter mais informações
 
 Fazer upload da foto não é o mesmo que atribuir essa foto à conta de usuário de Ken Myer. Em vez disso, fazer o upload da foto simplesmente resulta em uma visualização dessa foto que será exibida na página Opções do Outlook Web App. Para realmente atribuir essa foto à conta de usuário, o usuário deve clicar em **Salvar** na página Opções ou o administrador deve executar o terceiro comando no exemplo. Esse terceiro comando usa o parâmetro Salvar para atribuir a foto à conta de usuário de Ken Myer.
 

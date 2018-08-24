@@ -25,38 +25,16 @@ Uma implantação local do Lync Server 2013 consiste no seguinte:
     
       - O pool de Front-Ends Enterprise Edition, que consiste em um ou mais servidores de Front-End (normalmente, pelo menos dois servidores de Front-End para dimensionamento) e um servidor de Back-End separado. Um pool de Front-Ends pode conter um máximo de 12 servidores de Front-End. O balanceamento de carga é exigido para servidores de Front-End. Para o tráfego SIP, é recomendável o balanceamento de carga DNS, mas o balanceamento de carga de hardware também é suportado. Se usar o balanceamento de carga DNS para o tráfego SIP, você ainda precisará de um balanceador de carga de hardware para o tráfego HTTP. É recomendável o espelhamento de SQL Server para uma alta disponibilidade dos bancos de dados. O banco de dados de back-end exige uma instância separada, mas você pode colocar o banco de dados de arquivamento, de monitoramento, de chat persistente e de conformidade do chat persistente com ele. Lync Server 2013 oferece suporte ao uso de um cluster compartilhado para os compartilhamentos de arquivos de sua implantação. Para obter detalhes sobre os requisitos de armazenamento de bancos de dados, consulte [Suporte a software de banco de dados no Lync Server 2013](lync-server-2013-database-software-support.md). Para obter detalhes sobre os requisitos de armazenamento de arquivos, consulte [Suporte a armazenamento de arquivo no Lync Server 2013](lync-server-2013-file-storage-support.md).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425939.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se colocar os bancos de dados do Lync Server, é altamente recomendável avaliar todos os fatores que podem afetar a disponibilidade e o desempenho. Para verificar os recursos de failover, é recomendável testar todos os cenários de failover.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!IMPORTANT]  
+        > Se colocar os bancos de dados do Lync Server, é altamente recomendável avaliar todos os fatores que podem afetar a disponibilidade e o desempenho. Para verificar os recursos de failover, é recomendável testar todos os cenários de failover.    
       - Servidor Standard Edition que inclui um banco de dados do SQL Server Express colocado.
 
   - A implantação também pode ter uma ou mais filiais associadas a um site central.
 
 Esta seção descreve os sites e componentes de uma implantação do Lync Server 2013. Para obter detalhes do planejamento de site, topologia e componente do Lync Server 2013, consulte [Conhecimentos básicos de topologia para planejamento do Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) e [Topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Para obter detalhes sobre a integração de componentes de versões anteriores, consulte [Caminhos de migração suportados e cenários de coexistência no Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pools alongados não são suportados para funções de servidor front-end, de borda, de mediação e de diretor.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pools alongados não são suportados para funções de servidor front-end, de borda, de mediação e de diretor.
 
 ## Topologias e componentes do site central (local)
 
@@ -82,19 +60,8 @@ Embora uma topologia de site central deva incluir um pool de Front-Ends ou servi
 
   - Proxy reverso, que não é um componente do Lync Server 2013, mas será exigido se você quiser oferecer suporte ao compartilhamento de conteúdo da Web com usuários federados ou suporte ao tráfego do Mobility. Não é possível colocar um servidor proxy reverso com uma função de servidor do Lync Server 2013, mas é possível implementar o suporte ao proxy reverso para uma implantação do Lync Server 2013 ao configurar o suporte a um servidor proxy reverso existente em sua organização e que é usado para outros aplicativos. Para obter detalhes sobre servidores proxy reversos, consulte [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) na documentação de implantação.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No Lync Server 2013, as conferências de áudio/vídeo, o monitoramento e o arquivamento são executados em servidores de Front-End e não são mais funções de servidor separadas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> No Lync Server 2013, as conferências de áudio/vídeo, o monitoramento e o arquivamento são executados em servidores de Front-End e não são mais funções de servidor separadas.
 
 Todos os pools de Front-Ends e servidores Standard Edition que você implanta em um site central compartilham qualquer um dos seguintes itens implantados no site central:
 
@@ -112,19 +79,8 @@ Todos os pools de Front-Ends e servidores Standard Edition que você implanta em
 
   - Arquivamento
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um servidor do UM do Exchange poderá ser implementado com sua implantação do Lync Server 2013 se você quiser oferecer suporte à integração do sistema de unificaçã de mensagens do Exchange 2013, porém esse não é um componente do site do Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um servidor do UM do Exchange poderá ser implementado com sua implantação do Lync Server 2013 se você quiser oferecer suporte à integração do sistema de unificaçã de mensagens do Exchange 2013, porém esse não é um componente do site do Lync Server 2013.
 
 Vários sites centrais também podem compartilhar qualquer um dos seguintes itens que você implanta em um site central:
 
@@ -138,19 +94,8 @@ Vários sites centrais também podem compartilhar qualquer um dos seguintes iten
 
   - Monitoramento
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Um servidor do UM do Exchange pode ser implementado em sua implantação do Lync Server 2013 e compartilhado por vários sites centrais, mas esse não é um componente do site do Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Um servidor do UM do Exchange pode ser implementado em sua implantação do Lync Server 2013 e compartilhado por vários sites centrais, mas esse não é um componente do site do Lync Server 2013.
 
 Para obter detalhes sobre as funções de servidor do Lync Server 2013, consulte [Funções do servidor no Lync Server 2013](lync-server-2013-server-roles.md) na documentação de planejamento.
 

@@ -114,16 +114,5 @@ A tabela a seguir mostra as combinações com suporte das versões de cliente e 
 
 3A aparência e os recursos de IM no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não são. Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é ideal para a aparência e interoperabilidade de IM, mas os usuários devem usar o Lync Web App 2013 para fazer parte das reuniões do Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Para obter detalhes sobre a capacidade dos clientes do Lync Server 2013 de coexistir e interagir com clientes de versões anteriores do Lync Server e do Office Communications Server, consulte <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Interoperabilidade do Cliente no Lync 2013</a> na documentação de planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Para obter detalhes sobre a capacidade dos clientes do Lync Server 2013 de coexistir e interagir com clientes de versões anteriores do Lync Server e do Office Communications Server, consulte <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Interoperabilidade do Cliente no Lync 2013</a> na documentação de planejamento.

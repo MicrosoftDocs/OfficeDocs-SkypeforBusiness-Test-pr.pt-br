@@ -17,25 +17,13 @@ _**Tópico modificado em:** 2017-03-07_
 
 Em um ambiente de infraestrutura de desktop virtual (VDI), as máquinas virtuais e o computador local do usuário devem atender os requisitos destacados nesta seção.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Consulte o provedor de solução de virtualização para obter detalhes sobre como instalar e implantar o ambiente virtualizado. Para obter informações sobre como implantar um ambiente virtualizado com base nos Serviços de Área de Trabalho Remota e Hyper-V, consulte os artigos a seguir na Biblioteca TechNet da Microsoft:
-<ul>
-<li><p>Hyper-V em <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
-<li><p>Serviços de Área de Trabalho Remota do Windows Server 2008 R2 em <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Consulte o provedor de solução de virtualização para obter detalhes sobre como instalar e implantar o ambiente virtualizado. Para obter informações sobre como implantar um ambiente virtualizado com base nos Serviços de Área de Trabalho Remota e Hyper-V, consulte os artigos a seguir na Biblioteca TechNet da Microsoft:<ul>
+> 
+> <li><p>Hyper-V em <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
+> 
+> 
+> <li><p>Serviços de Área de Trabalho Remota do Windows Server 2008 R2 em <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li></ul>
 
 
 A seguir estão requisitos para máquinas virtuais executando no computador do centro de dados:

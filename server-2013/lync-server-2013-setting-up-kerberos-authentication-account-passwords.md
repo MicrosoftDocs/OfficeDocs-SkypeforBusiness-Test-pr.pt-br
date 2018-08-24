@@ -17,19 +17,8 @@ _**Tópico modificado em:** 2010-11-03_
 
 Depois de criar o objeto de computador para a conta de autenticação Kerberos, você poderá configurar a senha da conta. Execute o cmdlet do Windows PowerShell para a configuração da senha de conta Kerberos em um servidor. É possível definir a senha no objeto criado para a autenticação Kerberos. A senha pode ser definida como um valor conhecido, mas por padrão é uma senha aleatória. A senha está disponível para todas as fontes de autenticação Kerberos que usam a conta. Use cmdlets do Windows PowerShell para configurar e gerenciar senhas de conta Kerberos.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>O objeto de conta Kerberos é um objeto de computador, mas usa o parâmetro UserAccount para operações nos cmdlets Windows PowerShell referenciados. Perceba que isso não é um erro, mas o comportamento pretendido do cmdlet quando usado com a criação e manutenção da conta Kerberos.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> O objeto de conta Kerberos é um objeto de computador, mas usa o parâmetro UserAccount para operações nos cmdlets Windows PowerShell referenciados. Perceba que isso não é um erro, mas o comportamento pretendido do cmdlet quando usado com a criação e manutenção da conta Kerberos.
 
 ## Nesta seção
 

@@ -35,19 +35,8 @@ Para que os usuários possam usar o Telefonar via Trabalho, eles devem atender a
 
   - Os usuários devem ser atribuídos a uma política de mobilidade que tem a opção **EnableOutsideVoice** definida como True.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Os usuários que não estão habilitados para o Enterprise Voice podem usar seus dispositivos móveis para realizar chamadas de Lync para Lync por VoIP, ou ingressar em conferências usando o link Clique para Ingressar em seus dispositivos móveis, quando você atribuir aos usuários as opções apropriadas para política de voz. Para detalhes, consulte <a href="lync-server-2013-defining-your-mobility-requirements.md">Definindo seus requisitos de mobilidade para Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Os usuários que não estão habilitados para o Enterprise Voice podem usar seus dispositivos móveis para realizar chamadas de Lync para Lync por VoIP, ou ingressar em conferências usando o link Clique para Ingressar em seus dispositivos móveis, quando você atribuir aos usuários as opções apropriadas para política de voz. Para detalhes, consulte <a href="lync-server-2013-defining-your-mobility-requirements.md">Definindo seus requisitos de mobilidade para Lync Server 2013</a>.
 
 Para detalhes sobre como habilitar usuários para o Lync Server 2013, consulte [Habilitar ou reabilitar uma conta de usuário para o Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Para detalhes sobre como habilitar usuários para o Enterprise Voice, consulte [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Para detalhes sobre como definir opções de política de voz, consulte [Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
 
@@ -61,19 +50,8 @@ Para detalhes sobre como habilitar usuários para o Lync Server 2013, consulte [
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Você pode desabilitar o Telefonar via Trabalho sem desativar o acesso à mobilidade. No entanto, você não pode desabilitar a mobilidade sem também desabilitar o Telefonar via Trabalho.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Você pode desabilitar o Telefonar via Trabalho sem desativar o acesso à mobilidade. No entanto, você não pode desabilitar a mobilidade sem também desabilitar o Telefonar via Trabalho.
 
 ## Para modificar a política de mobilidade por site
 
@@ -117,9 +95,9 @@ Para detalhes sobre como habilitar usuários para o Lync Server 2013, consulte [
 
 #### Outros Recursos
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
-[Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
-[Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
-[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  
-[Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)
 

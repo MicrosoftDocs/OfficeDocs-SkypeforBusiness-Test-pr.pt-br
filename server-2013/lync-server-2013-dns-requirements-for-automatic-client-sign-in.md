@@ -23,19 +23,8 @@ Para dar suporte à entrada automática de clientes, você deve:
 
   - Criar um registro SRV de DNS interno para dar suporte à entrada automática de clientes nesse servidor ou pool.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nos requisitos de registro a seguir, o domínio SIP se refere à parte de host dos URIs do SIP atribuídos aos usuários. Por exemplo, se os URIs do SIP estiverem no formato *@contoso.com, contoso.com será o domínio SIP. O domínio SIP é geralmente diferente do domínio interno do Active Directory. Uma organização também poderá oferecer suporte a vários domínios SIP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Nos requisitos de registro a seguir, o domínio SIP se refere à parte de host dos URIs do SIP atribuídos aos usuários. Por exemplo, se os URIs do SIP estiverem no formato *@contoso.com, contoso.com será o domínio SIP. O domínio SIP é geralmente diferente do domínio interno do Active Directory. Uma organização também poderá oferecer suporte a vários domínios SIP.
 
 Para habilitar a configuração automática para seus clientes, você precisa criar um registro SRV de DNS interno que mapeie um dos seguintes registros para o FQDN (nome de domínio totalmente qualificado) do pool Front-End ou servidor Standard Edition que distribua solicitações de entrada a partir de clientes do Lync:
 
@@ -75,19 +64,8 @@ A tabela a seguir mostra alguns exemplos de registros necessários para a empres
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Por padrão, as consultas de registros DNS seguem uma correspondência estrita de nomes de domínio entre o domínio no nome do usuário e o registro SRV. Se, em vez disso, você preferir que as consultas de DNS dos clientes usem a correspondência de sufixo, poderá configurar a política de grupo DisableStrictDNSNaming. Para obter detalhes, consulte <a href="lync-server-2013-planning-for-clients-and-devices.md">Planejando clientes e dispositivos no Lync Server 2013</a> na documentação de Planejamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Por padrão, as consultas de registros DNS seguem uma correspondência estrita de nomes de domínio entre o domínio no nome do usuário e o registro SRV. Se, em vez disso, você preferir que as consultas de DNS dos clientes usem a correspondência de sufixo, poderá configurar a política de grupo DisableStrictDNSNaming. Para obter detalhes, consulte <a href="lync-server-2013-planning-for-clients-and-devices.md">Planejando clientes e dispositivos no Lync Server 2013</a> na documentação de Planejamento.
 
 ## Exemplo dos certificados e dos registros DNS necessários para a entrada automática de clientes
 

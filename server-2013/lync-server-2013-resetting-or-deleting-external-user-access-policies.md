@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Redefinindo ou excluindo políticas de acesso de usuário externo'
+title: "Lync Server 2013: Redef.ou excluindo políticas de acesso de usuário externo"
 TOCTitle: Redefinindo ou excluindo políticas de acesso de usuário externo
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521003(v=OCS.15)

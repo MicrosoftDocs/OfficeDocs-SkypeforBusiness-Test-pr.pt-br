@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Preparando para instalação de servidores na rede de perímetro'
+title: "Lync Server 2013: Preparando p/ instalação de servidores na rede de perímetro"
 TOCTitle: Preparando para instalação de servidores na rede de perímetro
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398416(v=OCS.15)

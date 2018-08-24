@@ -49,19 +49,8 @@ A tabela a seguir descreve as portas que são usadas pela conferência discada. 
 
 Essas portas são configurações padrão que você pode alterar utilizando o cmdlet **Set-CsApplicationServer**. Para detalhes sobre este cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todas as instâncias do mesmo aplicativo em um pool usam a mesma porta de escuta SIP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Todas as instâncias do mesmo aplicativo em um pool usam a mesma porta de escuta SIP.
 
 ### Portas usadas pelas conferência discada
 
@@ -99,19 +88,8 @@ Essas portas são configurações padrão que você pode alterar utilizando o cm
 
 O Página Configurações de Conferência Discada suporta as combinações de sistemas operacionais e navegadores da web descritos na tabela a seguir.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425756.note(OCS.15).gif" title="note" alt="note" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Versões de 32 bits e 64 bits dos sistemas operacionais são suportadas.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Versões de 32 bits e 64 bits dos sistemas operacionais são suportadas.
 
 ### Sistemas operacionais e navegadores da web suportados
 

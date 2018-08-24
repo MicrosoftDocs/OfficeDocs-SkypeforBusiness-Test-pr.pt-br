@@ -19,11 +19,11 @@ Uma política *por usuário* pode afetar somente usuários individuais, grupos o
 
 Para obter os detalhes de como trabalhar com políticas de correio de voz hospedadas por usuário, consulte a documentação do Shell de Gerenciamento do Lync Server sobre os seguintes cmdlets:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Para criar uma política de correio de voz hospedada por usuário
 
