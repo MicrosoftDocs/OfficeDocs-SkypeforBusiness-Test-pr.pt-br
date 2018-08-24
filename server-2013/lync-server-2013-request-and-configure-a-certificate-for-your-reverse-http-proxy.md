@@ -131,8 +131,9 @@ Para gerar uma solicitação de assinatura de certificado no computador para ond
 
 13. Na página **Propriedades do Certificado**, clique na guia **Chave Privada**. Clique na seta **Opções de chave**. Para **Tamanho de chave**, selecione **2048** na lista suspensa. Se você estiver gerando esse par de chaves e o CSR em um computador diferente do proxy reverso para o qual este certificado se destina, selecione **Tornar a chave privada exportável**.
     
-    > [!security]  
-    > A seleção de <strong>Tornar uma chave privada exportável</strong> é geralmente aconselhável quando você tem mais de um proxy reverso em um farm, porque você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deverá tomar cuidado adicional com o certificado e o computador em que ele será gerado. A chave privada, se comprometida, inutilizará o certificado, além de potencialmente expor o computador ou computadores a acesso externo e a outras vulnerabilidades de segurança.
+    <table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+										A seleção de  <strong>Tornar uma chave privada exportável </strong> é geralmente aconselhável quando você tem mais de um proxy reverso em um farm, porque você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deverá tomar cuidado adicional com o certificado e o computador em que ele será gerado. A chave privada, se comprometida, inutilizará o certificado, além de potencialmente expor o computador ou computadores a acesso externo e a outras vulnerabilidades de segurança.
+									</td></tr></tbody></table>
 
 14. Na guia **Chave Privada**, clique na seta **Tipo de chave**. Selecione a opção **Exchange**.
 
