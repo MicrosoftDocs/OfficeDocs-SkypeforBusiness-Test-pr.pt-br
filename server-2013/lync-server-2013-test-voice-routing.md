@@ -26,7 +26,7 @@ Antes de realmente implantar sua configuração de roteamento de voz, recomendam
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você excluir qualquer parte de sua configuração de roteamento de voz, como um plano de discagem, política de voz, rota de voz ou uso de telefone, revise e atualize seus casos de teste de roteamento de voz. O Painel de Controle do Lync Server não o alterará para os casos de teste que não estão mais válidos devido a mudanças na configuração.
 
 
