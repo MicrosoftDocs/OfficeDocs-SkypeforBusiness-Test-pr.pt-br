@@ -24,9 +24,7 @@ Antes de realmente implantar sua configuração de roteamento de voz, recomendam
 > Também é possível usar os comandos <STRONG>Exportar casos de teste</STRONG> e <STRONG>Importar casos de teste</STRONG> para salvar os casos de teste de roteamento de voz e importá-los para uso em outro computador.
 
 
-
-
-> [!WARNING]  
+> [!CAUTION]
 > Se você excluir qualquer parte de sua configuração de roteamento de voz, como um plano de discagem, política de voz, rota de voz ou uso de telefone, revise e atualize seus casos de teste de roteamento de voz. O Painel de Controle do Lync Server não o alterará para os casos de teste que não estão mais válidos devido a mudanças na configuração.
 
 

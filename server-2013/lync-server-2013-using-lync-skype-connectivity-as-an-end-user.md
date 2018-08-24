@@ -50,13 +50,13 @@ Conectividade Lync-Skype permite que usuários do Skype e usuários do Lync adic
 
 Para informações de suporte para contatos adicionais, veja [Adicionar um contato no Lync em](http://office.microsoft.com/pt-br/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) e [Adicionar um contato externo no Lync em](http://office.microsoft.com/pt-br/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Quando um usuário do Skype com conta da Microsoft usa um nome de domínio, como **bob@contoso.com**, o usuário Lync pode adicionar esta conta da Microsoft de duas maneiras:
+Quando um usuário do Skype com conta da Microsoft usa um nome de domínio, como **bob&#64;contoso.com**, o usuário Lync pode adicionar esta conta da Microsoft de duas maneiras:
 
 1.  Usando o ícone **Adicionar um Contato** ou
 
 2.  Através do campo **Encontrar alguém ou uma sala, ou discar um número**.
 
-Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype no seguinte formato: **usuário(nome de domínio)@msn.com**.
+Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype no seguinte formato: **usuário&#40;nome de domínio&#41;&#64;msn.com**.
 
 > [!IMPORTANT]  
 > Essa etapa não requer uma conta da Microsoft que use os seguintes nomes de domínio: <strong>@live.com, @hotmail.com ou @outlook.com</strong>. Para mais informações sobre suporte de nomes de domínio personalizado, veja <a href="http://support.microsoft.com/kb/897567">Domínios públicos IM suportados em</a>.
@@ -69,7 +69,7 @@ Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype
     
     ![Cliente do Lync que mostra como adicionar um contato do Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Cliente do Lync que mostra como adicionar um contato do Skype")
 
-3.  No campo **Endereços IM** , insira a Conta da Microsoft (MSA) do usuário Skype no formato **usuário(nome do domínio)@msn.com**. Portanto, para o usuário bob@contoso.com, o valor inserido será **bob(contoso.com)@msn.com**, como mostrado abaixo.
+3.  No campo **Endereços IM**, insira a Conta da Microsoft (MSA) do usuário Skype no formato **usuário&#40;nome do domínio&#41;&#64;msn.com**. Portanto, para o usuário bob@contoso.com, o valor inserido será **bob&#40;contoso.com&#41;&#64;msn.com**, como mostrado abaixo.
     
     ![Configurações de Novo Contato de cliente do Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Configurações de Novo Contato de cliente do Lync")
 
@@ -77,7 +77,7 @@ Em cada instância, o usuário do Lync deve inserir o email do usuário de Skype
 
 5.  Na lista suspensa **Configurar Relação de Privacidade**, selecione as configurações de contato apropriadas e clique em **OK**.
 
-6.  Um usuário Lync também pode usar o campo **Encontrar alguém ou uma sala ou discar um número** no Lync, e adicionar um endereço de email semelhante a **usuário(nome de domínio)@msn.com**. Portanto, para a conta da Microsoft bob@contoso.com, o valor de entrada será **bob(contoso.com)@msn.com**, como mostrado abaixo.
+6.  Um usuário Lync também pode usar o campo **Encontrar alguém ou uma sala ou discar um número** no Lync, e adicionar um endereço de email semelhante a **usuário&#40;nome de domínio&#41;&#64;msn.com**. Portanto, para a conta da Microsoft bob@contoso.com, o valor de entrada será **bob&#40;contoso.com&#41;&#64;msn.com**, como mostrado abaixo.
     
     ![Procurando um contato no cliente do Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Procurando um contato no cliente do Lync")
 
