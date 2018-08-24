@@ -162,5 +162,7 @@ A tabela a seguir relaciona os URIs dos diretórios virtuais para acesso interno
 > [!NOTE]  
 > Para o Pools de Front-Ends em uma configuração consolidada, é necessário implantar o IIS antes de poder adicionar servidores ao pool.
 
-> [!security]  
-> Você deve usar o snap-in administrativo do IIS para atribuir o certificado usado pelo servidor de componente da web do IIS.
+
+<table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
+					Você deve usar o snap-in administrativo do IIS para atribuir o certificado usado pelo servidor de componente da web do IIS.
+				</td></tr></tbody></table>

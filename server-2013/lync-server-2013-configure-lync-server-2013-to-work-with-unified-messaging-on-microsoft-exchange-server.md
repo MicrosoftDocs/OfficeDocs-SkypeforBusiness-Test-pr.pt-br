@@ -31,12 +31,20 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 
   - Verifica se o nome de cada plano de discagem do Enterprise Voice corresponde ao contexto de telefone do plano de discagem da UM (Unificação de Mensagens). Essa correspondência é necessária somente se o plano de discagem da UM estiver sendo executado em uma versão do Exchange *anterior* ao Exchange 2010 Service Pack 1 (SP1).
 
-> [!IMPORTANT]  
-> Antes de executar o Utilitário de Integração do UM do Exchange, certifique-se de ter feito o seguinte:<ul><li><p>Criar um ou mais planos de discagem do UM do Exchange, conforme descrito na documentação do produto do Exchange.</p>
-> <p>Para Microsoft Exchange Server 2010, consulte &quot; Criar um Plano de Discagem da UM&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
-> <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;Como criar um plano de discagem URI de SIP de Unificação de Mensagens&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li><li><p>Crie um ou mais planos de discagem correspondentes do Lync Server, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">Criar um plano de discagem no Lync Server 2013</a>.</p></li> 
-> <ul><li>Se você estiver utilizando uma versão do Exchange que seja anterior ao Microsoft Exchange Server 2010 SP1, é necessário inserir o FQDN (nome de domínio totalmente qualificado) do plano de discagem de SIP correspondente do Unificação de Mensagens (UM) do Exchange no campo <strong>Nome simples</strong> do plano de discagem do Lync Server 2013. Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou service pack mais recente, essa correspondência de nome de plano de discagem não é necessária.</li></ul>
-> <li><p>Crie um atendedor automático e certifique-se que o número de acesso do assinante e o número do atendedor automático estejam no formato E.164.</p></li></ul>
+> ![IMPORTANT]
+> Antes de executar o Utilitário de Integração do UM do Exchange, certifique-se de ter feito o seguinte:
+> <ul>
+> <li>Criar um ou mais planos de discagem do UM do Exchange, conforme descrito na documentação do produto do Exchange.
+> 
+> Para Microsoft Exchange Server 2010, consulte " Criar um Plano de Discagem da UM" em http://go.microsoft.com/fwlink/p/?linkId=186177.
+> 
+> Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte "Como criar um plano de discagem URI de SIP de Unificação de Mensagens" em [http://go.microsoft.com/fwlink/p/?linkId=185771](http://go.microsoft.com/fwlink/p/?linkId=185771).</li>
+> <li>Crie um ou mais planos de discagem correspondentes do Lync Server, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">Criar um plano de discagem no Lync Server 2013</a>.</li>
+> </ul>
+> Se você estiver utilizando uma versão do Exchange que seja anterior ao Microsoft Exchange Server 2010 SP1, é necessário inserir o FQDN (nome de domínio totalmente qualificado) do plano de discagem de SIP correspondente do Unificação de Mensagens (UM) do Exchange no campo Nome simples do plano de discagem do Lync Server 2013. Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou service pack mais recente, essa correspondência de nome de plano de discagem não é necessária.
+> <ul>
+> <li>Crie um atendedor automático e certifique-se que o número de acesso do assinante e o número do atendedor automático estejam no formato E.164.</li>
+> </ul>
 
 
 ## Para executar o Utilitário de Integração do UM do Exchange
