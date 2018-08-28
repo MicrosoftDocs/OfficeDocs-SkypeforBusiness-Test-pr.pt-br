@@ -47,13 +47,13 @@ Você pode fazer download do Analisador de Conectividade do Lync a partir do Cen
     
       - Em **Tipo de conta do Lync**, selecione **Office 365** ou **Local**.
     
-      - Em **URI do SIP**, insira o endereço de entrada do SIP para a conexão do Lync no formato **user@domain.com** .
+      - Em **URI do SIP**, insira o endereço de entrada do SIP para a conexão do Lync no formato **user&#64;domain.com**.
     
       - Em **Senha**, insira a senha associada a esta conta.
     
-      - Em **Nome de usuário (opcional)**, insira um nome de usuário, se aplicável. O nome do usuário também é conhecido como UPN (nome principal do usuário). Se o nome do usuário e a URl do SIP forem os mesmos, não será necessário inserir um nome de usuário. Se eles não forem os mesmo, insira o nome de usuário no formato **user@domain.com** ou **domínio\\usuário** , conforme apropriado.
+      - Em **Nome de usuário (opcional)**, insira um nome de usuário, se aplicável. O nome do usuário também é conhecido como UPN (nome principal do usuário). Se o nome do usuário e a URl do SIP forem os mesmos, não será necessário inserir um nome de usuário. Se eles não forem os mesmo, insira o nome de usuário no formato **user&#64;domain.com** ou **domínio\\usuário**, conforme apropriado.
     
-      - Em **Acesso à rede**, escolha **Dentro da Minha Organização** se estiver executando o Analisador de Conectividade do Lync a partir de um computador conectado à sua rede interna. Caso contrário, escolha **Externa (Internet)** . O Analisador de Conectividade do Lync sempre executa testes internos e externos, mas especificar se você está dentro ou fora da sua própria rede ajuda a ferramenta a interpretar se determinadas falhas são esperadas.
+      - Em **Acesso à rede**, escolha **Dentro da Minha Organização** se estiver executando o Analisador de Conectividade do Lync a partir de um computador conectado à sua rede interna. Caso contrário, escolha **Externa &#40;Internet&#41;**. O Analisador de Conectividade do Lync sempre executa testes internos e externos, mas especificar se você está dentro ou fora da sua própria rede ajuda a ferramenta a interpretar se determinadas falhas são esperadas.
     
       - Em **Cliente**, selecione se quer executar os testes de conectividade para o **Aplicativo Lync Windows Store**, **Aplicativo móvel do Lync 2010Aplicativos móveis 2013**.
     

@@ -31,7 +31,7 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 
   - Verifica se o nome de cada plano de discagem do Enterprise Voice corresponde ao contexto de telefone do plano de discagem da UM (Unificação de Mensagens). Essa correspondência é necessária somente se o plano de discagem da UM estiver sendo executado em uma versão do Exchange *anterior* ao Exchange 2010 Service Pack 1 (SP1).
 
-> ![IMPORTANT]
+> ![IMPORTANT]  
 > Antes de executar o Utilitário de Integração do UM do Exchange, certifique-se de ter feito o seguinte:
 > <ul>
 > <li>Criar um ou mais planos de discagem do UM do Exchange, conforme descrito na documentação do produto do Exchange.
